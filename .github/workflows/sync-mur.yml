@@ -58,6 +58,7 @@ jobs:
           git config user.email "actions@github.com"
           git add lib/generated/mur-positions.json
           git commit -m "Update MUR positions cache"
+          git pull --rebase origin main
           git push
 
       - name: Report no changes
