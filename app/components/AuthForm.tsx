@@ -53,12 +53,7 @@ export function AuthForm({ mode }: AuthFormProps) {
       return;
     }
 
-    if (result.requiresEmailConfirmation) {
-      setStatus("Account creato. Controlla la mail per confermare l'accesso.");
-      return;
-    }
-
-    router.push(safeReturnTo(searchParams.get("returnTo")));
+    router.push(authReturnTo(searchParams.get("returnTo"), mode, result.requiresEmailConfirmation));
     router.refresh();
   }
 
@@ -107,4 +102,14 @@ export function AuthForm({ mode }: AuthFormProps) {
 
 function safeReturnTo(value: string | null) {
   return (value?.startsWith("/") ? value : "/") as Route;
+}
+
+function authReturnTo(value: string | null, mode: "login" | "signup", requiresEmailConfirmation?: boolean) {
+  const target = new URL(safeReturnTo(value), window.location.origin);
+
+  if (mode === "signup") {
+    target.searchParams.set("auth", requiresEmailConfirmation ? "check-email" : "signup-complete");
+  }
+
+  return `${target.pathname}${target.search}${target.hash}` as Route;
 }

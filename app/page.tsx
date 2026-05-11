@@ -18,6 +18,7 @@ type SearchParams = {
   funding?: string;
   program?: string;
   intent?: string;
+  auth?: string;
 };
 
 type Intent = "home" | "posizioni" | "bandi";
@@ -78,6 +79,7 @@ export default function Home({
       <section className="hero">
         <div className="hero-main">
           <h1>{heroTitle}</h1>
+          <AuthFeedback status={searchParams.auth} />
           {intent === "home" ? (
             <div className="entry-points" aria-label="Scegli percorso">
               <Link className="entry-point" href={intentHref(searchParams, "posizioni")}>
@@ -504,6 +506,28 @@ function subjectActive(searchParams: SearchParams, filters: SubjectChip["filters
     (!filters.q || searchParams.q === filters.q) &&
     (!filters.discipline || searchParams.discipline === filters.discipline)
   );
+}
+
+function AuthFeedback({ status }: { status?: string }) {
+  if (status === "signup-complete") {
+    return (
+      <div className="auth-feedback" role="status">
+        <strong>Account creato.</strong>
+        <span>Ora puoi salvare opportunita, creare alert e ritrovare le tue ricerche.</span>
+      </div>
+    );
+  }
+
+  if (status === "check-email") {
+    return (
+      <div className="auth-feedback" role="status">
+        <strong>Account creato.</strong>
+        <span>Controlla la mail per confermare l'accesso.</span>
+      </div>
+    );
+  }
+
+  return null;
 }
 
 function subjectCount(
