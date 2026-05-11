@@ -1,0 +1,6 @@
+Sprint,Status,Start,End,Goal,Demo URL,Notes
+Sprint 0,Active,2026-05-04,2026-05-05,"Set up project governance app scaffold mock UX and local dev server",http://127.0.0.1:3000,"Foundation sprint"
+Sprint 1,Planned,2026-05-06,2026-05-12,"Discover MUR/Cineca data structure and import real calls into the product","","Data-first sprint"
+Sprint 2,Planned,2026-05-13,2026-05-19,"Improve UX with deadline status search quality summaries and newsletter signup","","MVP usefulness sprint"
+Sprint 3,Planned,2026-05-20,2026-05-26,"Add saved searches personalized alerts and beta readiness","","Retention sprint"
+

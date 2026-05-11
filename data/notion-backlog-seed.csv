@@ -1,0 +1,19 @@
+Task,Status,Priority,Type,Sprint,Estimate,Owner,Area,Acceptance Criteria,Repo Path
+Create project governance docs,Done,P0,Product,Sprint 0,S,Codex,Product,"Docs exist for product spec backlog architecture sources decisions and sprint plan",docs/
+Create initial Next.js scaffold,Done,P0,Engineering,Sprint 0,S,Codex,Web App,"Next.js TypeScript project exists and builds",package.json
+Build clickable job board with mock data,Done,P0,UX,Sprint 0,M,Codex,Web App,"Homepage shows academic opportunities with filters and cards",app/page.tsx
+Build position detail page,Done,P0,UX,Sprint 0,M,Codex,Web App,"Each mock position has a detail route with normalized fields",app/positions/[id]/page.tsx
+Install dependencies and run locally,Done,P0,DevOps,Sprint 0,S,Codex,DevOps,"Dependencies installed typecheck passes build passes dev server responds",package-lock.json
+Create Notion tracker,Ready,P0,Ops,Sprint 0,S,Codex,Notion,"Notion task database sprint database and board views exist",docs/notion-workflow.md
+Analyze MUR/Cineca endpoints,Ready,P0,Data,Sprint 1,M,Codex,Data Pipeline,"Document available endpoints pagination fields and detail pages",docs/data-sources.md
+Build MUR/Cineca importer,Backlog,P0,Data,Sprint 1,L,Codex,Data Pipeline,"Importer fetches records stores raw data and normalizes into internal shape",""
+Add database schema,Backlog,P0,Engineering,Sprint 1,M,Codex,Data Pipeline,"Schema supports positions source records sources import runs and alerts",""
+Replace mock data with persisted positions,Done,P0,Engineering,Sprint 1,M,Codex,Web App,"Job board reads positions from generated MUR cache instead of mock-only file",lib/positions.ts
+Add deduplication,Backlog,P0,Data,Sprint 1,M,Codex,Data Pipeline,"Duplicates are detected by source id URL title institution and deadline",""
+Add local MUR sync command,Done,P0,Data,Sprint 1,M,Codex,Data Pipeline,"One command imports MUR data updates local store and regenerates frontend cache",scripts/sync-mur-store.mjs
+Add local JSON persistence,Done,P0,Engineering,Sprint 1,M,Codex,Data Pipeline,"Source records positions sources and import runs are stored under data/store",data/store
+Add deadline status,Backlog,P0,UX,Sprint 1,S,Codex,Web App,"Cards show open closing soon or expired status",""
+Add newsletter signup,Backlog,P0,Product,Sprint 2,M,Codex,Product,"User can submit email and receive confirmation state",""
+Add AI summary,Backlog,P1,Data,Sprint 2,L,Codex,Data Pipeline,"Position details show source-grounded summary with confidence score",""
+Add saved searches,Backlog,P1,Product,Sprint 3,L,Codex,Product,"Authenticated user can save filters and name the search",""
+Add personalized alerts,Backlog,P1,Product,Sprint 3,L,Codex,Product,"Daily or weekly email alerts are generated from saved searches",""

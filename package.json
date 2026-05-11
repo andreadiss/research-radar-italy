@@ -1,0 +1,38 @@
+{
+  "name": "research-radar-italy",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "import:mur": "node scripts/import-mur.mjs --limit=10 --out=data/mur-sample.json",
+    "import:grants": "node scripts/import-grants.mjs",
+    "import:grants:live": "node scripts/import-grants.mjs --live",
+    "cache:mur": "node scripts/build-position-cache.mjs --in=data/mur-sample.json --out=lib/generated/mur-positions.json",
+    "sync:mur": "node scripts/sync-mur-store.mjs --limit=10",
+    "sync:mur:all": "node scripts/sync-mur-store.mjs --limit=all",
+    "sync:mur:supabase": "node scripts/sync-mur-store.mjs --limit=10 --persist=supabase",
+    "audit:mur": "node scripts/audit-mur-coverage.mjs",
+    "audit:grants": "node scripts/audit-grants.mjs",
+    "persist:supabase": "node scripts/persist-supabase.mjs",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.468.0",
+    "next": "^14.2.23",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^14.2.23",
+    "typescript": "^5.7.2"
+  }
+}
