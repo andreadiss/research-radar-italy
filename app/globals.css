@@ -905,6 +905,11 @@ select {
   display: inline-flex;
 }
 
+.job-meta strong {
+  color: var(--ink);
+  font-weight: 800;
+}
+
 .job-meta span:not(:last-child)::after {
   color: #b0bbb4;
   content: "/";

@@ -195,9 +195,13 @@ export default function Home({
                   </Link>
                   <p className="job-summary">{position.summary}</p>
                   <div className="job-meta">
-                    <span>{position.institution}</span>
+                    <span>
+                      <strong>{position.institution}</strong>
+                    </span>
                     <span className="meta-with-icon"><MapPin size={14} />{position.location}</span>
-                    <span>{position.ssd}</span>
+                    <span>
+                      <strong>{position.ssd}</strong>
+                    </span>
                     <span>Pubblicato {formatDate(position.publishedAt)}</span>
                     <span>{position.sourceName}</span>
                   </div>
