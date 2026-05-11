@@ -69,6 +69,17 @@ Open MUR/Cineca positions are refreshed by the GitHub Actions workflow `.github/
 - Supabase: when `SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` are configured as GitHub Actions secrets, the workflow also persists sources, import runs, source records and positions to Supabase.
 - Deployment: the workflow push to `main` triggers a new Vercel deployment.
 
+If Supabase was initialized before the dedupe constraint change, run:
+
+```sql
+-- db/migrations/2026-05-11-drop-positions-dedupe-unique.sql
+ALTER TABLE positions
+  DROP CONSTRAINT IF EXISTS positions_dedupe_key_key;
+
+CREATE INDEX IF NOT EXISTS positions_dedupe_key_idx
+  ON positions(dedupe_key);
+```
+
 Or directly:
 
 ```bash

@@ -85,8 +85,7 @@ CREATE TABLE positions (
   created_at TIMESTAMPTZ NOT NULL DEFAULT now(),
   updated_at TIMESTAMPTZ NOT NULL DEFAULT now(),
   UNIQUE(source_record_id),
-  UNIQUE(source_url_canonical),
-  UNIQUE(dedupe_key)
+  UNIQUE(source_url_canonical)
 );
 
 CREATE TABLE profiles (
@@ -189,6 +188,7 @@ CREATE INDEX positions_professor_rank_idx ON positions(professor_rank);
 CREATE INDEX positions_region_idx ON positions(region);
 CREATE INDEX positions_discipline_idx ON positions(discipline);
 CREATE INDEX positions_funding_type_idx ON positions(funding_type);
+CREATE INDEX positions_dedupe_key_idx ON positions(dedupe_key);
 CREATE INDEX positions_review_status_idx ON positions(review_status);
 CREATE INDEX profiles_email_idx ON profiles(email);
 CREATE INDEX saved_searches_profile_idx ON saved_searches(profile_id, created_at DESC);
