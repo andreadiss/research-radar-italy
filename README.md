@@ -53,6 +53,21 @@ Run the integrated local data pipeline:
 npm run sync:mur
 ```
 
+Run a full open-position sync across all MUR/Cineca categories:
+
+```bash
+npm run sync:mur:all
+```
+
+## Automated Data Refresh
+
+Open MUR/Cineca positions are refreshed by the GitHub Actions workflow `.github/workflows/sync-mur.yml`.
+
+- Schedule: daily at `05:15 UTC`, around morning in Italy.
+- Manual run: GitHub repository -> Actions -> `Sync MUR positions` -> `Run workflow`.
+- Behavior: imports all currently open MUR positions, regenerates `lib/generated/mur-positions.json`, builds the app, and commits only when the generated cache changes.
+- Deployment: the workflow push to `main` triggers a new Vercel deployment.
+
 Or directly:
 
 ```bash

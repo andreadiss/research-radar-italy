@@ -1,0 +1,63 @@
+name: Sync MUR positions
+
+on:
+  schedule:
+    # Runs every morning around 07:15 in Italy during daylight saving time.
+    - cron: "15 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-mur-positions
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    name: Import MUR data and publish frontend cache
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Sync all open MUR positions
+        run: npm run sync:mur:all
+
+      - name: Check for generated position updates
+        id: changes
+        run: |
+          if git diff --quiet -- lib/generated/mur-positions.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Build with updated data
+        if: steps.changes.outputs.changed == 'true'
+        run: npm run build
+
+      - name: Commit updated MUR cache
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "research-radar-bot"
+          git config user.email "actions@github.com"
+          git add lib/generated/mur-positions.json
+          git commit -m "Update MUR positions cache"
+          git push
+
+      - name: Report no changes
+        if: steps.changes.outputs.changed == 'false'
+        run: echo "No MUR position changes detected."

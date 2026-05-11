@@ -24,6 +24,7 @@ Sprint 4 has started. The core positions flow and the first Grants/funding basel
 - Grants has a first dedicated listing, detail pages and generated dataset.
 - `npm run import:grants:live` imports PRIN 2026 calls from the official PRIN portal and enriches REA MSCA pages with curated fallback.
 - `npm run audit:grants` writes Grants coverage/freshness metrics.
+- MUR/Cineca positions now have a daily GitHub Actions refresh that updates `lib/generated/mur-positions.json` and triggers Vercel redeploys when data changes.
 
 Current sprint focus: stabilize UX across HP, positions, Grants and detail pages.
 

@@ -24,6 +24,7 @@
 - [x] Add local JSON store for source records, positions, sources, and import runs
 - [x] Add single `sync:mur` command for import + normalize + cache
 - [x] Add full MUR sync and live coverage audit
+- [x] Add daily GitHub Action to refresh MUR positions and trigger Vercel redeploys
 - [x] Add production deduplication by URL, title, institution, and deadline
 - [x] Add deadline status: open, closing soon, expired
 - [x] Add newsletter signup

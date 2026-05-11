@@ -26,6 +26,7 @@ Stabilize the UX across HP, open positions, Grants listing and detail pages.
 - [x] Keep mobile bottom navigation consistent and non-invasive.
 - [x] Refine mobile layout and card density for Grants and positions lists.
 - [x] Add PNRR source classifier report while keeping PNRR as monitored source.
+- [x] Add scheduled MUR/Cineca refresh so production positions update automatically.
 
 ## P1 Activities
 
