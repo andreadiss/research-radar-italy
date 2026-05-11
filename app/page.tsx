@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Route } from "next";
-import { CalendarClock, FileText, MapPin, Search, Sparkles } from "lucide-react";
+import { CalendarClock, FileText, MapPin, Search } from "lucide-react";
 import { AccountNav } from "@/app/components/AccountNav";
 import { FavoritesPanel } from "@/app/components/FavoritesPanel";
 import { FloatingIntentMenu } from "@/app/components/FloatingIntentMenu";
@@ -100,17 +100,6 @@ export default function Home({
               </Link>
             </div>
           ) : null}
-          <form className="smart-search" aria-label="Ricerca intelligente">
-            <Sparkles size={18} />
-            <input
-              name="q"
-              placeholder="Cerca come parleresti: contratti in chimica a Milano, PhD in AI, grant ERC..."
-              defaultValue={searchParams.q}
-            />
-            {intent !== "home" ? <input name="intent" type="hidden" value={intent} /> : null}
-            <button type="submit">Cerca</button>
-            <span>AI search nello sprint successivo</span>
-          </form>
         </div>
       </section>
 

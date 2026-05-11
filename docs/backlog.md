@@ -30,6 +30,7 @@
 - [x] Add Login and Sign Up entry points
 - [ ] Improve result ranking for fast shortlist creation
 - [x] Improve result cards with decision-critical fields
+- [x] Remove AI search bar from the release UI until the feature is implemented
 - [ ] Add visible quality indicators for needs-review and possible duplicates
 - [x] Remove home sidebar filters in favor of contextual top chips
 - [x] Remove saved-search actions from Grants placeholder on the home flow
@@ -75,6 +76,7 @@
 - [x] Add email notification queue data model
 - [ ] IT/EN UI and summaries
 - [ ] Similar opportunities on detail pages
+- [ ] Implement AI-powered natural-language search bar after release
 - [x] Admin review queue for low-confidence records
 
 ## P2 - Source Expansion

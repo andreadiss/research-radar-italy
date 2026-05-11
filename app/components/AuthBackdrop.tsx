@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { CalendarClock, FileText, MapPin, Search, Sparkles } from "lucide-react";
+import { CalendarClock, FileText, MapPin, Search } from "lucide-react";
 import { AccountNav } from "@/app/components/AccountNav";
 import { grants } from "@/lib/grants";
 import { positions } from "@/lib/positions";
@@ -53,12 +53,6 @@ export function AuthBackdrop({ returnTo }: { returnTo?: string }) {
         <div className="hero-main">
           <h1>{heroTitle(intent)}</h1>
           {intent === "home" ? <HomeEntryPoints /> : null}
-          <form className="smart-search" aria-label="Ricerca intelligente">
-            <Sparkles size={18} />
-            <input placeholder="Cerca come parleresti: contratti in chimica a Milano, PhD in AI, grant ERC..." />
-            <button type="button">Cerca</button>
-            <span>AI search nello sprint successivo</span>
-          </form>
         </div>
       </section>
       {intent === "posizioni" ? <PositionsBackdrop count={filteredPositions.length} /> : null}

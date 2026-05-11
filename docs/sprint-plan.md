@@ -27,6 +27,8 @@ Sprint 4 has started. The core positions flow and the first Grants/funding basel
 
 Current sprint focus: stabilize UX across HP, positions, Grants and detail pages.
 
+Release note: the AI natural-language search bar is intentionally hidden from the public release until the feature is designed and implemented in a later sprint.
+
 ## Sprint 2 - Find and Decide
 
 Goal: help an early-career researcher reach a useful shortlist in less than two minutes.
@@ -158,6 +160,7 @@ Activities and priorities:
 - Fix mobile layout for top chips, filter form, result cards, and action buttons.
 - Redesign position and grant detail pages with stable sections: overview, deadline, requirements, constraints, how to apply, official source.
 - Remove or compress UI elements that delay the first useful result.
+- Hide the AI search bar from the release UI and move it to the next product sprint.
 
 ### P1
 
@@ -228,6 +231,7 @@ Activities and priorities:
 ### P2
 
 - Add calendar export for deadlines.
+- Implement the AI-powered natural-language search bar once search intent parsing and result ranking are defined.
 - Add daily frequency option.
 - Add simple digest preview for alert results.
 
