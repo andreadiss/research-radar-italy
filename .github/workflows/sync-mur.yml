@@ -36,7 +36,10 @@ jobs:
         run: npm ci
 
       - name: Sync all open MUR positions
-        run: npm run sync:mur:all
+        run: node scripts/sync-mur-store.mjs --limit=all --persist=supabase
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
 
       - name: Check for generated position updates
         id: changes

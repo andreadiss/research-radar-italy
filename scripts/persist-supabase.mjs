@@ -8,14 +8,17 @@ if (!process.env.SUPABASE_URL || !process.env.SUPABASE_SERVICE_ROLE_KEY) {
 }
 
 const sources = await readJson(`${storeDir}/sources.json`, []);
+const importRuns = await readJson(`${storeDir}/import-runs.json`, []);
 const sourceRecords = await readJson(`${storeDir}/source-records.json`, []);
 const positions = await readJson(`${storeDir}/positions.json`, []);
 
 await upsert("sources", sources.map(toDbSource), "id");
+await upsert("import_runs", importRuns.map(toDbImportRun), "id");
 await upsert("source_records", sourceRecords.map(toDbSourceRecord), "source_id,source_category,external_id");
 await upsert("positions", positions.map(toDbPosition), "id");
 
 console.log(`Persisted ${sources.length} sources`);
+console.log(`Persisted ${importRuns.length} import runs`);
 console.log(`Persisted ${sourceRecords.length} source records`);
 console.log(`Persisted ${positions.length} positions`);
 
@@ -25,6 +28,26 @@ function toDbSource(source) {
     name: source.name,
     base_url: source.baseUrl,
     kind: source.kind
+  };
+}
+
+function toDbImportRun(run) {
+  return {
+    id: run.id,
+    source_id: run.sourceId,
+    started_at: run.startedAt,
+    finished_at: run.finishedAt ?? null,
+    status: run.status,
+    records_seen: run.recordsSeen ?? 0,
+    records_imported: run.recordsImported ?? run.newOrChanged ?? 0,
+    records_updated: run.recordsUpdated ?? 0,
+    records_duplicated: run.recordsDuplicated ?? 0,
+    error_message: run.errorMessage ?? null,
+    report_json: {
+      newOrChanged: run.newOrChanged ?? 0,
+      sourceRecordsTotal: run.sourceRecordsTotal ?? 0,
+      positionsTotal: run.positionsTotal ?? 0
+    }
   };
 }
 

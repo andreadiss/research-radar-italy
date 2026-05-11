@@ -66,6 +66,7 @@ Open MUR/Cineca positions are refreshed by the GitHub Actions workflow `.github/
 - Schedule: daily at `05:15 UTC`, around morning in Italy.
 - Manual run: GitHub repository -> Actions -> `Sync MUR positions` -> `Run workflow`.
 - Behavior: imports all currently open MUR positions, regenerates `lib/generated/mur-positions.json`, builds the app, and commits only when the generated cache changes.
+- Supabase: when `SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` are configured as GitHub Actions secrets, the workflow also persists sources, import runs, source records and positions to Supabase.
 - Deployment: the workflow push to `main` triggers a new Vercel deployment.
 
 Or directly:
