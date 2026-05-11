@@ -58,6 +58,7 @@ export default function Home({
   const closingSoon = filtered.filter((position) => daysUntil(position.deadline) <= 14).length;
   const newPositionsToday = intentPositions.filter((position) => isToday(position.publishedAt)).length;
   const newGrantsToday = visibleGrants.filter((grant) => grant.publishedAt && isToday(grant.publishedAt)).length;
+  const canShowPositionResults = Boolean(searchParams.type || searchParams.discipline);
   const heroTitle =
     intent === "home"
       ? "Trova opportunita accademiche in Italia."
@@ -161,17 +162,29 @@ export default function Home({
                 </div>
               </div>
           </div>
-          <div className="results-header">
-            <div>
-              <h2>
-                Posizioni aperte
-                <span className="results-count">{filtered.length} su {intentPositions.length}</span>
-                <span className="results-deadline-count">{closingSoon} scadenze entro 14 giorni</span>
-              </h2>
+          {canShowPositionResults ? (
+            <>
+              <div className="results-header">
+                <div>
+                  <h2>
+                    Posizioni aperte
+                    <span className="results-count">{filtered.length} su {intentPositions.length}</span>
+                    <span className="results-deadline-count">{closingSoon} scadenze entro 14 giorni</span>
+                  </h2>
+                </div>
+              </div>
+              <FavoritesPanel />
+            </>
+          ) : null}
+          {!canShowPositionResults ? (
+            <div className="empty-state guided-filter-state">
+              <Search size={24} />
+              <h3>Scegli un filtro per vedere le posizioni</h3>
+              <p>
+                Parti da un tipo di posizione o da una materia: mostreremo solo opportunita rilevanti, senza affollare la pagina.
+              </p>
             </div>
-          </div>
-          <FavoritesPanel />
-          {filtered.length > 0 ? (
+          ) : filtered.length > 0 ? (
             <div className="jobs-list">
               {filtered.map((position) => (
                 <article className="job-card" key={position.id}>

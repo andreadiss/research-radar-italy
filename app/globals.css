@@ -745,6 +745,10 @@ select {
   text-align: center;
 }
 
+.guided-filter-state {
+  margin-top: 10px;
+}
+
 .empty-state h3 {
   color: var(--ink);
   font-size: 18px;
