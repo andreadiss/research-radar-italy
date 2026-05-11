@@ -1,6 +1,7 @@
 import { cookies } from "next/headers";
 import { getLocalSession, type AccountSession } from "@/lib/server/auth-store";
 import { selectSupabase } from "@/lib/server/supabase-rest";
+import { supabaseProjectUrl } from "@/lib/server/supabase-url";
 
 export type CurrentAccount = AccountSession & {
   profileId?: string;
@@ -18,7 +19,7 @@ export async function getCurrentAccount(): Promise<CurrentAccount | undefined> {
     return undefined;
   }
 
-  const response = await fetch(`${process.env.SUPABASE_URL}/auth/v1/user`, {
+  const response = await fetch(`${supabaseProjectUrl()}/auth/v1/user`, {
     headers: {
       apikey: process.env.SUPABASE_ANON_KEY,
       authorization: `Bearer ${accessToken}`

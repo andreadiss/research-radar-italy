@@ -1,3 +1,5 @@
+import { supabaseProjectUrl } from "@/lib/server/supabase-url";
+
 type SupabaseWriteResult =
   | { ok: true; mode: "supabase" }
   | { ok: false; mode: "disabled"; reason: string }
@@ -16,7 +18,7 @@ export async function insertSupabase(table: string, record: Record<string, unkno
     return { ok: false, mode: "disabled", reason: "Supabase environment variables are not configured." };
   }
 
-  const response = await fetch(`${process.env.SUPABASE_URL}/rest/v1/${table}`, {
+  const response = await fetch(`${supabaseProjectUrl()}/rest/v1/${table}`, {
     method: "POST",
     headers: supabaseHeaders({ prefer: "return=minimal" }),
     body: JSON.stringify(record)
@@ -42,7 +44,7 @@ export async function upsertSupabase(
     return { ok: true, mode: "supabase" };
   }
 
-  const url = new URL(`${process.env.SUPABASE_URL}/rest/v1/${table}`);
+  const url = new URL(`${supabaseProjectUrl()}/rest/v1/${table}`);
   url.searchParams.set("on_conflict", onConflict);
 
   const response = await fetch(url, {
@@ -66,7 +68,7 @@ export async function selectSupabase<T>(
     return { ok: false, mode: "disabled", reason: "Supabase environment variables are not configured." };
   }
 
-  const url = new URL(`${process.env.SUPABASE_URL}/rest/v1/${table}`);
+  const url = new URL(`${supabaseProjectUrl()}/rest/v1/${table}`);
   for (const [key, value] of Object.entries(query)) {
     url.searchParams.set(key, value);
   }

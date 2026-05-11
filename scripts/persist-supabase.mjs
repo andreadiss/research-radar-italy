@@ -7,6 +7,8 @@ if (!process.env.SUPABASE_URL || !process.env.SUPABASE_SERVICE_ROLE_KEY) {
   throw new Error("Set SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY before running persist:supabase.");
 }
 
+const supabaseUrl = normalizeSupabaseUrl(process.env.SUPABASE_URL);
+
 const sources = await readJson(`${storeDir}/sources.json`, []);
 const importRuns = await readJson(`${storeDir}/import-runs.json`, []);
 const sourceRecords = await readJson(`${storeDir}/source-records.json`, []);
@@ -110,7 +112,7 @@ async function upsert(table, records, onConflict) {
     const batch = records.slice(index, index + batchSize);
     if (batch.length === 0) continue;
 
-    const url = new URL(`${process.env.SUPABASE_URL}/rest/v1/${table}`);
+    const url = new URL(`${supabaseUrl}/rest/v1/${table}`);
     url.searchParams.set("on_conflict", onConflict);
 
     const response = await fetch(url, {
@@ -159,6 +161,14 @@ function normalizeKey(value) {
 
 function emptyToNull(value) {
   return value || null;
+}
+
+function normalizeSupabaseUrl(value) {
+  return String(value ?? "")
+    .trim()
+    .replace(/\/+$/, "")
+    .replace(/\/rest\/v1$/i, "")
+    .replace(/\/auth\/v1$/i, "");
 }
 
 function arg(name) {

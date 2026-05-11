@@ -3,6 +3,7 @@ import { readFile, writeFile, mkdir } from "node:fs/promises";
 import path from "node:path";
 import { appendLocalStore } from "@/lib/server/local-store";
 import { insertSupabase, isSupabaseAuthConfigured, isSupabaseConfigured, selectSupabase, upsertSupabase } from "@/lib/server/supabase-rest";
+import { supabaseProjectUrl } from "@/lib/server/supabase-url";
 
 export type AccountSession = {
   email: string;
@@ -69,7 +70,7 @@ async function signUpSupabase(input: {
   password: string;
   emailOptIn: boolean;
 }) {
-  const response = await fetch(`${process.env.SUPABASE_URL}/auth/v1/signup`, {
+  const response = await fetch(`${supabaseProjectUrl()}/auth/v1/signup`, {
     method: "POST",
     headers: supabaseAuthHeaders(),
     body: JSON.stringify({
@@ -111,7 +112,7 @@ async function signUpSupabase(input: {
 }
 
 async function loginSupabase(input: { email: string; password: string }) {
-  const url = new URL(`${process.env.SUPABASE_URL}/auth/v1/token`);
+  const url = new URL(`${supabaseProjectUrl()}/auth/v1/token`);
   url.searchParams.set("grant_type", "password");
 
   const response = await fetch(url, {
