@@ -122,6 +122,7 @@ export default function Home({
                 <div className="chip-row">
                   {positionTypes.slice(0, 6).map((type) => {
                     const count = filterCount(intentPositions, searchParams, { type });
+                    const freshCount = freshPositionCount(intentPositions, searchParams, { type });
 
                     return (
                       <Link
@@ -131,6 +132,7 @@ export default function Home({
                       >
                         {type}
                         <small>{count}</small>
+                        {freshCount > 0 ? <span className="fresh-chip-badge">{freshLabel(freshCount)}</span> : null}
                       </Link>
                     );
                   })}
@@ -139,16 +141,21 @@ export default function Home({
               <div className="quick-filter-group subject-picker">
                 <span className="quick-filter-label">Materia</span>
                 <div className="chip-row subject-chip-row">
-                  {subjectChips.map((chip) => (
-                    <Link
-                      className={chipClass(subjectActive(searchParams, chip.filters))}
-                      href={subjectHref(searchParams, chip.filters)}
-                      key={chip.label}
-                    >
-                      {chip.label}
-                      <small>{subjectCount(intentPositions, searchParams, chip.filters)}</small>
-                    </Link>
-                  ))}
+                  {subjectChips.map((chip) => {
+                    const freshCount = freshPositionCount(intentPositions, searchParams, chip.filters);
+
+                    return (
+                      <Link
+                        className={chipClass(subjectActive(searchParams, chip.filters))}
+                        href={subjectHref(searchParams, chip.filters)}
+                        key={chip.label}
+                      >
+                        {chip.label}
+                        <small>{subjectCount(intentPositions, searchParams, chip.filters)}</small>
+                        {freshCount > 0 ? <span className="fresh-chip-badge">{freshLabel(freshCount)}</span> : null}
+                      </Link>
+                    );
+                  })}
                 </div>
               </div>
           </div>
@@ -515,6 +522,21 @@ function filterCount(
   const candidateFilters = { ...searchParams, ...overrides };
 
   return candidatePositions.filter((position) => matchesFilters(position, candidateFilters)).length;
+}
+
+function freshPositionCount(
+  candidatePositions: typeof positions,
+  searchParams: SearchParams,
+  overrides: Partial<SearchParams>
+) {
+  const candidateFilters = { ...searchParams, ...overrides };
+
+  return candidatePositions.filter((position) => isToday(position.publishedAt) && matchesFilters(position, candidateFilters))
+    .length;
+}
+
+function freshLabel(count: number) {
+  return count === 1 ? "1 nuova oggi" : `${count} nuove oggi`;
 }
 
 function matchesFilters(position: (typeof positions)[number], searchParams: SearchParams) {

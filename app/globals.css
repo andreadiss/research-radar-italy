@@ -442,6 +442,7 @@ select {
   display: inline-flex;
   font-size: 13px;
   font-weight: 760;
+  gap: 4px;
   min-height: 34px;
   padding: 7px 11px;
 }
@@ -466,6 +467,19 @@ select {
 .quick-chip.active small {
   background: rgba(7, 82, 70, 0.12);
   color: #075246;
+}
+
+.fresh-chip-badge {
+  animation: freshPulse 1.9s ease-in-out infinite;
+  background: #e8f7ee;
+  border: 1px solid #a9d9ba;
+  border-radius: 999px;
+  color: #185c36;
+  font-size: 10px;
+  font-weight: 820;
+  line-height: 1;
+  padding: 4px 6px;
+  white-space: nowrap;
 }
 
 .signal-panel {
