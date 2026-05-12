@@ -3,6 +3,7 @@
 import Link from "next/link";
 import type { Route } from "next";
 import { ExternalLink, X } from "lucide-react";
+import { track } from "@vercel/analytics";
 import { useState } from "react";
 
 type OpportunityPreviewProps = {
@@ -28,7 +29,17 @@ export function OpportunityPreview({
 
   return (
     <>
-      <button className={triggerClassName ?? "preview-trigger"} onClick={() => setOpen(true)} type="button">
+      <button
+        className={triggerClassName ?? "preview-trigger"}
+        onClick={() => {
+          track("opportunity_preview_opened", {
+            detail_href: detailHref,
+            has_source: Boolean(sourceHref)
+          });
+          setOpen(true);
+        }}
+        type="button"
+      >
         {children}
       </button>
       {open ? (
@@ -42,11 +53,19 @@ export function OpportunityPreview({
             <p className="preview-meta">{meta}</p>
             <p>{summary}</p>
             <div className="preview-actions">
-              <Link className="button primary" href={detailHref}>
+              <Link
+                className="button primary"
+                href={detailHref}
+                onClick={() => track("opportunity_detail_opened", { detail_href: detailHref })}
+              >
                 Apri pagina
               </Link>
               {sourceHref ? (
-                <a className="button secondary" href={sourceHref}>
+                <a
+                  className="button secondary"
+                  href={sourceHref}
+                  onClick={() => track("official_source_opened", { source_href: sourceHref })}
+                >
                   <ExternalLink size={16} />
                   Sito ufficiale
                 </a>

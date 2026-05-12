@@ -1,8 +1,10 @@
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 
 const outputPath = "lib/generated/grants.json";
 const pnrrReportPath = "data/store/pnrr-classification-report.json";
 const useLive = process.argv.includes("--live");
+const existingGrantBaselineDate = "2026-05-05";
+const importDate = new Date().toISOString().slice(0, 10);
 const italianMonths = {
   gennaio: "01",
   febbraio: "02",
@@ -144,12 +146,36 @@ const curatedGrants = [
   }
 ];
 
-const grants = useLive ? await enrichFromLiveSources(curatedGrants) : curatedGrants;
+const previousGrants = await readPreviousGrants(outputPath);
+const grants = preserveFirstSeenAt(useLive ? await enrichFromLiveSources(curatedGrants) : curatedGrants, previousGrants);
 
 await mkdir("lib/generated", { recursive: true });
 await writeFile(outputPath, `${JSON.stringify(grants, null, 2)}\n`, "utf8");
 
 console.log(`Wrote ${grants.length} grants to ${outputPath}`);
+
+async function readPreviousGrants(path) {
+  try {
+    return JSON.parse(await readFile(path, "utf8"));
+  } catch {
+    return [];
+  }
+}
+
+function preserveFirstSeenAt(nextGrants, previousGrants) {
+  const previousById = new Map(previousGrants.map((grant) => [grant.id, grant]));
+
+  return nextGrants.map((grant) => {
+    const previous = previousById.get(grant.id);
+    const previousFirstSeenAt =
+      previous?.firstSeenAt && previous.firstSeenAt <= importDate ? previous.firstSeenAt : undefined;
+
+    return {
+      ...grant,
+      firstSeenAt: previousFirstSeenAt ?? (previous ? existingGrantBaselineDate : grant.firstSeenAt ?? importDate)
+    };
+  });
+}
 
 async function enrichFromLiveSources(grants) {
   const prinGrants = await fetchPrinGrants();

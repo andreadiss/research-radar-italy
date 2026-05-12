@@ -5,6 +5,7 @@ import { AccountNav } from "@/app/components/AccountNav";
 import { FloatingIntentMenu } from "@/app/components/FloatingIntentMenu";
 import { OpportunityActions } from "@/app/components/OpportunityActions";
 import { OpportunityPreview } from "@/app/components/OpportunityPreview";
+import { TrackedLink } from "@/app/components/TrackedLink";
 import { positionTypes } from "@/lib/filters";
 import { grants } from "@/lib/grants";
 import { positions } from "@/lib/positions";
@@ -66,7 +67,7 @@ export default async function Home({
   const filteredGrants = visibleGrants.filter((grant) => matchesGrantFilters(grant, searchParams));
   const closingSoon = filtered.filter((position) => daysUntil(position.deadline) <= 14).length;
   const newPositionsToday = intentPositions.filter((position) => isToday(position.publishedAt)).length;
-  const newGrantsToday = visibleGrants.filter((grant) => grant.publishedAt && isToday(grant.publishedAt)).length;
+  const newGrantsToday = visibleGrants.filter((grant) => grant.firstSeenAt && isToday(grant.firstSeenAt)).length;
   const canShowPositionResults = selectedValues(searchParams.type).length > 0 || selectedValues(searchParams.discipline).length > 0;
   const heroTitle =
     intent === "home"
@@ -91,7 +92,12 @@ export default async function Home({
           <AuthFeedback status={searchParams.auth} />
           {intent === "home" ? (
             <div className="entry-points" aria-label="Scegli percorso">
-              <Link className="entry-point" href={intentHref(searchParams, "posizioni")}>
+              <TrackedLink
+                className="entry-point"
+                event="home_intent_clicked"
+                href={intentHref(searchParams, "posizioni")}
+                properties={{ intent: "posizioni", count: positions.length }}
+              >
                 <Search size={20} />
                 <span>
                   <strong>Posizioni aperte</strong>
@@ -99,8 +105,13 @@ export default async function Home({
                 </span>
                 {newPositionsToday > 0 ? <span className="fresh-badge">{newPositionsToday} nuove oggi</span> : null}
                 <em>{positions.length}</em>
-              </Link>
-              <Link className="entry-point" href={intentHref(searchParams, "bandi")}>
+              </TrackedLink>
+              <TrackedLink
+                className="entry-point"
+                event="home_intent_clicked"
+                href={intentHref(searchParams, "bandi")}
+                properties={{ intent: "bandi", count: visibleGrants.length }}
+              >
                 <FileText size={20} />
                 <span>
                   <strong>Grants & Funding</strong>
@@ -108,11 +119,16 @@ export default async function Home({
                 </span>
                 {newGrantsToday > 0 ? <span className="fresh-badge">{newGrantsToday} nuovi oggi</span> : null}
                 <em>{visibleGrants.length}</em>
-              </Link>
+              </TrackedLink>
             </div>
           ) : null}
           {intent === "home" && account ? (
-            <Link className="next-action-card" href="/lists">
+            <TrackedLink
+              className="next-action-card"
+              event="favorites_resume_clicked"
+              href="/lists"
+              properties={{ saved_count: savedPreview?.count ?? 0 }}
+            >
               <ListChecks size={20} />
               <span>
                 <strong>Riprendi dai preferiti</strong>
@@ -122,7 +138,7 @@ export default async function Home({
                     : "Vai a Le mie liste e continua dalle opportunità salvate."}
                 </small>
               </span>
-            </Link>
+            </TrackedLink>
           ) : null}
         </div>
       </section>
@@ -149,15 +165,17 @@ export default async function Home({
                     const freshCount = freshPositionCount(intentPositions, searchParams, { type });
 
                     return (
-                      <Link
+                      <TrackedLink
                         className={chipClass(paramHasValue(searchParams.type, type))}
+                        event="position_filter_clicked"
                         href={filterHref(searchParams, "type", type)}
                         key={type}
+                        properties={{ filter_group: "type", filter_value: type, result_count: count }}
                       >
                         {type}
                         <small>{count}</small>
                         {freshCount > 0 ? <span className="fresh-chip-badge">{freshLabel(freshCount)}</span> : null}
-                      </Link>
+                      </TrackedLink>
                     );
                   })}
                 </div>
@@ -169,15 +187,21 @@ export default async function Home({
                     const freshCount = freshPositionCount(intentPositions, searchParams, chip.filters);
 
                     return (
-                      <Link
+                      <TrackedLink
                         className={chipClass(subjectActive(searchParams, chip.filters))}
+                        event="position_filter_clicked"
                         href={subjectHref(searchParams, chip.filters)}
                         key={chip.label}
+                        properties={{
+                          filter_group: "discipline",
+                          filter_value: chip.label,
+                          result_count: subjectCount(intentPositions, searchParams, chip.filters)
+                        }}
                       >
                         {chip.label}
                         <small>{subjectCount(intentPositions, searchParams, chip.filters)}</small>
                         {freshCount > 0 ? <span className="fresh-chip-badge">{freshLabel(freshCount)}</span> : null}
-                      </Link>
+                      </TrackedLink>
                     );
                   })}
                 </div>
@@ -288,14 +312,16 @@ export default async function Home({
                   const count = grantCount(visibleGrants, searchParams, { program });
 
                   return (
-                    <Link
+                    <TrackedLink
                       className={chipClass(searchParams.program === program)}
+                      event="grant_filter_clicked"
                       href={filterHref(searchParams, "program", program)}
                       key={program}
+                      properties={{ filter_group: "program", filter_value: program, result_count: count }}
                     >
                       {program}
                       <small>{count}</small>
-                    </Link>
+                    </TrackedLink>
                   );
                 })}
               </div>
@@ -304,14 +330,20 @@ export default async function Home({
               <span className="quick-filter-label">Materia</span>
               <div className="chip-row subject-chip-row">
                 {subjectChips.map((chip) => (
-                  <Link
+                  <TrackedLink
                     className={chipClass(subjectActive(searchParams, chip.filters))}
+                    event="grant_filter_clicked"
                     href={subjectHref(searchParams, chip.filters)}
                     key={chip.label}
+                    properties={{
+                      filter_group: "discipline",
+                      filter_value: chip.label,
+                      result_count: grantCount(visibleGrants, searchParams, chip.filters)
+                    }}
                   >
                     {chip.label}
                     <small>{grantCount(visibleGrants, searchParams, chip.filters)}</small>
-                  </Link>
+                  </TrackedLink>
                 ))}
               </div>
             </div>

@@ -16,6 +16,8 @@ Create the first real Grants/funding experience without mixing grants with open 
 - `npm run import:grants` regenerates the curated dataset.
 - `npm run import:grants:live` imports PRIN 2026 calls from the official PRIN portal and enriches REA MSCA pages with curated fallback.
 - `npm run audit:grants` writes `data/store/grants-audit-report.json`.
+- `.github/workflows/sync-grants.yml` refreshes Grants/funding data every morning and commits `lib/generated/grants.json` when official sources change.
+- Grants now carry `firstSeenAt`, so the HP can show a "nuovi oggi" badge only for calls first discovered by Research Radar on the current day.
 - PRIN 2026 and PRIN 2026 HYBRID are imported from `https://prin.mur.gov.it/Iniziative`.
 - MSCA Postdoctoral Fellowships and MSCA Doctoral Networks are connected to official REA pages.
 - Grants data discovery is documented in `docs/grants-data-discovery.md`.
@@ -34,6 +36,8 @@ Create the first real Grants/funding experience without mixing grants with open 
 
 - `npm run import:grants:live` passed.
 - `npm run audit:grants` passed.
+- `npm run typecheck` passed after adding `firstSeenAt`.
+- `npm run build` passed after adding the scheduled Grants refresh.
 - `npm run typecheck` passed.
 - Grants listing responds on `/?intent=bandi`.
 - PRIN detail pages respond under `/grants/prin-2026` and `/grants/prin-2026-hybrid`.

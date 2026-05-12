@@ -14,7 +14,8 @@
     "eligibility": "Postdoctoral researchers; mobility-based European and Global Fellowships",
     "summary": "Call 2026 per progetti individuali di ricerca e formazione postdoc, con mobilita internazionale, interdisciplinare e intersettoriale.",
     "status": "open",
-    "sourceType": "official_call"
+    "sourceType": "official_call",
+    "firstSeenAt": "2026-05-05"
   },
   {
     "id": "msca-doctoral-networks-2026",
@@ -31,7 +32,8 @@
     "eligibility": "Doctoral training networks and participating organisations",
     "summary": "Call 2026 per network dottorali internazionali e intersettoriali, con formazione strutturata di doctoral candidates.",
     "status": "upcoming",
-    "sourceType": "official_call"
+    "sourceType": "official_call",
+    "firstSeenAt": "2026-05-05"
   },
   {
     "id": "erc-advanced-grant-2026",
@@ -48,7 +50,8 @@
     "eligibility": "Established principal investigators with significant research track record",
     "summary": "Grant ERC per principal investigator senior con progetto frontier research ambizioso in qualunque disciplina.",
     "status": "open",
-    "sourceType": "official_source"
+    "sourceType": "official_source",
+    "firstSeenAt": "2026-05-05"
   },
   {
     "id": "pnrr-research-source",
@@ -63,7 +66,8 @@
     "eligibility": "Depends on the specific PNRR measure, call and implementing body",
     "summary": "Fonte PNRR con 11 possibili avvisi da verificare prima della pubblicazione. Documenti amministrativi: 61; graduatorie/ammissioni: 18; rendicontazione/monitoraggio: 3.",
     "status": "source_monitoring",
-    "sourceType": "monitoring_source"
+    "sourceType": "monitoring_source",
+    "firstSeenAt": "2026-05-12"
   },
   {
     "id": "horizon-europe-funding-tenders",
@@ -78,7 +82,8 @@
     "eligibility": "Depends on topic, action type and consortium rules",
     "summary": "Fonte ufficiale per call Horizon Europe. Da integrare con filtri per cluster, topic, action type, budget, eligibility e deadline.",
     "status": "source_monitoring",
-    "sourceType": "monitoring_source"
+    "sourceType": "monitoring_source",
+    "firstSeenAt": "2026-05-12"
   },
   {
     "id": "prin-2026",
@@ -94,7 +99,8 @@
     "eligibility": "PI e responsabili di unita tramite credenziali Loginmiur, secondo il Bando PRIN 2026",
     "summary": "Bando PRIN 2026 - Decreto Direttoriale n. 2298 del 10 Aprile 2026. Presentazione domande dalle 15:00 del 17 aprile alle 15:00 del 1 giugno 2026.",
     "status": "open",
-    "sourceType": "official_call"
+    "sourceType": "official_call",
+    "firstSeenAt": "2026-04-10"
   },
   {
     "id": "prin-2026-hybrid",
@@ -110,6 +116,7 @@
     "eligibility": "PI e responsabili di unita tramite credenziali Loginmiur, secondo il Bando PRIN 2026 HYBRID",
     "summary": "Bando PRIN 2026 HYBRID - Decreto direttoriale n. 2610 del 17 aprile 2026. Presentazione domande dalle 15:00 del 20 aprile alle 15:00 del 4 giugno 2026.",
     "status": "open",
-    "sourceType": "official_call"
+    "sourceType": "official_call",
+    "firstSeenAt": "2026-04-17"
   }
 ]

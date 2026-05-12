@@ -69,6 +69,8 @@
 - [x] Add Grants detail page model
 - [x] Add live PRIN 2026 importer from official PRIN portal
 - [x] Add Grants audit report
+- [x] Add daily GitHub Action to refresh Grants/funding cache
+- [x] Add `firstSeenAt` tracking so new Grants can be surfaced in the UI
 - [x] Split Grants listing into open calls and monitored sources
 - [x] Add Grants status filter
 - [x] Favorites
@@ -101,6 +103,11 @@
 
 ## P3 - Growth and Monetization
 
+- [x] Add Vercel Web Analytics and Speed Insights baseline
+- [x] Track core product funnel events: home intent, filters, previews, detail opens, source opens, saves, auth CTAs
+- [ ] Add analytics event review dashboard for activation and conversion
+- [ ] Define freemium limits for saved opportunities, lists, and alert frequency
+- [ ] Add Stripe subscription foundation for premium alerts
 - [ ] Public RSS feeds
 - [ ] Telegram alerts
 - [ ] Employer pages

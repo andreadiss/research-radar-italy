@@ -1,6 +1,7 @@
 "use client";
 
 import { Bookmark } from "lucide-react";
+import { track } from "@vercel/analytics";
 import { useEffect, useState } from "react";
 
 type OpportunityType = "position" | "grant";
@@ -41,6 +42,10 @@ export function OpportunityActions({
 
   async function saveOpportunity() {
     if (!isAuthenticated) {
+      track("save_requires_login", {
+        opportunity_id: opportunityId,
+        opportunity_type: opportunityType
+      });
       window.location.href = `/login?returnTo=${encodeURIComponent(window.location.pathname + window.location.search)}`;
       return;
     }
@@ -48,6 +53,10 @@ export function OpportunityActions({
     const nextSaved = !isSaved;
     setIsSaved(nextSaved);
     writeFavorite({ detailHref, id: opportunityId, title, type: opportunityType }, nextSaved);
+    track(nextSaved ? "opportunity_saved" : "opportunity_unsaved", {
+      opportunity_id: opportunityId,
+      opportunity_type: opportunityType
+    });
 
     await fetch("/api/saved-opportunities", {
       method: nextSaved ? "POST" : "DELETE",

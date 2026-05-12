@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname, useSearchParams } from "next/navigation";
+import { track } from "@vercel/analytics";
 
 export function AccountLinks() {
   const pathname = usePathname();
@@ -12,10 +13,18 @@ export function AccountLinks() {
 
   return (
     <>
-      <Link className="account-link" href={`/login?returnTo=${encodedReturnTo}`}>
+      <Link
+        className="account-link"
+        href={`/login?returnTo=${encodedReturnTo}`}
+        onClick={() => track("auth_cta_clicked", { action: "login", path: returnTo })}
+      >
         Login
       </Link>
-      <Link className="account-link primary" href={`/signup?returnTo=${encodedReturnTo}`}>
+      <Link
+        className="account-link primary"
+        href={`/signup?returnTo=${encodedReturnTo}`}
+        onClick={() => track("auth_cta_clicked", { action: "signup", path: returnTo })}
+      >
         Sign Up
       </Link>
     </>

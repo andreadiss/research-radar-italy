@@ -22,6 +22,7 @@ export type GrantOpportunity = {
   discipline: string;
   deadline: string;
   deadlineStatus?: DeadlineStatus;
+  firstSeenAt?: string;
   publishedAt?: string;
   sourceName: string;
   sourceUrl: string;

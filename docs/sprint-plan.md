@@ -24,6 +24,7 @@ Sprint 4 has started. The core positions flow and the first Grants/funding basel
 - Grants has a first dedicated listing, detail pages and generated dataset.
 - `npm run import:grants:live` imports PRIN 2026 calls from the official PRIN portal and enriches REA MSCA pages with curated fallback.
 - `npm run audit:grants` writes Grants coverage/freshness metrics.
+- Grants/funding now has a daily GitHub Actions refresh and `firstSeenAt` tracking for new-call badges.
 - MUR/Cineca positions now have a daily GitHub Actions refresh that persists to Supabase, updates `lib/generated/mur-positions.json`, and triggers Vercel redeploys when data changes.
 - Supabase dedupe keys are now indexed but not unique, because official MUR records with matching dedupe keys must remain visible for review.
 - Logged-in users can save positions and grants with a single bookmark action and revisit them from `Le mie liste`.
@@ -119,6 +120,8 @@ Activities and priorities:
 - Add source badges for PRIN, PNRR, ERC, MSCA, Horizon.
 - Add funding-call deadline status and near-deadline counts.
 - Add audit report for Grants source coverage. Status: `npm run audit:grants` writes `data/store/grants-audit-report.json`.
+- Add daily Grants/funding refresh action. Status: completed with `.github/workflows/sync-grants.yml`.
+- Add new-call detection for Grants. Status: completed with `firstSeenAt` in `lib/generated/grants.json`.
 
 ### P2
 
@@ -333,3 +336,50 @@ Exit criteria:
 - At least one additional non-MUR source imported.
 - UI keeps source families distinct.
 - New source has coverage/audit reporting.
+
+## Sprint 8 - Analytics and Monetization
+
+Goal: understand activation before introducing paid flows.
+
+Customer value:
+
+- Keeps the product focused on the actions that help users find and save relevant opportunities.
+- Creates the evidence needed to price alerts, premium features, and institutional services without guessing.
+
+Scope:
+
+- Add privacy-friendly pageview and performance analytics.
+- Track the core product funnel: HP intent click, filter use, preview open, detail open, official source open, save/unsave, login/signup CTA.
+- Define the first monetization path around premium alerts and saved workflow depth.
+- Prepare a later Stripe integration without blocking the free MVP.
+
+Activities and priorities:
+
+### P0
+
+- [x] Add Vercel Web Analytics.
+- [x] Add Vercel Speed Insights.
+- [x] Track home intent entry points for `Posizioni aperte` and `Grants & Funding`.
+- [x] Track position and grant filter usage.
+- [x] Track opportunity preview, detail page and official source opens.
+- [x] Track bookmark save/unsave and auth-required save attempts.
+- [x] Track login and signup CTA clicks.
+
+### P1
+
+- Add a lightweight KPI view for: visits, activated sessions, saved opportunities, signup conversion.
+- Add server-side events for saved-opportunity API success/failure.
+- Define free vs premium limits: saved opportunities, alert frequency, digest personalization.
+- Add paid-plan copy and pricing experiment notes.
+
+### P2
+
+- Add Stripe checkout and subscription status fields.
+- Add institutional analytics package: source demand by discipline, region and position type.
+- Add sponsored listing rules and disclosure copy.
+
+Exit criteria:
+
+- The public product reports pageviews and Core Web Vitals in Vercel.
+- The main funnel actions emit named analytics events.
+- The monetization path is documented before payment UI is added.
