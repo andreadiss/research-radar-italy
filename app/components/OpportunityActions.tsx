@@ -12,7 +12,7 @@ type OpportunityActionsProps = {
   title: string;
 };
 
-type Favorite = {
+export type Favorite = {
   detailHref: string;
   id: string;
   title: string;

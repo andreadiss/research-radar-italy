@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Route } from "next";
 import { Bookmark, ExternalLink } from "lucide-react";
 import { AccountNav } from "@/app/components/AccountNav";
+import { LocalFavoritesList } from "@/app/components/LocalFavoritesList";
 import { grants } from "@/lib/grants";
 import { positions } from "@/lib/positions";
 import { getCurrentAccount } from "@/lib/server/session";
@@ -16,6 +17,7 @@ type SavedOpportunityRow = {
 
 type SavedListItem = {
   detailHref: Route;
+  key: string;
   label: string;
   meta: string;
   savedAt: string;
@@ -25,6 +27,7 @@ type SavedListItem = {
 export default async function ListsPage() {
   const account = await getCurrentAccount();
   const items = account?.profileId ? await getSavedItems(account.profileId) : [];
+  const savedKeys = items.map((item) => item.key);
 
   return (
     <main className="shell">
@@ -54,32 +57,28 @@ export default async function ListsPage() {
               Login
             </Link>
           </div>
-        ) : items.length > 0 ? (
-          <div className="saved-list">
-            {items.map((item) => (
-              <article className="saved-list-card" key={`${item.label}-${item.detailHref}`}>
-                <div>
-                  <span className="badge type">{item.label}</span>
-                  <h2>{item.title}</h2>
-                  <p>{item.meta}</p>
-                  <small>Salvata il {formatDate(item.savedAt)}</small>
-                </div>
-                <Link className="button secondary" href={item.detailHref}>
-                  <ExternalLink size={16} />
-                  Apri
-                </Link>
-              </article>
-            ))}
-          </div>
         ) : (
-          <div className="empty-state">
-            <Bookmark size={24} />
-            <h3>Nessun preferito salvato</h3>
-            <p>Apri una posizione o un grant e usa l'icona bookmark per aggiungerlo alla lista.</p>
-            <Link className="button primary" href="/?intent=posizioni">
-              Trova opportunità
-            </Link>
-          </div>
+          <>
+            {items.length > 0 ? (
+              <div className="saved-list">
+                {items.map((item) => (
+                  <article className="saved-list-card" key={item.key}>
+                    <div>
+                      <span className="badge type">{item.label}</span>
+                      <h2>{item.title}</h2>
+                      <p>{item.meta}</p>
+                      <small>Salvata il {formatDate(item.savedAt)}</small>
+                    </div>
+                    <Link className="button secondary" href={item.detailHref}>
+                      <ExternalLink size={16} />
+                      Apri
+                    </Link>
+                  </article>
+                ))}
+              </div>
+            ) : null}
+            <LocalFavoritesList excludedKeys={savedKeys} showEmptyState={items.length === 0} />
+          </>
         )}
       </section>
     </main>
@@ -103,6 +102,7 @@ async function getSavedItems(profileId: string): Promise<SavedListItem[]> {
 
         return {
           detailHref: `/grants/${grant.id}` as Route,
+          key: `grant:${grant.id}`,
           label: "Grant",
           meta: `${grant.program} / ${grant.funder}`,
           savedAt: row.created_at,
@@ -115,6 +115,7 @@ async function getSavedItems(profileId: string): Promise<SavedListItem[]> {
 
       return {
         detailHref: `/positions/${position.id}` as Route,
+        key: `position:${position.id}`,
         label: "Posizione",
         meta: `${position.institution} / ${position.ssd}`,
         savedAt: row.created_at,
