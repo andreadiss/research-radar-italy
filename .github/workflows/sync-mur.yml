@@ -2,8 +2,10 @@ name: Sync MUR positions
 
 on:
   schedule:
-    # Runs every morning around 07:15 in Italy during daylight saving time.
+    # Multiple morning windows make the daily refresh more resilient to GitHub schedule delays or skipped runs.
     - cron: "15 5 * * *"
+    - cron: "45 5 * * *"
+    - cron: "15 6 * * *"
   workflow_dispatch:
 
 permissions:
