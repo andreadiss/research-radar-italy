@@ -197,9 +197,9 @@ function SubjectChips() {
 }
 
 function heroTitle(intent: BackdropIntent) {
-  if (intent === "posizioni") return "Tutte le opportunita di lavoro";
+  if (intent === "posizioni") return "Tutte le opportunità di lavoro";
   if (intent === "bandi") return "Grants & Funding";
-  return "Trova opportunita accademiche in Italia.";
+  return "Trova opportunità accademiche in Italia.";
 }
 
 function backdropIntent(url: URL): BackdropIntent {

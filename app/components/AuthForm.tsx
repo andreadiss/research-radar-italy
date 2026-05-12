@@ -89,7 +89,7 @@ export function AuthForm({ mode }: AuthFormProps) {
       {isSignup ? (
         <label className="checkbox-field">
           <input name="emailOptIn" type="checkbox" />
-          <span>Voglio ricevere aggiornamenti email su nuove opportunita coerenti con i miei interessi.</span>
+          <span>Voglio ricevere aggiornamenti email su nuove opportunità coerenti con i miei interessi.</span>
         </label>
       ) : null}
       <button className="button primary" disabled={isSubmitting} type="submit">

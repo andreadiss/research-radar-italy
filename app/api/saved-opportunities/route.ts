@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { z } from "zod";
 import { appendLocalStore } from "@/lib/server/local-store";
 import { getCurrentAccount } from "@/lib/server/session";
-import { insertSupabase } from "@/lib/server/supabase-rest";
+import { deleteSupabase, upsertSupabase } from "@/lib/server/supabase-rest";
 
 const savedOpportunitySchema = z.object({
   opportunityId: z.string().min(1),
@@ -19,6 +19,10 @@ export async function POST(request: Request) {
   }
 
   const account = await getCurrentAccount();
+  if (!account) {
+    return NextResponse.json({ ok: false, error: "Accedi per salvare nei preferiti." }, { status: 401 });
+  }
+
   const record = {
     ...(account?.profileId ? { profile_id: account.profileId } : {}),
     opportunity_id: parsed.data.opportunityId,
@@ -27,7 +31,7 @@ export async function POST(request: Request) {
   };
 
   const result = account?.profileId
-    ? await insertSupabase("saved_opportunities", record)
+    ? await upsertSupabase("saved_opportunities", [record], "profile_id,opportunity_type,opportunity_id")
     : { ok: false as const, mode: "disabled" as const, reason: "No account profile id." };
 
   if (!result.ok && result.mode === "disabled") {
@@ -40,6 +44,36 @@ export async function POST(request: Request) {
       authenticated: Boolean(account)
     });
   }
+
+  if (!result.ok && result.mode === "supabase") {
+    return NextResponse.json({ ok: false, error: result.reason }, { status: 502 });
+  }
+
+  return NextResponse.json({ ok: true, mode: result.ok ? result.mode : "local" });
+}
+
+export async function DELETE(request: Request) {
+  const parsed = savedOpportunitySchema.pick({
+    opportunityId: true,
+    opportunityType: true
+  }).safeParse(await request.json());
+
+  if (!parsed.success) {
+    return NextResponse.json({ ok: false, error: "Invalid saved opportunity payload." }, { status: 400 });
+  }
+
+  const account = await getCurrentAccount();
+  if (!account) {
+    return NextResponse.json({ ok: false, error: "Accedi per modificare i preferiti." }, { status: 401 });
+  }
+
+  const result = account.profileId
+    ? await deleteSupabase("saved_opportunities", {
+        profile_id: `eq.${account.profileId}`,
+        opportunity_type: `eq.${parsed.data.opportunityType}`,
+        opportunity_id: `eq.${parsed.data.opportunityId}`
+      })
+    : { ok: false as const, mode: "disabled" as const, reason: "No account profile id." };
 
   if (!result.ok && result.mode === "supabase") {
     return NextResponse.json({ ok: false, error: result.reason }, { status: 502 });

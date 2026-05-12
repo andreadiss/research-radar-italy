@@ -72,6 +72,9 @@
 - [x] Split Grants listing into open calls and monitored sources
 - [x] Add Grants status filter
 - [x] Favorites
+- [x] Add `Le mie liste` page for saved positions and grants
+- [x] Remove visible alert icon actions from opportunity cards
+- [x] Add homepage next-best-action card to return to saved lists after login
 - [ ] Personal opportunity statuses
 - [x] Add account profile and email opt-in data model
 - [x] Add email notification queue data model

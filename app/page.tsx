@@ -1,13 +1,13 @@
 import Link from "next/link";
 import type { Route } from "next";
-import { CalendarClock, FileText, MapPin, Search } from "lucide-react";
+import { CalendarClock, FileText, ListChecks, MapPin, Search } from "lucide-react";
 import { AccountNav } from "@/app/components/AccountNav";
-import { FavoritesPanel } from "@/app/components/FavoritesPanel";
 import { FloatingIntentMenu } from "@/app/components/FloatingIntentMenu";
 import { OpportunityActions } from "@/app/components/OpportunityActions";
 import { positionTypes } from "@/lib/filters";
 import { grants } from "@/lib/grants";
 import { positions } from "@/lib/positions";
+import { getCurrentAccount } from "@/lib/server/session";
 import type { GrantOpportunity } from "@/lib/types";
 
 type SearchParams = {
@@ -45,11 +45,12 @@ const subjectChips: SubjectChip[] = [
 const visibleGrants = grants.filter(isVisibleGrant);
 const grantPrograms = Array.from(new Set(visibleGrants.map((grant) => grant.program))).sort();
 
-export default function Home({
+export default async function Home({
   searchParams
 }: {
   searchParams: SearchParams;
 }) {
+  const account = await getCurrentAccount();
   const intent: Intent =
     searchParams.intent === "bandi" ? "bandi" : searchParams.intent === "posizioni" ? "posizioni" : "home";
   const intentPositions = positions;
@@ -61,11 +62,10 @@ export default function Home({
   const canShowPositionResults = Boolean(searchParams.type || searchParams.discipline);
   const heroTitle =
     intent === "home"
-      ? "Trova opportunita accademiche in Italia."
+      ? "Trova opportunità accademiche in Italia."
       : intent === "posizioni"
-        ? "Tutte le opportunita di lavoro"
+        ? "Tutte le opportunità di lavoro"
         : "Grants & Funding";
-  const currentFilters = compactFilters(searchParams);
 
   return (
     <main className="shell">
@@ -102,6 +102,15 @@ export default function Home({
                 <em>{visibleGrants.length}</em>
               </Link>
             </div>
+          ) : null}
+          {intent === "home" && account ? (
+            <Link className="next-action-card" href="/lists">
+              <ListChecks size={20} />
+              <span>
+                <strong>Riprendi dai preferiti</strong>
+                <small>Vai a Le mie liste e continua dalle opportunità salvate.</small>
+              </span>
+            </Link>
           ) : null}
         </div>
       </section>
@@ -173,7 +182,6 @@ export default function Home({
                   </h2>
                 </div>
               </div>
-              <FavoritesPanel />
             </>
           ) : null}
           {!canShowPositionResults ? (
@@ -181,7 +189,7 @@ export default function Home({
               <Search size={24} />
               <h3>Scegli un filtro per vedere le posizioni</h3>
               <p>
-                Parti da un tipo di posizione o da una materia: mostreremo solo opportunita rilevanti, senza affollare la pagina.
+                Parti da un tipo di posizione o da una materia: mostreremo solo opportunità rilevanti, senza affollare la pagina.
               </p>
             </div>
           ) : filtered.length > 0 ? (
@@ -200,11 +208,6 @@ export default function Home({
                         {deadlineLabel(position.deadline)}
                       </span>
                       <OpportunityActions
-                        alertFilters={{
-                          ...currentFilters,
-                          discipline: position.discipline,
-                          type: position.positionType
-                        }}
                         detailHref={`/positions/${position.id}`}
                         opportunityId={position.id}
                         opportunityType="position"
@@ -302,7 +305,6 @@ export default function Home({
               </h2>
             </div>
           </div>
-          <FavoritesPanel />
           {filteredGrants.length > 0 ? (
             <div className="jobs-list">
               {filteredGrants.map((grant) => (
@@ -420,11 +422,6 @@ function GrantCard({ grant }: { grant: GrantOpportunity }) {
             {grantStatusLabel(grant)}
           </span>
           <OpportunityActions
-            alertFilters={{
-              discipline: grant.discipline,
-              intent: "bandi",
-              program: grant.program
-            }}
             detailHref={`/grants/${grant.id}`}
             opportunityId={grant.id}
             opportunityType="grant"
@@ -526,7 +523,7 @@ function AuthFeedback({ status }: { status?: string }) {
     return (
       <div className="auth-feedback" role="status">
         <strong>Account creato.</strong>
-        <span>Ora puoi salvare opportunita, creare alert e ritrovare le tue ricerche.</span>
+        <span>Ora puoi salvare opportunità e ritrovarle in Le mie liste.</span>
       </div>
     );
   }
@@ -657,8 +654,3 @@ function buildHaystack(position: (typeof positions)[number]) {
     .toLowerCase();
 }
 
-function compactFilters(searchParams: SearchParams) {
-  return Object.fromEntries(
-    Object.entries(searchParams).filter((entry): entry is [string, string] => Boolean(entry[1]))
-  );
-}

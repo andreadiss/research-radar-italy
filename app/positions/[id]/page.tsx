@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, Bell, ExternalLink } from "lucide-react";
+import { ArrowLeft, ExternalLink } from "lucide-react";
 import { AccountNav } from "@/app/components/AccountNav";
 import { getPositionById, positions } from "@/lib/positions";
 
@@ -67,10 +67,6 @@ export default function PositionDetail({ params }: { params: { id: string } }) {
               <ExternalLink size={17} />
               Apri fonte ufficiale
             </a>
-            <button className="button secondary" title="Crea alert simile">
-              <Bell size={17} />
-              Alert simili
-            </button>
           </div>
         </article>
       </section>

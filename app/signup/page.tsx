@@ -19,11 +19,11 @@ export default function SignUpPage({
         </Link>
         <div>
           <h1 id="signup-title">Sign Up</h1>
-          <p>Crea un account per ricevere suggerimenti e salvare opportunita.</p>
+          <p>Crea un account per ricevere suggerimenti e salvare opportunità.</p>
         </div>
         <AuthForm mode="signup" />
         <p className="auth-note">
-          Il consenso email potra alimentare gli alert automatici sulle nuove opportunita.
+          Il consenso email potra alimentare gli aggiornamenti automatici sulle nuove opportunità.
         </p>
       </section>
     </main>

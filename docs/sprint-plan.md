@@ -26,6 +26,7 @@ Sprint 4 has started. The core positions flow and the first Grants/funding basel
 - `npm run audit:grants` writes Grants coverage/freshness metrics.
 - MUR/Cineca positions now have a daily GitHub Actions refresh that persists to Supabase, updates `lib/generated/mur-positions.json`, and triggers Vercel redeploys when data changes.
 - Supabase dedupe keys are now indexed but not unique, because official MUR records with matching dedupe keys must remain visible for review.
+- Logged-in users can save positions and grants with a single bookmark action and revisit them from `Le mie liste`.
 
 Current sprint focus: stabilize UX across HP, positions, Grants and detail pages.
 

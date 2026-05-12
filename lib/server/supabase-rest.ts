@@ -84,6 +84,31 @@ export async function selectSupabase<T>(
   return { ok: true, data: (await response.json()) as T[] };
 }
 
+export async function deleteSupabase(
+  table: string,
+  query: Record<string, string>
+): Promise<SupabaseWriteResult> {
+  if (!isSupabaseConfigured()) {
+    return { ok: false, mode: "disabled", reason: "Supabase environment variables are not configured." };
+  }
+
+  const url = new URL(`${supabaseProjectUrl()}/rest/v1/${table}`);
+  for (const [key, value] of Object.entries(query)) {
+    url.searchParams.set(key, value);
+  }
+
+  const response = await fetch(url, {
+    method: "DELETE",
+    headers: supabaseHeaders({ prefer: "return=minimal" })
+  });
+
+  if (!response.ok) {
+    return { ok: false, mode: "supabase", reason: await response.text() };
+  }
+
+  return { ok: true, mode: "supabase" };
+}
+
 function supabaseHeaders({ prefer }: { prefer: string }) {
   const key = process.env.SUPABASE_SERVICE_ROLE_KEY ?? "";
 
