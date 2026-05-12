@@ -93,4 +93,10 @@ function writeFavorite(favorite: Favorite, active: boolean) {
   window.dispatchEvent(new Event(favoritesEvent));
 }
 
+export function removeFavorite(type: OpportunityType, id: string) {
+  const favorites = readFavorites().filter((item) => !(item.id === id && item.type === type));
+  window.localStorage.setItem(favoritesKey, JSON.stringify(favorites));
+  window.dispatchEvent(new Event(favoritesEvent));
+}
+
 export { favoritesEvent };

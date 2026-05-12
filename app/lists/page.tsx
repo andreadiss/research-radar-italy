@@ -3,6 +3,8 @@ import type { Route } from "next";
 import { Bookmark, ExternalLink } from "lucide-react";
 import { AccountNav } from "@/app/components/AccountNav";
 import { LocalFavoritesList } from "@/app/components/LocalFavoritesList";
+import { OpportunityPreview } from "@/app/components/OpportunityPreview";
+import { RemoveFavoriteButton } from "@/app/components/RemoveFavoriteButton";
 import { grants } from "@/lib/grants";
 import { positions } from "@/lib/positions";
 import { getCurrentAccount } from "@/lib/server/session";
@@ -20,7 +22,11 @@ type SavedListItem = {
   key: string;
   label: string;
   meta: string;
+  opportunityId: string;
+  opportunityType: "position" | "grant";
   savedAt: string;
+  sourceHref?: string;
+  summary: string;
   title: string;
 };
 
@@ -69,10 +75,23 @@ export default async function ListsPage() {
                       <p>{item.meta}</p>
                       <small>Salvata il {formatDate(item.savedAt)}</small>
                     </div>
-                    <Link className="button secondary" href={item.detailHref}>
-                      <ExternalLink size={16} />
-                      Apri
-                    </Link>
+                    <div className="saved-list-actions">
+                      <OpportunityPreview
+                        detailHref={item.detailHref}
+                        meta={item.meta}
+                        sourceHref={item.sourceHref}
+                        summary={item.summary}
+                        title={item.title}
+                        triggerClassName="button secondary"
+                      >
+                        Anteprima
+                      </OpportunityPreview>
+                      <Link className="button secondary" href={item.detailHref}>
+                        <ExternalLink size={16} />
+                        Apri
+                      </Link>
+                      <RemoveFavoriteButton opportunityId={item.opportunityId} opportunityType={item.opportunityType} />
+                    </div>
                   </article>
                 ))}
               </div>
@@ -95,7 +114,7 @@ async function getSavedItems(profileId: string): Promise<SavedListItem[]> {
   if (!result.ok) return [];
 
   return result.data
-    .map((row) => {
+    .map((row): SavedListItem | undefined => {
       if (row.opportunity_type === "grant") {
         const grant = grants.find((item) => item.id === row.opportunity_id);
         if (!grant) return undefined;
@@ -105,7 +124,11 @@ async function getSavedItems(profileId: string): Promise<SavedListItem[]> {
           key: `grant:${grant.id}`,
           label: "Grant",
           meta: `${grant.program} / ${grant.funder}`,
+          opportunityId: grant.id,
+          opportunityType: "grant" as const,
           savedAt: row.created_at,
+          sourceHref: grant.sourceUrl,
+          summary: grant.summary,
           title: grant.title
         };
       }
@@ -118,7 +141,11 @@ async function getSavedItems(profileId: string): Promise<SavedListItem[]> {
         key: `position:${position.id}`,
         label: "Posizione",
         meta: `${position.institution} / ${position.ssd}`,
+        opportunityId: position.id,
+        opportunityType: "position" as const,
         savedAt: row.created_at,
+        sourceHref: position.sourceUrl,
+        summary: position.summary,
         title: position.title
       };
     })

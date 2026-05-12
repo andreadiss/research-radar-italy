@@ -5,6 +5,8 @@ import type { Route } from "next";
 import { Bookmark, ExternalLink } from "lucide-react";
 import { useEffect, useState } from "react";
 import { favoritesEvent, readFavorites, type Favorite } from "@/app/components/OpportunityActions";
+import { OpportunityPreview } from "@/app/components/OpportunityPreview";
+import { RemoveFavoriteButton } from "@/app/components/RemoveFavoriteButton";
 
 type LocalFavoritesListProps = {
   excludedKeys: string[];
@@ -53,10 +55,22 @@ export function LocalFavoritesList({ excludedKeys, showEmptyState }: LocalFavori
             <h2>{favorite.title}</h2>
             <p>Salvata su questo browser</p>
           </div>
-          <Link className="button secondary" href={favorite.detailHref as Route}>
-            <ExternalLink size={16} />
-            Apri
-          </Link>
+          <div className="saved-list-actions">
+            <OpportunityPreview
+              detailHref={favorite.detailHref as Route}
+              meta="Preferito salvato nel browser"
+              summary="Apri l'anteprima per riprendere il bando senza lasciare subito questa pagina."
+              title={favorite.title}
+              triggerClassName="button secondary"
+            >
+              Anteprima
+            </OpportunityPreview>
+            <Link className="button secondary" href={favorite.detailHref as Route}>
+              <ExternalLink size={16} />
+              Apri
+            </Link>
+            <RemoveFavoriteButton opportunityId={favorite.id} opportunityType={favorite.type} />
+          </div>
         </article>
       ))}
     </div>

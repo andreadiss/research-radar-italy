@@ -4,10 +4,12 @@ import { CalendarClock, FileText, ListChecks, MapPin, Search } from "lucide-reac
 import { AccountNav } from "@/app/components/AccountNav";
 import { FloatingIntentMenu } from "@/app/components/FloatingIntentMenu";
 import { OpportunityActions } from "@/app/components/OpportunityActions";
+import { OpportunityPreview } from "@/app/components/OpportunityPreview";
 import { positionTypes } from "@/lib/filters";
 import { grants } from "@/lib/grants";
 import { positions } from "@/lib/positions";
 import { getCurrentAccount } from "@/lib/server/session";
+import { selectSupabase } from "@/lib/server/supabase-rest";
 import type { GrantOpportunity } from "@/lib/types";
 
 type SearchParams = {
@@ -26,6 +28,11 @@ type Intent = "home" | "posizioni" | "bandi";
 type SubjectChip = {
   label: string;
   filters: Pick<SearchParams, "q" | "discipline">;
+};
+
+type SavedOpportunityRow = {
+  opportunity_id: string;
+  opportunity_type: "position" | "grant";
 };
 
 const subjectChips: SubjectChip[] = [
@@ -51,6 +58,7 @@ export default async function Home({
   searchParams: SearchParams;
 }) {
   const account = await getCurrentAccount();
+  const savedPreview = account?.profileId ? await getSavedPreview(account.profileId) : undefined;
   const intent: Intent =
     searchParams.intent === "bandi" ? "bandi" : searchParams.intent === "posizioni" ? "posizioni" : "home";
   const intentPositions = positions;
@@ -59,7 +67,7 @@ export default async function Home({
   const closingSoon = filtered.filter((position) => daysUntil(position.deadline) <= 14).length;
   const newPositionsToday = intentPositions.filter((position) => isToday(position.publishedAt)).length;
   const newGrantsToday = visibleGrants.filter((grant) => grant.publishedAt && isToday(grant.publishedAt)).length;
-  const canShowPositionResults = Boolean(searchParams.type || searchParams.discipline);
+  const canShowPositionResults = selectedValues(searchParams.type).length > 0 || selectedValues(searchParams.discipline).length > 0;
   const heroTitle =
     intent === "home"
       ? "Trova opportunità accademiche in Italia."
@@ -108,7 +116,11 @@ export default async function Home({
               <ListChecks size={20} />
               <span>
                 <strong>Riprendi dai preferiti</strong>
-                <small>Vai a Le mie liste e continua dalle opportunità salvate.</small>
+                <small>
+                  {savedPreview && savedPreview.count > 0
+                    ? `${savedPreview.count} salvate, ultima: ${savedPreview.title}`
+                    : "Vai a Le mie liste e continua dalle opportunità salvate."}
+                </small>
               </span>
             </Link>
           ) : null}
@@ -138,7 +150,7 @@ export default async function Home({
 
                     return (
                       <Link
-                        className={chipClass(searchParams.type === type)}
+                        className={chipClass(paramHasValue(searchParams.type, type))}
                         href={filterHref(searchParams, "type", type)}
                         key={type}
                       >
@@ -215,9 +227,16 @@ export default async function Home({
                       />
                     </div>
                   </div>
-                  <Link className="card-main-link" href={`/positions/${position.id}`}>
+                  <OpportunityPreview
+                    detailHref={`/positions/${position.id}` as Route}
+                    meta={`${position.institution} / ${position.ssd} / ${position.location}`}
+                    sourceHref={position.sourceUrl}
+                    summary={position.summary}
+                    title={position.title}
+                    triggerClassName="card-main-link preview-title-button"
+                  >
                     <h3 className="job-title">{position.title}</h3>
-                  </Link>
+                  </OpportunityPreview>
                   <p className="job-summary">{position.summary}</p>
                   <div className="job-meta">
                     <span>
@@ -476,7 +495,16 @@ function filterHref(searchParams: SearchParams, key: keyof SearchParams, value: 
     }
   }
 
-  if (searchParams[key] === value) {
+  const currentValue = searchParams[key];
+
+  if (key === "type" || key === "discipline") {
+    const nextValues = toggleValue(currentValue, value);
+    if (nextValues.length > 0) {
+      params.set(key, nextValues.join("|"));
+    } else {
+      params.delete(key);
+    }
+  } else if (currentValue === value) {
     params.delete(key);
   } else {
     params.set(key, value);
@@ -494,16 +522,17 @@ function subjectHref(searchParams: SearchParams, filters: SubjectChip["filters"]
   const params = new URLSearchParams();
 
   for (const [paramKey, paramValue] of Object.entries(searchParams)) {
-    if (paramValue && paramKey !== "q" && paramKey !== "discipline") {
+    if (paramValue && paramKey !== "q") {
       params.set(paramKey, paramValue);
     }
   }
 
-  if (!subjectActive(searchParams, filters)) {
-    for (const [paramKey, paramValue] of Object.entries(filters)) {
-      if (paramValue) {
-        params.set(paramKey, paramValue);
-      }
+  if (filters.discipline) {
+    const nextValues = toggleValue(searchParams.discipline, filters.discipline);
+    if (nextValues.length > 0) {
+      params.set("discipline", nextValues.join("|"));
+    } else {
+      params.delete("discipline");
     }
   }
 
@@ -514,7 +543,7 @@ function subjectHref(searchParams: SearchParams, filters: SubjectChip["filters"]
 function subjectActive(searchParams: SearchParams, filters: SubjectChip["filters"]) {
   return (
     (!filters.q || searchParams.q === filters.q) &&
-    (!filters.discipline || searchParams.discipline === filters.discipline)
+    (!filters.discipline || paramHasValue(searchParams.discipline, filters.discipline))
   );
 }
 
@@ -579,11 +608,49 @@ function matchesFilters(position: (typeof positions)[number], searchParams: Sear
 
   return (
     (!query || haystack.includes(query)) &&
-    (!searchParams.type || position.positionType === searchParams.type) &&
-    (!searchParams.discipline || position.discipline === searchParams.discipline) &&
+    (selectedValues(searchParams.type).length === 0 || selectedValues(searchParams.type).includes(position.positionType)) &&
+    (selectedValues(searchParams.discipline).length === 0 || selectedValues(searchParams.discipline).includes(position.discipline)) &&
     (!searchParams.region || position.region === searchParams.region) &&
     (!searchParams.funding || position.fundingType === searchParams.funding)
   );
+}
+
+function selectedValues(value?: string) {
+  return String(value ?? "")
+    .split("|")
+    .map((item) => item.trim())
+    .filter(Boolean);
+}
+
+async function getSavedPreview(profileId: string) {
+  const result = await selectSupabase<SavedOpportunityRow>("saved_opportunities", {
+    select: "opportunity_id,opportunity_type",
+    profile_id: `eq.${profileId}`,
+    order: "created_at.desc",
+    limit: "20"
+  });
+
+  if (!result.ok || result.data.length === 0) return { count: 0, title: "" };
+
+  const latest = result.data[0];
+  const match =
+    latest.opportunity_type === "grant"
+      ? grants.find((grant) => grant.id === latest.opportunity_id)
+      : positions.find((position) => position.id === latest.opportunity_id);
+
+  return {
+    count: result.data.length,
+    title: match?.title ?? "preferito salvato"
+  };
+}
+
+function paramHasValue(currentValue: string | undefined, value: string) {
+  return selectedValues(currentValue).includes(value);
+}
+
+function toggleValue(currentValue: string | undefined, value: string) {
+  const values = selectedValues(currentValue);
+  return values.includes(value) ? values.filter((item) => item !== value) : [...values, value];
 }
 
 function grantCount(
