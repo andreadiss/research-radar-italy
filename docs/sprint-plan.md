@@ -1,4 +1,4 @@
-# Sprint Plan
+﻿# Sprint Plan
 
 ## Planning Principle
 
@@ -385,3 +385,58 @@ Exit criteria:
 - The public product reports pageviews and Core Web Vitals in Vercel.
 - The main funnel actions emit named analytics events.
 - The monetization path is documented before payment UI is added.
+
+## Sprint 9 - SEO and Online Positioning
+
+Goal: make the public release discoverable through Google and social sharing while keeping the product focused on official academic opportunities.
+
+Customer value:
+
+- Helps candidates discover Research Radar from high-intent searches.
+- Builds trust by making sources, deadlines and opportunity details visible to search engines.
+- Creates a foundation for future content, newsletter growth and monetization.
+
+Scope:
+
+- Add technical SEO primitives: metadata, canonical URLs, sitemap, robots and structured data.
+- Define positioning and priority organic queries.
+- Prepare Search Console setup and sitemap submission.
+- Plan landing pages for high-intent segments.
+
+Activities and priorities:
+
+### P0
+
+- [x] Add global metadata for the public site.
+- [x] Add dynamic metadata for HP, `Posizioni aperte`, `Grants & Funding`, position details and grant details.
+- [x] Add `sitemap.xml` and `robots.txt` routes.
+- [x] Add `JobPosting` structured data for position details.
+- [x] Add `Grant` structured data for funding details.
+- [ ] Connect Google Search Console and submit sitemap.
+
+### P1
+
+- [ ] Add high-intent landing pages for dottorati, postdoc, contratti di ricerca, PRIN, MSCA and ERC.
+- [ ] Add internal links from HP and listing views to the landing pages.
+- [ ] Add custom Open Graph image.
+- [x] Add auth-aware homepage next-best-action card pattern.
+- [x] Add About, Privacy, Cookie and Terms pages.
+- [ ] Add Contact page.
+
+### P2
+
+- [ ] Add FAQ schema and evergreen explainers for MUR/Cineca, PRIN, MSCA and ERC.
+- [ ] Review Search Console queries after the first indexing cycle.
+- [ ] Use query data to refine filters, titles and landing pages.
+
+Decision rule:
+
+- Whenever a new feature is added, decide explicitly whether it should become a homepage Next Best Action and for which user state: anonymous, logged-in, saved-items present, or no saved-items.
+
+Exit criteria:
+- Search engines can crawl the main public pages and all generated detail pages.
+- The sitemap is submitted in Search Console.
+- Search snippets clearly communicate source, deadline and opportunity type.
+
+
+

@@ -1,4 +1,4 @@
-# Backlog
+﻿# Backlog
 
 ## User Stories
 
@@ -51,6 +51,8 @@
 - [x] Move type and subject chips into `Posizioni aperte`
 - [x] Move full Grants experience to the next dedicated Grants sprint
 - [ ] Add personalized suggestions after signup/login
+- [x] Add homepage next-best-action cards with auth-aware visibility
+- [x] Add governance note: every new feature must be evaluated for Next Best Action eligibility
 - [x] Implement Sign Up with first name, last name, email, and password
 - [x] Implement Login with email and password
 - [x] Add Google login/signup entry point through Supabase Auth
@@ -106,6 +108,15 @@
 
 ## P3 - Growth and Monetization
 
+- [x] Add SEO metadata baseline for HP, positions listing, Grants listing and detail pages
+- [x] Add sitemap and robots routes for Google indexing
+- [x] Add structured data for position detail pages and grant detail pages
+- [ ] Connect Google Search Console and submit sitemap
+- [ ] Add SEO landing pages by high-intent query: dottorati, postdoc, contratti di ricerca, PRIN, MSCA, ERC
+- [x] Add About, Privacy, Cookie and Terms pages before ad-network applications
+- [ ] Add Contact page
+- [ ] Add custom Open Graph image for social sharing
+- [ ] Add content/positioning plan for organic acquisition
 - [x] Add Vercel Web Analytics and Speed Insights baseline
 - [x] Track core product funnel events: home intent, filters, previews, detail opens, source opens, saves, auth CTAs
 - [ ] Add analytics event review dashboard for activation and conversion
@@ -118,3 +129,8 @@
 - [ ] Analytics for institutions
 - [ ] Premium alerts
 - [ ] API access
+
+
+
+
+

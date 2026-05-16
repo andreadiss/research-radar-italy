@@ -1,8 +1,9 @@
-import Link from "next/link";
-import type { Route } from "next";
+﻿import Link from "next/link";
+import type { Metadata, Route } from "next";
 import { CalendarClock, FileText, ListChecks, MapPin, Search } from "lucide-react";
 import { AccountNav } from "@/app/components/AccountNav";
 import { FloatingIntentMenu } from "@/app/components/FloatingIntentMenu";
+import { NextBestActions } from "@/app/components/NextBestActions";
 import { OpportunityActions } from "@/app/components/OpportunityActions";
 import { OpportunityPreview } from "@/app/components/OpportunityPreview";
 import { TrackedLink } from "@/app/components/TrackedLink";
@@ -52,6 +53,47 @@ const subjectChips: SubjectChip[] = [
 
 const visibleGrants = grants.filter(isVisibleGrant);
 const grantPrograms = Array.from(new Set(visibleGrants.map((grant) => grant.program))).sort();
+
+export function generateMetadata({ searchParams }: { searchParams: SearchParams }): Metadata {
+  const intent: Intent =
+    searchParams.intent === "bandi" ? "bandi" : searchParams.intent === "posizioni" ? "posizioni" : "home";
+
+  if (intent === "posizioni") {
+    return {
+      title: "Posizioni accademiche aperte in Italia",
+      description:
+        "Cerca posizioni accademiche aperte in Italia: dottorati, RTT, postdoc, contratti, incarichi di ricerca, tecnologi e professori da fonti MUR/Cineca.",
+      alternates: { canonical: "https://research-radar-italy.vercel.app/?intent=posizioni" },
+      openGraph: {
+        title: "Posizioni accademiche aperte in Italia",
+        description:
+          "Filtra bandi MUR/Cineca per tipo di posizione e materia, con scadenze e fonti ufficiali.",
+        url: "https://research-radar-italy.vercel.app/?intent=posizioni"
+      }
+    };
+  }
+
+  if (intent === "bandi") {
+    return {
+      title: "Grants & Funding per ricerca in Italia",
+      description:
+        "Trova grant e funding call per la ricerca: PRIN, PNRR, ERC, MSCA e Horizon Europe, con link alle fonti ufficiali.",
+      alternates: { canonical: "https://research-radar-italy.vercel.app/?intent=bandi" },
+      openGraph: {
+        title: "Grants & Funding per ricerca in Italia",
+        description: "Funding call e fonti ufficiali per ricercatori, dottorandi e team accademici.",
+        url: "https://research-radar-italy.vercel.app/?intent=bandi"
+      }
+    };
+  }
+
+  return {
+    title: "Research Radar Italy | Posizioni accademiche e grant in Italia",
+    description:
+      "Trova posizioni accademiche, dottorati, postdoc, contratti di ricerca e grants in Italia da fonti ufficiali.",
+    alternates: { canonical: "https://research-radar-italy.vercel.app" }
+  };
+}
 
 export default async function Home({
   searchParams
@@ -122,6 +164,7 @@ export default async function Home({
               </TrackedLink>
             </div>
           ) : null}
+          {intent === "home" ? <NextBestActions isAuthenticated={Boolean(account)} /> : null}
           {intent === "home" && account ? (
             <TrackedLink
               className="next-action-card"
@@ -305,6 +348,7 @@ export default async function Home({
       </section>
       ) : null}
 
+
       {intent === "bandi" ? (
       <section className="workspace">
         <div className="results">
@@ -387,6 +431,12 @@ export default async function Home({
         </div>
       </section>
       ) : null}
+      <footer className="site-footer" aria-label="Informazioni sul sito">
+        <Link href="/about">About</Link>
+        <Link href="/privacy">Privacy</Link>
+        <Link href="/cookie">Cookie</Link>
+        <Link href="/terms">Terms</Link>
+      </footer>
     </main>
   );
 }
@@ -756,4 +806,13 @@ function buildHaystack(position: (typeof positions)[number]) {
     .join(" ")
     .toLowerCase();
 }
+
+
+
+
+
+
+
+
+
 

@@ -1,12 +1,48 @@
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { CalendarClock, ExternalLink, FileText } from "lucide-react";
+import { ExternalLink, FileText } from "lucide-react";
 import { AccountNav } from "@/app/components/AccountNav";
 import { getGrantById, grants } from "@/lib/grants";
+import { absoluteUrl, isoDate, jsonLd, truncateText } from "@/lib/seo";
 import type { GrantOpportunity } from "@/lib/types";
 
 export function generateStaticParams() {
   return grants.map((grant) => ({ id: grant.id }));
+}
+
+export function generateMetadata({ params }: { params: { id: string } }): Metadata {
+  const grant = getGrantById(params.id);
+
+  if (!grant) {
+    return {
+      title: "Grant non trovato",
+      robots: { index: false, follow: false }
+    };
+  }
+
+  const title = `${grant.title} - ${grant.program}`;
+  const description = truncateText(
+    `${grant.summary} Scadenza: ${formatGrantDeadline(grant.deadline)}. Fonte: ${grant.sourceName}.`
+  );
+  const url = `/grants/${grant.id}`;
+
+  return {
+    title,
+    description,
+    alternates: { canonical: url },
+    openGraph: {
+      type: "article",
+      title,
+      description,
+      url
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description
+    }
+  };
 }
 
 export default function GrantDetailPage({ params }: { params: { id: string } }) {
@@ -16,8 +52,28 @@ export default function GrantDetailPage({ params }: { params: { id: string } }) 
     notFound();
   }
 
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Grant",
+    name: grant.title,
+    description: truncateText(grant.summary, 4000),
+    funder: {
+      "@type": "Organization",
+      name: grant.funder
+    },
+    sponsor: {
+      "@type": "Organization",
+      name: grant.sourceName
+    },
+    keywords: [grant.program, grant.discipline].filter(Boolean),
+    applicationDeadline: isoDate(grant.deadline),
+    url: absoluteUrl(`/grants/${grant.id}`),
+    sameAs: grant.sourceUrl
+  };
+
   return (
     <main className="shell">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(structuredData) }} />
       <header className="topbar">
         <Link className="brand" href="/" aria-label="Torna alla home page">
           <span className="brand-mark">R</span>
