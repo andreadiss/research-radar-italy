@@ -27,6 +27,7 @@ Move from mock-only product to a MUR/Cineca-backed MVP data flow.
 - MUR coverage audit added with `npm run audit:mur`.
 - Full MUR sync added with `npm run sync:mur:all`.
 - Full open-call sync completed on 2026-05-05: 690 live MUR records, 690 frontend positions, 0 missing live records.
+- Full open-call sync refreshed on 2026-05-16: 809 live MUR records across the 8 public categories, 809 frontend positions, 0 missing live records. `Assegni di ricerca` currently has 0 open calls on the official MUR endpoint.
 - Intent-driven top navigation added for `Posizioni aperte` and `Bandi e funding`, with type and discipline as second-level chips.
 
 ## In Progress
@@ -44,7 +45,7 @@ Move from mock-only product to a MUR/Cineca-backed MVP data flow.
 ## Verification
 
 - `npm run sync:mur:all` imported 690 open MUR records across the 8 public categories.
-- `npm run audit:mur` reports 690 live open records, 690 stored frontend positions, and 0 missing live records.
+- `npm run audit:mur` reports 809 live open records and 0 missing live records after the 2026-05-16 refresh.
 - `npm run typecheck` passed.
 - `npm run persist:supabase` fails safely until Supabase environment variables are configured.
-- `next build` is still blocked on this Windows environment by `spawn EPERM` while Next tries to start build workers.
+- `next build` passed after the 2026-05-16 refresh.

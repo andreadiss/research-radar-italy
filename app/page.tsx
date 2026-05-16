@@ -160,7 +160,7 @@ export default async function Home({
               <div className="quick-filter-group">
                 <span className="quick-filter-label">Tipo</span>
                 <div className="chip-row">
-                  {positionTypes.slice(0, 6).map((type) => {
+                  {positionTypes.map((type) => {
                     const count = filterCount(intentPositions, searchParams, { type });
                     const freshCount = freshPositionCount(intentPositions, searchParams, { type });
 

@@ -26,6 +26,7 @@ Sprint 4 has started. The core positions flow and the first Grants/funding basel
 - `npm run audit:grants` writes Grants coverage/freshness metrics.
 - Grants/funding now has a daily GitHub Actions refresh and `firstSeenAt` tracking for new-call badges.
 - MUR/Cineca positions now have a daily GitHub Actions refresh that persists to Supabase, updates `lib/generated/mur-positions.json`, and triggers Vercel redeploys when data changes.
+- Latest local MUR refresh on 2026-05-16 covers 809 live open records with 0 missing live records. The `Tipo` filter now exposes all MUR position families, including `Assegno` when the official endpoint returns current calls.
 - Supabase dedupe keys are now indexed but not unique, because official MUR records with matching dedupe keys must remain visible for review.
 - Logged-in users can save positions and grants with a single bookmark action and revisit them from `Le mie liste`.
 

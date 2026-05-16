@@ -25,6 +25,7 @@
 - [x] Add single `sync:mur` command for import + normalize + cache
 - [x] Add full MUR sync and live coverage audit
 - [x] Add daily GitHub Action to refresh MUR positions and trigger Vercel redeploys
+- [x] Keep all MUR position families visible in `Tipo` filters, including categories with zero current open calls
 - [x] Add production deduplication by URL, title, institution, and deadline
 - [x] Add deadline status: open, closing soon, expired
 - [x] Add newsletter signup
