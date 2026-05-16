@@ -1330,6 +1330,7 @@ select {
   border: 1px solid var(--line);
   color: var(--ink);
   display: inline-flex;
+  gap: 10px;
   justify-content: center;
   min-height: 46px;
 }
@@ -1337,6 +1338,12 @@ select {
 .google-auth-button:hover {
   background: var(--surface-2);
   border-color: #b8c8c0;
+}
+
+.google-mark {
+  flex: 0 0 auto;
+  height: 18px;
+  width: 18px;
 }
 
 .auth-divider {
