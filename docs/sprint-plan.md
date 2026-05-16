@@ -215,6 +215,7 @@ Activities and priorities:
 ### P0
 
 - [x] Add Supabase Auth or equivalent auth flow for email/password accounts.
+- [x] Add Google login/signup through Supabase Auth. Production setup still requires enabling the Google provider and adding `/auth/callback` to allowed redirect URLs in Supabase.
 - [x] Store user profile fields: first name, last name, email.
 - [x] Add login and signup forms with validation and error states.
 - [x] Create session-aware header states: logged out, logged in.

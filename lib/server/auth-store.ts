@@ -50,6 +50,53 @@ export async function loginAccount(input: { email: string; password: string }) {
   return loginLocal(input);
 }
 
+export async function completeOAuthSession(accessToken: string) {
+  if (!isSupabaseAuthConfigured()) {
+    return { ok: false as const, reason: "Accesso Google non configurato." };
+  }
+
+  const response = await fetch(`${supabaseProjectUrl()}/auth/v1/user`, {
+    headers: {
+      apikey: process.env.SUPABASE_ANON_KEY ?? "",
+      authorization: `Bearer ${accessToken}`
+    }
+  });
+
+  const payload = (await response.json()) as {
+    id?: string;
+    email?: string;
+    user_metadata?: Record<string, string | undefined>;
+    error_description?: string;
+    msg?: string;
+  };
+
+  if (!response.ok || !payload.email) {
+    return { ok: false as const, reason: payload.error_description ?? payload.msg ?? "Accesso Google non riuscito." };
+  }
+
+  const names = namesFromMetadata(payload.user_metadata ?? {}, payload.email);
+
+  await persistProfile({
+    authUserId: payload.id,
+    email: payload.email,
+    firstName: names.firstName,
+    lastName: names.lastName,
+    emailOptIn: false
+  });
+
+  return {
+    ok: true as const,
+    session: {
+      accessToken,
+      account: {
+        email: payload.email,
+        firstName: names.firstName,
+        lastName: names.lastName
+      }
+    }
+  };
+}
+
 export async function getLocalSession(token: string | undefined): Promise<AccountSession | undefined> {
   if (!token) return undefined;
   const sessions = await readJson<LocalSession[]>(sessionsPath, []);
@@ -289,6 +336,15 @@ function verifyPassword(password: string, salt: string, expectedHash: string) {
 
 function normalizeEmail(email: string) {
   return email.trim().toLowerCase();
+}
+
+function namesFromMetadata(metadata: Record<string, string | undefined>, email: string) {
+  const fullName = metadata.full_name ?? metadata.name ?? "";
+  const [firstFromFullName, ...restFromFullName] = fullName.trim().split(/\s+/).filter(Boolean);
+  const firstName = metadata.first_name ?? metadata.given_name ?? firstFromFullName ?? email.split("@")[0];
+  const lastName = metadata.last_name ?? metadata.family_name ?? restFromFullName.join(" ") ?? "";
+
+  return { firstName, lastName };
 }
 
 async function readJson<T>(filePath: string, fallback: T) {

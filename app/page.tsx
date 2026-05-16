@@ -174,7 +174,9 @@ export default async function Home({
                       >
                         {type}
                         <small>{count}</small>
-                        {freshCount > 0 ? <span className="fresh-chip-badge">{freshLabel(freshCount)}</span> : null}
+                        {freshCount > 0 ? (
+                          <span className="fresh-chip-badge" aria-label={freshLabel(freshCount)} title={freshLabel(freshCount)} />
+                        ) : null}
                       </TrackedLink>
                     );
                   })}
@@ -200,7 +202,9 @@ export default async function Home({
                       >
                         {chip.label}
                         <small>{subjectCount(intentPositions, searchParams, chip.filters)}</small>
-                        {freshCount > 0 ? <span className="fresh-chip-badge">{freshLabel(freshCount)}</span> : null}
+                        {freshCount > 0 ? (
+                          <span className="fresh-chip-badge" aria-label={freshLabel(freshCount)} title={freshLabel(freshCount)} />
+                        ) : null}
                       </TrackedLink>
                     );
                   })}

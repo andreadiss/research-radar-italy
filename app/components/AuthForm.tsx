@@ -3,6 +3,7 @@
 import { useRouter } from "next/navigation";
 import { useSearchParams } from "next/navigation";
 import type { Route } from "next";
+import { track } from "@vercel/analytics";
 import { useState } from "react";
 
 type AuthFormProps =
@@ -19,6 +20,12 @@ export function AuthForm({ mode }: AuthFormProps) {
   const [status, setStatus] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
   const isSignup = mode === "signup";
+  const authError = searchParams.get("authError");
+
+  function startGoogleAuth() {
+    track("auth_google_clicked", { mode });
+    window.location.href = `/api/auth/google?returnTo=${encodeURIComponent(safeReturnTo(searchParams.get("returnTo")))}`;
+  }
 
   async function submit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -59,6 +66,12 @@ export function AuthForm({ mode }: AuthFormProps) {
 
   return (
     <form className="auth-form" onSubmit={submit}>
+      <button className="button google-auth-button" onClick={startGoogleAuth} type="button">
+        Continua con Google
+      </button>
+      <div className="auth-divider">
+        <span>oppure</span>
+      </div>
       {isSignup ? (
         <>
           <label>
@@ -95,6 +108,9 @@ export function AuthForm({ mode }: AuthFormProps) {
       <button className="button primary" disabled={isSubmitting} type="submit">
         {isSubmitting ? "Attendi..." : isSignup ? "Crea account" : "Accedi"}
       </button>
+      {authError === "google-unavailable" ? (
+        <p className="action-status">Accesso Google non configurato in questo ambiente.</p>
+      ) : null}
       {status ? <p className="action-status">{status}</p> : null}
     </form>
   );

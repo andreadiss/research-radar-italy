@@ -52,6 +52,7 @@
 - [ ] Add personalized suggestions after signup/login
 - [x] Implement Sign Up with first name, last name, email, and password
 - [x] Implement Login with email and password
+- [x] Add Google login/signup entry point through Supabase Auth
 - [ ] Restore saved positions and grants after login
 - [ ] Add `Suggeriti per te` box on HP for authenticated users
 - [x] Make saved searches and alerts account-aware after login
@@ -71,6 +72,7 @@
 - [x] Add Grants audit report
 - [x] Add daily GitHub Action to refresh Grants/funding cache
 - [x] Add `firstSeenAt` tracking so new Grants can be surfaced in the UI
+- [x] Show filter-level new-call signals as small green dots instead of text badges
 - [x] Split Grants listing into open calls and monitored sources
 - [x] Add Grants status filter
 - [x] Favorites
