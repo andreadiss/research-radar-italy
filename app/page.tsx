@@ -1,8 +1,9 @@
 ﻿import Link from "next/link";
 import type { Metadata, Route } from "next";
-import { CalendarClock, FileText, ListChecks, MapPin, Search } from "lucide-react";
+import { CalendarClock, FileText, MapPin, Search } from "lucide-react";
 import { AccountNav } from "@/app/components/AccountNav";
 import { FloatingIntentMenu } from "@/app/components/FloatingIntentMenu";
+import { HomeFavoritesPreview } from "@/app/components/HomeFavoritesPreview";
 import { NextBestActions } from "@/app/components/NextBestActions";
 import { OpportunityActions } from "@/app/components/OpportunityActions";
 import { OpportunityPreview } from "@/app/components/OpportunityPreview";
@@ -128,7 +129,7 @@ export default async function Home({
         <AccountNav />
       </header>
 
-      <section className="hero">
+      <section className={heroClass(intent)}>
         <div className="hero-main">
           <h1>{heroTitle}</h1>
           <AuthFeedback status={searchParams.auth} />
@@ -166,22 +167,7 @@ export default async function Home({
           ) : null}
           {intent === "home" ? <NextBestActions isAuthenticated={Boolean(account)} /> : null}
           {intent === "home" && account ? (
-            <TrackedLink
-              className="next-action-card"
-              event="favorites_resume_clicked"
-              href="/lists"
-              properties={{ saved_count: savedPreview?.count ?? 0 }}
-            >
-              <ListChecks size={20} />
-              <span>
-                <strong>Riprendi dai preferiti</strong>
-                <small>
-                  {savedPreview && savedPreview.count > 0
-                    ? `${savedPreview.count} salvate, ultima: ${savedPreview.title}`
-                    : "Vai a Le mie liste e continua dalle opportunità salvate."}
-                </small>
-              </span>
-            </TrackedLink>
+            <HomeFavoritesPreview count={savedPreview?.count ?? 0} items={savedPreview?.items ?? []} />
           ) : null}
         </div>
       </section>
@@ -708,6 +694,14 @@ function selectedValues(value?: string) {
     .filter(Boolean);
 }
 
+function heroClass(intent: Intent) {
+  return intent === "posizioni"
+    ? "hero detail-hero positions-hero"
+    : intent === "bandi"
+      ? "hero detail-hero grants-hero"
+      : "hero";
+}
+
 async function getSavedPreview(profileId: string) {
   const result = await selectSupabase<SavedOpportunityRow>("saved_opportunities", {
     select: "opportunity_id,opportunity_type",
@@ -716,17 +710,27 @@ async function getSavedPreview(profileId: string) {
     limit: "20"
   });
 
-  if (!result.ok || result.data.length === 0) return { count: 0, title: "" };
+  if (!result.ok || result.data.length === 0) return { count: 0, items: [] };
 
-  const latest = result.data[0];
-  const match =
-    latest.opportunity_type === "grant"
-      ? grants.find((grant) => grant.id === latest.opportunity_id)
-      : positions.find((position) => position.id === latest.opportunity_id);
+  const items = result.data
+    .map((row) => {
+      const match =
+        row.opportunity_type === "grant"
+          ? grants.find((grant) => grant.id === row.opportunity_id)
+          : positions.find((position) => position.id === row.opportunity_id);
+
+      if (!match) return undefined;
+
+      return {
+        label: row.opportunity_type === "grant" ? "Grant" : "Posizione",
+        title: match.title
+      };
+    })
+    .filter((item): item is { label: string; title: string } => Boolean(item));
 
   return {
     count: result.data.length,
-    title: match?.title ?? "preferito salvato"
+    items
   };
 }
 
