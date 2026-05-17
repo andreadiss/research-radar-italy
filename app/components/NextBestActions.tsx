@@ -2,7 +2,7 @@
 
 import type { Route } from "next";
 import { BookmarkCheck, ChevronLeft, ChevronRight, Search, Send, Sparkles, Star } from "lucide-react";
-import { useRef, useState } from "react";
+import { useRef, useState, type PointerEvent } from "react";
 import { TrackedLink } from "@/app/components/TrackedLink";
 
 type NextBestAction = {
@@ -20,7 +20,7 @@ type NextBestAction = {
 
 export function NextBestActions({ isAuthenticated }: { isAuthenticated: boolean }) {
   const trackRef = useRef<HTMLDivElement>(null);
-  const touchStartX = useRef<number | null>(null);
+  const pointerStartX = useRef<number | null>(null);
   const [activeIndex, setActiveIndex] = useState(0);
   const actions: NextBestAction[] = [];
 
@@ -84,15 +84,15 @@ export function NextBestActions({ isAuthenticated }: { isAuthenticated: boolean 
     setActiveIndex(nextIndex);
   }
 
-  function handleTouchStart(event: React.TouchEvent<HTMLDivElement>) {
-    touchStartX.current = event.touches[0]?.clientX ?? null;
+  function handlePointerStart(event: PointerEvent<HTMLDivElement>) {
+    pointerStartX.current = event.clientX;
   }
 
-  function handleTouchEnd(event: React.TouchEvent<HTMLDivElement>) {
-    if (touchStartX.current === null) return;
+  function handlePointerEnd(event: PointerEvent<HTMLDivElement>) {
+    if (pointerStartX.current === null) return;
 
-    const deltaX = event.changedTouches[0]?.clientX - touchStartX.current;
-    touchStartX.current = null;
+    const deltaX = event.clientX - pointerStartX.current;
+    pointerStartX.current = null;
 
     if (Math.abs(deltaX) < 36) return;
     scrollActions(deltaX < 0 ? "right" : "left");
@@ -110,8 +110,8 @@ export function NextBestActions({ isAuthenticated }: { isAuthenticated: boolean 
       </button>
       <div
         className="next-best-track"
-        onTouchEnd={handleTouchEnd}
-        onTouchStart={handleTouchStart}
+        onPointerDown={handlePointerStart}
+        onPointerUp={handlePointerEnd}
         ref={trackRef}
       >
         {orderedActions.map(({ action, originalIndex }, index) => (

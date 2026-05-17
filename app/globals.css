@@ -2026,19 +2026,29 @@ select {
 }
 
 @media (max-width: 640px) {
+  .next-best-actions {
+    overflow: hidden;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+  }
+
   .next-best-track {
-    max-width: min(430px, 100%);
-    padding-inline: 38px;
+    max-width: min(360px, calc(100vw - 36px));
+    overflow: visible;
+    padding-inline: 42px 14px;
+    touch-action: pan-y pinch-zoom;
+    user-select: none;
   }
 
   .next-best-card {
-    flex-basis: min(232px, 78vw);
+    flex-basis: min(218px, calc(100vw - 128px));
     grid-template-rows: 116px minmax(0, 1fr);
     padding: 9px;
   }
 
   .next-best-card + .next-best-card {
-    margin-left: -188px;
+    margin-left: calc(-1 * min(152px, calc(100vw - 194px)));
   }
 
   .next-best-arrow {
@@ -2047,11 +2057,11 @@ select {
   }
 
   .next-best-arrow-left {
-    left: 8px;
+    left: 12px;
   }
 
   .next-best-arrow-right {
-    right: 8px;
+    right: 12px;
   }
 
   .next-best-asset {
