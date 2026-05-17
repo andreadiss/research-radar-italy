@@ -268,7 +268,6 @@ export default async function Home({
                   <div className="job-card-top">
                     <div className="badges">
                       <span className="badge type">{position.positionType}</span>
-                      <span className="badge funding">{position.fundingType}</span>
                       <span className="badge">{position.discipline}</span>
                     </div>
                     <div className="card-side-actions">

@@ -101,7 +101,6 @@ export default function PositionDetail({ params }: { params: { id: string } }) {
         <article className="detail-card">
           <div className="badges">
             <span className="badge type">{position.positionType}</span>
-            <span className="badge funding">{position.fundingType}</span>
             <span className="badge">{position.discipline}</span>
           </div>
           <h1>{position.title}</h1>

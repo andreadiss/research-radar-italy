@@ -1,7 +1,8 @@
 "use client";
 
 import type { Route } from "next";
-import { BookmarkCheck, ChevronLeft, ChevronRight, Search, Send, Sparkles, Star } from "lucide-react";
+import { BookmarkCheck, ChevronLeft, ChevronRight, Copy, Search, Send, Sparkles, Star, X } from "lucide-react";
+import { track } from "@vercel/analytics";
 import { useRef, useState, type PointerEvent } from "react";
 import { TrackedLink } from "@/app/components/TrackedLink";
 
@@ -9,7 +10,6 @@ type NextBestAction = {
   id: string;
   title: string;
   copy: string;
-  cta: string;
   href: Route;
   event: string;
   asset: "signup" | "favorite" | "share";
@@ -20,8 +20,11 @@ type NextBestAction = {
 
 export function NextBestActions({ isAuthenticated }: { isAuthenticated: boolean }) {
   const trackRef = useRef<HTMLDivElement>(null);
+  const shareInputRef = useRef<HTMLInputElement>(null);
   const pointerStartX = useRef<number | null>(null);
   const [activeIndex, setActiveIndex] = useState(0);
+  const [shareOpen, setShareOpen] = useState(false);
+  const [copied, setCopied] = useState(false);
   const actions: NextBestAction[] = [];
 
   if (!isAuthenticated) {
@@ -29,7 +32,6 @@ export function NextBestActions({ isAuthenticated }: { isAuthenticated: boolean 
       id: "signup-save-searches",
       title: "Riparti da dove eri arrivato",
       copy: "Salva ricerche, posizioni e grant. Li ritrovi appena torni.",
-      cta: "Attiva il tuo radar",
       href: "/signup?returnTo=%2F" as Route,
       event: "next_best_action_clicked",
       asset: "signup",
@@ -44,7 +46,6 @@ export function NextBestActions({ isAuthenticated }: { isAuthenticated: boolean 
       id: "browser-favorite",
       title: "Tienilo a portata di mano",
       copy: "Salva Research Radar nei preferiti del browser e torna qui quando cerchi nuovi bandi.",
-      cta: "Salvalo nei preferiti",
       href: "/" as Route,
       event: "next_best_action_clicked",
       asset: "favorite",
@@ -56,7 +57,6 @@ export function NextBestActions({ isAuthenticated }: { isAuthenticated: boolean 
       id: "share-colleagues",
       title: "Condividilo con il tuo gruppo",
       copy: "Mandalo a colleghi, dottorandi o lab: aiuta tutti a non perdere nuove call.",
-      cta: "Condividi il link",
       href: "/" as Route,
       event: "next_best_action_clicked",
       asset: "share",
@@ -98,6 +98,27 @@ export function NextBestActions({ isAuthenticated }: { isAuthenticated: boolean 
     scrollActions(deltaX < 0 ? "right" : "left");
   }
 
+  function openShareModal() {
+    track("next_best_action_clicked", {
+      action_id: "share-colleagues",
+      position: activeIndex + 1
+    });
+    setCopied(false);
+    setShareOpen(true);
+  }
+
+  async function copyShareLink() {
+    const shareUrl = window.location.origin;
+    try {
+      await navigator.clipboard.writeText(shareUrl);
+    } catch {
+      shareInputRef.current?.select();
+      document.execCommand("copy");
+    }
+    track("share_link_copied", { share_url: shareUrl });
+    setCopied(true);
+  }
+
   return (
     <section className="next-best-actions" aria-label="Azioni consigliate">
       <button
@@ -114,14 +135,9 @@ export function NextBestActions({ isAuthenticated }: { isAuthenticated: boolean 
         onPointerUp={handlePointerEnd}
         ref={trackRef}
       >
-        {orderedActions.map(({ action, originalIndex }, index) => (
-          <TrackedLink
-            className={`next-best-card${index === 0 ? " is-active" : ""}`}
-            event={action.event}
-            href={action.href}
-            key={action.id}
-            properties={{ action_id: action.id, position: originalIndex + 1 }}
-          >
+        {orderedActions.map(({ action, originalIndex }, index) => {
+          const cardContent = (
+            <>
             <span className={`next-best-asset asset-${action.asset}`} aria-hidden="true">
               <span className="asset-glow" />
               <span className="asset-window asset-window-main">
@@ -144,10 +160,31 @@ export function NextBestActions({ isAuthenticated }: { isAuthenticated: boolean 
               <small>Prossima azione</small>
               <strong>{action.title}</strong>
               <span>{action.copy}</span>
-              <em>{action.cta}</em>
             </span>
-          </TrackedLink>
-        ))}
+            </>
+          );
+
+          return action.asset === "share" ? (
+            <button
+              className={`next-best-card next-best-card-button${index === 0 ? " is-active" : ""}`}
+              key={action.id}
+              onClick={openShareModal}
+              type="button"
+            >
+              {cardContent}
+            </button>
+          ) : (
+            <TrackedLink
+              className={`next-best-card${index === 0 ? " is-active" : ""}`}
+              event={action.event}
+              href={action.href}
+              key={action.id}
+              properties={{ action_id: action.id, position: originalIndex + 1 }}
+            >
+              {cardContent}
+            </TrackedLink>
+          );
+        })}
       </div>
       <button
         aria-label="Mostra azione successiva"
@@ -157,6 +194,33 @@ export function NextBestActions({ isAuthenticated }: { isAuthenticated: boolean 
       >
         <ChevronRight size={17} />
       </button>
+      {shareOpen ? (
+        <div className="preview-overlay" role="dialog" aria-modal="true" aria-labelledby="share-modal-title">
+          <div className="preview-card share-modal-card">
+            <button className="modal-close" onClick={() => setShareOpen(false)} type="button" aria-label="Chiudi">
+              <X size={18} />
+            </button>
+            <span className="preview-kicker">Condividi Research Radar</span>
+            <h2 id="share-modal-title">Passa il radar al tuo gruppo</h2>
+            <p>
+              Copia il link e invialo a colleghi, dottorandi o persone del tuo lab che stanno cercando opportunità
+              accademiche in Italia.
+            </p>
+            <div className="share-link-box">
+              <input
+                aria-label="Link da condividere"
+                readOnly
+                ref={shareInputRef}
+                value={typeof window === "undefined" ? "https://research-radar-italy.vercel.app" : window.location.origin}
+              />
+              <button className="button primary" onClick={copyShareLink} type="button">
+                <Copy size={16} />
+                {copied ? "Copiato" : "Copia link"}
+              </button>
+            </div>
+          </div>
+        </div>
+      ) : null}
     </section>
   );
 }
