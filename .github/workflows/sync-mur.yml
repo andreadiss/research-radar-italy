@@ -2,10 +2,8 @@ name: Sync MUR positions
 
 on:
   schedule:
-    # Multiple morning windows make the daily refresh more resilient to GitHub schedule delays or skipped runs.
+    # Runs once every morning to keep data fresh without triggering repeated platform builds.
     - cron: "15 5 * * *"
-    - cron: "45 5 * * *"
-    - cron: "15 6 * * *"
   workflow_dispatch:
 
 permissions:
