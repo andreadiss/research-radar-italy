@@ -14,7 +14,7 @@ import { positions } from "@/lib/positions";
 import { getCurrentAccount } from "@/lib/server/session";
 import { selectSupabase } from "@/lib/server/supabase-rest";
 import type { GrantOpportunity } from "@/lib/types";
-import { absoluteUrl } from "@/lib/site-url";
+import { absoluteUrl, jsonLd } from "@/lib/seo";
 
 type SearchParams = {
   q?: string;
@@ -119,9 +119,11 @@ export default async function Home({
       : intent === "posizioni"
         ? "Tutte le opportunità di lavoro"
         : "Grants & Funding";
+  const homeStructuredData = buildHomeStructuredData();
 
   return (
     <main className="shell">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(homeStructuredData) }} />
       <header className="topbar">
         <Link className="brand" href="/" aria-label="Torna alla home page">
           <span className="brand-mark">R</span>
@@ -809,6 +811,55 @@ function buildHaystack(position: (typeof positions)[number]) {
   ]
     .join(" ")
     .toLowerCase();
+}
+
+function buildHomeStructuredData() {
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": absoluteUrl("/#organization"),
+        name: "Research Radar Italy",
+        url: absoluteUrl("/"),
+        description:
+          "Research Radar Italy aggrega opportunita accademiche, posizioni di ricerca e funding call in Italia da fonti ufficiali."
+      },
+      {
+        "@type": "WebSite",
+        "@id": absoluteUrl("/#website"),
+        name: "Research Radar Italy",
+        url: absoluteUrl("/"),
+        inLanguage: "it-IT",
+        publisher: { "@id": absoluteUrl("/#organization") },
+        potentialAction: {
+          "@type": "SearchAction",
+          target: `${absoluteUrl("/")}?intent=posizioni&q={search_term_string}`,
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "WebApplication",
+        "@id": absoluteUrl("/#app"),
+        name: "Research Radar Italy",
+        url: absoluteUrl("/"),
+        applicationCategory: "EducationalApplication",
+        operatingSystem: "Web",
+        inLanguage: "it-IT",
+        offers: {
+          "@type": "Offer",
+          price: "0",
+          priceCurrency: "EUR"
+        },
+        featureList: [
+          "Ricerca posizioni accademiche in Italia",
+          "Filtri per tipo di posizione e materia",
+          "Grants & Funding da fonti ufficiali",
+          "Preferiti e liste personali"
+        ]
+      }
+    ]
+  };
 }
 
 

@@ -26,9 +26,11 @@ export const metadata: Metadata = {
   authors: [{ name: "Research Radar Italy" }],
   creator: "Research Radar Italy",
   publisher: "Research Radar Italy",
+  category: "education",
   openGraph: {
     type: "website",
     locale: "it_IT",
+    url: siteUrl,
     siteName: "Research Radar Italy",
     title: "Research Radar Italy | Posizioni accademiche e grant in Italia",
     description:
