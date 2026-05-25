@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname, useSearchParams } from "next/navigation";
-import { track } from "@vercel/analytics";
+import { track } from "@/lib/client-analytics";
 
 export function AccountLinks() {
   const pathname = usePathname();

@@ -1,9 +1,6 @@
-﻿import type { Metadata } from "next";
-import { Analytics } from "@vercel/analytics/next";
-import { SpeedInsights } from "@vercel/speed-insights/next";
+import type { Metadata } from "next";
+import { siteUrl } from "@/lib/site-url";
 import "./globals.css";
-
-const siteUrl = "https://research-radar-italy.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -63,12 +60,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="it">
-      <body>
-        {children}
-        <Analytics />
-        <SpeedInsights />
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
-

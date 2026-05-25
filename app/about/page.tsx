@@ -1,11 +1,12 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Link from "next/link";
 import { AccountNav } from "@/app/components/AccountNav";
+import { absoluteUrl } from "@/lib/site-url";
 
 export const metadata: Metadata = {
   title: "About",
   description: "Cos'e Research Radar Italy e perche aiuta ricercatori, dottorandi e candidati a trovare opportunita accademiche in Italia.",
-  alternates: { canonical: "https://research-radar-italy.vercel.app/about" }
+  alternates: { canonical: absoluteUrl("/about") }
 };
 
 export default function AboutPage() {

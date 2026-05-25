@@ -1,7 +1,7 @@
 "use client";
 
 import { Bookmark } from "lucide-react";
-import { track } from "@vercel/analytics";
+import { track } from "@/lib/client-analytics";
 import { useEffect, useState } from "react";
 
 type OpportunityType = "position" | "grant";
@@ -71,7 +71,7 @@ export function OpportunityActions({
   }
 
   return (
-    <div className="card-actions" aria-label="Azioni opportunità">
+    <div className="card-actions" aria-label="Azioni opportunitÃ ">
       <button
         aria-pressed={isSaved}
         className={isSaved ? "icon-action active" : "icon-action"}

@@ -1,8 +1,7 @@
-﻿import type { MetadataRoute } from "next";
+import type { MetadataRoute } from "next";
 import { grants } from "@/lib/grants";
 import { positions } from "@/lib/positions";
-
-const siteUrl = "https://research-radar-italy.vercel.app";
+import { siteUrl } from "@/lib/site-url";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
@@ -97,4 +96,3 @@ function safeDate(value?: string) {
   const date = new Date(value);
   return Number.isNaN(date.getTime()) ? null : date;
 }
-

@@ -2,7 +2,7 @@
 
 import type { Route } from "next";
 import { BookmarkCheck, ChevronLeft, ChevronRight, Copy, Search, Send, Sparkles, Star, X } from "lucide-react";
-import { track } from "@vercel/analytics";
+import { track } from "@/lib/client-analytics";
 import { useRef, useState, type PointerEvent } from "react";
 import { TrackedLink } from "@/app/components/TrackedLink";
 
@@ -36,7 +36,7 @@ export function NextBestActions({ isAuthenticated }: { isAuthenticated: boolean 
       event: "next_best_action_clicked",
       asset: "signup",
       visualTitle: "Medicina e salute",
-      visualMeta: "12 opportunità",
+      visualMeta: "12 opportunitÃ ",
       visualQuery: "contratti a Milano"
     });
   }
@@ -203,7 +203,7 @@ export function NextBestActions({ isAuthenticated }: { isAuthenticated: boolean 
             <span className="preview-kicker">Condividi Research Radar</span>
             <h2 id="share-modal-title">Passa il radar al tuo gruppo</h2>
             <p>
-              Copia il link e invialo a colleghi, dottorandi o persone del tuo lab che stanno cercando opportunità
+              Copia il link e invialo a colleghi, dottorandi o persone del tuo lab che stanno cercando opportunitÃ 
               accademiche in Italia.
             </p>
             <div className="share-link-box">
@@ -211,7 +211,7 @@ export function NextBestActions({ isAuthenticated }: { isAuthenticated: boolean 
                 aria-label="Link da condividere"
                 readOnly
                 ref={shareInputRef}
-                value={typeof window === "undefined" ? "https://research-radar-italy.vercel.app" : window.location.origin}
+                value={typeof window === "undefined" ? "https://rritaly.com" : window.location.origin}
               />
               <button className="button primary" onClick={copyShareLink} type="button">
                 <Copy size={16} />

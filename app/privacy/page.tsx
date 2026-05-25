@@ -1,11 +1,12 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Link from "next/link";
 import { AccountNav } from "@/app/components/AccountNav";
+import { absoluteUrl } from "@/lib/site-url";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description: "Informativa privacy di Research Radar Italy: dati raccolti, finalita e diritti degli utenti.",
-  alternates: { canonical: "https://research-radar-italy.vercel.app/privacy" }
+  alternates: { canonical: absoluteUrl("/privacy") }
 };
 
 export default function PrivacyPage() {

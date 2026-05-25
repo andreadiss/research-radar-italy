@@ -1,11 +1,12 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Link from "next/link";
 import { AccountNav } from "@/app/components/AccountNav";
+import { absoluteUrl } from "@/lib/site-url";
 
 export const metadata: Metadata = {
   title: "Termini di utilizzo",
   description: "Termini di utilizzo di Research Radar Italy.",
-  alternates: { canonical: "https://research-radar-italy.vercel.app/terms" }
+  alternates: { canonical: absoluteUrl("/terms") }
 };
 
 export default function TermsPage() {

@@ -1,11 +1,12 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Link from "next/link";
 import { AccountNav } from "@/app/components/AccountNav";
+import { absoluteUrl } from "@/lib/site-url";
 
 export const metadata: Metadata = {
   title: "Cookie Policy",
   description: "Cookie Policy di Research Radar Italy: cookie tecnici, sessione e analytics.",
-  alternates: { canonical: "https://research-radar-italy.vercel.app/cookie" }
+  alternates: { canonical: absoluteUrl("/cookie") }
 };
 
 export default function CookiePage() {

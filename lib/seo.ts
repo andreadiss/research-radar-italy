@@ -1,8 +1,4 @@
-﻿const siteUrl = "https://research-radar-italy.vercel.app";
-
-export function absoluteUrl(path: string) {
-  return new URL(path, siteUrl).toString();
-}
+export { absoluteUrl } from "@/lib/site-url";
 
 export function truncateText(value: string, maxLength = 155) {
   const normalized = value.replace(/\s+/g, " ").trim();

@@ -3,7 +3,7 @@
 import Link from "next/link";
 import type { Route } from "next";
 import { ExternalLink, X } from "lucide-react";
-import { track } from "@vercel/analytics";
+import { track } from "@/lib/client-analytics";
 import { useState } from "react";
 
 type OpportunityPreviewProps = {

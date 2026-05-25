@@ -13,3 +13,6 @@ tsconfig.tsbuildinfo
 # Local importer/runtime stores. Production data is generated from scripts or persisted in Supabase.
 data/store/
 data/mur-latest.json
+
+# Local Netlify folder
+.netlify

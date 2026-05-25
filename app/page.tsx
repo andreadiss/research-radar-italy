@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 import type { Metadata, Route } from "next";
 import { CalendarClock, FileText, MapPin, Search } from "lucide-react";
 import { AccountNav } from "@/app/components/AccountNav";
@@ -14,6 +14,7 @@ import { positions } from "@/lib/positions";
 import { getCurrentAccount } from "@/lib/server/session";
 import { selectSupabase } from "@/lib/server/supabase-rest";
 import type { GrantOpportunity } from "@/lib/types";
+import { absoluteUrl } from "@/lib/site-url";
 
 type SearchParams = {
   q?: string;
@@ -64,12 +65,12 @@ export function generateMetadata({ searchParams }: { searchParams: SearchParams 
       title: "Posizioni accademiche aperte in Italia",
       description:
         "Cerca posizioni accademiche aperte in Italia: dottorati, RTT, postdoc, contratti, incarichi di ricerca, tecnologi e professori da fonti MUR/Cineca.",
-      alternates: { canonical: "https://research-radar-italy.vercel.app/?intent=posizioni" },
+      alternates: { canonical: absoluteUrl("/?intent=posizioni") },
       openGraph: {
         title: "Posizioni accademiche aperte in Italia",
         description:
           "Filtra bandi MUR/Cineca per tipo di posizione e materia, con scadenze e fonti ufficiali.",
-        url: "https://research-radar-italy.vercel.app/?intent=posizioni"
+        url: absoluteUrl("/?intent=posizioni")
       }
     };
   }
@@ -79,11 +80,11 @@ export function generateMetadata({ searchParams }: { searchParams: SearchParams 
       title: "Grants & Funding per ricerca in Italia",
       description:
         "Trova grant e funding call per la ricerca: PRIN, PNRR, ERC, MSCA e Horizon Europe, con link alle fonti ufficiali.",
-      alternates: { canonical: "https://research-radar-italy.vercel.app/?intent=bandi" },
+      alternates: { canonical: absoluteUrl("/?intent=bandi") },
       openGraph: {
         title: "Grants & Funding per ricerca in Italia",
         description: "Funding call e fonti ufficiali per ricercatori, dottorandi e team accademici.",
-        url: "https://research-radar-italy.vercel.app/?intent=bandi"
+        url: absoluteUrl("/?intent=bandi")
       }
     };
   }
@@ -92,7 +93,7 @@ export function generateMetadata({ searchParams }: { searchParams: SearchParams 
     title: "Research Radar Italy | Posizioni accademiche e grant in Italia",
     description:
       "Trova posizioni accademiche, dottorati, postdoc, contratti di ricerca e grants in Italia da fonti ufficiali.",
-    alternates: { canonical: "https://research-radar-italy.vercel.app" }
+    alternates: { canonical: absoluteUrl("/") }
   };
 }
 

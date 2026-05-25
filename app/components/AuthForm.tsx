@@ -3,7 +3,7 @@
 import { useRouter } from "next/navigation";
 import { useSearchParams } from "next/navigation";
 import type { Route } from "next";
-import { track } from "@vercel/analytics";
+import { track } from "@/lib/client-analytics";
 import { useState } from "react";
 
 type AuthFormProps =
@@ -103,7 +103,7 @@ export function AuthForm({ mode }: AuthFormProps) {
       {isSignup ? (
         <label className="checkbox-field">
           <input name="emailOptIn" type="checkbox" />
-          <span>Voglio ricevere aggiornamenti email su nuove opportunità coerenti con i miei interessi.</span>
+          <span>Voglio ricevere aggiornamenti email su nuove opportunitÃ  coerenti con i miei interessi.</span>
         </label>
       ) : null}
       <button className="button primary" disabled={isSubmitting} type="submit">
