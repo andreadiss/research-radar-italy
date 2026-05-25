@@ -345,7 +345,9 @@ select {
   box-shadow: 0 18px 42px rgba(20, 35, 28, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.72);
   display: flex;
   gap: 8px;
-  inset: auto 16px 18px;
+  bottom: max(var(--floating-menu-bottom, 18px), env(safe-area-inset-bottom));
+  left: 16px;
+  right: 16px;
   margin: 0 auto;
   max-width: min(520px, calc(100% - 32px));
   opacity: 0;

@@ -3,7 +3,7 @@
 import Link from "next/link";
 import type { Route } from "next";
 import { FileText, Search } from "lucide-react";
-import { useEffect, useState } from "react";
+import { useEffect, useState, type CSSProperties } from "react";
 
 type FloatingIntentMenuProps = {
   grantsCount: number;
@@ -21,14 +21,30 @@ export function FloatingIntentMenu({
   positionsHref
 }: FloatingIntentMenuProps) {
   const [visible, setVisible] = useState(false);
+  const [viewportBottom, setViewportBottom] = useState(18);
 
   useEffect(() => {
     const updateVisibility = () => setVisible(window.scrollY > 24);
+    const updateViewportBottom = () => {
+      const viewport = window.visualViewport;
+      const dynamicInset = viewport ? Math.max(0, window.innerHeight - viewport.height - viewport.offsetTop) : 0;
+
+      setViewportBottom(Math.max(12, Math.round(dynamicInset + 12)));
+    };
 
     updateVisibility();
+    updateViewportBottom();
     window.addEventListener("scroll", updateVisibility, { passive: true });
+    window.addEventListener("resize", updateViewportBottom);
+    window.visualViewport?.addEventListener("resize", updateViewportBottom);
+    window.visualViewport?.addEventListener("scroll", updateViewportBottom);
 
-    return () => window.removeEventListener("scroll", updateVisibility);
+    return () => {
+      window.removeEventListener("scroll", updateVisibility);
+      window.removeEventListener("resize", updateViewportBottom);
+      window.visualViewport?.removeEventListener("resize", updateViewportBottom);
+      window.visualViewport?.removeEventListener("scroll", updateViewportBottom);
+    };
   }, []);
 
   return (
@@ -36,6 +52,7 @@ export function FloatingIntentMenu({
       aria-hidden={!visible}
       aria-label="Passa tra posizioni aperte e grants"
       className={visible ? "floating-menu visible" : "floating-menu"}
+      style={{ "--floating-menu-bottom": `${viewportBottom}px` } as CSSProperties}
     >
       <Link className={floatingMenuClass(intent === "posizioni")} href={positionsHref}>
         <Search size={16} />
