@@ -220,6 +220,7 @@ select {
   display: grid;
   gap: 12px;
   grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 10px;
 }
 
 .entry-point {
@@ -304,7 +305,7 @@ select {
   padding: 5px 8px;
   position: absolute;
   right: 12px;
-  top: -10px;
+  top: 12px;
 }
 
 @keyframes freshPulse {
