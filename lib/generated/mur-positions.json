@@ -1,293 +1,5 @@
 [
   {
-    "id": "mur-fixed-term-researchers-148123",
-    "title": "Progetto progetto LIFE24-NAT-IT-LIFE RECLOAK Ripristinare e migliorare lo stato di conservazione delle foreste minacciate dalla moria del leccio Grant Agreement 101214542 — CUP B97G25000560006 BANDO N. 331.3 RIC IBBR",
-    "institution": "Consiglio Nazione delle Ricerche - Istituto di Bioscienze e Biorisorse IBBR",
-    "department": "Da bando ufficiale",
-    "location": "Sesto Fiorentino",
-    "region": "Italia",
-    "positionType": "RTT",
-    "professorRank": "",
-    "discipline": "Biologia, biotech e farmacia",
-    "ssd": "BIOS-02/A - Fisiologia vegetale",
-    "gsd": "05/BIOS-02 - FISIOLOGIA VEGETALE",
-    "fundingType": "MSCA",
-    "deadline": "2026-06-13",
-    "deadlineStatus": "closing_soon",
-    "publishedAt": "2026-05-14",
-    "sourceName": "MUR/Cineca",
-    "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/148123",
-    "salaryOrAmount": "Da bando ufficiale",
-    "duration": "Da bando ufficiale",
-    "language": "IT/EN",
-    "summary": "L'obiettivo generale del progetto LIFE RECLOAK è ripristinare e migliorare lo stato di conservazione delle foreste minacciate dal disseccamento del leccio utilizzando genotipi selezionati in base alla loro tolleranza alla siccità e resistenti al patogeno P. cinnamoni",
-    "requirements": [
-      "Laurea Magistrale ovvero Laurea Specialistica, ovvero Diploma di Laurea vecchio ordinamento attinente alla seguente esperienza richiesta.",
-      "https://selezionionline.cnr.it/"
-    ],
-    "dedupeKey": "progetto progetto life24 nat it life recloak ripristinare e migliorare lo stato conservazione foreste minacciate dalla moria leccio grant agreement 101214542 cup b97g25000560006 bando n 331 3 ric ibbr|consiglio nazione ricerche istituto bioscienze e biorisorse ibbr|2026-06-13",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "unknown_region"
-    ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
-  },
-  {
-    "id": "mur-research-contracts-312021",
-    "title": "Risposta a lungo termine delle foreste al cambiamento climatico",
-    "institution": "UNIVERSITà' DEGLI STUDI DELLA TUSCIA",
-    "department": "Da bando ufficiale",
-    "location": "VITERBO",
-    "region": "Lazio",
-    "positionType": "Contratto di ricerca",
-    "professorRank": "",
-    "discipline": "Ambiente, agraria e veterinaria",
-    "ssd": "AGRI-04/A - Idraulica agraria e sistemazioni idraulico-forestali",
-    "gsd": "07/AGRI-04 - INGEGNERIA AGRARIA, FORESTALE E DEI BIOSISTEMI",
-    "fundingType": "MUR",
-    "deadline": "2026-06-13",
-    "deadlineStatus": "closing_soon",
-    "publishedAt": "2026-05-14",
-    "sourceName": "MUR/Cineca",
-    "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/312021",
-    "salaryOrAmount": "35.408,68 Euro",
-    "duration": "Da bando ufficiale",
-    "language": "IT/EN",
-    "summary": "Il contrattista sarà coinvolto nelle seguenti attività di ricerca: 1.Sviluppare climatologie pluridecennali per siti forestali naturali a livello globale. Testare e sviluppare nuovi indicatori di siccità. Applicare strumenti avanzati, inclusa l’intelligenza artificiale, per modellare la risposta della vegetazione forestale a futuri scenari climatici. 2.Sviluppare e applicare metodologie di telerilevamento per ricost...",
-    "requirements": [
-      "Other"
-    ],
-    "dedupeKey": "risposta a lungo termine foreste al cambiamento climatico|studi tuscia|2026-06-13",
-    "reviewStatus": "auto_published",
-    "confidenceScore": 0.95,
-    "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
-  },
-  {
-    "id": "mur-research-assignments-312036",
-    "title": "Incarico di ricerca - Università di Pavia",
-    "institution": "Università di Pavia",
-    "department": "Da bando ufficiale",
-    "location": "Pavia",
-    "region": "Lombardia",
-    "positionType": "Incarico di ricerca",
-    "professorRank": "",
-    "discipline": "Architettura, design e territorio",
-    "ssd": "CEAR-07/A - Tecnica delle costruzioni",
-    "gsd": "08/CEAR-07 - TECNICA DELLE COSTRUZIONI",
-    "fundingType": "MUR",
-    "deadline": "2026-06-13",
-    "deadlineStatus": "closing_soon",
-    "publishedAt": "2026-05-13",
-    "sourceName": "MUR/Cineca",
-    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/312036",
-    "salaryOrAmount": "Da bando ufficiale",
-    "duration": "Da bando ufficiale",
-    "language": "IT/EN",
-    "summary": "L’attività di ricerca riguarda lo studio dell’affidabilità sismica, anche in ottica di ciclo di vita, di ponti equipaggiati con sistemi di appoggio e dispositivi antisismici, di tipo passivo o attivo. Il programma prevede la modellazione numerica del comportamento strutturale del ponte e dei dispositivi, l’analisi della risposta sotto azioni sismiche, anche in presenza di incertezze sui parametri meccanici, sull’inp...",
-    "requirements": [
-      "https://pica.cineca.it/unipv/tipologia/idr"
-    ],
-    "dedupeKey": "incarico ricerca pavia|pavia|2026-06-13",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
-  },
-  {
-    "id": "mur-research-assignments-311837",
-    "title": "Incarico di ricerca - Università degli Studi della Basilicata",
-    "institution": "Università degli Studi della Basilicata",
-    "department": "Da bando ufficiale",
-    "location": "Potenza",
-    "region": "Basilicata",
-    "positionType": "Incarico di ricerca",
-    "professorRank": "",
-    "discipline": "Biologia, biotech e farmacia",
-    "ssd": "BIOS-01/C - Botanica ambientale e applicata",
-    "gsd": "05/BIOS-01 - BOTANICA",
-    "fundingType": "MUR",
-    "deadline": "2026-06-13",
-    "deadlineStatus": "closing_soon",
-    "publishedAt": "2026-05-11",
-    "sourceName": "MUR/Cineca",
-    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/311837",
-    "salaryOrAmount": "22.500 Euro",
-    "duration": "Da bando ufficiale",
-    "language": "IT/EN",
-    "summary": "L’obiettivo primario dell’attività di ricerca è la valutazione quali-quantitativa della biodiversità (flora vascolare, licheni, fitocenosi), anche attraverso i bioindicatori, e l’elaborazione di indici di biodiversità al fine di valutare la presenza/ assenza di eventuali alterazioni della naturalità delle fitocenosi. Attraverso la ricognizione e sistematizzazione delle informazioni ambientali relative al patrimonio...",
-    "requirements": [
-      "Other"
-    ],
-    "dedupeKey": "incarico ricerca studi basilicata|studi basilicata|2026-06-13",
-    "reviewStatus": "auto_published",
-    "confidenceScore": 0.95,
-    "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
-  },
-  {
-    "id": "mur-research-assignments-313000",
-    "title": "Incarico di ricerca - Ministero dell’Università e della Ricerca",
-    "institution": "Ministero dell’Università e della Ricerca",
-    "department": "Da bando ufficiale",
-    "location": "Roma",
-    "region": "Lazio",
-    "positionType": "Incarico di ricerca",
-    "professorRank": "",
-    "discipline": "Medicina e salute",
-    "ssd": "MEDS-02/A - Patologia generale",
-    "gsd": "06/MEDS-02 - PATOLOGIA GENERALE E PATOLOGIA CLINICA",
-    "fundingType": "MUR",
-    "deadline": "2026-06-13",
-    "deadlineStatus": "closing_soon",
-    "publishedAt": "2026-05-28",
-    "sourceName": "MUR/Cineca",
-    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/313000",
-    "salaryOrAmount": "22,5 Euro",
-    "duration": "Da bando ufficiale",
-    "language": "IT/EN",
-    "summary": "Il progetto è finalizzato all’identificazione e alla caratterizzazione funzionale di nuovi meccanismi di controllo immunologico coinvolti nella leucemogenesi mieloide. Il candidato ideale deve possedere una solida esperienza nello studio della biologia del cancro. In particolare, è richiesta comprovata competenza: i) nella manipolazione e coltura di cellule primarie e linee cellulari tumorali; ii) nell’impiego di ap...",
-    "requirements": [
-      "https://www.unicampus.it/concorso/incarico-di-ricerca-ssd-meds-02-a-patologia-generale-ir-02_26/"
-    ],
-    "dedupeKey": "incarico ricerca ministero dell e ricerca|ministero dell e ricerca|2026-06-13",
-    "reviewStatus": "auto_published",
-    "confidenceScore": 0.95,
-    "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
-  },
-  {
-    "id": "mur-research-assignments-313044",
-    "title": "Incarico di ricerca - C.N.R. - IEIIT",
-    "institution": "C.N.R. - IEIIT",
-    "department": "Da bando ufficiale",
-    "location": "Bologna",
-    "region": "Emilia-Romagna",
-    "positionType": "Incarico di ricerca",
-    "professorRank": "",
-    "discipline": "Ingegneria, informatica e AI",
-    "ssd": "-",
-    "gsd": "09/IINF-03 - TELECOMUNICAZIONI",
-    "fundingType": "MUR",
-    "deadline": "2026-06-13",
-    "deadlineStatus": "closing_soon",
-    "publishedAt": "2026-05-29",
-    "sourceName": "MUR/Cineca",
-    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/313044",
-    "salaryOrAmount": "32 Euro",
-    "duration": "Da bando ufficiale",
-    "language": "IT/EN",
-    "summary": "Bando di selezione per soli titoli per il conferimento di n. 1 “Incarico di Ricerca”, ai sensi dell'art. 22-ter della Legge 30 dicembre 2010 n. 240. IEIIT Sede di Bologna – CUP B53C24007690006 e CUP B53C25006000005",
-    "requirements": [
-      "Requisiti indicati nel bando ufficiale"
-    ],
-    "dedupeKey": "incarico ricerca c n r ieiit|c n r ieiit|2026-06-13",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
-  },
-  {
-    "id": "mur-postdoc-assignments-313033",
-    "title": "Postdoc - Università di Pisa - Dipartimento di Scienze Agrarie, Alimentari e Agro-Ambientali",
-    "institution": "Università di Pisa - Dipartimento di Scienze Agrarie, Alimentari e Agro-Ambientali",
-    "department": "Da bando ufficiale",
-    "location": "Pisa",
-    "region": "Toscana",
-    "positionType": "Postdoc",
-    "professorRank": "",
-    "discipline": "Ambiente, agraria e veterinaria",
-    "ssd": "AGRI-01/A - Economia agraria, alimentare ed estimo rurale",
-    "gsd": "07/AGRI-01 - ECONOMIA AGRARIA, ALIMENTARE ED ESTIMO RURALE",
-    "fundingType": "MUR",
-    "deadline": "2026-06-13",
-    "deadlineStatus": "closing_soon",
-    "publishedAt": "2026-05-29",
-    "sourceName": "MUR/Cineca",
-    "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/313033",
-    "salaryOrAmount": "Da bando ufficiale",
-    "duration": "Da bando ufficiale",
-    "language": "IT/EN",
-    "summary": "Incarico post-doc - Dipartimento di Scienze Agrarie, Alimentari e Agro-Ambientali - Durata 12 mesi - Scadenza 13 giugno 2026 ore 13.00",
-    "requirements": [
-      "Other"
-    ],
-    "dedupeKey": "postdoc pisa dipartimento scienze agrarie alimentari e agro ambientali|pisa dipartimento scienze agrarie alimentari e agro ambientali|2026-06-13",
-    "reviewStatus": "auto_published",
-    "confidenceScore": 0.95,
-    "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
-  },
-  {
-    "id": "mur-postdoc-assignments-313010",
-    "title": "Postdoc - INFN - Istituto Nazionale di Fisica Nucleare",
-    "institution": "INFN - Istituto Nazionale di Fisica Nucleare",
-    "department": "Da bando ufficiale",
-    "location": "Frascati",
-    "region": "Italia",
-    "positionType": "Postdoc",
-    "professorRank": "",
-    "discipline": "Matematica, fisica e chimica",
-    "ssd": "-",
-    "gsd": "02/PHYS-01 - FISICA SPERIMENTALE DELLE INTERAZIONI FONDAMENTALI E APPLICAZIONI",
-    "fundingType": "MUR",
-    "deadline": "2026-06-13",
-    "deadlineStatus": "closing_soon",
-    "publishedAt": "2026-05-29",
-    "sourceName": "MUR/Cineca",
-    "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/313010",
-    "salaryOrAmount": "28.761 Euro",
-    "duration": "Da bando ufficiale",
-    "language": "IT/EN",
-    "summary": "Bando n. 2 8 8 8 7 /2026 per il conferimento di n. 1 incarico post-doc per ricerca tecnologica, di Fascia 1 presso i Laboratori Nazionali di Frascati dell’INFN",
-    "requirements": [
-      "Other"
-    ],
-    "dedupeKey": "postdoc infn istituto nazionale fisica nucleare|infn istituto nazionale fisica nucleare|2026-06-13",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "unknown_region"
-    ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
-  },
-  {
-    "id": "mur-postdoc-assignments-313150",
-    "title": "Postdoc - Università degli Studi di Roma Tor Vergata - Dipartimento di Storia, Patrimonio culturale, Formazione e Società",
-    "institution": "Università degli Studi di Roma Tor Vergata - Dipartimento di Storia, Patrimonio culturale, Formazione e Società",
-    "department": "Da bando ufficiale",
-    "location": "roma",
-    "region": "Lazio",
-    "positionType": "Postdoc",
-    "professorRank": "",
-    "discipline": "Filosofia, storia, lingue, pedagogia e psicologia",
-    "ssd": "GEOG-01/B - Geografia economico-politica",
-    "gsd": "11/GEOG-01 - GEOGRAFIA",
-    "fundingType": "MUR",
-    "deadline": "2026-06-13",
-    "deadlineStatus": "closing_soon",
-    "publishedAt": "2026-06-03",
-    "sourceName": "MUR/Cineca",
-    "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/313150",
-    "salaryOrAmount": "Da bando ufficiale",
-    "duration": "Da bando ufficiale",
-    "language": "IT/EN",
-    "summary": "Il progetto di ricerca intende sviluppare un modello geografico-territoriale per l’analisi e la valorizzazione sostenibile del patrimonio culturale dell’area tiburtina, con particolare riferimento ai siti UNESCO di Villa Adriana e Villa d'Este. La ricerca è orientata all’integrazione tra tutela del patrimonio, sostenibilità, innovazione digitale e inclusione sociale. Con l’utilizzo di strumenti GIS, analisi territor...",
-    "requirements": [
-      "https://pica.cineca.it/uniroma2/"
-    ],
-    "dedupeKey": "postdoc studi roma tor vergata dipartimento storia patrimonio culturale formazione e societa|studi roma tor vergata dipartimento storia patrimonio culturale formazione e societa|2026-06-13",
-    "reviewStatus": "auto_published",
-    "confidenceScore": 0.95,
-    "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
-  },
-  {
     "id": "mur-research-contracts-312161",
     "title": "Limiti di scala dei processi cinetici collisionali",
     "institution": "Dipartimento di Matematica Guido Castelnuovo",
@@ -316,7 +28,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312837",
@@ -349,7 +61,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313202",
@@ -382,7 +94,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-311935",
@@ -415,7 +127,7 @@
     "reviewReasons": [
       "unknown_region"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-311879",
@@ -446,7 +158,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-311886",
@@ -477,7 +189,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312112",
@@ -508,7 +220,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312115",
@@ -539,7 +251,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-technologists-148125",
@@ -570,7 +282,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-technologists-148126",
@@ -601,7 +313,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-148084",
@@ -632,7 +344,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-147666",
@@ -663,7 +375,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-147827",
@@ -694,7 +406,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-147828",
@@ -725,7 +437,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-148143",
@@ -756,7 +468,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313170",
@@ -787,7 +499,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-312162",
@@ -818,7 +530,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-312691",
@@ -849,7 +561,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-312701",
@@ -880,7 +592,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-311884",
@@ -911,7 +623,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312129",
@@ -944,7 +656,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313254",
@@ -977,7 +689,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-311315",
@@ -1008,7 +720,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312999",
@@ -1039,7 +751,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313196",
@@ -1070,7 +782,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-311901",
@@ -1103,7 +815,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312038",
@@ -1136,7 +848,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312054",
@@ -1167,7 +879,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-311889",
@@ -1198,7 +910,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-technologists-149124",
@@ -1229,7 +941,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-technologists-149126",
@@ -1260,7 +972,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313072",
@@ -1291,7 +1003,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313420",
@@ -1324,7 +1036,7 @@
     "reviewReasons": [
       "unknown_region"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-312022",
@@ -1355,7 +1067,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-312023",
@@ -1386,7 +1098,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-312024",
@@ -1417,7 +1129,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-312552",
@@ -1448,7 +1160,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312483",
@@ -1481,7 +1193,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312853",
@@ -1512,7 +1224,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313006",
@@ -1545,7 +1257,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313295",
@@ -1578,7 +1290,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312653",
@@ -1609,7 +1321,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312656",
@@ -1640,7 +1352,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312990",
@@ -1673,7 +1385,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312027",
@@ -1706,7 +1418,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312028",
@@ -1739,7 +1451,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312092",
@@ -1772,7 +1484,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312117",
@@ -1803,7 +1515,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-technologists-148983",
@@ -1834,7 +1546,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-312220",
@@ -1865,7 +1577,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-312221",
@@ -1896,7 +1608,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-312219",
@@ -1927,7 +1639,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-312995",
@@ -1958,7 +1670,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-311916",
@@ -1989,7 +1701,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-311917",
@@ -2020,7 +1732,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-311918",
@@ -2051,7 +1763,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-311919",
@@ -2082,7 +1794,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-311920",
@@ -2113,7 +1825,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-311921",
@@ -2144,7 +1856,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-311922",
@@ -2175,7 +1887,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313271",
@@ -2208,7 +1920,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313255",
@@ -2239,7 +1951,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312176",
@@ -2272,7 +1984,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-148323",
@@ -2303,7 +2015,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-148343",
@@ -2334,7 +2046,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-148363",
@@ -2365,7 +2077,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-148383",
@@ -2396,7 +2108,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-148403",
@@ -2427,7 +2139,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-148183",
@@ -2458,7 +2170,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-312101",
@@ -2489,7 +2201,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-312955",
@@ -2520,7 +2232,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313005",
@@ -2553,7 +2265,7 @@
     "reviewReasons": [
       "generic_institution"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313007",
@@ -2586,7 +2298,7 @@
     "reviewReasons": [
       "generic_institution"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313009",
@@ -2619,7 +2331,7 @@
     "reviewReasons": [
       "generic_institution"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-311990",
@@ -2650,7 +2362,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-312113",
@@ -2681,7 +2393,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313092",
@@ -2712,7 +2424,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313236",
@@ -2743,7 +2455,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312838",
@@ -2776,7 +2488,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313038",
@@ -2810,7 +2522,7 @@
       "unknown_region",
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313091",
@@ -2841,7 +2553,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313207",
@@ -2872,7 +2584,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313457",
@@ -2903,7 +2615,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313011",
@@ -2937,7 +2649,7 @@
       "generic_title",
       "generic_institution"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312631",
@@ -2968,7 +2680,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313004",
@@ -3001,7 +2713,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313256",
@@ -3032,7 +2744,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313257",
@@ -3063,7 +2775,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312904",
@@ -3075,7 +2787,7 @@
     "positionType": "Postdoc",
     "professorRank": "",
     "discipline": "Medicina e salute",
-    "ssd": "MEDS-26/B - Scienze delle professioni sanitarie tecniche diagnostiche, assistenziali e della prevenzione",
+    "ssd": "MEDS-26/A - Scienze tecniche di medicina di laboratorio",
     "gsd": "06/MEDS-26 - SCIENZE TECN. DI MEDICINA DI LABOR., SC. DELLE PROF. SANIT. TECN. DIAGNOSTICHE, ASSIST. E DELLA PREVENZIONE, SC. DELLE PROF. SANIT. DELLA RIABILITAZIONE, SC. TECN. MED. E CHIRURG. AVANZATE",
     "fundingType": "MUR",
     "deadline": "2026-06-18",
@@ -3096,7 +2808,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313039",
@@ -3129,7 +2841,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312238",
@@ -3162,7 +2874,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312240",
@@ -3195,7 +2907,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312242",
@@ -3228,7 +2940,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313090",
@@ -3261,7 +2973,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313341",
@@ -3294,7 +3006,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313209",
@@ -3328,7 +3040,7 @@
     "possibleDuplicateSourceIds": [
       "mur-research-contracts-313210"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313210",
@@ -3362,7 +3074,7 @@
       "possible_duplicate"
     ],
     "possibleDuplicateOf": "mur-research-contracts-313209",
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313214",
@@ -3396,7 +3108,7 @@
     "possibleDuplicateSourceIds": [
       "mur-research-contracts-313216"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313216",
@@ -3433,7 +3145,7 @@
     "possibleDuplicateSourceIds": [
       "mur-research-contracts-313218"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313218",
@@ -3467,7 +3179,7 @@
       "possible_duplicate"
     ],
     "possibleDuplicateOf": "mur-research-contracts-313216",
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-312189",
@@ -3498,7 +3210,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-312335",
@@ -3529,7 +3241,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312350",
@@ -3560,7 +3272,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312352",
@@ -3593,7 +3305,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313230",
@@ -3624,7 +3336,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313016",
@@ -3655,7 +3367,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312166",
@@ -3686,7 +3398,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312332",
@@ -3719,7 +3431,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312334",
@@ -3752,7 +3464,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313030",
@@ -3785,7 +3497,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313199",
@@ -3818,7 +3530,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313205",
@@ -3849,7 +3561,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313206",
@@ -3880,7 +3592,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313208",
@@ -3913,7 +3625,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313211",
@@ -3946,7 +3658,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313213",
@@ -3979,7 +3691,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313215",
@@ -4012,7 +3724,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313217",
@@ -4045,7 +3757,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313219",
@@ -4078,7 +3790,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313220",
@@ -4111,7 +3823,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313221",
@@ -4144,7 +3856,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313222",
@@ -4177,7 +3889,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313224",
@@ -4210,7 +3922,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313225",
@@ -4243,7 +3955,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312177",
@@ -4276,7 +3988,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312178",
@@ -4309,7 +4021,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312180",
@@ -4342,7 +4054,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312181",
@@ -4375,7 +4087,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312183",
@@ -4408,7 +4120,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312184",
@@ -4441,7 +4153,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312185",
@@ -4474,7 +4186,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312187",
@@ -4507,7 +4219,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312188",
@@ -4540,7 +4252,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313226",
@@ -4573,7 +4285,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312360",
@@ -4604,7 +4316,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-technologists-149423",
@@ -4636,7 +4348,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313260",
@@ -4667,7 +4379,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313261",
@@ -4698,7 +4410,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-312368",
@@ -4734,7 +4446,7 @@
     "possibleDuplicateSourceIds": [
       "mur-research-contracts-312369"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-312369",
@@ -4769,7 +4481,7 @@
       "possible_duplicate"
     ],
     "possibleDuplicateOf": "mur-research-contracts-312368",
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-312400",
@@ -4800,7 +4512,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313272",
@@ -4831,7 +4543,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312451",
@@ -4862,7 +4574,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312470",
@@ -4895,7 +4607,7 @@
     "reviewReasons": [
       "unknown_region"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312472",
@@ -4926,7 +4638,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313262",
@@ -4959,7 +4671,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312473",
@@ -4992,7 +4704,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313264",
@@ -5025,7 +4737,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313267",
@@ -5058,7 +4770,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312408",
@@ -5089,7 +4801,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-148663",
@@ -5120,7 +4832,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312402",
@@ -5153,7 +4865,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312403",
@@ -5186,7 +4898,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312405",
@@ -5219,7 +4931,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313474",
@@ -5250,7 +4962,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312615",
@@ -5281,7 +4993,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-technologists-149125",
@@ -5312,7 +5024,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-technologists-149163",
@@ -5343,7 +5055,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-148184",
@@ -5374,7 +5086,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-148185",
@@ -5405,7 +5117,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-148652",
@@ -5436,7 +5148,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-148263",
@@ -5467,7 +5179,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-148284",
@@ -5498,7 +5210,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-148324",
@@ -5529,7 +5241,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-148526",
@@ -5560,7 +5272,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-148723",
@@ -5592,7 +5304,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-148283",
@@ -5623,7 +5335,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-148303",
@@ -5654,7 +5366,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-148203",
@@ -5686,7 +5398,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-148223",
@@ -5718,7 +5430,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-148243",
@@ -5750,7 +5462,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-312471",
@@ -5781,7 +5493,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313071",
@@ -5812,7 +5524,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313235",
@@ -5843,7 +5555,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-312416",
@@ -5876,7 +5588,7 @@
     "reviewReasons": [
       "generic_institution"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-312893",
@@ -5907,7 +5619,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313549",
@@ -5938,7 +5650,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313637",
@@ -5969,7 +5681,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313643",
@@ -6002,7 +5714,7 @@
     "reviewReasons": [
       "unknown_region"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312365",
@@ -6033,7 +5745,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312406",
@@ -6066,7 +5778,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312611",
@@ -6097,7 +5809,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312841",
@@ -6130,7 +5842,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312930",
@@ -6161,7 +5873,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313258",
@@ -6192,7 +5904,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313360",
@@ -6225,7 +5937,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312128",
@@ -6258,7 +5970,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312480",
@@ -6291,7 +6003,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312481",
@@ -6324,7 +6036,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313293",
@@ -6357,7 +6069,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312410",
@@ -6390,7 +6102,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312487",
@@ -6423,7 +6135,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312430",
@@ -6456,7 +6168,7 @@
     "reviewReasons": [
       "unknown_discipline"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-311256",
@@ -6487,7 +6199,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-311257",
@@ -6518,7 +6230,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312490",
@@ -6551,7 +6263,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-148863",
@@ -6585,7 +6297,7 @@
       "unknown_region",
       "generic_institution"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-148864",
@@ -6619,7 +6331,7 @@
       "unknown_region",
       "generic_institution"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-148883",
@@ -6653,7 +6365,7 @@
       "unknown_region",
       "generic_institution"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-148903",
@@ -6686,7 +6398,7 @@
     "reviewReasons": [
       "generic_institution"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313364",
@@ -6719,7 +6431,7 @@
     "reviewReasons": [
       "unknown_region"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313330",
@@ -6753,7 +6465,7 @@
     "possibleDuplicateSourceIds": [
       "mur-research-contracts-313331"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313331",
@@ -6787,7 +6499,7 @@
       "possible_duplicate"
     ],
     "possibleDuplicateOf": "mur-research-contracts-313330",
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313390",
@@ -6818,7 +6530,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313391",
@@ -6849,7 +6561,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312839",
@@ -6882,7 +6594,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312950",
@@ -6915,7 +6627,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312953",
@@ -6948,7 +6660,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312997",
@@ -6981,7 +6693,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313050",
@@ -7014,7 +6726,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313194",
@@ -7045,7 +6757,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313340",
@@ -7076,7 +6788,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313342",
@@ -7107,7 +6819,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313344",
@@ -7138,7 +6850,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313345",
@@ -7169,7 +6881,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313350",
@@ -7200,7 +6912,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313352",
@@ -7231,7 +6943,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313252",
@@ -7264,7 +6976,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313458",
@@ -7295,7 +7007,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313459",
@@ -7326,7 +7038,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313460",
@@ -7357,7 +7069,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313461",
@@ -7388,7 +7100,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313403",
@@ -7419,7 +7131,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312243",
@@ -7452,7 +7164,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313337",
@@ -7485,7 +7197,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313338",
@@ -7518,7 +7230,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313339",
@@ -7551,7 +7263,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313343",
@@ -7584,7 +7296,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312191",
@@ -7615,7 +7327,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312193",
@@ -7646,7 +7358,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-technologists-149165",
@@ -7678,7 +7390,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313294",
@@ -7709,7 +7421,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313453",
@@ -7740,7 +7452,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313333",
@@ -7771,7 +7483,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313451",
@@ -7802,7 +7514,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313408",
@@ -7833,7 +7545,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313410",
@@ -7864,7 +7576,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313373",
@@ -7897,7 +7609,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313374",
@@ -7930,7 +7642,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313195",
@@ -7963,7 +7675,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312474",
@@ -7994,7 +7706,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-148063",
@@ -8027,7 +7739,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-148163",
@@ -8058,7 +7770,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-148164",
@@ -8089,7 +7801,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-148424",
@@ -8123,7 +7835,7 @@
     "possibleDuplicateSourceIds": [
       "mur-fixed-term-researchers-148923"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-148503",
@@ -8156,7 +7868,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-148763",
@@ -8187,7 +7899,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-148844",
@@ -8218,7 +7930,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-148923",
@@ -8255,7 +7967,7 @@
     "possibleDuplicateSourceIds": [
       "mur-fixed-term-researchers-148924"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-148924",
@@ -8289,7 +8001,7 @@
       "possible_duplicate"
     ],
     "possibleDuplicateOf": "mur-fixed-term-researchers-148923",
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-148943",
@@ -8320,7 +8032,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-148963",
@@ -8351,7 +8063,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-148743",
@@ -8382,7 +8094,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-148423",
@@ -8413,7 +8125,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-148463",
@@ -8446,7 +8158,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-148464",
@@ -8479,7 +8191,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-148765",
@@ -8510,7 +8222,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-148766",
@@ -8541,7 +8253,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-148768",
@@ -8572,7 +8284,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-148769",
@@ -8603,7 +8315,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-148770",
@@ -8634,7 +8346,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-148771",
@@ -8665,7 +8377,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-148772",
@@ -8696,7 +8408,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-148773",
@@ -8727,7 +8439,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-148823",
@@ -8758,7 +8470,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-148843",
@@ -8789,7 +8501,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313394",
@@ -8820,7 +8532,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-312239",
@@ -8851,7 +8563,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-312816",
@@ -8882,7 +8594,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-312817",
@@ -8913,7 +8625,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-312818",
@@ -8944,7 +8656,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-312819",
@@ -8975,7 +8687,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313490",
@@ -9006,7 +8718,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313491",
@@ -9039,7 +8751,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313361",
@@ -9072,7 +8784,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313362",
@@ -9105,7 +8817,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313462",
@@ -9136,7 +8848,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312482",
@@ -9167,7 +8879,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312574",
@@ -9200,7 +8912,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313110",
@@ -9231,7 +8943,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313366",
@@ -9264,7 +8976,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313369",
@@ -9297,7 +9009,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313393",
@@ -9330,7 +9042,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313270",
@@ -9363,7 +9075,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313450",
@@ -9396,7 +9108,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313472",
@@ -9429,7 +9141,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313259",
@@ -9462,7 +9174,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312573",
@@ -9495,7 +9207,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312575",
@@ -9528,7 +9240,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312577",
@@ -9561,7 +9273,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312842",
@@ -9594,7 +9306,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313479",
@@ -9628,7 +9340,7 @@
       "unknown_region",
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312909",
@@ -9659,7 +9371,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312910",
@@ -9690,7 +9402,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312911",
@@ -9721,7 +9433,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-148783",
@@ -9752,7 +9464,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-148784",
@@ -9783,7 +9495,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313673",
@@ -9795,7 +9507,7 @@
     "positionType": "Contratto di ricerca",
     "professorRank": "",
     "discipline": "Filosofia, storia, lingue, pedagogia e psicologia",
-    "ssd": "-",
+    "ssd": "STAA-01/J - Storia dei paesi islamici",
     "gsd": "10/STAA-01 - CULTURE E LINGUE ANTICHE E MODERNE DELL'AFRICA E DELL'ASIA OCCIDENTALE E CENTRALE",
     "fundingType": "MUR",
     "deadline": "2026-06-26",
@@ -9814,7 +9526,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313674",
@@ -9845,7 +9557,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313675",
@@ -9876,7 +9588,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313003",
@@ -9907,7 +9619,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313542",
@@ -9940,7 +9652,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313543",
@@ -9973,7 +9685,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312366",
@@ -10004,7 +9716,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312571",
@@ -10037,7 +9749,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312895",
@@ -10068,7 +9780,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312897",
@@ -10099,7 +9811,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312898",
@@ -10130,7 +9842,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312899",
@@ -10161,7 +9873,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312900",
@@ -10192,7 +9904,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312901",
@@ -10223,7 +9935,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312902",
@@ -10254,7 +9966,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313051",
@@ -10287,7 +9999,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313053",
@@ -10320,7 +10032,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313676",
@@ -10351,7 +10063,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313455",
@@ -10384,7 +10096,7 @@
     "reviewReasons": [
       "unknown_region"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313546",
@@ -10417,7 +10129,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313638",
@@ -10450,7 +10162,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312652",
@@ -10481,7 +10193,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312655",
@@ -10512,7 +10224,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313530",
@@ -10545,7 +10257,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312840",
@@ -10578,7 +10290,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149004",
@@ -10609,7 +10321,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149065",
@@ -10640,7 +10352,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-148543",
@@ -10673,7 +10385,7 @@
     "reviewReasons": [
       "unknown_region"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-149003",
@@ -10704,7 +10416,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313650",
@@ -10735,7 +10447,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313570",
@@ -10766,7 +10478,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312896",
@@ -10799,7 +10511,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313670",
@@ -10830,7 +10542,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312952",
@@ -10863,7 +10575,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313639",
@@ -10896,7 +10608,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312894",
@@ -10912,7 +10624,7 @@
     "gsd": "07/AGRI-03 - SCIENZE E TECNOLOGIE DEI SISTEMI ARBOREI E FORESTALI",
     "fundingType": "MUR",
     "deadline": "2026-06-28",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-05-28",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/312894",
@@ -10929,7 +10641,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313031",
@@ -10945,7 +10657,7 @@
     "gsd": "14/GSPS-02 - SCIENZA POLITICA",
     "fundingType": "MUR",
     "deadline": "2026-06-28",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-05-13",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/313031",
@@ -10960,7 +10672,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313015",
@@ -10976,7 +10688,7 @@
     "gsd": "06/MEDS-06 - CHIRURGIA GENERALE",
     "fundingType": "MUR",
     "deadline": "2026-06-28",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-05-29",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/313015",
@@ -10991,7 +10703,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312103",
@@ -11022,7 +10734,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-310030",
@@ -11053,7 +10765,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-technologists-149143",
@@ -11085,7 +10797,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-technologists-149144",
@@ -11117,7 +10829,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149023",
@@ -11148,7 +10860,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149043",
@@ -11179,7 +10891,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-148703",
@@ -11210,7 +10922,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-148803",
@@ -11241,7 +10953,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149064",
@@ -11272,7 +10984,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-149044",
@@ -11303,7 +11015,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-147783",
@@ -11336,7 +11048,7 @@
     "reviewReasons": [
       "unknown_region"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-149063",
@@ -11367,7 +11079,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-312951",
@@ -11398,7 +11110,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313363",
@@ -11429,7 +11141,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313151",
@@ -11460,7 +11172,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312554",
@@ -11491,7 +11203,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312572",
@@ -11524,7 +11236,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312851",
@@ -11557,7 +11269,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313008",
@@ -11590,7 +11302,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313297",
@@ -11623,7 +11335,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313298",
@@ -11656,7 +11368,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313368",
@@ -11689,7 +11401,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313032",
@@ -11720,7 +11432,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313572",
@@ -11753,7 +11465,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313392",
@@ -11786,7 +11498,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313413",
@@ -11819,7 +11531,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312931",
@@ -11850,7 +11562,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312932",
@@ -11881,7 +11593,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312933",
@@ -11914,7 +11626,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313494",
@@ -11947,7 +11659,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312963",
@@ -11978,7 +11690,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312370",
@@ -12009,7 +11721,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312431",
@@ -12040,7 +11752,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-311875",
@@ -12073,7 +11785,7 @@
     "reviewReasons": [
       "unknown_discipline"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149083",
@@ -12104,7 +11816,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149103",
@@ -12135,7 +11847,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312367",
@@ -12166,7 +11878,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312856",
@@ -12199,7 +11911,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313480",
@@ -12232,7 +11944,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313496",
@@ -12265,7 +11977,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312852",
@@ -12298,7 +12010,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313454",
@@ -12331,7 +12043,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312957",
@@ -12362,7 +12074,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313040",
@@ -12395,7 +12107,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312692",
@@ -12426,7 +12138,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312693",
@@ -12457,7 +12169,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312694",
@@ -12488,7 +12200,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312695",
@@ -12519,7 +12231,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312696",
@@ -12550,7 +12262,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312697",
@@ -12581,7 +12293,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312698",
@@ -12612,7 +12324,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312699",
@@ -12643,7 +12355,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312700",
@@ -12674,7 +12386,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312702",
@@ -12705,7 +12417,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312703",
@@ -12736,7 +12448,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312704",
@@ -12767,7 +12479,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312705",
@@ -12798,7 +12510,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312706",
@@ -12829,7 +12541,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312707",
@@ -12860,7 +12572,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312708",
@@ -12891,7 +12603,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312709",
@@ -12922,7 +12634,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312710",
@@ -12953,7 +12665,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312711",
@@ -12984,7 +12696,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312712",
@@ -13015,7 +12727,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312713",
@@ -13046,7 +12758,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312714",
@@ -13077,7 +12789,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312715",
@@ -13108,7 +12820,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312716",
@@ -13139,7 +12851,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312717",
@@ -13170,7 +12882,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312718",
@@ -13201,7 +12913,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312719",
@@ -13232,7 +12944,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312720",
@@ -13263,7 +12975,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312721",
@@ -13296,7 +13008,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312722",
@@ -13329,7 +13041,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312723",
@@ -13360,7 +13072,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312724",
@@ -13391,7 +13103,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312725",
@@ -13422,7 +13134,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312726",
@@ -13453,7 +13165,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312727",
@@ -13484,7 +13196,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312728",
@@ -13515,7 +13227,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312729",
@@ -13546,7 +13258,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312730",
@@ -13577,7 +13289,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312731",
@@ -13608,7 +13320,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312732",
@@ -13639,7 +13351,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312733",
@@ -13670,7 +13382,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312734",
@@ -13701,7 +13413,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312735",
@@ -13732,7 +13444,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312736",
@@ -13763,7 +13475,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312737",
@@ -13794,7 +13506,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312738",
@@ -13825,7 +13537,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312739",
@@ -13856,7 +13568,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312740",
@@ -13887,7 +13599,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312741",
@@ -13918,7 +13630,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312742",
@@ -13949,7 +13661,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312743",
@@ -13980,7 +13692,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312744",
@@ -14011,7 +13723,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312745",
@@ -14042,7 +13754,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312746",
@@ -14075,7 +13787,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312747",
@@ -14106,7 +13818,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312748",
@@ -14137,7 +13849,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312749",
@@ -14168,7 +13880,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312750",
@@ -14199,7 +13911,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312751",
@@ -14230,7 +13942,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312752",
@@ -14261,7 +13973,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312753",
@@ -14292,7 +14004,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312754",
@@ -14323,7 +14035,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312755",
@@ -14354,7 +14066,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312756",
@@ -14387,7 +14099,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312757",
@@ -14418,7 +14130,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312758",
@@ -14449,7 +14161,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312759",
@@ -14480,7 +14192,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312760",
@@ -14511,7 +14223,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312761",
@@ -14542,7 +14254,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312762",
@@ -14573,7 +14285,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312763",
@@ -14604,7 +14316,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312764",
@@ -14635,7 +14347,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312765",
@@ -14666,7 +14378,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312766",
@@ -14697,7 +14409,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312767",
@@ -14728,7 +14440,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312768",
@@ -14759,7 +14471,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312769",
@@ -14790,7 +14502,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312770",
@@ -14821,7 +14533,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312771",
@@ -14852,7 +14564,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312772",
@@ -14883,7 +14595,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312773",
@@ -14914,7 +14626,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312774",
@@ -14945,7 +14657,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312775",
@@ -14976,7 +14688,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312776",
@@ -15007,7 +14719,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312777",
@@ -15038,7 +14750,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312778",
@@ -15069,7 +14781,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312779",
@@ -15100,7 +14812,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312780",
@@ -15131,7 +14843,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312781",
@@ -15162,7 +14874,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312782",
@@ -15193,7 +14905,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312783",
@@ -15224,7 +14936,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312784",
@@ -15255,7 +14967,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312785",
@@ -15286,7 +14998,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312786",
@@ -15317,7 +15029,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312787",
@@ -15348,7 +15060,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312788",
@@ -15379,7 +15091,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312789",
@@ -15410,7 +15122,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312790",
@@ -15441,7 +15153,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312791",
@@ -15472,7 +15184,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312792",
@@ -15503,7 +15215,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312793",
@@ -15534,7 +15246,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312794",
@@ -15565,7 +15277,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312795",
@@ -15596,7 +15308,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312796",
@@ -15627,7 +15339,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312797",
@@ -15658,7 +15370,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312798",
@@ -15689,7 +15401,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312799",
@@ -15720,7 +15432,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312800",
@@ -15751,7 +15463,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312801",
@@ -15782,7 +15494,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312802",
@@ -15813,7 +15525,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312803",
@@ -15844,7 +15556,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312804",
@@ -15875,7 +15587,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312805",
@@ -15906,7 +15618,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312806",
@@ -15937,7 +15649,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312807",
@@ -15968,7 +15680,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312808",
@@ -15999,7 +15711,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312809",
@@ -16030,7 +15742,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312810",
@@ -16063,7 +15775,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312811",
@@ -16094,7 +15806,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312812",
@@ -16125,7 +15837,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-technologists-149123",
@@ -16156,7 +15868,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-312959",
@@ -16187,7 +15899,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-312960",
@@ -16218,7 +15930,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313513",
@@ -16251,7 +15963,7 @@
     "reviewReasons": [
       "unknown_region"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312553",
@@ -16282,7 +15994,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312864",
@@ -16315,7 +16027,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313296",
@@ -16346,7 +16058,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313348",
@@ -16377,7 +16089,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312991",
@@ -16410,7 +16122,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-312992",
@@ -16443,7 +16155,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313671",
@@ -16474,7 +16186,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312906",
@@ -16505,7 +16217,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313131",
@@ -16538,7 +16250,7 @@
     "reviewReasons": [
       "unknown_region"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312855",
@@ -16571,7 +16283,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312858",
@@ -16604,7 +16316,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312859",
@@ -16635,7 +16347,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312861",
@@ -16666,7 +16378,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312862",
@@ -16697,7 +16409,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313253",
@@ -16730,7 +16442,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313130",
@@ -16761,7 +16473,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313093",
@@ -16792,7 +16504,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313299",
@@ -16825,7 +16537,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313660",
@@ -16856,7 +16568,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313662",
@@ -16887,7 +16599,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313663",
@@ -16918,7 +16630,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313666",
@@ -16949,7 +16661,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313223",
@@ -16980,7 +16692,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313198",
@@ -17013,7 +16725,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313200",
@@ -17046,7 +16758,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313201",
@@ -17079,7 +16791,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-technologists-149263",
@@ -17113,7 +16825,7 @@
     "reviewReasons": [
       "unknown_region"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313291",
@@ -17146,7 +16858,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313483",
@@ -17179,7 +16891,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-148764",
@@ -17210,7 +16922,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149203",
@@ -17241,7 +16953,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149224",
@@ -17272,7 +16984,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149225",
@@ -17303,7 +17015,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149164",
@@ -17334,7 +17046,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149166",
@@ -17366,7 +17078,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149186",
@@ -17397,7 +17109,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149187",
@@ -17428,7 +17140,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-149226",
@@ -17459,7 +17171,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-148767",
@@ -17490,7 +17202,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-149183",
@@ -17522,7 +17234,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313336",
@@ -17553,7 +17265,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313265",
@@ -17586,7 +17298,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-312907",
@@ -17617,7 +17329,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313197",
@@ -17650,7 +17362,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313269",
@@ -17681,7 +17393,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313204",
@@ -17714,7 +17426,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313335",
@@ -17747,7 +17459,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313290",
@@ -17780,7 +17492,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313531",
@@ -17814,7 +17526,7 @@
       "unknown_region",
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313263",
@@ -17845,7 +17557,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313266",
@@ -17876,7 +17588,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-149223",
@@ -17907,7 +17619,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313332",
@@ -17938,7 +17650,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313334",
@@ -17969,7 +17681,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313351",
@@ -18000,7 +17712,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313353",
@@ -18033,7 +17745,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313354",
@@ -18066,7 +17778,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313355",
@@ -18097,7 +17809,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313357",
@@ -18128,7 +17840,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313358",
@@ -18159,7 +17871,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313401",
@@ -18190,7 +17902,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313405",
@@ -18223,7 +17935,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313407",
@@ -18256,7 +17968,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313412",
@@ -18289,7 +18001,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313415",
@@ -18322,7 +18034,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313416",
@@ -18353,7 +18065,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313417",
@@ -18386,7 +18098,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313418",
@@ -18419,7 +18131,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313419",
@@ -18450,7 +18162,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313421",
@@ -18483,7 +18195,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313422",
@@ -18514,7 +18226,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313423",
@@ -18545,7 +18257,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313424",
@@ -18578,7 +18290,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313425",
@@ -18609,7 +18321,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313426",
@@ -18642,7 +18354,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313427",
@@ -18673,7 +18385,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313428",
@@ -18706,7 +18418,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313429",
@@ -18739,7 +18451,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313430",
@@ -18772,7 +18484,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313431",
@@ -18803,7 +18515,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313433",
@@ -18834,7 +18546,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313434",
@@ -18865,7 +18577,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313436",
@@ -18898,7 +18610,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313470",
@@ -18929,7 +18641,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313375",
@@ -18962,7 +18674,7 @@
     "reviewReasons": [
       "unknown_discipline"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313400",
@@ -18993,7 +18705,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313404",
@@ -19024,7 +18736,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313406",
@@ -19055,7 +18767,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313411",
@@ -19086,7 +18798,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313414",
@@ -19117,7 +18829,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149326",
@@ -19148,7 +18860,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149327",
@@ -19179,7 +18891,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149328",
@@ -19210,7 +18922,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149329",
@@ -19241,7 +18953,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149243",
@@ -19272,7 +18984,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149284",
@@ -19303,7 +19015,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149285",
@@ -19334,7 +19046,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149286",
@@ -19366,7 +19078,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149287",
@@ -19398,7 +19110,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149288",
@@ -19429,7 +19141,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149289",
@@ -19460,7 +19172,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149290",
@@ -19491,7 +19203,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149291",
@@ -19522,7 +19234,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149292",
@@ -19553,7 +19265,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149293",
@@ -19584,7 +19296,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-149283",
@@ -19615,7 +19327,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-149330",
@@ -19648,7 +19360,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-149331",
@@ -19681,7 +19393,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-149332",
@@ -19714,7 +19426,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-149303",
@@ -19745,7 +19457,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-149304",
@@ -19776,7 +19488,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-149305",
@@ -19807,7 +19519,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-149306",
@@ -19838,7 +19550,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-149383",
@@ -19869,7 +19581,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313551",
@@ -19900,7 +19612,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313435",
@@ -19933,7 +19645,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313371",
@@ -19966,7 +19678,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313456",
@@ -19999,7 +19711,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313481",
@@ -20032,7 +19744,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313484",
@@ -20065,7 +19777,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313485",
@@ -20098,7 +19810,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313486",
@@ -20129,7 +19841,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313488",
@@ -20162,7 +19874,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313533",
@@ -20195,7 +19907,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313541",
@@ -20226,7 +19938,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313471",
@@ -20257,7 +19969,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313672",
@@ -20288,7 +20000,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313190",
@@ -20319,7 +20031,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313191",
@@ -20350,7 +20062,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313192",
@@ -20381,7 +20093,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313193",
@@ -20412,7 +20124,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313495",
@@ -20445,7 +20157,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313478",
@@ -20478,7 +20190,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313548",
@@ -20511,7 +20223,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313654",
@@ -20544,7 +20256,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313512",
@@ -20577,7 +20289,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313669",
@@ -20608,7 +20320,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-312870",
@@ -20641,7 +20353,7 @@
     "reviewReasons": [
       "unknown_region"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313052",
@@ -20675,7 +20387,7 @@
       "unknown_region",
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149403",
@@ -20706,7 +20418,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149343",
@@ -20737,7 +20449,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149344",
@@ -20768,7 +20480,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149345",
@@ -20799,7 +20511,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149346",
@@ -20830,7 +20542,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149347",
@@ -20861,7 +20573,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149348",
@@ -20892,7 +20604,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149349",
@@ -20923,7 +20635,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149350",
@@ -20954,7 +20666,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149351",
@@ -20985,7 +20697,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149352",
@@ -21016,7 +20728,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149353",
@@ -21047,7 +20759,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149354",
@@ -21078,7 +20790,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149355",
@@ -21109,7 +20821,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149356",
@@ -21140,7 +20852,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149357",
@@ -21171,7 +20883,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149363",
@@ -21202,7 +20914,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149364",
@@ -21233,7 +20945,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149365",
@@ -21264,7 +20976,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149366",
@@ -21295,7 +21007,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149367",
@@ -21326,7 +21038,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149368",
@@ -21357,7 +21069,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149369",
@@ -21388,7 +21100,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149370",
@@ -21419,7 +21131,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149371",
@@ -21450,7 +21162,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149372",
@@ -21481,7 +21193,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149373",
@@ -21512,7 +21224,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149374",
@@ -21543,7 +21255,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149375",
@@ -21574,7 +21286,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149376",
@@ -21605,7 +21317,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149377",
@@ -21636,7 +21348,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149391",
@@ -21668,7 +21380,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-fixed-term-researchers-149392",
@@ -21700,7 +21412,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313545",
@@ -21731,7 +21443,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313532",
@@ -21764,7 +21476,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313547",
@@ -21797,7 +21509,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313510",
@@ -21830,7 +21542,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313511",
@@ -21863,7 +21575,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313658",
@@ -21896,7 +21608,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-postdoc-assignments-313550",
@@ -21927,7 +21639,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313552",
@@ -21958,7 +21670,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313012",
@@ -21991,7 +21703,7 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313630",
@@ -22022,7 +21734,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313631",
@@ -22053,7 +21765,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313632",
@@ -22084,7 +21796,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313633",
@@ -22115,7 +21827,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313634",
@@ -22146,7 +21858,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313635",
@@ -22177,7 +21889,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313636",
@@ -22208,7 +21920,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313452",
@@ -22242,7 +21954,7 @@
       "generic_title",
       "generic_institution"
     ],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313640",
@@ -22273,7 +21985,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313641",
@@ -22304,7 +22016,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313642",
@@ -22335,7 +22047,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313292",
@@ -22366,7 +22078,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313395",
@@ -22397,7 +22109,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313396",
@@ -22428,7 +22140,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313397",
@@ -22459,7 +22171,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313398",
@@ -22490,7 +22202,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-assignments-313399",
@@ -22521,7 +22233,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-312961",
@@ -22552,7 +22264,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-312962",
@@ -22583,7 +22295,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-research-contracts-313070",
@@ -22614,7 +22326,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-professor-calls-148532",
@@ -22645,7 +22357,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-313212",
@@ -22676,7 +22388,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   },
   {
     "id": "mur-doctorates-287957",
@@ -22707,6 +22419,6 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-06-13T08:32:00.699Z"
+    "updatedAt": "2026-06-14T08:50:18.526Z"
   }
 ]
