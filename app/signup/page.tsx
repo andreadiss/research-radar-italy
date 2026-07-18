@@ -1,35 +1,27 @@
 import Link from "next/link";
-import type { Route } from "next";
+import { Suspense } from "react";
 import { AuthBackdrop } from "@/app/components/AuthBackdrop";
 import { AuthForm } from "@/app/components/AuthForm";
 
-export default function SignUpPage({
-  searchParams
-}: {
-  searchParams: { returnTo?: string };
-}) {
-  const closeHref = safeReturnTo(searchParams.returnTo);
-
+export default function SignUpPage() {
   return (
     <main className="auth-shell">
-      <AuthBackdrop returnTo={searchParams.returnTo} />
+      <AuthBackdrop />
       <section className="auth-modal" role="dialog" aria-labelledby="signup-title" aria-modal="true">
-        <Link className="modal-close" href={closeHref} aria-label="Chiudi sign up">
-          ×
+        <Link className="modal-close" href="/" aria-label="Chiudi sign up">
+          x
         </Link>
         <div>
           <h1 id="signup-title">Sign Up</h1>
-          <p>Crea un account per ricevere suggerimenti e salvare opportunità.</p>
+          <p>Crea un profilo locale per salvare opportunità su questo browser.</p>
         </div>
-        <AuthForm mode="signup" />
+        <Suspense fallback={null}>
+          <AuthForm mode="signup" />
+        </Suspense>
         <p className="auth-note">
-          Il consenso email potra alimentare gli aggiornamenti automatici sulle nuove opportunità.
+          Account cloud, Google login e notifiche email saranno riattivati con un backend esterno.
         </p>
       </section>
     </main>
   );
-}
-
-function safeReturnTo(value: string | undefined) {
-  return (value?.startsWith("/") ? value : "/") as Route;
 }

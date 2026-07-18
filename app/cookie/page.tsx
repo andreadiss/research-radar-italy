@@ -32,12 +32,12 @@ export default function CookiePage() {
 
           <h2>Analytics</h2>
           <p className="summary">
-            Usiamo Vercel Web Analytics e Speed Insights per misurare traffico, performance e interazioni aggregate. I dati aiutano a capire quali percorsi aiutano gli utenti a trovare opportunita rilevanti.
+            Usiamo strumenti di analytics e performance per misurare traffico e interazioni aggregate. I dati aiutano a capire quali percorsi aiutano gli utenti a trovare opportunita rilevanti.
           </p>
 
           <h2>Cookie di terze parti</h2>
           <p className="summary">
-            Il login con Google e i servizi Supabase/Vercel possono impostare cookie o gestire identificatori necessari al completamento dell'autenticazione e alla sicurezza del servizio.
+            Il login e i servizi di autenticazione possono impostare cookie o gestire identificatori necessari al completamento dell'autenticazione e alla sicurezza del servizio.
           </p>
 
           <h2>Gestione</h2>

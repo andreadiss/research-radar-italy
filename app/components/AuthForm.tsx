@@ -3,6 +3,7 @@
 import { useRouter } from "next/navigation";
 import { useSearchParams } from "next/navigation";
 import type { Route } from "next";
+import { accountChangedEvent } from "@/app/components/AccountNav";
 import { track } from "@/lib/client-analytics";
 import { useState } from "react";
 
@@ -24,44 +25,23 @@ export function AuthForm({ mode }: AuthFormProps) {
 
   function startGoogleAuth() {
     track("auth_google_clicked", { mode });
-    window.location.href = `/api/auth/google?returnTo=${encodeURIComponent(safeReturnTo(searchParams.get("returnTo")))}`;
+    setStatus("Accesso Google temporaneamente non disponibile nella versione statica.");
   }
 
-  async function submit(event: React.FormEvent<HTMLFormElement>) {
+  function submit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
     setStatus("");
     setIsSubmitting(true);
 
     const formData = new FormData(event.currentTarget);
-    const payload = isSignup
-      ? {
-          firstName: String(formData.get("firstName") ?? ""),
-          lastName: String(formData.get("lastName") ?? ""),
-          email: String(formData.get("email") ?? ""),
-          password: String(formData.get("password") ?? ""),
-          emailOptIn: formData.get("emailOptIn") === "on"
-        }
-      : {
-          email: String(formData.get("email") ?? ""),
-          password: String(formData.get("password") ?? "")
-        };
+    const email = String(formData.get("email") ?? "").trim().toLowerCase();
+    const firstName = isSignup ? String(formData.get("firstName") ?? "").trim() : email.split("@")[0] || "utente";
 
-    const response = await fetch(`/api/auth/${mode}`, {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify(payload)
-    });
-    const result = (await response.json()) as { ok: boolean; error?: string; requiresEmailConfirmation?: boolean };
-
+    window.localStorage.setItem("rr_account_email", email);
+    window.localStorage.setItem("rr_account_name", firstName);
+    window.dispatchEvent(new Event(accountChangedEvent));
     setIsSubmitting(false);
-
-    if (!response.ok || !result.ok) {
-      setStatus(result.error ?? "Operazione non riuscita.");
-      return;
-    }
-
-    router.push(authReturnTo(searchParams.get("returnTo"), mode, result.requiresEmailConfirmation));
-    router.refresh();
+    router.push(authReturnTo(searchParams.get("returnTo"), mode));
   }
 
   return (

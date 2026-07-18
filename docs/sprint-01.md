@@ -29,6 +29,7 @@ Move from mock-only product to a MUR/Cineca-backed MVP data flow.
 - Full open-call sync completed on 2026-05-05: 690 live MUR records, 690 frontend positions, 0 missing live records.
 - Full open-call sync refreshed on 2026-05-16: 809 live MUR records across the 8 public categories, 809 frontend positions, 0 missing live records. `Assegni di ricerca` currently has 0 open calls on the official MUR endpoint.
 - Intent-driven top navigation added for `Posizioni aperte` and `Bandi e funding`, with type and discipline as second-level chips.
+- Production release moved to GitHub Pages static export with `rritaly.com` kept as the custom domain target.
 
 ## In Progress
 
@@ -49,3 +50,4 @@ Move from mock-only product to a MUR/Cineca-backed MVP data flow.
 - `npm run typecheck` passed.
 - `npm run persist:supabase` fails safely until Supabase environment variables are configured.
 - `next build` passed after the 2026-05-16 refresh.
+- `npm run build:static` passed for the GitHub Pages static export.

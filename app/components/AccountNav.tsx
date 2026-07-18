@@ -1,11 +1,28 @@
-import { cookies } from "next/headers";
+"use client";
+
 import Link from "next/link";
 import { ListChecks } from "lucide-react";
+import { Suspense, useEffect, useState } from "react";
 import { AccountLinks } from "@/app/components/AccountLinks";
 import { LogoutButton } from "@/app/components/LogoutButton";
 
+export const accountChangedEvent = "rr:account-changed";
+
 export function AccountNav() {
-  const name = cookies().get("rr_account_name")?.value;
+  const [name, setName] = useState("");
+
+  useEffect(() => {
+    const updateAccount = () => setName(window.localStorage.getItem("rr_account_name") ?? "");
+
+    updateAccount();
+    window.addEventListener(accountChangedEvent, updateAccount);
+    window.addEventListener("storage", updateAccount);
+
+    return () => {
+      window.removeEventListener(accountChangedEvent, updateAccount);
+      window.removeEventListener("storage", updateAccount);
+    };
+  }, []);
 
   if (name) {
     return (
@@ -22,7 +39,22 @@ export function AccountNav() {
 
   return (
     <nav className="account-actions" aria-label="Account">
-      <AccountLinks />
+      <Suspense fallback={<AuthFallbackLinks />}>
+        <AccountLinks />
+      </Suspense>
     </nav>
+  );
+}
+
+function AuthFallbackLinks() {
+  return (
+    <>
+      <Link className="account-link" href="/login">
+        Login
+      </Link>
+      <Link className="account-link primary" href="/signup">
+        Sign Up
+      </Link>
+    </>
   );
 }

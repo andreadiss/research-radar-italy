@@ -25,7 +25,7 @@ Sprint 4 has started. The core positions flow and the first Grants/funding basel
 - `npm run import:grants:live` imports PRIN 2026 calls from the official PRIN portal and enriches REA MSCA pages with curated fallback.
 - `npm run audit:grants` writes Grants coverage/freshness metrics.
 - Grants/funding now has a daily GitHub Actions refresh and `firstSeenAt` tracking for new-call badges.
-- MUR/Cineca positions now have a daily GitHub Actions refresh that persists to Supabase, updates `lib/generated/mur-positions.json`, and triggers Vercel redeploys when data changes.
+- MUR/Cineca positions now have a daily GitHub Actions refresh that persists to Supabase, updates `lib/generated/mur-positions.json`, and triggers the static GitHub Pages deploy when data changes.
 - Latest local MUR refresh on 2026-05-16 covers 809 live open records with 0 missing live records. The `Tipo` filter now exposes all MUR position families, including `Assegno` when the official endpoint returns current calls.
 - Supabase dedupe keys are now indexed but not unique, because official MUR records with matching dedupe keys must remain visible for review.
 - Logged-in users can save positions and grants with a single bookmark action and revisit them from `Le mie liste`.
@@ -359,8 +359,8 @@ Activities and priorities:
 
 ### P0
 
-- [x] Add Vercel Web Analytics.
-- [x] Add Vercel Speed Insights.
+- [x] Add client-side product analytics hooks.
+- [x] Add performance/SEO monitoring baseline.
 - [x] Track home intent entry points for `Posizioni aperte` and `Grants & Funding`.
 - [x] Track position and grant filter usage.
 - [x] Track opportunity preview, detail page and official source opens.
@@ -382,7 +382,7 @@ Activities and priorities:
 
 Exit criteria:
 
-- The public product reports pageviews and Core Web Vitals in Vercel.
+- The public product can report pageviews, Core Web Vitals and core funnel events through a privacy-friendly analytics provider.
 - The main funnel actions emit named analytics events.
 - The monetization path is documented before payment UI is added.
 

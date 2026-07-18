@@ -1,17 +1,17 @@
 "use client";
 
-import { useRouter } from "next/navigation";
 import { useState } from "react";
+import { accountChangedEvent } from "@/app/components/AccountNav";
 
 export function LogoutButton() {
-  const router = useRouter();
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  async function logout() {
+  function logout() {
     setIsSubmitting(true);
-    await fetch("/api/auth/logout", { method: "POST" });
-    router.push("/");
-    router.refresh();
+    window.localStorage.removeItem("rr_account_name");
+    window.localStorage.removeItem("rr_account_email");
+    window.dispatchEvent(new Event(accountChangedEvent));
+    window.location.href = "/";
   }
 
   return (

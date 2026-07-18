@@ -16,42 +16,23 @@ export function FilteredActions({ filters, resultCount }: FilteredActionsProps) 
   const contactEmail = accountEmail || email;
 
   useEffect(() => {
-    let active = true;
-
-    async function loadAccount() {
-      const response = await fetch("/api/auth/me");
-      if (!response.ok) return;
-
-      const result = (await response.json()) as { account?: { email?: string } };
-      if (active && result.account?.email) {
-        setAccountEmail(result.account.email);
-      }
-    }
-
-    loadAccount();
-
-    return () => {
-      active = false;
-    };
+    setAccountEmail(window.localStorage.getItem("rr_account_email") ?? "");
   }, []);
 
-  async function submit(kind: "saved-searches" | "alerts") {
+  function submit(kind: "saved-searches" | "alerts") {
     setIsSaving(true);
     setStatus("");
-
-    const response = await fetch(`/api/${kind}`, {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify({
+    window.localStorage.setItem(
+      kind === "alerts" ? "rr_pending_alert" : "rr_saved_search",
+      JSON.stringify({
         email: contactEmail,
         frequency: "weekly",
         name: searchName(filters),
         filters
       })
-    });
-
+    );
     setIsSaving(false);
-    setStatus(response.ok ? successLabel(kind, Boolean(accountEmail)) : "Non salvato. Accedi o controlla email e riprova.");
+    setStatus(successLabel(kind, Boolean(accountEmail)));
   }
 
   return (

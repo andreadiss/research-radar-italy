@@ -30,43 +30,18 @@ export function OpportunityActions({
   title
 }: OpportunityActionsProps) {
   const [isSaved, setIsSaved] = useState(false);
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
 
   useEffect(() => {
     setIsSaved(readFavorites().some((favorite) => favorite.id === opportunityId && favorite.type === opportunityType));
-
-    fetch("/api/auth/me")
-      .then((response) => setIsAuthenticated(response.ok))
-      .catch(() => setIsAuthenticated(false));
   }, [opportunityId, opportunityType]);
 
-  async function saveOpportunity() {
-    if (!isAuthenticated) {
-      track("save_requires_login", {
-        opportunity_id: opportunityId,
-        opportunity_type: opportunityType
-      });
-      window.location.href = `/login?returnTo=${encodeURIComponent(window.location.pathname + window.location.search)}`;
-      return;
-    }
-
+  function saveOpportunity() {
     const nextSaved = !isSaved;
     setIsSaved(nextSaved);
     writeFavorite({ detailHref, id: opportunityId, title, type: opportunityType }, nextSaved);
     track(nextSaved ? "opportunity_saved" : "opportunity_unsaved", {
       opportunity_id: opportunityId,
       opportunity_type: opportunityType
-    });
-
-    await fetch("/api/saved-opportunities", {
-      method: nextSaved ? "POST" : "DELETE",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify({
-        opportunityId,
-        opportunityType,
-        title,
-        status: "saved"
-      })
     });
   }
 
@@ -76,7 +51,7 @@ export function OpportunityActions({
         aria-pressed={isSaved}
         className={isSaved ? "icon-action active" : "icon-action"}
         onClick={saveOpportunity}
-        title={!isAuthenticated ? "Accedi per salvare" : isSaved ? "Salvata nei preferiti" : "Salva nei preferiti"}
+        title={isSaved ? "Salvata nei preferiti" : "Salva nei preferiti"}
         type="button"
       >
         <Bookmark size={17} />

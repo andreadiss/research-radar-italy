@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:static": "next build",
     "import:mur": "node scripts/import-mur.mjs --limit=10 --out=data/mur-sample.json",
     "import:grants": "node scripts/import-grants.mjs",
     "import:grants:live": "node scripts/import-grants.mjs --live",

@@ -24,7 +24,8 @@
 - [x] Add local JSON store for source records, positions, sources, and import runs
 - [x] Add single `sync:mur` command for import + normalize + cache
 - [x] Add full MUR sync and live coverage audit
-- [x] Add daily GitHub Action to refresh MUR positions and trigger Vercel redeploys
+- [x] Add daily GitHub Action to refresh MUR positions and trigger production redeploys
+- [x] Move public release from Netlify/Vercel runtime hosting to GitHub Pages static export with custom domain
 - [x] Keep all MUR position families visible in `Tipo` filters, including categories with zero current open calls
 - [x] Add production deduplication by URL, title, institution, and deadline
 - [x] Add deadline status: open, closing soon, expired
@@ -56,9 +57,10 @@
 - [x] Implement Sign Up with first name, last name, email, and password
 - [x] Implement Login with email and password
 - [x] Add Google login/signup entry point through Supabase Auth
-- [ ] Restore saved positions and grants after login
+- [ ] Restore saved positions and grants after login with server-backed persistence
 - [ ] Add `Suggeriti per te` box on HP for authenticated users
 - [x] Make saved searches and alerts account-aware after login
+- [ ] Re-enable production Google login after choosing a dynamic auth runtime or Supabase-only static callback pattern
 - [ ] Improve detail page for candidate decision-making
 - [ ] AI summary for each call
 - [ ] Discipline classification across all fields
@@ -117,9 +119,10 @@
 - [ ] Add Contact page
 - [ ] Add custom Open Graph image for social sharing
 - [ ] Add content/positioning plan for organic acquisition
-- [x] Add Vercel Web Analytics and Speed Insights baseline
+- [x] Add web analytics and performance monitoring baseline
 - [x] Track core product funnel events: home intent, filters, previews, detail opens, source opens, saves, auth CTAs
 - [ ] Add analytics event review dashboard for activation and conversion
+- [ ] Add dynamic backend layer for account persistence, email automation, and premium flows while keeping the public site cacheable/static where possible
 - [ ] Define freemium limits for saved opportunities, lists, and alert frequency
 - [ ] Add Stripe subscription foundation for premium alerts
 - [ ] Public RSS feeds

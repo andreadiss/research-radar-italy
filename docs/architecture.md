@@ -6,7 +6,7 @@
 MUR/Cineca
    |
    v
-Importer job
+GitHub Actions importer job
    |
    v
 Raw source records
@@ -15,21 +15,32 @@ Raw source records
 Normalization and dedupe
    |
    v
-Positions database
+Positions database and generated JSON cache
    |
    v
-Web app, alerts, newsletter
+Static web app, alerts, newsletter
 ```
 
 ## Planned Components
 
 ### Web App
 
-Next.js app with public pages, API endpoints, and eventually authenticated user flows.
+Next.js App Router app exported as a static site for the public release.
+
+Current production hosting:
+
+- GitHub Pages serves the generated static `out` directory.
+- `public/CNAME` attaches the custom domain `rritaly.com`.
+- Public pages, listings, details, sitemap and robots are static.
+- Favorites and lightweight account feedback use browser local storage in the static release.
+
+Dynamic account persistence, Google auth, email automation and premium flows remain planned backend work.
 
 ### Database
 
 PostgreSQL through Supabase.
+
+Supabase is currently used as the production persistence target for importer data when GitHub Actions secrets are configured. User-facing auth persistence is paused in the static release and should return through a dedicated dynamic layer.
 
 Core tables:
 

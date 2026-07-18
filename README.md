@@ -10,8 +10,9 @@ Make Italian academic calls easier to find, filter, understand, save, and monito
 
 - Next.js App Router
 - TypeScript
-- PostgreSQL/Supabase, planned
-- MUR/Cineca importer, planned
+- Static export on GitHub Pages
+- PostgreSQL/Supabase for persisted source data and future account flows
+- MUR/Cineca importer
 - AI enrichment, planned
 - Email alerts/newsletter, planned
 
@@ -67,7 +68,19 @@ Open MUR/Cineca positions are refreshed by the GitHub Actions workflow `.github/
 - Manual run: GitHub repository -> Actions -> `Sync MUR positions` -> `Run workflow`.
 - Behavior: imports all currently open MUR positions, regenerates `lib/generated/mur-positions.json`, builds the app, and commits only when the generated cache changes.
 - Supabase: when `SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` are configured as GitHub Actions secrets, the workflow also persists sources, import runs, source records and positions to Supabase.
-- Deployment: the workflow push to `main` triggers a new Vercel deployment.
+- Deployment: the workflow push to `main` triggers the static GitHub Pages deployment.
+
+## Production Deployment
+
+The public release is a static export hosted on GitHub Pages with the custom domain `https://rritaly.com`.
+
+```bash
+npm run build:static
+```
+
+The GitHub Actions workflow `.github/workflows/deploy-pages.yml` builds the static export from `main` and publishes the generated `out` directory to GitHub Pages. The `public/CNAME` file keeps the custom domain attached to the Pages deployment.
+
+Because the release is static, browser favorites and lightweight account feedback are stored locally in the browser. Server-side auth, Google login persistence, email automation and cross-device saved lists remain Supabase-backed product work for a future dynamic layer.
 
 If Supabase was initialized before the dedupe constraint change, run:
 

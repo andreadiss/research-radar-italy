@@ -38,8 +38,8 @@ Priority organic search intents:
 
 P0:
 
-- Connect Google Search Console for `https://research-radar-italy.vercel.app`.
-- Submit `https://research-radar-italy.vercel.app/sitemap.xml`.
+- Connect Google Search Console for `https://rritaly.com`.
+- Submit `https://rritaly.com/sitemap.xml`.
 - Inspect `/`, `/?intent=posizioni`, `/?intent=bandi`, one position detail page and one grant detail page.
 - Add About, Contact, Privacy and Cookie pages before monetization or ad-network review.
 
