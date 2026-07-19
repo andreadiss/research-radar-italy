@@ -59,11 +59,11 @@ const popularSearches = [
   { path: "/funding/erc", label: "ERC" }
 ] as const;
 
-export function RadarApp() {
+export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } = {}) {
   const searchParams = useRadarSearchParams();
   const savedPreview = { count: 0, items: [] };
   const intent: Intent =
-    searchParams.intent === "bandi" ? "bandi" : searchParams.intent === "posizioni" ? "posizioni" : "home";
+    searchParams.intent === "bandi" ? "bandi" : searchParams.intent === "posizioni" ? "posizioni" : initialIntent;
   const intentPositions = positions;
   const filtered = intentPositions.filter((position) => matchesFilters(position, searchParams));
   const filteredGrants = visibleGrants.filter((grant) => matchesGrantFilters(grant, searchParams));
@@ -95,7 +95,7 @@ export function RadarApp() {
               <TrackedLink
                 className="entry-point"
                 event="home_intent_clicked"
-                href={intentHref(searchParams, "posizioni")}
+                href="/posizioni"
                 properties={{ intent: "posizioni", count: positions.length }}
               >
                 <Search size={20} />
@@ -109,7 +109,7 @@ export function RadarApp() {
               <TrackedLink
                 className="entry-point"
                 event="home_intent_clicked"
-                href={intentHref(searchParams, "bandi")}
+                href="/funding"
                 properties={{ intent: "bandi", count: visibleGrants.length }}
               >
                 <FileText size={20} />

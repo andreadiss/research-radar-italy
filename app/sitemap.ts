@@ -18,6 +18,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1
     },
     {
+      url: `${siteUrl}/posizioni`,
+      lastModified: latestPositionDate(),
+      changeFrequency: "daily",
+      priority: 0.95
+    },
+    {
+      url: `${siteUrl}/funding`,
+      lastModified: latestGrantDate(),
+      changeFrequency: "daily",
+      priority: 0.95
+    },
+    {
       url: `${siteUrl}/about`,
       lastModified: editorialDate,
       changeFrequency: "monthly",
