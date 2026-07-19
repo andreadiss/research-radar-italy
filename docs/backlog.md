@@ -94,10 +94,18 @@
 
 ## P2 - Source Expansion
 
-- [ ] Expand Grants database beyond the first curated dataset
+- [x] Expand Grants database beyond the first curated dataset with GEA/MUR, additional ERC calls and COST
+- [x] Add live GEA/MUR discovery for calls explicitly marked open with structured deadlines
+- [x] Add ERC Proof of Concept 2026, Starting Grant 2027 and Consolidator Grant 2027
+- [x] Add COST Open Call 2026
+- [x] Recalculate grant open/upcoming/closed status at every import
+- [x] Add source-domain coverage report for the Grants pipeline
 - [x] Add live PNRR grant source classifier and importer
 - [ ] Harden PNRR classifier with fixtures and false-positive review rules
 - [ ] Add EU Funding & Tenders importer for ERC, MSCA and Horizon calls
+- [ ] Add AIRC research grant importer
+- [ ] Add Fondazione Telethon research grant importer
+- [ ] Add Fondazione Cariplo science and research call importer
 - [ ] Add Horizon Funding & Tenders topic-list fixture and audit
 - [x] Add grant coverage audit and source freshness report
 - [ ] Gazzetta Ufficiale 4a Serie importer

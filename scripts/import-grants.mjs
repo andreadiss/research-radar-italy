@@ -2,6 +2,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 
 const outputPath = "lib/generated/grants.json";
 const pnrrReportPath = "data/store/pnrr-classification-report.json";
+const sourceReportPath = "data/store/grants-source-report.json";
 const useLive = process.argv.includes("--live");
 const existingGrantBaselineDate = "2026-05-05";
 const importDate = new Date().toISOString().slice(0, 10);
@@ -78,6 +79,71 @@ const curatedGrants = [
     sourceType: "official_source"
   },
   {
+    id: "erc-proof-of-concept-2026-dl2",
+    title: "ERC Proof of Concept 2026 - seconda scadenza",
+    program: "ERC",
+    funder: "European Research Council",
+    discipline: "Tutte le discipline",
+    deadline: "2026-09-17",
+    deadlineStatus: "open",
+    sourceName: "European Research Council",
+    sourceUrl: "https://erc.europa.eu/apply-grant/proof-concept",
+    amount: "150.000 euro per 18 mesi",
+    eligibility: "Principal Investigator titolari di un ERC frontier research grant ammissibile",
+    summary: "Finanziamento per verificare il potenziale commerciale o sociale di risultati ottenuti da un progetto ERC.",
+    status: "open",
+    sourceType: "official_call"
+  },
+  {
+    id: "erc-starting-grant-2027",
+    title: "ERC Starting Grant 2027",
+    program: "ERC",
+    funder: "European Research Council",
+    discipline: "Tutte le discipline",
+    deadline: "2026-10-14",
+    deadlineStatus: "upcoming",
+    opensAt: "2026-07-22",
+    sourceName: "European Research Council",
+    sourceUrl: "https://erc.europa.eu/apply-grant/starting-grant",
+    amount: "Fino a 1,5 milioni di euro per 5 anni, oltre a eventuali costi aggiuntivi",
+    eligibility: "Ricercatori early-career secondo la finestra di ammissibilita ERC 2027 e con host institution eleggibile",
+    summary: "Call ERC per ricercatori early-career pronti a sviluppare un programma di ricerca indipendente.",
+    status: "upcoming",
+    sourceType: "official_call"
+  },
+  {
+    id: "erc-consolidator-grant-2027",
+    title: "ERC Consolidator Grant 2027",
+    program: "ERC",
+    funder: "European Research Council",
+    discipline: "Tutte le discipline",
+    deadline: "2027-01-12",
+    deadlineStatus: "upcoming",
+    opensAt: "2026-09-24",
+    sourceName: "European Research Council",
+    sourceUrl: "https://erc.europa.eu/apply-grant/consolidator-grant",
+    eligibility: "Principal Investigator nella finestra di ammissibilita ERC 2027 e con host institution eleggibile",
+    summary: "Call ERC per consolidare un gruppo e un programma di ricerca indipendente.",
+    status: "upcoming",
+    sourceType: "official_call"
+  },
+  {
+    id: "cost-open-call-2026",
+    title: "COST Open Call 2026",
+    program: "COST",
+    funder: "COST Association",
+    discipline: "Tutte le discipline",
+    deadline: "2026-10-28",
+    deadlineStatus: "upcoming",
+    opensAt: "2026-07-31",
+    sourceName: "COST Association",
+    sourceUrl: "https://www.cost.eu/funding/open-call-a-simple-one-step-application-process/",
+    eligibility: "Network interdisciplinari e internazionali proposti secondo le regole della COST Open Call",
+    summary: "Open Call per nuove COST Actions: reti di collaborazione scientifica e tecnologica della durata di quattro anni.",
+    status: "upcoming",
+    sourceType: "official_call"
+  },
+  {
     id: "prin-2026",
     title: "Bando PRIN 2026",
     program: "PRIN",
@@ -147,7 +213,8 @@ const curatedGrants = [
 ];
 
 const previousGrants = await readPreviousGrants(outputPath);
-const grants = preserveFirstSeenAt(useLive ? await enrichFromLiveSources(curatedGrants) : curatedGrants, previousGrants);
+const grants = preserveFirstSeenAt(useLive ? await enrichFromLiveSources(curatedGrants) : curatedGrants, previousGrants)
+  .map(normalizeTemporalStatus);
 
 await mkdir("lib/generated", { recursive: true });
 await writeFile(outputPath, `${JSON.stringify(grants, null, 2)}\n`, "utf8");
@@ -179,10 +246,11 @@ function preserveFirstSeenAt(nextGrants, previousGrants) {
 
 async function enrichFromLiveSources(grants) {
   const prinGrants = await fetchPrinGrants();
+  const geaGrants = await fetchGeaGrants();
   const pnrrReport = await fetchPnrrClassification();
   const withoutPrin = grants.filter((grant) => grant.program !== "PRIN");
   const withPrin = prinGrants.length > 0 ? [...withoutPrin, ...prinGrants] : grants;
-  const sourceGrants = applyPnrrClassification(withPrin, pnrrReport);
+  const sourceGrants = applyPnrrClassification([...withPrin, ...geaGrants], pnrrReport);
   const enriched = [];
 
   for (const grant of sourceGrants) {
@@ -209,7 +277,130 @@ async function enrichFromLiveSources(grants) {
     await writeFile(pnrrReportPath, `${JSON.stringify(pnrrReport, null, 2)}\n`, "utf8");
   }
 
-  return enriched;
+  await mkdir("data/store", { recursive: true });
+  await writeFile(
+    sourceReportPath,
+    `${JSON.stringify(buildSourceReport(enriched, { prin: prinGrants.length, gea: geaGrants.length }), null, 2)}\n`,
+    "utf8"
+  );
+
+  return dedupeById(enriched);
+}
+
+function normalizeTemporalStatus(grant) {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(grant.deadline)) return grant;
+  if (grant.deadline < importDate) {
+    return { ...grant, status: "closed", deadlineStatus: "expired" };
+  }
+
+  const days = Math.ceil(
+    (new Date(`${grant.deadline}T00:00:00Z`).getTime() - new Date(`${importDate}T00:00:00Z`).getTime()) /
+      86_400_000
+  );
+  const hasNotOpened = grant.opensAt && grant.opensAt > importDate;
+
+  return {
+    ...grant,
+    status: hasNotOpened ? "upcoming" : "open",
+    deadlineStatus: days <= 14 ? "closing_soon" : "open"
+  };
+}
+
+async function fetchGeaGrants() {
+  const indexUrl = "https://www.gea.mur.gov.it/Home/Bandi";
+
+  try {
+    const response = await fetch(indexUrl);
+    if (!response.ok) return [];
+
+    const html = await response.text();
+    const candidates = parseGeaOpenCalls(html, indexUrl);
+    const grants = [];
+
+    for (const candidate of candidates) {
+      try {
+        const detailResponse = await fetch(candidate.sourceUrl);
+        if (!detailResponse.ok) continue;
+        const grant = parseGeaGrantDetail(await detailResponse.text(), candidate);
+        if (grant) grants.push(grant);
+      } catch {
+        // A single unstable detail page must not block the other official sources.
+      }
+    }
+
+    return grants;
+  } catch {
+    return [];
+  }
+}
+
+function parseGeaOpenCalls(html, indexUrl) {
+  const cards = html.match(/<div class="card-wrapper card-space">[\s\S]*?<\/div>\s*<\/div>\s*<\/div>/gi) ?? [];
+
+  return cards.flatMap((card) => {
+    if (!/attualmente\s*<b>aperto<\/b>/i.test(card)) return [];
+    const titleMatch = card.match(/<h3[^>]*>\s*<a href="([^"]+)">([\s\S]*?)<\/a>/i);
+    if (!titleMatch) return [];
+
+    return [{
+      title: decodeEntities(stripTags(titleMatch[2])),
+      sourceUrl: absoluteUrl(titleMatch[1], indexUrl),
+      summary: decodeEntities(stripTags(card.match(/<p[^>]*>([\s\S]*?)<\/p>/i)?.[1] ?? ""))
+    }];
+  });
+}
+
+function parseGeaGrantDetail(html, candidate) {
+  const text = decodeEntities(stripTags(html));
+  const deadlineText = text.match(/(?:Termine presentazione delle domande|Termine candidature)\s+(\d{1,2}\s+[\p{L}]+\s+\d{4})/iu)?.[1];
+  const startText = text.match(/(?:Avvio presentazione delle domande|Avvio candidature)\s+(\d{1,2}\s+[\p{L}]+\s+\d{4})/iu)?.[1];
+  const deadline = parseItalianDateToIsoSafe(deadlineText);
+  if (!deadline || deadline < importDate) return undefined;
+
+  const startDate = parseItalianDateToIsoSafe(startText);
+  const id = `gea-${slugify(new URL(candidate.sourceUrl).pathname.split("/").filter(Boolean).at(-1) ?? candidate.title)}`;
+
+  return {
+    id,
+    title: candidate.title,
+    program: inferGeaProgram(candidate.title),
+    funder: "MUR",
+    discipline: inferGeaDiscipline(candidate.title, candidate.summary),
+    deadline,
+    deadlineStatus: startDate && startDate > importDate ? "upcoming" : "open",
+    publishedAt: startDate,
+    sourceName: "GEA - Ministero dell'Universita e della Ricerca",
+    sourceUrl: candidate.sourceUrl,
+    eligibility: "Soggetti ammissibili indicati nel bando e nella documentazione ufficiale GEA",
+    summary: candidate.summary || `Bando aperto pubblicato sulla piattaforma GEA del MUR, con scadenza ${deadline}.`,
+    status: startDate && startDate > importDate ? "upcoming" : "open",
+    sourceType: "official_call"
+  };
+}
+
+function inferGeaProgram(title) {
+  if (/young researchers/i.test(title)) return "Young Researchers";
+  if (/\bFIS\b/i.test(title)) return "FIS";
+  if (/\bPNRA\b/i.test(title)) return "PNRA";
+  if (/DM\s*44/i.test(title)) return "MUR";
+  return "MUR";
+}
+
+function inferGeaDiscipline(title, summary) {
+  return /antartid|sistema terra|clima/i.test(`${title} ${summary}`)
+    ? "Ambiente, agraria e veterinaria"
+    : "Tutte le discipline";
+}
+
+function buildSourceReport(grants, imported) {
+  const sourceHosts = [...new Set(grants.map((grant) => new URL(grant.sourceUrl).hostname))].sort();
+  return {
+    generatedAt: new Date().toISOString(),
+    databases: sourceHosts.length,
+    sourceHosts,
+    imported,
+    records: grants.length
+  };
 }
 
 async function fetchPrinGrants() {
@@ -432,8 +623,8 @@ function dedupeById(items) {
 
 function parseReaGrantPage(html, grant) {
   const text = stripTags(html);
-  const deadline = findDateAfter(text, "Deadline for applicants to submit proposals") ?? grant.deadline;
-  const launch = findDateAfter(text, "Launch of the call for proposals") ?? grant.publishedAt;
+  const deadline = findTimelineDate(html, "Deadline for applicants to submit proposals") ?? grant.deadline;
+  const launch = findTimelineDate(html, "Launch of the call for proposals") ?? grant.publishedAt;
   const budgetMatch = text.match(/(\d+(?:\.\d+)?)\s+million\s+Overall indicative budget for the call/i);
 
   return {
@@ -489,4 +680,18 @@ function normalizeText(value) {
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
     .toLowerCase();
+}
+
+function findTimelineDate(html, title) {
+  const escapedTitle = title.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const match = html.match(
+    new RegExp(`ecl-timeline__label[^>]*>([^<]+)<[\\s\\S]{0,260}?ecl-timeline__title[^>]*>${escapedTitle}`, "i")
+  );
+  return match?.[1]?.trim();
+}
+
+function slugify(value) {
+  return normalizeText(value)
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
 }

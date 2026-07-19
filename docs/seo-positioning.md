@@ -44,6 +44,27 @@ Priority organic search intents:
 
 ## Next SEO Steps
 
+## Competitive Benchmark: Academic Jobs Italy
+
+`academicjobsitaly.com/it/jobs` currently has structural advantages for the generic Italian academic-jobs query:
+
+- a stable, crawlable jobs URL instead of relying on query-string application state;
+- a dense server-readable list of current calls on that URL;
+- a longer-established domain and broader backlink/history signals;
+- supporting editorial content explaining the Italian academic system;
+- repeated institution, discipline and job-type entities in visible copy.
+
+Research Radar should not try to close this gap through keyword repetition. The defensible route is fresher official-source coverage, dedicated crawlable collection URLs, stronger internal linking and useful explanatory content that earns references.
+
+Highest-priority organic growth work:
+
+1. Publish canonical `/posizioni` and `/funding` collection pages with current, indexable records.
+2. Repair daily MUR publication so new and expired pages reach the static site reliably.
+3. Build institution and discipline collection pages only when they contain enough unique active records.
+4. Publish practical guides for MUR calls, academic role types and application requirements.
+5. Acquire legitimate links from university career offices, doctoral associations, research groups and scientific societies.
+6. Use Search Console query and page data to iterate titles and content every 28 days.
+
 P0:
 
 - Google Search Console connected for `https://rritaly.com`.

@@ -13,6 +13,46 @@ Sprint 3 now has a first Grants/funding vertical slice:
 
 ## Integrated Sources
 
+The live importer currently covers seven official source domains and writes a source-health snapshot to
+`data/store/grants-source-report.json`.
+
+Current production coverage after the July 2026 expansion:
+
+- 12 normalized records;
+- 9 official calls;
+- 1 official call source;
+- 2 monitoring-only sources;
+- live discovery from PRIN and GEA/MUR;
+- verified curated calls from REA/MSCA, ERC and COST.
+
+### GEA / MUR
+
+Source: `https://www.gea.mur.gov.it/Home/Bandi`
+
+Implementation state:
+
+- The importer discovers cards explicitly marked as open by GEA.
+- It follows each detail page and extracts opening date and application deadline.
+- Calls with a missing or expired structured deadline are not published as active opportunities.
+- The first imported live call is the MUR `DM 44/2008 - triennio 2026-2028` call.
+
+### ERC and COST
+
+Official sources:
+
+- `https://erc.europa.eu/apply-grant/advanced-grant`
+- `https://erc.europa.eu/apply-grant/proof-concept`
+- `https://erc.europa.eu/apply-grant/starting-grant`
+- `https://erc.europa.eu/apply-grant/consolidator-grant`
+- `https://www.cost.eu/funding/open-call-a-simple-one-step-application-process/`
+
+Implementation state:
+
+- Added ERC Proof of Concept 2026, Starting Grant 2027 and Consolidator Grant 2027.
+- Added the COST Open Call 2026.
+- Upcoming calls remain visible but are clearly separated by status.
+- Temporal status is recalculated at every import, so expired curated records are closed automatically.
+
 ### PRIN 2026
 
 Source: `https://prin.mur.gov.it/Iniziative`
@@ -75,8 +115,8 @@ Implementation state:
 
 ## Next Importer Priorities
 
-1. PRIN parser hardening: attachments, detail pages, incompatibility notes and fixtures.
-2. REA MSCA parser hardening with fixtures.
-3. Funding & Tenders importer spike for ERC, MSCA and Horizon topic-level calls.
+1. Funding & Tenders topic-level importer for Horizon Europe clusters, missions and EIC calls.
+2. Add official-source adapters for AIRC, Fondazione Telethon and Fondazione Cariplo.
+3. PRIN parser hardening: attachments, detail pages, incompatibility notes and fixtures.
 4. PNRR classifier hardening with fixtures and false-positive review rules.
-5. Grants audit extension: link checks, stale-source detection and importer health.
+5. Grants audit extension: HTTP link checks, stale-source detection and per-adapter health.

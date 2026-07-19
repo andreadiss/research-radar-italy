@@ -2,7 +2,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 
 const inputPath = "lib/generated/grants.json";
 const outputPath = "data/store/grants-audit-report.json";
-const today = new Date("2026-05-05T00:00:00Z");
+const today = new Date(`${new Date().toISOString().slice(0, 10)}T00:00:00Z`);
 
 const grants = JSON.parse(await readFile(inputPath, "utf8"));
 const report = buildReport(grants);

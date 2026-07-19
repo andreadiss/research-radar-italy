@@ -414,7 +414,8 @@ function isToday(value: string) {
 }
 
 function daysUntil(value: string) {
-  const today = new Date("2026-05-04T00:00:00");
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
   const deadline = new Date(`${value}T00:00:00`);
   return Math.ceil((deadline.getTime() - today.getTime()) / 86_400_000);
 }
