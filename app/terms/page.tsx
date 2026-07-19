@@ -35,9 +35,9 @@ export default function TermsPage() {
             Facciamo il possibile per mantenere dati aggiornati e link alle fonti ufficiali, ma l'utente deve sempre verificare requisiti, scadenze, allegati e modalita di candidatura sulla fonte ufficiale prima di prendere decisioni.
           </p>
 
-          <h2>Account e preferiti</h2>
+          <h2>Preferiti locali</h2>
           <p className="summary">
-            Le funzionalita di account, preferiti, liste e notifiche servono a organizzare opportunita e ricerche. L'utente e responsabile della correttezza delle informazioni inserite e della sicurezza delle proprie credenziali.
+            Le liste salvate nella release statica restano nel browser dell'utente e servono solo a organizzare opportunita e ricerche su quel dispositivo. Account, notifiche e preferiti cross-device saranno disponibili solo dopo l'attivazione di un backend dedicato.
           </p>
 
           <h2>Limitazioni</h2>

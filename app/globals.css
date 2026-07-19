@@ -1742,12 +1742,6 @@ select {
   outline-offset: 3px;
 }
 
-.next-best-card:has(.asset-signup) {
-  background:
-    linear-gradient(155deg, #ffffff 0%, #f8fffb 48%, #fff8ec 100%) padding-box,
-    linear-gradient(150deg, #0f6c5c, #d68c22 52%, #b23a48 100%) border-box;
-}
-
 .next-best-card:has(.asset-favorite) {
   background:
     linear-gradient(155deg, #fffdf7 0%, #fff2d4 48%, #eff9ed 100%) padding-box,

@@ -30,7 +30,7 @@
 - [x] Add production deduplication by URL, title, institution, and deadline
 - [x] Add deadline status: open, closing soon, expired
 - [x] Add newsletter signup
-- [x] Add Login and Sign Up entry points
+- [x] Remove Login and Sign Up entry points from the static public release until a real backend is available
 - [ ] Improve result ranking for fast shortlist creation
 - [x] Improve result cards with decision-critical fields
 - [x] Remove AI search bar from the release UI until the feature is implemented
@@ -39,7 +39,7 @@
 - [x] Remove saved-search actions from Grants placeholder on the home flow
 - [x] Separate clean HP from `Posizioni aperte` results view
 - [x] Add logo navigation back to HP
-- [x] Add centered Login and Sign Up modal pages
+- [x] Remove centered Login and Sign Up modal pages from the static release
 - [x] Add bottom mini navigation between `Posizioni aperte` and `Grants` after first scroll
 - [x] Add filter-aware counts to `Tipo` and `Materia` chips
 - [x] Move results summary after contextual filters
@@ -51,15 +51,15 @@
 - [x] Redesign first viewport around action and top chips
 - [x] Move type and subject chips into `Posizioni aperte`
 - [x] Move full Grants experience to the next dedicated Grants sprint
-- [ ] Add personalized suggestions after signup/login
-- [x] Add homepage next-best-action cards with auth-aware visibility
+- [ ] Add personalized suggestions after backend signup/login is live
+- [x] Add homepage next-best-action cards without auth-dependent promises in the static release
 - [x] Add governance note: every new feature must be evaluated for Next Best Action eligibility
-- [x] Implement Sign Up with first name, last name, email, and password
-- [x] Implement Login with email and password
-- [x] Add Google login/signup entry point through Supabase Auth
+- [ ] Implement production Sign Up with first name, last name, email, and password in a backend runtime
+- [ ] Implement production Login with email and password in a backend runtime
+- [ ] Add Google login/signup only after the production auth callback is supported
 - [ ] Restore saved positions and grants after login with server-backed persistence
 - [ ] Add `Suggeriti per te` box on HP for authenticated users
-- [x] Make saved searches and alerts account-aware after login
+- [ ] Make saved searches and alerts account-aware after backend login
 - [ ] Re-enable production Google login after choosing a dynamic auth runtime or Supabase-only static callback pattern
 - [ ] Improve detail page for candidate decision-making
 - [ ] AI summary for each call
@@ -83,7 +83,7 @@
 - [x] Favorites
 - [x] Add `Le mie liste` page for saved positions and grants
 - [x] Remove visible alert icon actions from opportunity cards
-- [x] Add homepage next-best-action card to return to saved lists after login
+- [x] Add homepage next-best-action card to return to locally saved lists when favorites exist
 - [ ] Personal opportunity statuses
 - [x] Add account profile and email opt-in data model
 - [x] Add email notification queue data model

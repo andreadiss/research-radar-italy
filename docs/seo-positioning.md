@@ -11,7 +11,7 @@ Implemented:
 - Dynamic metadata for position detail pages using title, institution, discipline, SSD, deadline and source.
 - Dynamic metadata for grant detail pages using title, program, deadline and official source.
 - `sitemap.xml` including home, intent pages, all generated position detail pages and all generated grant detail pages.
-- `robots.txt` allowing public pages and excluding API/auth/login/signup routes.
+- `robots.txt` allowing public pages and excluding private/non-public routes.
 - JSON-LD structured data:
   - `JobPosting` for position detail pages.
   - `Grant` for funding detail pages.

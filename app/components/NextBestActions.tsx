@@ -2,9 +2,9 @@
 
 import type { Route } from "next";
 import { BookmarkCheck, ChevronLeft, ChevronRight, Copy, Search, Send, Sparkles, Star, X } from "lucide-react";
-import { track } from "@/lib/client-analytics";
 import { useRef, useState, type PointerEvent } from "react";
 import { TrackedLink } from "@/app/components/TrackedLink";
+import { track } from "@/lib/client-analytics";
 
 type NextBestAction = {
   id: string;
@@ -12,61 +12,43 @@ type NextBestAction = {
   copy: string;
   href: Route;
   event: string;
-  asset: "signup" | "favorite" | "share";
+  asset: "favorite" | "share";
   visualTitle: string;
   visualMeta: string;
   visualQuery: string;
 };
 
-export function NextBestActions({ isAuthenticated }: { isAuthenticated: boolean }) {
-  const trackRef = useRef<HTMLDivElement>(null);
+const actions: NextBestAction[] = [
+  {
+    id: "browser-favorite",
+    title: "Tienilo a portata di mano",
+    copy: "Salva Research Radar nei preferiti del browser e torna qui quando cerchi nuovi bandi.",
+    href: "/" as Route,
+    event: "next_best_action_clicked",
+    asset: "favorite",
+    visualTitle: "Preferiti",
+    visualMeta: "Research Radar",
+    visualQuery: "ritorna in un tap"
+  },
+  {
+    id: "share-colleagues",
+    title: "Condividilo con il tuo gruppo",
+    copy: "Mandalo a colleghi, dottorandi o lab: aiuta tutti a non perdere nuove call.",
+    href: "/" as Route,
+    event: "next_best_action_clicked",
+    asset: "share",
+    visualTitle: "Lab update",
+    visualMeta: "nuove call",
+    visualQuery: "inoltra ai colleghi"
+  }
+];
+
+export function NextBestActions() {
   const shareInputRef = useRef<HTMLInputElement>(null);
   const pointerStartX = useRef<number | null>(null);
   const [activeIndex, setActiveIndex] = useState(0);
   const [shareOpen, setShareOpen] = useState(false);
   const [copied, setCopied] = useState(false);
-  const actions: NextBestAction[] = [];
-
-  if (!isAuthenticated) {
-    actions.push({
-      id: "signup-save-searches",
-      title: "Riparti da dove eri arrivato",
-      copy: "Salva ricerche, posizioni e grant. Li ritrovi appena torni.",
-      href: "/signup?returnTo=%2F" as Route,
-      event: "next_best_action_clicked",
-      asset: "signup",
-      visualTitle: "Medicina e salute",
-      visualMeta: "12 opportunitÃ ",
-      visualQuery: "contratti a Milano"
-    });
-  }
-
-  actions.push(
-    {
-      id: "browser-favorite",
-      title: "Tienilo a portata di mano",
-      copy: "Salva Research Radar nei preferiti del browser e torna qui quando cerchi nuovi bandi.",
-      href: "/" as Route,
-      event: "next_best_action_clicked",
-      asset: "favorite",
-      visualTitle: "Preferiti",
-      visualMeta: "Research Radar",
-      visualQuery: "ritorna in un tap"
-    },
-    {
-      id: "share-colleagues",
-      title: "Condividilo con il tuo gruppo",
-      copy: "Mandalo a colleghi, dottorandi o lab: aiuta tutti a non perdere nuove call.",
-      href: "/" as Route,
-      event: "next_best_action_clicked",
-      asset: "share",
-      visualTitle: "Lab update",
-      visualMeta: "nuove call",
-      visualQuery: "inoltra ai colleghi"
-    }
-  );
-
-  if (actions.length === 0) return null;
 
   const orderedActions = actions.map((_, offset) => {
     const index = (activeIndex + offset) % actions.length;
@@ -133,34 +115,33 @@ export function NextBestActions({ isAuthenticated }: { isAuthenticated: boolean 
         className="next-best-track"
         onPointerDown={handlePointerStart}
         onPointerUp={handlePointerEnd}
-        ref={trackRef}
       >
         {orderedActions.map(({ action, originalIndex }, index) => {
           const cardContent = (
             <>
-            <span className={`next-best-asset asset-${action.asset}`} aria-hidden="true">
-              <span className="asset-glow" />
-              <span className="asset-window asset-window-main">
-                <span />
-                <strong>{action.visualTitle}</strong>
-                <small>{action.visualMeta}</small>
+              <span className={`next-best-asset asset-${action.asset}`} aria-hidden="true">
+                <span className="asset-glow" />
+                <span className="asset-window asset-window-main">
+                  <span />
+                  <strong>{action.visualTitle}</strong>
+                  <small>{action.visualMeta}</small>
+                </span>
+                <span className="asset-window asset-window-secondary">
+                  {action.asset === "share" ? <Send size={16} /> : <Search size={16} />}
+                  <span>{action.visualQuery}</span>
+                </span>
+                <span className="asset-token asset-token-bookmark">
+                  {action.asset === "favorite" ? <Star size={17} /> : <BookmarkCheck size={17} />}
+                </span>
+                <span className="asset-token asset-token-spark">
+                  <Sparkles size={15} />
+                </span>
               </span>
-              <span className="asset-window asset-window-secondary">
-                {action.asset === "share" ? <Send size={16} /> : <Search size={16} />}
-                <span>{action.visualQuery}</span>
+              <span className="next-best-copy">
+                <small>Prossima azione</small>
+                <strong>{action.title}</strong>
+                <span>{action.copy}</span>
               </span>
-              <span className="asset-token asset-token-bookmark">
-                {action.asset === "favorite" ? <Star size={17} /> : <BookmarkCheck size={17} />}
-              </span>
-              <span className="asset-token asset-token-spark">
-                <Sparkles size={15} />
-              </span>
-            </span>
-            <span className="next-best-copy">
-              <small>Prossima azione</small>
-              <strong>{action.title}</strong>
-              <span>{action.copy}</span>
-            </span>
             </>
           );
 
@@ -203,7 +184,7 @@ export function NextBestActions({ isAuthenticated }: { isAuthenticated: boolean 
             <span className="preview-kicker">Condividi Research Radar</span>
             <h2 id="share-modal-title">Passa il radar al tuo gruppo</h2>
             <p>
-              Copia il link e invialo a colleghi, dottorandi o persone del tuo lab che stanno cercando opportunitÃ 
+              Copia il link e invialo a colleghi, dottorandi o persone del tuo lab che stanno cercando opportunita
               accademiche in Italia.
             </p>
             <div className="share-link-box">

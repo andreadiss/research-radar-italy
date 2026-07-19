@@ -5,7 +5,7 @@ import { absoluteUrl } from "@/lib/site-url";
 
 export const metadata: Metadata = {
   title: "Cookie Policy",
-  description: "Cookie Policy di Research Radar Italy: cookie tecnici, sessione e analytics.",
+  description: "Cookie Policy di Research Radar Italy: preferenze locali e analytics.",
   alternates: { canonical: absoluteUrl("/cookie") }
 };
 
@@ -27,7 +27,7 @@ export default function CookiePage() {
 
           <h2>Cookie tecnici</h2>
           <p className="summary">
-            Usiamo cookie tecnici necessari per login, sessione, sicurezza e preferenze dell'interfaccia. Questi cookie servono al funzionamento del servizio e non richiedono consenso opzionale.
+            Nella release statica non usiamo cookie di login o sessione. Le liste salvate usano memoria locale del browser e restano sul dispositivo dell'utente.
           </p>
 
           <h2>Analytics</h2>
@@ -37,12 +37,12 @@ export default function CookiePage() {
 
           <h2>Cookie di terze parti</h2>
           <p className="summary">
-            Il login e i servizi di autenticazione possono impostare cookie o gestire identificatori necessari al completamento dell'autenticazione e alla sicurezza del servizio.
+            I servizi di terze parti possono essere introdotti in futuro per autenticazione, notifiche o pagamenti. In quel caso questa policy sara aggiornata prima del rilascio.
           </p>
 
           <h2>Gestione</h2>
           <p className="summary">
-            L'utente puo gestire o cancellare i cookie dalle impostazioni del browser. La rimozione dei cookie tecnici puo impedire il corretto funzionamento del login e delle liste salvate.
+            L'utente puo cancellare preferiti locali e dati del sito dalle impostazioni del browser. La cancellazione rimuove le liste salvate su quel dispositivo.
           </p>
         </article>
       </section>

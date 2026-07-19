@@ -38,6 +38,8 @@ export function HomeFavoritesPreview({ count, items }: HomeFavoritesPreviewProps
   const previewItems = localItems.length > 0 ? localItems : items.slice(0, 3);
   const total = localFavorites.length > 0 ? localFavorites.length : count;
 
+  if (total === 0) return null;
+
   return (
     <TrackedLink
       className="next-action-card favorites-preview-card"

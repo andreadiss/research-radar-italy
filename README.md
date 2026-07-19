@@ -80,7 +80,7 @@ npm run build:static
 
 The GitHub Actions workflow `.github/workflows/deploy-pages.yml` builds the static export from `main` and publishes the generated `out` directory to GitHub Pages. The `public/CNAME` file keeps the custom domain attached to the Pages deployment.
 
-Because the release is static, browser favorites and lightweight account feedback are stored locally in the browser. Server-side auth, Google login persistence, email automation and cross-device saved lists remain Supabase-backed product work for a future dynamic layer.
+Because the release is static, favorites are stored locally in the browser. Server-side auth, Google login, email automation and cross-device saved lists are intentionally excluded from the public static release and remain Supabase-backed product work for a future backend layer.
 
 If Supabase was initialized before the dedupe constraint change, run:
 

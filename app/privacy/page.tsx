@@ -31,12 +31,12 @@ function LegalPage({ title, subtitle }: { title: string; subtitle: string }) {
 
           <h2>Dati che raccogliamo</h2>
           <p className="summary">
-            Possiamo raccogliere dati forniti dall'utente, come nome, cognome, email, password cifrata tramite il provider di autenticazione, preferiti, ricerche salvate e preferenze di alert. Raccogliamo inoltre dati tecnici e aggregati tramite strumenti di analytics privacy-friendly per capire come viene usato il servizio.
+            Nella release statica non raccogliamo account, password o sessioni di login. I preferiti sono salvati nel browser dell'utente. Possiamo raccogliere dati tecnici e aggregati tramite strumenti di analytics privacy-friendly per capire come viene usato il servizio.
           </p>
 
           <h2>Perche li usiamo</h2>
           <p className="summary">
-            Usiamo i dati per permettere login, salvataggio di posizioni e grant, recupero delle liste personali, invio futuro di notifiche su nuove opportunita coerenti con gli interessi dell'utente, sicurezza del servizio e miglioramento dell'esperienza.
+            Usiamo i dati aggregati per migliorare navigazione, filtri, performance e qualita delle informazioni. Account, notifiche email e liste cross-device saranno introdotti solo dopo l'attivazione di un backend dedicato.
           </p>
 
           <h2>Fonti e dati pubblici</h2>
@@ -46,7 +46,7 @@ function LegalPage({ title, subtitle }: { title: string; subtitle: string }) {
 
           <h2>Diritti dell'utente</h2>
           <p className="summary">
-            L'utente puo richiedere accesso, correzione o cancellazione dei propri dati account e delle preferenze salvate. Per richieste privacy, usare i contatti indicati nella pagina About fino all'attivazione di un indirizzo dedicato.
+            L'utente puo cancellare i preferiti locali dalle impostazioni del browser. Per richieste privacy, usare i contatti indicati nella pagina About fino all'attivazione di un indirizzo dedicato.
           </p>
         </article>
       </section>

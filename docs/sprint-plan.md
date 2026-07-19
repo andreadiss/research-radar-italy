@@ -19,7 +19,7 @@ Sprint 4 has started. The core positions flow and the first Grants/funding basel
 - `Tipo` and `Materia` filters are contextual to open positions.
 - Filter chips show result counts and update based on the selected filter context.
 - Results summary appears after filters and shows both total matches and near-deadline matches inline.
-- Header account entry points exist, with modal-style Login and Sign Up pages.
+- The static public release intentionally has no Login/Sign Up entry points until a real backend is available.
 - The mini bottom navigation appears after first scroll and lets users switch between `Posizioni aperte` and `Grants`.
 - Grants has a first dedicated listing, detail pages and generated dataset.
 - `npm run import:grants:live` imports PRIN 2026 calls from the official PRIN portal and enriches REA MSCA pages with curated fallback.
@@ -28,7 +28,7 @@ Sprint 4 has started. The core positions flow and the first Grants/funding basel
 - MUR/Cineca positions now have a daily GitHub Actions refresh that persists to Supabase, updates `lib/generated/mur-positions.json`, and triggers the static GitHub Pages deploy when data changes.
 - Latest local MUR refresh on 2026-05-16 covers 809 live open records with 0 missing live records. The `Tipo` filter now exposes all MUR position families, including `Assegno` when the official endpoint returns current calls.
 - Supabase dedupe keys are now indexed but not unique, because official MUR records with matching dedupe keys must remain visible for review.
-- Logged-in users can save positions and grants with a single bookmark action and revisit them from `Le mie liste`.
+- Users can save positions and grants locally in the browser with a single bookmark action and revisit them from `Le mie liste`.
 
 Current sprint focus: stabilize UX across HP, positions, Grants and detail pages.
 
@@ -190,6 +190,8 @@ Exit criteria:
 
 ## Sprint 5 - Account, Alerts and Tracking
 
+Status: parked until Sprint 10 creates a real backend runtime. The static GitHub Pages release must not expose fake login or email-alert flows.
+
 Goal: turn Research Radar from a search page into a personal radar tied to a user account.
 
 Customer value:
@@ -199,13 +201,13 @@ Customer value:
 
 Scope:
 
-- Add account entry points: `Login` and `Sign Up`.
+- Add account entry points: `Login` and `Sign Up` only after Sprint 10 backend is live.
 - Implement sign up with first name, last name, email, and password.
 - Implement login with email and password.
 - Persist saved searches in Supabase.
 - Persist alert subscriptions in Supabase.
 - Restore saved positions and grants after login.
-- Add `Suggeriti per te` box on the home page for authenticated users, based on searches and saved items.
+- Add `Suggeriti per te` box on the home page for authenticated users, based on searches and saved items, after backend login is live.
 - Add frequency choice: weekly default, daily optional.
 - Add a minimal saved-searches view.
 - Add favorites or tracked opportunities.
@@ -215,26 +217,27 @@ Activities and priorities:
 
 ### P0
 
-- [x] Add Supabase Auth or equivalent auth flow for email/password accounts.
-- [x] Add Google login/signup through Supabase Auth. Production setup still requires enabling the Google provider and adding `/auth/callback` to allowed redirect URLs in Supabase.
-- [x] Store user profile fields: first name, last name, email.
-- [x] Add login and signup forms with validation and error states.
-- [x] Create session-aware header states: logged out, logged in.
-- Persist saved positions/grants by user id.
-- Show `Suggeriti per te` on HP only after login/signup.
+- [ ] Add Supabase Auth or equivalent auth flow for production email/password accounts.
+- [ ] Add Google login/signup through Supabase Auth after a production auth callback is available.
+- [ ] Store user profile fields: first name, last name, email.
+- [ ] Add login and signup forms with validation and error states after backend is live.
+- [ ] Create session-aware header states: logged out, logged in.
+- [ ] Persist saved positions/grants by user id.
+- [ ] Show `Suggeriti per te` on HP only after backend login/signup.
 
 ### P1
 
 - [x] Configure Supabase persistence foundation for profiles and alert subscriptions.
-- [x] Save current filters with a clear generated name.
-- [x] Create account-aware alert from filtered results with weekly default.
-- Add local validation and clear success/error feedback.
+- [ ] Save current filters with a clear generated name.
+- [ ] Create account-aware alert from filtered results with weekly default.
+- [ ] Add local validation and clear success/error feedback.
 - [x] Add unsubscribe-ready data model fields, even if email sending is not live yet.
 - [x] Add email notification queue and delivery log schema for automated emails.
-- Add saved-searches page or panel.
-- [x] Add opportunity favorites.
-- Add personal opportunity status: `Interessante`, `Da leggere`, `Candidatura in corso`, `Scartato`.
-- Add deadline reminders as data model fields.
+- [ ] Add saved-searches page or panel.
+- [x] Add local browser opportunity favorites for the static release.
+- [ ] Add opportunity favorites backed by account persistence.
+- [ ] Add personal opportunity status: `Interessante`, `Da leggere`, `Candidatura in corso`, `Scartato`.
+- [ ] Add deadline reminders as data model fields.
 
 ### P2
 
@@ -351,7 +354,7 @@ Customer value:
 Scope:
 
 - Add privacy-friendly pageview and performance analytics.
-- Track the core product funnel: HP intent click, filter use, preview open, detail open, official source open, save/unsave, login/signup CTA.
+- Track the core product funnel: HP intent click, filter use, preview open, detail open, official source open and save/unsave. Track login/signup only after Sprint 10.
 - Define the first monetization path around premium alerts and saved workflow depth.
 - Prepare a later Stripe integration without blocking the free MVP.
 
@@ -419,7 +422,7 @@ Activities and priorities:
 - [ ] Add high-intent landing pages for dottorati, postdoc, contratti di ricerca, PRIN, MSCA and ERC.
 - [ ] Add internal links from HP and listing views to the landing pages.
 - [ ] Add custom Open Graph image.
-- [x] Add auth-aware homepage next-best-action card pattern.
+- [x] Add homepage next-best-action card pattern that does not depend on fake auth state.
 - [x] Add About, Privacy, Cookie and Terms pages.
 - [ ] Add Contact page.
 
@@ -437,6 +440,67 @@ Exit criteria:
 - Search engines can crawl the main public pages and all generated detail pages.
 - The sitemap is submitted in Search Console.
 - Search snippets clearly communicate source, deadline and opportunity type.
+
+## Sprint 10 - Backend Accounts and Notifications
+
+Goal: restore real account, saved-list and notification flows without moving the public frontend away from low-cost static hosting.
+
+Senior implementation decision:
+
+- Keep GitHub Pages for public static pages, SEO and fast browsing.
+- Use Supabase as the system of record for profiles, saved opportunities, saved searches, alert preferences and notification queue.
+- Use Supabase Edge Functions, or another small backend runtime, for auth callbacks, authenticated writes, alert matching and email dispatch.
+- Do not reintroduce Login, Sign Up, Google OAuth, alerts or cross-device saved lists in the UI until the full backend path is verified end to end.
+
+Customer value:
+
+- Users can save opportunities and recover them across devices.
+- Users can receive automatic email updates for new matching positions or grants.
+- The product gains a real activation and retention loop without pretending local browser state is an account.
+
+Scope:
+
+- Production auth with email/password and Google OAuth.
+- Profile table and consent fields for email notifications.
+- Authenticated saved opportunities and saved searches.
+- Alert matching against daily MUR and Grants refreshes.
+- Email notification queue, delivery log, unsubscribe flow and rate limits.
+- Migration path from local browser favorites to account-backed favorites after login.
+
+Activities and priorities:
+
+### P0
+
+- Decide backend runtime: Supabase Edge Functions first unless a blocking limitation appears.
+- Add auth callback route/function for GitHub Pages static frontend.
+- Re-enable Supabase Auth email/password with first name, last name and email.
+- Re-enable Google OAuth only after production redirect URLs are verified.
+- Implement authenticated saved opportunities API.
+- Implement local-to-account favorite migration after login.
+- Add UI only after auth, save and restore pass in production.
+
+### P1
+
+- Implement saved searches and alert preferences by user.
+- Add weekly default email digest for new matching opportunities.
+- Add unsubscribe token and delivery log.
+- Add account settings page for notification frequency and consent.
+- Add analytics events for signup, login, save success and alert activation.
+
+### P2
+
+- Add daily alert frequency.
+- Add personal statuses: `Interessante`, `Da leggere`, `Candidatura in corso`, `Scartato`.
+- Add premium limits and payment-readiness fields.
+- Add admin view for email queue and failed deliveries.
+
+Exit criteria:
+
+- User can sign up, confirm email if required, log in and log out in production.
+- User can save a position or grant and see it on another browser/device after login.
+- User can create an alert from filters and receive at least one test email through the production queue.
+- User can unsubscribe without logging in.
+- Static pages remain crawlable and deployable through GitHub Pages.
 
 
 

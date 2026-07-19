@@ -32,9 +32,10 @@ Current production hosting:
 - GitHub Pages serves the generated static `out` directory.
 - `public/CNAME` attaches the custom domain `rritaly.com`.
 - Public pages, listings, details, sitemap and robots are static.
-- Favorites and lightweight account feedback use browser local storage in the static release.
+- Favorites use browser local storage in the static release.
+- Login, signup, Google OAuth, email alerts and cross-device saved lists are not exposed in the static release.
 
-Dynamic account persistence, Google auth, email automation and premium flows remain planned backend work.
+Dynamic account persistence, Google auth, email automation and premium flows belong to a separate backend sprint and must be verified end to end before returning to the public UI.
 
 ### Database
 

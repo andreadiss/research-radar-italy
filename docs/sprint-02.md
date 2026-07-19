@@ -33,7 +33,7 @@ Stabilize the intent-driven UX for finding open academic positions before expand
 - `npm run import:grants` regenerates the local Grants dataset.
 - Grants currently uses official source links for MSCA, ERC, PRIN, PNRR and Horizon source monitoring.
 - Grants detail pages and live source-specific importers are still planned.
-- Account pages are modal-style UI placeholders; authentication and saved-account state are still planned.
+- Account pages are no longer exposed in the static release; real authentication, cross-device saved lists, and notifications are planned in the backend sprint.
 
 ## Next
 

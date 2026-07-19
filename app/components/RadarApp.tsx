@@ -24,7 +24,6 @@ type SearchParams = {
   funding?: string;
   program?: string;
   intent?: string;
-  auth?: string;
 };
 
 type Intent = "home" | "posizioni" | "bandi";
@@ -53,7 +52,6 @@ const grantPrograms = Array.from(new Set(visibleGrants.map((grant) => grant.prog
 
 export function RadarApp() {
   const searchParams = useRadarSearchParams();
-  const account = useClientAccount();
   const savedPreview = { count: 0, items: [] };
   const intent: Intent =
     searchParams.intent === "bandi" ? "bandi" : searchParams.intent === "posizioni" ? "posizioni" : "home";
@@ -83,7 +81,6 @@ export function RadarApp() {
       <section className={heroClass(intent)}>
         <div className="hero-main">
           <h1>{heroTitle}</h1>
-          <AuthFeedback status={searchParams.auth} />
           {intent === "home" ? (
             <div className="entry-points" aria-label="Scegli percorso">
               <TrackedLink
@@ -116,8 +113,8 @@ export function RadarApp() {
               </TrackedLink>
             </div>
           ) : null}
-          {intent === "home" ? <NextBestActions isAuthenticated={Boolean(account)} /> : null}
-          {intent === "home" && account ? (
+          {intent === "home" ? <NextBestActions /> : null}
+          {intent === "home" ? (
             <HomeFavoritesPreview count={savedPreview?.count ?? 0} items={savedPreview?.items ?? []} />
           ) : null}
         </div>
@@ -569,28 +566,6 @@ function subjectActive(searchParams: SearchParams, filters: SubjectChip["filters
   );
 }
 
-function AuthFeedback({ status }: { status?: string }) {
-  if (status === "signup-complete") {
-    return (
-      <div className="auth-feedback" role="status">
-        <strong>Account creato.</strong>
-        <span>Ora puoi salvare opportunità e ritrovarle in Le mie liste.</span>
-      </div>
-    );
-  }
-
-  if (status === "check-email") {
-    return (
-      <div className="auth-feedback" role="status">
-        <strong>Account creato.</strong>
-        <span>Controlla la mail per confermare l'accesso.</span>
-      </div>
-    );
-  }
-
-  return null;
-}
-
 function subjectCount(
   candidatePositions: typeof positions,
   searchParams: SearchParams,
@@ -652,14 +627,6 @@ function heroClass(intent: Intent) {
       : "hero";
 }
 
-function useClientAccount() {
-  if (typeof window === "undefined") return undefined;
-  const name = window.localStorage.getItem("rr_account_name");
-  const email = window.localStorage.getItem("rr_account_email");
-  if (!name && !email) return undefined;
-  return { firstName: name ?? "", email: email ?? "" };
-}
-
 function useRadarSearchParams(): SearchParams {
   const params = useSearchParams();
   return {
@@ -669,8 +636,7 @@ function useRadarSearchParams(): SearchParams {
     region: params.get("region") ?? undefined,
     funding: params.get("funding") ?? undefined,
     program: params.get("program") ?? undefined,
-    intent: params.get("intent") ?? undefined,
-    auth: params.get("auth") ?? undefined
+    intent: params.get("intent") ?? undefined
   };
 }
 
