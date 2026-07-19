@@ -166,7 +166,7 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
                       <TrackedLink
                         className={chipClass(paramHasValue(searchParams.type, type))}
                         event="position_filter_clicked"
-                        href={filterHref(searchParams, "type", type)}
+                        href={filterHref(searchParams, "type", type, intent)}
                         key={type}
                         properties={{ filter_group: "type", filter_value: type, result_count: count }}
                       >
@@ -190,7 +190,7 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
                       <TrackedLink
                         className={chipClass(subjectActive(searchParams, chip.filters))}
                         event="position_filter_clicked"
-                        href={subjectHref(searchParams, chip.filters)}
+                        href={subjectHref(searchParams, chip.filters, intent)}
                         key={chip.label}
                         properties={{
                           filter_group: "discipline",
@@ -317,7 +317,7 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
                     <TrackedLink
                       className={chipClass(searchParams.program === program)}
                       event="grant_filter_clicked"
-                      href={filterHref(searchParams, "program", program)}
+                      href={filterHref(searchParams, "program", program, intent)}
                       key={program}
                       properties={{ filter_group: "program", filter_value: program, result_count: count }}
                     >
@@ -335,7 +335,7 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
                   <TrackedLink
                     className={chipClass(subjectActive(searchParams, chip.filters))}
                     event="grant_filter_clicked"
-                    href={subjectHref(searchParams, chip.filters)}
+                    href={subjectHref(searchParams, chip.filters, intent)}
                     key={chip.label}
                     properties={{
                       filter_group: "discipline",
@@ -528,11 +528,11 @@ function formatGrantDeadline(value: string) {
   return value;
 }
 
-function filterHref(searchParams: SearchParams, key: keyof SearchParams, value: string) {
+function filterHref(searchParams: SearchParams, key: keyof SearchParams, value: string, intent: Intent = "home") {
   const params = new URLSearchParams();
 
   for (const [paramKey, paramValue] of Object.entries(searchParams)) {
-    if (paramValue) {
+    if (paramValue && paramKey !== "intent") {
       params.set(paramKey, paramValue);
     }
   }
@@ -553,18 +553,19 @@ function filterHref(searchParams: SearchParams, key: keyof SearchParams, value: 
   }
 
   const query = params.toString();
-  return (query ? `/?${query}` : "/") as Route;
+  const basePath = intentBasePath(intent);
+  return (query ? `${basePath}?${query}` : basePath) as Route;
 }
 
 function chipClass(active: boolean) {
   return active ? "quick-chip active" : "quick-chip";
 }
 
-function subjectHref(searchParams: SearchParams, filters: SubjectChip["filters"]) {
+function subjectHref(searchParams: SearchParams, filters: SubjectChip["filters"], intent: Intent = "home") {
   const params = new URLSearchParams();
 
   for (const [paramKey, paramValue] of Object.entries(searchParams)) {
-    if (paramValue && paramKey !== "q") {
+    if (paramValue && paramKey !== "q" && paramKey !== "intent") {
       params.set(paramKey, paramValue);
     }
   }
@@ -579,7 +580,8 @@ function subjectHref(searchParams: SearchParams, filters: SubjectChip["filters"]
   }
 
   const query = params.toString();
-  return (query ? `/?${query}` : "/") as Route;
+  const basePath = intentBasePath(intent);
+  return (query ? `${basePath}?${query}` : basePath) as Route;
 }
 
 function subjectActive(searchParams: SearchParams, filters: SubjectChip["filters"]) {
@@ -716,10 +718,21 @@ function intentHref(searchParams: SearchParams, intent: "posizioni" | "bandi") {
     }
   }
 
-  params.set("intent", intent);
-
   const query = params.toString();
-  return (query ? `/?${query}` : "/") as Route;
+  const basePath = intentBasePath(intent);
+  return (query ? `${basePath}?${query}` : basePath) as Route;
+}
+
+function intentBasePath(intent: Intent) {
+  if (intent === "posizioni") {
+    return "/posizioni";
+  }
+
+  if (intent === "bandi") {
+    return "/funding";
+  }
+
+  return "/";
 }
 
 function buildHaystack(position: (typeof positions)[number]) {
