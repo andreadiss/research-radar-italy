@@ -1701,25 +1701,25 @@ select {
 
 .next-best-card:nth-child(1) {
   opacity: 1;
-  transform: translateX(-42px) translateY(0) rotate(0deg) scale(1);
+  transform: translateX(-36px) translateY(0) scale(1);
   z-index: 6;
 }
 
 .next-best-card:nth-child(2) {
-  opacity: 0.78;
-  transform: translateX(78px) translateY(18px) rotate(5deg) scale(0.94);
+  opacity: 0.72;
+  transform: translateX(70px) translateY(18px) scale(0.95);
   z-index: 4;
 }
 
 .next-best-card:nth-child(3) {
   opacity: 0.42;
-  transform: translateX(114px) translateY(34px) rotate(8deg) scale(0.9);
+  transform: translateX(102px) translateY(34px) scale(0.9);
   z-index: 2;
 }
 
 .next-best-card.is-active {
   border-width: 2px;
-  box-shadow: 0 24px 52px rgba(24, 32, 27, 0.22);
+  box-shadow: 0 26px 56px rgba(24, 32, 27, 0.24);
 }
 
 .next-best-card:focus-visible {
@@ -2231,15 +2231,15 @@ select {
   }
 
   .next-best-card:nth-child(1) {
-    transform: translateX(-28px) translateY(0) rotate(0deg) scale(1);
+    transform: translateX(-22px) translateY(0) scale(1);
   }
 
   .next-best-card:nth-child(2) {
-    transform: translateX(62px) translateY(16px) rotate(5deg) scale(0.93);
+    transform: translateX(52px) translateY(16px) scale(0.93);
   }
 
   .next-best-card:nth-child(3) {
-    transform: translateX(84px) translateY(30px) rotate(8deg) scale(0.88);
+    transform: translateX(70px) translateY(30px) scale(0.88);
   }
 
   .share-link-box {
