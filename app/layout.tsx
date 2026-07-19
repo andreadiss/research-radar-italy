@@ -27,6 +27,14 @@ export const metadata: Metadata = {
   creator: "Research Radar Italy",
   publisher: "Research Radar Italy",
   category: "education",
+  icons: {
+    icon: [{ url: "/favicon.svg", type: "image/svg+xml", sizes: "any" }],
+    shortcut: "/favicon.svg"
+  },
+  manifest: "/manifest.webmanifest",
+  alternates: {
+    languages: { "it-IT": siteUrl }
+  },
   openGraph: {
     type: "website",
     locale: "it_IT",
@@ -34,13 +42,15 @@ export const metadata: Metadata = {
     siteName: "Research Radar Italy",
     title: "Research Radar Italy | Posizioni accademiche e grant in Italia",
     description:
-      "Un radar per trovare opportunita accademiche e funding call in Italia da fonti ufficiali, con filtri per tipo, materia e programma."
+      "Un radar per trovare opportunita accademiche e funding call in Italia da fonti ufficiali, con filtri per tipo, materia e programma.",
+    images: [{ url: "/og-research-radar.png", width: 1200, height: 630, alt: "Research Radar Italy" }]
   },
   twitter: {
     card: "summary_large_image",
     title: "Research Radar Italy | Posizioni accademiche e grant in Italia",
     description:
-      "Trova posizioni accademiche, dottorati, postdoc e grant in Italia da fonti ufficiali."
+      "Trova posizioni accademiche, dottorati, postdoc e grant in Italia da fonti ufficiali.",
+    images: ["/og-research-radar.png"]
   },
   robots: {
     index: true,

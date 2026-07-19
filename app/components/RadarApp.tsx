@@ -49,6 +49,15 @@ const subjectChips: SubjectChip[] = [
 
 const visibleGrants = grants.filter(isVisibleGrant);
 const grantPrograms = Array.from(new Set(visibleGrants.map((grant) => grant.program))).sort();
+const popularSearches = [
+  { path: "/posizioni/dottorati", label: "Dottorati" },
+  { path: "/posizioni/postdoc", label: "Postdoc" },
+  { path: "/posizioni/contratti-di-ricerca", label: "Contratti di ricerca" },
+  { path: "/posizioni/ricercatori-tempo-determinato", label: "Ricercatori RTT" },
+  { path: "/funding/prin", label: "Bandi PRIN" },
+  { path: "/funding/msca", label: "MSCA" },
+  { path: "/funding/erc", label: "ERC" }
+] as const;
 
 export function RadarApp() {
   const searchParams = useRadarSearchParams();
@@ -114,6 +123,18 @@ export function RadarApp() {
             </div>
           ) : null}
           {intent === "home" ? <NextBestActions /> : null}
+          {intent === "home" ? (
+            <nav className="popular-searches" aria-label="Ricerche accademiche popolari">
+              <span>Ricerche popolari</span>
+              <div>
+                {popularSearches.map((page) => (
+                  <Link href={page.path as Route} key={page.path}>
+                    {page.label}
+                  </Link>
+                ))}
+              </div>
+            </nav>
+          ) : null}
           {intent === "home" ? (
             <HomeFavoritesPreview count={savedPreview?.count ?? 0} items={savedPreview?.items ?? []} />
           ) : null}
@@ -369,6 +390,7 @@ export function RadarApp() {
         <Link href="/privacy">Privacy</Link>
         <Link href="/cookie">Cookie</Link>
         <Link href="/terms">Terms</Link>
+        <Link href="/contact">Contatti</Link>
       </footer>
     </main>
   );

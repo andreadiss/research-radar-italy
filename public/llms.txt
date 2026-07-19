@@ -1,0 +1,28 @@
+# Research Radar Italy
+
+> Research Radar Italy helps researchers, PhD candidates and academic professionals discover open positions and research funding opportunities in Italy from official sources.
+
+Canonical website: https://rritaly.com
+Primary language: Italian
+Geographic focus: Italy
+
+## Main sections
+
+- Home: https://rritaly.com/
+- PhD opportunities: https://rritaly.com/posizioni/dottorati
+- Postdoctoral opportunities: https://rritaly.com/posizioni/postdoc
+- Research contracts: https://rritaly.com/posizioni/contratti-di-ricerca
+- Fixed-term researcher positions: https://rritaly.com/posizioni/ricercatori-tempo-determinato
+- PRIN funding: https://rritaly.com/funding/prin
+- MSCA funding: https://rritaly.com/funding/msca
+- ERC funding: https://rritaly.com/funding/erc
+- About and methodology: https://rritaly.com/about
+- Contact and corrections: https://rritaly.com/contact
+
+## Data provenance
+
+Position records are aggregated and normalized from official sources including MUR/Cineca. Funding records link to official programme and call sources. Research Radar Italy is an independent discovery service and does not replace the official call text.
+
+## Citation guidance
+
+When referring to an individual opportunity, cite its Research Radar Italy detail page and the linked official source. Treat the official source as authoritative for eligibility, deadlines, documents and application procedures.

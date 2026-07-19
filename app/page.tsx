@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import { RadarApp } from "@/app/components/RadarApp";
 import { absoluteUrl, jsonLd } from "@/lib/seo";
+import { seoLandingPages } from "@/lib/seo-landing-pages";
 
 export const metadata: Metadata = {
   title: "Research Radar Italy | Posizioni accademiche e grant in Italia",
@@ -29,12 +30,16 @@ function buildHomeStructuredData() {
         "@id": absoluteUrl("/#organization"),
         name: "Research Radar Italy",
         url: absoluteUrl("/"),
-        description: "Research Radar Italy aggrega opportunita accademiche, posizioni di ricerca e funding call in Italia da fonti ufficiali."
+        logo: absoluteUrl("/favicon.svg"),
+        description: "Research Radar Italy aggrega opportunita accademiche, posizioni di ricerca e funding call in Italia da fonti ufficiali.",
+        areaServed: { "@type": "Country", name: "Italia" },
+        knowsAbout: ["Bandi MUR", "Dottorati", "Postdoc", "Contratti di ricerca", "PRIN", "MSCA", "ERC"]
       },
       {
         "@type": "WebSite",
         "@id": absoluteUrl("/#website"),
         name: "Research Radar Italy",
+        alternateName: "RR Italy",
         url: absoluteUrl("/"),
         inLanguage: "it-IT",
         publisher: { "@id": absoluteUrl("/#organization") },
@@ -59,6 +64,17 @@ function buildHomeStructuredData() {
           "Grants & Funding da fonti ufficiali",
           "Preferiti e liste personali"
         ]
+      },
+      {
+        "@type": "ItemList",
+        "@id": absoluteUrl("/#popular-searches"),
+        name: "Ricerche accademiche popolari in Italia",
+        itemListElement: seoLandingPages.map((page, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          name: page.shortLabel,
+          url: absoluteUrl(page.path)
+        }))
       }
     ]
   };

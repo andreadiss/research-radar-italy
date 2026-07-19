@@ -25,11 +25,13 @@ export function generateMetadata({ params }: { params: { id: string } }): Metada
     `${position.title}. ${position.discipline}${position.ssd ? `, ${position.ssd}` : ""}. Scadenza: ${formatDate(position.deadline)}. Fonte: ${position.sourceName}.`
   );
   const url = `/positions/${position.id}`;
+  const expired = isExpired(position.deadline);
 
   return {
     title,
     description,
-    alternates: { canonical: url },
+    alternates: { canonical: absoluteUrl(url) },
+    robots: expired ? { index: false, follow: true } : undefined,
     openGraph: {
       type: "article",
       title,
@@ -51,11 +53,12 @@ export default function PositionDetail({ params }: { params: { id: string } }) {
     notFound();
   }
 
-  const structuredData = {
+  const jobPosting = {
     "@context": "https://schema.org",
     "@type": "JobPosting",
+    "@id": absoluteUrl(`/positions/${position.id}#job`),
     title: position.title,
-    description: truncateText(`${position.summary} ${position.requirements.join(" ")}`, 4000),
+    description: `${position.summary}\n\nRequisiti principali: ${position.requirements.join("; ")}`,
     datePosted: isoDate(position.publishedAt),
     validThrough: isoDate(position.deadline),
     employmentType: position.positionType,
@@ -67,8 +70,10 @@ export default function PositionDetail({ params }: { params: { id: string } }) {
     },
     hiringOrganization: {
       "@type": "Organization",
-      name: position.institution
+      name: position.institution,
+      logo: absoluteUrl("/favicon.svg")
     },
+    industry: "Ricerca e universita",
     jobLocation: {
       "@type": "Place",
       address: {
@@ -79,8 +84,24 @@ export default function PositionDetail({ params }: { params: { id: string } }) {
       }
     },
     url: absoluteUrl(`/positions/${position.id}`),
+    sameAs: position.sourceUrl,
+    mainEntityOfPage: absoluteUrl(`/positions/${position.id}`),
     directApply: false
   };
+  const breadcrumbs = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: absoluteUrl("/") },
+      { "@type": "ListItem", position: 2, name: position.title, item: absoluteUrl(`/positions/${position.id}`) }
+    ]
+  };
+  const structuredData = isExpired(position.deadline)
+    ? breadcrumbs
+    : {
+        "@context": "https://schema.org",
+        "@graph": [jobPosting, breadcrumbs]
+      };
 
   return (
     <main className="shell">
@@ -156,4 +177,9 @@ function formatDate(value: string) {
     month: "long",
     year: "numeric"
   }).format(new Date(value));
+}
+
+function isExpired(value: string) {
+  const deadline = new Date(`${value}T23:59:59`);
+  return Number.isFinite(deadline.getTime()) && deadline.getTime() < Date.now();
 }

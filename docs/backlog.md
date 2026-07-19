@@ -113,11 +113,17 @@
 - [x] Add SEO metadata baseline for HP, positions listing, Grants listing and detail pages
 - [x] Add sitemap and robots routes for Google indexing
 - [x] Add structured data for position detail pages and grant detail pages
-- [ ] Connect Google Search Console and submit sitemap
-- [ ] Add SEO landing pages by high-intent query: dottorati, postdoc, contratti di ricerca, PRIN, MSCA, ERC
-- [x] Add About, Privacy, Cookie and Terms pages before ad-network applications
-- [ ] Add Contact page
-- [ ] Add custom Open Graph image for social sharing
+- [x] Add stable favicon and manifest for Google Search and browser surfaces
+- [x] Add custom Open Graph image for social sharing
+- [x] Add internal links and semantic structured data for high-intent collections
+- [x] Add `llms.txt` with canonical pages and source-provenance guidance
+- [x] Connect Google Search Console and submit sitemap
+- [ ] Request recrawl of the home page after favicon deployment
+- [ ] Validate representative JobPosting pages in Rich Results Test
+- [ ] Add Google Indexing API notifications for new, updated and expired job pages
+- [ ] Review Search Console query clusters after 28 days and iterate content
+- [x] Add SEO landing pages by high-intent query: dottorati, postdoc, contratti di ricerca, RTT, PRIN, MSCA, ERC
+- [x] Add About, Contact, Privacy, Cookie and Terms pages before ad-network applications
 - [ ] Add content/positioning plan for organic acquisition
 - [x] Add web analytics and performance monitoring baseline
 - [x] Track core product funnel events: home intent, filters, previews, detail opens, source opens, saves, auth CTAs

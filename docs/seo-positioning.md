@@ -15,6 +15,14 @@ Implemented:
 - JSON-LD structured data:
   - `JobPosting` for position detail pages.
   - `Grant` for funding detail pages.
+- Stable crawlable favicon and web manifest for search results and browser surfaces.
+- Custom Open Graph image for social sharing.
+- Dedicated static landing pages for dottorati, postdoc, contratti di ricerca, RTT, PRIN, MSCA and ERC.
+- Visible internal links from the home page and related links across SEO landing pages.
+- `CollectionPage`, `ItemList`, `BreadcrumbList` and visible FAQ content on landing pages.
+- Contact page for source reports and corrections.
+- `llms.txt` with canonical sections, provenance and citation guidance for generative systems.
+- Sitemap dates tied to actual content dates instead of the build timestamp.
 
 ## Positioning
 
@@ -38,22 +46,18 @@ Priority organic search intents:
 
 P0:
 
-- Connect Google Search Console for `https://rritaly.com`.
-- Submit `https://rritaly.com/sitemap.xml`.
+- Google Search Console connected for `https://rritaly.com`.
+- Sitemap submitted at `https://rritaly.com/sitemap.xml`.
 - Inspect `/`, `/?intent=posizioni`, `/?intent=bandi`, one position detail page and one grant detail page.
+- Request a new crawl of the home page after favicon deployment.
 - Add About, Contact, Privacy and Cookie pages before monetization or ad-network review.
 
 P1:
 
-- Create SEO landing pages for high-intent segments:
-  - `/posizioni/dottorati`
-  - `/posizioni/postdoc`
-  - `/posizioni/contratti-di-ricerca`
-  - `/funding/prin`
-  - `/funding/msca`
-  - `/funding/erc`
-- Add internal links from HP and listings to these landing pages.
-- Add a custom Open Graph image.
+- Review landing-page impressions and queries in Search Console after 28 days.
+- Expand landing pages only when Search Console shows a distinct intent with enough real content.
+- Add the Google Indexing API for new and removed job-detail URLs.
+- Validate representative detail pages in Google's Rich Results Test.
 
 P2:
 

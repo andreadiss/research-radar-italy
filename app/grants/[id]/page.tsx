@@ -30,7 +30,8 @@ export function generateMetadata({ params }: { params: { id: string } }): Metada
   return {
     title,
     description,
-    alternates: { canonical: url },
+    alternates: { canonical: absoluteUrl(url) },
+    robots: isIndexableGrant(grant) ? undefined : { index: false, follow: true },
     openGraph: {
       type: "article",
       title,
@@ -52,11 +53,13 @@ export default function GrantDetailPage({ params }: { params: { id: string } }) 
     notFound();
   }
 
-  const structuredData = {
+  const grantStructuredData = {
     "@context": "https://schema.org",
     "@type": "Grant",
+    "@id": absoluteUrl(`/grants/${grant.id}#grant`),
     name: grant.title,
     description: truncateText(grant.summary, 4000),
+    inLanguage: "it-IT",
     funder: {
       "@type": "Organization",
       name: grant.funder
@@ -68,8 +71,25 @@ export default function GrantDetailPage({ params }: { params: { id: string } }) 
     keywords: [grant.program, grant.discipline].filter(Boolean),
     applicationDeadline: isoDate(grant.deadline),
     url: absoluteUrl(`/grants/${grant.id}`),
-    sameAs: grant.sourceUrl
+    sameAs: grant.sourceUrl,
+    mainEntityOfPage: absoluteUrl(`/grants/${grant.id}`),
+    isAccessibleForFree: true
   };
+  const breadcrumbs = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: absoluteUrl("/") },
+      { "@type": "ListItem", position: 2, name: grant.title, item: absoluteUrl(`/grants/${grant.id}`) }
+    ]
+  };
+  const structuredData = isIndexableGrant(grant) ? {
+    "@context": "https://schema.org",
+    "@graph": [
+      grantStructuredData,
+      breadcrumbs
+    ]
+  } : breadcrumbs;
 
   return (
     <main className="shell">
@@ -163,4 +183,8 @@ function grantStatusLabel(grant: GrantOpportunity) {
   if (grant.status === "upcoming") return "In apertura";
   if (grant.status === "closed") return "Chiuso";
   return "Da verificare";
+}
+
+function isIndexableGrant(grant: GrantOpportunity) {
+  return grant.status === "open" || grant.status === "upcoming";
 }
