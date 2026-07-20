@@ -23,10 +23,13 @@ type SearchParams = {
   region?: string;
   funding?: string;
   program?: string;
+  sort?: string;
+  telematic?: string;
   intent?: string;
 };
 
 type Intent = "home" | "posizioni" | "bandi";
+type SortOrder = "recenti" | "meno-recenti";
 
 type SubjectChip = {
   label: string;
@@ -64,13 +67,23 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
   const savedPreview = { count: 0, items: [] };
   const intent: Intent =
     searchParams.intent === "bandi" ? "bandi" : searchParams.intent === "posizioni" ? "posizioni" : initialIntent;
+  const sortOrder = normalizeSortOrder(searchParams.sort);
   const intentPositions = positions;
-  const filtered = intentPositions.filter((position) => matchesFilters(position, searchParams));
-  const filteredGrants = visibleGrants.filter((grant) => matchesGrantFilters(grant, searchParams));
+  const filtered = sortPositions(
+    intentPositions.filter((position) => matchesFilters(position, searchParams)),
+    sortOrder
+  );
+  const filteredGrants = sortGrants(
+    visibleGrants.filter((grant) => matchesGrantFilters(grant, searchParams)),
+    sortOrder
+  );
   const closingSoon = filtered.filter((position) => daysUntil(position.deadline) <= 14).length;
   const newPositionsToday = intentPositions.filter((position) => isToday(position.publishedAt)).length;
   const newGrantsToday = visibleGrants.filter((grant) => grant.firstSeenAt && isToday(grant.firstSeenAt)).length;
-  const canShowPositionResults = selectedValues(searchParams.type).length > 0 || selectedValues(searchParams.discipline).length > 0;
+  const canShowPositionResults =
+    selectedValues(searchParams.type).length > 0 ||
+    selectedValues(searchParams.discipline).length > 0 ||
+    isTelematicFilterActive(searchParams);
   const heroTitle =
     intent === "home"
       ? "Trova opportunità accademiche in Italia."
@@ -208,6 +221,30 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
                   })}
                 </div>
               </div>
+              <div className="quick-filter-group">
+                <span className="quick-filter-label">Modalità</span>
+                <div className="chip-row">
+                  {(() => {
+                    const count = filterCount(intentPositions, searchParams, { telematic: "true" });
+                    const freshCount = freshPositionCount(intentPositions, searchParams, { telematic: "true" });
+
+                    return (
+                      <TrackedLink
+                        className={chipClass(isTelematicFilterActive(searchParams))}
+                        event="position_filter_clicked"
+                        href={filterHref(searchParams, "telematic", "true", intent)}
+                        properties={{ filter_group: "telematic", filter_value: "true", result_count: count }}
+                      >
+                        Università telematiche
+                        <small>{count}</small>
+                        {freshCount > 0 ? (
+                          <span className="fresh-chip-badge" aria-label={freshLabel(freshCount)} title={freshLabel(freshCount)} />
+                        ) : null}
+                      </TrackedLink>
+                    );
+                  })()}
+                </div>
+              </div>
           </div>
           {canShowPositionResults ? (
             <>
@@ -219,6 +256,7 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
                     <span className="results-deadline-count">{closingSoon} scadenze entro 14 giorni</span>
                   </h2>
                 </div>
+                <SortControls intent={intent} searchParams={searchParams} />
               </div>
             </>
           ) : null}
@@ -286,13 +324,13 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
                 Rimuovi un filtro o lancia un nuovo sync per aggiornare i dati.
               </p>
               <div className="empty-actions">
-                <Link className="button secondary" href="/?intent=posizioni">
+                <Link className="button secondary" href="/posizioni">
                   Mostra tutte le posizioni
                 </Link>
-                <Link className="button secondary" href="/?intent=posizioni&type=Contratto+di+ricerca">
+                <Link className="button secondary" href="/posizioni?type=Contratto+di+ricerca">
                   Contratti di ricerca
                 </Link>
-                <Link className="button secondary" href="/?intent=posizioni&type=PhD">
+                <Link className="button secondary" href="/posizioni?type=PhD">
                   PhD
                 </Link>
               </div>
@@ -357,6 +395,7 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
                 <span className="results-count">{filteredGrants.length} su {visibleGrants.length}</span>
               </h2>
             </div>
+            <SortControls intent={intent} searchParams={searchParams} />
           </div>
           {filteredGrants.length > 0 ? (
             <div className="jobs-list">
@@ -370,13 +409,13 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
               <h3>Nessun grant trovato</h3>
               <p>Rimuovi un filtro o prova uno dei programmi principali.</p>
               <div className="empty-actions">
-                <Link className="button secondary" href="/?intent=bandi">
+                <Link className="button secondary" href="/funding">
                   Tutti i grants
                 </Link>
-                <Link className="button secondary" href="/?intent=bandi&program=PRIN">
+                <Link className="button secondary" href="/funding?program=PRIN">
                   PRIN
                 </Link>
-                <Link className="button secondary" href="/?intent=bandi&program=MSCA">
+                <Link className="button secondary" href="/funding?program=MSCA">
                   MSCA
                 </Link>
               </div>
@@ -516,6 +555,34 @@ function GrantCard({ grant }: { grant: GrantOpportunity }) {
   );
 }
 
+function SortControls({ intent, searchParams }: { intent: Intent; searchParams: SearchParams }) {
+  const sortOrder = normalizeSortOrder(searchParams.sort);
+
+  return (
+    <div className="sort-controls" aria-label="Ordina risultati">
+      <span>Ordina</span>
+      <div className="chip-row">
+        <TrackedLink
+          className={chipClass(sortOrder === "recenti")}
+          event={intent === "bandi" ? "grant_sort_clicked" : "position_sort_clicked"}
+          href={filterHref(searchParams, "sort", "recenti", intent)}
+          properties={{ sort_order: "recenti" }}
+        >
+          Più recenti
+        </TrackedLink>
+        <TrackedLink
+          className={chipClass(sortOrder === "meno-recenti")}
+          event={intent === "bandi" ? "grant_sort_clicked" : "position_sort_clicked"}
+          href={filterHref(searchParams, "sort", "meno-recenti", intent)}
+          properties={{ sort_order: "meno-recenti" }}
+        >
+          Meno recenti
+        </TrackedLink>
+      </div>
+    </div>
+  );
+}
+
 function formatGrantDeadline(value: string) {
   if (/^\d{4}-\d{2}-\d{2}$/.test(value)) {
     return new Intl.DateTimeFormat("it-IT", {
@@ -632,6 +699,7 @@ function matchesFilters(position: (typeof positions)[number], searchParams: Sear
     (!query || haystack.includes(query)) &&
     (selectedValues(searchParams.type).length === 0 || selectedValues(searchParams.type).includes(position.positionType)) &&
     (selectedValues(searchParams.discipline).length === 0 || selectedValues(searchParams.discipline).includes(position.discipline)) &&
+    (!isTelematicFilterActive(searchParams) || isTelematicPosition(position)) &&
     (!searchParams.region || position.region === searchParams.region) &&
     (!searchParams.funding || position.fundingType === searchParams.funding)
   );
@@ -661,6 +729,8 @@ function useRadarSearchParams(): SearchParams {
     region: params.get("region") ?? undefined,
     funding: params.get("funding") ?? undefined,
     program: params.get("program") ?? undefined,
+    sort: params.get("sort") ?? undefined,
+    telematic: params.get("telematic") ?? undefined,
     intent: params.get("intent") ?? undefined
   };
 }
@@ -710,7 +780,9 @@ function matchesGrantFilters(grant: GrantOpportunity, searchParams: SearchParams
 function intentHref(searchParams: SearchParams, intent: "posizioni" | "bandi") {
   const params = new URLSearchParams();
   const excludedKeys =
-    intent === "bandi" ? new Set(["intent", "type", "region", "funding"]) : new Set(["intent", "program"]);
+    intent === "bandi"
+      ? new Set(["intent", "type", "region", "funding", "telematic"])
+      : new Set(["intent", "program"]);
 
   for (const [paramKey, paramValue] of Object.entries(searchParams)) {
     if (paramValue && !excludedKeys.has(paramKey)) {
@@ -750,6 +822,66 @@ function buildHaystack(position: (typeof positions)[number]) {
     ...(position.requirements ?? [])
   ]
     .join(" ")
+    .toLowerCase();
+}
+
+function normalizeSortOrder(value?: string): SortOrder {
+  return value === "meno-recenti" ? "meno-recenti" : "recenti";
+}
+
+function sortPositions(candidatePositions: Array<(typeof positions)[number]>, sortOrder: SortOrder) {
+  return [...candidatePositions].sort((left, right) =>
+    compareByDate(sortableDate(left.publishedAt), sortableDate(right.publishedAt), sortOrder)
+  );
+}
+
+function sortGrants(candidateGrants: GrantOpportunity[], sortOrder: SortOrder) {
+  return [...candidateGrants].sort((left, right) =>
+    compareByDate(grantSortDate(left), grantSortDate(right), sortOrder)
+  );
+}
+
+function compareByDate(leftTimestamp: number, rightTimestamp: number, sortOrder: SortOrder) {
+  return sortOrder === "meno-recenti" ? leftTimestamp - rightTimestamp : rightTimestamp - leftTimestamp;
+}
+
+function grantSortDate(grant: GrantOpportunity) {
+  return sortableDate(grant.publishedAt ?? grant.firstSeenAt ?? grant.opensAt ?? grant.deadline);
+}
+
+function sortableDate(value?: string) {
+  if (!value) return 0;
+  const timestamp = new Date(value).getTime();
+  return Number.isFinite(timestamp) ? timestamp : 0;
+}
+
+function isTelematicFilterActive(searchParams: SearchParams) {
+  return searchParams.telematic === "true";
+}
+
+function isTelematicPosition(position: (typeof positions)[number]) {
+  const institution = normalizeText(position.institution);
+  return (
+    institution.includes("telematica") ||
+    institution.includes("pegaso") ||
+    institution.includes("ecampus") ||
+    institution.includes("e campus") ||
+    institution.includes("guglielmo marconi") ||
+    institution.includes("uninettuno") ||
+    institution.includes("niccolo cusano") ||
+    institution.includes("nicolo cusano") ||
+    institution.includes("unitelma") ||
+    institution.includes("mercatorum") ||
+    institution.includes("iuline") ||
+    institution.includes("giustino fortunato") ||
+    institution.includes("universitas mercatorum")
+  );
+}
+
+function normalizeText(value: string) {
+  return value
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
     .toLowerCase();
 }
 
