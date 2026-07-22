@@ -84,7 +84,7 @@
     "amount": "Fino a 1,5 milioni di euro per 5 anni, oltre a eventuali costi aggiuntivi",
     "eligibility": "Ricercatori early-career secondo la finestra di ammissibilita ERC 2027 e con host institution eleggibile",
     "summary": "Call ERC per ricercatori early-career pronti a sviluppare un programma di ricerca indipendente.",
-    "status": "upcoming",
+    "status": "open",
     "sourceType": "official_call",
     "firstSeenAt": "2026-07-19"
   },
@@ -187,22 +187,5 @@
     "status": "closed",
     "sourceType": "official_call",
     "firstSeenAt": "2026-04-17"
-  },
-  {
-    "id": "gea-dm442026-2028",
-    "title": "Bando DM 44/2008 – triennio 2026-2028",
-    "program": "MUR",
-    "funder": "MUR",
-    "discipline": "Tutte le discipline",
-    "deadline": "2026-09-03",
-    "deadlineStatus": "open",
-    "publishedAt": "2026-07-16",
-    "sourceName": "GEA - Ministero dell'Universita e della Ricerca",
-    "sourceUrl": "https://www.gea.mur.gov.it/Bandi/DM442026_2028",
-    "eligibility": "Soggetti ammissibili indicati nel bando e nella documentazione ufficiale GEA",
-    "summary": "Bando pubblico per la concessione dei contributi per il funzionamento degli enti privati che svolgono attività di ricerca. Istituzione della tabella triennale 2026–2028 ai sensi del D.M. n. 44 dell’8 Febbraio 2008.",
-    "status": "open",
-    "sourceType": "official_call",
-    "firstSeenAt": "2026-07-19"
   }
 ]
