@@ -1,8 +1,8 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Link from "next/link";
+import { SiteTopbar } from "@/app/components/SiteTopbar";
 import { notFound } from "next/navigation";
 import { ExternalLink, FileText } from "lucide-react";
-import { AccountNav } from "@/app/components/AccountNav";
 import { getGrantById, grants } from "@/lib/grants";
 import { absoluteUrl, isoDate, jsonLd, truncateText } from "@/lib/seo";
 import type { GrantOpportunity } from "@/lib/types";
@@ -94,13 +94,7 @@ export default function GrantDetailPage({ params }: { params: { id: string } }) 
   return (
     <main className="shell">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(structuredData) }} />
-      <header className="topbar">
-        <Link className="brand" href="/" aria-label="Torna alla home page">
-          <span className="brand-mark">R</span>
-          <span>Research Radar Italy</span>
-        </Link>
-        <AccountNav />
-      </header>
+      <SiteTopbar />
 
       <section className="detail-page">
         <Link className="back-link" href="/?intent=bandi">

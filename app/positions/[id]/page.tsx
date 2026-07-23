@@ -1,8 +1,8 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Link from "next/link";
+import { SiteTopbar } from "@/app/components/SiteTopbar";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ExternalLink } from "lucide-react";
-import { AccountNav } from "@/app/components/AccountNav";
 import { getPositionById, positions } from "@/lib/positions";
 import { absoluteUrl, isoDate, jsonLd, truncateText } from "@/lib/seo";
 
@@ -106,13 +106,7 @@ export default function PositionDetail({ params }: { params: { id: string } }) {
   return (
     <main className="shell">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(structuredData) }} />
-      <header className="topbar">
-        <Link className="brand" href="/">
-          <span className="brand-mark">R</span>
-          <span>Research Radar Italy</span>
-        </Link>
-        <AccountNav />
-      </header>
+      <SiteTopbar />
 
       <section className="detail-shell">
         <Link className="back-link" href="/?intent=posizioni">

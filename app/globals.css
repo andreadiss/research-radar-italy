@@ -61,6 +61,43 @@ select {
   z-index: 80;
 }
 
+
+.topbar-actions {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  min-width: 0;
+}
+
+.last-update-badge {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid rgba(18, 106, 91, 0.22);
+  border-radius: 999px;
+  box-shadow: 0 8px 20px rgba(24, 32, 27, 0.06);
+  color: var(--muted);
+  display: inline-flex;
+  gap: 5px;
+  line-height: 1;
+  padding: 7px 11px;
+  white-space: nowrap;
+}
+
+.last-update-badge span {
+  align-items: center;
+  color: var(--accent);
+  display: inline-flex;
+  font-size: 10px;
+  font-weight: 850;
+  gap: 5px;
+}
+
+.last-update-badge strong {
+  color: var(--ink);
+  font-size: 11px;
+  font-weight: 780;
+}
 .brand {
   align-items: center;
   display: flex;
@@ -1534,6 +1571,37 @@ select {
 }
 
 @media (max-width: 640px) {
+
+  .topbar {
+    gap: 8px;
+    padding: 12px 18px;
+  }
+
+  .brand {
+    min-width: 0;
+  }
+
+  .brand > span:last-child {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .topbar-actions {
+    gap: 6px;
+  }
+
+  .last-update-badge {
+    padding: 6px 8px;
+  }
+
+  .last-update-badge span {
+    font-size: 9px;
+  }
+
+  .last-update-badge strong {
+    font-size: 9px;
+  }
+
   .filtered-actions,
   .results-header {
     align-items: stretch;

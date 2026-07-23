@@ -1,9 +1,9 @@
 "use client";
 
 import Link from "next/link";
+import { SiteTopbar } from "@/app/components/SiteTopbar";
 import type { Route } from "next";
 import { CalendarClock, FileText, MapPin, Search } from "lucide-react";
-import { AccountNav } from "@/app/components/AccountNav";
 import { useSearchParams } from "next/navigation";
 import { FloatingIntentMenu } from "@/app/components/FloatingIntentMenu";
 import { HomeFavoritesPreview } from "@/app/components/HomeFavoritesPreview";
@@ -92,13 +92,7 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
         : "Grants & Funding";
   return (
     <main className="shell">
-      <header className="topbar">
-        <Link className="brand" href="/" aria-label="Torna alla home page">
-          <span className="brand-mark">R</span>
-          <span>Research Radar Italy</span>
-        </Link>
-        <AccountNav />
-      </header>
+      <SiteTopbar />
 
       <section className={heroClass(intent)}>
         <div className="hero-main">

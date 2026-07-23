@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { SiteTopbar } from "@/app/components/SiteTopbar";
 import { ExternalLink } from "lucide-react";
-import { AccountNav } from "@/app/components/AccountNav";
 import { absoluteUrl } from "@/lib/site-url";
 
 export const metadata: Metadata = {
@@ -13,13 +13,7 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <main className="shell">
-      <header className="topbar">
-        <Link className="brand" href="/" aria-label="Torna alla home page">
-          <span className="brand-mark">R</span>
-          <span>Research Radar Italy</span>
-        </Link>
-        <AccountNav />
-      </header>
+      <SiteTopbar />
       <section className="detail-shell legal-shell">
         <article className="detail-card legal-card">
           <p className="legal-kicker">Contatti</p>

@@ -1,8 +1,8 @@
 import type { Metadata, Route } from "next";
 import Link from "next/link";
+import { SiteTopbar } from "@/app/components/SiteTopbar";
 import { notFound } from "next/navigation";
 import { ArrowRight, ExternalLink } from "lucide-react";
-import { AccountNav } from "@/app/components/AccountNav";
 import { grants } from "@/lib/grants";
 import { positions } from "@/lib/positions";
 import { absoluteUrl, jsonLd } from "@/lib/seo";
@@ -49,13 +49,7 @@ export default function SeoLandingRoute({ params }: PageProps) {
   return (
     <main className="shell">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(structuredData) }} />
-      <header className="topbar">
-        <Link className="brand" href="/" aria-label="Torna alla home page">
-          <span className="brand-mark">R</span>
-          <span>Research Radar Italy</span>
-        </Link>
-        <AccountNav />
-      </header>
+      <SiteTopbar />
 
       <section className="detail-shell seo-landing-shell">
         <nav className="seo-breadcrumbs" aria-label="Percorso">
