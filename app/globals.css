@@ -147,6 +147,14 @@ select {
   padding: 5px 10px;
 }
 
+.topbar-actions .last-update-badge,
+.topbar-actions .account-icon-link {
+  height: 34px;
+  min-height: 34px;
+  padding: 0 12px;
+}
+
+
 .account-link.primary {
   background: var(--ink);
   border-color: var(--ink);
@@ -1600,6 +1608,13 @@ select {
 
   .last-update-badge strong {
     font-size: 9px;
+  }
+
+  .topbar-actions .last-update-badge,
+  .topbar-actions .account-icon-link {
+    height: 32px;
+    min-height: 32px;
+    padding: 0 9px;
   }
 
   .filtered-actions,
