@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { GoogleAnalytics } from "@/app/components/GoogleAnalytics";
 import { siteUrl } from "@/lib/site-url";
 import "./globals.css";
 
@@ -78,7 +79,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="it">
-      <body>{children}</body>
+      <body>
+        <GoogleAnalytics />
+        {children}
+      </body>
     </html>
   );
 }
