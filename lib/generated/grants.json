@@ -60,7 +60,7 @@
     "funder": "European Research Council",
     "discipline": "Tutte le discipline",
     "deadline": "2026-09-17",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "sourceName": "European Research Council",
     "sourceUrl": "https://erc.europa.eu/apply-grant/proof-concept",
     "amount": "150.000 euro per 18 mesi",
@@ -133,7 +133,7 @@
     "sourceName": "Italia Domani / MUR",
     "sourceUrl": "https://www.mur.gov.it/it/pnrr/misure-e-componenti/m4c2/investimento-11-fondo-il-programma-nazionale-della-ricerca",
     "eligibility": "Depends on the specific PNRR measure, call and implementing body",
-    "summary": "Fonte istituzionale per misure PNRR. La prossima integrazione deve separare avvisi aperti, graduatorie, decreti e progetti finanziati.",
+    "summary": "Fonte PNRR con 11 possibili avvisi da verificare prima della pubblicazione. Documenti amministrativi: 61; graduatorie/ammissioni: 18; rendicontazione/monitoraggio: 3.",
     "status": "source_monitoring",
     "sourceType": "monitoring_source",
     "firstSeenAt": "2026-05-12"
