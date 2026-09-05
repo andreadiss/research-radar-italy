@@ -1,0 +1,106 @@
+{
+  "checkedAt": "2026-09-05T17:47:54.365476+00:00",
+  "selection": "Sei prossimi candidati per deadline/ID; verifiche puntuali, non campione rappresentativo",
+  "reviews": [
+    {
+      "id": "mur-fixed-term-researchers-151363",
+      "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/151363",
+      "checkedAt": "2026-09-05T17:47:54.365476+00:00",
+      "before": "MSCA",
+      "after": "Non specificato",
+      "evidence": "Pagina MUR: Marie Curie Actions=No; titolo e descrizioni letti non identificano un programma di finanziamento. Non specificato indica assenza di evidenza, non assenza di finanziamento."
+    },
+    {
+      "id": "mur-fixed-term-researchers-151364",
+      "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/151364",
+      "checkedAt": "2026-09-05T17:47:54.365476+00:00",
+      "before": "MSCA",
+      "after": "Non specificato",
+      "evidence": "Pagina MUR: Marie Curie Actions=No; titolo e descrizioni letti non identificano un programma di finanziamento. Non specificato indica assenza di evidenza, non assenza di finanziamento."
+    },
+    {
+      "id": "mur-fixed-term-researchers-151365",
+      "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/151365",
+      "checkedAt": "2026-09-05T17:47:54.365476+00:00",
+      "before": "MSCA",
+      "after": "Non specificato",
+      "evidence": "Pagina MUR: Marie Curie Actions=No; titolo e descrizioni letti non identificano un programma di finanziamento. Non specificato indica assenza di evidenza, non assenza di finanziamento."
+    },
+    {
+      "id": "mur-fixed-term-researchers-151366",
+      "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/151366",
+      "checkedAt": "2026-09-05T17:47:54.365476+00:00",
+      "before": "MSCA",
+      "after": "Non specificato",
+      "evidence": "Pagina MUR: Marie Curie Actions=No; titolo e descrizioni letti non identificano un programma di finanziamento. Non specificato indica assenza di evidenza, non assenza di finanziamento."
+    },
+    {
+      "id": "mur-fixed-term-researchers-151367",
+      "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/151367",
+      "checkedAt": "2026-09-05T17:47:54.365476+00:00",
+      "before": "MSCA",
+      "after": "Non specificato",
+      "evidence": "Pagina MUR: Marie Curie Actions=No; titolo e descrizioni letti non identificano un programma di finanziamento. Non specificato indica assenza di evidenza, non assenza di finanziamento."
+    },
+    {
+      "id": "mur-fixed-term-researchers-151368",
+      "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/151368",
+      "checkedAt": "2026-09-05T17:47:54.365476+00:00",
+      "before": "MSCA",
+      "after": "Non specificato",
+      "evidence": "Pagina MUR: Marie Curie Actions=No; titolo e descrizioni letti non identificano un programma di finanziamento. Non specificato indica assenza di evidenza, non assenza di finanziamento."
+    }
+  ],
+  "duplicateReviews": [
+    {
+      "id": "mur-fixed-term-researchers-151364",
+      "previousPossibleDuplicateOf": "mur-fixed-term-researchers-151363",
+      "sourceUrls": [
+        "https://bandi.mur.gov.it/jobs.php/public/job/id_job/151363",
+        "https://bandi.mur.gov.it/jobs.php/public/job/id_job/151364"
+      ],
+      "checkedAt": "2026-09-05T17:47:54.365476+00:00",
+      "evidence": "Bandi distinti con SSD differenti verificati sulle due pagine MUR: BIOS-12/A / PEMM-01/C"
+    },
+    {
+      "id": "mur-fixed-term-researchers-151365",
+      "previousPossibleDuplicateOf": "mur-fixed-term-researchers-151364",
+      "sourceUrls": [
+        "https://bandi.mur.gov.it/jobs.php/public/job/id_job/151364",
+        "https://bandi.mur.gov.it/jobs.php/public/job/id_job/151365"
+      ],
+      "checkedAt": "2026-09-05T17:47:54.365476+00:00",
+      "evidence": "Bandi distinti con SSD differenti verificati sulle due pagine MUR: PEMM-01/C / GLOT-01/A"
+    },
+    {
+      "id": "mur-fixed-term-researchers-151366",
+      "previousPossibleDuplicateOf": "mur-fixed-term-researchers-151365",
+      "sourceUrls": [
+        "https://bandi.mur.gov.it/jobs.php/public/job/id_job/151365",
+        "https://bandi.mur.gov.it/jobs.php/public/job/id_job/151366"
+      ],
+      "checkedAt": "2026-09-05T17:47:54.365476+00:00",
+      "evidence": "Bandi distinti con SSD differenti verificati sulle due pagine MUR: GLOT-01/A / MEDS-20/B"
+    },
+    {
+      "id": "mur-fixed-term-researchers-151367",
+      "previousPossibleDuplicateOf": "mur-fixed-term-researchers-151366",
+      "sourceUrls": [
+        "https://bandi.mur.gov.it/jobs.php/public/job/id_job/151366",
+        "https://bandi.mur.gov.it/jobs.php/public/job/id_job/151367"
+      ],
+      "checkedAt": "2026-09-05T17:47:54.365476+00:00",
+      "evidence": "Bandi distinti con SSD differenti verificati sulle due pagine MUR: MEDS-20/B / BIOS-06/A"
+    },
+    {
+      "id": "mur-fixed-term-researchers-151368",
+      "previousPossibleDuplicateOf": "mur-fixed-term-researchers-151367",
+      "sourceUrls": [
+        "https://bandi.mur.gov.it/jobs.php/public/job/id_job/151367",
+        "https://bandi.mur.gov.it/jobs.php/public/job/id_job/151368"
+      ],
+      "checkedAt": "2026-09-05T17:47:54.365476+00:00",
+      "evidence": "Bandi distinti con SSD differenti verificati sulle due pagine MUR: BIOS-06/A / ASIA-01/F"
+    }
+  ]
+}

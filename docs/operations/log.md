@@ -125,3 +125,12 @@ Prevenzione: nel confronto per titolo/ente/deadline, SSD moderni espliciti e dis
 - Verificato HTML esportato MET2ADAPT: titolo specifico, GSD/SSD separati, fallback requisiti e assenza URL nudo nella lista.
 - Residui prioritari: 187 verifiche MSCA (prossimi ID 151363–151368, scadenza 9 settembre); 76 possibili duplicati; misurazione GA/GSC ancora non accessibile. Nessun dato di crescita stimato.
 - Costo incrementale: nessun acquisto o nuovo servizio attivato. Le sei sessioni sono blocchi di lavoro entro il massimo di 30 minuti ciascuno, non sei periodi di 30 minuti consumati obbligatoriamente. Il conteggio token dell’account non è esposto.
+
+## Mini-sessione successiva — qualità dati Pegaso
+
+2026-09-05T17:47:54.365476+00:00
+
+- Sei fonti MUR lette (151363–151368): sostituita classificazione MSCA non comprovata con Non specificato; ruolo, deadline e URL conservati.
+- Cinque relazioni di possibile duplicazione rimosse sulla base dei diversi SSD verificati; nessun bando eliminato. Conservata la relazione 151368→151369, non verificata in questa sessione.
+- Report: funding-review-2026-09-05-batch3.json. Residui: 181 verifiche MSCA e 71 possibili duplicati.
+- Pubblicazione attraverso il workflow esistente con test operativi, audit dati/export e controllo live. Nessuna spesa o nuova fonte.

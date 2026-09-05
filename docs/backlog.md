@@ -15,8 +15,8 @@ Aggiornato: 5 settembre 2026. Questo quadro P0–P5 è la fonte operativa corren
 | OPS-009 | P1 | Baseline GSC + GA4 | Bloccato: accesso Google | 28g vs 28g, non-brand, landing, conversione e copertura |
 | OPS-010 | P1 | Core Web Vitals reali/mobile | Da fare | CrUX/GSC o PSI; non confondere JS bundle con CWV |
 | OPS-011 | P2 | Audit qualità automatico | Implementato | Script offline e gate nel deploy; warning distinti dagli errori |
-| OPS-012 | P2 | Correggere funding da HTML generico | Protezione pubblicata; 12 ulteriori schede verificate | Classificatore limitato a titolo/descrizione; fallback Non specificato introdotto. FANDEMIA corretto; 17 MSCA non comprovati rimossi dopo verifica fonte, 188 MSCA attivi (uno confermato; 187 ancora da verificare) ancora da revisionare; coda riproducibile con npm run audit:funding, ordinata per scadenza e con verifiche precedenti. Report funding-review-2026-09-05.json; Varianti MSCA e ambiguità multi-programma gestite; restano verifica delle menzioni e vecchi fallback MUR. |
-| OPS-013 | P2 | Revisione possibili duplicati | 1 falso positivo risolto; 76 candidati rimasti | Foro Italico 151114/151043 distinti per SSD verificati; prevenzione sui codici moderni disgiunti e test. Nessuna eliminazione dei bandi. |
+| OPS-012 | P2 | Correggere funding da HTML generico | Protezione pubblicata; 12 ulteriori schede verificate | Classificatore limitato a titolo/descrizione; fallback Non specificato introdotto. FANDEMIA corretto; 23 MSCA non comprovati rimossi dopo verifica fonte, 182 MSCA attivi (uno confermato; 181 ancora da verificare); coda riproducibile con npm run audit:funding, ordinata per scadenza e con verifiche precedenti. Report funding-review-2026-09-05.json; Varianti MSCA e ambiguità multi-programma gestite; restano verifica delle menzioni e vecchi fallback MUR. |
+| OPS-013 | P2 | Revisione possibili duplicati | 6 falsi positivi risolti; 71 candidati rimasti | Foro Italico 151114/151043 e cinque relazioni Pegaso 151363–151368 distinte per SSD verificati; prevenzione sui codici moderni disgiunti e test. Nessuna eliminazione dei bandi. |
 | OPS-014 | P2 | Normalizzare enti, sedi e disciplina | Da fare | Mantenere valore originale e mapping verificato; 17 regioni ignote |
 | OPS-015 | P2 | Link checker e variazioni deadline | Da fare | Fonti esistenti, robots/condizioni, rate limit, storico; 403/429 ≠ bando cancellato |
 | OPS-016 | P2 | Mini sessione giornaliera 30 minuti | Automazione attiva | Una sessione/giorno, 210 minuti/settimana pianificati; residui al giorno successivo. Nessuna garanzia quota/token |
@@ -197,4 +197,5 @@ Report: [audit del 5 settembre](operations/audit-2026-09-05.md). Budget: [policy
 - [x] P1: titoli specifici degli incarichi di ricerca nell’importatore; corretta scheda MET2ADAPT verificata (sessione 5/6).
 
 - [x] P2/P3: requisiti senza URL/segnaposto, SSD e GSD distinti; filtro comune tra rendering e import (sessione 6/6).
-- [ ] Prossimo ciclo: verificare sulla fonte i candidati MSCA 151363–151368, poi proseguire la coda di 187 verifiche e 76 possibili duplicati.
+- [x] Verificati sulla fonte i candidati MSCA 151363–151368: sei funding corretti e cinque falsi duplicati risolti.
+- [ ] Prossimo ciclo: proseguire le 181 verifiche MSCA e i 71 possibili duplicati, partendo dalle scadenze più vicine.

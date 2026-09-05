@@ -4708,7 +4708,7 @@
     "discipline": "Biologia, biotech e farmacia",
     "ssd": "BIOS-12/A - Anatomia umana",
     "gsd": "05/BIOS-12 - ANATOMIA UMANA",
-    "fundingType": "MSCA",
+    "fundingType": "Non specificato",
     "deadline": "2026-09-09",
     "deadlineStatus": "closing_soon",
     "publishedAt": "2026-08-10",
@@ -4725,10 +4725,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "possibleDuplicateSourceIds": [
-      "mur-fixed-term-researchers-151364"
-    ],
-    "updatedAt": "2026-09-04T09:45:24.914Z"
+    "updatedAt": "2026-09-05T17:47:54.365476+00:00"
   },
   {
     "id": "mur-fixed-term-researchers-151364",
@@ -4742,7 +4739,7 @@
     "discipline": "Filosofia, storia, lingue, pedagogia e psicologia",
     "ssd": "PEMM-01/C - Musicologia e storia della musica",
     "gsd": "10/PEMM-01 - ARTI PERFORMATIVE, MUSICALI, CINEMATOGRAFICHE E MEDIALI",
-    "fundingType": "MSCA",
+    "fundingType": "Non specificato",
     "deadline": "2026-09-09",
     "deadlineStatus": "closing_soon",
     "publishedAt": "2026-08-10",
@@ -4756,16 +4753,10 @@
       "Other"
     ],
     "dedupeKey": "n 1 posto ricercatore a tempo determinato in tenure track rtt art 24 l 240 2010|telematica pegaso srl|2026-09-09",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.71,
-    "reviewReasons": [
-      "possible_duplicate"
-    ],
-    "possibleDuplicateOf": "mur-fixed-term-researchers-151363",
-    "possibleDuplicateSourceIds": [
-      "mur-fixed-term-researchers-151365"
-    ],
-    "updatedAt": "2026-09-04T09:45:24.914Z"
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-05T17:47:54.365476+00:00"
   },
   {
     "id": "mur-fixed-term-researchers-151365",
@@ -4779,7 +4770,7 @@
     "discipline": "Filosofia, storia, lingue, pedagogia e psicologia",
     "ssd": "GLOT-01/A - Glottologia e linguistica",
     "gsd": "10/GLOT-01 - GLOTTOLOGIA E LINGUISTICA",
-    "fundingType": "MSCA",
+    "fundingType": "Non specificato",
     "deadline": "2026-09-09",
     "deadlineStatus": "closing_soon",
     "publishedAt": "2026-08-10",
@@ -4793,16 +4784,10 @@
       "Other"
     ],
     "dedupeKey": "n 1 posto ricercatore a tempo determinato in tenure track rtt art 24 l 240 2010|telematica pegaso srl|2026-09-09",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.71,
-    "reviewReasons": [
-      "possible_duplicate"
-    ],
-    "possibleDuplicateOf": "mur-fixed-term-researchers-151364",
-    "possibleDuplicateSourceIds": [
-      "mur-fixed-term-researchers-151366"
-    ],
-    "updatedAt": "2026-09-04T09:45:24.914Z"
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-05T17:47:54.365476+00:00"
   },
   {
     "id": "mur-fixed-term-researchers-151366",
@@ -4816,7 +4801,7 @@
     "discipline": "Medicina e salute",
     "ssd": "MEDS-20/B - Neuropsichiatria infantile",
     "gsd": "06/MEDS-20 - PEDIATRIA GENERALE E SPECIALISTICA E NEUROPSICHIATRIA INFANTILE",
-    "fundingType": "MSCA",
+    "fundingType": "Non specificato",
     "deadline": "2026-09-09",
     "deadlineStatus": "closing_soon",
     "publishedAt": "2026-08-10",
@@ -4830,16 +4815,10 @@
       "Other"
     ],
     "dedupeKey": "n 1 posto ricercatore a tempo determinato in tenure track rtt art 24 l 240 2010|telematica pegaso srl|2026-09-09",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.71,
-    "reviewReasons": [
-      "possible_duplicate"
-    ],
-    "possibleDuplicateOf": "mur-fixed-term-researchers-151365",
-    "possibleDuplicateSourceIds": [
-      "mur-fixed-term-researchers-151367"
-    ],
-    "updatedAt": "2026-09-04T09:45:24.914Z"
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-05T17:47:54.365476+00:00"
   },
   {
     "id": "mur-fixed-term-researchers-151367",
@@ -4853,7 +4832,7 @@
     "discipline": "Biologia, biotech e farmacia",
     "ssd": "BIOS-06/A - Fisiologia",
     "gsd": "05/BIOS-06 - FISIOLOGIA",
-    "fundingType": "MSCA",
+    "fundingType": "Non specificato",
     "deadline": "2026-09-09",
     "deadlineStatus": "closing_soon",
     "publishedAt": "2026-08-10",
@@ -4867,16 +4846,10 @@
       "Other"
     ],
     "dedupeKey": "n 1 posto ricercatore a tempo determinato in tenure track rtt art 24 l 240 2010|telematica pegaso srl|2026-09-09",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.71,
-    "reviewReasons": [
-      "possible_duplicate"
-    ],
-    "possibleDuplicateOf": "mur-fixed-term-researchers-151366",
-    "possibleDuplicateSourceIds": [
-      "mur-fixed-term-researchers-151368"
-    ],
-    "updatedAt": "2026-09-04T09:45:24.914Z"
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-05T17:47:54.365476+00:00"
   },
   {
     "id": "mur-fixed-term-researchers-151368",
@@ -4890,7 +4863,7 @@
     "discipline": "Filosofia, storia, lingue, pedagogia e psicologia",
     "ssd": "ASIA-01/F - Lingue e letterature della Cina e dell'Asia sud-orientale",
     "gsd": "10/ASIA-01 - CULTURE E LINGUE DELL'ASIA CENTRALE, MERIDIONALE, ORIENTALE E SUD-ORIENTALE",
-    "fundingType": "MSCA",
+    "fundingType": "Non specificato",
     "deadline": "2026-09-09",
     "deadlineStatus": "closing_soon",
     "publishedAt": "2026-08-10",
@@ -4904,16 +4877,13 @@
       "Other"
     ],
     "dedupeKey": "n 1 posto ricercatore a tempo determinato in tenure track rtt art 24 l 240 2010|telematica pegaso srl|2026-09-09",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.71,
-    "reviewReasons": [
-      "possible_duplicate"
-    ],
-    "possibleDuplicateOf": "mur-fixed-term-researchers-151367",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
     "possibleDuplicateSourceIds": [
       "mur-fixed-term-researchers-151369"
     ],
-    "updatedAt": "2026-09-04T09:45:24.914Z"
+    "updatedAt": "2026-09-05T17:47:54.365476+00:00"
   },
   {
     "id": "mur-fixed-term-researchers-151369",
