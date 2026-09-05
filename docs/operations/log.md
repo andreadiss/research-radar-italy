@@ -143,3 +143,11 @@ Prevenzione: nel confronto per titolo/ente/deadline, SSD moderni espliciti e dis
 - Sei falsi duplicati risolti grazie a SSD distinti, inclusa la relazione 151368/151369. La fonte 151368 era stata verificata nella sessione precedente. Conservata la relazione verso 151375, non ancora verificata.
 - Nessuna opportunità eliminata; conservati URL, ruolo e deadline. Report funding-review-2026-09-05-batch4.json.
 - Residui: 175 verifiche MSCA, 1 conferma MSCA valida e 65 possibili duplicati. Test e verifiche pubblicazione attraverso il workflow esistente; nessuna nuova spesa o fonte.
+
+## Mini-sessione — Pegaso e Pavia
+
+2026-09-05T17:59:11.175968+00:00
+
+- Sei classificazioni funding corrette dopo lettura MUR; quattro relazioni duplicate risolte con SSD distinti. Fonte 151374 già verificata nella sessione precedente.
+- Requisiti Pavia 151806/151807 sintetizzati dalla fonte ufficiale, sostituendo Other. Nessuna modifica a URL o deadline e nessuna cancellazione.
+- Report batch5; residui 169 verifiche MSCA e 61 possibili duplicati. Pubblicazione con gate esistenti; costo incrementale nullo.

@@ -4316,7 +4316,7 @@
     "discipline": "Ingegneria, informatica e AI",
     "ssd": "IBIO-01/A - Bioingegneria",
     "gsd": "09/IBIO-01 - BIOINGEGNERIA",
-    "fundingType": "MSCA",
+    "fundingType": "Non specificato",
     "deadline": "2026-09-09",
     "deadlineStatus": "closing_soon",
     "publishedAt": "2026-07-29",
@@ -4327,13 +4327,16 @@
     "language": "IT/EN",
     "summary": "ATTIVITA’ OGGETTO DEL CONTRATTO: il ricercatore svolgerà compiti didattici riferiti al SSD IBIO- 01/A – Bioingegneria nei corsi di studio di Bioingegneria, della facoltà di medicina, nel Dottorato di Ricerca in Bioingegneria, Bioinformatica e Tecnologie per la Salute. Il ricercatore svolgerà attività di ricerca coerente e congruente con le tematiche del SSD e, in via esemplificativa e non esaustiva, relativa allo sv...",
     "requirements": [
-      "Other"
+      "Titolo richiesto: dottorato, equivalente italiano o estero, oppure specializzazione medica.",
+      "La selezione è riservata a chi svolge o ha svolto un incarico RTDa con scadenza del contratto nel 2025 o nel 2026.",
+      "Per candidati stranieri è richiesta una conoscenza adeguata dell’italiano.",
+      "I requisiti devono risultare posseduti entro il termine di candidatura. Sintesi: verifica condizioni e documentazione nel bando ufficiale."
     ],
     "dedupeKey": "1 posto ricercatore a tempo determinato il dipartimento ingegneria industriale e dell informazione procedura 2|studi pavia|2026-09-09",
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-04T09:45:24.914Z"
+    "updatedAt": "2026-09-05T17:59:11.175968+00:00"
   },
   {
     "id": "mur-fixed-term-researchers-151807",
@@ -4347,7 +4350,7 @@
     "discipline": "Ingegneria, informatica e AI",
     "ssd": "IBIO-01/A - Bioingegneria",
     "gsd": "09/IBIO-01 - BIOINGEGNERIA",
-    "fundingType": "MSCA",
+    "fundingType": "Non specificato",
     "deadline": "2026-09-09",
     "deadlineStatus": "closing_soon",
     "publishedAt": "2026-07-29",
@@ -4358,13 +4361,16 @@
     "language": "IT/EN",
     "summary": "ATTIVITA’ OGGETTO DEL CONTRATTO: il ricercatore svolgerà compiti didattici riferiti al SSD IBIO- 01/A – Bioingegneria nei corsi di studio di Bioingegneria, Medicina e Chirurgia e nel Dottorato di Ricerca in Bioingegneria, Bioinformatica e Tecnologie per la Salute. Il ricercatore svolgerà attività di ricerca coerente e congruente con le tematiche del SSD e, in via esemplificativa e non esaustiva, relativa allo svilup...",
     "requirements": [
-      "Other"
+      "Titolo richiesto: dottorato, equivalente italiano o estero, oppure specializzazione medica.",
+      "La selezione è riservata a chi svolge o ha svolto un incarico RTDa con scadenza del contratto nel 2025 o nel 2026.",
+      "Per candidati stranieri è richiesta una conoscenza adeguata dell’italiano.",
+      "I requisiti devono risultare posseduti entro il termine di candidatura. Sintesi: verifica condizioni e documentazione nel bando ufficiale."
     ],
     "dedupeKey": "1 posto ricercatore a tempo determinato il dipartimento ingegneria industriale e dell informazione procedura 1|studi pavia|2026-09-09",
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-04T09:45:24.914Z"
+    "updatedAt": "2026-09-05T17:59:11.175968+00:00"
   },
   {
     "id": "mur-fixed-term-researchers-151808",
@@ -5066,10 +5072,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "possibleDuplicateSourceIds": [
-      "mur-fixed-term-researchers-151375"
-    ],
-    "updatedAt": "2026-09-05T17:53:56.250247+00:00"
+    "updatedAt": "2026-09-05T17:59:11.175968+00:00"
   },
   {
     "id": "mur-fixed-term-researchers-151375",
@@ -5083,7 +5086,7 @@
     "discipline": "Economia, diritto e politica",
     "ssd": "GIUR-15/A - Diritto romano e fondamenti del diritto europeo",
     "gsd": "12/GIUR-15 - DIRITTO ROMANO E FONDAMENTI DEL DIRITTO EUROPEO",
-    "fundingType": "MSCA",
+    "fundingType": "Non specificato",
     "deadline": "2026-09-09",
     "deadlineStatus": "closing_soon",
     "publishedAt": "2026-08-10",
@@ -5097,16 +5100,10 @@
       "Other"
     ],
     "dedupeKey": "n 1 posto ricercatore a tempo determinato in tenure track rtt art 24 l 240 2010|telematica pegaso srl|2026-09-09",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.71,
-    "reviewReasons": [
-      "possible_duplicate"
-    ],
-    "possibleDuplicateOf": "mur-fixed-term-researchers-151374",
-    "possibleDuplicateSourceIds": [
-      "mur-fixed-term-researchers-151376"
-    ],
-    "updatedAt": "2026-09-04T09:45:24.914Z"
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-05T17:59:11.175968+00:00"
   },
   {
     "id": "mur-fixed-term-researchers-151376",
@@ -5120,7 +5117,7 @@
     "discipline": "Economia, diritto e politica",
     "ssd": "GIUR-11/B - Diritto pubblico comparato",
     "gsd": "12/GIUR-11 - DIRITTO COMPARATO",
-    "fundingType": "MSCA",
+    "fundingType": "Non specificato",
     "deadline": "2026-09-09",
     "deadlineStatus": "closing_soon",
     "publishedAt": "2026-08-10",
@@ -5134,16 +5131,10 @@
       "Other"
     ],
     "dedupeKey": "n 1 posto ricercatore a tempo determinato in tenure track rtt art 24 l 240 2010|telematica pegaso srl|2026-09-09",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.71,
-    "reviewReasons": [
-      "possible_duplicate"
-    ],
-    "possibleDuplicateOf": "mur-fixed-term-researchers-151375",
-    "possibleDuplicateSourceIds": [
-      "mur-fixed-term-researchers-151377"
-    ],
-    "updatedAt": "2026-09-04T09:45:24.914Z"
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-05T17:59:11.175968+00:00"
   },
   {
     "id": "mur-fixed-term-researchers-151377",
@@ -5157,7 +5148,7 @@
     "discipline": "Economia, diritto e politica",
     "ssd": "GIUR-05/A - Diritto costituzionale e pubblico",
     "gsd": "12/GIUR-05 - DIRITTO COSTITUZIONALE E PUBBLICO",
-    "fundingType": "MSCA",
+    "fundingType": "Non specificato",
     "deadline": "2026-09-09",
     "deadlineStatus": "closing_soon",
     "publishedAt": "2026-08-10",
@@ -5171,16 +5162,10 @@
       "Other"
     ],
     "dedupeKey": "n 1 posto ricercatore a tempo determinato in tenure track rtt art 24 l 240 2010|telematica pegaso srl|2026-09-09",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.71,
-    "reviewReasons": [
-      "possible_duplicate"
-    ],
-    "possibleDuplicateOf": "mur-fixed-term-researchers-151376",
-    "possibleDuplicateSourceIds": [
-      "mur-fixed-term-researchers-151378"
-    ],
-    "updatedAt": "2026-09-04T09:45:24.914Z"
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-05T17:59:11.175968+00:00"
   },
   {
     "id": "mur-fixed-term-researchers-151378",
@@ -5194,7 +5179,7 @@
     "discipline": "Economia, diritto e politica",
     "ssd": "GIUR-06/A - Diritto amministrativo e pubblico",
     "gsd": "12/GIUR-06 - DIRITTO AMMINISTRATIVO E PUBBLICO",
-    "fundingType": "MSCA",
+    "fundingType": "Non specificato",
     "deadline": "2026-09-09",
     "deadlineStatus": "closing_soon",
     "publishedAt": "2026-08-10",
@@ -5208,13 +5193,10 @@
       "Other"
     ],
     "dedupeKey": "n 1 posto ricercatore a tempo determinato in tenure track rtt art 24 l 240 2010|telematica pegaso srl|2026-09-09",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.71,
-    "reviewReasons": [
-      "possible_duplicate"
-    ],
-    "possibleDuplicateOf": "mur-fixed-term-researchers-151377",
-    "updatedAt": "2026-09-04T09:45:24.914Z"
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-05T17:59:11.175968+00:00"
   },
   {
     "id": "mur-professor-calls-151383",
