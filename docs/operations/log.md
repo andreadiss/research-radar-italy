@@ -34,3 +34,8 @@ Pubblicazione completata: commit applicativo `35d60e50bf0c394ce7a07e4930c61d7289
 - Correzione puntuale `mur-technologists-151225`: fonte https://bandi.mur.gov.it/tecno.php/public/job/id_job/151225 consultata il 5 settembre. Titolo indica MUR/Fondo Italiano per la Scienza FIS3; campo Marie Curie Actions=No. Funding MSCA→MUR, updatedAt aggiornato; archivio, deadline, URL e tutti gli altri dati conservati. Nessun contatto/email copiato.
 - Test locali 7/7; audit dati 0 errori. Cache dopo sync precedente: 750 record, 717 non scaduti, 33 archiviati, 232 da revisionare, 77 possibili duplicati. Non sono metriche di traffico o indicizzazione Google.
 - Residui prioritari: impostazione Pages; validare un campione di funding ancora MSCA; distinguere finanziatore verificato da fallback; GA4/GSC quando accessibili. Token effettivi non esposti.
+
+
+## Conferma impostazione Pages — 2026-09-05
+
+Utente conferma selezione GitHub Actions come Source. Questo commit documentale avvia il workflow statico per verificare la pubblicazione e l’assenza del precedente deploy Jekyll concorrente. Non confondere la conferma dell’utente con lettura diretta dell’impostazione amministrativa.
