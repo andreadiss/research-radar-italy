@@ -97,3 +97,11 @@ Prevenzione: nel confronto per titolo/ente/deadline, SSD moderni espliciti e dis
 - Sessione 2 live: run 33981017049, build/deploy riusciti, 7 controlli pubblici superati.
 - Aggiunti fino a tre collegamenti statici verso opportunità aperte dello stesso ruolo e disciplina, ordinati per scadenza. Nessun fallback generico; esclusi archivi, deadline ignote e candidati duplicati.
 - Tre test mirati superati; typecheck superato. Pubblicazione e verifica affidate al workflow esistente.
+
+## Nuovo ciclo — sessione 4 di 6
+
+2026-09-05T17:32:08.820599+00:00
+
+- Sessione 3 live: run 33981145142, build/deploy riusciti, 7 controlli pubblici superati.
+- La coda di revisione separa conferme valide da verifiche pendenti: 188 MSCA attive, 1 confermata, 187 da verificare.
+- Conferma riutilizzata solo con stessa fonte, stesso funding e aggiornamento non successivo alla verifica; dati mancanti o modificati riaprono la revisione. Tre test mirati superati.
