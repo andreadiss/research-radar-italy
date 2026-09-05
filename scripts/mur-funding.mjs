@@ -16,12 +16,19 @@ export function detectFundingFromFields(fields) {
 
 // The source portal is not evidence of who funds the call.
 function detectFundingType(text) {
-  const upper = text.toUpperCase();
-  if (/\bPNRR\b/.test(upper)) return "PNRR";
-  if (/\bPRIN\b/.test(upper)) return "PRIN";
-  if (/\bERC\b/.test(upper)) return "ERC";
-  if (/\bMARIE CURIE\b/.test(upper) || /\bMSCA\b/.test(upper)) return "MSCA";
-  if (/\bHORIZON\b/.test(upper)) return "Horizon";
+  const upper = text.toUpperCase().normalize("NFKD")
+    .replace(/\p{M}/gu, "").replace(/Ł/g, "L").replace(/[‐‑–—]/g, "-");
+  const matches = new Set();
+  if (/\bPNRR\b/.test(upper)) matches.add("PNRR");
+  if (/\bPRIN\b/.test(upper)) matches.add("PRIN");
+  if (/\bERC\b/.test(upper)) matches.add("ERC");
+  if (/\bMARIE[\s-]+(?:SKLODOWSKA[\s-]+)?CURIE\b|\bMSCA\b/.test(upper)) matches.add("MSCA");
+  if (/\bHORIZON\b/.test(upper)) matches.add("Horizon");
+  // Horizon is the umbrella programme for these more specific schemes.
+  if (matches.has("MSCA") || matches.has("ERC")) matches.delete("Horizon");
+  // Distinct programme mentions are not enough to choose one as the funder.
+  if (matches.size > 1) return "Non specificato";
+  if (matches.size === 1) return [...matches][0];
   if (/(?:FINANZIAT[OAIE]|FUNDED|FINANZIAMENTO)[^.]{0,80}\bMUR\b|\bFONDO ITALIANO PER LA SCIENZA\b|\bFIS\s*3\b/.test(upper)) return "MUR";
   return "Non specificato";
 }

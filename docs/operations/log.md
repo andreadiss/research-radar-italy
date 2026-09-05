@@ -61,3 +61,9 @@ Utente conferma selezione GitHub Actions come Source. Questo commit documentale 
 Timestamp checkpoint: 2026-09-05T12:24:34.420Z. Autorizzate esplicitamente tre sessioni consecutive, massimo 30 minuti ciascuna; ricorrenza giornaliera invariata.
 Microtask completati: lettura coda, verifica sei fonti ufficiali MUR, correzione MSCA→Non specificato dei sei casi, registro evidenze funding-review-2026-09-05-batch1.json. Restano 193 MSCA non archiviati da revisionare. Nessuna cancellazione o variazione di deadline/URL. Validazione dati e deploy nel workflow del commit.
 Sessioni successive: denominazioni/ambiguità funding; conservazione dei campi GSD/SSD ripetuti.
+
+
+## Ciclo aggiuntivo — sessione 2
+
+Sessione 1 chiusa con run 33966004443 riuscito e 7/7 controlli live. Sessione 2: esteso riconoscimento MSCA alle denominazioni Marie Skłodowska-Curie con varianti Unicode/trattini. Se il contenuto cita più programmi distinti, restituisce Non specificato anziché scegliere per precedenza arbitraria. Horizon insieme a MSCA/ERC conserva la categoria specifica. Fonte terminologica MSCA: https://rea.ec.europa.eu/funding-and-grants/horizon-europe-marie-sklodowska-curie-actions_en . Nessuna nuova fonte acquisita nel prodotto e nessun link aggiunto al sito.
+Tre nuovi test di regressione; nessuna riclassificazione automatica della cache. Limite: un’unica menzione nel testo resta un’euristica e non prova da sola il finanziamento; la coda richiede revisione ufficiale. Residuo prioritario: settori GSD/SSD ripetuti, attualmente persi dopo il primo nell’importer.

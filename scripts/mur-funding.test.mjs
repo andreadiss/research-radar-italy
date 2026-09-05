@@ -35,3 +35,20 @@ test("normalization preserves uncertainty rather than inferring a funder", async
   assert.equal(toPosition({...record, fundingType: "Non specificato"}).fundingType, "Non specificato");
   assert.equal(toPosition({...record, fundingType: "PRIN"}).fundingType, "PRIN");
 });
+
+
+test("recognizes full MSCA names and typographic variants", () => {
+  for (const name of ["Marie Skłodowska-Curie", "Marie Sklodowska Curie", "MARIE SKŁODOWSKA‑CURIE", "Marie-Curie"]) {
+    assert.equal(detectFundingFromFields({Titolo: `${name} fellowship`}), "MSCA");
+  }
+});
+
+test("keeps a specific scheme when its Horizon umbrella is also mentioned", () => {
+  assert.equal(detectFundingFromFields({Titolo: "HORIZON-MSCA-2026-PF"}), "MSCA");
+  assert.equal(detectFundingFromFields({Titolo: "Horizon Europe ERC project"}), "ERC");
+});
+
+test("does not choose arbitrarily between distinct programme mentions", () => {
+  assert.equal(detectFundingFromFields({Titolo: "Progetti PRIN e PNRR"}), "Non specificato");
+  assert.equal(detectFundingFromFields({Titolo: "Esperienza con programmi MSCA ed ERC"}), "Non specificato");
+});
