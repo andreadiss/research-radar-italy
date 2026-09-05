@@ -17,12 +17,14 @@ export function toPosition(record) {
     .filter(Boolean)
     .map((value) => truncate(value, 180));
 
+  const multipleScientificSectors = [record.gsd, record.ssd].some((value) => typeof value === "string" && value.includes("\n"));
   const review = reviewSignals({
+    multipleScientificSectors,
     title,
     institution,
     location,
     region: inferRegion(location, institution, description),
-    discipline: inferDiscipline(record.researchField, record.gsd, record.ssd, description),
+    discipline: multipleScientificSectors ? "Altro / interdisciplinare" : inferDiscipline(record.researchField, record.gsd, record.ssd, description),
     sourceUrl
   });
 
@@ -302,12 +304,13 @@ function sectorPrefix(...values) {
   return text.match(/\b(0[1-9]|1[0-4])\//)?.[1] ?? "";
 }
 
-function reviewSignals({ title, institution, location, region, discipline, sourceUrl }) {
+function reviewSignals({ title, institution, location, region, discipline, sourceUrl, multipleScientificSectors }) {
   const reasons = [];
 
   if (!sourceUrl) reasons.push("missing_source_url");
   if (region === "Italia") reasons.push("unknown_region");
-  if (discipline === "Altro / interdisciplinare") reasons.push("unknown_discipline");
+  if (multipleScientificSectors) reasons.push("multiple_scientific_sectors");
+  else if (discipline === "Altro / interdisciplinare") reasons.push("unknown_discipline");
   if (normalizeKey(title).length < 32) reasons.push("generic_title");
   if (normalizeKey(institution).length < 4) reasons.push("generic_institution");
   if (normalizeKey(location) === "italia") reasons.push("generic_location");

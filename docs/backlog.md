@@ -30,6 +30,8 @@ Aggiornato: 5 settembre 2026. Questo quadro P0–P5 è la fonte operativa corren
 | OPS-024 | P2 | Recupero URL storici già rimossi | Da valutare | Ricostruire da Git e GSC; niente ripubblicazione di bandi scaduti come aperti |
 | OPS-025 | P0 | Indagare 404 transitori e doppio flusso Pages | Risolto, deploy verificato | Job 101283225613 pubblica ./docs via Jekyll in parallelo al workflow Next.js. Pages Source=GitHub Actions confermato dall’utente; commit 0646675 ha prodotto solo il workflow statico, run 33958301072 riuscito e 7/7 controlli live. Controllo live esteso a cataloghi, indice, sitemap e schede. Nessun permesso amministrativo esposto dal connector. |
 
+| OPS-026 | P2 | Preservare settori GSD/SSD multipli | Implementato e testato | Importer conserva valori distinti e alias. Fonte 151246 verificata: 12 GSD/12 SSD, cache corretta e needs_review. Restano revisione altri bandi e filtri multi-disciplina. |
+
 Report: [audit del 5 settembre](operations/audit-2026-09-05.md). Budget: [policy e limitazioni](operations/work-budget-policy.json). Registro: [operazioni](operations/log.md).
 
 ## Backlog storico (stato precedente, da riconciliare)

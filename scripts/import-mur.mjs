@@ -1,3 +1,4 @@
+import { extractTableFields, normalizeLabel, stripHtml, decodeHtml } from "./mur-html.mjs";
 import { writeFile, mkdir } from "node:fs/promises";
 import { detectFundingFromFields } from "./mur-funding.mjs";
 
@@ -246,22 +247,6 @@ function extractDetailUrls(html, category) {
   });
 }
 
-function extractTableFields(html) {
-  const fields = {};
-  const normalizedHtml = html.replace(/\r?\n/g, " ");
-
-  for (const [, rawLabel, rawValue] of normalizedHtml.matchAll(/<th\b[^>]*>([\s\S]*?)<\/th>\s*<td\b[^>]*>([\s\S]*?)<\/td>/gi)) {
-    const label = normalizeLabel(stripHtml(rawLabel));
-    const value = stripHtml(rawValue);
-
-    if (label && value && !fields[label]) {
-      fields[label] = value;
-    }
-  }
-
-  return fields;
-}
-
 function pickFirst(fields, labels) {
   for (const label of labels) {
     const normalized = normalizeLabel(label);
@@ -270,48 +255,6 @@ function pickFirst(fields, labels) {
     }
   }
   return "";
-}
-
-function stripHtml(value) {
-  return decodeHtml(
-    value
-      .replace(/<br\s*\/?>/gi, "\n")
-      .replace(/<[^>]+>/g, " ")
-      .replace(/\s+/g, " ")
-      .trim()
-  );
-}
-
-function normalizeLabel(value) {
-  return decodeHtml(value)
-    .replace(/\([^)]*\)/g, "")
-    .replace(/\s+/g, " ")
-    .replace(/:$/, "")
-    .trim();
-}
-
-function decodeHtml(value) {
-  return value
-    .replace(/&nbsp;/g, " ")
-    .replace(/&amp;/g, "&")
-    .replace(/&quot;/g, '"')
-    .replace(/&#039;/g, "'")
-    .replace(/&apos;/g, "'")
-    .replace(/&agrave;/g, "à")
-    .replace(/&egrave;/g, "è")
-    .replace(/&eacute;/g, "é")
-    .replace(/&igrave;/g, "ì")
-    .replace(/&ograve;/g, "ò")
-    .replace(/&ugrave;/g, "ù")
-    .replace(/&Agrave;/g, "À")
-    .replace(/&Egrave;/g, "È")
-    .replace(/&Eacute;/g, "É")
-    .replace(/&Igrave;/g, "Ì")
-    .replace(/&Ograve;/g, "Ò")
-    .replace(/&Ugrave;/g, "Ù")
-    .replace(/&lt;/g, "<")
-    .replace(/&gt;/g, ">")
-    .replace(/&#(\d+);/g, (_, code) => String.fromCharCode(Number(code)));
 }
 
 function parseItalianDate(value) {

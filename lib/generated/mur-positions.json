@@ -1789,9 +1789,9 @@
     "region": "Basilicata",
     "positionType": "RTT",
     "professorRank": "",
-    "discipline": "Ambiente, agraria e veterinaria",
-    "ssd": "AGRI-02/A - Agronomia e coltivazioni erbacee",
-    "gsd": "07/AGRI-02 - AGRONOMIA E SISTEMI COLTURALI ERBACEI E ORTOFLORICOLI",
+    "discipline": "Altro / interdisciplinare",
+    "ssd": "AGRI-02/A - Agronomia e coltivazioni erbacee\nANGL-01/C - Lingua, traduzione e linguistica inglese\nARCH-01/D - Archeologia classica\nBIOS-10/A - Biologia cellulare e applicata\nCHEM-01/A - Chimica analitica\nBIOS-11/A - Farmacologia\nFLMR-01/A - Letteratura latina medievale e umanistica\nAGRI-06/A - Genetica agraria\nCEAR-03/C - Estimo e valutazione\nCEAR-11/A - Storia dell'architettura\nAGRI-07/A - Scienze e tecnologie alimentari\nCHEM-08/A - Tecnologia, socioeconomia e normativa dei medicinali e dei prodotti per il benessere e per la salute",
+    "gsd": "07/AGRI-02 - AGRONOMIA E SISTEMI COLTURALI ERBACEI E ORTOFLORICOLI\n10/ANGL-01 - ANGLISTICA E ANGLOAMERICANISTICA\n10/ARCH-01 - ARCHEOLOGIA\n05/BIOS-10 - BIOLOGIA CELLULARE E APPLICATA\n03/CHEM-01 - CHIMICA ANALITICA, AMBIENTALE E DEI BENI CULTURALI\n05/BIOS-11 - FARMACOLOGIA\n10/FLMR-01 - FILOLOGIE E LETTERATURE MEDIO-LATINA E ROMANZE\n07/AGRI-06 - GENETICA, CHIMICA E PEDOLOGIA AGRARIA E FORESTALE\n08/CEAR-03 - INFRASTRUTTURE E SISTEMI DI TRASPORTO, ESTIMO E VALUTAZIONE\n08/CEAR-11 - RESTAURO E STORIA DELL'ARCHITETTURA\n07/AGRI-07 - SCIENZE E TECNOLOGIE ALIMENTARI\n03/CHEM-08 - TECNOLOGIA, SOCIOECONOMIA E NORMATIVA DEI MEDICINALI E DEI PRODOTTI PER IL BENESSERE E PER LA SALUTE",
     "fundingType": "Non specificato",
     "deadline": "2026-09-07",
     "deadlineStatus": "closing_soon",
@@ -1806,10 +1806,12 @@
       "https://pica.cineca.it/unibas"
     ],
     "dedupeKey": "procedure pubbliche selettive per il reclutamento n 12 ricercatori a tempo determinato con regime impegno a tempo pieno ai sensi dell art 24 co 3 l 240 2010 per vari g s d e dipartimenti l studi basilicata|studi basilicata|2026-09-07",
-    "reviewStatus": "auto_published",
-    "confidenceScore": 0.95,
-    "reviewReasons": [],
-    "updatedAt": "2026-09-05T12:24:34.420Z"
+    "reviewStatus": "needs_review",
+    "confidenceScore": 0.83,
+    "reviewReasons": [
+      "multiple_scientific_sectors"
+    ],
+    "updatedAt": "2026-09-05T12:33:54.021Z"
   },
   {
     "id": "mur-fixed-term-researchers-150806",
