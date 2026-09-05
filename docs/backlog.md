@@ -193,3 +193,5 @@ Report: [audit del 5 settembre](operations/audit-2026-09-05.md). Budget: [policy
 - [x] P1: collegamenti correlati nelle schede, con filtri di pertinenza e scadenza (ciclo aggiuntivo, sessione 3/6).
 
 - [x] P2: evitare revisioni ripetute di conferme funding ancora valide; 187 verifiche MSCA pendenti, 1 conferma conservata (sessione 4/6).
+
+- [x] P1: titoli specifici degli incarichi di ricerca nell’importatore; corretta scheda MET2ADAPT verificata (sessione 5/6).

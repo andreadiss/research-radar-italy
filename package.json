@@ -20,7 +20,7 @@
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "audit:data": "node scripts/audit-data-quality.mjs",
-    "test:ops": "node --test scripts/reconcile-positions.test.mjs scripts/mur-funding.test.mjs scripts/mur-html.test.mjs scripts/mur-dedupe.test.mjs scripts/related-positions.test.mjs scripts/funding-review-state.test.mjs",
+    "test:ops": "node --test scripts/reconcile-positions.test.mjs scripts/mur-funding.test.mjs scripts/mur-html.test.mjs scripts/mur-dedupe.test.mjs scripts/related-positions.test.mjs scripts/funding-review-state.test.mjs scripts/mur-titles.test.mjs",
     "audit:static": "python3 scripts/audit-static.py",
     "audit:funding": "node scripts/build-funding-review-queue.mjs"
   },

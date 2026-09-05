@@ -1,3 +1,4 @@
+import { extractCallTitles } from "./mur-titles.mjs";
 import { extractTableFields, normalizeLabel, stripHtml, decodeHtml } from "./mur-html.mjs";
 import { writeFile, mkdir } from "node:fs/promises";
 import { detectFundingFromFields } from "./mur-funding.mjs";
@@ -97,13 +98,7 @@ for (const category of selectedCategories) {
       sourceUrl: detailUrl.href,
       importedAt: new Date().toISOString(),
       positionType: category.positionType,
-      title: pickFirst(fields, [
-        "Titolo del progetto di ricerca in italiano",
-        "Titolo del progetto di ricerca",
-        "Nome bando",
-        "Titolo"
-      ]),
-      titleEn: pickFirst(fields, ["Titolo del progetto di ricerca in inglese"]),
+      ...extractCallTitles(fields),
       institution: pickFirst(fields, ["Organizzazione/Ente", "Ente", "Nome dell'Ente finanziatore"]),
       department: pickFirst(fields, ["Facolta/Dipartimento/Laboratorio di ricerca", "Facoltà/Dipartimento/Laboratorio di ricerca"]),
       city: pickFirst(fields, ["Citta", "Città"]),

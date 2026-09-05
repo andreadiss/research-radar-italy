@@ -105,3 +105,12 @@ Prevenzione: nel confronto per titolo/ente/deadline, SSD moderni espliciti e dis
 - Sessione 3 live: run 33981145142, build/deploy riusciti, 7 controlli pubblici superati.
 - La coda di revisione separa conferme valide da verifiche pendenti: 188 MSCA attive, 1 confermata, 187 da verificare.
 - Conferma riutilizzata solo con stessa fonte, stesso funding e aggiornamento non successivo alla verifica; dati mancanti o modificati riaprono la revisione. Tre test mirati superati.
+
+## Nuovo ciclo — sessione 5 di 6
+
+2026-09-05T17:35:16.751474+00:00
+
+- Sessione 4 live: run 33981310184, build/deploy riusciti e 7 controlli pubblici superati.
+- Verificati anche 3 link correlati nel documento HTML live della scheda 316411 e HTTP 200 della prima destinazione.
+- Importatore aggiornato per i titoli specifici degli incarichi e variante inglese presente sulla fonte; tre test superati.
+- Scheda 316042: titolo generico sostituito da sintesi del titolo verificato sulla fonte MUR; conferma funding rinnovata dopo la rilettura. Nessuna modifica alla deadline.
