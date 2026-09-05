@@ -52,3 +52,10 @@ test("does not choose arbitrarily between distinct programme mentions", () => {
   assert.equal(detectFundingFromFields({Titolo: "Progetti PRIN e PNRR"}), "Non specificato");
   assert.equal(detectFundingFromFields({Titolo: "Esperienza con programmi MSCA ed ERC"}), "Non specificato");
 });
+
+
+test("retains real MSCA research assignments with category-specific labels", () => {
+  assert.equal(detectFundingFromFields({"Titolo del progetto dell'incarico in italiano": "UE - HE MSCA DN - MET2ADAPT"}), "MSCA");
+  assert.equal(detectFundingFromFields({"L'incarico finanziato/cofinanziato attraverso un EU Research Framework Programme?": "HE / MSCA"}), "MSCA");
+  assert.equal(detectFundingFromFields({"L'incarico finanziato/cofinanziato attraverso un EU Research Framework Programme?": "No"}), "Non specificato");
+});

@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-09-05T17:17:14.076Z",
+  "reviews": [
+    {
+      "id": "mur-fixed-term-researchers-151343",
+      "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/151343",
+      "checkedAt": "2026-09-05T17:17:14.076Z",
+      "before": "MSCA",
+      "after": "Non specificato",
+      "evidence": "Marie Curie Actions=No; nessun programma di finanziamento identificato nei contenuti letti."
+    },
+    {
+      "id": "mur-professor-calls-151088",
+      "sourceUrl": "https://bandi.mur.gov.it/profcalls.php/public/job/id_job/151088",
+      "checkedAt": "2026-09-05T17:17:14.076Z",
+      "before": "MSCA",
+      "after": "Non specificato",
+      "evidence": "Marie Curie Actions=No; nessun programma di finanziamento identificato nei contenuti letti."
+    },
+    {
+      "id": "mur-professor-calls-151190",
+      "sourceUrl": "https://bandi.mur.gov.it/profcalls.php/public/job/id_job/151190",
+      "checkedAt": "2026-09-05T17:17:14.076Z",
+      "before": "MSCA",
+      "after": "Non specificato",
+      "evidence": "Marie Curie Actions=No; nessun programma di finanziamento identificato nei contenuti letti."
+    },
+    {
+      "id": "mur-professor-calls-151184",
+      "sourceUrl": "https://bandi.mur.gov.it/profcalls.php/public/job/id_job/151184",
+      "checkedAt": "2026-09-05T17:17:14.076Z",
+      "before": "MSCA",
+      "after": "Non specificato",
+      "evidence": "Marie Curie Actions=No; nessun programma di finanziamento identificato nei contenuti letti."
+    },
+    {
+      "id": "mur-research-assignments-316042",
+      "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/316042",
+      "checkedAt": "2026-09-05T17:17:14.076Z",
+      "before": "MSCA",
+      "after": "MSCA",
+      "evidence": "Titolo MET2ADAPT e campo EU Research Framework Programme: HE / MSCA"
+    },
+    {
+      "id": "mur-fixed-term-researchers-151323",
+      "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/151323",
+      "checkedAt": "2026-09-05T17:17:14.076Z",
+      "before": "MSCA",
+      "after": "Non specificato",
+      "evidence": "Marie Curie Actions=No; nessun programma di finanziamento identificato nei contenuti letti."
+    }
+  ],
+  "selection": "Sei successivi per deadline/ID; cinque correzioni e una conferma MSCA"
+}

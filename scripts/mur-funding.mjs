@@ -1,6 +1,10 @@
 // Restrict the existing funding heuristic to call-specific fields.
 // Navigation, footer, institution and arbitrary table fields are not evidence.
 const evidenceFields = new Set([
+  "Titolo del progetto dell'incarico in italiano",
+  "Titolo del progetto ddell'incarico in inglese",
+  "Titolo del progetto dell'incarico in inglese",
+  "L'incarico finanziato/cofinanziato attraverso un EU Research Framework Programme?",
   "Titolo del progetto di ricerca in italiano", "Titolo del progetto di ricerca",
   "Titolo del progetto di ricerca in inglese", "Nome bando", "Titolo",
   "Descrizione sintetica in italiano", "Descrizione del bando in italiano",

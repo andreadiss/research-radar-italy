@@ -75,3 +75,10 @@ Sessione 2 chiusa con run 33966172547 riuscito e 7/7 controlli live. Sessione 3:
 Normalizzazione: bandi multi-settore in Altro / interdisciplinare e needs_review, con motivo multiple_scientific_sectors; conservati GSD e SSD completi. Nessuna modifica al modello database. Limite: non è ancora una ricerca multi-disciplina per ogni settore.
 Verifica su HTML ufficiale https://bandi.mur.gov.it/jobs.php/public/job/id_job/151246 : 12 GSD e 12 SSD estratti, contro il solo primo precedentemente conservato. Aggiornata anche questa singola scheda in cache: settori completi, classificazione prudente, flag revisione e updatedAt; fonte/URL/deadline conservati. Nessun contatto della fonte copiato nel registro.
 Test complessivi 16/16 e audit dati 0 errori. Checkpoint delle tre sessioni: sei ulteriori correzioni funding (MSCA attivi da rivedere 199→193), gestione denominazioni/ambiguità, recupero di 11 ulteriori GSD e 11 SSD sulla scheda verificata. Residui: revisione coda funding, bandi multi-settore preesistenti, filtri multi-disciplina; GA4/GSC quando accessibili. Nessuna spesa; ricorrenza invariata. Pubblicazione e controlli live finali nel workflow del commit di questa sessione.
+
+
+## Nuovo ciclo — sessione 1 di 6
+
+Checkpoint 2026-09-05T17:17:14.076Z. L’utente ha richiesto tre sessioni e altre tre durante l’esecuzione: sei sessioni consecutive, massimo 30 minuti ciascuna, ricorrenza invariata.
+Verificate sei fonti: cinque correzioni MSCA→Non specificato; MET2ADAPT (mur-research-assignments-316042) confermato MSCA da titolo e campo HE / MSCA. Evidenze in funding-review-2026-09-05-batch2.json. Aggiunti i campi specifici incarichi alla whitelist funding per preservare questo caso autentico nei futuri import. Restano 188 MSCA attivi, di cui uno verificato e 187 da verificare.
+Prossime sessioni: falsi duplicati tra settori diversi; opportunità correlate; coda che conserva conferme valide; titoli specifici per incarichi; qualità requisiti/metadata delle schede.

@@ -1986,7 +1986,7 @@
     "discipline": "Economia, diritto e politica",
     "ssd": "GIUR-03/A - Diritto dell'economia",
     "gsd": "12/GIUR-03 - DIRITTO DELL'ECONOMIA E DEI MERCATI FINANZIARI E AGROALIMENTARI",
-    "fundingType": "MSCA",
+    "fundingType": "Non specificato",
     "deadline": "2026-09-07",
     "deadlineStatus": "closing_soon",
     "publishedAt": "2026-07-14",
@@ -2004,7 +2004,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-04T09:45:24.914Z"
+    "updatedAt": "2026-09-05T17:17:14.076Z"
   },
   {
     "id": "mur-professor-calls-151088",
@@ -2018,7 +2018,7 @@
     "discipline": "Medicina e salute",
     "ssd": "MEDS-09/A - Oncologia medica",
     "gsd": "06/MEDS-09 - MALATTIE DEL SANGUE, ONCOLOGIA E REUMATOLOGIA",
-    "fundingType": "MSCA",
+    "fundingType": "Non specificato",
     "deadline": "2026-09-07",
     "deadlineStatus": "closing_soon",
     "publishedAt": "2026-07-29",
@@ -2035,7 +2035,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-04T09:45:24.914Z"
+    "updatedAt": "2026-09-05T17:17:14.076Z"
   },
   {
     "id": "mur-professor-calls-151190",
@@ -2049,7 +2049,7 @@
     "discipline": "Economia, diritto e politica",
     "ssd": "STEC-01/A - Storia del pensiero economico",
     "gsd": "13/STEC-01 - STORIA DELL'ECONOMIA",
-    "fundingType": "MSCA",
+    "fundingType": "Non specificato",
     "deadline": "2026-09-07",
     "deadlineStatus": "closing_soon",
     "publishedAt": "2026-07-29",
@@ -2067,7 +2067,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-04T09:45:24.914Z"
+    "updatedAt": "2026-09-05T17:17:14.076Z"
   },
   {
     "id": "mur-research-contracts-315755",
@@ -3430,7 +3430,7 @@
     "discipline": "Medicina e salute",
     "ssd": "MEDF-01/A - Metodi e didattiche delle attività motorie",
     "gsd": "06/MEDF-01 - SCIENZE DELL'ESERCIZIO FISICO E DELLO SPORT",
-    "fundingType": "MSCA",
+    "fundingType": "Non specificato",
     "deadline": "2026-09-08",
     "deadlineStatus": "closing_soon",
     "publishedAt": "2026-08-24",
@@ -3449,7 +3449,7 @@
     "reviewReasons": [
       "unknown_region"
     ],
-    "updatedAt": "2026-09-04T09:45:24.914Z"
+    "updatedAt": "2026-09-05T17:17:14.076Z"
   },
   {
     "id": "mur-research-contracts-316342",
@@ -4681,7 +4681,7 @@
     "discipline": "Ingegneria, informatica e AI",
     "ssd": "IIND-07/A - Fisica tecnica industriale",
     "gsd": "09/IIND-07 - FISICA TECNICA E INGEGNERIA NUCLEARE",
-    "fundingType": "MSCA",
+    "fundingType": "Non specificato",
     "deadline": "2026-09-09",
     "deadlineStatus": "closing_soon",
     "publishedAt": "2026-08-05",
@@ -4700,7 +4700,7 @@
     "reviewReasons": [
       "unknown_region"
     ],
-    "updatedAt": "2026-09-04T09:45:24.914Z"
+    "updatedAt": "2026-09-05T17:17:14.076Z"
   },
   {
     "id": "mur-fixed-term-researchers-151363",
