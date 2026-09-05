@@ -1,4 +1,5 @@
 import { writeFile, mkdir } from "node:fs/promises";
+import { detectFundingFromFields } from "./mur-funding.mjs";
 
 const BASE_URL = "https://bandi.mur.gov.it";
 
@@ -86,7 +87,6 @@ for (const category of selectedCategories) {
   for (const detailUrl of detailUrls) {
     const detailHtml = await fetchText(detailUrl);
     const fields = extractTableFields(detailHtml);
-    const rawText = stripHtml(detailHtml);
 
     results.push({
       externalId: detailUrl.pathname.split("/").at(-1) ?? detailUrl.href,
@@ -133,7 +133,7 @@ for (const category of selectedCategories) {
         "Requisiti specifici in italiano",
         "Competenze richieste in italiano"
       ]),
-      fundingType: detectFundingType(`${rawText} ${Object.values(fields).join(" ")}`),
+      fundingType: detectFundingFromFields(fields),
       rawFields: fields
     });
   }
@@ -323,15 +323,6 @@ function parseItalianDate(value) {
   return `${year}-${month}-${day}`;
 }
 
-function detectFundingType(text) {
-  const upper = text.toUpperCase();
-  if (/\bPNRR\b/.test(upper)) return "PNRR";
-  if (/\bPRIN\b/.test(upper)) return "PRIN";
-  if (/\bERC\b/.test(upper)) return "ERC";
-  if (/\bMARIE CURIE\b/.test(upper) || /\bMSCA\b/.test(upper)) return "MSCA";
-  if (/\bHORIZON\b/.test(upper)) return "Horizon";
-  return "MUR";
-}
 
 function escapeRegex(value) {
   return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");

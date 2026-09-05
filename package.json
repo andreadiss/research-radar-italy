@@ -20,7 +20,7 @@
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "audit:data": "node scripts/audit-data-quality.mjs",
-    "test:ops": "node --test scripts/reconcile-positions.test.mjs",
+    "test:ops": "node --test scripts/reconcile-positions.test.mjs scripts/mur-funding.test.mjs",
     "audit:static": "python3 scripts/audit-static.py"
   },
   "dependencies": {
