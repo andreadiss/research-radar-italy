@@ -195,3 +195,6 @@ Report: [audit del 5 settembre](operations/audit-2026-09-05.md). Budget: [policy
 - [x] P2: evitare revisioni ripetute di conferme funding ancora valide; 187 verifiche MSCA pendenti, 1 conferma conservata (sessione 4/6).
 
 - [x] P1: titoli specifici degli incarichi di ricerca nell’importatore; corretta scheda MET2ADAPT verificata (sessione 5/6).
+
+- [x] P2/P3: requisiti senza URL/segnaposto, SSD e GSD distinti; filtro comune tra rendering e import (sessione 6/6).
+- [ ] Prossimo ciclo: verificare sulla fonte i candidati MSCA 151363–151368, poi proseguire la coda di 187 verifiche e 76 possibili duplicati.

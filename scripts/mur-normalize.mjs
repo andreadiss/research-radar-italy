@@ -1,3 +1,4 @@
+import { meaningfulRequirements } from "../lib/requirements.mjs";
 export function normalizeRecords(records) {
   return dedupePositions(
     records
@@ -13,8 +14,7 @@ export function toPosition(record) {
   const sourceUrl = canonicalizeUrl(record.sourceUrl);
   const location = normalizeLocation(firstText(record.city, record.province, "Italia"));
   const professorRank = inferProfessorRank(record);
-  const requirements = [record.requirements, record.applicationMode]
-    .filter(Boolean)
+  const requirements = meaningfulRequirements([record.requirements, record.applicationMode])
     .map((value) => truncate(value, 180));
 
   const multipleScientificSectors = [record.gsd, record.ssd].some((value) => typeof value === "string" && value.includes("\n"));

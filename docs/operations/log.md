@@ -114,3 +114,14 @@ Prevenzione: nel confronto per titolo/ente/deadline, SSD moderni espliciti e dis
 - Verificati anche 3 link correlati nel documento HTML live della scheda 316411 e HTTP 200 della prima destinazione.
 - Importatore aggiornato per i titoli specifici degli incarichi e variante inglese presente sulla fonte; tre test superati.
 - Scheda 316042: titolo generico sostituito da sintesi del titolo verificato sulla fonte MUR; conferma funding rinnovata dopo la rilettura. Nessuna modifica alla deadline.
+
+## Nuovo ciclo — sessione 6 di 6
+
+2026-09-05T17:38:33.216120+00:00
+
+- Sessione 5 live: run 33981458224, build/deploy riusciti e 7 controlli pubblici superati.
+- Schede: SSD e GSD separati, settori multipli su righe leggibili. URL di candidatura e segnaposto non sono più presentati come requisiti; fallback esplicito verso la fonte ufficiale quando mancano informazioni. Stesso filtro applicato agli import futuri.
+- Verifica: 32/32 test operativi; build statica completa; audit export su 802 HTML: 762 URL sitemap, 0 link interni rotti, 0 URL sitemap orfani, 0 titoli delle posizioni duplicati.
+- Verificato HTML esportato MET2ADAPT: titolo specifico, GSD/SSD separati, fallback requisiti e assenza URL nudo nella lista.
+- Residui prioritari: 187 verifiche MSCA (prossimi ID 151363–151368, scadenza 9 settembre); 76 possibili duplicati; misurazione GA/GSC ancora non accessibile. Nessun dato di crescita stimato.
+- Costo incrementale: nessun acquisto o nuovo servizio attivato. Le sei sessioni sono blocchi di lavoro entro il massimo di 30 minuti ciascuno, non sei periodi di 30 minuti consumati obbligatoriamente. Il conteggio token dell’account non è esposto.

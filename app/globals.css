@@ -1402,6 +1402,11 @@ select {
   padding-top: 12px;
 }
 
+.detail-item strong {
+  white-space: pre-line;
+  overflow-wrap: anywhere;
+}
+
 .detail-item span {
   color: var(--muted);
   display: block;

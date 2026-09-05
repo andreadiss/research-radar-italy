@@ -6,6 +6,7 @@ import { notFound } from "next/navigation";
 import { ArrowLeft, ExternalLink } from "lucide-react";
 import { getPositionById, positions } from "@/lib/positions";
 import { absoluteUrl, jsonLd, truncateText } from "@/lib/seo";
+import { meaningfulRequirements } from "@/lib/requirements.mjs";
 import { relatedPositions } from "@/lib/related-positions";
 import { italyToday, isOpenPosition } from "@/lib/opportunity-status";
 
@@ -56,6 +57,7 @@ export default function PositionDetail({ params }: { params: { id: string } }) {
     notFound();
   }
 
+  const requirements = meaningfulRequirements(position.requirements);
   const related = relatedPositions(position, positions, italyToday());
 
   // These records contain short source extracts, not complete job descriptions.
@@ -117,7 +119,8 @@ export default function PositionDetail({ params }: { params: { id: string } }) {
             <DetailItem label="Deadline" value={formatDate(position.deadline)} />
             <DetailItem label="Pubblicato" value={formatDate(position.publishedAt)} />
             {position.updatedAt ? <DetailItem label="Aggiornamento scheda" value={formatDate(position.updatedAt)} /> : null}
-            <DetailItem label="SSD/GSD" value={position.ssd} />
+            <DetailItem label="Settore scientifico-disciplinare (SSD)" value={position.ssd} />
+            {position.gsd ? <DetailItem label="Gruppo scientifico-disciplinare (GSD)" value={position.gsd} /> : null}
             <DetailItem label="Durata" value={position.duration} />
             <DetailItem label="Importo" value={position.salaryOrAmount} />
             <DetailItem label="Lingua" value={position.language} />
@@ -127,11 +130,11 @@ export default function PositionDetail({ params }: { params: { id: string } }) {
           <p className="summary">{position.summary}</p>
 
           <h2>Requisiti principali</h2>
-          <ul className="summary">
-            {position.requirements.map((requirement) => (
+          {requirements.length > 0 ? <ul className="summary">
+            {requirements.map((requirement) => (
               <li key={requirement}>{requirement}</li>
             ))}
-          </ul>
+          </ul> : <p className="summary">Consulta la fonte ufficiale per i requisiti completi.</p>}
 
           <div className="topbar-actions">
             <OfficialSourceLink className="button primary" href={position.sourceUrl}>
