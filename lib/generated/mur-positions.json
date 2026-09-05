@@ -1904,10 +1904,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "possibleDuplicateSourceIds": [
-      "mur-fixed-term-researchers-151114"
-    ],
-    "updatedAt": "2026-09-05T12:24:34.420Z"
+    "updatedAt": "2026-09-05T17:22:25.846Z"
   },
   {
     "id": "mur-fixed-term-researchers-151114",
@@ -1935,13 +1932,10 @@
       "personale@pec.uniroma4.it"
     ],
     "dedupeKey": "procedura selettiva per n 1 posto ricercatore a tempo determinato a tempo pieno ai sensi dell art 24 comma 3 legge 30 12 2010 n 240|studi roma foro italico|2026-09-07",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.71,
-    "reviewReasons": [
-      "possible_duplicate"
-    ],
-    "possibleDuplicateOf": "mur-fixed-term-researchers-151043",
-    "updatedAt": "2026-09-05T12:24:34.420Z"
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-05T17:22:25.846Z"
   },
   {
     "id": "mur-fixed-term-researchers-151115",

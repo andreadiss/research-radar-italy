@@ -82,3 +82,10 @@ Test complessivi 16/16 e audit dati 0 errori. Checkpoint delle tre sessioni: sei
 Checkpoint 2026-09-05T17:17:14.076Z. L’utente ha richiesto tre sessioni e altre tre durante l’esecuzione: sei sessioni consecutive, massimo 30 minuti ciascuna, ricorrenza invariata.
 Verificate sei fonti: cinque correzioni MSCA→Non specificato; MET2ADAPT (mur-research-assignments-316042) confermato MSCA da titolo e campo HE / MSCA. Evidenze in funding-review-2026-09-05-batch2.json. Aggiunti i campi specifici incarichi alla whitelist funding per preservare questo caso autentico nei futuri import. Restano 188 MSCA attivi, di cui uno verificato e 187 da verificare.
 Prossime sessioni: falsi duplicati tra settori diversi; opportunità correlate; coda che conserva conferme valide; titoli specifici per incarichi; qualità requisiti/metadata delle schede.
+
+
+## Nuovo ciclo — sessione 2 di 6
+
+Checkpoint 2026-09-05T17:22:25.846Z; sessione 1 chiusa con run 33980584728 e 7/7 controlli live.
+Risolto falso duplicato tra https://bandi.mur.gov.it/jobs.php/public/job/id_job/151114 (GIUR-06/A) e https://bandi.mur.gov.it/jobs.php/public/job/id_job/151043 (MEDF-01/A), fonti già lette e verificate in questa conversazione. Rimossi solo i riferimenti reciproci del falso positivo e ricalcolati i segnali della scheda interessata. Nessun record eliminato.
+Prevenzione: nel confronto per titolo/ente/deadline, SSD moderni espliciti e disgiunti distinguono i bandi; tutti i candidati precedenti del gruppo sono conservati per non perdere corrispondenze successive. Se SSD ignoto il sospetto rimane; identità per URL resta prioritaria. Tre test di regressione. Restano 76 possibili duplicati da rivedere, non 76 duplicati confermati.

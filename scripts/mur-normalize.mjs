@@ -79,7 +79,8 @@ function dedupePositions(items) {
     }
 
     const compositeKey = isSpecificDedupeKey(item.dedupeKey) ? item.dedupeKey : "";
-    const possibleDuplicate = compositeKey ? byComposite.get(compositeKey) : undefined;
+    const candidates = compositeKey ? (byComposite.get(compositeKey) ?? []) : [];
+    const possibleDuplicate = candidates.find((other) => !differentKnownSectors(item.ssd, other.ssd));
 
     if (possibleDuplicate) {
       item.possibleDuplicateOf = possibleDuplicate.id;
@@ -94,11 +95,18 @@ function dedupePositions(items) {
     bySourceId.set(item.id, item);
     byUrl.set(item.sourceUrl, item);
     if (compositeKey) {
-      byComposite.set(compositeKey, item);
+      byComposite.set(compositeKey, [...candidates, item]);
     }
   }
 
   return Array.from(bySourceId.values());
+}
+
+// Only disjoint, explicitly recognized modern SSD codes establish this distinction.
+function differentKnownSectors(a, b) {
+  const codes = (value) => new Set(String(value ?? "").toUpperCase().match(/\b[A-Z]+-\d{2}\/[A-Z]\b/g) ?? []);
+  const left = codes(a), right = codes(b);
+  return left.size > 0 && right.size > 0 && ![...left].some((code) => right.has(code));
 }
 
 function firstText(...values) {
