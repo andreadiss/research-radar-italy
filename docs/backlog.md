@@ -15,7 +15,7 @@ Aggiornato: 5 settembre 2026. Questo quadro P0–P5 è la fonte operativa corren
 | OPS-009 | P1 | Baseline GSC + GA4 | Bloccato: accesso Google | 28g vs 28g, non-brand, landing, conversione e copertura |
 | OPS-010 | P1 | Core Web Vitals reali/mobile | Da fare | CrUX/GSC o PSI; non confondere JS bundle con CWV |
 | OPS-011 | P2 | Audit qualità automatico | Implementato | Script offline e gate nel deploy; warning distinti dagli errori |
-| OPS-012 | P2 | Correggere funding da HTML generico | Protezione pubblicata; 6 ulteriori schede verificate | Classificatore limitato a titolo/descrizione; fallback Non specificato introdotto. FANDEMIA corretto; 6 MSCA non comprovati rimossi dopo verifica fonte, 199 MSCA attivi ancora da revisionare. Report funding-review-2026-09-05.json; restano ambiguità e vecchi fallback MUR. |
+| OPS-012 | P2 | Correggere funding da HTML generico | Protezione pubblicata; 6 ulteriori schede verificate | Classificatore limitato a titolo/descrizione; fallback Non specificato introdotto. FANDEMIA corretto; 6 MSCA non comprovati rimossi dopo verifica fonte, 199 MSCA attivi ancora da revisionare; coda riproducibile con npm run audit:funding, ordinata per scadenza e con verifiche precedenti. Report funding-review-2026-09-05.json; restano ambiguità e vecchi fallback MUR. |
 | OPS-013 | P2 | Revisione 77 possibili duplicati | Da fare | Identità verificata; non eliminare bandi distinti con title simile |
 | OPS-014 | P2 | Normalizzare enti, sedi e disciplina | Da fare | Mantenere valore originale e mapping verificato; 17 regioni ignote |
 | OPS-015 | P2 | Link checker e variazioni deadline | Da fare | Fonti esistenti, robots/condizioni, rate limit, storico; 403/429 ≠ bando cancellato |

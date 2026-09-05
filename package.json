@@ -21,7 +21,8 @@
     "typecheck": "tsc --noEmit",
     "audit:data": "node scripts/audit-data-quality.mjs",
     "test:ops": "node --test scripts/reconcile-positions.test.mjs scripts/mur-funding.test.mjs",
-    "audit:static": "python3 scripts/audit-static.py"
+    "audit:static": "python3 scripts/audit-static.py",
+    "audit:funding": "node scripts/build-funding-review-queue.mjs"
   },
   "dependencies": {
     "clsx": "^2.1.1",

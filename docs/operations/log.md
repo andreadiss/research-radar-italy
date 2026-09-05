@@ -50,3 +50,7 @@ Utente conferma selezione GitHub Actions come Source. Questo commit documentale 
 - Test locali: 9/9. Audit dati: 0 errori e 6 funding_unspecified, esplicitati come warning; 750 record, 717 non scaduti/non archiviati, 33 archiviati, 77 possibili duplicati. Nessuna eliminazione.
 - OPS-025 chiuso: precedente verifica 33958301072 riuscita con solo workflow Next.js e 7 controlli live superati dopo correzione Pages Source.
 - Prossima sessione: campione MSCA successivo (partire dai non archiviati con deadline vicina), distinguere menzioni descrittive da finanziamento reale, revisionare vecchi fallback MUR senza rietichettature massive. Metriche GA/GSC ancora bloccate dall’accesso.
+
+- Prima pubblicazione della sessione verificata: commit 4e0ead3, run 33965348195 riuscito (build e pubblicazione). Build locale e audit HTML: 762 URL sitemap, zero link interni rotti, zero URL sitemap orfani; non sono pagine indicizzate da Google.
+- Aggiunto `npm run audit:funding`: genera una coda offline di 199 candidati, ordinata per deadline/ID, con fonte e verifiche precedenti. Non modifica dati pubblicati e non considera l’assenza di una sigla nel riassunto come prova di errore. Output riproducibile in data/store/funding-review-queue.json.
+- Prossimi 6 ID nella coda: mur-fixed-term-researchers-150806, 150809, 151043, 151114, 151115, 151246 (tutti con scadenza 7 settembre). Nessuna correzione applicata a questi casi senza lettura della fonte.
