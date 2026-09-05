@@ -89,3 +89,11 @@ Prossime sessioni: falsi duplicati tra settori diversi; opportunità correlate; 
 Checkpoint 2026-09-05T17:22:25.846Z; sessione 1 chiusa con run 33980584728 e 7/7 controlli live.
 Risolto falso duplicato tra https://bandi.mur.gov.it/jobs.php/public/job/id_job/151114 (GIUR-06/A) e https://bandi.mur.gov.it/jobs.php/public/job/id_job/151043 (MEDF-01/A), fonti già lette e verificate in questa conversazione. Rimossi solo i riferimenti reciproci del falso positivo e ricalcolati i segnali della scheda interessata. Nessun record eliminato.
 Prevenzione: nel confronto per titolo/ente/deadline, SSD moderni espliciti e disgiunti distinguono i bandi; tutti i candidati precedenti del gruppo sono conservati per non perdere corrispondenze successive. Se SSD ignoto il sospetto rimane; identità per URL resta prioritaria. Tre test di regressione. Restano 76 possibili duplicati da rivedere, non 76 duplicati confermati.
+
+## Nuovo ciclo — sessione 3 di 6
+
+2026-09-05T17:29:24.662260+00:00
+
+- Sessione 2 live: run 33981017049, build/deploy riusciti, 7 controlli pubblici superati.
+- Aggiunti fino a tre collegamenti statici verso opportunità aperte dello stesso ruolo e disciplina, ordinati per scadenza. Nessun fallback generico; esclusi archivi, deadline ignote e candidati duplicati.
+- Tre test mirati superati; typecheck superato. Pubblicazione e verifica affidate al workflow esistente.

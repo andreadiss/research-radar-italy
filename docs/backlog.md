@@ -189,3 +189,5 @@ Report: [audit del 5 settembre](operations/audit-2026-09-05.md). Budget: [policy
 
 
 
+
+- [x] P1: collegamenti correlati nelle schede, con filtri di pertinenza e scadenza (ciclo aggiuntivo, sessione 3/6).

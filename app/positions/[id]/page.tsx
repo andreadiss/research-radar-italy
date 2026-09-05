@@ -6,7 +6,8 @@ import { notFound } from "next/navigation";
 import { ArrowLeft, ExternalLink } from "lucide-react";
 import { getPositionById, positions } from "@/lib/positions";
 import { absoluteUrl, jsonLd, truncateText } from "@/lib/seo";
-import { isOpenPosition } from "@/lib/opportunity-status";
+import { relatedPositions } from "@/lib/related-positions";
+import { italyToday, isOpenPosition } from "@/lib/opportunity-status";
 
 export function generateStaticParams() {
   return positions.map((position) => ({ id: position.id }));
@@ -54,6 +55,8 @@ export default function PositionDetail({ params }: { params: { id: string } }) {
   if (!position) {
     notFound();
   }
+
+  const related = relatedPositions(position, positions, italyToday());
 
   // These records contain short source extracts, not complete job descriptions.
   // Use WebPage until the requirements for truthful JobPosting markup are met.
@@ -136,6 +139,17 @@ export default function PositionDetail({ params }: { params: { id: string } }) {
               Apri fonte ufficiale
             </OfficialSourceLink>
           </div>
+          {related.length > 0 ? (
+            <section aria-labelledby="related-opportunities-title">
+              <h2 id="related-opportunities-title">Opportunità correlate</h2>
+              <ul className="summary">
+                {related.map((item) => <li key={item.id}>
+                  <Link href={`/positions/${item.id}/`}>{item.title} — {item.institution}</Link>
+                  {" · Scadenza: "}{formatDate(item.deadline)}
+                </li>)}
+              </ul>
+            </section>
+          ) : null}
           <Link className="back-link" href="/posizioni/indice">Esplora altre opportunità aperte</Link>
         </article>
       </section>
