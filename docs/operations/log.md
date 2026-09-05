@@ -13,8 +13,12 @@ Pubblicazione completata: commit applicativo `35d60e50bf0c394ce7a07e4930c61d7289
 ## Mini sessione 2026-09-05 — avvio ciclo giornaliero
 
 - Avvio osservato circa 11:05 Europe/Rome; budget massimo 30 minuti, ultimi 10 riservati a chiusura.
-- Microtask: [x] pianificare ciclo giornaliero; [x] limitare evidenza funding ai campi del bando; [x] test mirati; [ ] verificare deploy/live; [ ] revisione dei dati funding già in cache.
+- Microtask: [x] pianificare ciclo giornaliero; [x] limitare evidenza funding ai campi del bando; [x] test mirati; [x] verificare deploy/live; [ ] revisione dei dati funding già in cache.
 - Automazione attiva da 6 settembre mattina (fascia circa 08:00 Europe/Rome), massimo una sessione al giorno, senza recuperi extra.
 - Rimossi testo pagina intera e campi arbitrari dall’input del classificatore funding. La classificazione resta euristica; fallback MUR e ambiguità da rivedere, nessuna riclassificazione massiva della cache effettuata.
 - Verifica locale: 7/7 test (3 funding, 4 archiviazione), controllo sintassi importer superato.
 - Prossima sessione: controllare primo sync con nuovo classificatore, verificare FANDEMIA e campione MSCA su fonti già autorizzate; distinguere fallback MUR da finanziatore verificato. GA/GSC restano bloccati dall’accesso.
+
+- Deploy del commit aff74ff sostituito dal sync concorrente bac09e2 (che conserva aff74ff come parent). Run 33957273977 concluso con successo; HTTP homepage 200, brand e H1 presenti.
+- Osservati 404 temporanei durante pubblicazioni concorrenti. OPS-025 aggiunto: indagare flusso Pages dinamico e workflow statico. Rimossa esclusione docs dal deploy affinché anche gli aggiornamenti documentali attivino la pubblicazione statica; questa salvaguardia non certifica risolta la causa dei 404.
+- Token effettivi non accessibili; durata operativa registrata, nessuna conversione tempo/token.
