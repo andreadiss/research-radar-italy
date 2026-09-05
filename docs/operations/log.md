@@ -134,3 +134,12 @@ Prevenzione: nel confronto per titolo/ente/deadline, SSD moderni espliciti e dis
 - Cinque relazioni di possibile duplicazione rimosse sulla base dei diversi SSD verificati; nessun bando eliminato. Conservata la relazione 151368→151369, non verificata in questa sessione.
 - Report: funding-review-2026-09-05-batch3.json. Residui: 181 verifiche MSCA e 71 possibili duplicati.
 - Pubblicazione attraverso il workflow esistente con test operativi, audit dati/export e controllo live. Nessuna spesa o nuova fonte.
+
+## Mini-sessione — verifica Pegaso 151369–151374
+
+2026-09-05T17:53:56.250247+00:00
+
+- Sei fonti MUR consultate: funding MSCA non documentato sostituito con Non specificato.
+- Sei falsi duplicati risolti grazie a SSD distinti, inclusa la relazione 151368/151369. La fonte 151368 era stata verificata nella sessione precedente. Conservata la relazione verso 151375, non ancora verificata.
+- Nessuna opportunità eliminata; conservati URL, ruolo e deadline. Report funding-review-2026-09-05-batch4.json.
+- Residui: 175 verifiche MSCA, 1 conferma MSCA valida e 65 possibili duplicati. Test e verifiche pubblicazione attraverso il workflow esistente; nessuna nuova spesa o fonte.

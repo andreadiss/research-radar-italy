@@ -4880,10 +4880,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "possibleDuplicateSourceIds": [
-      "mur-fixed-term-researchers-151369"
-    ],
-    "updatedAt": "2026-09-05T17:47:54.365476+00:00"
+    "updatedAt": "2026-09-05T17:53:56.250247+00:00"
   },
   {
     "id": "mur-fixed-term-researchers-151369",
@@ -4897,7 +4894,7 @@
     "discipline": "Medicina e salute",
     "ssd": "MEDS-08/A - Endocrinologia",
     "gsd": "06/MEDS-08 - ENDOCRINOLOGIA, NEFROLOGIA E SCIENZE DELL'ALIMENTAZIONE E DEL BENESSERE",
-    "fundingType": "MSCA",
+    "fundingType": "Non specificato",
     "deadline": "2026-09-09",
     "deadlineStatus": "closing_soon",
     "publishedAt": "2026-08-10",
@@ -4911,16 +4908,10 @@
       "Other"
     ],
     "dedupeKey": "n 1 posto ricercatore a tempo determinato in tenure track rtt art 24 l 240 2010|telematica pegaso srl|2026-09-09",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.71,
-    "reviewReasons": [
-      "possible_duplicate"
-    ],
-    "possibleDuplicateOf": "mur-fixed-term-researchers-151368",
-    "possibleDuplicateSourceIds": [
-      "mur-fixed-term-researchers-151370"
-    ],
-    "updatedAt": "2026-09-04T09:45:24.914Z"
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-05T17:53:56.250247+00:00"
   },
   {
     "id": "mur-fixed-term-researchers-151370",
@@ -4934,7 +4925,7 @@
     "discipline": "Economia, diritto e politica",
     "ssd": "ECON-02/A - Politica economica",
     "gsd": "13/ECON-02 - POLITICA ECONOMICA",
-    "fundingType": "MSCA",
+    "fundingType": "Non specificato",
     "deadline": "2026-09-09",
     "deadlineStatus": "closing_soon",
     "publishedAt": "2026-08-10",
@@ -4948,16 +4939,10 @@
       "Other"
     ],
     "dedupeKey": "n 1 posto ricercatore a tempo determinato in tenure track rtt art 24 l 240 2010|telematica pegaso srl|2026-09-09",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.71,
-    "reviewReasons": [
-      "possible_duplicate"
-    ],
-    "possibleDuplicateOf": "mur-fixed-term-researchers-151369",
-    "possibleDuplicateSourceIds": [
-      "mur-fixed-term-researchers-151371"
-    ],
-    "updatedAt": "2026-09-04T09:45:24.914Z"
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-05T17:53:56.250247+00:00"
   },
   {
     "id": "mur-fixed-term-researchers-151371",
@@ -4971,7 +4956,7 @@
     "discipline": "Economia, diritto e politica",
     "ssd": "ECON-06/A - Economia aziendale",
     "gsd": "13/ECON-06 - ECONOMIA AZIENDALE",
-    "fundingType": "MSCA",
+    "fundingType": "Non specificato",
     "deadline": "2026-09-09",
     "deadlineStatus": "closing_soon",
     "publishedAt": "2026-08-10",
@@ -4985,16 +4970,10 @@
       "Other"
     ],
     "dedupeKey": "n 1 posto ricercatore a tempo determinato in tenure track rtt art 24 l 240 2010|telematica pegaso srl|2026-09-09",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.71,
-    "reviewReasons": [
-      "possible_duplicate"
-    ],
-    "possibleDuplicateOf": "mur-fixed-term-researchers-151370",
-    "possibleDuplicateSourceIds": [
-      "mur-fixed-term-researchers-151372"
-    ],
-    "updatedAt": "2026-09-04T09:45:24.914Z"
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-05T17:53:56.250247+00:00"
   },
   {
     "id": "mur-fixed-term-researchers-151372",
@@ -5008,7 +4987,7 @@
     "discipline": "Economia, diritto e politica",
     "ssd": "ECON-07/A - Economia e gestione delle imprese",
     "gsd": "13/ECON-07 - ECONOMIA E GESTIONE DELLE IMPRESE",
-    "fundingType": "MSCA",
+    "fundingType": "Non specificato",
     "deadline": "2026-09-09",
     "deadlineStatus": "closing_soon",
     "publishedAt": "2026-08-10",
@@ -5022,16 +5001,10 @@
       "Other"
     ],
     "dedupeKey": "n 1 posto ricercatore a tempo determinato in tenure track rtt art 24 l 240 2010|telematica pegaso srl|2026-09-09",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.71,
-    "reviewReasons": [
-      "possible_duplicate"
-    ],
-    "possibleDuplicateOf": "mur-fixed-term-researchers-151371",
-    "possibleDuplicateSourceIds": [
-      "mur-fixed-term-researchers-151373"
-    ],
-    "updatedAt": "2026-09-04T09:45:24.914Z"
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-05T17:53:56.250247+00:00"
   },
   {
     "id": "mur-fixed-term-researchers-151373",
@@ -5045,7 +5018,7 @@
     "discipline": "Economia, diritto e politica",
     "ssd": "ECON-08/A - Organizzazione aziendale",
     "gsd": "13/ECON-08 - ORGANIZZAZIONE AZIENDALE",
-    "fundingType": "MSCA",
+    "fundingType": "Non specificato",
     "deadline": "2026-09-09",
     "deadlineStatus": "closing_soon",
     "publishedAt": "2026-08-10",
@@ -5059,16 +5032,10 @@
       "Other"
     ],
     "dedupeKey": "n 1 posto ricercatore a tempo determinato in tenure track rtt art 24 l 240 2010|telematica pegaso srl|2026-09-09",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.71,
-    "reviewReasons": [
-      "possible_duplicate"
-    ],
-    "possibleDuplicateOf": "mur-fixed-term-researchers-151372",
-    "possibleDuplicateSourceIds": [
-      "mur-fixed-term-researchers-151374"
-    ],
-    "updatedAt": "2026-09-04T09:45:24.914Z"
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-05T17:53:56.250247+00:00"
   },
   {
     "id": "mur-fixed-term-researchers-151374",
@@ -5082,7 +5049,7 @@
     "discipline": "Economia, diritto e politica",
     "ssd": "GIUR-14/A - Diritto penale",
     "gsd": "12/GIUR-14 - DIRITTO PENALE",
-    "fundingType": "MSCA",
+    "fundingType": "Non specificato",
     "deadline": "2026-09-09",
     "deadlineStatus": "closing_soon",
     "publishedAt": "2026-08-10",
@@ -5096,16 +5063,13 @@
       "Other"
     ],
     "dedupeKey": "n 1 posto ricercatore a tempo determinato in tenure track rtt art 24 l 240 2010|telematica pegaso srl|2026-09-09",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.71,
-    "reviewReasons": [
-      "possible_duplicate"
-    ],
-    "possibleDuplicateOf": "mur-fixed-term-researchers-151373",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
     "possibleDuplicateSourceIds": [
       "mur-fixed-term-researchers-151375"
     ],
-    "updatedAt": "2026-09-04T09:45:24.914Z"
+    "updatedAt": "2026-09-05T17:53:56.250247+00:00"
   },
   {
     "id": "mur-fixed-term-researchers-151375",
