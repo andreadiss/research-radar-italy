@@ -4,14 +4,14 @@ Aggiornato: 5 settembre 2026. Questo quadro P0–P5 è la fonte operativa corren
 
 | ID | Priorità | Attività | Stato | Evidenza / criterio di completamento |
 |---|---|---|---|---|
-| OPS-001 | P0 | HTML iniziale per homepage e cataloghi | Implementato, build OK | H1 e link presenti senza eseguire JS; smoke test post-deploy |
-| OPS-002 | P0 | Stabilità URL e archiviazione | Implementato, test OK | Cache conserva URL, import vuoto bloccato, riapertura e import parziale testati |
-| OPS-003 | P0 | Escludere scadute dai risultati aperti | Implementato, build OK | 33 scadute fuori dal conteggio; 696 attive per data |
+| OPS-001 | P0 | HTML iniziale per homepage e cataloghi | Pubblicato, build/smoke OK | H1 e link presenti senza eseguire JS; smoke test post-deploy |
+| OPS-002 | P0 | Stabilità URL e archiviazione | Pubblicato, test OK | Cache conserva URL, import vuoto bloccato, riapertura e import parziale testati |
+| OPS-003 | P0 | Escludere scadute dai risultati aperti | Pubblicato, build/smoke OK | 33 scadute fuori dal conteggio; 696 attive per data |
 | OPS-004 | P0 | Eliminare fallback a bandi mock | Implementato | Dataset vuoto non pubblica opportunità dimostrative |
-| OPS-005 | P1 | Indice HTML paginato e link diretti | Implementato, audit OK | 24 pagine; tutti gli URL sitemap raggiungibili |
-| OPS-006 | P1 | Title, canonical, hreflang e sitemap | Implementato, audit OK | Zero title duplicati schede, URL finali, niente lastmod non comprovato |
-| OPS-007 | P1 | Structured data fattuale | Prima correzione implementata | WebPage con fonte al posto di JobPosting incompleto; completare validazione Grant |
-| OPS-008 | P1 | Misurare click fonte da scheda | Implementato; GA4 da verificare | Evento e campo esistenti riutilizzati; verificare ricezione e deduplica |
+| OPS-005 | P1 | Indice HTML paginato e link diretti | Pubblicato, audit OK | 24 pagine; tutti gli URL sitemap raggiungibili |
+| OPS-006 | P1 | Title, canonical, hreflang e sitemap | Pubblicato, audit OK | Zero title duplicati schede, URL finali, niente lastmod non comprovato |
+| OPS-007 | P1 | Structured data fattuale | Prima correzione pubblicata | WebPage con fonte al posto di JobPosting incompleto; completare validazione Grant |
+| OPS-008 | P1 | Misurare click fonte da scheda | Pubblicato; GA4 da verificare | Evento e campo esistenti riutilizzati; verificare ricezione e deduplica |
 | OPS-009 | P1 | Baseline GSC + GA4 | Bloccato: accesso Google | 28g vs 28g, non-brand, landing, conversione e copertura |
 | OPS-010 | P1 | Core Web Vitals reali/mobile | Da fare | CrUX/GSC o PSI; non confondere JS bundle con CWV |
 | OPS-011 | P2 | Audit qualità automatico | Implementato | Script offline e gate nel deploy; warning distinti dagli errori |

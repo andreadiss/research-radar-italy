@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://rritaly.com/",
+    "status": 200,
+    "initial_h1": true,
+    "index_link": true,
+    "archive_notice": false,
+    "jobposting": false,
+    "sitemap_entries": null
+  },
+  {
+    "url": "https://rritaly.com/posizioni/indice/",
+    "status": 200,
+    "initial_h1": true,
+    "index_link": true,
+    "archive_notice": false,
+    "jobposting": false,
+    "sitemap_entries": null
+  },
+  {
+    "url": "https://rritaly.com/posizioni/indice/pagina/2/",
+    "status": 200,
+    "initial_h1": true,
+    "index_link": true,
+    "archive_notice": false,
+    "jobposting": false,
+    "sitemap_entries": null
+  },
+  {
+    "url": "https://rritaly.com/positions/mur-technologists-151225/",
+    "status": 200,
+    "initial_h1": true,
+    "index_link": true,
+    "archive_notice": true,
+    "jobposting": false,
+    "sitemap_entries": null
+  },
+  {
+    "url": "https://rritaly.com/sitemap.xml",
+    "status": 200,
+    "initial_h1": false,
+    "index_link": true,
+    "archive_notice": false,
+    "jobposting": false,
+    "sitemap_entries": 741
+  }
+]
