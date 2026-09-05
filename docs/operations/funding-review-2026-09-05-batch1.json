@@ -1,0 +1,55 @@
+{
+  "checkedAt": "2026-09-05T12:24:34.420Z",
+  "selection": "Sei candidati successivi per deadline/ID nella coda, campione mirato non rappresentativo",
+  "remainingUnreviewedActiveMSCA": 193,
+  "reviews": [
+    {
+      "id": "mur-fixed-term-researchers-151246",
+      "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/151246",
+      "checkedAt": "2026-09-05T12:24:34.420Z",
+      "before": "MSCA",
+      "after": "Non specificato",
+      "evidence": "Campo Marie Curie Actions=No; nessun programma di finanziamento identificato nei campi descrittivi della fonte letta."
+    },
+    {
+      "id": "mur-fixed-term-researchers-150806",
+      "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/150806",
+      "checkedAt": "2026-09-05T12:24:34.420Z",
+      "before": "MSCA",
+      "after": "Non specificato",
+      "evidence": "Campo Marie Curie Actions=No; nessun programma di finanziamento identificato nei campi descrittivi della fonte letta."
+    },
+    {
+      "id": "mur-fixed-term-researchers-150809",
+      "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/150809",
+      "checkedAt": "2026-09-05T12:24:34.420Z",
+      "before": "MSCA",
+      "after": "Non specificato",
+      "evidence": "Campo Marie Curie Actions=No; nessun programma di finanziamento identificato nei campi descrittivi della fonte letta."
+    },
+    {
+      "id": "mur-fixed-term-researchers-151043",
+      "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/151043",
+      "checkedAt": "2026-09-05T12:24:34.420Z",
+      "before": "MSCA",
+      "after": "Non specificato",
+      "evidence": "Campo Marie Curie Actions=No; nessun programma di finanziamento identificato nei campi descrittivi della fonte letta."
+    },
+    {
+      "id": "mur-fixed-term-researchers-151114",
+      "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/151114",
+      "checkedAt": "2026-09-05T12:24:34.420Z",
+      "before": "MSCA",
+      "after": "Non specificato",
+      "evidence": "Campo Marie Curie Actions=No; nessun programma di finanziamento identificato nei campi descrittivi della fonte letta."
+    },
+    {
+      "id": "mur-fixed-term-researchers-151115",
+      "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/151115",
+      "checkedAt": "2026-09-05T12:24:34.420Z",
+      "before": "MSCA",
+      "after": "Non specificato",
+      "evidence": "Campo Marie Curie Actions=No; nessun programma di finanziamento identificato nei campi descrittivi della fonte letta."
+    }
+  ]
+}

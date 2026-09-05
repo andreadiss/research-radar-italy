@@ -1792,7 +1792,7 @@
     "discipline": "Ambiente, agraria e veterinaria",
     "ssd": "AGRI-02/A - Agronomia e coltivazioni erbacee",
     "gsd": "07/AGRI-02 - AGRONOMIA E SISTEMI COLTURALI ERBACEI E ORTOFLORICOLI",
-    "fundingType": "MSCA",
+    "fundingType": "Non specificato",
     "deadline": "2026-09-07",
     "deadlineStatus": "closing_soon",
     "publishedAt": "2026-08-07",
@@ -1809,7 +1809,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-04T09:45:24.914Z"
+    "updatedAt": "2026-09-05T12:24:34.420Z"
   },
   {
     "id": "mur-fixed-term-researchers-150806",
@@ -1823,7 +1823,7 @@
     "discipline": "Matematica, fisica e chimica",
     "ssd": "CHEM-01/A - Chimica analitica",
     "gsd": "03/CHEM-01 - CHIMICA ANALITICA, AMBIENTALE E DEI BENI CULTURALI",
-    "fundingType": "MSCA",
+    "fundingType": "Non specificato",
     "deadline": "2026-09-07",
     "deadlineStatus": "closing_soon",
     "publishedAt": "2026-07-23",
@@ -1840,7 +1840,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-04T09:45:24.914Z"
+    "updatedAt": "2026-09-05T12:24:34.420Z"
   },
   {
     "id": "mur-fixed-term-researchers-150809",
@@ -1854,7 +1854,7 @@
     "discipline": "Ambiente, agraria e veterinaria",
     "ssd": "AGRI-05/A - Entomologia generale e applicata",
     "gsd": "07/AGRI-05 - PATOLOGIA VEGETALE ED ENTOMOLOGIA",
-    "fundingType": "MSCA",
+    "fundingType": "Non specificato",
     "deadline": "2026-09-07",
     "deadlineStatus": "closing_soon",
     "publishedAt": "2026-07-23",
@@ -1871,7 +1871,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-04T09:45:24.914Z"
+    "updatedAt": "2026-09-05T12:24:34.420Z"
   },
   {
     "id": "mur-fixed-term-researchers-151043",
@@ -1885,7 +1885,7 @@
     "discipline": "Medicina e salute",
     "ssd": "MEDF-01/A - Metodi e didattiche delle attività motorie",
     "gsd": "06/MEDF-01 - SCIENZE DELL'ESERCIZIO FISICO E DELLO SPORT",
-    "fundingType": "MSCA",
+    "fundingType": "Non specificato",
     "deadline": "2026-09-07",
     "deadlineStatus": "closing_soon",
     "publishedAt": "2026-08-07",
@@ -1905,7 +1905,7 @@
     "possibleDuplicateSourceIds": [
       "mur-fixed-term-researchers-151114"
     ],
-    "updatedAt": "2026-09-04T09:45:24.914Z"
+    "updatedAt": "2026-09-05T12:24:34.420Z"
   },
   {
     "id": "mur-fixed-term-researchers-151114",
@@ -1919,7 +1919,7 @@
     "discipline": "Economia, diritto e politica",
     "ssd": "GIUR-06/A - Diritto amministrativo e pubblico",
     "gsd": "12/GIUR-06 - DIRITTO AMMINISTRATIVO E PUBBLICO",
-    "fundingType": "MSCA",
+    "fundingType": "Non specificato",
     "deadline": "2026-09-07",
     "deadlineStatus": "closing_soon",
     "publishedAt": "2026-08-07",
@@ -1939,7 +1939,7 @@
       "possible_duplicate"
     ],
     "possibleDuplicateOf": "mur-fixed-term-researchers-151043",
-    "updatedAt": "2026-09-04T09:45:24.914Z"
+    "updatedAt": "2026-09-05T12:24:34.420Z"
   },
   {
     "id": "mur-fixed-term-researchers-151115",
@@ -1953,7 +1953,7 @@
     "discipline": "Biologia, biotech e farmacia",
     "ssd": "BIOS-12/A - Anatomia umana",
     "gsd": "05/BIOS-12 - ANATOMIA UMANA",
-    "fundingType": "MSCA",
+    "fundingType": "Non specificato",
     "deadline": "2026-09-07",
     "deadlineStatus": "closing_soon",
     "publishedAt": "2026-08-07",
@@ -1970,7 +1970,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-04T09:45:24.914Z"
+    "updatedAt": "2026-09-05T12:24:34.420Z"
   },
   {
     "id": "mur-fixed-term-researchers-151343",

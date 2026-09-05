@@ -54,3 +54,10 @@ Utente conferma selezione GitHub Actions come Source. Questo commit documentale 
 - Prima pubblicazione della sessione verificata: commit 4e0ead3, run 33965348195 riuscito (build e pubblicazione). Build locale e audit HTML: 762 URL sitemap, zero link interni rotti, zero URL sitemap orfani; non sono pagine indicizzate da Google.
 - Aggiunto `npm run audit:funding`: genera una coda offline di 199 candidati, ordinata per deadline/ID, con fonte e verifiche precedenti. Non modifica dati pubblicati e non considera l’assenza di una sigla nel riassunto come prova di errore. Output riproducibile in data/store/funding-review-queue.json.
 - Prossimi 6 ID nella coda: mur-fixed-term-researchers-150806, 150809, 151043, 151114, 151115, 151246 (tutti con scadenza 7 settembre). Nessuna correzione applicata a questi casi senza lettura della fonte.
+
+
+## Ciclo di tre sessioni aggiuntive — sessione 1
+
+Timestamp checkpoint: 2026-09-05T12:24:34.420Z. Autorizzate esplicitamente tre sessioni consecutive, massimo 30 minuti ciascuna; ricorrenza giornaliera invariata.
+Microtask completati: lettura coda, verifica sei fonti ufficiali MUR, correzione MSCA→Non specificato dei sei casi, registro evidenze funding-review-2026-09-05-batch1.json. Restano 193 MSCA non archiviati da revisionare. Nessuna cancellazione o variazione di deadline/URL. Validazione dati e deploy nel workflow del commit.
+Sessioni successive: denominazioni/ambiguità funding; conservazione dei campi GSD/SSD ripetuti.
