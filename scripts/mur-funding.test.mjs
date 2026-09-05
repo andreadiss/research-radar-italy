@@ -18,6 +18,20 @@ test("recognizes programme references in call title and description", () => {
 });
 
 test("handles missing content without classifying unrelated values", () => {
-  assert.equal(detectFundingFromFields({Titolo: null, Link: "PNRR"}), "MUR");
-  assert.equal(detectFundingFromFields({}), "MUR");
+  assert.equal(detectFundingFromFields({Titolo: null, Link: "PNRR"}), "Non specificato");
+  assert.equal(detectFundingFromFields({}), "Non specificato");
+});
+
+
+test("source branding alone does not establish MUR funding", () => {
+  assert.equal(detectFundingFromFields({Titolo: "Bando pubblicato sul portale MUR"}), "Non specificato");
+  assert.equal(detectFundingFromFields({Titolo: "Progetto finanziato dal MUR"}), "MUR");
+});
+
+test("normalization preserves uncertainty rather than inferring a funder", async () => {
+  const { toPosition } = await import("./mur-normalize.mjs");
+  const record = {title: "Ricerca", institution: "Università", sourceCategory: "test", externalId: "1", sourceUrl: "https://bandi.mur.gov.it/test", deadline: "2026-12-31"};
+  assert.equal(toPosition(record).fundingType, "Non specificato");
+  assert.equal(toPosition({...record, fundingType: "Non specificato"}).fundingType, "Non specificato");
+  assert.equal(toPosition({...record, fundingType: "PRIN"}).fundingType, "PRIN");
 });

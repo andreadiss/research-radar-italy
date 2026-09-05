@@ -25,6 +25,7 @@ for (const [kind, items] of [["position", positions], ["grant", grants]]) {
       else if (item.deadline < today) issue("past_deadline_retained");
     }
     if (item.publishedAt && item.publishedAt.slice(0, 10) > today) issue("future_publication_date");
+    if (kind === "position" && item.fundingType === "Non specificato") issue("funding_unspecified");
     if (item.possibleDuplicateOf) issue("possible_duplicate_requires_review");
     for (const code of item.reviewReasons ?? []) if (code !== "possible_duplicate") issue(code);
     if (kind === "position" && item.requirements?.every((text) => /^https?:|^Requisiti indicati/.test(text))) issue("requirements_not_extracted");

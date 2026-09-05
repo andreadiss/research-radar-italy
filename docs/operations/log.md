@@ -39,3 +39,14 @@ Pubblicazione completata: commit applicativo `35d60e50bf0c394ce7a07e4930c61d7289
 ## Conferma impostazione Pages — 2026-09-05
 
 Utente conferma selezione GitHub Actions come Source. Questo commit documentale avvia il workflow statico per verificare la pubblicazione e l’assenza del precedente deploy Jekyll concorrente. Non confondere la conferma dell’utente con lettura diretta dell’impostazione amministrativa.
+
+
+## Sessione richiesta 2026-09-05 — revisione MSCA e finanziamento incerto
+
+- Avvio osservato 14:07 Europe/Rome; budget massimo 30 minuti. Sessione extra esplicitamente richiesta, ricorrenza invariata.
+- Microtask: [x] leggere backlog e main; [x] verificare sei fonti MUR; [x] correggere solo il campione verificato; [x] eliminare fallback MUR non comprovato nei futuri import; [x] test; pubblicazione e controlli live tracciati dal workflow del commit.
+- Sei opportunità non archiviate classificate MSCA, selezionate per prossimità della deadline, hanno il campo Marie Curie Actions=No e nessun programma identificato nei contenuti letti. Funding corretto a Non specificato, mantenendo fonte, URL, date di pubblicazione/deadline e altri campi. Provenienza e timestamp in funding-review-2026-09-05.json. Campione non rappresentativo; restano 199 MSCA non archiviati da revisionare, nessuna conclusione estesa agli altri.
+- Importer e normalizzatore ora conservano Non specificato quando mancano indicazioni; la semplice presenza sul portale MUR non implica finanziamento MUR. MUR rimane riconosciuto per indicazioni esplicite di finanziamento/FIS3 nel contenuto. Nessuna modifica a database, servizi o privacy.
+- Test locali: 9/9. Audit dati: 0 errori e 6 funding_unspecified, esplicitati come warning; 750 record, 717 non scaduti/non archiviati, 33 archiviati, 77 possibili duplicati. Nessuna eliminazione.
+- OPS-025 chiuso: precedente verifica 33958301072 riuscita con solo workflow Next.js e 7 controlli live superati dopo correzione Pages Source.
+- Prossima sessione: campione MSCA successivo (partire dai non archiviati con deadline vicina), distinguere menzioni descrittive da finanziamento reale, revisionare vecchi fallback MUR senza rietichettature massive. Metriche GA/GSC ancora bloccate dall’accesso.

@@ -15,7 +15,7 @@ Aggiornato: 5 settembre 2026. Questo quadro P0–P5 è la fonte operativa corren
 | OPS-009 | P1 | Baseline GSC + GA4 | Bloccato: accesso Google | 28g vs 28g, non-brand, landing, conversione e copertura |
 | OPS-010 | P1 | Core Web Vitals reali/mobile | Da fare | CrUX/GSC o PSI; non confondere JS bundle con CWV |
 | OPS-011 | P2 | Audit qualità automatico | Implementato | Script offline e gate nel deploy; warning distinti dagli errori |
-| OPS-012 | P2 | Correggere funding da HTML generico | Protezione pubblicata/testata, revisione cache da fare | Classificatore limitato a titolo/descrizione; 3 test mirati. FANDEMIA verificato e corretto MSCA→MUR/FIS3; restano campione cache, ambiguità e fallback MUR |
+| OPS-012 | P2 | Correggere funding da HTML generico | Protezione pubblicata; 6 ulteriori schede verificate | Classificatore limitato a titolo/descrizione; fallback Non specificato introdotto. FANDEMIA corretto; 6 MSCA non comprovati rimossi dopo verifica fonte, 199 MSCA attivi ancora da revisionare. Report funding-review-2026-09-05.json; restano ambiguità e vecchi fallback MUR. |
 | OPS-013 | P2 | Revisione 77 possibili duplicati | Da fare | Identità verificata; non eliminare bandi distinti con title simile |
 | OPS-014 | P2 | Normalizzare enti, sedi e disciplina | Da fare | Mantenere valore originale e mapping verificato; 17 regioni ignote |
 | OPS-015 | P2 | Link checker e variazioni deadline | Da fare | Fonti esistenti, robots/condizioni, rate limit, storico; 403/429 ≠ bando cancellato |
@@ -28,8 +28,7 @@ Aggiornato: 5 settembre 2026. Questo quadro P0–P5 è la fonte operativa corren
 | OPS-022 | P5 | Rifiniture estetiche minori | Differito | Solo dopo P0/P1; design importante richiede approvazione |
 | OPS-023 | P1 | Revisione consenso/pageview GA4 | Audit prima di decisione | Eventuale modifica cookie/consenso con approvazione; non toccare la privacy ora |
 | OPS-024 | P2 | Recupero URL storici già rimossi | Da valutare | Ricostruire da Git e GSC; niente ripubblicazione di bandi scaduti come aperti |
-
-| OPS-025 | P0 | Indagare 404 transitori e doppio flusso Pages | Impostazione corretta dall’utente; verifica prossimo deploy | Job 101283225613 pubblica ./docs via Jekyll in parallelo al workflow Next.js. Utente conferma Pages Source=GitHub Actions; verificare assenza run Jekyll sui nuovi commit. Controllo live esteso a cataloghi, indice, sitemap e schede. Nessun permesso amministrativo esposto dal connector. |
+| OPS-025 | P0 | Indagare 404 transitori e doppio flusso Pages | Risolto, deploy verificato | Job 101283225613 pubblica ./docs via Jekyll in parallelo al workflow Next.js. Pages Source=GitHub Actions confermato dall’utente; commit 0646675 ha prodotto solo il workflow statico, run 33958301072 riuscito e 7/7 controlli live. Controllo live esteso a cataloghi, indice, sitemap e schede. Nessun permesso amministrativo esposto dal connector. |
 
 Report: [audit del 5 settembre](operations/audit-2026-09-05.md). Budget: [policy e limitazioni](operations/work-budget-policy.json). Registro: [operazioni](operations/log.md).
 

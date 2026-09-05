@@ -1322,7 +1322,7 @@
     "discipline": "Economia, diritto e politica",
     "ssd": "-",
     "gsd": "13/ECON-06 - ECONOMIA AZIENDALE",
-    "fundingType": "MSCA",
+    "fundingType": "Non specificato",
     "deadline": "2026-09-06",
     "deadlineStatus": "closing_soon",
     "publishedAt": "2026-08-07",
@@ -1339,7 +1339,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-04T09:45:24.914Z"
+    "updatedAt": "2026-09-05T12:09:12.181Z"
   },
   {
     "id": "mur-research-assignments-315920",
@@ -1606,7 +1606,7 @@
     "discipline": "Matematica, fisica e chimica",
     "ssd": "PHYS-05/A - Astrofisica, cosmologia e scienza dello spazio",
     "gsd": "02/PHYS-05 - ASTROFISICA E COSMOLOGIA, FISICA DELLO SPAZIO, DELLA TERRA E DEL CLIMA",
-    "fundingType": "MSCA",
+    "fundingType": "Non specificato",
     "deadline": "2026-09-07",
     "deadlineStatus": "closing_soon",
     "publishedAt": "2026-07-24",
@@ -1623,7 +1623,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-04T09:45:24.914Z"
+    "updatedAt": "2026-09-05T12:09:12.181Z"
   },
   {
     "id": "mur-fixed-term-researchers-151077",
@@ -1637,7 +1637,7 @@
     "discipline": "Medicina e salute",
     "ssd": "MEDS-04/A - Anatomia patologica",
     "gsd": "06/MEDS-04 - ANATOMIA PATOLOGICA",
-    "fundingType": "MSCA",
+    "fundingType": "Non specificato",
     "deadline": "2026-09-07",
     "deadlineStatus": "closing_soon",
     "publishedAt": "2026-07-29",
@@ -1654,7 +1654,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-04T09:45:24.914Z"
+    "updatedAt": "2026-09-05T12:09:12.181Z"
   },
   {
     "id": "mur-fixed-term-researchers-151079",
@@ -1668,7 +1668,7 @@
     "discipline": "Medicina e salute",
     "ssd": "MEDS-09/C - Reumatologia",
     "gsd": "06/MEDS-09 - MALATTIE DEL SANGUE, ONCOLOGIA E REUMATOLOGIA",
-    "fundingType": "MSCA",
+    "fundingType": "Non specificato",
     "deadline": "2026-09-07",
     "deadlineStatus": "closing_soon",
     "publishedAt": "2026-07-29",
@@ -1685,7 +1685,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-04T09:45:24.914Z"
+    "updatedAt": "2026-09-05T12:09:12.181Z"
   },
   {
     "id": "mur-fixed-term-researchers-151081",
@@ -1699,7 +1699,7 @@
     "discipline": "Ambiente, agraria e veterinaria",
     "ssd": "AGRI-07/A - Scienze e tecnologie alimentari",
     "gsd": "07/AGRI-07 - SCIENZE E TECNOLOGIE ALIMENTARI",
-    "fundingType": "MSCA",
+    "fundingType": "Non specificato",
     "deadline": "2026-09-07",
     "deadlineStatus": "closing_soon",
     "publishedAt": "2026-07-29",
@@ -1716,7 +1716,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-04T09:45:24.914Z"
+    "updatedAt": "2026-09-05T12:09:12.181Z"
   },
   {
     "id": "mur-fixed-term-researchers-151244",
@@ -1761,7 +1761,7 @@
     "discipline": "Ambiente, agraria e veterinaria",
     "ssd": "AGRI-05/A - Entomologia generale e applicata",
     "gsd": "07/AGRI-05 - PATOLOGIA VEGETALE ED ENTOMOLOGIA",
-    "fundingType": "MSCA",
+    "fundingType": "Non specificato",
     "deadline": "2026-09-07",
     "deadlineStatus": "closing_soon",
     "publishedAt": "2026-08-07",
@@ -1778,7 +1778,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-04T09:45:24.914Z"
+    "updatedAt": "2026-09-05T12:09:12.181Z"
   },
   {
     "id": "mur-fixed-term-researchers-151246",

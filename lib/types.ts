@@ -10,7 +10,7 @@ export type PositionType =
   | "Professore II fascia"
   | "Professore straordinario";
 
-export type FundingType = "MUR" | "PNRR" | "PRIN" | "ERC" | "Horizon" | "MSCA" | "Dipartimentale";
+export type FundingType = "MUR" | "PNRR" | "PRIN" | "ERC" | "Horizon" | "MSCA" | "Dipartimentale" | "Non specificato";
 export type DeadlineStatus = "open" | "closing_soon" | "expired" | "unknown";
 export type ReviewStatus = "auto_published" | "needs_review" | "duplicate" | "rejected";
 

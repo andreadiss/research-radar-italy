@@ -136,8 +136,8 @@ function normalizePositionType(value, record, professorRank = "") {
 }
 
 function normalizeFunding(value) {
-  const allowed = new Set(["MUR", "PNRR", "PRIN", "ERC", "Horizon", "MSCA", "Dipartimentale"]);
-  return allowed.has(value) ? value : "MUR";
+  const allowed = new Set(["MUR", "PNRR", "PRIN", "ERC", "Horizon", "MSCA", "Dipartimentale", "Non specificato"]);
+  return allowed.has(value) ? value : "Non specificato";
 }
 
 function inferDiscipline(...values) {

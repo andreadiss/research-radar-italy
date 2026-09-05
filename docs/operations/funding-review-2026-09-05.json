@@ -1,0 +1,55 @@
+{
+  "checkedAt": "2026-09-05T12:09:12.181Z",
+  "selection": "Prime sei opportunità MSCA non archiviate ordinate per deadline nella cache. Campione mirato, non rappresentativo.",
+  "remainingUnreviewedActiveMSCA": 199,
+  "reviews": [
+    {
+      "id": "mur-professor-calls-151116",
+      "sourceUrl": "https://bandi.mur.gov.it/profcalls.php/public/job/id_job/151116",
+      "checkedAt": "2026-09-05T12:09:12.181Z",
+      "before": "MSCA",
+      "after": "Non specificato",
+      "evidence": "Scheda MUR: Research Framework Programme / Marie Curie Actions = No; nessun programma di finanziamento identificato nei campi descrittivi letti. Non inferire MUR dalla fonte."
+    },
+    {
+      "id": "mur-fixed-term-researchers-150823",
+      "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/150823",
+      "checkedAt": "2026-09-05T12:09:12.181Z",
+      "before": "MSCA",
+      "after": "Non specificato",
+      "evidence": "Scheda MUR: Research Framework Programme / Marie Curie Actions = No; nessun programma di finanziamento identificato nei campi descrittivi letti. Non inferire MUR dalla fonte."
+    },
+    {
+      "id": "mur-fixed-term-researchers-151077",
+      "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/151077",
+      "checkedAt": "2026-09-05T12:09:12.181Z",
+      "before": "MSCA",
+      "after": "Non specificato",
+      "evidence": "Scheda MUR: Research Framework Programme / Marie Curie Actions = No; nessun programma di finanziamento identificato nei campi descrittivi letti. Non inferire MUR dalla fonte."
+    },
+    {
+      "id": "mur-fixed-term-researchers-151079",
+      "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/151079",
+      "checkedAt": "2026-09-05T12:09:12.181Z",
+      "before": "MSCA",
+      "after": "Non specificato",
+      "evidence": "Scheda MUR: Research Framework Programme / Marie Curie Actions = No; nessun programma di finanziamento identificato nei campi descrittivi letti. Non inferire MUR dalla fonte."
+    },
+    {
+      "id": "mur-fixed-term-researchers-151081",
+      "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/151081",
+      "checkedAt": "2026-09-05T12:09:12.181Z",
+      "before": "MSCA",
+      "after": "Non specificato",
+      "evidence": "Scheda MUR: Research Framework Programme / Marie Curie Actions = No; nessun programma di finanziamento identificato nei campi descrittivi letti. Non inferire MUR dalla fonte."
+    },
+    {
+      "id": "mur-fixed-term-researchers-151245",
+      "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/151245",
+      "checkedAt": "2026-09-05T12:09:12.181Z",
+      "before": "MSCA",
+      "after": "Non specificato",
+      "evidence": "Scheda MUR: Research Framework Programme / Marie Curie Actions = No; nessun programma di finanziamento identificato nei campi descrittivi letti. Non inferire MUR dalla fonte."
+    }
+  ]
+}
