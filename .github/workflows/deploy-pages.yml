@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - "docs/**"
+      - "README.md"
   workflow_dispatch:
   workflow_run:
     workflows:
@@ -44,6 +47,12 @@ jobs:
 
       - name: Build static site
         run: npm run build:static
+
+      - name: Validate data quality and retained opportunity URLs
+        run: npm run audit:data && npm run test:ops
+
+      - name: Verify crawlable HTML and internal links
+        run: python3 scripts/audit-static.py
 
       - name: Verify static export
         shell: bash

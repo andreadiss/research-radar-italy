@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { ArrowRight, ExternalLink } from "lucide-react";
 import { grants } from "@/lib/grants";
 import { positions } from "@/lib/positions";
+import { isAvailableGrant, isOpenPosition } from "@/lib/opportunity-status";
 import { absoluteUrl, jsonLd } from "@/lib/seo";
 import { getSeoLandingPage, seoLandingPages, type SeoLandingPage } from "@/lib/seo-landing-pages";
 
@@ -123,7 +124,7 @@ export default function SeoLandingRoute({ params }: PageProps) {
 function landingItems(page: SeoLandingPage) {
   if (page.kind === "positions") {
     return positions
-      .filter((position) => position.positionType === page.filter.type && !isPast(position.deadline))
+      .filter((position) => position.positionType === page.filter.type && isOpenPosition(position))
       .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
       .map((position) => ({
         href: `/positions/${position.id}`,
@@ -133,7 +134,7 @@ function landingItems(page: SeoLandingPage) {
   }
 
   return grants
-    .filter((grant) => grant.program === page.filter.program && (grant.status === "open" || grant.status === "upcoming"))
+    .filter((grant) => grant.program === page.filter.program && isAvailableGrant(grant))
     .map((grant) => ({
       href: `/grants/${grant.id}`,
       title: grant.title,
@@ -159,7 +160,7 @@ function buildStructuredData(page: SeoLandingPage, items: ReturnType<typeof land
         "@type": "ItemList",
         "@id": absoluteUrl(`${page.path}#items`),
         numberOfItems: items.length,
-        itemListElement: items.slice(0, 20).map((item, index) => ({
+        itemListElement: items.slice(0, 8).map((item, index) => ({
           "@type": "ListItem",
           position: index + 1,
           name: item.title,

@@ -5,6 +5,8 @@ import { SiteTopbar } from "@/app/components/SiteTopbar";
 import type { Route } from "next";
 import { CalendarClock, FileText, MapPin, Search } from "lucide-react";
 import { useSearchParams } from "next/navigation";
+import { Suspense, useEffect, useState } from "react";
+import { isAvailableGrant, isOpenPosition, italyToday } from "@/lib/opportunity-status";
 import { FloatingIntentMenu } from "@/app/components/FloatingIntentMenu";
 import { HomeFavoritesPreview } from "@/app/components/HomeFavoritesPreview";
 import { NextBestActions } from "@/app/components/NextBestActions";
@@ -50,8 +52,6 @@ const subjectChips: SubjectChip[] = [
   }
 ];
 
-const visibleGrants = grants.filter(isVisibleGrant);
-const grantPrograms = Array.from(new Set(visibleGrants.map((grant) => grant.program))).sort();
 const popularSearches = [
   { path: "/posizioni/dottorati", label: "Dottorati" },
   { path: "/posizioni/postdoc", label: "Postdoc" },
@@ -63,12 +63,22 @@ const popularSearches = [
 ] as const;
 
 export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } = {}) {
-  const searchParams = useRadarSearchParams();
+  const [searchParams, setSearchParams] = useState<SearchParams>({});
+  const [today, setToday] = useState(process.env.NEXT_PUBLIC_BUILD_DATE ?? italyToday());
+  useEffect(() => {
+    const refreshDay = () => setToday(italyToday());
+    refreshDay();
+    window.addEventListener("focus", refreshDay);
+    return () => window.removeEventListener("focus", refreshDay);
+  }, []);
+  const openPositions = positions.filter((position) => isOpenPosition(position, today));
+  const visibleGrants = grants.filter((grant) => isAvailableGrant(grant, today));
+  const grantPrograms = Array.from(new Set(visibleGrants.map((grant) => grant.program))).sort();
   const savedPreview = { count: 0, items: [] };
   const intent: Intent =
     searchParams.intent === "bandi" ? "bandi" : searchParams.intent === "posizioni" ? "posizioni" : initialIntent;
   const sortOrder = normalizeSortOrder(searchParams.sort);
-  const intentPositions = positions;
+  const intentPositions = openPositions;
   const filtered = sortPositions(
     intentPositions.filter((position) => matchesFilters(position, searchParams)),
     sortOrder
@@ -78,8 +88,8 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
     sortOrder
   );
   const closingSoon = filtered.filter((position) => daysUntil(position.deadline) <= 14).length;
-  const newPositionsToday = intentPositions.filter((position) => isToday(position.publishedAt)).length;
-  const newGrantsToday = visibleGrants.filter((grant) => grant.firstSeenAt && isToday(grant.firstSeenAt)).length;
+  const newPositionsToday = intentPositions.filter((position) => isToday(position.publishedAt, today)).length;
+  const newGrantsToday = visibleGrants.filter((grant) => grant.firstSeenAt && isToday(grant.firstSeenAt, today)).length;
   const canShowPositionResults =
     selectedValues(searchParams.type).length > 0 ||
     selectedValues(searchParams.discipline).length > 0 ||
@@ -92,6 +102,9 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
         : "Grants & Funding";
   return (
     <main className="shell">
+      <Suspense fallback={null}>
+        <RadarQuerySync onChange={setSearchParams} />
+      </Suspense>
       <SiteTopbar />
 
       <section className={heroClass(intent)}>
@@ -103,7 +116,7 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
                 className="entry-point"
                 event="home_intent_clicked"
                 href="/posizioni"
-                properties={{ intent: "posizioni", count: positions.length }}
+                properties={{ intent: "posizioni", count: openPositions.length }}
               >
                 <Search size={20} />
                 <span>
@@ -111,7 +124,7 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
                   <small>Dottorati, RTT, postdoc, professori e contratti</small>
                 </span>
                 {newPositionsToday > 0 ? <span className="fresh-badge">{newPositionsToday} nuove oggi</span> : null}
-                <em>{positions.length}</em>
+                <em>{openPositions.length}</em>
               </TrackedLink>
               <TrackedLink
                 className="entry-point"
@@ -153,7 +166,7 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
           grantsCount={visibleGrants.length}
           grantsHref={intentHref(searchParams, "bandi")}
           intent={intent}
-          positionsCount={positions.length}
+          positionsCount={openPositions.length}
           positionsHref={intentHref(searchParams, "posizioni")}
         />
       ) : null}
@@ -167,7 +180,7 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
                 <div className="chip-row">
                   {positionTypes.map((type) => {
                     const count = filterCount(intentPositions, searchParams, { type });
-                    const freshCount = freshPositionCount(intentPositions, searchParams, { type });
+                    const freshCount = freshPositionCount(intentPositions, searchParams, { type }, today);
 
                     return (
                       <TrackedLink
@@ -191,7 +204,7 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
                 <span className="quick-filter-label">Materia</span>
                 <div className="chip-row subject-chip-row">
                   {subjectChips.map((chip) => {
-                    const freshCount = freshPositionCount(intentPositions, searchParams, chip.filters);
+                    const freshCount = freshPositionCount(intentPositions, searchParams, chip.filters, today);
 
                     return (
                       <TrackedLink
@@ -220,7 +233,7 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
                 <div className="chip-row">
                   {(() => {
                     const count = filterCount(intentPositions, searchParams, { telematic: "true" });
-                    const freshCount = freshPositionCount(intentPositions, searchParams, { telematic: "true" });
+                    const freshCount = freshPositionCount(intentPositions, searchParams, { telematic: "true" }, today);
 
                     return (
                       <TrackedLink
@@ -258,6 +271,7 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
             <div className="empty-state guided-filter-state">
               <Search size={24} />
               <h3>Scegli un filtro per vedere le posizioni</h3>
+              <Link href="/posizioni/indice" className="back-link">Esplora tutte le opportunità per scadenza</Link>
               <p>
                 Parti da un tipo di posizione o da una materia: mostreremo solo opportunità rilevanti, senza affollare la pagina.
               </p>
@@ -295,6 +309,7 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
                     <h3 className="job-title">{position.title}</h3>
                   </OpportunityPreview>
                   <p className="job-summary">{position.summary}</p>
+                  <Link href={`/positions/${position.id}`} className="back-link">Dettagli e fonte ufficiale</Link>
                   <div className="job-meta">
                     <span>
                       <strong>{position.institution}</strong>
@@ -314,8 +329,8 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
               <Search size={24} />
               <h3>Nessun bando trovato</h3>
               <p>
-                  Il dataset MUR attuale non contiene risultati con questi filtri.
-                Rimuovi un filtro o lancia un nuovo sync per aggiornare i dati.
+                Non ci sono opportunità aperte con questi filtri.
+                Rimuovi un filtro o scegli un'altra categoria.
               </p>
               <div className="empty-actions">
                 <Link className="button secondary" href="/posizioni">
@@ -419,6 +434,7 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
       </section>
       ) : null}
       <footer className="site-footer" aria-label="Informazioni sul sito">
+        <Link href="/posizioni/indice">Indice delle opportunità</Link>
         <Link href="/about">About</Link>
         <Link href="/privacy">Privacy</Link>
         <Link href="/cookie">Cookie</Link>
@@ -437,13 +453,8 @@ function formatDate(value: string) {
   }).format(new Date(value));
 }
 
-function isVisibleGrant(grant: GrantOpportunity) {
-  return grant.status === "open" || grant.status === "upcoming";
-}
-
-function isToday(value: string) {
-  const today = new Date().toISOString().slice(0, 10);
-  return value === today;
+function isToday(value: string, today: string) {
+  return value.slice(0, 10) === today;
 }
 
 function daysUntil(value: string) {
@@ -673,11 +684,12 @@ function filterCount(
 function freshPositionCount(
   candidatePositions: typeof positions,
   searchParams: SearchParams,
-  overrides: Partial<SearchParams>
+  overrides: Partial<SearchParams>,
+  today: string
 ) {
   const candidateFilters = { ...searchParams, ...overrides };
 
-  return candidatePositions.filter((position) => isToday(position.publishedAt) && matchesFilters(position, candidateFilters))
+  return candidatePositions.filter((position) => isToday(position.publishedAt, today) && matchesFilters(position, candidateFilters))
     .length;
 }
 
@@ -714,19 +726,18 @@ function heroClass(intent: Intent) {
       : "hero";
 }
 
-function useRadarSearchParams(): SearchParams {
+function RadarQuerySync({ onChange }: { onChange: (params: SearchParams) => void }) {
   const params = useSearchParams();
-  return {
-    q: params.get("q") ?? undefined,
-    type: params.get("type") ?? undefined,
-    discipline: params.get("discipline") ?? undefined,
-    region: params.get("region") ?? undefined,
-    funding: params.get("funding") ?? undefined,
-    program: params.get("program") ?? undefined,
-    sort: params.get("sort") ?? undefined,
-    telematic: params.get("telematic") ?? undefined,
-    intent: params.get("intent") ?? undefined
-  };
+  const query = params.toString();
+  useEffect(() => {
+    const values = new URLSearchParams(query);
+    const next: SearchParams = {};
+    for (const key of ["q", "type", "discipline", "region", "funding", "program", "sort", "telematic", "intent"] as const) {
+      next[key] = values.get(key) ?? undefined;
+    }
+    onChange(next);
+  }, [query, onChange]);
+  return null;
 }
 
 function paramHasValue(currentValue: string | undefined, value: string) {
@@ -878,8 +889,6 @@ function normalizeText(value: string) {
     .replace(/[\u0300-\u036f]/g, "")
     .toLowerCase();
 }
-
-
 
 
 

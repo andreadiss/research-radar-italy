@@ -3,11 +3,12 @@ import { Suspense } from "react";
 import { RadarApp } from "@/app/components/RadarApp";
 import { grants } from "@/lib/grants";
 import { absoluteUrl, jsonLd } from "@/lib/seo";
+import { isAvailableGrant } from "@/lib/opportunity-status";
 
-const visibleGrants = grants.filter((grant) => grant.status === "open" || grant.status === "upcoming");
+const visibleGrants = grants.filter((grant) => isAvailableGrant(grant));
 
 export const metadata: Metadata = {
-  title: "Grants & Funding per ricerca in Italia | Research Radar Italy",
+  title: "Grants & Funding per ricerca in Italia",
   description:
     "Trova bandi PRIN, PNRR, ERC, MSCA e funding call per ricerca accademica da fonti ufficiali.",
   alternates: { canonical: absoluteUrl("/funding") }

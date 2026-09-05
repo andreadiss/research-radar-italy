@@ -35,6 +35,8 @@ export type GrantOpportunity = {
 };
 
 export type Position = {
+  updatedAt?: string;
+  archivedAt?: string;
   id: string;
   title: string;
   institution: string;

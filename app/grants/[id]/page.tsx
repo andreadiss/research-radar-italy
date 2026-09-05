@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { SiteTopbar } from "@/app/components/SiteTopbar";
+import { OfficialSourceLink } from "@/app/components/OfficialSourceLink";
+import { isAvailableGrant } from "@/lib/opportunity-status";
 import { notFound } from "next/navigation";
 import { ExternalLink, FileText } from "lucide-react";
 import { getGrantById, grants } from "@/lib/grants";
@@ -97,7 +99,7 @@ export default function GrantDetailPage({ params }: { params: { id: string } }) 
       <SiteTopbar />
 
       <section className="detail-page">
-        <Link className="back-link" href="/?intent=bandi">
+        <Link className="back-link" href="/funding">
           Torna a Grants & Funding
         </Link>
         <article className="detail-card">
@@ -130,17 +132,16 @@ export default function GrantDetailPage({ params }: { params: { id: string } }) 
           <section className="detail-section">
             <h2>Come usare questa fonte</h2>
             <p>
-              Questa scheda porta alla fonte ufficiale del grant. Nel prossimo passaggio gli importer
-              estrarranno automaticamente call, scadenze, eligibility e allegati quando la fonte espone dati
-              strutturati o pagine stabili.
+              Verifica sul bando ufficiale la finestra di candidatura, i requisiti di ammissibilità,
+              l'importo e i documenti richiesti. I campi non disponibili nella scheda vanno consultati alla fonte.
             </p>
           </section>
 
           <div className="detail-actions">
-            <a className="button primary" href={grant.sourceUrl} rel="noreferrer" target="_blank">
+            <OfficialSourceLink className="button primary" href={grant.sourceUrl} rel="noreferrer" target="_blank">
               Apri fonte ufficiale
               <ExternalLink size={16} />
-            </a>
+            </OfficialSourceLink>
             <Link className="button secondary" href={`/?intent=bandi&program=${encodeURIComponent(grant.program)}`}>
               Vedi grants simili
             </Link>
@@ -180,5 +181,5 @@ function grantStatusLabel(grant: GrantOpportunity) {
 }
 
 function isIndexableGrant(grant: GrantOpportunity) {
-  return grant.status === "open" || grant.status === "upcoming";
+  return isAvailableGrant(grant);
 }

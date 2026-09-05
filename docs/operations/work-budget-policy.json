@@ -1,0 +1,19 @@
+{
+  "updated_at": "2026-09-05",
+  "requested_caps": {
+    "daily_share_max": 0.6,
+    "weekly_share_max": 0.6,
+    "owner_reserved_share_min": 0.4
+  },
+  "platform_limit_enforced": false,
+  "remaining_daily_quota": null,
+  "remaining_weekly_quota": null,
+  "autonomous_work_runs_enabled": false,
+  "reason": "No supported quota-read or usage-cap control is available to this session. A schedule, elapsed-time target or instruction cannot guarantee a 40% reserve.",
+  "resume_conditions": [
+    "Verify current quota periods and balances from an authoritative account control.",
+    "Enforce a 60% project cap and a 40% owner reserve in both applicable periods before enabling recurring Work runs."
+  ],
+  "fallback": "Existing deterministic GitHub Actions continue on their existing schedule. No paid services, extra Work schedules, subagents or open-ended agent loops.",
+  "scope": "Policy record only; this file does not set or control ChatGPT account quotas."
+}

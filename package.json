@@ -18,7 +18,10 @@
     "persist:supabase": "node scripts/persist-supabase.mjs",
     "start": "next start",
     "lint": "next lint",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "audit:data": "node scripts/audit-data-quality.mjs",
+    "test:ops": "node --test scripts/reconcile-positions.test.mjs",
+    "audit:static": "python3 scripts/audit-static.py"
   },
   "dependencies": {
     "clsx": "^2.1.1",

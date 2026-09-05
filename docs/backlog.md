@@ -1,4 +1,39 @@
-﻿# Backlog
+# Backlog operativo RR Italy
+
+Aggiornato: 5 settembre 2026. Questo quadro P0–P5 è la fonte operativa corrente; il backlog storico sotto rimane per tracciabilità e non certifica che ogni funzione marcata in passato sia nella release pubblica.
+
+| ID | Priorità | Attività | Stato | Evidenza / criterio di completamento |
+|---|---|---|---|---|
+| OPS-001 | P0 | HTML iniziale per homepage e cataloghi | Implementato, build OK | H1 e link presenti senza eseguire JS; smoke test post-deploy |
+| OPS-002 | P0 | Stabilità URL e archiviazione | Implementato, test OK | Cache conserva URL, import vuoto bloccato, riapertura e import parziale testati |
+| OPS-003 | P0 | Escludere scadute dai risultati aperti | Implementato, build OK | 33 scadute fuori dal conteggio; 696 attive per data |
+| OPS-004 | P0 | Eliminare fallback a bandi mock | Implementato | Dataset vuoto non pubblica opportunità dimostrative |
+| OPS-005 | P1 | Indice HTML paginato e link diretti | Implementato, audit OK | 24 pagine; tutti gli URL sitemap raggiungibili |
+| OPS-006 | P1 | Title, canonical, hreflang e sitemap | Implementato, audit OK | Zero title duplicati schede, URL finali, niente lastmod non comprovato |
+| OPS-007 | P1 | Structured data fattuale | Prima correzione implementata | WebPage con fonte al posto di JobPosting incompleto; completare validazione Grant |
+| OPS-008 | P1 | Misurare click fonte da scheda | Implementato; GA4 da verificare | Evento e campo esistenti riutilizzati; verificare ricezione e deduplica |
+| OPS-009 | P1 | Baseline GSC + GA4 | Bloccato: accesso Google | 28g vs 28g, non-brand, landing, conversione e copertura |
+| OPS-010 | P1 | Core Web Vitals reali/mobile | Da fare | CrUX/GSC o PSI; non confondere JS bundle con CWV |
+| OPS-011 | P2 | Audit qualità automatico | Implementato | Script offline e gate nel deploy; warning distinti dagli errori |
+| OPS-012 | P2 | Correggere funding da HTML generico | Da fare, alta priorità dati | Validare FANDEMIA e campione MSCA; campi espliciti, niente inferenze certe |
+| OPS-013 | P2 | Revisione 77 possibili duplicati | Da fare | Identità verificata; non eliminare bandi distinti con title simile |
+| OPS-014 | P2 | Normalizzare enti, sedi e disciplina | Da fare | Mantenere valore originale e mapping verificato; 17 regioni ignote |
+| OPS-015 | P2 | Link checker e variazioni deadline | Da fare | Fonti esistenti, robots/condizioni, rate limit, storico; 403/429 ≠ bando cancellato |
+| OPS-016 | P2 | Budget Work 60% giorno/settimana | Bloccato: controllo quota non esposto | Nessuna nuova pianificazione Work attiva; riserva 40% non dichiarata garantita |
+| OPS-017 | P2 | Freschezza reale e provenance per grant | Parziale | Badge MUR corretto; introdurre lastCheckedAt distinto da updatedAt per fonte |
+| OPS-018 | P1 | Landing professori/incarichi/tecnologi | Da prioritizzare con dati | Intento utile, contenuto specifico e dataset affidabile; evitare duplicati |
+| OPS-019 | P3 | Liste locali e ritorno su scadenze | Da fare | Miglioramento senza account/nuovi dati personali |
+| OPS-020 | P3 | Accessibilità modal e ordine risultati | Da fare | Focus/esc/tastiera, query vuote, priorità scadenza con evidenze UX |
+| OPS-021 | P4 | Primo A/B test CTA o filtri | Bloccato da OPS-009 | Ipotesi, baseline, MDE/potenza, regola stop, niente vincitori prematuri |
+| OPS-022 | P5 | Rifiniture estetiche minori | Differito | Solo dopo P0/P1; design importante richiede approvazione |
+| OPS-023 | P1 | Revisione consenso/pageview GA4 | Audit prima di decisione | Eventuale modifica cookie/consenso con approvazione; non toccare la privacy ora |
+| OPS-024 | P2 | Recupero URL storici già rimossi | Da valutare | Ricostruire da Git e GSC; niente ripubblicazione di bandi scaduti come aperti |
+
+Report: [audit del 5 settembre](operations/audit-2026-09-05.md). Budget: [policy e limitazioni](operations/work-budget-policy.json). Registro: [operazioni](operations/log.md).
+
+## Backlog storico (stato precedente, da riconciliare)
+
+# Backlog
 
 ## User Stories
 

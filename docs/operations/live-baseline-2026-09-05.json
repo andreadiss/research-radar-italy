@@ -1,0 +1,393 @@
+[
+  {
+    "url": "https://rritaly.com/",
+    "status": 200,
+    "final_url": "https://rritaly.com/",
+    "bytes": 15956,
+    "title": "Research Radar Italy | Posizioni accademiche e grant in Italia",
+    "h1": [],
+    "canonical": "https://rritaly.com/",
+    "robots": [
+      {
+        "name": "robots",
+        "content": "index, follow"
+      },
+      {
+        "name": "googlebot",
+        "content": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      }
+    ],
+    "links_count": 0,
+    "internal_links": [],
+    "scripts": [
+      "/_next/static/chunks/fd9d1056-0807e69ea9c303ac.js",
+      "/_next/static/chunks/117-9f0efe1eace295f3.js",
+      "/_next/static/chunks/main-app-557385efcd74d923.js",
+      "/_next/static/chunks/815-62b862cfb6ffbdc3.js",
+      "/_next/static/chunks/649-fd231ce6a30a924f.js",
+      "/_next/static/chunks/app/page-b1e49e2774c675f5.js",
+      "/_next/static/chunks/app/layout-dddc06a3e5e47271.js",
+      "/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "/_next/static/chunks/webpack-c81f7fd28659d64f.js"
+    ],
+    "last_modified": "Fri, 04 Sep 2026 11:42:29 GMT"
+  },
+  {
+    "url": "https://rritaly.com/robots.txt",
+    "status": 200,
+    "final_url": "https://rritaly.com/robots.txt",
+    "bytes": 176,
+    "title": "",
+    "h1": [],
+    "canonical": null,
+    "robots": [],
+    "links_count": 0,
+    "internal_links": [],
+    "scripts": [],
+    "last_modified": "Fri, 04 Sep 2026 11:42:29 GMT",
+    "body": "User-Agent: *\nAllow: /\nDisallow: /api/\nDisallow: /login\nDisallow: /signup\nDisallow: /auth/\nDisallow: /lists\n\nHost: https://rritaly.com\nSitemap: https://rritaly.com/sitemap.xml\n"
+  },
+  {
+    "url": "https://rritaly.com/sitemap.xml",
+    "status": 200,
+    "final_url": "https://rritaly.com/sitemap.xml",
+    "bytes": 137829,
+    "title": "",
+    "h1": [],
+    "canonical": null,
+    "robots": [],
+    "links_count": 0,
+    "internal_links": [],
+    "scripts": [],
+    "last_modified": "Fri, 04 Sep 2026 11:42:29 GMT",
+    "sitemap_urls": 750,
+    "trailing_slash_count": 0,
+    "future_lastmod": 11
+  },
+  {
+    "url": "https://rritaly.com/posizioni/",
+    "status": 200,
+    "final_url": "https://rritaly.com/posizioni/",
+    "bytes": 21598,
+    "title": "Posizioni accademiche aperte in Italia | Research Radar Italy | Research Radar Italy",
+    "h1": [],
+    "canonical": "https://rritaly.com/posizioni/",
+    "robots": [
+      {
+        "name": "robots",
+        "content": "index, follow"
+      },
+      {
+        "name": "googlebot",
+        "content": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      }
+    ],
+    "links_count": 0,
+    "internal_links": [],
+    "scripts": [
+      "/_next/static/chunks/fd9d1056-0807e69ea9c303ac.js",
+      "/_next/static/chunks/117-9f0efe1eace295f3.js",
+      "/_next/static/chunks/main-app-557385efcd74d923.js",
+      "/_next/static/chunks/815-62b862cfb6ffbdc3.js",
+      "/_next/static/chunks/649-fd231ce6a30a924f.js",
+      "/_next/static/chunks/app/posizioni/page-33c92f23b09f2ea7.js",
+      "/_next/static/chunks/app/layout-dddc06a3e5e47271.js",
+      "/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "/_next/static/chunks/webpack-c81f7fd28659d64f.js"
+    ],
+    "last_modified": "Fri, 04 Sep 2026 11:42:29 GMT"
+  },
+  {
+    "url": "https://rritaly.com/funding/",
+    "status": 200,
+    "final_url": "https://rritaly.com/funding/",
+    "bytes": 14201,
+    "title": "Grants & Funding per ricerca in Italia | Research Radar Italy | Research Radar Italy",
+    "h1": [],
+    "canonical": "https://rritaly.com/funding/",
+    "robots": [
+      {
+        "name": "robots",
+        "content": "index, follow"
+      },
+      {
+        "name": "googlebot",
+        "content": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      }
+    ],
+    "links_count": 0,
+    "internal_links": [],
+    "scripts": [
+      "/_next/static/chunks/fd9d1056-0807e69ea9c303ac.js",
+      "/_next/static/chunks/117-9f0efe1eace295f3.js",
+      "/_next/static/chunks/main-app-557385efcd74d923.js",
+      "/_next/static/chunks/815-62b862cfb6ffbdc3.js",
+      "/_next/static/chunks/649-fd231ce6a30a924f.js",
+      "/_next/static/chunks/app/funding/page-2b1ccfe2ca272cbc.js",
+      "/_next/static/chunks/app/layout-dddc06a3e5e47271.js",
+      "/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "/_next/static/chunks/webpack-c81f7fd28659d64f.js"
+    ],
+    "last_modified": "Fri, 04 Sep 2026 11:42:29 GMT"
+  },
+  {
+    "url": "https://rritaly.com/posizioni/postdoc/",
+    "status": 200,
+    "final_url": "https://rritaly.com/posizioni/postdoc/",
+    "bytes": 37061,
+    "title": "Postdoc in Italia: posizioni e bandi aperti | Research Radar Italy",
+    "h1": [
+      "Posizioni postdoc in Italia"
+    ],
+    "canonical": "https://rritaly.com/posizioni/postdoc/",
+    "robots": [
+      {
+        "name": "robots",
+        "content": "index, follow"
+      },
+      {
+        "name": "googlebot",
+        "content": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      }
+    ],
+    "links_count": 19,
+    "internal_links": [
+      "/",
+      "/lists/",
+      "/",
+      "/?intent=posizioni&type=Postdoc",
+      "/positions/mur-postdoc-assignments-316480/",
+      "/positions/mur-postdoc-assignments-316481/",
+      "/positions/mur-postdoc-assignments-316482/",
+      "/positions/mur-postdoc-assignments-316760/",
+      "/positions/mur-postdoc-assignments-316725/",
+      "/positions/mur-postdoc-assignments-316727/",
+      "/positions/mur-postdoc-assignments-316728/",
+      "/positions/mur-postdoc-assignments-316730/",
+      "/?intent=posizioni&type=Postdoc",
+      "/posizioni/dottorati/",
+      "/posizioni/contratti-di-ricerca/",
+      "/posizioni/ricercatori-tempo-determinato/",
+      "/funding/prin/",
+      "/funding/msca/",
+      "/funding/erc/"
+    ],
+    "scripts": [
+      "/_next/static/chunks/fd9d1056-0807e69ea9c303ac.js",
+      "/_next/static/chunks/117-9f0efe1eace295f3.js",
+      "/_next/static/chunks/main-app-557385efcd74d923.js",
+      "/_next/static/chunks/815-62b862cfb6ffbdc3.js",
+      "/_next/static/chunks/app/(seo)/%5B...slug%5D/page-aa8294116d3d0b64.js",
+      "/_next/static/chunks/app/layout-dddc06a3e5e47271.js",
+      "/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "/_next/static/chunks/webpack-c81f7fd28659d64f.js"
+    ],
+    "last_modified": "Fri, 04 Sep 2026 11:42:29 GMT"
+  },
+  {
+    "url": "https://rritaly.com/funding/prin/",
+    "status": 200,
+    "final_url": "https://rritaly.com/funding/prin/",
+    "bytes": 24875,
+    "title": "Bandi PRIN: call e scadenze | Research Radar Italy",
+    "h1": [
+      "Bandi PRIN e finanziamenti per la ricerca"
+    ],
+    "canonical": "https://rritaly.com/funding/prin/",
+    "robots": [
+      {
+        "name": "robots",
+        "content": "index, follow"
+      },
+      {
+        "name": "googlebot",
+        "content": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      }
+    ],
+    "links_count": 11,
+    "internal_links": [
+      "/",
+      "/lists/",
+      "/",
+      "/?intent=bandi&program=PRIN",
+      "/?intent=bandi&program=PRIN",
+      "/posizioni/dottorati/",
+      "/posizioni/postdoc/",
+      "/posizioni/contratti-di-ricerca/",
+      "/posizioni/ricercatori-tempo-determinato/",
+      "/funding/msca/",
+      "/funding/erc/"
+    ],
+    "scripts": [
+      "/_next/static/chunks/fd9d1056-0807e69ea9c303ac.js",
+      "/_next/static/chunks/117-9f0efe1eace295f3.js",
+      "/_next/static/chunks/main-app-557385efcd74d923.js",
+      "/_next/static/chunks/815-62b862cfb6ffbdc3.js",
+      "/_next/static/chunks/app/(seo)/%5B...slug%5D/page-aa8294116d3d0b64.js",
+      "/_next/static/chunks/app/layout-dddc06a3e5e47271.js",
+      "/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "/_next/static/chunks/webpack-c81f7fd28659d64f.js"
+    ],
+    "last_modified": "Fri, 04 Sep 2026 11:42:29 GMT"
+  },
+  {
+    "url": "https://rritaly.com/positions/mur-technologists-151225/",
+    "status": 200,
+    "final_url": "https://rritaly.com/positions/mur-technologists-151225/",
+    "bytes": 23827,
+    "title": "Tecnologo - Università degli Studi di Catania | Research Radar Italy",
+    "h1": [
+      "Progetto \"FANDEMIA - Un approccio multimodale per il riconoscimento delle fake news: stilistica, sociolinguistica e Intelligenza Artificiale\", finanziato dal MUR sul Fondo Italiano per la Scienza 2024-2025 (Bando FIS3) - CUP E53C25002570001"
+    ],
+    "canonical": "https://rritaly.com/positions/mur-technologists-151225/",
+    "robots": [],
+    "links_count": 4,
+    "internal_links": [
+      "/",
+      "/lists/",
+      "/?intent=posizioni"
+    ],
+    "scripts": [
+      "/_next/static/chunks/fd9d1056-0807e69ea9c303ac.js",
+      "/_next/static/chunks/117-9f0efe1eace295f3.js",
+      "/_next/static/chunks/main-app-557385efcd74d923.js",
+      "/_next/static/chunks/815-62b862cfb6ffbdc3.js",
+      "/_next/static/chunks/app/positions/%5Bid%5D/page-ccd22b0b3b6344d4.js",
+      "/_next/static/chunks/app/layout-dddc06a3e5e47271.js",
+      "/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "/_next/static/chunks/webpack-c81f7fd28659d64f.js"
+    ],
+    "last_modified": "Fri, 04 Sep 2026 11:42:29 GMT"
+  },
+  {
+    "url": "https://rritaly.com/positions/mur-doctorates-296467/",
+    "status": 200,
+    "final_url": "https://rritaly.com/positions/mur-doctorates-296467/",
+    "bytes": 22442,
+    "title": "PhD - CONSERVATORIO DI MUSICA DI MILANO | Research Radar Italy",
+    "h1": [
+      "Corso di Dottorato di ricerca in Musica, arti performative e STEM XLII ciclo - A.A. 2026/2027"
+    ],
+    "canonical": "https://rritaly.com/positions/mur-doctorates-296467/",
+    "robots": [],
+    "links_count": 4,
+    "internal_links": [
+      "/",
+      "/lists/",
+      "/?intent=posizioni"
+    ],
+    "scripts": [
+      "/_next/static/chunks/fd9d1056-0807e69ea9c303ac.js",
+      "/_next/static/chunks/117-9f0efe1eace295f3.js",
+      "/_next/static/chunks/main-app-557385efcd74d923.js",
+      "/_next/static/chunks/815-62b862cfb6ffbdc3.js",
+      "/_next/static/chunks/app/positions/%5Bid%5D/page-ccd22b0b3b6344d4.js",
+      "/_next/static/chunks/app/layout-dddc06a3e5e47271.js",
+      "/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "/_next/static/chunks/webpack-c81f7fd28659d64f.js"
+    ],
+    "last_modified": "Fri, 04 Sep 2026 11:42:29 GMT"
+  },
+  {
+    "url": "https://rritaly.com/rr-audit-missing-page-20260905/",
+    "status": 404,
+    "final_url": "https://rritaly.com/rr-audit-missing-page-20260905/",
+    "bytes": 13341,
+    "title": "404: This page could not be found.Research Radar Italy | Posizioni accademiche e grant in Italia",
+    "h1": [
+      "404"
+    ],
+    "canonical": null,
+    "robots": [
+      {
+        "name": "robots",
+        "content": "noindex"
+      },
+      {
+        "name": "robots",
+        "content": "index, follow"
+      },
+      {
+        "name": "googlebot",
+        "content": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      }
+    ],
+    "links_count": 0,
+    "internal_links": [],
+    "scripts": [
+      "/_next/static/chunks/fd9d1056-0807e69ea9c303ac.js",
+      "/_next/static/chunks/117-9f0efe1eace295f3.js",
+      "/_next/static/chunks/main-app-557385efcd74d923.js",
+      "/_next/static/chunks/app/layout-dddc06a3e5e47271.js",
+      "/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "/_next/static/chunks/webpack-c81f7fd28659d64f.js"
+    ],
+    "last_modified": null
+  },
+  {
+    "url": "http://rritaly.com/",
+    "status": 200,
+    "final_url": "https://rritaly.com/",
+    "bytes": 15956,
+    "title": "Research Radar Italy | Posizioni accademiche e grant in Italia",
+    "h1": [],
+    "canonical": "https://rritaly.com/",
+    "robots": [
+      {
+        "name": "robots",
+        "content": "index, follow"
+      },
+      {
+        "name": "googlebot",
+        "content": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      }
+    ],
+    "links_count": 0,
+    "internal_links": [],
+    "scripts": [
+      "/_next/static/chunks/fd9d1056-0807e69ea9c303ac.js",
+      "/_next/static/chunks/117-9f0efe1eace295f3.js",
+      "/_next/static/chunks/main-app-557385efcd74d923.js",
+      "/_next/static/chunks/815-62b862cfb6ffbdc3.js",
+      "/_next/static/chunks/649-fd231ce6a30a924f.js",
+      "/_next/static/chunks/app/page-b1e49e2774c675f5.js",
+      "/_next/static/chunks/app/layout-dddc06a3e5e47271.js",
+      "/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "/_next/static/chunks/webpack-c81f7fd28659d64f.js"
+    ],
+    "last_modified": "Fri, 04 Sep 2026 11:42:29 GMT"
+  },
+  {
+    "url": "https://www.rritaly.com/",
+    "status": 200,
+    "final_url": "https://rritaly.com/",
+    "bytes": 15956,
+    "title": "Research Radar Italy | Posizioni accademiche e grant in Italia",
+    "h1": [],
+    "canonical": "https://rritaly.com/",
+    "robots": [
+      {
+        "name": "robots",
+        "content": "index, follow"
+      },
+      {
+        "name": "googlebot",
+        "content": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      }
+    ],
+    "links_count": 0,
+    "internal_links": [],
+    "scripts": [
+      "/_next/static/chunks/fd9d1056-0807e69ea9c303ac.js",
+      "/_next/static/chunks/117-9f0efe1eace295f3.js",
+      "/_next/static/chunks/main-app-557385efcd74d923.js",
+      "/_next/static/chunks/815-62b862cfb6ffbdc3.js",
+      "/_next/static/chunks/649-fd231ce6a30a924f.js",
+      "/_next/static/chunks/app/page-b1e49e2774c675f5.js",
+      "/_next/static/chunks/app/layout-dddc06a3e5e47271.js",
+      "/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "/_next/static/chunks/webpack-c81f7fd28659d64f.js"
+    ],
+    "last_modified": "Fri, 04 Sep 2026 11:42:29 GMT"
+  }
+]

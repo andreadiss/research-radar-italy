@@ -1,0 +1,104 @@
+{
+  "checkedAt": "2026-09-05T07:18:38.794Z",
+  "asOf": "2026-09-05",
+  "positions": {
+    "total": 729,
+    "openByDeadline": 696,
+    "archived": 0,
+    "expired": 33,
+    "byType": {
+      "Tecnologo": 8,
+      "RTT": 182,
+      "Contratto di ricerca": 33,
+      "Incarico di ricerca": 189,
+      "Postdoc": 68,
+      "PhD": 198,
+      "Professore II fascia": 34,
+      "Professore I fascia": 17
+    },
+    "reviewStatus": {
+      "auto_published": 508,
+      "needs_review": 221
+    }
+  },
+  "grants": {
+    "total": 11,
+    "available": 6,
+    "byStatus": {
+      "open": 5,
+      "closed": 3,
+      "upcoming": 1,
+      "source_monitoring": 2
+    }
+  },
+  "errors": [],
+  "warningCounts": {
+    "past_deadline_retained": 36,
+    "requirements_not_extracted": 332,
+    "possible_duplicate_requires_review": 77,
+    "generic_title": 132,
+    "unknown_region": 17,
+    "generic_institution": 5,
+    "unknown_discipline": 1,
+    "future_publication_date": 5
+  },
+  "limitations": [
+    "Offline validation; source availability and deadline changes require a separate official-source check.",
+    "Possible duplicates are review candidates, not confirmed duplicates. No records are deleted.",
+    "Record modification time is not proof of the latest successful source check."
+  ],
+  "warningExamples": {
+    "past_deadline_retained": [
+      "mur-technologists-151225",
+      "mur-technologists-151243",
+      "mur-fixed-term-researchers-151185",
+      "mur-fixed-term-researchers-151186",
+      "mur-fixed-term-researchers-150776"
+    ],
+    "requirements_not_extracted": [
+      "mur-technologists-151225",
+      "mur-technologists-151243",
+      "mur-fixed-term-researchers-151185",
+      "mur-fixed-term-researchers-151186",
+      "mur-research-contracts-315975"
+    ],
+    "possible_duplicate_requires_review": [
+      "mur-fixed-term-researchers-151283",
+      "mur-fixed-term-researchers-151114",
+      "mur-fixed-term-researchers-151805",
+      "mur-fixed-term-researchers-151810",
+      "mur-fixed-term-researchers-151824"
+    ],
+    "generic_title": [
+      "mur-research-assignments-315301",
+      "mur-research-assignments-315768",
+      "mur-research-assignments-315818",
+      "mur-research-assignments-315829",
+      "mur-research-assignments-315925"
+    ],
+    "unknown_region": [
+      "mur-research-assignments-316420",
+      "mur-research-contracts-315757",
+      "mur-postdoc-assignments-315760",
+      "mur-professor-calls-151184",
+      "mur-doctorates-315377"
+    ],
+    "generic_institution": [
+      "mur-research-assignments-316420",
+      "mur-postdoc-assignments-316011",
+      "mur-doctorates-316005",
+      "mur-research-assignments-316662",
+      "mur-postdoc-assignments-316462"
+    ],
+    "unknown_discipline": [
+      "mur-doctorates-316022"
+    ],
+    "future_publication_date": [
+      "mur-research-assignments-316767",
+      "mur-research-assignments-316703",
+      "mur-research-contracts-316762",
+      "mur-research-contracts-316763",
+      "mur-research-contracts-316765"
+    ]
+  }
+}

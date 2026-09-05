@@ -2,6 +2,7 @@ import { createHash, randomUUID } from "node:crypto";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { spawnSync } from "node:child_process";
 import { normalizeRecords } from "./mur-normalize.mjs";
+import { reconcilePositions } from "./reconcile-positions.mjs";
 
 const args = new Map(
   process.argv
@@ -36,7 +37,7 @@ if (!skipFetch) {
 const latest = JSON.parse(await readFile(rawPath, "utf8"));
 const fetchedRecords = latest.results ?? [];
 const previousSourceRecords = await readJson(`${storeDir}/source-records.json`, []);
-const previousPositions = await readJson(`${storeDir}/positions.json`, []);
+const previousPositions = await readJson(cachePath, []);
 const previousRuns = await readJson(`${storeDir}/import-runs.json`, []);
 
 const sourceRecordsByKey = new Map(previousSourceRecords.map((record) => [sourceRecordKey(record), record]));
@@ -75,13 +76,10 @@ const allSourceRecords = Array.from(sourceRecordsByKey.values()).sort((a, b) =>
 
 const currentSourceRecords = allSourceRecords.filter((record) => record.lastSeenAt === startedAt);
 const normalizedPositions = normalizeRecords(currentSourceRecords.map((record) => record.normalizedSnapshot));
-const previousPositionMap = new Map(previousPositions.map((position) => [position.id, position]));
-const allPositions = normalizedPositions
-  .map((position) => cleanPosition({
-    ...previousPositionMap.get(position.id),
-    ...position,
-    updatedAt: startedAt
-  }, position))
+const allPositions = reconcilePositions(previousPositions, normalizedPositions, {
+  fullSync: limit === "all",
+  checkedAt: startedAt
+})
   .sort((a, b) => String(a.deadline).localeCompare(String(b.deadline)));
 
 const importRun = {
