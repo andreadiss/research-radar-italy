@@ -22,3 +22,15 @@ Pubblicazione completata: commit applicativo `35d60e50bf0c394ce7a07e4930c61d7289
 - Deploy del commit aff74ff sostituito dal sync concorrente bac09e2 (che conserva aff74ff come parent). Run 33957273977 concluso con successo; HTTP homepage 200, brand e H1 presenti.
 - Osservati 404 temporanei durante pubblicazioni concorrenti. OPS-025 aggiunto: indagare flusso Pages dinamico e workflow statico. Rimossa esclusione docs dal deploy affinché anche gli aggiornamenti documentali attivino la pubblicazione statica; questa salvaguardia non certifica risolta la causa dei 404.
 - Token effettivi non accessibili; durata operativa registrata, nessuna conversione tempo/token.
+
+
+## Mini sessione extra 2026-09-05 — autorizzata esplicitamente dall’utente
+
+- Avvio 11:19 Europe/Rome; massimo 30 minuti. Eccezione richiesta dall’utente, nessuna variazione alla ricorrenza giornaliera.
+- Microtask: [x] diagnosi 404; [x] controllo live esteso; [x] verifica e correzione FANDEMIA; [x] test e audit dati; [ ] cambiare Pages Source (accesso admin necessario).
+- Evidenza P0: run dinamico 33957444089, job build 101283225613, step `Build with Jekyll`, input `source: ./docs`, destinazione `./docs/_site`. Il suo job deploy 101283272372 pubblica quell’artefatto; in parallelo il workflow Next.js pubblica `out`. Questo conflitto spiega i 404 osservati e può ripresentarsi.
+- Rimedio raccomandato: repository Settings → Pages → Build and deployment → Source → GitHub Actions. Costo €0, stesso dominio/hosting/workflow, nessuna migrazione; rollback alla precedente selezione disponibile ma ripristinerebbe il conflitto. Impostazione non modificata: capacità amministrativa non esposta dal connector GitHub.
+- Salvaguardia aggiunta: `scripts/verify-live.py` controlla H1/canonical dei 4 percorsi principali, collegamenti indice→schede, sitemap valida e una scheda per posizioni/grant. Timeout e retry limitati; gate nel job deploy. È rilevazione del problema, non soluzione alla configurazione concorrente.
+- Correzione puntuale `mur-technologists-151225`: fonte https://bandi.mur.gov.it/tecno.php/public/job/id_job/151225 consultata il 5 settembre. Titolo indica MUR/Fondo Italiano per la Scienza FIS3; campo Marie Curie Actions=No. Funding MSCA→MUR, updatedAt aggiornato; archivio, deadline, URL e tutti gli altri dati conservati. Nessun contatto/email copiato.
+- Test locali 7/7; audit dati 0 errori. Cache dopo sync precedente: 750 record, 717 non scaduti, 33 archiviati, 232 da revisionare, 77 possibili duplicati. Non sono metriche di traffico o indicizzazione Google.
+- Residui prioritari: impostazione Pages; validare un campione di funding ancora MSCA; distinguere finanziatore verificato da fallback; GA4/GSC quando accessibili. Token effettivi non esposti.

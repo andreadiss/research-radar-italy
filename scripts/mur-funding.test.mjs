@@ -6,6 +6,7 @@ test("ignores programme names outside call content", () => {
   assert.equal(detectFundingFromFields({
     Titolo: "Progetto FANDEMIA finanziato MUR FIS 3",
     Menu: "ERC MSCA PRIN PNRR Horizon",
+    "Research Framework Programme / Marie Curie Actions": "No",
     "Organizzazione/Ente": "MSCA research office"
   }), "MUR");
 });
