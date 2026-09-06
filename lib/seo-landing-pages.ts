@@ -29,7 +29,7 @@ export const seoLandingPages: SeoLandingPage[] = [
     description: "Consulta bandi di dottorato e posizioni PhD aperte in Italia, con scadenze, universita, discipline e link alle fonti ufficiali MUR/Cineca.",
     intro: "Una vista aggiornata dei bandi di dottorato pubblicati dalle universita italiane. Confronta materia, sede e scadenza, poi verifica requisiti e modalita di candidatura nella fonte ufficiale.",
     filter: { type: "PhD" },
-    primaryHref: "/?intent=posizioni&type=PhD",
+    primaryHref: "/posizioni/?type=PhD",
     primaryLabel: "Vedi tutti i dottorati",
     guideTitle: "Come trovare il dottorato giusto",
     guide: [
@@ -54,7 +54,7 @@ export const seoLandingPages: SeoLandingPage[] = [
     description: "Trova posizioni postdoc aperte in Italia per disciplina, universita e scadenza, con collegamento diretto ai bandi ufficiali.",
     intro: "Esplora incarichi postdoc e opportunita di ricerca dopo il dottorato. Ogni scheda sintetizza i dati utili per una prima valutazione e mantiene il link alla fonte ufficiale.",
     filter: { type: "Postdoc" },
-    primaryHref: "/?intent=posizioni&type=Postdoc",
+    primaryHref: "/posizioni/?type=Postdoc",
     primaryLabel: "Vedi tutti i postdoc",
     guideTitle: "Cosa controllare prima di candidarsi",
     guide: [
@@ -79,7 +79,7 @@ export const seoLandingPages: SeoLandingPage[] = [
     description: "Consulta contratti di ricerca aperti nelle universita italiane con disciplina, SSD, sede, scadenza e fonte ufficiale MUR/Cineca.",
     intro: "Tutti i contratti di ricerca disponibili nel radar, organizzati per materia e collegati al bando ufficiale. Usa questa pagina per orientarti, poi controlla il testo integrale prima di candidarti.",
     filter: { type: "Contratto di ricerca" },
-    primaryHref: "/?intent=posizioni&type=Contratto+di+ricerca",
+    primaryHref: "/posizioni/?type=Contratto+di+ricerca",
     primaryLabel: "Vedi tutti i contratti",
     guideTitle: "Leggere un contratto di ricerca",
     guide: [
@@ -104,7 +104,7 @@ export const seoLandingPages: SeoLandingPage[] = [
     description: "Trova bandi RTT e posizioni da ricercatore a tempo determinato nelle universita italiane, filtrabili per disciplina e scadenza.",
     intro: "Una raccolta navigabile delle procedure per ricercatori a tempo determinato, con dati essenziali normalizzati e accesso diretto alla fonte ufficiale.",
     filter: { type: "RTT" },
-    primaryHref: "/?intent=posizioni&type=RTT",
+    primaryHref: "/posizioni/?type=RTT",
     primaryLabel: "Vedi tutti i bandi RTT",
     guideTitle: "Valutare una posizione RTT",
     guide: [
@@ -135,7 +135,7 @@ function fundingPage(slug: string, shortLabel: string, title: string, metaTitle:
     description,
     intro: `Segui le call ${program} presenti nel radar e accedi rapidamente alla fonte ufficiale per documenti, scadenze, budget ed eligibility.`,
     filter: { program },
-    primaryHref: `/?intent=bandi&program=${program}`,
+    primaryHref: `/funding/?program=${program}`,
     primaryLabel: `Vedi le call ${program}`,
     guideTitle: `Orientarsi nelle call ${program}`,
     guide: [
