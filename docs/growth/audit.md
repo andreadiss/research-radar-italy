@@ -2,6 +2,12 @@
 Data: 6 settembre 2026. Repository analizzato: bb6ed27815f2c6ca93efb2e5fbe5b561220f058f.
 Audit tecnico e pubblico eseguito; baseline privata, Core Web Vitals e verifica mobile interattiva ancora da completare. Nessuna stima di traffico sostituisce i dati mancanti.
 
+## Aggiornamento post-deploy — 7 settembre 2026
+- La PR #1 è stata mergiata il 6 settembre nel commit e325c3315d495f861cf1ebeb3341938ccf5e6352; `main` è poi avanzato con il solo aggiornamento automatico del dataset MUR c1f9c98b41632d0ab33b127bc03b049a567b7aa5.
+- Nessuna PR è aperta. Produzione verificata: home, landing Postdoc, landing MSCA e destinazioni filtrate rispondono HTTP 200.
+- Le due CTA Postdoc puntano a `/posizioni/?type=Postdoc`; le due CTA MSCA puntano a `/funding/?program=MSCA`. Le landing mantengono canonical univoci corretti.
+- GSC, finestra 8 agosto–4 settembre: 11 impression, 0 click, CTR 0%, posizione media 15,73. Finestra 29 agosto–4 settembre: 7 impression, 0 click, posizione 13,29. Dati maturi fino al 5 settembre; finestre mobili, nessuna crescita attribuita alla PR.
+
 ## Executive summary
 1. Homepage e percorsi core rispondono; HTTPS e redirect da HTTP e www convergono su https://rritaly.com/.
 2. robots.txt, sitemap, manifest, favicon e immagine OpenGraph rispondono HTTP 200. Una URL inesistente restituisce 404.
@@ -9,7 +15,7 @@ Audit tecnico e pubblico eseguito; baseline privata, Core Web Vitals e verifica 
 4. Stack confermato: Next.js 14.2.35 installato dal lockfile, TypeScript, export statico, GitHub Pages. Il sync MUR prevede già persistenza Supabase; disponibilità, piano e costi non verificati.
 5. Esistono già sette landing SEO, indice paginato, schede permanenti, link correlati e structured data. Evitare di ricreare funzionalità già presenti.
 6. HTML iniziale e browser idratato differiscono dopo il cambio di giorno: 717 contro 711 posizioni; Postdoc 63 contro 61. Lo stato statico resta quello della build.
-7. Le CTA delle landing utilizzano vecchie URL della homepage con intent; il filtro funziona, ma titolo e canonical restano della home. Primo intervento: puntarle alle sezioni esistenti conservando i filtri.
+7. Le CTA delle landing utilizzavano vecchie URL della homepage con intent. Correzione completata e verificata in produzione il 7 settembre: puntano alle sezioni esistenti conservando i filtri.
 8. Qualità contenuti: audit locale su 750 posizioni segnala 350 requisiti non estratti, 140 titoli generici e 217 record needs_review. Segnalazioni su tutto il dataset, non soltanto bandi aperti; possono sovrapporsi.
 9. Analytics richiede verifica: inizializzazione con send_page_view:false e un effetto che può terminare se gtag non è pronto; assenza di retry. Rischio di pageview mancanti/duplicati da verificare con configurazione GA4 e DebugView, non guasto misurato.
 10. Nessuna crescita dimostrata. A/B test rinviati finché volume e attendibilità del tracking non sono noti.
