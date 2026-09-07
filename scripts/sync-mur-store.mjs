@@ -16,6 +16,7 @@ const limit = args.get("limit") ?? "10";
 const rawPath = args.get("raw") ?? "data/mur-latest.json";
 const storeDir = args.get("store") ?? "data/store";
 const cachePath = args.get("cache") ?? "lib/generated/mur-positions.json";
+const checkStatusPath = args.get("check-status") ?? "lib/generated/mur-check-status.json";
 const skipFetch = args.get("skip-fetch") === "true";
 const persist = args.get("persist") ?? "local";
 const startedAt = new Date().toISOString();
@@ -112,6 +113,12 @@ if (persist === "supabase") {
   if (result.status !== 0) {
     throw new Error(`Supabase persistence failed with exit code ${result.status}`);
   }
+}
+
+// Only a complete, live import with successful persistence certifies freshness.
+// Replaying a local fixture or a limited import must preserve the previous check.
+if (!skipFetch && limit === "all") {
+  await writeJson(checkStatusPath, { lastSuccessfulCheckAt: new Date().toISOString() });
 }
 
 console.log(`Fetched ${fetchedRecords.length} records`);

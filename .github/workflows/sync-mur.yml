@@ -44,7 +44,7 @@ jobs:
       - name: Check for generated position updates
         id: changes
         run: |
-          if git diff --quiet -- lib/generated/mur-positions.json; then
+          if git diff --quiet -- lib/generated/mur-positions.json lib/generated/mur-check-status.json; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
@@ -59,7 +59,7 @@ jobs:
         run: |
           git config user.name "research-radar-bot"
           git config user.email "actions@github.com"
-          git add lib/generated/mur-positions.json
+          git add lib/generated/mur-positions.json lib/generated/mur-check-status.json
           git commit -m "Update MUR positions cache"
           git pull --rebase origin main
           git push
