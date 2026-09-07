@@ -1,5 +1,7 @@
 # Daily log
 
+2026-09-07 — Aggiornamento semantica badge richiesto dall'utente: “Dati MUR” con data corrente lato browser, timezone Europa/Roma. La distinzione rispetto alla freshness effettiva sarà oggetto di usability test.
+
 Aggiornamento 7 settembre 2026 — Preparata correzione ultimo controllo MUR su main 0ccc595. 33 test passati (inclusi invarianti su timestamp), build production 807 route, TypeScript OK, audit dati 0 errori, audit statico 802 HTML e 0 link rotti/orfani. PR/deploy da verificare; nessun nuovo controllo live MUR eseguito.
 
 
