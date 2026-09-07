@@ -1,5 +1,8 @@
 # Daily log
 
+Aggiornamento 7 settembre 2026 — Preparata correzione ultimo controllo MUR su main 0ccc595. 33 test passati (inclusi invarianti su timestamp), build production 807 route, TypeScript OK, audit dati 0 errori, audit statico 802 HTML e 0 link rotti/orfani. PR/deploy da verificare; nessun nuovo controllo live MUR eseguito.
+
+
 2026-09-06 — Audit iniziale e correzione CTA SEO (LOW RISK).
 PR: https://github.com/andreadiss/research-radar-italy/pull/1
 Modifica: 5 definizioni URL, 7 landing, 14 CTA. Build static 807 route; TypeScript OK; 32 test OK; audit dati 0 errori; audit static 802 HTML, 0 broken link, 0 orphan sitemap. Verificati nel browser filtri Postdoc (61) e MSCA (2) e canonical delle sezioni. Stato al commit: PR pronta, preview in corso; merge e verifica finale produzione da registrare nel report di sessione. Baseline privata e mobile/CWV incompleti. Prossimo task: baseline GA4/GSC e diagnosi pageview. Nessuna crescita misurata.

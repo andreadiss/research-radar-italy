@@ -1,4 +1,7 @@
 # Research Radar Italy — Audit iniziale
+
+Aggiornamento 7 settembre 2026 — Il badge usava max(updatedAt), non l'ultimo controllo. Il run 34110861661 del 7 settembre è fallito con HTTP 502 MUR. Separare controllo riuscito e modifica delle schede.
+
 Data: 6 settembre 2026. Repository analizzato: bb6ed27815f2c6ca93efb2e5fbe5b561220f058f.
 Audit tecnico e pubblico eseguito; baseline privata, Core Web Vitals e verifica mobile interattiva ancora da completare. Nessuna stima di traffico sostituisce i dati mancanti.
 

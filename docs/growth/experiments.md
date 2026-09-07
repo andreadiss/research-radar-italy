@@ -1,4 +1,7 @@
 ## Experiment opportunities
+
+Aggiornamento 7 settembre 2026 — Semantica ultimo controllo: correzione funzionale richiesta, non A/B test. Verificare avanzamento a import completo riuscito e conservazione su errore/controllo parziale; nessuna ipotesi di crescita misurata.
+
 Al massimo cinque, tutti senza piattaforme a pagamento:
 1. CTA canoniche — **shipped 6 settembre, guardrail tecnici verificati 7 settembre**: eliminato il passaggio dalla homepage; 14 CTA delle sette landing puntano alle sezioni corrette. Campione live Postdoc/MSCA: URL e canonical corretti, nessun 404. Outcome non ancora valutabile; osservazione 28 giorni, senza inferenza causale con volume attuale.
 2. Titoli specifici su 3–5 schede: CTR GSC per pagine interessate; guardrail accuratezza; prima/dopo 28 giorni, solo con impression sufficienti. Non avviato.

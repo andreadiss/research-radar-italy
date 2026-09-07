@@ -1,4 +1,7 @@
 ## Baseline
+
+Aggiornamento 7 settembre 2026 — Baseline controllo verificata: 2026-09-06T09:31:24Z, fine step Sync all open MUR positions, run https://github.com/andreadiss/research-radar-italy/actions/runs/34024680219. Non è una nuova scansione; nessuna nuova metrica traffico estratta.
+
 Periodi da estrarre secondo timezone della proprietà, escludendo oggi:
 - 7 giorni: 30 agosto–5 settembre; confronto 23–29 agosto 2026.
 - 28 giorni: 9 agosto–5 settembre; confronto 12 luglio–8 agosto 2026.

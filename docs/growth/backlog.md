@@ -1,4 +1,7 @@
 ## Prioritized backlog
+
+Aggiornamento 7 settembre 2026 — Correzione richiesta dall'utente: timestamp ultimo controllo MUR riuscito. Impact medio, Confidence alta, Effort piccolo, Risk basso; PR in preparazione. Retry degli errori MUR fuori da questa modifica.
+
 Tutti i task proposti usano strumenti esistenti; costo previsto €0, senza garanzia sui piani già attivi.
 | Priorità | Task | Impact | Confidence | Effort | Risk | KPI |
 |---|---|---|---|---|---|---|
