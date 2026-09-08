@@ -2,6 +2,7 @@ import { extractCallTitles } from "./mur-titles.mjs";
 import { extractTableFields, normalizeLabel, stripHtml, decodeHtml } from "./mur-html.mjs";
 import { writeFile, mkdir } from "node:fs/promises";
 import { detectFundingFromFields } from "./mur-funding.mjs";
+import { fetchTextWithRetry } from "./fetch-text.mjs";
 
 const BASE_URL = "https://bandi.mur.gov.it";
 
@@ -190,18 +191,12 @@ async function buildSearchUrl(category, statusValue) {
 }
 
 async function fetchText(url) {
-  const response = await fetch(url, {
+  return fetchTextWithRetry(url, {
     headers: {
       "user-agent": "ResearchRadarItalyMVP/0.1 (+https://example.local)",
       accept: "text/html,application/xhtml+xml"
     }
   });
-
-  if (!response.ok) {
-    throw new Error(`Failed ${response.status} ${response.statusText}: ${url}`);
-  }
-
-  return response.text();
 }
 
 function extractSearchForm(html) {

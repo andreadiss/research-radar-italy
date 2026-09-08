@@ -1,5 +1,7 @@
 # Daily log
 
+2026-09-08 — Verificata live PR #5: badge client “Dati MUR 8 set”. GSC consolidata al 5 settembre: 17 impression/3 clic/posizione 11 su 28 giorni; 13 impression/3 clic/posizione 8,23 su 7 giorni, senza attribuzione causale. Preparato retry MUR per errori transitori: 37 test, build production 806 route, TypeScript OK, audit dati 0 errori, audit statico 801 HTML/707 sitemap/0 link rotti-orfani. PR/deploy da registrare dopo verifica.
+
 2026-09-07 — Aggiornamento semantica badge richiesto dall'utente: “Dati MUR” con data corrente lato browser, timezone Europa/Roma. La distinzione rispetto alla freshness effettiva sarà oggetto di usability test.
 
 Aggiornamento 7 settembre 2026 — Preparata correzione ultimo controllo MUR su main 0ccc595. 33 test passati (inclusi invarianti su timestamp), build production 807 route, TypeScript OK, audit dati 0 errori, audit statico 802 HTML e 0 link rotti/orfani. PR/deploy da verificare; nessun nuovo controllo live MUR eseguito.
