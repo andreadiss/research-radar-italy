@@ -1,5 +1,7 @@
 # Research Radar Italy — Audit iniziale
 
+Aggiornamento 8 settembre 2026 — Il badge della PR #5 è verificato live nel browser come “Dati MUR 8 set”. Il sync MUR del 7 settembre è fallito su HTTP 502 del portale sorgente; un singolo errore transitorio interrompe oggi l'intero import. Build al giorno corrente: 663 posizioni aperte per scadenza, 87 scadute, 707 URL sitemap, 0 link rotti/orfani.
+
 Aggiornamento 7 settembre 2026 — Il badge usava max(updatedAt), non l'ultimo controllo. Il run 34110861661 del 7 settembre è fallito con HTTP 502 MUR. Separare controllo riuscito e modifica delle schede.
 
 Data: 6 settembre 2026. Repository analizzato: bb6ed27815f2c6ca93efb2e5fbe5b561220f058f.

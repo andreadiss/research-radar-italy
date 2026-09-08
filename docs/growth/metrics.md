@@ -1,5 +1,9 @@
 ## Baseline
 
+Aggiornamento GSC 8 settembre 2026, dati consolidati fino al 5 settembre: 9 agosto–5 settembre **17 impression, 3 clic, CTR 17,65%, posizione 11**; 30 agosto–5 settembre **13 impression, 3 clic, CTR 23,08%, posizione 8,23**. Volumi troppo piccoli e finestre sovrapposte: nessuna attribuzione causale alle modifiche. GA4 non estratto.
+
+Guardrail retry MUR: massimo 3 tentativi; retry solo per errori di rete e HTTP 429/5xx selezionati; HTTP 4xx permanenti falliscono subito; nessuna pubblicazione se tutti i tentativi falliscono.
+
 Aggiornamento 7 settembre 2026 — Baseline controllo verificata: 2026-09-06T09:31:24Z, fine step Sync all open MUR positions, run https://github.com/andreadiss/research-radar-italy/actions/runs/34024680219. Non è una nuova scansione; nessuna nuova metrica traffico estratta.
 
 Periodi da estrarre secondo timezone della proprietà, escludendo oggi:

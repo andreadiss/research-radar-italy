@@ -1,5 +1,7 @@
 ## Prioritized backlog
 
+Aggiornamento 8 settembre 2026 — In lavorazione retry limitato per HTTP 429/500/502/503/504 ed errori di rete nell'import MUR: Impact alto, Confidence alta, Effort piccolo, Risk basso. Nessun cambio a schedule, segreti, persistenza o servizi.
+
 Aggiornamento 7 settembre 2026 — Correzione richiesta dall'utente: timestamp ultimo controllo MUR riuscito. Impact medio, Confidence alta, Effort piccolo, Risk basso; PR in preparazione. Retry degli errori MUR fuori da questa modifica.
 
 Tutti i task proposti usano strumenti esistenti; costo previsto €0, senza garanzia sui piani già attivi.

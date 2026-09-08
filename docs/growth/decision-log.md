@@ -1,5 +1,7 @@
 # Decision log
 
+2026-09-08: introdurre nel solo client HTTP dell'import MUR fino a 3 tentativi con attese 1s/3s per rete, 429, 500, 502, 503 e 504. Non ritentare altri 4xx. Nessuna modifica a workflow, schedule, segreti, Supabase o Netlify. Se tutti i tentativi falliscono, il job resta fallito e non pubblica dati parziali.
+
 2026-09-07: su indicazione esplicita dell'utente, il badge espone “Dati MUR” con la data corrente in Europa/Roma. La comprensione del significato sarà verificata con un usability test; la data non rappresenta più l'ultimo controllo riuscito né l'ultima modifica delle schede.
 
 Aggiornamento 7 settembre 2026 — Su richiesta esplicita, il badge mostra l'ultimo controllo MUR completo riuscito, non max(updatedAt). File metadati separato; commit anche a schede invariate. Date schede, sitemap lastmod, schedule, permessi e persistenza invariati. Seed documentato dal run 34024680219, fine step riuscito al 6 settembre 09:31:24 UTC.
