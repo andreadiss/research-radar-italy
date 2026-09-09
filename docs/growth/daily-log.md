@@ -1,5 +1,7 @@
 # Daily log
 
+2026-09-09 — Verificato il precedente retry: sync MUR dell'8 settembre riuscito, ma nessuna evidenza che un retry sia stato necessario. Corretto il falso allarme freshness dell'audit: 662 warning per schede invariate → 0; fonte MUR fresh a 21,4 ore. GSC al 6 settembre: 17 impression/3 clic/posizione 11 su 28 giorni; 12 impression/3 clic/posizione 4 su 7 giorni, senza attribuzione. 40 test, build production 847 route, TypeScript OK, audit dati 0 errori, audit statico 842 HTML/709 sitemap/0 link rotti-orfani. PR e verifica live nel report di consegna.
+
 2026-09-08 — Verificata live PR #5: badge client “Dati MUR 8 set”. GSC consolidata al 5 settembre: 17 impression/3 clic/posizione 11 su 28 giorni; 13 impression/3 clic/posizione 8,23 su 7 giorni, senza attribuzione causale. Retry MUR per errori transitori shipped con PR #6 e deploy Pages riuscito: 37 test, build production 806 route, TypeScript OK, audit dati 0 errori, audit statico 801 HTML/707 sitemap/0 link rotti-orfani. Verifica live: home, posizioni, indice, funding, schede campione e sitemap OK nel job; Postdoc e badge 8 set ricontrollati nel browser.
 
 2026-09-07 — Aggiornamento semantica badge richiesto dall'utente: “Dati MUR” con data corrente lato browser, timezone Europa/Roma. La distinzione rispetto alla freshness effettiva sarà oggetto di usability test.

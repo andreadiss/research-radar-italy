@@ -1,5 +1,7 @@
 ## Prioritized backlog
 
+Aggiornamento 9 settembre 2026 — Correzione audit freshness: Impact medio, Confidence alta, Effort piccolo, Risk basso. Eliminati 662 falsi warning; la fonte è ora segnalata una sola volta solo oltre 48 ore dall'ultimo controllo completo riuscito.
+
 Aggiornamento 8 settembre 2026 — Fatto in PR #6: retry limitato per HTTP 429/500/502/503/504 ed errori di rete nell'import MUR. Impact alto, Confidence alta, Effort piccolo, Risk basso. Nessun cambio a schedule, segreti, persistenza o servizi.
 
 Aggiornamento 7 settembre 2026 — Correzione richiesta dall'utente: timestamp ultimo controllo MUR riuscito. Impact medio, Confidence alta, Effort piccolo, Risk basso; PR in preparazione. Retry degli errori MUR fuori da questa modifica.

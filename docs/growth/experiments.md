@@ -1,5 +1,7 @@
 ## Experiment opportunities
 
+Aggiornamento 9 settembre 2026 — La correzione freshness è un guardrail operativo, non un esperimento. Non si avviano test SEO: landing e schede restano senza impression visibili per pagina nel campione GSC consolidato.
+
 Aggiornamento 8 settembre 2026 — Il retry MUR è affidabilità operativa, non esperimento. Successo tecnico: recupero dopo errore transitorio senza duplicare o pubblicare import incompleti. Nessun effetto SEO dichiarato prima di osservazioni successive.
 
 Aggiornamento 7 settembre 2026 — Semantica ultimo controllo: correzione funzionale richiesta, non A/B test. Verificare avanzamento a import completo riuscito e conservazione su errore/controllo parziale; nessuna ipotesi di crescita misurata.
