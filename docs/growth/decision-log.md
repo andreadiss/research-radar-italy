@@ -1,5 +1,7 @@
 # Decision log
 
+2026-09-09: misurare freshness MUR a livello di fonte con `lastSuccessfulCheckAt`; non usare la modifica delle singole schede come prova di scansione. Soglia 48 ore, un solo warning di fonte quando stale; timestamp assente, futuro o malformato è errore. Nessuna modifica a dati, import, schedule, hosting o interfaccia.
+
 2026-09-08: introdurre nel solo client HTTP dell'import MUR fino a 3 tentativi con attese 1s/3s per rete, 429, 500, 502, 503 e 504. Non ritentare altri 4xx. Nessuna modifica a workflow, schedule, segreti, Supabase o Netlify. Se tutti i tentativi falliscono, il job resta fallito e non pubblica dati parziali.
 
 2026-09-07: su indicazione esplicita dell'utente, il badge espone “Dati MUR” con la data corrente in Europa/Roma. La comprensione del significato sarà verificata con un usability test; la data non rappresenta più l'ultimo controllo riuscito né l'ultima modifica delle schede.

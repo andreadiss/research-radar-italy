@@ -1,5 +1,9 @@
 ## Baseline
 
+Aggiornamento 9 settembre 2026 — GSC consolidata fino al 6 settembre: 10 agosto–6 settembre **17 impression, 3 clic, CTR 17,65%, posizione 11**; 31 agosto–6 settembre **12 impression, 3 clic, CTR 25%, posizione 4**. Tutti i clic visibili per pagina sono sulla home; le query mostrate non contengono i clic, coerentemente con anonimizzazione GSC. Nessuna attribuzione causale.
+
+Freshness operativa: ultimo controllo MUR riuscito `2026-09-08T09:47:24.871Z`; stato fresh a 21,4 ore. L'audit non usa più `updatedAt` delle schede come proxy del controllo fonte.
+
 Aggiornamento GSC 8 settembre 2026, dati consolidati fino al 5 settembre: 9 agosto–5 settembre **17 impression, 3 clic, CTR 17,65%, posizione 11**; 30 agosto–5 settembre **13 impression, 3 clic, CTR 23,08%, posizione 8,23**. Volumi troppo piccoli e finestre sovrapposte: nessuna attribuzione causale alle modifiche. GA4 non estratto.
 
 Guardrail retry MUR: massimo 3 tentativi; retry solo per errori di rete e HTTP 429/5xx selezionati; HTTP 4xx permanenti falliscono subito; nessuna pubblicazione se tutti i tentativi falliscono.

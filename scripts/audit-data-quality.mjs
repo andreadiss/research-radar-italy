@@ -1,8 +1,10 @@
 import { readFile, mkdir, writeFile } from "node:fs/promises";
 import { dirname } from "node:path";
+import { evaluateSourceFreshness } from "./source-freshness.mjs";
 
 const positions = JSON.parse(await readFile("lib/generated/mur-positions.json", "utf8"));
 const grants = JSON.parse(await readFile("lib/generated/grants.json", "utf8"));
+const murCheckStatus = JSON.parse(await readFile("lib/generated/mur-check-status.json", "utf8"));
 const now = new Date();
 const today = new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Rome", year: "numeric", month: "2-digit", day: "2-digit" }).format(now);
 const errors = [], warnings = [];
@@ -29,16 +31,19 @@ for (const [kind, items] of [["position", positions], ["grant", grants]]) {
     if (item.possibleDuplicateOf) issue("possible_duplicate_requires_review");
     for (const code of item.reviewReasons ?? []) if (code !== "possible_duplicate") issue(code);
     if (kind === "position" && item.requirements?.every((text) => /^https?:|^Requisiti indicati/.test(text))) issue("requirements_not_extracted");
-    if (item.updatedAt && now.getTime() - Date.parse(item.updatedAt) > 48 * 3600000 && !item.archivedAt) issue("record_not_updated_within_48h_check_source_freshness");
   }
 }
+const murFreshness = evaluateSourceFreshness(murCheckStatus.lastSuccessfulCheckAt, now);
+if (murFreshness.status === "invalid") errors.push({ kind: "source", id: "mur-cineca", code: "invalid_last_successful_check" });
+if (murFreshness.status === "stale") warnings.push({ kind: "source", id: "mur-cineca", code: "source_not_checked_within_48h" });
 const report = {
   checkedAt: now.toISOString(), asOf: today,
+  sourceFreshness: { mur: { lastSuccessfulCheckAt: murCheckStatus.lastSuccessfulCheckAt, ...murFreshness } },
   positions: { total: positions.length, openByDeadline: positions.filter((p) => !p.archivedAt && p.deadline >= today).length, archived: positions.filter((p) => p.archivedAt).length, expired: positions.filter((p) => p.deadline < today).length, byType: counts(positions, "positionType"), reviewStatus: counts(positions, "reviewStatus") },
   grants: { total: grants.length, available: grants.filter((g) => ["open", "upcoming"].includes(g.status) && g.deadline >= today).length, byStatus: counts(grants, "status") },
   errors, warnings,
   warningCounts: Object.fromEntries([...new Set(warnings.map((w) => w.code))].map((code) => [code, warnings.filter((w) => w.code === code).length])),
-  limitations: ["Offline validation; source availability and deadline changes require a separate official-source check.", "Possible duplicates are review candidates, not confirmed duplicates. No records are deleted.", "Record modification time is not proof of the latest successful source check."]
+  limitations: ["Offline validation; source availability and deadline changes require a separate official-source check.", "Possible duplicates are review candidates, not confirmed duplicates. No records are deleted.", "Source freshness uses the latest successful complete check; individual record modification times describe content changes only."]
 };
 const output = process.argv.find((arg) => arg.startsWith("--out="))?.slice(6) ?? "data/store/data-quality-report.json";
 await mkdir(dirname(output), { recursive: true });
