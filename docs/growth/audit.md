@@ -1,5 +1,7 @@
 # Research Radar Italy — Audit iniziale
 
+Aggiornamento 10 settembre 2026 — Main bbc6cd0 e nessuna PR aperta al controllo iniziale; ultimo deploy Pages 34347244711 riuscito. Home HTTP 200 e duplicazione del nome dell'ente riprodotta live nella scheda mur-postdoc-assignments-315906. Misurazione sul dataset: 106/838 titoli metadata aggiungono inutilmente l'ente già presente come suffisso. Correzione conservativa sul titolo già troncato, senza cambiare schede, URL, canonical, indicizzazione o date. Test 44/44, build 892 route, TypeScript, audit dati 0 errori e audit statico 887 HTML/667 sitemap/0 link rotti-orfani superati. Nessun incremento traffico dimostrato.
+
 Aggiornamento 9 settembre 2026 — Il sync MUR dell'8 settembre è riuscito: 704 record correnti e 791 posizioni complessive persistite, build e deploy riusciti. L'audit freshness generava 662 falsi warning usando `updatedAt` delle singole schede; corretto per usare `lastSuccessfulCheckAt` della fonte. Risultato: MUR fresh, età 21,4 ore al controllo, 0 warning freshness.
 
 Aggiornamento 8 settembre 2026 — Il badge della PR #5 è verificato live nel browser come “Dati MUR 8 set”. Il sync MUR del 7 settembre è fallito su HTTP 502 del portale sorgente; un singolo errore transitorio interrompe oggi l'intero import. Build al giorno corrente: 663 posizioni aperte per scadenza, 87 scadute, 707 URL sitemap, 0 link rotti/orfani.

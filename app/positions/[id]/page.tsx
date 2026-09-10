@@ -7,6 +7,7 @@ import { ArrowLeft, ExternalLink } from "lucide-react";
 import { getPositionById, positions } from "@/lib/positions";
 import { absoluteUrl, jsonLd, truncateText } from "@/lib/seo";
 import { meaningfulRequirements } from "@/lib/requirements.mjs";
+import { positionMetadataTitle } from "@/lib/position-metadata-title.mjs";
 import { relatedPositions } from "@/lib/related-positions";
 import { italyToday, isOpenPosition } from "@/lib/opportunity-status";
 
@@ -24,7 +25,7 @@ export function generateMetadata({ params }: { params: { id: string } }): Metada
     };
   }
 
-  const title = `${truncateText(position.title, 100)} – ${position.institution} (${position.id.split("-").at(-1)})`;
+  const title = positionMetadataTitle(truncateText(position.title, 100), position.institution, position.id);
   const description = truncateText(
     `${position.title}. ${position.discipline}${position.ssd ? `, ${position.ssd}` : ""}. Scadenza: ${formatDate(position.deadline)}. Fonte: ${position.sourceName}.`
   );
