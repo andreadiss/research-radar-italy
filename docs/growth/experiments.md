@@ -1,5 +1,7 @@
 ## Experiment opportunities
 
+Aggiornamento 10 settembre 2026 — Pulizia dei titoli metadata, non A/B test. Ipotesi: eliminare l'ente ripetuto rende più leggibile il titolo e può favorire la scelta del risultato. Nessun effetto CTR quantificabile: le schede non hanno righe visibili nel breakdown GSC 11 agosto–7 settembre. Osservare clic organici e prime impression sulle schede; bilancio 16 settembre senza promesse di causalità. Riferimento: https://developers.google.com/search/docs/appearance/title-link .
+
 Aggiornamento 9 settembre 2026 — La correzione freshness è un guardrail operativo, non un esperimento. Non si avviano test SEO: landing e schede restano senza impression visibili per pagina nel campione GSC consolidato.
 
 Aggiornamento 8 settembre 2026 — Il retry MUR è affidabilità operativa, non esperimento. Successo tecnico: recupero dopo errore transitorio senza duplicare o pubblicare import incompleti. Nessun effetto SEO dichiarato prima di osservazioni successive.

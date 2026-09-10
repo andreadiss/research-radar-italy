@@ -1,5 +1,7 @@
 ## Prioritized backlog
 
+Aggiornamento 10 settembre 2026 — Titoli metadata senza doppio ente: Impact medio potenziale sui clic, Confidence alta sul difetto/bassa sull'effetto traffico, Effort 30 min, Risk basso. Correzione pronta per PR, 106 titoli interessati su 838; nessuna riscrittura dei dati. Obiettivo principale: clic organici, non numero di modifiche. Prossimo task: verificare 3 schede con titolo generico e contenuto ufficiale utile; campione indicizzazione dal 13 settembre, bilancio il 16. GA4 resta escluso dalle estrazioni automatiche.
+
 Aggiornamento 9 settembre 2026 — Correzione audit freshness: Impact medio, Confidence alta, Effort piccolo, Risk basso. Eliminati 662 falsi warning; la fonte è ora segnalata una sola volta solo oltre 48 ore dall'ultimo controllo completo riuscito.
 
 Aggiornamento 8 settembre 2026 — Fatto in PR #6: retry limitato per HTTP 429/500/502/503/504 ed errori di rete nell'import MUR. Impact alto, Confidence alta, Effort piccolo, Risk basso. Nessun cambio a schedule, segreti, persistenza o servizi.
