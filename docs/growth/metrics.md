@@ -1,5 +1,7 @@
 ## Baseline
 
+11 settembre 2026 — GSC senza dimensioni, 12 agosto–8 settembre consolidati: 17 impression, 3 clic, CTR 17,65%, posizione 11. Nessun incremento misurabile; finestre sovrapposte, nessuna causalità. Baseline contenuti: 97/97 Postdoc con titolo generico nel dataset di 856 posizioni; 68 con deadline >= 11 settembre. Test su tre fonti HTTP: 3/3 titoli IT/EN recuperati; i titoli pubblicati non sono ancora aggiornati. GA4 escluso.
+
 Aggiornamento 10 settembre 2026 — GSC sola lettura, query senza dimensioni, 11 agosto–7 settembre (28 giorni consolidati): 17 impression, 3 clic, CTR 17,65%, posizione 11. Breakdown pagina: solo home visibile, con gli stessi totali; nessuna baseline CTR delle schede interessate. Nessuna crescita misurabile rispetto all'ultima finestra, che è sovrapposta; non attribuire causalità. Indicatore tecnico: 106 ripetizioni aggiunte dell'ente eliminate nel generatore metadata su 838 record. Questo non equivale a traffico o titoli generici risolti. GA4 non estratto.
 
 Aggiornamento 9 settembre 2026 — GSC consolidata fino al 6 settembre: 10 agosto–6 settembre **17 impression, 3 clic, CTR 17,65%, posizione 11**; 31 agosto–6 settembre **12 impression, 3 clic, CTR 25%, posizione 4**. Tutti i clic visibili per pagina sono sulla home; le query mostrate non contengono i clic, coerentemente con anonimizzazione GSC. Nessuna attribuzione causale.

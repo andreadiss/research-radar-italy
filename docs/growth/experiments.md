@@ -1,5 +1,7 @@
 ## Experiment opportunities
 
+11 settembre 2026 — Non A/B test: recupero di titoli ufficiali persi dall'importatore. Ipotesi: riportare il tema del progetto rende le schede utili per ricerche specifiche e può portare clic organici. Primo gate: titoli specifici sulle tre schede dopo sync riuscito; outcome: clic organici e impression per scheda, senza attribuzione causale con i volumi attuali. Nessun titolo sintetizzato o keyword aggiunta.
+
 Aggiornamento 10 settembre 2026 — Pulizia dei titoli metadata, non A/B test. Ipotesi: eliminare l'ente ripetuto rende più leggibile il titolo e può favorire la scelta del risultato. Nessun effetto CTR quantificabile: le schede non hanno righe visibili nel breakdown GSC 11 agosto–7 settembre. Osservare clic organici e prime impression sulle schede; bilancio 16 settembre senza promesse di causalità. Riferimento: https://developers.google.com/search/docs/appearance/title-link .
 
 Aggiornamento 9 settembre 2026 — La correzione freshness è un guardrail operativo, non un esperimento. Non si avviano test SEO: landing e schede restano senza impression visibili per pagina nel campione GSC consolidato.
