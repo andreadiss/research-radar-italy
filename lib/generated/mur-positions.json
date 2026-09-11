@@ -6914,7 +6914,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-doctorates-315055",
@@ -6945,7 +6946,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-doctorates-315056",
@@ -6976,7 +6978,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-doctorates-311256",
@@ -7009,7 +7012,8 @@
     "reviewReasons": [
       "multiple_scientific_sectors"
     ],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-fixed-term-researchers-151248",
@@ -7040,7 +7044,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-fixed-term-researchers-151249",
@@ -7071,7 +7076,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-fixed-term-researchers-151250",
@@ -7102,7 +7108,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-fixed-term-researchers-151263",
@@ -7133,7 +7140,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-fixed-term-researchers-151423",
@@ -7164,7 +7172,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-fixed-term-researchers-151424",
@@ -7195,7 +7204,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-fixed-term-researchers-151603",
@@ -7228,7 +7238,8 @@
     "reviewReasons": [
       "multiple_scientific_sectors"
     ],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-fixed-term-researchers-151723",
@@ -7261,7 +7272,8 @@
     "reviewReasons": [
       "multiple_scientific_sectors"
     ],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-professor-calls-150983",
@@ -7292,7 +7304,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-professor-calls-151210",
@@ -7323,7 +7336,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-research-contracts-316100",
@@ -7354,7 +7368,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-research-assignments-315164",
@@ -7385,7 +7400,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-research-assignments-315887",
@@ -7416,7 +7432,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-research-assignments-315904",
@@ -7447,7 +7464,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-research-assignments-316364",
@@ -7478,7 +7496,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-research-assignments-315745",
@@ -7511,7 +7530,8 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-research-assignments-315749",
@@ -7542,7 +7562,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-research-assignments-316382",
@@ -7573,7 +7594,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-research-assignments-316401",
@@ -7604,7 +7626,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-research-assignments-316403",
@@ -7635,7 +7658,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-research-assignments-316410",
@@ -7666,7 +7690,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-315906",
@@ -7697,7 +7722,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-316298",
@@ -7730,7 +7756,8 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-research-assignments-316981",
@@ -7761,7 +7788,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-10T09:45:48.573Z"
+    "updatedAt": "2026-09-10T09:45:48.573Z",
+    "archivedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-research-assignments-316982",
@@ -7792,7 +7820,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-10T09:45:48.573Z"
+    "updatedAt": "2026-09-10T09:45:48.573Z",
+    "archivedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-doctorates-316008",
@@ -8112,7 +8141,7 @@
   },
   {
     "id": "mur-postdoc-assignments-315824",
-    "title": "Postdoc - Università di Pavia",
+    "title": "2026-IpdDip-02-diii - Target-D-personalizzazione del rischio e raccolta di evidenze sulle traiettorie cliniche in pazienti sottoposti a dialisi",
     "institution": "Università di Pavia",
     "department": "Da bando ufficiale",
     "location": "Pavia",
@@ -8135,17 +8164,15 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc pavia|pavia|2026-09-11",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "dedupeKey": "2026 ipddip 02 diii target d personalizzazione rischio e raccolta evidenze sulle traiettorie cliniche in pazienti sottoposti a dialisi|pavia|2026-09-11",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-316483",
-    "title": "Postdoc - Università Ca' Foscari Venezia",
+    "title": "Incarico post-doc - Processi di patrimonializzazione e della cultura materiale e immateriale di aree insulari da una prospettiva di genere",
     "institution": "Università Ca' Foscari Venezia",
     "department": "Da bando ufficiale",
     "location": "Venezia",
@@ -8168,17 +8195,15 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc ca foscari venezia|ca foscari venezia|2026-09-11",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "dedupeKey": "incarico post doc processi patrimonializzazione e cultura materiale e immateriale aree insulari da una prospettiva genere|ca foscari venezia|2026-09-11",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-316595",
-    "title": "Postdoc - Ministero dell’Agricoltura, della Sovranità Alimentare e delle Foreste",
+    "title": "Controllo biotecnico dei principali fitofagi del nocciolo",
     "institution": "Ministero dell’Agricoltura, della Sovranità Alimentare e delle Foreste",
     "department": "Da bando ufficiale",
     "location": "Roma",
@@ -8201,11 +8226,11 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc ministero dell agricoltura sovranita alimentare e foreste|ministero dell agricoltura sovranita alimentare e foreste|2026-09-11",
+    "dedupeKey": "controllo biotecnico dei principali fitofagi nocciolo|ministero dell agricoltura sovranita alimentare e foreste|2026-09-11",
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-fixed-term-researchers-151645",
@@ -9385,7 +9410,7 @@
   },
   {
     "id": "mur-postdoc-assignments-316346",
-    "title": "Postdoc - Università degli Studi di Milano, su finanziamento codice U-GOV MUR26LVALE_01",
+    "title": "Incarico post-doc art. 22-bis L. 240/2010",
     "institution": "Università degli Studi di Milano, su finanziamento codice U-GOV MUR26LVALE_01",
     "department": "Da bando ufficiale",
     "location": "Milano",
@@ -9408,15 +9433,15 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc studi milano su finanziamento codice u gov mur26lvale 01|studi milano su finanziamento codice u gov mur26lvale 01|2026-09-14",
+    "dedupeKey": "incarico post doc art 22 bis l 240 2010|studi milano su finanziamento codice u gov mur26lvale 01|2026-09-14",
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-315871",
-    "title": "Postdoc - Università degli Studi di Padova",
+    "title": "n. 24 incarichi post-doc art. 22bis L. 240/2010 - 2026IPD13",
     "institution": "Università degli Studi di Padova",
     "department": "Da bando ufficiale",
     "location": "Padova",
@@ -9439,18 +9464,17 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc studi padova|studi padova|2026-09-14",
+    "dedupeKey": "n 24 incarichi post doc art 22bis l 240 2010 2026ipd13|studi padova|2026-09-14",
     "reviewStatus": "needs_review",
-    "confidenceScore": 0.71,
+    "confidenceScore": 0.83,
     "reviewReasons": [
-      "multiple_scientific_sectors",
-      "generic_title"
+      "multiple_scientific_sectors"
     ],
-    "updatedAt": "2026-09-10T09:45:48.573Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-315560",
-    "title": "Postdoc - Università Mediterranea di Reggio Calabria",
+    "title": "Procedura selettiva per il conferimento di n. 2 incarichi post-doc, ai sensi dell’art. 22 bis delle Legge 240/2010 presso il Dipartimento di Agraria.",
     "institution": "Università Mediterranea di Reggio Calabria",
     "department": "Da bando ufficiale",
     "location": "Reggio Calabria",
@@ -9473,13 +9497,13 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc mediterranea reggio calabria|mediterranea reggio calabria|2026-09-14",
+    "dedupeKey": "procedura selettiva per il conferimento n 2 incarichi post doc ai sensi dell art 22 bis legge 240 2010 il dipartimento agraria|mediterranea reggio calabria|2026-09-14",
     "reviewStatus": "needs_review",
     "confidenceScore": 0.83,
     "reviewReasons": [
       "multiple_scientific_sectors"
     ],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-research-contracts-316805",
@@ -10826,7 +10850,7 @@
   },
   {
     "id": "mur-postdoc-assignments-314470",
-    "title": "Postdoc - Università di Pavia",
+    "title": "2026-IpdDip-03-DBBS - Caratterizzazione del contributo del cervelletto alla malattia di Parkinson durante la progressione della patologia, al fine di trattare i sintomi con neuromodulazione non invasiva",
     "institution": "Università di Pavia",
     "department": "Da bando ufficiale",
     "location": "Pavia",
@@ -10849,13 +10873,11 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc pavia|pavia|2026-09-15",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "dedupeKey": "2026 ipddip 03 dbbs caratterizzazione contributo cervelletto alla malattia parkinson durante la progressione patologia al fine trattare i sintomi con neuromodulazione non invasiva|pavia|2026-09-15",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-doctorates-315163",
@@ -11359,7 +11381,7 @@
   },
   {
     "id": "mur-postdoc-assignments-316460",
-    "title": "Postdoc - Università degli Studi di Verona",
+    "title": "IpD45/2026 - Studio elettroencefalografico della maturazione precoce del sonno e degli sleep spindles a seguito di encefalopatia ipossico-ischemica neonatale",
     "institution": "Università degli Studi di Verona",
     "department": "Da bando ufficiale",
     "location": "Verona",
@@ -11382,17 +11404,15 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc studi verona|studi verona|2026-09-16",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "dedupeKey": "ipd45 2026 studio elettroencefalografico maturazione precoce sonno e sleep spindles a seguito encefalopatia ipossico ischemica neonatale|studi verona|2026-09-16",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-316445",
-    "title": "Postdoc - UNIVERSITA' DEGLI STUDI DI CATANIA",
+    "title": "Studio teorico e pratico sulla temperatura dei bacini d’acqua parzialmente coperti da impianti fotovoltaici flottanti",
     "institution": "Universita DEGLI STUDI DI CATANIA",
     "department": "Da bando ufficiale",
     "location": "CATANIA",
@@ -11415,13 +11435,11 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc studi catania|studi catania|2026-09-16",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "dedupeKey": "studio teorico e pratico sulla temperatura dei bacini d acqua parzialmente coperti da impianti fotovoltaici flottanti|studi catania|2026-09-16",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-technologists-151783",
@@ -12243,7 +12261,7 @@
   },
   {
     "id": "mur-postdoc-assignments-316620",
-    "title": "Postdoc - Università degli studi di Bari",
+    "title": "Analisi di dati remoti e prossimali multisorgente per il monitoraggio ambientale mediante metodologie di machine e/o deep learning",
     "institution": "Università degli studi di Bari",
     "department": "Da bando ufficiale",
     "location": "Bari",
@@ -12266,13 +12284,11 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc studi bari|studi bari|2026-09-17",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "dedupeKey": "analisi dati remoti e prossimali multisorgente per il monitoraggio ambientale mediante metodologie machine e o deep learning|studi bari|2026-09-17",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-research-assignments-316783",
@@ -12304,6 +12320,37 @@
     "confidenceScore": 0.95,
     "reviewReasons": [],
     "updatedAt": "2026-09-06T09:27:28.899Z"
+  },
+  {
+    "id": "mur-research-assignments-317062",
+    "title": "D34Health: tecnologie indossabili, sensori e biomarker per la cura del paziente mediante gemelli digitali - Rif. 90/26/IR",
+    "institution": "Politecnico di Torino",
+    "department": "Da bando ufficiale",
+    "location": "Torino",
+    "region": "Piemonte",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Ingegneria, informatica e AI",
+    "ssd": "IBIO-01/A - Bioingegneria",
+    "gsd": "09/IBIO-01 - BIOINGEGNERIA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-09-17",
+    "deadlineStatus": "closing_soon",
+    "publishedAt": "2026-09-10",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317062",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Soluzioni innovative, comprese tecnologie indossabili, sensori e biomarcatori per la costruzione del Digital Twin finalizzato a diagnosi precoce, monitoraggio domiciliare e valutazione della risposta alla terapia delle patologie di riferimento.",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "d34health tecnologie indossabili sensori e biomarker per la cura paziente mediante gemelli digitali rif 90 26 ir|politecnico torino|2026-09-17",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-doctorates-315382",
@@ -17064,7 +17111,7 @@
   },
   {
     "id": "mur-postdoc-assignments-314151",
-    "title": "Postdoc - SAPIENZA UNIVERSITà DI ROMA",
+    "title": "BANDO BE FOR ERC 2026",
     "institution": "SAPIENZA UNIVERSITà DI ROMA",
     "department": "Da bando ufficiale",
     "location": "Roma",
@@ -17087,18 +17134,18 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc sapienza roma|sapienza roma|2026-09-18",
+    "dedupeKey": "bando be for erc 2026|sapienza roma|2026-09-18",
     "reviewStatus": "needs_review",
     "confidenceScore": 0.71,
     "reviewReasons": [
       "multiple_scientific_sectors",
       "generic_title"
     ],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-316725",
-    "title": "Postdoc - Università degli studi di Firenze",
+    "title": "Selezione pubblica per incarichi post-doc",
     "institution": "Università degli studi di Firenze",
     "department": "Da bando ufficiale",
     "location": "Firenze",
@@ -17121,17 +17168,15 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc studi firenze|studi firenze|2026-09-18",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "dedupeKey": "selezione pubblica per incarichi post doc|studi firenze|2026-09-18",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-316727",
-    "title": "Postdoc - Università degli studi di Firenze",
+    "title": "Selezione pubblica per incarichi post-doc",
     "institution": "Università degli studi di Firenze",
     "department": "Da bando ufficiale",
     "location": "Firenze",
@@ -17154,17 +17199,15 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc studi firenze|studi firenze|2026-09-18",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "dedupeKey": "selezione pubblica per incarichi post doc|studi firenze|2026-09-18",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-316728",
-    "title": "Postdoc - Università degli studi di Firenze",
+    "title": "Selezione pubblica per incarichi post-doc",
     "institution": "Università degli studi di Firenze",
     "department": "Da bando ufficiale",
     "location": "Firenze",
@@ -17187,17 +17230,15 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc studi firenze|studi firenze|2026-09-18",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "dedupeKey": "selezione pubblica per incarichi post doc|studi firenze|2026-09-18",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-316730",
-    "title": "Postdoc - Università degli studi di Firenze",
+    "title": "Selezione pubblica per incarichi post-doc",
     "institution": "Università degli studi di Firenze",
     "department": "Da bando ufficiale",
     "location": "Firenze",
@@ -17220,17 +17261,15 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc studi firenze|studi firenze|2026-09-18",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "dedupeKey": "selezione pubblica per incarichi post doc|studi firenze|2026-09-18",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-316736",
-    "title": "Postdoc - Università degli Studi di Firenze",
+    "title": "Selezione pubblica per incarichi post-doc",
     "institution": "Università degli Studi di Firenze",
     "department": "Da bando ufficiale",
     "location": "Firenze",
@@ -17253,17 +17292,15 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc studi firenze|studi firenze|2026-09-18",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "dedupeKey": "selezione pubblica per incarichi post doc|studi firenze|2026-09-18",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-316737",
-    "title": "Postdoc - Università degli Studi di Firenze",
+    "title": "Selezione pubblica per incarichi post-doc",
     "institution": "Università degli Studi di Firenze",
     "department": "Da bando ufficiale",
     "location": "Firenze",
@@ -17286,17 +17323,15 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc studi firenze|studi firenze|2026-09-18",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "dedupeKey": "selezione pubblica per incarichi post doc|studi firenze|2026-09-18",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-316738",
-    "title": "Postdoc - Università degli Studi di Firenze",
+    "title": "Selezione pubblica per incarichi post-doc",
     "institution": "Università degli Studi di Firenze",
     "department": "Da bando ufficiale",
     "location": "Firenze",
@@ -17319,17 +17354,15 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc studi firenze|studi firenze|2026-09-18",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "dedupeKey": "selezione pubblica per incarichi post doc|studi firenze|2026-09-18",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-316739",
-    "title": "Postdoc - Università degli Studi di Firenze",
+    "title": "Selezione pubblica per incarichi post-doc",
     "institution": "Università degli Studi di Firenze",
     "department": "Da bando ufficiale",
     "location": "Firenze",
@@ -17352,17 +17385,15 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc studi firenze|studi firenze|2026-09-18",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "dedupeKey": "selezione pubblica per incarichi post doc|studi firenze|2026-09-18",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-316740",
-    "title": "Postdoc - Università degli Studi di Firenze",
+    "title": "Selezione pubblica per incarichi post-doc",
     "institution": "Università degli Studi di Firenze",
     "department": "Da bando ufficiale",
     "location": "Firenze",
@@ -17385,17 +17416,15 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc studi firenze|studi firenze|2026-09-18",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "dedupeKey": "selezione pubblica per incarichi post doc|studi firenze|2026-09-18",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-316705",
-    "title": "Postdoc - Università del Salento",
+    "title": "1 incarico post-doc con contratto di lavoro subordinato, a tempo determinato, della durata di 12 mesi, ai sensi dell’art. 22bis della Legge n. 240/2010 ss.mm.ii., SSD IIND-02/A",
     "institution": "Università del Salento",
     "department": "Da bando ufficiale",
     "location": "Lecce",
@@ -17418,13 +17447,11 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc salento|salento|2026-09-18",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "dedupeKey": "1 incarico post doc con contratto lavoro subordinato a tempo determinato durata 12 mesi ai sensi dell art 22bis legge n 240 2010 ss mm ii ssd iind 02 a|salento|2026-09-18",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-research-assignments-316820",
@@ -17740,7 +17767,7 @@
   },
   {
     "id": "mur-postdoc-assignments-316962",
-    "title": "Postdoc - Università degli Studi di Perugia",
+    "title": "Filiera sostenibile dell’olio d’oliva – Calabria e Umbria - Innovazione tecnologica",
     "institution": "Università degli Studi di Perugia",
     "department": "Da bando ufficiale",
     "location": "Perugia",
@@ -17763,17 +17790,15 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc studi perugia|studi perugia|2026-09-19",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-09-09T09:47:44.496Z"
+    "dedupeKey": "filiera sostenibile dell olio d oliva calabria e umbria innovazione tecnologica|studi perugia|2026-09-19",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-316964",
-    "title": "Postdoc - Università degli Studi di Perugia",
+    "title": "Filiera sostenibile dell’olio d’oliva – Calabria e Umbria - Scelte e tecniche per una moderna e innovativa olivicoltura",
     "institution": "Università degli Studi di Perugia",
     "department": "Da bando ufficiale",
     "location": "Perugia",
@@ -17796,13 +17821,11 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc studi perugia|studi perugia|2026-09-19",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-09-09T09:47:44.496Z"
+    "dedupeKey": "filiera sostenibile dell olio d oliva calabria e umbria scelte e tecniche per una moderna e innovativa olivicoltura|studi perugia|2026-09-19",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-research-assignments-316977",
@@ -17834,6 +17857,37 @@
     "confidenceScore": 0.95,
     "reviewReasons": [],
     "updatedAt": "2026-09-10T09:45:48.573Z"
+  },
+  {
+    "id": "mur-research-contracts-317083",
+    "title": "Studio della percezione di consonanza e dissonanza: studi comportamentali e neurofisiologici",
+    "institution": "CNR ISTC",
+    "department": "Da bando ufficiale",
+    "location": "ROMA",
+    "region": "Lazio",
+    "positionType": "Contratto di ricerca",
+    "professorRank": "",
+    "discipline": "Filosofia, storia, lingue, pedagogia e psicologia",
+    "ssd": "-",
+    "gsd": "11/PSIC-01 - PSICOLOGIA GENERALE, NEUROPSICOLOGIA E NEUROSCIENZE COGNITIVE, PSICOMETRIA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-09-19",
+    "deadlineStatus": "closing_soon",
+    "publishedAt": "2026-09-10",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/317083",
+    "salaryOrAmount": "48.000 Euro",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Il ricercatore svolgerà attività di preparazione degli stimoli, progettazione dei protocolli sperimentali, raccolta e analisi di dati comportamentali e neurofisiologici relativi alla percezione di consonanza e dissonanza musicale. Sono richieste competenze nell'uso di software per la creazione di stimoli musicali, somministrazione di protocolli sperimentali, ricerca bibliografica, metanalisi e analisi dati",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "studio percezione consonanza e dissonanza studi comportamentali e neurofisiologici|cnr istc|2026-09-19",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-research-assignments-316660",
@@ -18709,7 +18763,7 @@
   },
   {
     "id": "mur-postdoc-assignments-316601",
-    "title": "Postdoc - Università degli Studi di Verona",
+    "title": "IpD42/2026 Competenze interculturali nel personale sanitario e accesso equo alle cure: un’analisi qualitativa e quantitativa nei contesti sanitari italiani",
     "institution": "Università degli Studi di Verona",
     "department": "Da bando ufficiale",
     "location": "Verona",
@@ -18732,17 +18786,15 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc studi verona|studi verona|2026-09-21",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "dedupeKey": "ipd42 2026 competenze interculturali nel personale sanitario e accesso equo alle cure un analisi qualitativa e quantitativa nei contesti sanitari italiani|studi verona|2026-09-21",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-316602",
-    "title": "Postdoc - Università degli Studi di Verona",
+    "title": "IpD43/2026 - “Processi bioraffineria per la valorizzazione di digestati agricoli attraverso il recupero di nutrienti e loro utilizzo come biofertilizzanti su colture in serra e in campo”,",
     "institution": "Università degli Studi di Verona",
     "department": "Da bando ufficiale",
     "location": "Verona",
@@ -18765,17 +18817,15 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc studi verona|studi verona|2026-09-21",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "dedupeKey": "ipd43 2026 processi bioraffineria per la valorizzazione digestati agricoli attraverso il recupero nutrienti e loro utilizzo come biofertilizzanti su colture in serra e in campo|studi verona|2026-09-21",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-316603",
-    "title": "Postdoc - Università degli Studi di Verona",
+    "title": "IpD44/2026 - “Processi bioraffineria per la valorizzazione di digestati agricoli attraverso il recupero di nutrienti”",
     "institution": "Università degli Studi di Verona",
     "department": "Da bando ufficiale",
     "location": "Verona",
@@ -18798,13 +18848,11 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc studi verona|studi verona|2026-09-21",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "dedupeKey": "ipd44 2026 processi bioraffineria per la valorizzazione digestati agricoli attraverso il recupero nutrienti|studi verona|2026-09-21",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-research-assignments-316773",
@@ -18867,6 +18915,192 @@
     "confidenceScore": 0.95,
     "reviewReasons": [],
     "updatedAt": "2026-09-10T09:45:48.573Z"
+  },
+  {
+    "id": "mur-research-contracts-317024",
+    "title": "DIT.AD018.207 - Sperimentazione e caratterizzazione di combustibili e tecnologie innovative per la decarbonizzazione della propulsione navale CR N. 6 STEMS NA",
+    "institution": "ISTITUTO DI SCIENZE E TECNOLOGIE PER L'ENERGIA E LA MOBILITA' SOSTENIBILI CNR",
+    "department": "Da bando ufficiale",
+    "location": "NAPOLI",
+    "region": "Campania",
+    "positionType": "Contratto di ricerca",
+    "professorRank": "",
+    "discipline": "Ingegneria, informatica e AI",
+    "ssd": "-",
+    "gsd": "09/IIND-02 - MECCANICA APPLICATA ALLE MACCHINE",
+    "fundingType": "Non specificato",
+    "deadline": "2026-09-21",
+    "deadlineStatus": "closing_soon",
+    "publishedAt": "2026-09-10",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/317024",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Il programma di ricerca è finalizzato alla valutazione sperimentale di combustibili alternativi a basse emissioni di gas a effetto serra per applicazioni navali e allo sviluppo di soluzioni tecnologiche per il loro impiego efficiente nei motori a combustione interna. Le attività comprenderanno prove sperimentali su un motore monocilindrico navale alimentato con metanolo in configurazione dual fuel e single fuel, med...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "dit ad018 207 sperimentazione e caratterizzazione combustibili e tecnologie innovative per la decarbonizzazione propulsione navale cr n 6 stems na|istituto scienze e tecnologie per l energia e la mobilita sostenibili cnr|2026-09-21",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
+  },
+  {
+    "id": "mur-research-contracts-317026",
+    "title": "DIT.AD018.214 - Tecnologie powertrain innovative CR 07/2026 STEMS NA",
+    "institution": "ISTITUTO DI SCIENZE E TECNOLOGIE PER L'ENERGIA E LA MOBILITA' SOSTENIBILI CNR",
+    "department": "Da bando ufficiale",
+    "location": "NAPOLI",
+    "region": "Campania",
+    "positionType": "Contratto di ricerca",
+    "professorRank": "",
+    "discipline": "Ingegneria, informatica e AI",
+    "ssd": "-",
+    "gsd": "09/IIND-02 - MECCANICA APPLICATA ALLE MACCHINE",
+    "fundingType": "Non specificato",
+    "deadline": "2026-09-21",
+    "deadlineStatus": "closing_soon",
+    "publishedAt": "2026-09-10",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/317026",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "L’attività progettuale è intesa a sviluppare nuovi modelli e metodologie di simulazione per tecnologie powertrain innovative sia termiche che ibride (termico-elettrico) adatte a veicoli per il trasporto stradale, trasporto navale o per macchine operatrici in ambito off-road",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "dit ad018 214 tecnologie powertrain innovative cr 07 2026 stems na|istituto scienze e tecnologie per l energia e la mobilita sostenibili cnr|2026-09-21",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
+  },
+  {
+    "id": "mur-research-assignments-317027",
+    "title": "DECAT - Catalizzatori e processi integrati per la decarbonizzazione",
+    "institution": "ISTITUTO DI SCIENZE E TECNOLOGIE PER L'ENERGIA E LA MOBILITA' SOSTENIBILI CNR",
+    "department": "Da bando ufficiale",
+    "location": "NAPOLI",
+    "region": "Campania",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Ingegneria, informatica e AI",
+    "ssd": "-",
+    "gsd": "09/ICHI-02 - IMPIANTI E PROCESSI INDUSTRIALI CHIMICI",
+    "fundingType": "Non specificato",
+    "deadline": "2026-09-21",
+    "deadlineStatus": "closing_soon",
+    "publishedAt": "2026-09-10",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317027",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Sviluppo di materiali a doppia funzione per processi di “chemical looping” che integrino l’adsorbimento di CO2 e la sua idrogenazione a combustibili sintetici",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "decat catalizzatori e processi integrati per la decarbonizzazione|istituto scienze e tecnologie per l energia e la mobilita sostenibili cnr|2026-09-21",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
+  },
+  {
+    "id": "mur-postdoc-assignments-317120",
+    "title": "Metodi e procedure per l’acquisizione dati a bassa risoluzione",
+    "institution": "Università degli Studi di Perugia",
+    "department": "Da bando ufficiale",
+    "location": "Perugia",
+    "region": "Umbria",
+    "positionType": "Postdoc",
+    "professorRank": "",
+    "discipline": "Ingegneria, informatica e AI",
+    "ssd": "-",
+    "gsd": "09/IMIS-01 - MISURE",
+    "fundingType": "Non specificato",
+    "deadline": "2026-09-21",
+    "deadlineStatus": "closing_soon",
+    "publishedAt": "2026-09-09",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/317120",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Questo progetto ha l’obiettivo di sviluppare metodi e procedure per misurazioni basate su segnali quantizzati utilizzando pochi bit o un solo bit. Considera il problema della stima dei parametri dei segnali, quali ampiezza, frequenza, tempo di arrivo, ritardi, ampiezze del rumore, sulla base della loro versione binaria o di una loro rappresentazione a risoluzione molto contenuta. L’obiettivo principale è quello di c...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "metodi e procedure per l acquisizione dati a bassa risoluzione|studi perugia|2026-09-21",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
+  },
+  {
+    "id": "mur-postdoc-assignments-317121",
+    "title": "Ricerca e formazione sull’Archeologia Classica nell’ambito dei siti archeologici di Abila e Macheronte in Giordania.",
+    "institution": "Università degli studi di Perugia",
+    "department": "Da bando ufficiale",
+    "location": "Perugia",
+    "region": "Piemonte",
+    "positionType": "Postdoc",
+    "professorRank": "",
+    "discipline": "Filosofia, storia, lingue, pedagogia e psicologia",
+    "ssd": "ARCH-01/D - Archeologia classica",
+    "gsd": "10/ARCH-01 - ARCHEOLOGIA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-09-21",
+    "deadlineStatus": "closing_soon",
+    "publishedAt": "2026-09-09",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/317121",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Il progetto prevede la partecipazione a scavi archeologici in Giordania con ruoli direttivi o di supervisione, organizzazione e gestione di laboratori didattici di archeologia (anche sul campo), corsi di formazione professionale per il personale del Dipartimento delle Antichità di Giordania nell’ambito del settore disciplinare del bando e sulle metodologie di analisi delle opere antiche di epoca classica, attività d...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "ricerca e formazione sull archeologia classica nell ambito dei siti archeologici abila e macheronte in giordania|studi perugia|2026-09-21",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
+  },
+  {
+    "id": "mur-postdoc-assignments-317126",
+    "title": "Ricerca e formazione sull’Archeologia Pre-classica nell’ambito dei siti archeologici di Abila e Macheronte in Giordania",
+    "institution": "Università degli studi di Perugia",
+    "department": "Da bando ufficiale",
+    "location": "Perugia",
+    "region": "Piemonte",
+    "positionType": "Postdoc",
+    "professorRank": "",
+    "discipline": "Filosofia, storia, lingue, pedagogia e psicologia",
+    "ssd": "STAA-01/E - Archeologia e storia dell'arte dell'Asia occidentale e del Mediterraneo orientale antichi",
+    "gsd": "10/STAA-01 - CULTURE E LINGUE ANTICHE E MODERNE DELL'AFRICA E DELL'ASIA OCCIDENTALE E CENTRALE",
+    "fundingType": "Non specificato",
+    "deadline": "2026-09-21",
+    "deadlineStatus": "closing_soon",
+    "publishedAt": "2026-09-09",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/317126",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Il progetto prevede la partecipazione a scavi archeologici in Giordania con ruoli direttivi o di supervisione, organizzazione e gestione di laboratori didattici di archeologia (anche sul campo), corsi di formazione professionale per il personale del Dipartimento delle Antichità di Giordania nell’ambito del settore disciplinare del bando e sulle metodologie di ricerca archeologica, studio e catalogazione del material...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "ricerca e formazione sull archeologia pre classica nell ambito dei siti archeologici abila e macheronte in giordania|studi perugia|2026-09-21",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-doctorates-316140",
@@ -19346,7 +19580,7 @@
   },
   {
     "id": "mur-postdoc-assignments-316846",
-    "title": "Postdoc - Università di Bologna",
+    "title": "Procedura di valutazione comparativa per n. 1 incarico post-doc - Dipartimento di Sociologia e Diritto Dell'Economia",
     "institution": "Università di Bologna",
     "department": "Da bando ufficiale",
     "location": "Forlì",
@@ -19369,17 +19603,15 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc bologna|bologna|2026-09-22",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-09-08T09:42:37.170Z"
+    "dedupeKey": "procedura valutazione comparativa per n 1 incarico post doc dipartimento sociologia e diritto dell economia|bologna|2026-09-22",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-316844",
-    "title": "Postdoc - MUR",
+    "title": "Caratterizzazione chimica e biochimica di pomodori a basso contenuto di allergeni e varietà locali di carota",
     "institution": "MUR",
     "department": "Da bando ufficiale",
     "location": "Roma",
@@ -19402,18 +19634,17 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc mur|mur|2026-09-22",
+    "dedupeKey": "caratterizzazione chimica e biochimica pomodori a basso contenuto allergeni e varieta locali carota|mur|2026-09-22",
     "reviewStatus": "needs_review",
-    "confidenceScore": 0.71,
+    "confidenceScore": 0.83,
     "reviewReasons": [
-      "generic_title",
       "generic_institution"
     ],
-    "updatedAt": "2026-09-08T09:42:37.170Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-316845",
-    "title": "Postdoc - MUR",
+    "title": "Sviluppo di bioprocessi innovativi per la valorizzazione sostenibile di sottoprodotti agroalimentari",
     "institution": "MUR",
     "department": "Da bando ufficiale",
     "location": "Roma",
@@ -19436,14 +19667,44 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc mur|mur|2026-09-22",
+    "dedupeKey": "sviluppo bioprocessi innovativi per la valorizzazione sostenibile sottoprodotti agroalimentari|mur|2026-09-22",
     "reviewStatus": "needs_review",
-    "confidenceScore": 0.71,
+    "confidenceScore": 0.83,
     "reviewReasons": [
-      "generic_title",
       "generic_institution"
     ],
-    "updatedAt": "2026-09-08T09:42:37.170Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z"
+  },
+  {
+    "id": "mur-research-assignments-317080",
+    "title": "2026_IR_40_DIBIO conferimento diretto di n. 1 Incarichi di Ricerca progetto AFM-TELETHON ID n. 30262 dal titolo “Investigating the role of the endothelium in mitochondrial myopathies” – codice CUP C93C26003970007",
+    "institution": "Università degli Studi di Padova",
+    "department": "Da bando ufficiale",
+    "location": "Padova",
+    "region": "Veneto",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Biologia, biotech e farmacia",
+    "ssd": "BIOS-04/A - Anatomia, biologia cellulare e biologia dello sviluppo comparate",
+    "gsd": "05/BIOS-04 - ANATOMIA, BIOLOGIA CELLULARE E BIOLOGIA DELLO SVILUPPO COMPARATE",
+    "fundingType": "Non specificato",
+    "deadline": "2026-09-22",
+    "deadlineStatus": "closing_soon",
+    "publishedAt": "2026-09-10",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317080",
+    "salaryOrAmount": "24.400 Euro",
+    "duration": "12",
+    "language": "IT/EN",
+    "summary": "- Coltura e manipolazione di cellule endoteliali umane; - trasfezione con siRNA e trasduzione mediante vettori lentivirali; - analisi mediante immunofluorescenza e microscopia confocale; - valutazione del potenziale di membrana mitocondriale, della produzione di specie reattive dell'ossigeno (ROS) e dei livelli di ATP tramite citofluorimetria; - estrazione di proteine e analisi mediante Western blot; - estrazione di...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "2026 ir 40 dibio conferimento diretto n 1 incarichi ricerca progetto afm telethon id n 30262 dal titolo investigating role of endothelium in mitochondrial myopathies codice cup c93c26003970007|studi padova|2026-09-22",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-research-contracts-316350",
@@ -19571,7 +19832,7 @@
   },
   {
     "id": "mur-postdoc-assignments-315815",
-    "title": "Postdoc - Università di Pavia",
+    "title": "2026-IpdDip-04-DBBS - Modelli di cervello virtuale avanzati per predire gli effetti della stimolazione cerebrale profonda sull’attività neuronale (AVATAR)",
     "institution": "Università di Pavia",
     "department": "Da bando ufficiale",
     "location": "Pavia",
@@ -19594,17 +19855,15 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc pavia|pavia|2026-09-23",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "dedupeKey": "2026 ipddip 04 dbbs modelli cervello virtuale avanzati per predire gli effetti stimolazione cerebrale profonda sull attivita neuronale avatar|pavia|2026-09-23",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-316347",
-    "title": "Postdoc - Università degli Studi del Piemonte Orientale",
+    "title": "Sviluppo e caratterizzazione di idrogel avanzati per applicazioni di bioprinting e patch biomedicali. (Prof. SHARIFIKOLOUEI Elham)",
     "institution": "Università degli Studi del Piemonte Orientale",
     "department": "Da bando ufficiale",
     "location": "Vercelli- Novara- Alessandria",
@@ -19627,15 +19886,15 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc studi piemonte orientale|studi piemonte orientale|2026-09-23",
+    "dedupeKey": "sviluppo e caratterizzazione idrogel avanzati per applicazioni bioprinting e patch biomedicali prof sharifikolouei elham|studi piemonte orientale|2026-09-23",
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-316348",
-    "title": "Postdoc - Università degli Studi del Piemonte Orientale",
+    "title": "Modelli 3D e co-colture di cellule tumorali e tessuto adiposo viscerale per la medicina personalizzata (Prof. CAPELLO Daniela)",
     "institution": "Università degli Studi del Piemonte Orientale",
     "department": "Da bando ufficiale",
     "location": "Vercelli- Novara- Alessandria",
@@ -19658,15 +19917,15 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc studi piemonte orientale|studi piemonte orientale|2026-09-23",
+    "dedupeKey": "modelli 3d e co colture cellule tumorali e tessuto adiposo viscerale per la medicina personalizzata prof capello daniela|studi piemonte orientale|2026-09-23",
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-316349",
-    "title": "Postdoc - Università degli Studi del Piemonte Orientale",
+    "title": "Cognizione temporale, spaziale e numerica nel cervello del corvo (Prof. GENOVESIO ALDO)",
     "institution": "Università degli Studi del Piemonte Orientale",
     "department": "Da bando ufficiale",
     "location": "Vercelli- Novara- Alessandria",
@@ -19689,15 +19948,15 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc studi piemonte orientale|studi piemonte orientale|2026-09-23",
+    "dedupeKey": "cognizione temporale spaziale e numerica nel cervello corvo prof genovesio aldo|studi piemonte orientale|2026-09-23",
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-316356",
-    "title": "Postdoc - Università per Stranieri di Siena - Dipartimento di Studi Umanistici",
+    "title": "Grammatica e Vocabolario, grammatiche e vocabolari. Nozioni grammaticali nelle risorse lessicografiche edite tra Cinquecento e Seicento",
     "institution": "Università per Stranieri di Siena - Dipartimento di Studi Umanistici",
     "department": "Da bando ufficiale",
     "location": "Siena",
@@ -19720,15 +19979,15 @@
     "requirements": [
       "unistrasi@pec.it"
     ],
-    "dedupeKey": "postdoc per stranieri siena dipartimento studi umanistici|per stranieri siena dipartimento studi umanistici|2026-09-23",
+    "dedupeKey": "grammatica e vocabolario grammatiche e vocabolari nozioni grammaticali nelle risorse lessicografiche edite tra cinquecento e seicento|per stranieri siena dipartimento studi umanistici|2026-09-23",
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-316849",
-    "title": "Postdoc - apos.selezionepreruolo-collaboratori@unibo.it",
+    "title": "Procedura di valutazione comparativa per n. 1 incarico post-doc - Dipartimento di Beni culturali",
     "institution": "apos.selezionepreruolo-collaboratori@unibo.it",
     "department": "Da bando ufficiale",
     "location": "Ravenna",
@@ -19751,15 +20010,15 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc apos selezionepreruolo collaboratori unibo it|apos selezionepreruolo collaboratori unibo it|2026-09-23",
+    "dedupeKey": "procedura valutazione comparativa per n 1 incarico post doc dipartimento beni culturali|apos selezionepreruolo collaboratori unibo it|2026-09-23",
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-08T09:42:37.170Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-316900",
-    "title": "Postdoc - Università di Parma",
+    "title": "L’origine della fusione cromosomica come bersaglio terapeutico nella leucemia linfoblastica acuta pediatrica",
     "institution": "Università di Parma",
     "department": "Da bando ufficiale",
     "location": "Parma",
@@ -19782,17 +20041,15 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc parma|parma|2026-09-23",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-09-08T09:42:37.170Z"
+    "dedupeKey": "l origine fusione cromosomica come bersaglio terapeutico nella leucemia linfoblastica acuta pediatrica|parma|2026-09-23",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-316901",
-    "title": "Postdoc - Università degli Studi di Perugia",
+    "title": "Atlante Geochimico della Regione Umbria.",
     "institution": "Università degli Studi di Perugia",
     "department": "Da bando ufficiale",
     "location": "Perugia",
@@ -19815,17 +20072,15 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc studi perugia|studi perugia|2026-09-23",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-09-08T09:42:37.170Z"
+    "dedupeKey": "atlante geochimico regione umbria|studi perugia|2026-09-23",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-316902",
-    "title": "Postdoc - Università degli Studi di Perugia",
+    "title": "Sintesi di fotocatalizzatori nanostrutturati",
     "institution": "Università degli Studi di Perugia",
     "department": "Da bando ufficiale",
     "location": "Perugia",
@@ -19848,13 +20103,11 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc studi perugia|studi perugia|2026-09-23",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-09-08T09:42:37.170Z"
+    "dedupeKey": "sintesi fotocatalizzatori nanostrutturati|studi perugia|2026-09-23",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-fixed-term-researchers-152063",
@@ -20360,7 +20613,7 @@
   },
   {
     "id": "mur-postdoc-assignments-316917",
-    "title": "Postdoc - Università di Pisa - Dipartimento di Chimica e Chimica Industriale",
+    "title": "Protocolli metrologici per il campionamento e l'analisi dell'espirato",
     "institution": "Università di Pisa - Dipartimento di Chimica e Chimica Industriale",
     "department": "Da bando ufficiale",
     "location": "Pisa",
@@ -20383,15 +20636,15 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc pisa dipartimento chimica e chimica industriale|pisa dipartimento chimica e chimica industriale|2026-09-23",
+    "dedupeKey": "protocolli metrologici per il campionamento e l analisi dell espirato|pisa dipartimento chimica e chimica industriale|2026-09-23",
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-09T09:47:44.496Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-316976",
-    "title": "Postdoc - Scuola IMT Alti Studi di Lucca",
+    "title": "Modellazione e verifica formale dei protocolli di sicurezza e zero-knowledge",
     "institution": "Scuola IMT Alti Studi di Lucca",
     "department": "Da bando ufficiale",
     "location": "Lucca",
@@ -20414,15 +20667,15 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc scuola imt alti studi lucca|scuola imt alti studi lucca|2026-09-23",
+    "dedupeKey": "modellazione e verifica formale dei protocolli sicurezza e zero knowledge|scuola imt alti studi lucca|2026-09-23",
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-09T09:47:44.496Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-316924",
-    "title": "Postdoc - Università di Parma",
+    "title": "Lo sviluppo di pipelines computazionali e bioinformatiche per caratterizzare l’origine della fusione cromosomica nella leucemia linfoblastica acuta pediatrica",
     "institution": "Università di Parma",
     "department": "Da bando ufficiale",
     "location": "Parma",
@@ -20445,17 +20698,15 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc parma|parma|2026-09-23",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-09-09T09:47:44.496Z"
+    "dedupeKey": "lo sviluppo pipelines computazionali e bioinformatiche per caratterizzare l origine fusione cromosomica nella leucemia linfoblastica acuta pediatrica|parma|2026-09-23",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-316965",
-    "title": "Postdoc - Università degli Studi dell'Insubria",
+    "title": "n.1 incarico post-doc art.22-bis L.240/2010 - Rilevamento del basamento cristallino e vulcanotettonica del Permiano nell’area del Foglio Geologico CARG 74 “Varese”",
     "institution": "Università degli Studi dell'Insubria",
     "department": "Da bando ufficiale",
     "location": "Varese",
@@ -20478,13 +20729,42 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc studi dell insubria|studi dell insubria|2026-09-23",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
+    "dedupeKey": "n 1 incarico post doc art 22 bis l 240 2010 rilevamento basamento cristallino e vulcanotettonica permiano nell area foglio geologico carg 74 varese|studi dell insubria|2026-09-23",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
+  },
+  {
+    "id": "mur-research-assignments-317063",
+    "title": "Metodi computazionali e Intelligenza Artificiale per la modellazione, l’analisi e l’interpretazione di sistemi biomedici complessi - Rif. 91/26/IR",
+    "institution": "Politecnico di Torino",
+    "department": "Da bando ufficiale",
+    "location": "Torino",
+    "region": "Piemonte",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Ingegneria, informatica e AI",
+    "ssd": "IBIO-01/A - Bioingegneria",
+    "gsd": "09/IBIO-01 - BIOINGEGNERIA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-09-23",
+    "deadlineStatus": "closing_soon",
+    "publishedAt": "2026-09-10",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317063",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Il progetto è finalizzato allo sviluppo di metodologie computazionali avanzate basate su Intelligenza Artificiale, Machine Learning e Data Science per la modellazione, l’analisi e l’interpretazione di sistemi biomedici complessi. Le attività comprenderanno la progettazione e validazione di modelli predittivi, l’integrazione di dati multimodali, lo sviluppo di algoritmi di explainable AI, l’analisi di dati clinici, b...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
     ],
-    "updatedAt": "2026-09-09T09:47:44.496Z"
+    "dedupeKey": "metodi computazionali e intelligenza artificiale per la modellazione l analisi e l interpretazione sistemi biomedici complessi rif 91 26 ir|politecnico torino|2026-09-23",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-doctorates-316301",
@@ -21761,7 +22041,7 @@
   },
   {
     "id": "mur-postdoc-assignments-316241",
-    "title": "Postdoc - Università degli Studi di Milano - Bicocca",
+    "title": "procedura selettiva per il conferimento di n. 1 incarico post-doc",
     "institution": "Università degli Studi di Milano - Bicocca",
     "department": "Da bando ufficiale",
     "location": "Milano",
@@ -21784,17 +22064,15 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc studi milano bicocca|studi milano bicocca|2026-09-24",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "dedupeKey": "procedura selettiva per il conferimento n 1 incarico post doc|studi milano bicocca|2026-09-24",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-316242",
-    "title": "Postdoc - Università degli Studi di Milano - Bicocca",
+    "title": "procedura selettiva per il conferimento di n. 1 incarico post-doc",
     "institution": "Università degli Studi di Milano - Bicocca",
     "department": "Da bando ufficiale",
     "location": "Milano",
@@ -21817,17 +22095,15 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc studi milano bicocca|studi milano bicocca|2026-09-24",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "dedupeKey": "procedura selettiva per il conferimento n 1 incarico post doc|studi milano bicocca|2026-09-24",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-316480",
-    "title": "Postdoc - Università degli Studi di Cagliari",
+    "title": "Selezione pubblica per n. 1 incarico post-doc - GSD 05/BIOS-01 (SSD BIOS-01/D) - finanziato dal Comune di Armungia - Università di Cagliari",
     "institution": "Università degli Studi di Cagliari",
     "department": "Da bando ufficiale",
     "location": "Cagliari",
@@ -21850,17 +22126,15 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc studi cagliari|studi cagliari|2026-09-24",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "dedupeKey": "selezione pubblica per n 1 incarico post doc gsd 05 bios 01 ssd bios 01 d finanziato dal comune armungia cagliari|studi cagliari|2026-09-24",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-316481",
-    "title": "Postdoc - Università degli Studi di Cagliari",
+    "title": "Selezione pubblica per n. 2 incarichi post-doc - GSD 13/ECON-06 (SSD ECON-06/A) - finanziati dalla Regione Autonoma della Sardegna - Università di Cagliari",
     "institution": "Università degli Studi di Cagliari",
     "department": "Da bando ufficiale",
     "location": "Cagliari",
@@ -21883,17 +22157,15 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc studi cagliari|studi cagliari|2026-09-24",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "dedupeKey": "selezione pubblica per n 2 incarichi post doc gsd 13 econ 06 ssd econ 06 a finanziati dalla regione autonoma sardegna cagliari|studi cagliari|2026-09-24",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-316482",
-    "title": "Postdoc - Università degli Studi di Cagliari",
+    "title": "Selezione pubblica per n. 1 incarico post-doc - GSD 09/IINF-05 (SSD IINF-05/A) - finanziato da Sardegna Ricerche e dal MIMIT- Università di Cagliari",
     "institution": "Università degli Studi di Cagliari",
     "department": "Da bando ufficiale",
     "location": "Cagliari",
@@ -21916,13 +22188,11 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc studi cagliari|studi cagliari|2026-09-24",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "dedupeKey": "selezione pubblica per n 1 incarico post doc gsd 09 iinf 05 ssd iinf 05 a finanziato da sardegna ricerche e dal mimit cagliari|studi cagliari|2026-09-24",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-research-assignments-316778",
@@ -22081,7 +22351,7 @@
   },
   {
     "id": "mur-postdoc-assignments-316960",
-    "title": "Postdoc - MUR",
+    "title": "L'offerta di capitale umano qualificato e la fuga dei cervelli: analisi dei trend e dei determinanti delle migrazioni intellettuali",
     "institution": "MUR",
     "department": "Da bando ufficiale",
     "location": "Roma",
@@ -22104,18 +22374,17 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc mur|mur|2026-09-24",
+    "dedupeKey": "l offerta capitale umano qualificato e la fuga dei cervelli analisi dei trend e dei determinanti migrazioni intellettuali|mur|2026-09-24",
     "reviewStatus": "needs_review",
-    "confidenceScore": 0.71,
+    "confidenceScore": 0.83,
     "reviewReasons": [
-      "generic_title",
       "generic_institution"
     ],
-    "updatedAt": "2026-09-09T09:47:44.496Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-316961",
-    "title": "Postdoc - MUR",
+    "title": "Sistema dell’istruzione e produttività del lavoro: il ruolo delle università e della ricerca nello sviluppo dell’economia regionale",
     "institution": "MUR",
     "department": "Da bando ufficiale",
     "location": "Roma",
@@ -22138,18 +22407,17 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc mur|mur|2026-09-24",
+    "dedupeKey": "sistema dell istruzione e produttivita lavoro il ruolo e ricerca nello sviluppo dell economia regionale|mur|2026-09-24",
     "reviewStatus": "needs_review",
-    "confidenceScore": 0.71,
+    "confidenceScore": 0.83,
     "reviewReasons": [
-      "generic_title",
       "generic_institution"
     ],
-    "updatedAt": "2026-09-09T09:47:44.496Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-316963",
-    "title": "Postdoc - MUR",
+    "title": "Pubblica amministrazione e sicurezza nazionale nell’enforcement delle competenze digitali",
     "institution": "MUR",
     "department": "Da bando ufficiale",
     "location": "Roma",
@@ -22172,14 +22440,13 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc mur|mur|2026-09-24",
+    "dedupeKey": "pubblica amministrazione e sicurezza nazionale nell enforcement competenze digitali|mur|2026-09-24",
     "reviewStatus": "needs_review",
-    "confidenceScore": 0.71,
+    "confidenceScore": 0.83,
     "reviewReasons": [
-      "generic_title",
       "generic_institution"
     ],
-    "updatedAt": "2026-09-09T09:47:44.496Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-research-assignments-317020",
@@ -22257,7 +22524,7 @@
     "gsd": "09/IBIO-01 - BIOINGEGNERIA",
     "fundingType": "Non specificato",
     "deadline": "2026-09-25",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-07-21",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/doctorate.php/public/fellowship/id_fellow/315663",
@@ -22288,7 +22555,7 @@
     "gsd": "09/IINF-05 - SISTEMI DI ELABORAZIONE DELLE INFORMAZIONI",
     "fundingType": "Non specificato",
     "deadline": "2026-09-25",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-07-21",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/doctorate.php/public/fellowship/id_fellow/315667",
@@ -22319,7 +22586,7 @@
     "gsd": "12/GIUR-14 - DIRITTO PENALE",
     "fundingType": "Non specificato",
     "deadline": "2026-09-25",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-07-21",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/doctorate.php/public/fellowship/id_fellow/315681",
@@ -22350,7 +22617,7 @@
     "gsd": "09/IIND-03 - PROGETTAZIONE INDUSTRIALE, COSTRUZIONI MECCANICHE E METALLURGIA",
     "fundingType": "Non specificato",
     "deadline": "2026-09-25",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-04",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/tecno.php/public/job/id_job/151943",
@@ -22381,7 +22648,7 @@
     "gsd": "04/GEOS-03 - GEOGRAFIA FISICA, GEOMORFOLOGIA E GEOLOGIA APPLICATA",
     "fundingType": "Non specificato",
     "deadline": "2026-09-25",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-08-04",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/315911",
@@ -22414,7 +22681,7 @@
     "gsd": "03/CHEM-03 - CHIMICA GENERALE E INORGANICA",
     "fundingType": "Non specificato",
     "deadline": "2026-09-25",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-07-30",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/315762",
@@ -22445,7 +22712,7 @@
     "gsd": "05/BIOS-03 - ZOOLOGIA E ANTROPOLOGIA",
     "fundingType": "MUR",
     "deadline": "2026-09-25",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-08-25",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/316421",
@@ -22476,7 +22743,7 @@
     "gsd": "03/CHEM-07 - CHIMICA FARMACEUTICA, TOSSICOLOGICA, NUTRACEUTICO-ALIMENTARE, DELLE FERMENTAZIONI E DEI PRODOTTI PER IL BENESSERE E PER LA SALUTE",
     "fundingType": "Non specificato",
     "deadline": "2026-09-25",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-02",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/316764",
@@ -22507,7 +22774,7 @@
     "gsd": "07/AGRI-02 - AGRONOMIA E SISTEMI COLTURALI ERBACEI E ORTOFLORICOLI",
     "fundingType": "Non specificato",
     "deadline": "2026-09-25",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-02",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/316766",
@@ -22538,7 +22805,7 @@
     "gsd": "03/CHEM-07 - CHIMICA FARMACEUTICA, TOSSICOLOGICA, NUTRACEUTICO-ALIMENTARE, DELLE FERMENTAZIONI E DEI PRODOTTI PER IL BENESSERE E PER LA SALUTE",
     "fundingType": "Non specificato",
     "deadline": "2026-09-25",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-02",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/316768",
@@ -22569,7 +22836,7 @@
     "gsd": "03/CHEM-08 - TECNOLOGIA, SOCIOECONOMIA E NORMATIVA DEI MEDICINALI E DEI PRODOTTI PER IL BENESSERE E PER LA SALUTE",
     "fundingType": "Non specificato",
     "deadline": "2026-09-25",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-02",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/316769",
@@ -22600,7 +22867,7 @@
     "gsd": "13/ECON-02 - POLITICA ECONOMICA",
     "fundingType": "Non specificato",
     "deadline": "2026-09-25",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-01",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/316594",
@@ -22631,7 +22898,7 @@
     "gsd": "03/CHEM-03 - CHIMICA GENERALE E INORGANICA",
     "fundingType": "Non specificato",
     "deadline": "2026-09-25",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-02",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/316781",
@@ -22662,7 +22929,7 @@
     "gsd": "14/GSPS-05 - SOCIOLOGIA GENERALE",
     "fundingType": "Non specificato",
     "deadline": "2026-09-25",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-02",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/316782",
@@ -22693,7 +22960,7 @@
     "gsd": "07/AGRI-02 - AGRONOMIA E SISTEMI COLTURALI ERBACEI E ORTOFLORICOLI",
     "fundingType": "Non specificato",
     "deadline": "2026-09-25",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-10",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/317021",
@@ -22711,8 +22978,101 @@
     "updatedAt": "2026-09-10T09:45:48.573Z"
   },
   {
+    "id": "mur-research-assignments-316972",
+    "title": "Biofilm e campi elettrici spontanei – BIOSPELL",
+    "institution": "CNR - Istituto di Ricerca Sulle Acque",
+    "department": "Da bando ufficiale",
+    "location": "BARI",
+    "region": "Puglia",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Biologia, biotech e farmacia",
+    "ssd": "-",
+    "gsd": "05/BIOS-10 - BIOLOGIA CELLULARE E APPLICATA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-09-25",
+    "deadlineStatus": "closing_soon",
+    "publishedAt": "2026-09-10",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/316972",
+    "salaryOrAmount": "26.000 Euro",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Studio e caratterizzazione dei campi elettrici spontanei presenti nei biofilm e valutazione del loro impatto sul trasporto di massa di substrati e metaboliti, con l'obiettivo di sviluppare biotecnologie innovative basate sull'applicazione di campi elettrici nei processi a biofilm",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "biofilm e campi elettrici spontanei biospell|cnr istituto ricerca sulle acque|2026-09-25",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
+  },
+  {
+    "id": "mur-research-assignments-317123",
+    "title": "Modelli, metodi e strumenti di supporto decisionale per la progettazione e gestione di soluzioni avanzate di intralogistica",
+    "institution": "ALMA MATER STUDIORUM - UNIVERSITA' DI BOLOGNA - - DIPARTIMENTO DI INGEGNERIA INDUSTRIALE",
+    "department": "Da bando ufficiale",
+    "location": "Bologna",
+    "region": "Emilia-Romagna",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Ingegneria, informatica e AI",
+    "ssd": "IIND-05/A - Impianti industriali meccanici",
+    "gsd": "09/IIND-05 - IMPIANTI INDUSTRIALI MECCANICI",
+    "fundingType": "Non specificato",
+    "deadline": "2026-09-25",
+    "deadlineStatus": "closing_soon",
+    "publishedAt": "2026-09-11",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317123",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Obiettivo del progetto è sviluppare, validare e applicare modelli e metodi originali per la progettazione, gestione ed ottimizzazione di soluzioni di material handling e magazzini automatici di tipo shuttle-based S/R (storage and retrieval) 4-way. La validazione e l’applicazione saranno effettuate su casi di studio reali e si valuterà l’opportunità di sviluppare decision support system (DSS). Circa le attività da sv...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "modelli metodi e strumenti supporto decisionale per la progettazione e gestione soluzioni avanzate intralogistica|alma mater studiorum bologna dipartimento ingegneria industriale|2026-09-25",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
+  },
+  {
+    "id": "mur-research-assignments-317124",
+    "title": "Caratterizzazione meccanica di tessuti metastatici vertebrali e dischi intervertebrali",
+    "institution": "ALMA MATER STUDIORUM - UNIVERSITA' DI BOLOGNA - - DIPARTIMENTO DI INGEGNERIA INDUSTRIALE",
+    "department": "Da bando ufficiale",
+    "location": "Bologna",
+    "region": "Emilia-Romagna",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Ingegneria, informatica e AI",
+    "ssd": "IBIO-01/A - Bioingegneria",
+    "gsd": "09/IBIO-01 - BIOINGEGNERIA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-09-25",
+    "deadlineStatus": "closing_soon",
+    "publishedAt": "2026-09-11",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317124",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Il progetto consiste nella caratterizzazione sperimentale di provini di colonna vertebrale provenienti da donatori con conclamata patologia oncologica metastatica, al fine di generare un dataset di proprietà globali e locali utilizzabile per la creazione e validazione di modelli computazionali. Il titolare dell’incarico collaborerà alla preparazione di provini di colonna vertebrale per la caratterizzazione speriment...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "caratterizzazione meccanica tessuti metastatici vertebrali e dischi intervertebrali|alma mater studiorum bologna dipartimento ingegneria industriale|2026-09-25",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
+  },
+  {
     "id": "mur-postdoc-assignments-316462",
-    "title": "Postdoc - OGS",
+    "title": "Analisi di dati fisici e biogeochimici acquisiti mediante piattaforme osservative autonome e campagne oceanografiche, per lo studio della dinamica oceanica profonda e delle sue interazioni con i processi biogeochimici",
     "institution": "OGS",
     "department": "Da bando ufficiale",
     "location": "Sgonico",
@@ -22735,16 +23095,46 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc ogs|ogs|2026-09-26",
+    "dedupeKey": "analisi dati fisici e biogeochimici acquisiti mediante piattaforme osservative autonome e campagne oceanografiche per lo studio dinamica oceanica profonda e sue interazioni con i processi biogeochimici|ogs|2026-09-26",
     "reviewStatus": "needs_review",
-    "confidenceScore": 0.47,
+    "confidenceScore": 0.59,
     "reviewReasons": [
       "unknown_region",
       "multiple_scientific_sectors",
-      "generic_title",
       "generic_institution"
     ],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z"
+  },
+  {
+    "id": "mur-research-contracts-317122",
+    "title": "Procedura di valutazione comparativa per n. 1 contratto di ricerca - Dipartimento di Scienze biomediche e neuromotorie",
+    "institution": "Università di Bologna",
+    "department": "Da bando ufficiale",
+    "location": "Bologna",
+    "region": "Emilia-Romagna",
+    "positionType": "Contratto di ricerca",
+    "professorRank": "",
+    "discipline": "Medicina e salute",
+    "ssd": "MEDS-26/D - Scienze tecniche mediche e chirurgiche avanzate",
+    "gsd": "06/MEDS-26 - SCIENZE TECN. DI MEDICINA DI LABOR., SC. DELLE PROF. SANIT. TECN. DIAGNOSTICHE, ASSIST. E DELLA PREVENZIONE, SC. DELLE PROF. SANIT. DELLA RIABILITAZIONE, SC. TECN. MED. E CHIRURG. AVANZATE",
+    "fundingType": "Non specificato",
+    "deadline": "2026-09-26",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-11",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/317122",
+    "salaryOrAmount": "28,456 Euro",
+    "duration": "29 mesi",
+    "language": "IT/EN",
+    "summary": "Titolo del progetto:“Studio istologico e morfologico dei resti ossei antichi con microscopie avanzate\". L’attività di ricerca sarà focalizzata sull’analisi istologica, morfologica e microscopica di campioni ossei e dentali provenienti da contesti funerari del territorio ibleo, databili tra tarda antichità e alto medioevo. I reperti saranno inclusi e studiati mediante microscopia standard, analisi istologica, microsc...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "procedura valutazione comparativa per n 1 contratto ricerca dipartimento scienze biomediche e neuromotorie|bologna|2026-09-26",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-fixed-term-researchers-151883",
@@ -22779,7 +23169,7 @@
   },
   {
     "id": "mur-postdoc-assignments-316492",
-    "title": "Postdoc - Sapienza Università di Roma",
+    "title": "Derivazione e validazione del calcium score ecocardiografico per confermare la severità della stenosi aortica",
     "institution": "Sapienza Università di Roma",
     "department": "Da bando ufficiale",
     "location": "Roma",
@@ -22802,13 +23192,11 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc sapienza roma|sapienza roma|2026-09-27",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "dedupeKey": "derivazione e validazione calcium score ecocardiografico per confermare la severita stenosi aortica|sapienza roma|2026-09-27",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-doctorates-316080",
@@ -23811,6 +24199,101 @@
     "updatedAt": "2026-09-08T09:42:37.170Z"
   },
   {
+    "id": "mur-fixed-term-researchers-152123",
+    "title": "Selezione pubblica per il reclutamento di n.1 RTTriservata ai titolari di contratto da ricercatore ex art. 24 comma 3 lett. a) l. 240/2010",
+    "institution": "Scuola Superiore Meridionale",
+    "department": "Da bando ufficiale",
+    "location": "Napoli",
+    "region": "Campania",
+    "positionType": "RTT",
+    "professorRank": "Professore straordinario",
+    "discipline": "Medicina e salute",
+    "ssd": "MEDS-08/A - Endocrinologia",
+    "gsd": "06/MEDS-08 - ENDOCRINOLOGIA, NEFROLOGIA E SCIENZE DELL'ALIMENTAZIONE E DEL BENESSERE",
+    "fundingType": "Non specificato",
+    "deadline": "2026-09-28",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-11",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/152123",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Selezione pubblica, per titoli e colloquio, per il reclutamento di n.1 RTT per la durata di anni sei, ai sensi del novellato art. 24, della L. n. 240/2010, in regime di tempo pieno, riservata ai titolari di contratto da ricercatore ex art. 24 comma 3 lett. a) della legge 240/2010 nel testo vigente prima della data di entrata in vigore della Legge 29 giugno 2022 n. 79 (RTDA), di cui al D.M. MUR n. 193 del 05.03.2026...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "selezione pubblica per il reclutamento n 1 rttriservata ai titolari contratto da ricercatore ex art 24 comma 3 lett a l 240 2010|scuola superiore meridionale|2026-09-28",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
+  },
+  {
+    "id": "mur-research-assignments-317131",
+    "title": "La prospettiva Situata Trasformativa (ST): ricerca e sviluppo di modelli per la didattica speciale.",
+    "institution": "ALMA MATER STUDIORUM - UNIVERSITA' DI BOLOGNA - - DIPARTIMENTO DI SCIENZE DELL'EDUCAZIONE",
+    "department": "Da bando ufficiale",
+    "location": "Bologna",
+    "region": "Emilia-Romagna",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Filosofia, storia, lingue, pedagogia e psicologia",
+    "ssd": "PAED-02/A - Didattica e pedagogia speciale",
+    "gsd": "11/PAED-02 - RICERCA EDUCATIVA: DIDATTICA, PEDAGOGIA SPECIALE E PEDAGOGIA SPERIMENTALE",
+    "fundingType": "Non specificato",
+    "deadline": "2026-09-28",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-14",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317131",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "L’attività di ricerca sarà finalizzata all’analisi, alla sperimentazione e alla documentazione di pratiche educative e didattiche riconducibili alla prospettiva Situata e Trasformativa (ST), con particolare attenzione ai processi di partecipazione, apprendimento e trasformazione nei contesti educativi. La ricerca comprenderà la ricognizione e l’analisi della letteratura scientifica di riferimento, la definizione e l...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "la prospettiva situata trasformativa st ricerca e sviluppo modelli per la didattica speciale|alma mater studiorum bologna dipartimento scienze dell educazione|2026-09-28",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
+  },
+  {
+    "id": "mur-research-assignments-317134",
+    "title": "Riconoscere per valorizzare",
+    "institution": "ALMA MATER STUDIORUM - UNIVERSITA' DI BOLOGNA - - DIPARTIMENTO DI SCIENZE DELL'EDUCAZIONE",
+    "department": "Da bando ufficiale",
+    "location": "Bologna",
+    "region": "Emilia-Romagna",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Filosofia, storia, lingue, pedagogia e psicologia",
+    "ssd": "PAED-02/A - Didattica e pedagogia speciale",
+    "gsd": "11/PAED-02 - RICERCA EDUCATIVA: DIDATTICA, PEDAGOGIA SPECIALE E PEDAGOGIA SPERIMENTALE",
+    "fundingType": "Non specificato",
+    "deadline": "2026-09-28",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-14",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317134",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "La ricerca, configurata come studio pilota di ricerca-formazione, coinvolgerà 3 istituti comprensivi e 6 classi della scuola primaria e secondaria di primo grado. L’obiettivo è co-costruire e sperimentare un protocollo osservativo accessibile, finalizzato a riconoscere e valorizzare i punti di forza di tutti gli studenti, compresi quelli con elevate necessità di sostegno e con profili di alto potenziale meno immedia...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "riconoscere per valorizzare|alma mater studiorum bologna dipartimento scienze dell educazione|2026-09-28",
+    "reviewStatus": "needs_review",
+    "confidenceScore": 0.83,
+    "reviewReasons": [
+      "generic_title"
+    ],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
+  },
+  {
     "id": "mur-research-contracts-316493",
     "title": "n. 3 contratti di ricerca art. 22 L. 240/2010 - 2026CR11",
     "institution": "Università degli Studi di Padova",
@@ -23845,7 +24328,7 @@
   },
   {
     "id": "mur-postdoc-assignments-316494",
-    "title": "Postdoc - Università degli Studi di Padova",
+    "title": "n. 13 incarichi post-doc art. 22bis L. 240/2010 - 2026IPD14",
     "institution": "Università degli Studi di Padova",
     "department": "Da bando ufficiale",
     "location": "Padova",
@@ -23868,18 +24351,17 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc studi padova|studi padova|2026-09-29",
+    "dedupeKey": "n 13 incarichi post doc art 22bis l 240 2010 2026ipd14|studi padova|2026-09-29",
     "reviewStatus": "needs_review",
-    "confidenceScore": 0.71,
+    "confidenceScore": 0.83,
     "reviewReasons": [
-      "multiple_scientific_sectors",
-      "generic_title"
+      "multiple_scientific_sectors"
     ],
-    "updatedAt": "2026-09-10T09:45:48.573Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-316802",
-    "title": "Postdoc - Dipartimento di Scienze Economiche e Aziendali",
+    "title": "Incarico post-doc a tempo determinato ai sensi dell’art. 22-bis della Legge 30 dicembre 2010 n. 240 SSD ECON-01/A - Economia Politica",
     "institution": "Dipartimento di Scienze Economiche e Aziendali",
     "department": "Da bando ufficiale",
     "location": "Padova",
@@ -23902,11 +24384,11 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc dipartimento scienze economiche e aziendali|dipartimento scienze economiche e aziendali|2026-09-29",
+    "dedupeKey": "incarico post doc a tempo determinato ai sensi dell art 22 bis legge 30 dicembre 2010 n 240 ssd econ 01 a economia politica|dipartimento scienze economiche e aziendali|2026-09-29",
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-research-contracts-316707",
@@ -24095,6 +24577,37 @@
       "multiple_scientific_sectors"
     ],
     "updatedAt": "2026-09-10T09:45:48.573Z"
+  },
+  {
+    "id": "mur-research-assignments-317135",
+    "title": "Reforestation of forests and orchards after disturbances: A transformative action plan balancing socioeconomic and biodiversity needs",
+    "institution": "ALMA MATER STUDIORUM - UNIVERSITA' DI BOLOGNA - - DIPARTIMENTO DI SCIENZE E TECNOLOGIE AGRO-ALIMENTARI",
+    "department": "Da bando ufficiale",
+    "location": "Bologna",
+    "region": "Emilia-Romagna",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Ambiente, agraria e veterinaria",
+    "ssd": "AGRI-06/C - Pedologia",
+    "gsd": "07/AGRI-06 - GENETICA, CHIMICA E PEDOLOGIA AGRARIA E FORESTALE",
+    "fundingType": "Non specificato",
+    "deadline": "2026-09-29",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-14",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317135",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Durante l’incarico saranno studiati suoli forestali e di actinidieti commerciali. I campioni, raccolti secondo protocolli standard, saranno etichettati, essiccati, setacciati e parzialmente macinati. Le analisi fisiche definiranno, ad esempio, tessitura e ritenzione idrica; quelle chimiche misureranno, ad esempio, carbonio, azoto, pH, salinità, capacità di scambio cationico e nutrienti. Le indagini microbiologiche c...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "reforestation of forests orchards after disturbances a transformative action plan balancing socioeconomic biodiversity needs|alma mater studiorum bologna dipartimento scienze e tecnologie agro alimentari|2026-09-29",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-doctorates-315223",
@@ -24887,6 +25400,68 @@
     "updatedAt": "2026-09-06T09:27:28.899Z"
   },
   {
+    "id": "mur-research-assignments-317132",
+    "title": "Processi, pratiche ed esiti nell'accoglienza residenziale per minori: capitalizzazione delle evidenze empiriche e sviluppo di nuove prospettive di ricerca nazionali e internazionali",
+    "institution": "ALMA MATER STUDIORUM - UNIVERSITA' DI BOLOGNA - - DIPARTIMENTO DI SCIENZE DELL'EDUCAZIONE \"GIOVANNI MARIA BERTIN\"",
+    "department": "Da bando ufficiale",
+    "location": "Bologna",
+    "region": "Emilia-Romagna",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Filosofia, storia, lingue, pedagogia e psicologia",
+    "ssd": "PSIC-03/A - Psicologia sociale",
+    "gsd": "11/PSIC-03 - PSICOLOGIA SOCIALE, DEL LAVORO E DELLE ORGANIZZAZIONI",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-01",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-17",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317132",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Il/la titolare dell’incarico collaborerà all’analisi e valorizzazione dei dati raccolti nell’ambito delle ricerche sull’accoglienza residenziale per minori, con particolare riferimento ai percorsi e agli esiti nelle Comunità per Genitori e Figli, all’esperienza professionale dello staff educativo e ai processi di collaborazione tra servizi sociali e comunità residenziali. Le attività comprenderanno analisi quantitat...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "processi pratiche ed esiti nell accoglienza residenziale per minori capitalizzazione evidenze empiriche e sviluppo nuove prospettive ricerca nazionali e internazionali|alma mater studiorum bologna dipartimento scienze dell educazione giovanni maria bertin|2026-10-01",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
+  },
+  {
+    "id": "mur-postdoc-assignments-317082",
+    "title": "“Labor Unions, Migrant workers and ethnic INEqualities”",
+    "institution": "Università degli Studi di Trento",
+    "department": "Da bando ufficiale",
+    "location": "Trento",
+    "region": "Trentino-Alto Adige",
+    "positionType": "Postdoc",
+    "professorRank": "",
+    "discipline": "Economia, diritto e politica",
+    "ssd": "GSPS-07/A - Sociologia dei fenomeni politici",
+    "gsd": "14/GSPS-07 - SOCIOLOGIA DELLA POLITICA, DEL DIRITTO E DELLA DEVIANZA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-01",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-09",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/317082",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "- Finalizzazione delle attività di raccolta, armonizzazione e pulizia di un dataset finalizzato all'analisi le attività svolte dalle organizzazioni sindacali nel periodo 2008–2023 nei cinque Paesi coinvolti nel progetto (Danimarca, Francia, Italia, Paesi Bassi e Spagna), al fine di fornire un quadro comparativo delle attività sindacali a sostegno dei lavoratori e delle lavoratrici migranti nei cinque Paesi. - Contri...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "labor unions migrant workers ethnic inequalities|studi trento|2026-10-01",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
+  },
+  {
     "id": "mur-research-assignments-316351",
     "title": "Progettazione e sviluppo di un framework di apprendimento continuo auto-supervisionato per la verifica del parlante su dispositivi con vincoli di risorse - 2026_IDR_DEIB_59",
     "institution": "Politecnico di Milano",
@@ -25107,7 +25682,7 @@
   },
   {
     "id": "mur-postdoc-assignments-316680",
-    "title": "Postdoc - Sapienza Università di Roma",
+    "title": "Sintesi degli schemi di monitoraggio di habitat e specie a scala europea",
     "institution": "Sapienza Università di Roma",
     "department": "Da bando ufficiale",
     "location": "Roma",
@@ -25130,13 +25705,11 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc sapienza roma|sapienza roma|2026-10-02",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "dedupeKey": "sintesi schemi monitoraggio habitat e specie a scala europea|sapienza roma|2026-10-02",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-doctorates-316779",
@@ -25642,7 +26215,7 @@
   },
   {
     "id": "mur-postdoc-assignments-316760",
-    "title": "Postdoc - Università di Pisa - Dipartimento di Matematica",
+    "title": "Questioni profonde all'intersezione tra Equazioni alle Derivate Parziali, Teoria Geometrica della Misura, Calcolo delle Variazioni e Analisi Armonica",
     "institution": "Università di Pisa - Dipartimento di Matematica",
     "department": "Da bando ufficiale",
     "location": "Pisa",
@@ -25665,11 +26238,11 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc pisa dipartimento matematica|pisa dipartimento matematica|2026-10-05",
+    "dedupeKey": "questioni profonde all intersezione tra equazioni alle derivate parziali teoria geometrica misura calcolo variazioni e analisi armonica|pisa dipartimento matematica|2026-10-05",
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-fixed-term-researchers-151964",
@@ -25897,6 +26470,37 @@
     "updatedAt": "2026-09-08T09:42:37.170Z"
   },
   {
+    "id": "mur-research-assignments-317060",
+    "title": "2026_IR_10_ICEA - Metodologie innovative per la valutazione dei ponti in muratura",
+    "institution": "Dipartimento ICEA - Università di Padova",
+    "department": "Da bando ufficiale",
+    "location": "Padova",
+    "region": "Veneto",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Architettura, design e territorio",
+    "ssd": "CEAR-07/A - Tecnica delle costruzioni",
+    "gsd": "08/CEAR-07 - TECNICA DELLE COSTRUZIONI",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-05",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-10",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317060",
+    "salaryOrAmount": "25 Euro",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Il programma di ricerca mira a sviluppare una metodologia gerarchica multilivello per la valutazione della sicurezza dei ponti ad arco in muratura, capace di integrare procedure semplificate e modelli numerici avanzati in funzione del livello di conoscenza della struttura. L'obiettivo è definire un workflow operativo che consenta di ottimizzare tempi, costi e affidabilità delle valutazioni, includendo gli effetti de...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "2026 ir 10 icea metodologie innovative per la valutazione dei ponti in muratura|dipartimento icea padova|2026-10-05",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
+  },
+  {
     "id": "mur-research-assignments-316980",
     "title": "Sviluppo e validazione di tecnologie di trapianto cromosomico ad alta fedeltà",
     "institution": "Università degli Studi di Udine",
@@ -25926,6 +26530,37 @@
     "confidenceScore": 0.95,
     "reviewReasons": [],
     "updatedAt": "2026-09-10T09:45:48.573Z"
+  },
+  {
+    "id": "mur-research-assignments-317129",
+    "title": "Ecosistemi di business circolari: dinamiche di configurazione, evoluzione e creazione di valore circolare",
+    "institution": "Università degli Studi di Udine",
+    "department": "Da bando ufficiale",
+    "location": "Udine",
+    "region": "Friuli-Venezia Giulia",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Ingegneria, informatica e AI",
+    "ssd": "IEGE-01/A - Ingegneria economico-gestionale",
+    "gsd": "09/IEGE-01 - INGEGNERIA ECONOMICO-GESTIONALE",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-06",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-09",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317129",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "12 mesi",
+    "language": "IT/EN",
+    "summary": "L'incaricato di ricerca svolgerà l'attività di ricerca in autonomia nei soli limiti del programma di ricerca come pubblicato nel bando di concorso al sito (numero 1137) https://www.uniud.it/it/albo-ufficiale Le iscrizioni alla presente selezione inizieranno il 18 settembre 2026 ore 14:00 (ora italiana) e termineranno il 6 ottobre 2026 ore 14:00 (ora italiana).",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "ecosistemi business circolari dinamiche configurazione evoluzione e creazione valore circolare|studi udine|2026-10-06",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-doctorates-316040",
@@ -26084,7 +26719,7 @@
   },
   {
     "id": "mur-postdoc-assignments-316853",
-    "title": "Postdoc - SAPIENZA - UNIVERSITA' DI ROMA",
+    "title": "Analisi dati ecologici spaziali, modellistica macroecologica",
     "institution": "SAPIENZA - UNIVERSITA' DI ROMA",
     "department": "Da bando ufficiale",
     "location": "ROMA",
@@ -26107,17 +26742,15 @@
     "requirements": [
       "concorsi-bbcd@uniroma1.it"
     ],
-    "dedupeKey": "postdoc sapienza roma|sapienza roma|2026-10-07",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-09-08T09:42:37.170Z"
+    "dedupeKey": "analisi dati ecologici spaziali modellistica macroecologica|sapienza roma|2026-10-07",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-316880",
-    "title": "Postdoc - Università di Pavia",
+    "title": "2026-IpdDip-03-dista - Progettazione e realizzazione di infrastruttura informatica a supporto della cartografia CARG e relativa banca dati",
     "institution": "Università di Pavia",
     "department": "Da bando ufficiale",
     "location": "Pavia",
@@ -26140,14 +26773,13 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc pavia|pavia|2026-10-07",
+    "dedupeKey": "2026 ipddip 03 dista progettazione e realizzazione infrastruttura informatica a supporto cartografia carg e relativa banca dati|pavia|2026-10-07",
     "reviewStatus": "needs_review",
-    "confidenceScore": 0.71,
+    "confidenceScore": 0.83,
     "reviewReasons": [
-      "multiple_scientific_sectors",
-      "generic_title"
+      "multiple_scientific_sectors"
     ],
-    "updatedAt": "2026-09-09T09:47:44.496Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-doctorates-316860",
@@ -26401,7 +27033,7 @@
   },
   {
     "id": "mur-postdoc-assignments-316916",
-    "title": "Postdoc - Dipartimento Istituto Italiano di Studi Orientali",
+    "title": "Costruzione di un’infrastruttura scientifica per la ricerca sulla drammaturgia femminile giapponese del primo Novecento",
     "institution": "Dipartimento Istituto Italiano di Studi Orientali",
     "department": "Da bando ufficiale",
     "location": "Roma",
@@ -26424,15 +27056,15 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc dipartimento istituto italiano studi orientali|dipartimento istituto italiano studi orientali|2026-10-08",
+    "dedupeKey": "costruzione un infrastruttura scientifica per la ricerca sulla drammaturgia femminile giapponese primo novecento|dipartimento istituto italiano studi orientali|2026-10-08",
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-09T09:47:44.496Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-316918",
-    "title": "Postdoc - Sapienza Università di Roma",
+    "title": "Nuove strategie di preparazione e caratterizzazione di nanocarrier per applicazione farmaceutica, cosmetica e ambientale",
     "institution": "Sapienza Università di Roma",
     "department": "Da bando ufficiale",
     "location": "Roma",
@@ -26455,17 +27087,15 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc sapienza roma|sapienza roma|2026-10-08",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-09-09T09:47:44.496Z"
+    "dedupeKey": "nuove strategie preparazione e caratterizzazione nanocarrier per applicazione farmaceutica cosmetica e ambientale|sapienza roma|2026-10-08",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-316930",
-    "title": "Postdoc - Sapienza - Università di Roma",
+    "title": "Sviluppo di materiali funzionali per dispositivi elettrochimici di accumulo e conversione dell'energia",
     "institution": "Sapienza - Università di Roma",
     "department": "Da bando ufficiale",
     "location": "Roma",
@@ -26488,17 +27118,15 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc sapienza roma|sapienza roma|2026-10-08",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-09-09T09:47:44.496Z"
+    "dedupeKey": "sviluppo materiali funzionali per dispositivi elettrochimici accumulo e conversione dell energia|sapienza roma|2026-10-08",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-316931",
-    "title": "Postdoc - Sapienza - Università di Roma",
+    "title": "Sviluppo di processi bioelettrochimici per la produzione di biocombustibili",
     "institution": "Sapienza - Università di Roma",
     "department": "Da bando ufficiale",
     "location": "Roma",
@@ -26521,13 +27149,11 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc sapienza roma|sapienza roma|2026-10-08",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-09-09T09:47:44.496Z"
+    "dedupeKey": "sviluppo processi bioelettrochimici per la produzione biocombustibili|sapienza roma|2026-10-08",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-doctorates-316984",
@@ -26564,7 +27190,7 @@
   },
   {
     "id": "mur-postdoc-assignments-317001",
-    "title": "Postdoc - Università di Pavia",
+    "title": "2026-IpdDip-02-Dicar - Sviluppo e caratterizzazione di scaffold multifunzionali stampati in 4D per l’ingegneria tissutale e del cancro",
     "institution": "Università di Pavia",
     "department": "Da bando ufficiale",
     "location": "Pavia",
@@ -26587,14 +27213,13 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc pavia|pavia|2026-10-08",
+    "dedupeKey": "2026 ipddip 02 dicar sviluppo e caratterizzazione scaffold multifunzionali stampati in 4d per l ingegneria tissutale e cancro|pavia|2026-10-08",
     "reviewStatus": "needs_review",
-    "confidenceScore": 0.71,
+    "confidenceScore": 0.83,
     "reviewReasons": [
-      "multiple_scientific_sectors",
-      "generic_title"
+      "multiple_scientific_sectors"
     ],
-    "updatedAt": "2026-09-10T09:45:48.573Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-doctorates-316004",
@@ -26660,7 +27285,7 @@
   },
   {
     "id": "mur-postdoc-assignments-316975",
-    "title": "Postdoc - Sapienza Università di Roma",
+    "title": "Architettura e forma urbana nel Campo Marzio meridionale: storia, stratificazione e valorizzazione del patrimonio romano",
     "institution": "Sapienza Università di Roma",
     "department": "Da bando ufficiale",
     "location": "Roma",
@@ -26683,13 +27308,11 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc sapienza roma|sapienza roma|2026-10-09",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-09-09T09:47:44.496Z"
+    "dedupeKey": "architettura e forma urbana nel campo marzio meridionale storia stratificazione e valorizzazione patrimonio romano|sapienza roma|2026-10-09",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-research-contracts-317000",
@@ -26755,7 +27378,7 @@
   },
   {
     "id": "mur-postdoc-assignments-316978",
-    "title": "Postdoc - Università degli Studi di Palermo",
+    "title": "Sviluppo e validazione di protocolli di fermentazione innovativi basati sull’uso combinato di lieviti da vino e batteri lattici per la produzione sostenibile di vini bianchi italiani di alta qualità",
     "institution": "Università degli Studi di Palermo",
     "department": "Da bando ufficiale",
     "location": "Palermo",
@@ -26778,17 +27401,15 @@
     "requirements": [
       "pec@cert.unipa.it"
     ],
-    "dedupeKey": "postdoc studi palermo|studi palermo|2026-10-09",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-09-10T09:45:48.573Z"
+    "dedupeKey": "sviluppo e validazione protocolli fermentazione innovativi basati sull uso combinato lieviti da vino e batteri lattici per la produzione sostenibile vini bianchi italiani alta qualita|studi palermo|2026-10-09",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-316979",
-    "title": "Postdoc - Università degli Studi di Palermo",
+    "title": "Valorizzazione delle olive da tavola mediante la caratterizzazione quantitativa e qualitativa dei composti bioattivi e l’analisi delle componenti sensoriali",
     "institution": "Università degli Studi di Palermo",
     "department": "Da bando ufficiale",
     "location": "Palermo",
@@ -26811,17 +27432,15 @@
     "requirements": [
       "pec@cert.unipa.it"
     ],
-    "dedupeKey": "postdoc studi palermo|studi palermo|2026-10-09",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
-    ],
-    "updatedAt": "2026-09-10T09:45:48.573Z"
+    "dedupeKey": "valorizzazione olive da tavola mediante la caratterizzazione quantitativa e qualitativa dei composti bioattivi e l analisi componenti sensoriali|studi palermo|2026-10-09",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-postdoc-assignments-317040",
-    "title": "Postdoc - Sapienza Università di Roma",
+    "title": "Progettazione digitale e di micro-stampa 3D nell’ambito di un progetto di ricerca dedicato allo sviluppo di dispositivi oftalmici innovativi realizzati mediante manifattura additiva ad alta precisione",
     "institution": "Sapienza Università di Roma",
     "department": "Da bando ufficiale",
     "location": "Roma",
@@ -26844,13 +27463,259 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc sapienza roma|sapienza roma|2026-10-10",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "generic_title"
+    "dedupeKey": "progettazione digitale e micro stampa 3d nell ambito un progetto ricerca dedicato allo sviluppo dispositivi oftalmici innovativi realizzati mediante manifattura additiva ad alta precisione|sapienza roma|2026-10-10",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
+  },
+  {
+    "id": "mur-research-assignments-317127",
+    "title": "Sviluppo e caratterizzazione di polimeri e compositi per Direct Ink Writing e assemblaggi reversibili - 2026_IDR_DCMC_20",
+    "institution": "Politecnico di Milano",
+    "department": "Da bando ufficiale",
+    "location": "Milano",
+    "region": "Lombardia",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Ingegneria, informatica e AI",
+    "ssd": "IMAT-01/A - Scienza e tecnologia dei materiali",
+    "gsd": "09/IMAT-01 - SCIENZA E TECNOLOGIA DEI MATERIALI",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-10",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-11",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317127",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Il programma di ricerca prevede: Lo sviluppo di formulazioni polimeriche e composite processabili mediante tecniche di Direct Ink Writing, con particolare riferimento alla progettazione di materiali e processi finalizzati alla realizzazione di sistemi e assemblaggi reversibili. I polimeri e i compositi saranno caratterizzati dal punto di vista strutturale, reologico, termico e meccanico, al fine di definire le condi...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
     ],
-    "updatedAt": "2026-09-10T09:45:48.573Z"
+    "dedupeKey": "sviluppo e caratterizzazione polimeri e compositi per direct ink writing e assemblaggi reversibili 2026 idr dcmc 20|politecnico milano|2026-10-10",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
+  },
+  {
+    "id": "mur-postdoc-assignments-316861",
+    "title": "procedura selettiva per il conferimento di n. 1 incarico post-doc",
+    "institution": "Università degli Studi di Milano - Bicocca",
+    "department": "Da bando ufficiale",
+    "location": "Milano",
+    "region": "Lombardia",
+    "positionType": "Postdoc",
+    "professorRank": "",
+    "discipline": "Matematica, fisica e chimica",
+    "ssd": "MATH-04/A - Fisica matematica",
+    "gsd": "01/MATH-04 - FISICA MATEMATICA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-10",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-09",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/316861",
+    "salaryOrAmount": "28,869 Euro",
+    "duration": "24 mesi",
+    "language": "IT/EN",
+    "summary": "Selezione pubblica per il conferimento di n. 1 incarico post-doc, ai sensi dell’art. 22 bis della Legge 240/2010",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "procedura selettiva per il conferimento n 1 incarico post doc|studi milano bicocca|2026-10-10",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
+  },
+  {
+    "id": "mur-postdoc-assignments-316863",
+    "title": "procedura selettiva per il conferimento di n. 1 incarico post-doc",
+    "institution": "Università degli Studi di Milano - Bicocca",
+    "department": "Da bando ufficiale",
+    "location": "Milano",
+    "region": "Lombardia",
+    "positionType": "Postdoc",
+    "professorRank": "",
+    "discipline": "Economia, diritto e politica",
+    "ssd": "STAT-01/A - Statistica",
+    "gsd": "13/STAT-01 - STATISTICA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-10",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-09",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/316863",
+    "salaryOrAmount": "28,869 Euro",
+    "duration": "12 mesi",
+    "language": "IT/EN",
+    "summary": "Selezione pubblica per il conferimento di n. 1 incarico post-doc, ai sensi dell’art. 22 bis della Legge 240/2010",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "procedura selettiva per il conferimento n 1 incarico post doc|studi milano bicocca|2026-10-10",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
+  },
+  {
+    "id": "mur-postdoc-assignments-316864",
+    "title": "procedura selettiva per il conferimento di n. 1 incarico post-doc",
+    "institution": "Università degli Studi di Milano - Bicocca",
+    "department": "Da bando ufficiale",
+    "location": "Milano",
+    "region": "Lombardia",
+    "positionType": "Postdoc",
+    "professorRank": "",
+    "discipline": "Biologia, biotech e farmacia",
+    "ssd": "BIOS-15/A - Microbiologia",
+    "gsd": "05/BIOS-15 - MICROBIOLOGIA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-10",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-09",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/316864",
+    "salaryOrAmount": "28,869 Euro",
+    "duration": "12 mesi",
+    "language": "IT/EN",
+    "summary": "Selezione pubblica per il conferimento di n. 1 incarico post-doc, ai sensi dell’art. 22 bis della Legge 240/2010",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "procedura selettiva per il conferimento n 1 incarico post doc|studi milano bicocca|2026-10-10",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
+  },
+  {
+    "id": "mur-postdoc-assignments-316865",
+    "title": "procedura selettiva per il conferimento di n. 1 incarico post-doc",
+    "institution": "Università degli Studi di Milano - Bicocca",
+    "department": "Da bando ufficiale",
+    "location": "Milano",
+    "region": "Lombardia",
+    "positionType": "Postdoc",
+    "professorRank": "",
+    "discipline": "Filosofia, storia, lingue, pedagogia e psicologia",
+    "ssd": "PAED-01/A - Pedagogia generale e sociale",
+    "gsd": "11/PAED-01 - PEDAGOGIA E STORIA DELLA PEDAGOGIA E DELL'EDUCAZIONE",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-10",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-09",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/316865",
+    "salaryOrAmount": "28,869 Euro",
+    "duration": "12 mesi",
+    "language": "IT/EN",
+    "summary": "Selezione pubblica per il conferimento di n. 1 incarico post-doc, ai sensi dell’art. 22 bis della Legge 240/2010",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "procedura selettiva per il conferimento n 1 incarico post doc|studi milano bicocca|2026-10-10",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
+  },
+  {
+    "id": "mur-postdoc-assignments-316866",
+    "title": "procedura selettiva per il conferimento di n. 1 incarico post-doc",
+    "institution": "Università degli Studi di Milano - Bicocca",
+    "department": "Da bando ufficiale",
+    "location": "Milano",
+    "region": "Lombardia",
+    "positionType": "Postdoc",
+    "professorRank": "",
+    "discipline": "Ingegneria, informatica e AI",
+    "ssd": "INFO-01/A - Informatica",
+    "gsd": "01/INFO-01 - INFORMATICA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-10",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-09",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/316866",
+    "salaryOrAmount": "28,869 Euro",
+    "duration": "12 mesi",
+    "language": "IT/EN",
+    "summary": "Selezione pubblica per il conferimento di n. 1 incarico post-doc, ai sensi dell’art. 22 bis della Legge 240/2010",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "procedura selettiva per il conferimento n 1 incarico post doc|studi milano bicocca|2026-10-10",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
+  },
+  {
+    "id": "mur-postdoc-assignments-317084",
+    "title": "Regolazione epigenetica nel muscolo scheletrico, con particolare riferimento alle malattie neuromuscolari",
+    "institution": "SAPIENZA UNIVERSITA' DI ROMA",
+    "department": "Da bando ufficiale",
+    "location": "ROMA",
+    "region": "Lazio",
+    "positionType": "Postdoc",
+    "professorRank": "",
+    "discipline": "Biologia, biotech e farmacia",
+    "ssd": "BIOS-06/A - Fisiologia",
+    "gsd": "05/BIOS-06 - FISIOLOGIA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-10",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-10",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/317084",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Regolazione epigenetica nel muscolo scheletrico, con particolare riferimento alle malattie neuromuscolari",
+    "requirements": [
+      "concorsi-bbcd@cert.uniroma1.it"
+    ],
+    "dedupeKey": "regolazione epigenetica nel muscolo scheletrico con particolare riferimento alle malattie neuromuscolari|sapienza roma|2026-10-10",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
+  },
+  {
+    "id": "mur-postdoc-assignments-317100",
+    "title": "Studio delle risposte agli stress idrico e salino",
+    "institution": "Sapienza - Università di Roma Dipartimento di Biologia Ambientale",
+    "department": "Da bando ufficiale",
+    "location": "Roma",
+    "region": "Lazio",
+    "positionType": "Postdoc",
+    "professorRank": "",
+    "discipline": "Biologia, biotech e farmacia",
+    "ssd": "BIOS-01/A - Botanica generale",
+    "gsd": "05/BIOS-01 - BOTANICA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-10",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-10",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/317100",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Lo scopo della ricerca è comprendere le strategie di difesa delle piante di miglio esposte a stress salino o idrico. A tale scopo si richiede la conoscenza di tecniche di coltura in vitro e in campo di piante di interesse agro-alimentare e di tecniche di analisi morfologiche, cito-istologiche, molecolari, di microscopia confocale e spettroscopia Raman utilizzabili nello studio delle risposte delle piante allo stress...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "studio risposte agli stress idrico e salino|sapienza roma dipartimento biologia ambientale|2026-10-10",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-research-assignments-317025",
@@ -26884,8 +27749,101 @@
     "updatedAt": "2026-09-10T09:45:48.573Z"
   },
   {
+    "id": "mur-professor-calls-151903",
+    "title": "n. 1 posto di PROFESSORE DI SECONDA FASCIA presso il DSCS G.S.D. 06/MEDS-19 s.s.d. MEDS-19/B “Medicina fisica e riabilitativa”",
+    "institution": "Università degli Studi di Brescia",
+    "department": "Da bando ufficiale",
+    "location": "Brescia",
+    "region": "Lombardia",
+    "positionType": "Professore II fascia",
+    "professorRank": "Professore II fascia",
+    "discipline": "Medicina e salute",
+    "ssd": "MEDS-19/B - Medicina fisica e riabilitativa",
+    "gsd": "06/MEDS-19 - MALATTIE DELL'APPARATO LOCOMOTORE E MEDICINA FISICA E RIABILITATIVA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-12",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-11",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/profcalls.php/public/job/id_job/151903",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Procedura selettiva, ai sensi dell’art.18 – comma 1 – Legge 240/2010, per la chiamata di n. 1 professore di seconda fascia per il G.S.D 06/MEDS-19 “Malattie dell’apparato locomotore e Medicina fisica e riabilitativa”, ssd MEDS-19/B “Medicina fisica e riabilitativa” presso il Dipartimento di Scienze Cliniche e Sperimentali. Numero massimo di pubblicazioni da presentare a scelta dal candidato: 12 (dodici).",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "n 1 posto professore seconda fascia il dscs g s d 06 meds 19 s s d meds 19 b medicina fisica e riabilitativa|studi brescia|2026-10-12",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
+  },
+  {
+    "id": "mur-professor-calls-151983",
+    "title": "n.1 posto di PROFESSORE DI PRIMA FASCIA presso il DEM G.S.D 13/ECON-06 ssd ECON-06/A",
+    "institution": "Università degli studi di Brescia",
+    "department": "Da bando ufficiale",
+    "location": "Brescia",
+    "region": "Lombardia",
+    "positionType": "Professore I fascia",
+    "professorRank": "Professore I fascia",
+    "discipline": "Economia, diritto e politica",
+    "ssd": "ECON-06/A - Economia aziendale",
+    "gsd": "13/ECON-06 - ECONOMIA AZIENDALE",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-12",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-11",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/profcalls.php/public/job/id_job/151983",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Procedura selettiva, ai sensi dell’art.18–comma 1–Legge 240/2010, per la chiamata di n.1 professore di prima fascia per il gsd 13/ECON-06 “Economia aziendale” (SC 13/B1 ex DM 855/2015), settore scientifico-disciplinare ECON-06/A “Economia aziendale” (SSD SECS-P/07 ex DM 855/2015), presso il Dipartimento di Economia e Management. Numero massimo di pubblicazioni da presentare a scelta dal candidato:12 (dodici).",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "n 1 posto professore prima fascia il dem g s d 13 econ 06 ssd econ 06 a|studi brescia|2026-10-12",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
+  },
+  {
+    "id": "mur-professor-calls-152124",
+    "title": "Procedura comparativa ai sensi dell’art. 18, comma 4, della legge 240/2010 s.m.i. per la chiamata di n. 1 professore universitario di ruolo di seconda fascia",
+    "institution": "Scuola Superiore Meridionale",
+    "department": "Da bando ufficiale",
+    "location": "Napoli",
+    "region": "Campania",
+    "positionType": "Professore II fascia",
+    "professorRank": "Professore II fascia",
+    "discipline": "Medicina e salute",
+    "ssd": "MEDS-09/A - Oncologia medica",
+    "gsd": "06/MEDS-09 - MALATTIE DEL SANGUE, ONCOLOGIA E REUMATOLOGIA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-12",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-11",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/profcalls.php/public/job/id_job/152124",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Procedura comparativa ai sensi dell’art. 18, comma 4, della legge 240/2010 s.m.i. per la chiamata di n. 1 professore universitario di ruolo di seconda fascia, a tempo pieno, nel GSD 06/MEDS-09 Malattie del Sangue, Oncologia e Reumatologia, SSD MEDS-09/A Oncologia Medica per le esigenze dell’Area Scientifico-Tecnologica della Scuola Superiore Meridionale, secondo la disciplina vigente anteriormente all’entrata in vig...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "procedura comparativa ai sensi dell art 18 comma 4 legge 240 2010 s m i per la chiamata n 1 professore universitario ruolo seconda fascia|scuola superiore meridionale|2026-10-12",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-11T09:43:02.340Z"
+  },
+  {
     "id": "mur-postdoc-assignments-316706",
-    "title": "Postdoc - Università degli studi di Napoli Federico II",
+    "title": "Individuazione di una metodologia riproducibile di stima della domanda potenziale dei nuovi servizi a domanda da realizzarsi nell’area metropolitana di Milano con i mini POD innovativi forniti da NEXT",
     "institution": "Università degli studi di Napoli Federico II",
     "department": "Da bando ufficiale",
     "location": "Napoli",
@@ -26908,11 +27866,11 @@
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
-    "dedupeKey": "postdoc studi napoli federico ii|studi napoli federico ii|2026-10-13",
+    "dedupeKey": "individuazione una metodologia riproducibile stima domanda potenziale dei nuovi servizi a domanda da realizzarsi nell area metropolitana milano con i mini pod innovativi forniti da next|studi napoli federico ii|2026-10-13",
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z"
   },
   {
     "id": "mur-fixed-term-researchers-151129",
