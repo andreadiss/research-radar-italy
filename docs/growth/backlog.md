@@ -1,5 +1,7 @@
 ## Prioritized backlog
 
+11 settembre 2026 — Task scelto: riconoscere le etichette ufficiali dei titoli Postdoc. Impact alto potenziale per ricerche tematiche; Confidence alta sulla causa, bassa sull'effetto traffico; Effort piccolo, Risk basso. Due alias e tre test, niente workflow/persistenza. Dopo merge verificare il primo sync ordinario che usa il nuovo parser e i titoli del campione; non forzare import né modificare Supabase. Indicizzazione dal 13 settembre, bilancio clic il 16.
+
 Aggiornamento 10 settembre 2026 — Titoli metadata senza doppio ente: Impact medio potenziale sui clic, Confidence alta sul difetto/bassa sull'effetto traffico, Effort 30 min, Risk basso. Correzione pronta per PR, 106 titoli interessati su 838; nessuna riscrittura dei dati. Obiettivo principale: clic organici, non numero di modifiche. Prossimo task: verificare 3 schede con titolo generico e contenuto ufficiale utile; campione indicizzazione dal 13 settembre, bilancio il 16. GA4 resta escluso dalle estrazioni automatiche.
 
 Aggiornamento 9 settembre 2026 — Correzione audit freshness: Impact medio, Confidence alta, Effort piccolo, Risk basso. Eliminati 662 falsi warning; la fonte è ora segnalata una sola volta solo oltre 48 ore dall'ultimo controllo completo riuscito.

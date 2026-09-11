@@ -1,5 +1,7 @@
 # Decision log
 
+2026-09-11: aggiungere esclusivamente gli alias «Titolo del progetto in italiano» e «Titolo del progetto in inglese» al parser. Preservare precedenza delle etichette specifiche preesistenti, fallback e separazione delle lingue. Il cambiamento entrerà nei dati tramite il prossimo sync ordinario riuscito; non modificare cache, date, workflow, segreti o persistenza. PR #9 confermata shipped.
+
 2026-09-10: eliminare soltanto l'ente aggiunto quando il titolo metadata già troncato termina con lo stesso nome, confrontando maiuscole/spazi e separatori trattino/en dash/em dash. Preservare identificatore, contenuti, canonical, robots e date; nessun nuovo dato né infrastruttura. Priorità ai clic organici; niente A/B test né controlli reiterati su problemi risolti. Il nome troncato o parziale continua a ricevere l'ente completo.
 
 2026-09-09: misurare freshness MUR a livello di fonte con `lastSuccessfulCheckAt`; non usare la modifica delle singole schede come prova di scansione. Soglia 48 ore, un solo warning di fonte quando stale; timestamp assente, futuro o malformato è errore. Nessuna modifica a dati, import, schedule, hosting o interfaccia.
