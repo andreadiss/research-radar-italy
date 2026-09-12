@@ -1,5 +1,7 @@
 # Decision log
 
+2026-09-12: considerare conclusa la correzione dei titoli Postdoc dopo il primo sync ordinario riuscito e verifica live 3/3. Non modificare manualmente i 29 titoli generici residui: hanno scadenza precedente al controllo e le URL restano archiviate. Non iniziare un'altra modifica prima del riesame indicizzazione previsto dal 13 settembre.
+
 2026-09-11: aggiungere esclusivamente gli alias «Titolo del progetto in italiano» e «Titolo del progetto in inglese» al parser. Preservare precedenza delle etichette specifiche preesistenti, fallback e separazione delle lingue. Il cambiamento entrerà nei dati tramite il prossimo sync ordinario riuscito; non modificare cache, date, workflow, segreti o persistenza. PR #9 confermata shipped.
 
 2026-09-10: eliminare soltanto l'ente aggiunto quando il titolo metadata già troncato termina con lo stesso nome, confrontando maiuscole/spazi e separatori trattino/en dash/em dash. Preservare identificatore, contenuti, canonical, robots e date; nessun nuovo dato né infrastruttura. Priorità ai clic organici; niente A/B test né controlli reiterati su problemi risolti. Il nome troncato o parziale continua a ricevere l'ente completo.
