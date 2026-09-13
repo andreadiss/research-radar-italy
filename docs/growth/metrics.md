@@ -1,5 +1,9 @@
 ## Baseline
 
+13 settembre 2026 — Sessione aggiuntiva — Baseline contenuto: due schede attive con requisiti troncati a 182 caratteri inclusi i puntini; ripristinati 666 caratteri per 147663 e 491 per 151146, identici alla fonte MUR. Conteggio schede attive con requisiti troncati da questa regola: 2→0 nel dataset. È completezza del contenuto, non incremento di visite. Nessuna nuova estrazione GSC, come concordato con l’utente.
+
+13 settembre 2026 — Nessuna nuova metrica GSC: query senza dimensioni rifiutata con payment_required. Ultima baseline documentata resta 13 agosto–9 settembre: 17 impression, 3 clic, CTR 17,65%, posizione 11; non è una misurazione al 13 settembre. GA4 non estratto. Campione pubblico: 9 pagine HTTP 200 (home, quattro landing/indice, tre Postdoc e Dottorato archiviato); il Dottorato 296467 è noindex, coerente con archivio/scadenza. Sitemap: 694 URL uniche, non numero di pagine indicizzate. Nessuna crescita valutabile con nuovi dati.
+
 12 settembre 2026 — Outcome contenuti PR #10: dopo sync ordinario riuscito, titoli Postdoc generici 97→29 su 108; con deadline >= data del controllo 68→0. Tre schede campione su tre espongono il titolo ufficiale. GSC 13 agosto–9 settembre, dati consolidati al 9: 17 impression, 3 clic, CTR 17,65%, posizione 11. Nessuna crescita misurabile e nessuna attribuzione causale; GA4 non estratto.
 
 11 settembre 2026 — GSC senza dimensioni, 12 agosto–8 settembre consolidati: 17 impression, 3 clic, CTR 17,65%, posizione 11. Nessun incremento misurabile; finestre sovrapposte, nessuna causalità. Baseline contenuti: 97/97 Postdoc con titolo generico nel dataset di 856 posizioni; 68 con deadline >= 11 settembre. Test su tre fonti HTTP: 3/3 titoli IT/EN recuperati; i titoli pubblicati non sono ancora aggiornati. GA4 escluso.
