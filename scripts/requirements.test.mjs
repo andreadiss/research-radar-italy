@@ -13,3 +13,10 @@ test('importer gives an explicit official-source fallback for link-only applicat
  const position=toPosition({externalId:'test',positionType:'RTT',institution:'Università test',title:'Ricerca',deadline:'2026-09-30',sourceUrl:'https://example.test/call',applicationMode:'https://example.test/apply'});
  assert.deepEqual(position.requirements,['Requisiti indicati nel bando ufficiale']);
 });
+test('normalization preserves eligibility alternatives and exclusions beyond 180 characters',()=>{
+ const requirement='Sono ammessi i candidati con un dottorato di ricerca conseguito in Italia o all’estero e con esperienza scientifica documentata nelle discipline indicate nel bando e nei relativi allegati. Sono richieste almeno quattro pubblicazioni, con esclusione dei rapporti interni.';
+ assert.ok(requirement.length>180);
+ const application='Presentare i documenti elencati nel bando ufficiale.';
+ const position=toPosition({externalId:'test',positionType:'RTT',institution:'Università test',title:'Ricerca',deadline:'2026-09-30',sourceUrl:'https://example.test/call',requirements:requirement,applicationMode:application});
+ assert.deepEqual(position.requirements,[requirement,application]);
+});

@@ -14,8 +14,8 @@ export function toPosition(record) {
   const sourceUrl = canonicalizeUrl(record.sourceUrl);
   const location = normalizeLocation(firstText(record.city, record.province, "Italia"));
   const professorRank = inferProfessorRank(record);
-  const requirements = meaningfulRequirements([record.requirements, record.applicationMode])
-    .map((value) => truncate(value, 180));
+  // Preserve eligibility conditions, alternatives and exclusions from the source.
+  const requirements = meaningfulRequirements([record.requirements, record.applicationMode]);
 
   const multipleScientificSectors = [record.gsd, record.ssd].some((value) => typeof value === "string" && value.includes("\n"));
   const review = reviewSignals({
