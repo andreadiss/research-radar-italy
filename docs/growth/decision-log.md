@@ -1,5 +1,7 @@
 # Decision log
 
+13 settembre 2026 — Non attivare abbonamenti GSC Wizard né aggirare il blocco payment_required. Rimandare URL Inspection e nuove estrazioni finché l’accesso non torna disponibile; proseguire i task gratuiti utili sul sito. Non rimuovere noindex dalla scheda 296467 archiviata per inseguire indicizzazione. Nessuna modifica applicativa o infrastrutturale. Registrare il limite nei sei documenti in una PR reviewable senza merge/deploy: questa sessione non esegue i gate completi richiesti per il merge. Revisione settimanale del 16 settembre resta obbligatoria anche senza nuovi dati.
+
 2026-09-12: considerare conclusa la correzione dei titoli Postdoc dopo il primo sync ordinario riuscito e verifica live 3/3. Non modificare manualmente i 29 titoli generici residui: hanno scadenza precedente al controllo e le URL restano archiviate. Non iniziare un'altra modifica prima del riesame indicizzazione previsto dal 13 settembre.
 
 2026-09-11: aggiungere esclusivamente gli alias «Titolo del progetto in italiano» e «Titolo del progetto in inglese» al parser. Preservare precedenza delle etichette specifiche preesistenti, fallback e separazione delle lingue. Il cambiamento entrerà nei dati tramite il prossimo sync ordinario riuscito; non modificare cache, date, workflow, segreti o persistenza. PR #9 confermata shipped.

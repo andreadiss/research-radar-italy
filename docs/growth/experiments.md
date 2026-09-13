@@ -1,5 +1,7 @@
 ## Experiment opportunities
 
+13 settembre 2026 — Riesame tecnico, non esperimento. Nessun A/B test o effetto SEO attribuito. L’archiviazione di 296467 rende improprio usarla come gate di nuova indicizzazione: mantenerla come controllo noindex; per il gate futuro distinguere home, quattro landing/indice e tre Postdoc verificati, ricontrollandone l’apertura. Accesso GSC Wizard bloccato dal piano: ipotesi traffico non valutabile, non sostituire ispezioni con presenza nella sitemap o risultati di ricerche pubbliche.
+
 12 settembre 2026 — Gate operativo del recupero titoli superato: 3/3 campioni corretti live e 0 Postdoc generici con scadenza non trascorsa. L'ipotesi di aumento delle ricerche tematiche resta non valutabile: GSC non mostra crescita nei dati consolidati al 9 settembre. Continuare a osservare impression e clic per scheda, senza trattarlo come A/B test.
 
 11 settembre 2026 — Non A/B test: recupero di titoli ufficiali persi dall'importatore. Ipotesi: riportare il tema del progetto rende le schede utili per ricerche specifiche e può portare clic organici. Primo gate: titoli specifici sulle tre schede dopo sync riuscito; outcome: clic organici e impression per scheda, senza attribuzione causale con i volumi attuali. Nessun titolo sintetizzato o keyword aggiunta.
