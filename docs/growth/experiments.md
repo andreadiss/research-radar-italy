@@ -1,5 +1,7 @@
 ## Experiment opportunities
 
+13 settembre 2026 — Terza sessione — Ipotesi osservazionale: un collegamento contestuale dalla scheda alla categoria aiuta a trovare alternative e rende le landing raggiungibili da più schede. Non è un A/B test e non dimostra nuove visite organiche. Gate tecnico: associazione esatta per quattro tipi e fallback per tutti gli altri; futuro outcome: navigazione verso categorie e clic organici sulle landing solo con dati disponibili e tracking autorizzato.
+
 13 settembre 2026 — Sessione aggiuntiva — Ipotesi non A/B: requisiti fedeli alla fonte rendono le schede più utili per valutare l’ammissibilità e possono coprire ricerche specifiche. Non quantificare effetti SEO. Due fonti MUR verificate; nessuna condizione di ammissione dedotta o inventata. Osservare in futuro clic e impression per le due URL, quando disponibili.
 
 13 settembre 2026 — Riesame tecnico, non esperimento. Nessun A/B test o effetto SEO attribuito. L’archiviazione di 296467 rende improprio usarla come gate di nuova indicizzazione: mantenerla come controllo noindex; per il gate futuro distinguere home, quattro landing/indice e tre Postdoc verificati, ricontrollandone l’apertura. Accesso GSC Wizard bloccato dal piano: ipotesi traffico non valutabile, non sostituire ispezioni con presenza nella sitemap o risultati di ricerche pubbliche.

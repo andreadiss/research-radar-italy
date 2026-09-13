@@ -1,5 +1,7 @@
 ## Baseline
 
+13 settembre 2026 — Terza sessione — Misura tecnica: 567/906 schede acquisiscono una CTA finale verso la categoria pertinente (PhD 204, Postdoc 111, RTT 197, Contratto di ricerca 55); 424 delle 567 hanno deadline non trascorsa e non sono archiviate al controllo del 13 settembre. Le altre 339 conservano l’indice. Tutti i collegamenti controllati sull’export. Nessuna nuova metrica traffico, nessuna estrazione GSC oggi e nessun incremento attribuito.
+
 13 settembre 2026 — Sessione aggiuntiva — Baseline contenuto: due schede attive con requisiti troncati a 182 caratteri inclusi i puntini; ripristinati 666 caratteri per 147663 e 491 per 151146, identici alla fonte MUR. Conteggio schede attive con requisiti troncati da questa regola: 2→0 nel dataset. È completezza del contenuto, non incremento di visite. Nessuna nuova estrazione GSC, come concordato con l’utente.
 
 13 settembre 2026 — Nessuna nuova metrica GSC: query senza dimensioni rifiutata con payment_required. Ultima baseline documentata resta 13 agosto–9 settembre: 17 impression, 3 clic, CTR 17,65%, posizione 11; non è una misurazione al 13 settembre. GA4 non estratto. Campione pubblico: 9 pagine HTTP 200 (home, quattro landing/indice, tre Postdoc e Dottorato archiviato); il Dottorato 296467 è noindex, coerente con archivio/scadenza. Sitemap: 694 URL uniche, non numero di pagine indicizzate. Nessuna crescita valutabile con nuovi dati.

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Route } from "next";
 import Link from "next/link";
 import { SiteTopbar } from "@/app/components/SiteTopbar";
 import { OfficialSourceLink } from "@/app/components/OfficialSourceLink";
@@ -9,6 +9,7 @@ import { absoluteUrl, jsonLd, truncateText } from "@/lib/seo";
 import { meaningfulRequirements } from "@/lib/requirements.mjs";
 import { positionMetadataTitle } from "@/lib/position-metadata-title.mjs";
 import { relatedPositions } from "@/lib/related-positions";
+import { seoLandingPages } from "@/lib/seo-landing-pages";
 import { italyToday, isOpenPosition } from "@/lib/opportunity-status";
 
 export function generateStaticParams() {
@@ -58,6 +59,9 @@ export default function PositionDetail({ params }: { params: { id: string } }) {
     notFound();
   }
 
+  const categoryPage = seoLandingPages.find((page) =>
+    page.kind === "positions" && page.filter.type === position.positionType
+  );
   const requirements = meaningfulRequirements(position.requirements);
   const related = relatedPositions(position, positions, italyToday());
 
@@ -154,7 +158,9 @@ export default function PositionDetail({ params }: { params: { id: string } }) {
               </ul>
             </section>
           ) : null}
-          <Link className="back-link" href="/posizioni/indice">Esplora altre opportunità aperte</Link>
+          <Link className="back-link" href={categoryPage ? `${categoryPage.path}/` as Route : "/posizioni/indice/"}>
+            {categoryPage ? `Altre opportunità: ${categoryPage.shortLabel}` : "Esplora altre opportunità aperte"}
+          </Link>
         </article>
       </section>
     </main>
