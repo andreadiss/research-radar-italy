@@ -12,6 +12,7 @@ class Page(HTMLParser):
     def __init__(self):
         super().__init__()
         self.links, self.h1, self.title = [], [], ""
+        self.back_links = []
         self.canonical = None
         self.in_title = self.in_h1 = False
 
@@ -19,6 +20,8 @@ class Page(HTMLParser):
         attrs = dict(attrs)
         if tag == "a" and attrs.get("href"):
             self.links.append(attrs["href"])
+            if "back-link" in attrs.get("class", "").split():
+                self.back_links.append(attrs["href"])
         if tag == "h1":
             self.in_h1 = True
         if tag == "title":
@@ -80,7 +83,25 @@ orphans = [url for url in urls if (urlsplit(url).path or "/") not in seen]
 errors.extend(f"Unreachable from homepage through HTML links: {url}" for url in orphans)
 errors.extend(f"Broken internal link: {source} -> {target}" for source, target in sorted(broken))
 positions = [page for route, page in pages.items() if route.startswith("/positions/")]
+# Check the final category CTA even on archived pages outside the sitemap.
+category_paths = {
+    "PhD": "/posizioni/dottorati/",
+    "Postdoc": "/posizioni/postdoc/",
+    "RTT": "/posizioni/ricercatori-tempo-determinato/",
+    "Contratto di ricerca": "/posizioni/contratti-di-ricerca/",
+}
+category_counts = {"category": 0, "directory_fallback": 0}
+for record in json.loads(Path("lib/generated/mur-positions.json").read_text()):
+    route = f"/positions/{record['id']}/"
+    target = category_paths.get(record["positionType"], "/posizioni/indice/")
+    page = pages.get(route)
+    if page is None or not page.back_links or page.back_links[-1] != target:
+        errors.append(f"Incorrect final category link: {route} -> expected {target}")
+    if target not in pages:
+        errors.append(f"Category link target has no exported HTML: {target}")
+    category_counts["category" if record["positionType"] in category_paths else "directory_fallback"] += 1
 titles = [page.title for page in positions]
 report = {"html_pages": len(pages), "sitemap_urls": len(urls), "reachable_pages": len(seen), "orphan_sitemap_urls": len(orphans), "broken_internal_links": len(broken), "duplicate_position_titles": len(titles) - len(set(titles)), "initial_html": {route: {"h1": pages[route].h1, "links": len(pages[route].links)} for route in ("/", "/posizioni/", "/funding/")}, "errors": errors}
+report["category_cta_checks"] = category_counts
 print(json.dumps(report, ensure_ascii=False, indent=2))
 if errors: sys.exit(1)
