@@ -45,6 +45,7 @@ export default function SeoLandingRoute({ params }: PageProps) {
   if (!page) notFound();
 
   const items = landingItems(page);
+  const disciplines = landingDisciplines(page);
   const structuredData = buildStructuredData(page, items);
 
   return (
@@ -100,6 +101,20 @@ export default function SeoLandingRoute({ params }: PageProps) {
             </section>
           </div>
 
+          {disciplines.length > 0 ? (
+            <section className="seo-faq" aria-labelledby="postdoc-disciplines-title">
+              <h2 id="postdoc-disciplines-title">Postdoc per area disciplinare</h2>
+              <p>Scegli un’area per vedere le posizioni postdoc attualmente disponibili nel radar.</p>
+              <nav className="seo-related-links" aria-label="Aree disciplinari postdoc">
+                {disciplines.map((discipline) => (
+                  <Link href={discipline.href as Route} key={discipline.name}>
+                    {discipline.name} ({discipline.count})
+                  </Link>
+                ))}
+              </nav>
+            </section>
+          ) : null}
+
           <section className="seo-faq">
             <h2>Domande frequenti</h2>
             {page.faqs.map((faq) => (
@@ -119,6 +134,23 @@ export default function SeoLandingRoute({ params }: PageProps) {
       </section>
     </main>
   );
+}
+
+function landingDisciplines(page: SeoLandingPage) {
+  if (page.path !== "/posizioni/postdoc") return [];
+
+  const counts = positions
+    .filter((position) => position.positionType === "Postdoc" && isOpenPosition(position))
+    .reduce((byDiscipline, position) => {
+      byDiscipline.set(position.discipline, (byDiscipline.get(position.discipline) ?? 0) + 1);
+      return byDiscipline;
+    }, new Map<string, number>());
+
+  return Array.from(counts, ([name, count]) => ({
+    name,
+    count,
+    href: `/posizioni/?type=Postdoc&discipline=${encodeURIComponent(name)}`
+  })).sort((a, b) => b.count - a.count || a.name.localeCompare(b.name, "it"));
 }
 
 function landingItems(page: SeoLandingPage) {

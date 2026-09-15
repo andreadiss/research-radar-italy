@@ -1,5 +1,7 @@
 ## Experiment opportunities
 
+15 settembre 2026 — Miglioramento osservazionale, non A/B test: rendere visibili le aree realmente presenti può aiutare utenti e motori a comprendere la copertura della landing Postdoc. Gate tecnico: nove discipline, somma 81, filtri coerenti e assenza sulle altre landing. Outcome futuro: impression/clic della landing e uso dei percorsi filtrati, solo quando saranno disponibili dati attendibili.
+
 14 settembre 2026 — Nessun esperimento avviato. Il guardrail di categoria rileva anche un link sbagliato che punta a una pagina valida, e controlla schede archiviate non raggiunte dal crawl della sitemap. Le due prove negative non modificano file o sito. Beneficio SEO dei link ancora non misurato; nessuna estrazione GA4.
 
 13 settembre 2026 — Terza sessione — Ipotesi osservazionale: un collegamento contestuale dalla scheda alla categoria aiuta a trovare alternative e rende le landing raggiungibili da più schede. Non è un A/B test e non dimostra nuove visite organiche. Gate tecnico: associazione esatta per quattro tipi e fallback per tutti gli altri; futuro outcome: navigazione verso categorie e clic organici sulle landing solo con dati disponibili e tracking autorizzato.

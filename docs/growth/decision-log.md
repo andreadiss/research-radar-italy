@@ -1,5 +1,7 @@
 # Decision log
 
+15 settembre 2026 — Usare esclusivamente i Postdoc aperti del dataset per generare discipline e conteggi nella landing esistente. Ordinare per numerosità e poi alfabeticamente; collegare alla vista /posizioni con tipo Postdoc e disciplina. Non creare URL canoniche o landing aggiuntive per disciplina, non modificare sitemap, title, tracking o pipeline. I numeri descrivono il contenuto della build, non traffico né disponibilità confermata oltre la fonte.
+
 14 settembre 2026 — Preservare la PR #14 e incorporare main 342542b senza force push; aggiungere solo il controllo di regressione nello script audit già eseguito dalla build, senza cambiare workflow o integrazioni. Tre check remoti falliti sul vecchio head: non ignorarli né forzare merge. Nuovo head da ricontrollare; se il blocco persiste lasciare la PR reviewable.
 
 13 settembre 2026 — Terza sessione autorizzata dall’utente — Sostituire soltanto la CTA finale della scheda, riutilizzando seoLandingPages e il tipo esatto del record. Testo «Altre opportunità: [categoria]», stesso stile; fallback indice quando manca una landing corrispondente. Valido anche sulle schede archiviate per trovare alternative; noindex e canonical restano invariati. Nessuna nuova categoria, pagina, tracking o dipendenza. Non usare GSC oggi. Nessun intervento sulle integrazioni escluse.

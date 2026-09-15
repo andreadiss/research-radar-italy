@@ -1,5 +1,7 @@
 ## Prioritized backlog
 
+15 settembre 2026 — Task scelto: rendere esplorabili le discipline nella landing Postdoc. Impact medio-alto potenziale su utilità e ricerche specifiche; Confidence alta sul bisogno informativo e sul dato, bassa sull’effetto traffico; Effort piccolo; Risk basso. Nove filtri esistenti, nessuna pagina duplicata. Prossima priorità: bilancio esplicito il 16 settembre, poi scegliere una landing sulla base dei dati disponibili.
+
 14 settembre 2026 — Task scelto: completare il guardrail della PR #14, non aprire un’altra modifica. Impact medio (preserva i percorsi di scoperta), Confidence alta sul controllo/bassa sul traffico, Effort piccolo, Risk basso. Pubblicazione subordinata ai controlli remoti; non intervenire sulle integrazioni escluse. GSC ancora payment_required. Bilancio del 16 settembre confermato anche senza nuovi dati.
 
 13 settembre 2026 — Terza sessione — Link contestuale dalla scheda alla categoria: Impact medio su esplorazione e scoperta landing, Confidence alta sul percorso/bassa sull’effetto traffico, Effort piccolo, Risk basso. Sostituito un link esistente usando la mappa SEO già presente. Nessuna nuova landing o filtro. Prossimo intervento: contenuto specifico verificato in una landing esistente; evitare nuove sessioni di sola documentazione.

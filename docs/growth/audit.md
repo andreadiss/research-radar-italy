@@ -1,5 +1,7 @@
 # Research Radar Italy — Audit iniziale
 
+15 settembre 2026 — La landing Postdoc mostrava 81 opportunità ma nessun accesso per area. Aggiunta una sezione generata dai soli Postdoc aperti con nove discipline, conteggio e link al filtro esistente; nessuna nuova landing o contenuto dedotto. Verificata corrispondenza completa tra dataset ed HTML; Dottorati, Contratti e RTT non ricevono la sezione. Precedente PR #14 ancora corretta live e ultimo deploy main 34847915561 riuscito.
+
 14 settembre 2026 — PR #14 riallineata al dataset main 342542b senza perdere i dati recenti. Aggiunto all’audit statico il controllo della CTA finale su ogni scheda, incluse le archiviate fuori sitemap: destinazione coerente con il tipo e HTML di destinazione esistente. Verificati 567 link categoria e 339 fallback; due prove negative con destinazione esistente ma errata sono rifiutate. PR #13 ancora corretta live; ultimo deploy main 34756516448 riuscito.
 
 13 settembre 2026 — Terza sessione del giorno — PR #13 e requisiti completi confermati live, home/indice/schede/favicon/asset 200. Main 7b65bb6, nessuna PR aperta. Difetto di percorso: la CTA finale delle schede rimanda sempre all’indice generale; assenza del link RTT verificata live su 151146. Ora usa la landing esistente corrispondente al tipo per PhD, Postdoc, RTT e Contratto di ricerca, con fallback indice per gli altri. Verificati nell’export tutti i 906 record: 567 collegamenti di categoria e 339 fallback; nessun link aggiuntivo duplicato nella stessa CTA.
