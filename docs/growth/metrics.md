@@ -1,5 +1,7 @@
 ## Baseline
 
+15 settembre 2026 — Misura tecnica contenuto: landing Postdoc con 81 opportunità aperte distribuite in nove aree (14 matematica/fisica/chimica; 12 biologia/biotech/farmacia; 11 ingegneria/informatica/AI; 11 ambiente/agraria/veterinaria; 9 filosofia/storia/lingue/pedagogia/psicologia; 8 medicina/salute; 8 economia/diritto/politica; 5 interdisciplinare; 3 architettura/design/territorio). Tutti i conteggi derivano dal dataset e cambiano con la build. GSC ancora payment_required; ultima baseline resta 17 impression e 3 clic, consolidata al 9 settembre. Nessuna crescita attribuita.
+
 14 settembre 2026 — Nessuna nuova misura di traffico: GSC Wizard query senza dimensioni rifiutata con payment_required. Ultima finestra disponibile 13 agosto–9 settembre: 17 impression, 3 clic, CTR 17,65%, posizione 11. Audit candidato: 906 CTA controllate (567 categoria, 339 indice), 956 HTML, 685 URL sitemap, 0 link rotti/orfani. Sono misure tecniche, non crescita.
 
 13 settembre 2026 — Terza sessione — Misura tecnica: 567/906 schede acquisiscono una CTA finale verso la categoria pertinente (PhD 204, Postdoc 111, RTT 197, Contratto di ricerca 55); 424 delle 567 hanno deadline non trascorsa e non sono archiviate al controllo del 13 settembre. Le altre 339 conservano l’indice. Tutti i collegamenti controllati sull’export. Nessuna nuova metrica traffico, nessuna estrazione GSC oggi e nessun incremento attribuito.
