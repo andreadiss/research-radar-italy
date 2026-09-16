@@ -1,5 +1,7 @@
 # Decision log
 
+16 settembre 2026 — Considerare il bilancio della settimana inconcludente sul traffico: i dati disponibili mostrano un segnale direzionale ma non consentono attribuzione o conferma. Riprogrammare il lavoro privilegiando contenuti verificati e percorsi interni sulle landing già esistenti; limitare i controlli operativi a guardrail brevi. Non creare nuove landing, non avviare A/B test, tracking, servizi o costi. Riprovare la misurazione solo con accesso gratuito/autorizzato e mantenere un bilancio esplicito ogni mercoledì.
+
 15 settembre 2026 — Usare esclusivamente i Postdoc aperti del dataset per generare discipline e conteggi nella landing esistente. Ordinare per numerosità e poi alfabeticamente; collegare alla vista /posizioni con tipo Postdoc e disciplina. Non creare URL canoniche o landing aggiuntive per disciplina, non modificare sitemap, title, tracking o pipeline. I numeri descrivono il contenuto della build, non traffico né disponibilità confermata oltre la fonte.
 
 14 settembre 2026 — Preservare la PR #14 e incorporare main 342542b senza force push; aggiungere solo il controllo di regressione nello script audit già eseguito dalla build, senza cambiare workflow o integrazioni. Tre check remoti falliti sul vecchio head: non ignorarli né forzare merge. Nuovo head da ricontrollare; se il blocco persiste lasciare la PR reviewable.

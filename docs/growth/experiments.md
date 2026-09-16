@@ -1,5 +1,7 @@
 ## Experiment opportunities
 
+16 settembre 2026 — Bilancio, non esperimento: nessun A/B test avviato e nessun risultato SEO attribuito. Gli interventi pubblicati hanno superato i gate tecnici (contenuti fedeli, percorsi validi, nessun link rotto), ma il gate di outcome resta non valutabile senza dati GSC aggiornati o GA4 autorizzato. Per la prossima settimana usare solo miglioramenti osservazionali su landing esistenti; successo immediato = copertura e link corretti, outcome futuro = impression e clic qualificati quando misurabili.
+
 15 settembre 2026 — Miglioramento osservazionale, non A/B test: rendere visibili le aree realmente presenti può aiutare utenti e motori a comprendere la copertura della landing Postdoc. Gate tecnico: nove discipline, somma 81, filtri coerenti e assenza sulle altre landing. Outcome futuro: impression/clic della landing e uso dei percorsi filtrati, solo quando saranno disponibili dati attendibili.
 
 14 settembre 2026 — Nessun esperimento avviato. Il guardrail di categoria rileva anche un link sbagliato che punta a una pagina valida, e controlla schede archiviate non raggiunte dal crawl della sitemap. Le due prove negative non modificano file o sito. Beneficio SEO dei link ancora non misurato; nessuna estrazione GA4.
