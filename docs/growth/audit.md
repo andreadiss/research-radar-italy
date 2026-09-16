@@ -1,5 +1,7 @@
 # Research Radar Italy — Audit iniziale
 
+16 settembre 2026 — Bilancio settimanale: PR #13–#15 pubblicate e ancora coerenti live. Home, landing Postdoc, filtro disciplinare, sitemap e favicon rispondono 200; controllo inesistente 404; hosting pubblico confermato GitHub Pages. La landing Postdoc espone nove percorsi disciplinari. GSC Wizard resta bloccato da `payment_required`, quindi non sono disponibili una nuova ispezione URL né dati aggiornati su landing/query. L'ultima baseline disponibile non dimostra crescita attribuibile agli interventi; nessun blocco tecnico pubblico rilevato nel campione.
+
 15 settembre 2026 — La landing Postdoc mostrava 81 opportunità ma nessun accesso per area. Aggiunta una sezione generata dai soli Postdoc aperti con nove discipline, conteggio e link al filtro esistente; nessuna nuova landing o contenuto dedotto. Verificata corrispondenza completa tra dataset ed HTML; Dottorati, Contratti e RTT non ricevono la sezione. Precedente PR #14 ancora corretta live e ultimo deploy main 34847915561 riuscito.
 
 14 settembre 2026 — PR #14 riallineata al dataset main 342542b senza perdere i dati recenti. Aggiunto all’audit statico il controllo della CTA finale su ogni scheda, incluse le archiviate fuori sitemap: destinazione coerente con il tipo e HTML di destinazione esistente. Verificati 567 link categoria e 339 fallback; due prove negative con destinazione esistente ma errata sono rifiutate. PR #13 ancora corretta live; ultimo deploy main 34756516448 riuscito.
