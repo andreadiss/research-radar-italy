@@ -24,7 +24,7 @@ export function toPosition(record) {
     institution,
     location,
     region: inferRegion(location, institution, description),
-    discipline: multipleScientificSectors ? "Altro / interdisciplinare" : inferDiscipline(record.researchField, record.gsd, record.ssd, description),
+    discipline: multipleScientificSectors ? "Altro / interdisciplinare" : inferDiscipline(record.researchField, record.gsd, record.ssd, title, description),
     sourceUrl
   });
 
@@ -169,7 +169,7 @@ function inferDiscipline(...values) {
   if (/\b05\/|bios|biolog|biochim|biotec|farmac|neuro|bioinformat/.test(text)) {
     return "Biologia, biotech e farmacia";
   }
-  if (/\b09\/|\b01\/info|iind|iinf|info-01|informat|computer|software|data science|machine learning|robot|elettronic|automatica/.test(text)) {
+  if (/\b09\/|\b01\/info|iind|iinf|info-01|informat|computer|software|data[-\s]science|machine[-\s]learning|robot|elettronic|automatica/.test(text)) {
     return "Ingegneria, informatica e AI";
   }
   if (/\b01\/|\b02\/|\b03\/|math|matemat|statistic|phys|fisic|astronom|chem|chimic/.test(text)) {
@@ -184,7 +184,7 @@ function inferDiscipline(...values) {
   if (/\b12\/|\b13\/|\b14\/|giur|diritto|law|econ|econom|management|finanz|politic|relazioni internazionali/.test(text)) {
     return "Economia, diritto e politica";
   }
-  if (/\b10\/|\b11\/|hist|filol|letter|linguist|cultural|archeolog|filosof|psicolog|sociolog|pedagog|anthropolog/.test(text)) {
+  if (/\b10\/|\b11\/|hist|filol|letteratur|literat|linguist|cultural|archeolog|filosof|psicolog|sociolog|pedagog|anthropolog/.test(text)) {
     return "Filosofia, storia, lingue, pedagogia e psicologia";
   }
   return "Altro / interdisciplinare";
