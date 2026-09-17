@@ -1,5 +1,7 @@
 ## Experiment opportunities
 
+17 settembre 2026 — Correzione qualità, non esperimento: l'ipotesi di percorsi disciplinari Dottorati è sospesa finché la classificazione non è affidabile. Gate immediato: «lettera di motivazione» non produce area umanistica, titoli espliciti continuano a determinare categorie specifiche e titoli ambigui restano Altro/interdisciplinare. Outcome futuro: distribuzione post-sync e usabilità dei filtri; nessun effetto SEO attribuito.
+
 16 settembre 2026 — Bilancio, non esperimento: nessun A/B test avviato e nessun risultato SEO attribuito. Gli interventi pubblicati hanno superato i gate tecnici (contenuti fedeli, percorsi validi, nessun link rotto), ma il gate di outcome resta non valutabile senza dati GSC aggiornati o GA4 autorizzato. Per la prossima settimana usare solo miglioramenti osservazionali su landing esistenti; successo immediato = copertura e link corretti, outcome futuro = impression e clic qualificati quando misurabili.
 
 15 settembre 2026 — Miglioramento osservazionale, non A/B test: rendere visibili le aree realmente presenti può aiutare utenti e motori a comprendere la copertura della landing Postdoc. Gate tecnico: nove discipline, somma 81, filtri coerenti e assenza sulle altre landing. Outcome futuro: impression/clic della landing e uso dei percorsi filtrati, solo quando saranno disponibili dati attendibili.

@@ -28,3 +28,45 @@ test("normalization preserves sectors and flags the multi-sector call", () => {
   assert.equal(p.reviewStatus, "needs_review");
   assert.ok(p.reviewReasons.includes("multiple_scientific_sectors"));
 });
+
+test("uses a specific PhD title before administrative application copy", () => {
+  const p = toPosition({
+    externalId: "phd-machine-learning",
+    sourceCategory: "doctorates",
+    title: "Machine-learning-based methods for kinetic modelling",
+    description: "La selezione richiede curriculum e lettera di motivazione.",
+    institution: "Politecnico di Milano",
+    city: "Milano",
+    sourceUrl: "https://bandi.mur.gov.it/test-phd-machine-learning",
+    deadline: "2026-12-31"
+  });
+  assert.equal(p.discipline, "Ingegneria, informatica e AI");
+});
+
+test("does not treat a motivation letter as literature", () => {
+  const p = toPosition({
+    externalId: "phd-generic",
+    sourceCategory: "doctorates",
+    title: "Borsa tematica",
+    description: "La selezione richiede curriculum e lettera di motivazione.",
+    institution: "Università di Milano",
+    city: "Milano",
+    sourceUrl: "https://bandi.mur.gov.it/test-phd-generic",
+    deadline: "2026-12-31"
+  });
+  assert.equal(p.discipline, "Altro / interdisciplinare");
+});
+
+test("still recognizes literature explicitly", () => {
+  const p = toPosition({
+    externalId: "phd-literature",
+    sourceCategory: "doctorates",
+    title: "Letteratura italiana contemporanea",
+    description: "La selezione richiede curriculum e lettera di motivazione.",
+    institution: "Università di Milano",
+    city: "Milano",
+    sourceUrl: "https://bandi.mur.gov.it/test-phd-literature",
+    deadline: "2026-12-31"
+  });
+  assert.equal(p.discipline, "Filosofia, storia, lingue, pedagogia e psicologia");
+});
