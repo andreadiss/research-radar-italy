@@ -1,5 +1,7 @@
 ## Experiment opportunities
 
+18 settembre 2026 — Correzione qualità, non esperimento: restringere i segnali generici e non scegliere arbitrariamente una categoria quando la descrizione contiene più aree. Gate: quattro casi reali (design tecnico, gestione idrica, neuromorphic, patrimonio musicale) e un bando multi-area. Outcome futuro: distribuzione del prossimo sync; percorsi Dottorati ancora sospesi. Nessun effetto SEO attribuito.
+
 17 settembre 2026 — Correzione qualità, non esperimento: l'ipotesi di percorsi disciplinari Dottorati è sospesa finché la classificazione non è affidabile. Gate immediato: «lettera di motivazione» non produce area umanistica, titoli espliciti continuano a determinare categorie specifiche e titoli ambigui restano Altro/interdisciplinare. Outcome futuro: distribuzione post-sync e usabilità dei filtri; nessun effetto SEO attribuito.
 
 16 settembre 2026 — Bilancio, non esperimento: nessun A/B test avviato e nessun risultato SEO attribuito. Gli interventi pubblicati hanno superato i gate tecnici (contenuti fedeli, percorsi validi, nessun link rotto), ma il gate di outcome resta non valutabile senza dati GSC aggiornati o GA4 autorizzato. Per la prossima settimana usare solo miglioramenti osservazionali su landing esistenti; successo immediato = copertura e link corretti, outcome futuro = impression e clic qualificati quando misurabili.
