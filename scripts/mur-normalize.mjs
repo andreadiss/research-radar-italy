@@ -150,44 +150,35 @@ function normalizeFunding(value) {
   return allowed.has(value) ? value : "Non specificato";
 }
 
-function inferDiscipline(...values) {
-  const text = searchText(...values);
-  const sector = sectorPrefix(...values);
+function inferDiscipline(researchField, gsd, ssd, title, description) {
+  const primaryText = searchText(researchField, gsd, ssd, title);
+  const sector = sectorPrefix(researchField, gsd, ssd);
 
   if (sector === "06") return "Medicina e salute";
   if (sector === "05") return "Biologia, biotech e farmacia";
-  if (sector === "09" || /01\/info|info-01/.test(text)) return "Ingegneria, informatica e AI";
+  if (sector === "09" || /01\/info|info-01/.test(primaryText)) return "Ingegneria, informatica e AI";
   if (["01", "02", "03"].includes(sector)) return "Matematica, fisica e chimica";
   if (["04", "07"].includes(sector)) return "Ambiente, agraria e veterinaria";
   if (sector === "08") return "Architettura, design e territorio";
   if (["12", "13", "14"].includes(sector)) return "Economia, diritto e politica";
   if (["10", "11"].includes(sector)) return "Filosofia, storia, lingue, pedagogia e psicologia";
 
-  if (/\b06\/|meds|medicin|clinical|sanitar|health|chirurg|cardiolog|neurolog/.test(text)) {
-    return "Medicina e salute";
-  }
-  if (/\b05\/|bios|biolog|biochim|biotec|farmac|neuro|bioinformat/.test(text)) {
-    return "Biologia, biotech e farmacia";
-  }
-  if (/\b09\/|\b01\/info|iind|iinf|info-01|informat|computer|software|data[-\s]science|machine[-\s]learning|robot|elettronic|automatica/.test(text)) {
-    return "Ingegneria, informatica e AI";
-  }
-  if (/\b01\/|\b02\/|\b03\/|math|matemat|statistic|phys|fisic|astronom|chem|chimic/.test(text)) {
-    return "Matematica, fisica e chimica";
-  }
-  if (/\b04\/|\b07\/|earth|geolog|geo|agri|veterinar|food|agrar|ambient/.test(text)) {
-    return "Ambiente, agraria e veterinaria";
-  }
-  if (/\b08\/|cear|architett|design|urban|territor|civil|edil|costruzion/.test(text)) {
-    return "Architettura, design e territorio";
-  }
-  if (/\b12\/|\b13\/|\b14\/|giur|diritto|law|econ|econom|management|finanz|politic|relazioni internazionali/.test(text)) {
-    return "Economia, diritto e politica";
-  }
-  if (/\b10\/|\b11\/|hist|filol|letteratur|literat|linguist|cultural|archeolog|filosof|psicolog|sociolog|pedagog|anthropolog/.test(text)) {
-    return "Filosofia, storia, lingue, pedagogia e psicologia";
-  }
-  return "Altro / interdisciplinare";
+  return disciplineFromText(primaryText) ?? disciplineFromText(searchText(description)) ?? "Altro / interdisciplinare";
+}
+
+function disciplineFromText(text) {
+  const matches = [
+    ["Medicina e salute", /\b06\/|meds|medicin|clinical|sanitar|health|chirurg|cardiolog|neurolog/],
+    ["Biologia, biotech e farmacia", /\b05\/|bios|biolog|biochim|biotec|farmac|neuroscien|neuroscienz|neurobiolog|neurorehabilit|neurodegener|bioinformat/],
+    ["Ingegneria, informatica e AI", /\b09\/|\b01\/info|iind|iinf|info-01|informat|computer|software|data[-\s]science|machine[-\s]learning|neuromorph|robot|elettronic|automatica/],
+    ["Matematica, fisica e chimica", /\b01\/|\b02\/|\b03\/|math|matemat|statistic|phys|fisic|astronom|chem|chimic|nuclear|photon/],
+    ["Ambiente, agraria e veterinaria", /\b04\/|\b07\/|earth|geolog|geo|agri|veterinar|food|agrar|ambient|groundwater|water resource|hydrolog/],
+    ["Architettura, design e territorio", /\b08\/|cear|architett|architectural|urban|territor|civil|edil|costruzion|reconstruction|\bphd in design\b|\bdesign studies\b|\btematica,?\s+design$/],
+    ["Economia, diritto e politica", /\b12\/|\b13\/|\b14\/|giur|diritto|law|econ|econom|finanz|politic|relazioni internazionali|\bphd in management\b|\bmanagement studies\b/],
+    ["Filosofia, storia, lingue, pedagogia e psicologia", /\b10\/|\b11\/|hist|filol|letteratur|literat|linguist|cultural|archeolog|filosof|psicolog|sociolog|pedagog|anthropolog|music|artistic|performing arts|\barte\b|patrimonio culturale/]
+  ].filter(([, pattern]) => pattern.test(text)).map(([discipline]) => discipline);
+
+  return matches.length === 1 ? matches[0] : null;
 }
 
 function inferRegion(...values) {

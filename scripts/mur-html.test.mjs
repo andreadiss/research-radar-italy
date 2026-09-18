@@ -70,3 +70,73 @@ test("still recognizes literature explicitly", () => {
   });
   assert.equal(p.discipline, "Filosofia, storia, lingue, pedagogia e psicologia");
 });
+
+test("does not treat technical design as architecture or product design", () => {
+  const p = toPosition({
+    externalId: "phd-reactor-design",
+    sourceCategory: "doctorates",
+    title: "CFD-assisted innovative reactor design for solid fuel gasification",
+    description: "La selezione richiede curriculum e lettera di motivazione.",
+    institution: "Politecnico di Milano",
+    city: "Milano",
+    sourceUrl: "https://bandi.mur.gov.it/test-phd-reactor-design",
+    deadline: "2026-12-31"
+  });
+  assert.equal(p.discipline, "Altro / interdisciplinare");
+});
+
+test("classifies groundwater management from the research topic, not generic management", () => {
+  const p = toPosition({
+    externalId: "phd-groundwater",
+    sourceCategory: "doctorates",
+    title: "Groundwater modelling for sustainable water resource management",
+    description: "La selezione richiede curriculum e lettera di motivazione.",
+    institution: "Politecnico di Milano",
+    city: "Milano",
+    sourceUrl: "https://bandi.mur.gov.it/test-phd-groundwater",
+    deadline: "2026-12-31"
+  });
+  assert.equal(p.discipline, "Ambiente, agraria e veterinaria");
+});
+
+test("distinguishes neuromorphic engineering from neuroscience", () => {
+  const p = toPosition({
+    externalId: "phd-neuromorphic",
+    sourceCategory: "doctorates",
+    title: "Neuromorphic perception for experimental space surveillance",
+    description: "La selezione richiede curriculum e lettera di motivazione.",
+    institution: "Politecnico di Milano",
+    city: "Milano",
+    sourceUrl: "https://bandi.mur.gov.it/test-phd-neuromorphic",
+    deadline: "2026-12-31"
+  });
+  assert.equal(p.discipline, "Ingegneria, informatica e AI");
+});
+
+test("prefers the specific doctoral title to secondary subjects in the description", () => {
+  const p = toPosition({
+    externalId: "phd-musical-heritage",
+    sourceCategory: "doctorates",
+    title: "Scienze e culture del patrimonio musicale",
+    description: "Il corso include anche economia e gestione, didattica e tecnologie digitali.",
+    institution: "Conservatorio di Milano",
+    city: "Milano",
+    sourceUrl: "https://bandi.mur.gov.it/test-phd-musical-heritage",
+    deadline: "2026-12-31"
+  });
+  assert.equal(p.discipline, "Filosofia, storia, lingue, pedagogia e psicologia");
+});
+
+test("keeps a multi-area doctoral call interdisciplinary", () => {
+  const p = toPosition({
+    externalId: "phd-multiple-programmes",
+    sourceCategory: "doctorates",
+    title: "Bando per l'ammissione ai corsi di dottorato - XLII ciclo",
+    description: "Corsi disponibili: informatica e intelligenza artificiale; medicina molecolare; scienze matematiche e fisiche.",
+    institution: "Università di Udine",
+    city: "Udine",
+    sourceUrl: "https://bandi.mur.gov.it/test-phd-multiple-programmes",
+    deadline: "2026-12-31"
+  });
+  assert.equal(p.discipline, "Altro / interdisciplinare");
+});
