@@ -1,5 +1,7 @@
 # Decision log
 
+19 settembre 2026 — Pubblicare nella landing Dottorati soltanto le aree specifiche dei PhD aperti; non promuovere «Altro / interdisciplinare». Riutilizzare `/posizioni/?type=PhD&discipline=…`, senza nuove landing, canonical, sitemap, tracking o tassonomie. Rendere il componente condiviso con Postdoc e aggiungere un audit esatto dei collegamenti generati.
+
 18 settembre 2026 — Non aggiungere ancora percorsi disciplinari alla landing Dottorati: il sync conferma la risoluzione dell'errore principale, ma il campione mostra nuovi falsi positivi. Dare priorità a settore e titolo, rimuovere `design` e `management` come segnali generici, distinguere `neuromorphic` da neuroscienze e lasciare i testi multi-area in «Altro / interdisciplinare». Applicazione tramite prossimo sync ordinario; nessun import forzato o modifica manuale della cache.
 
 17 settembre 2026 — Non pubblicare percorsi disciplinari Dottorati finché la tassonomia corrente è distorta. Correggere il normalizzatore includendo il titolo nelle evidenze e sostituendo la keyword generica `letter` con riferimenti espliciti a letteratura/literature. In assenza di evidenza specifica usare «Altro / interdisciplinare», non dedurre una categoria. Lasciare che il prossimo sync ordinario aggiorni la cache; nessun import forzato, modifica manuale dei dati o intervento sulla pipeline.

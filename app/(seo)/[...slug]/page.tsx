@@ -46,6 +46,7 @@ export default function SeoLandingRoute({ params }: PageProps) {
 
   const items = landingItems(page);
   const disciplines = landingDisciplines(page);
+  const disciplineSection = landingDisciplineSection(page);
   const structuredData = buildStructuredData(page, items);
 
   return (
@@ -101,11 +102,11 @@ export default function SeoLandingRoute({ params }: PageProps) {
             </section>
           </div>
 
-          {disciplines.length > 0 ? (
-            <section className="seo-faq" aria-labelledby="postdoc-disciplines-title">
-              <h2 id="postdoc-disciplines-title">Postdoc per area disciplinare</h2>
-              <p>Scegli un’area per vedere le posizioni postdoc attualmente disponibili nel radar.</p>
-              <nav className="seo-related-links" aria-label="Aree disciplinari postdoc">
+          {disciplines.length > 0 && disciplineSection ? (
+            <section className="seo-faq" aria-labelledby="disciplines-title">
+              <h2 id="disciplines-title">{disciplineSection.title}</h2>
+              <p>{disciplineSection.description}</p>
+              <nav className="seo-related-links" aria-label={disciplineSection.ariaLabel}>
                 {disciplines.map((discipline) => (
                   <Link href={discipline.href as Route} key={discipline.name}>
                     {discipline.name} ({discipline.count})
@@ -137,10 +138,16 @@ export default function SeoLandingRoute({ params }: PageProps) {
 }
 
 function landingDisciplines(page: SeoLandingPage) {
-  if (page.path !== "/posizioni/postdoc") return [];
+  const positionType = page.path === "/posizioni/postdoc"
+    ? "Postdoc"
+    : page.path === "/posizioni/dottorati"
+      ? "PhD"
+      : null;
+  if (!positionType) return [];
 
   const counts = positions
-    .filter((position) => position.positionType === "Postdoc" && isOpenPosition(position))
+    .filter((position) => position.positionType === positionType && isOpenPosition(position))
+    .filter((position) => positionType !== "PhD" || position.discipline !== "Altro / interdisciplinare")
     .reduce((byDiscipline, position) => {
       byDiscipline.set(position.discipline, (byDiscipline.get(position.discipline) ?? 0) + 1);
       return byDiscipline;
@@ -149,8 +156,22 @@ function landingDisciplines(page: SeoLandingPage) {
   return Array.from(counts, ([name, count]) => ({
     name,
     count,
-    href: `/posizioni/?type=Postdoc&discipline=${encodeURIComponent(name)}`
+    href: `/posizioni/?type=${positionType}&discipline=${encodeURIComponent(name)}`
   })).sort((a, b) => b.count - a.count || a.name.localeCompare(b.name, "it"));
+}
+
+function landingDisciplineSection(page: SeoLandingPage) {
+  if (page.path === "/posizioni/postdoc") return {
+    title: "Postdoc per area disciplinare",
+    description: "Scegli un’area per vedere le posizioni postdoc attualmente disponibili nel radar.",
+    ariaLabel: "Aree disciplinari postdoc"
+  };
+  if (page.path === "/posizioni/dottorati") return {
+    title: "Dottorati per area disciplinare",
+    description: "Scegli un’area per vedere i bandi di dottorato attualmente disponibili nel radar.",
+    ariaLabel: "Aree disciplinari dottorati"
+  };
+  return null;
 }
 
 function landingItems(page: SeoLandingPage) {

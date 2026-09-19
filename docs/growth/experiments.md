@@ -1,5 +1,7 @@
 ## Experiment opportunities
 
+19 settembre 2026 — Miglioramento osservazionale, non A/B test: quattro collegamenti disciplinari possono aiutare utenti e motori a comprendere i Dottorati effettivamente aperti. Gate tecnico: conteggi e URL coerenti col dataset, categoria incerta esclusa, nessun collegamento sulle altre landing. Outcome futuro: impression/clic della landing e uso dei filtri solo quando saranno disponibili dati attendibili.
+
 18 settembre 2026 — Correzione qualità, non esperimento: restringere i segnali generici e non scegliere arbitrariamente una categoria quando la descrizione contiene più aree. Gate: quattro casi reali (design tecnico, gestione idrica, neuromorphic, patrimonio musicale) e un bando multi-area. Outcome futuro: distribuzione del prossimo sync; percorsi Dottorati ancora sospesi. Nessun effetto SEO attribuito.
 
 17 settembre 2026 — Correzione qualità, non esperimento: l'ipotesi di percorsi disciplinari Dottorati è sospesa finché la classificazione non è affidabile. Gate immediato: «lettera di motivazione» non produce area umanistica, titoli espliciti continuano a determinare categorie specifiche e titoli ambigui restano Altro/interdisciplinare. Outcome futuro: distribuzione post-sync e usabilità dei filtri; nessun effetto SEO attribuito.
