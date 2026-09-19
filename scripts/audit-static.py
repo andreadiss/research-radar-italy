@@ -4,7 +4,9 @@ import sys
 from collections import deque
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import urlsplit, unquote
+from urllib.parse import urlsplit, unquote, quote
+from datetime import datetime
+from zoneinfo import ZoneInfo
 import xml.etree.ElementTree as ET
 
 
@@ -82,6 +84,7 @@ while queue:
 orphans = [url for url in urls if (urlsplit(url).path or "/") not in seen]
 errors.extend(f"Unreachable from homepage through HTML links: {url}" for url in orphans)
 errors.extend(f"Broken internal link: {source} -> {target}" for source, target in sorted(broken))
+records = json.loads(Path("lib/generated/mur-positions.json").read_text())
 positions = [page for route, page in pages.items() if route.startswith("/positions/")]
 # Check the final category CTA even on archived pages outside the sitemap.
 category_paths = {
@@ -91,7 +94,7 @@ category_paths = {
     "Contratto di ricerca": "/posizioni/contratti-di-ricerca/",
 }
 category_counts = {"category": 0, "directory_fallback": 0}
-for record in json.loads(Path("lib/generated/mur-positions.json").read_text()):
+for record in records:
     route = f"/positions/{record['id']}/"
     target = category_paths.get(record["positionType"], "/posizioni/indice/")
     page = pages.get(route)
@@ -100,8 +103,32 @@ for record in json.loads(Path("lib/generated/mur-positions.json").read_text()):
     if target not in pages:
         errors.append(f"Category link target has no exported HTML: {target}")
     category_counts["category" if record["positionType"] in category_paths else "directory_fallback"] += 1
+
+# Check discipline paths rendered in the two SEO landing pages.
+today = datetime.now(ZoneInfo("Europe/Rome")).strftime("%Y-%m-%d")
+discipline_paths = {}
+for position_type, route in (("Postdoc", "/posizioni/postdoc/"), ("PhD", "/posizioni/dottorati/")):
+    disciplines = {
+        record["discipline"] for record in records
+        if record["positionType"] == position_type
+        and not record.get("archivedAt")
+        and record["deadline"] >= today
+        and (position_type != "PhD" or record["discipline"] != "Altro / interdisciplinare")
+    }
+    expected = {
+        f"/posizioni/?type={position_type}&discipline={quote(discipline, safe='')}"
+        for discipline in disciplines
+    }
+    actual = {
+        link for link in pages[route].links
+        if link.startswith(f"/posizioni/?type={position_type}&discipline=")
+    }
+    if actual != expected:
+        errors.append(f"Incorrect discipline links on {route}: expected {sorted(expected)}, found {sorted(actual)}")
+    discipline_paths[position_type] = len(actual)
 titles = [page.title for page in positions]
 report = {"html_pages": len(pages), "sitemap_urls": len(urls), "reachable_pages": len(seen), "orphan_sitemap_urls": len(orphans), "broken_internal_links": len(broken), "duplicate_position_titles": len(titles) - len(set(titles)), "initial_html": {route: {"h1": pages[route].h1, "links": len(pages[route].links)} for route in ("/", "/posizioni/", "/funding/")}, "errors": errors}
 report["category_cta_checks"] = category_counts
+report["discipline_path_checks"] = discipline_paths
 print(json.dumps(report, ensure_ascii=False, indent=2))
 if errors: sys.exit(1)

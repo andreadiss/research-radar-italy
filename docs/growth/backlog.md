@@ -1,5 +1,7 @@
 ## Prioritized backlog
 
+19 settembre 2026 — Task scelto: rendere esplorabili le aree specifiche nella landing Dottorati. Impact medio potenziale su traffico qualificato e utilità; Confidence alta su dati/link, bassa sull'effetto SEO; Effort piccolo; Risk basso. Quattro filtri esistenti, nessuna landing duplicata; esclusa «Altro / interdisciplinare». Prossima priorità: contenuti verificati nelle schede/landing, senza riaprire la tassonomia salvo nuovi difetti.
+
 18 settembre 2026 — Task scelto: aumentare la precisione della tassonomia PhD prima di creare percorsi pubblici. Impact medio sull'utilità e pertinenza futura; Confidence alta sui falsi positivi osservati, bassa sull'effetto traffico; Effort piccolo; Risk basso. Il prossimo sync ordinario deve confermare la distribuzione; fino ad allora non esporre filtri Dottorati.
 
 17 settembre 2026 — Task scelto: correggere la classificazione disciplinare dei PhD prima di esporla nella landing. Impact alto su pertinenza di filtri/schede e ricerche tematiche; Confidence alta sulla causa e sul guardrail, bassa sull'effetto traffico; Effort piccolo; Risk basso. Il prossimo sync ordinario deve confermare la nuova distribuzione senza interventi manuali sui dati. Solo dopo questa verifica rivalutare i percorsi disciplinari Dottorati.
