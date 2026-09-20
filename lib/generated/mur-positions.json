@@ -18120,7 +18120,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-20T09:49:37.077Z"
   },
   {
     "id": "mur-fixed-term-researchers-151685",
@@ -18151,7 +18152,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-20T09:49:37.077Z"
   },
   {
     "id": "mur-fixed-term-researchers-151688",
@@ -18182,7 +18184,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-20T09:49:37.077Z"
   },
   {
     "id": "mur-research-assignments-315731",
@@ -18213,7 +18216,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-20T09:49:37.077Z"
   },
   {
     "id": "mur-research-assignments-316940",
@@ -18244,7 +18248,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-09T09:47:44.496Z"
+    "updatedAt": "2026-09-09T09:47:44.496Z",
+    "archivedAt": "2026-09-20T09:49:37.077Z"
   },
   {
     "id": "mur-research-assignments-316966",
@@ -18275,7 +18280,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-09T09:47:44.496Z"
+    "updatedAt": "2026-09-09T09:47:44.496Z",
+    "archivedAt": "2026-09-20T09:49:37.077Z"
   },
   {
     "id": "mur-research-assignments-316974",
@@ -18306,7 +18312,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-09T09:47:44.496Z"
+    "updatedAt": "2026-09-09T09:47:44.496Z",
+    "archivedAt": "2026-09-20T09:49:37.077Z"
   },
   {
     "id": "mur-postdoc-assignments-316962",
@@ -18337,7 +18344,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-11T09:43:02.340Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z",
+    "archivedAt": "2026-09-20T09:49:37.077Z"
   },
   {
     "id": "mur-postdoc-assignments-316964",
@@ -18368,7 +18376,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-11T09:43:02.340Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z",
+    "archivedAt": "2026-09-20T09:49:37.077Z"
   },
   {
     "id": "mur-research-assignments-316977",
@@ -18399,7 +18408,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-10T09:45:48.573Z"
+    "updatedAt": "2026-09-10T09:45:48.573Z",
+    "archivedAt": "2026-09-20T09:49:37.077Z"
   },
   {
     "id": "mur-research-contracts-317083",
@@ -18430,7 +18440,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-11T09:43:02.340Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z",
+    "archivedAt": "2026-09-20T09:49:37.077Z"
   },
   {
     "id": "mur-research-assignments-316660",
@@ -30010,7 +30021,7 @@
     "gsd": "13/ECON-04 - ECONOMIA APPLICATA\n13/ECON-09 - ECONOMIA DEGLI INTERMEDIARI FINANZIARI E FINANZA AZIENDALE",
     "fundingType": "Horizon",
     "deadline": "2026-10-04",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-02",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/316663",
