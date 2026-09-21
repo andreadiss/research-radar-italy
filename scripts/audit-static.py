@@ -1,5 +1,6 @@
 """Check crawlability of the actual static export, without launching a browser."""
 import json
+import re
 import sys
 from collections import deque
 from html.parser import HTMLParser
@@ -58,7 +59,12 @@ for route in ("/", "/posizioni/", "/funding/"):
 
 ns = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
 sitemap = ET.parse(root / "sitemap.xml")
-urls = [item.text for item in sitemap.findall(".//s:loc", ns)]
+sitemap_items = sitemap.findall(".//s:url", ns)
+urls = [item.find("s:loc", ns).text for item in sitemap_items]
+sitemap_lastmod = {
+    item.find("s:loc", ns).text: item.find("s:lastmod", ns).text
+    for item in sitemap_items if item.find("s:lastmod", ns) is not None
+}
 for url in urls:
     route = unquote(urlsplit(url).path) or "/"
     if route not in pages:
@@ -86,6 +92,20 @@ errors.extend(f"Unreachable from homepage through HTML links: {url}" for url in 
 errors.extend(f"Broken internal link: {source} -> {target}" for source, target in sorted(broken))
 records = json.loads(Path("lib/generated/mur-positions.json").read_text())
 positions = [page for route, page in pages.items() if route.startswith("/positions/")]
+today = datetime.now(ZoneInfo("Europe/Rome")).strftime("%Y-%m-%d")
+expected_lastmod = {}
+for record in records:
+    deadline = record["deadline"]
+    is_past = bool(re.fullmatch(r"\d{4}-\d{2}-\d{2}", deadline)) and deadline < today
+    if not record.get("archivedAt") and not is_past:
+        if not record.get("updatedAt"):
+            errors.append(f"Open position lacks content modification provenance: {record['id']}")
+        else:
+            expected_lastmod[f"https://rritaly.com/positions/{quote(record['id'], safe='')}/"] = record["updatedAt"]
+if sitemap_lastmod != expected_lastmod:
+    errors.append(
+        f"Sitemap lastmod mismatch: expected {len(expected_lastmod)} exact position timestamps, found {len(sitemap_lastmod)}"
+    )
 # Check the final category CTA even on archived pages outside the sitemap.
 category_paths = {
     "PhD": "/posizioni/dottorati/",
@@ -105,7 +125,6 @@ for record in records:
     category_counts["category" if record["positionType"] in category_paths else "directory_fallback"] += 1
 
 # Check discipline paths rendered in the two SEO landing pages.
-today = datetime.now(ZoneInfo("Europe/Rome")).strftime("%Y-%m-%d")
 discipline_paths = {}
 for position_type, route in (("Postdoc", "/posizioni/postdoc/"), ("PhD", "/posizioni/dottorati/")):
     disciplines = {
@@ -130,5 +149,6 @@ titles = [page.title for page in positions]
 report = {"html_pages": len(pages), "sitemap_urls": len(urls), "reachable_pages": len(seen), "orphan_sitemap_urls": len(orphans), "broken_internal_links": len(broken), "duplicate_position_titles": len(titles) - len(set(titles)), "initial_html": {route: {"h1": pages[route].h1, "links": len(pages[route].links)} for route in ("/", "/posizioni/", "/funding/")}, "errors": errors}
 report["category_cta_checks"] = category_counts
 report["discipline_path_checks"] = discipline_paths
+report["position_lastmod_checks"] = len(sitemap_lastmod)
 print(json.dumps(report, ensure_ascii=False, indent=2))
 if errors: sys.exit(1)
