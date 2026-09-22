@@ -18571,7 +18571,8 @@
       "unknown_region",
       "unknown_discipline"
     ],
-    "updatedAt": "2026-09-18T09:46:56.385Z"
+    "updatedAt": "2026-09-18T09:46:56.385Z",
+    "archivedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-doctorates-316589",
@@ -18602,7 +18603,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-fixed-term-researchers-151623",
@@ -18633,7 +18635,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-fixed-term-researchers-151624",
@@ -18664,7 +18667,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-fixed-term-researchers-151625",
@@ -18695,7 +18699,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-fixed-term-researchers-151626",
@@ -18726,7 +18731,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-fixed-term-researchers-151627",
@@ -18757,7 +18763,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-fixed-term-researchers-151200",
@@ -18790,7 +18797,8 @@
     "reviewReasons": [
       "multiple_scientific_sectors"
     ],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-fixed-term-researchers-151064",
@@ -18821,7 +18829,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-fixed-term-researchers-151065",
@@ -18852,7 +18861,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-fixed-term-researchers-151067",
@@ -18883,7 +18893,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-fixed-term-researchers-151074",
@@ -18914,7 +18925,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-fixed-term-researchers-151076",
@@ -18945,7 +18957,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-fixed-term-researchers-151078",
@@ -18976,7 +18989,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-fixed-term-researchers-151084",
@@ -19007,7 +19021,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-fixed-term-researchers-151085",
@@ -19038,7 +19053,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-fixed-term-researchers-151086",
@@ -19069,7 +19085,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-fixed-term-researchers-151426",
@@ -19100,7 +19117,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-fixed-term-researchers-151427",
@@ -19131,7 +19149,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-research-assignments-316598",
@@ -19162,7 +19181,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-research-assignments-316722",
@@ -19193,7 +19213,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-research-assignments-316723",
@@ -19224,7 +19245,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-research-assignments-316721",
@@ -19255,7 +19277,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-research-assignments-316590",
@@ -19286,7 +19309,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-research-assignments-316703",
@@ -19317,7 +19341,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-postdoc-assignments-316601",
@@ -19348,7 +19373,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-11T09:43:02.340Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z",
+    "archivedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-postdoc-assignments-316602",
@@ -19379,7 +19405,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-11T09:43:02.340Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z",
+    "archivedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-postdoc-assignments-316603",
@@ -19410,7 +19437,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-11T09:43:02.340Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z",
+    "archivedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-research-assignments-316773",
@@ -19441,7 +19469,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-research-assignments-317023",
@@ -19472,7 +19501,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-10T09:45:48.573Z"
+    "updatedAt": "2026-09-10T09:45:48.573Z",
+    "archivedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-research-contracts-317024",
@@ -19503,7 +19533,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-11T09:43:02.340Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z",
+    "archivedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-research-contracts-317026",
@@ -19534,7 +19565,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-11T09:43:02.340Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z",
+    "archivedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-research-assignments-317027",
@@ -19565,7 +19597,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-11T09:43:02.340Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z",
+    "archivedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-postdoc-assignments-317120",
@@ -19596,7 +19629,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-11T09:43:02.340Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z",
+    "archivedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-postdoc-assignments-317121",
@@ -19627,7 +19661,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-11T09:43:02.340Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z",
+    "archivedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-postdoc-assignments-317126",
@@ -19658,7 +19693,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-11T09:43:02.340Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z",
+    "archivedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-research-assignments-317160",
@@ -19689,40 +19725,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-12T09:22:46.927Z"
-  },
-  {
-    "id": "mur-doctorates-316140",
-    "title": "Global Studies for an Inclusive and Integrated Society. Global Culture, Digital Transformation, Diversity Inclusion and Social Innovation for Development",
-    "institution": "Università per stranieri",
-    "department": "Da bando ufficiale",
-    "location": "Reggio Calabria",
-    "region": "Calabria",
-    "positionType": "PhD",
-    "professorRank": "",
-    "discipline": "Altro / interdisciplinare",
-    "ssd": "ECON-06/A - Economia aziendale\nGSPS-06/A - Sociologia dei processi culturali e comunicativi\nGSPS-08/A - Sociologia dei processi economici e del lavoro\nGSPS-05/A - Sociologia generale",
-    "gsd": "13/ECON-06 - ECONOMIA AZIENDALE\n14/GSPS-06 - SOCIOLOGIA DEI PROCESSI CULTURALI E COMUNICATIVI\n14/GSPS-08 - SOCIOLOGIA DEI PROCESSI ECONOMICI, DEL LAVORO, DELL'AMBIENTE E DEL TERRITORIO\n14/GSPS-05 - SOCIOLOGIA GENERALE",
-    "fundingType": "Non specificato",
-    "deadline": "2026-09-22",
-    "deadlineStatus": "closing_soon",
-    "publishedAt": "2026-08-14",
-    "sourceName": "MUR/Cineca",
-    "sourceUrl": "https://bandi.mur.gov.it/doctorate.php/public/fellowship/id_fellow/316140",
-    "salaryOrAmount": "16.243 Euro",
-    "duration": "36",
-    "language": "IT/EN",
-    "summary": "Il Corso di Dottorato si caratterizza per un approccio interdisciplinare allo studio dei processi globali e delle trasformazioni sociali, economiche, culturali e tecnologiche della società contemporanea. Le attività di ricerca si sviluppano nell’ambito dei due curricula nei quali è articolato il percorso formativo, tra loro strettamente interconnessi, valorizzando l’integrazione tra prospettive economiche, aziendali...",
-    "requirements": [
-      "Requisiti indicati nel bando ufficiale"
-    ],
-    "dedupeKey": "global studies for an inclusive integrated society global culture digital transformation diversity inclusion social innovation for development|per stranieri|2026-09-22",
-    "reviewStatus": "needs_review",
-    "confidenceScore": 0.83,
-    "reviewReasons": [
-      "multiple_scientific_sectors"
-    ],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-12T09:22:46.927Z",
+    "archivedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-doctorates-315615",
@@ -26082,6 +26086,37 @@
     "updatedAt": "2026-09-21T10:45:22.570Z"
   },
   {
+    "id": "mur-research-assignments-317649",
+    "title": "Microscopia lattice light-sheet strutturata per l’imaging ad alta risoluzione temporale della propagazione del potenziale d’azione assonale",
+    "institution": "Università di Padova - Dipartimento di Fisica e Astronomia",
+    "department": "Da bando ufficiale",
+    "location": "Padova",
+    "region": "Veneto",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Matematica, fisica e chimica",
+    "ssd": "PHYS-03/A - Fisica sperimentale della materia e applicazioni",
+    "gsd": "02/PHYS-03 - FISICA SPERIMENTALE DELLA MATERIA E APPLICAZIONI",
+    "fundingType": "Non specificato",
+    "deadline": "2026-09-28",
+    "deadlineStatus": "closing_soon",
+    "publishedAt": "2026-09-18",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317649",
+    "salaryOrAmount": "25.942 Euro",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Il lavoro comprenderà lo sviluppo dell’architettura ottica di illuminazione e rivelazione, l’integrazione di componenti metasuperficiali per la generazione e il controllo del pattern di illuminazione strutturata e la progettazione del sistema in modo da garantirne la compatibilità e l’integrazione con dispositivi micro-nano-fluidici per il confinamento e il posizionamento controllato del campione. Particolare attenz...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "microscopia lattice light sheet strutturata per l imaging ad alta risoluzione temporale propagazione potenziale d azione assonale|padova dipartimento fisica e astronomia|2026-09-28",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-22T09:58:48.184Z"
+  },
+  {
     "id": "mur-research-contracts-316493",
     "title": "n. 3 contratti di ricerca art. 22 L. 240/2010 - 2026CR11",
     "institution": "Università degli Studi di Padova",
@@ -29082,6 +29117,132 @@
     "updatedAt": "2026-09-21T10:45:22.570Z"
   },
   {
+    "id": "mur-research-assignments-317637",
+    "title": "Programma di ricerca: Percezione delle Macchine e Sistemi Intelligenti",
+    "institution": "Istituto di Sistemi e Tecnologie Industriali Intelligenti per il Manifatturiero Avanzato - STIIMA CNR",
+    "department": "Da bando ufficiale",
+    "location": "Bari",
+    "region": "Puglia",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Ingegneria, informatica e AI",
+    "ssd": "-",
+    "gsd": "09/IINF-05 - SISTEMI DI ELABORAZIONE DELLE INFORMAZIONI",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-01",
+    "deadlineStatus": "closing_soon",
+    "publishedAt": "2026-09-21",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317637",
+    "salaryOrAmount": "29.000 Euro",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Studio di tecniche di intelligenza artificiale e analisi avanzata dei dati per sviluppo, addestramento, integrazione e validazione di modelli predittivi per l’interpretazione di dati diagnostici complessi e il supporto alle decisioni. Competenze richieste: computer vision e trattamento dati provenienti da sistemi di visione e/o piattaforme robotiche, applicabili in diversi ambiti industriali e scientifici; capacità...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "programma ricerca percezione macchine e sistemi intelligenti|istituto sistemi e tecnologie industriali intelligenti per il manifatturiero avanzato stiima cnr|2026-10-01",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-22T09:58:48.184Z"
+  },
+  {
+    "id": "mur-research-assignments-317650",
+    "title": "Sintesi, caratterizzazione e simulazione di nanolaser basati su metasuperfici ordinate",
+    "institution": "Università di Padova - Dipartimento di Fisica e Astronomia",
+    "department": "Da bando ufficiale",
+    "location": "Padova",
+    "region": "Veneto",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Matematica, fisica e chimica",
+    "ssd": "PHYS-03/A - Fisica sperimentale della materia e applicazioni",
+    "gsd": "02/PHYS-03 - FISICA SPERIMENTALE DELLA MATERIA E APPLICAZIONI",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-01",
+    "deadlineStatus": "closing_soon",
+    "publishedAt": "2026-09-16",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317650",
+    "salaryOrAmount": "25.942 Euro",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Il progetto di ricerca è finalizzato allo sviluppo di sorgenti coerenti di fotoni (nanolaser) a pompaggio ottico o elettrico per applicazioni quantistiche integrate. A questo scopo, l’IR lavorerà alla sintesi di dispositivi foto- ed elettro-luminescenti basati su array bidimensionali di nanostrutture accoppiati a film sottili di materiali attivi, alla modellizzazione e caratterizzazione delle loro proprietà di emiss...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "sintesi caratterizzazione e simulazione nanolaser basati su metasuperfici ordinate|padova dipartimento fisica e astronomia|2026-10-01",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-22T09:58:48.184Z"
+  },
+  {
+    "id": "mur-postdoc-assignments-317681",
+    "title": "Studio, sviluppo e validazione sperimentale di sistemi criogenici di rivelazione per misure di precisione della radiazione millimetrica in applicazioni spazial",
+    "institution": "INFN - Istituto Nazionale di Fisica Nucleare",
+    "department": "Da bando ufficiale",
+    "location": "Frascati",
+    "region": "Toscana",
+    "positionType": "Postdoc",
+    "professorRank": "",
+    "discipline": "Altro / interdisciplinare",
+    "ssd": "-",
+    "gsd": "02/PHYS-05 - ASTROFISICA E COSMOLOGIA, FISICA DELLO SPAZIO, DELLA TERRA E DEL CLIMA\n02/PHYS-01 - FISICA SPERIMENTALE DELLE INTERAZIONI FONDAMENTALI E APPLICAZIONI",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-01",
+    "deadlineStatus": "closing_soon",
+    "publishedAt": "2026-09-21",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/317681",
+    "salaryOrAmount": "38.531 Euro",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Bando n. 29167/2026 per il conferimento di n. 1 incarico post-doc per ricerca scientifica, di Fascia 3 presso la Sezione di Pisa.",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "studio sviluppo e validazione sperimentale sistemi criogenici rivelazione per misure precisione radiazione millimetrica in applicazioni spazial|infn istituto nazionale fisica nucleare|2026-10-01",
+    "reviewStatus": "needs_review",
+    "confidenceScore": 0.83,
+    "reviewReasons": [
+      "multiple_scientific_sectors"
+    ],
+    "updatedAt": "2026-09-22T09:58:48.184Z"
+  },
+  {
+    "id": "mur-postdoc-assignments-317706",
+    "title": "Formulazioni per somministrazioni mucosali topiche e/o sistemiche orali contenenti una miscela a base di lattoferrina, più efficace nel legare il ferro, per la prevenzione e il trattamento di varie patologie",
+    "institution": "Microbo s.r.l.",
+    "department": "Da bando ufficiale",
+    "location": "Roma",
+    "region": "Lazio",
+    "positionType": "Postdoc",
+    "professorRank": "",
+    "discipline": "Biologia, biotech e farmacia",
+    "ssd": "BIOS-07/A - Biochimica",
+    "gsd": "05/BIOS-07 - BIOCHIMICA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-01",
+    "deadlineStatus": "closing_soon",
+    "publishedAt": "2026-09-21",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/317706",
+    "salaryOrAmount": "28,456 Euro",
+    "duration": "annuale",
+    "language": "IT/EN",
+    "summary": "Il progetto si propone di valutare l’efficacia della lattoferrina bovina (bLf) e della formulazione Valpalf®, preparata combinando bLf con citrato e bicarbonato di sodio, in modelli in vitro di malattie infiammatorie intestinali. Verranno utilizzate cellule Caco-2 e THP-1 differenziate in macrofagi per simulare rispettivamente enterociti e risposta immunitaria. I modelli sperimentali riprodurranno colite ulcerosa (s...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "formulazioni per somministrazioni mucosali topiche e o sistemiche orali contenenti una miscela a base lattoferrina piu efficace nel legare il ferro per la prevenzione e il trattamento varie patologie|microbo s r l|2026-10-01",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-22T09:58:48.184Z"
+  },
+  {
     "id": "mur-research-assignments-316351",
     "title": "Progettazione e sviluppo di un framework di apprendimento continuo auto-supervisionato per la verifica del parlante su dispositivi con vincoli di risorse - 2026_IDR_DEIB_59",
     "institution": "Politecnico di Milano",
@@ -29515,7 +29676,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-17T10:00:13.546Z"
+    "updatedAt": "2026-09-17T10:00:13.546Z",
+    "archivedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-research-assignments-317547",
@@ -30231,6 +30393,39 @@
       "multiple_scientific_sectors"
     ],
     "updatedAt": "2026-09-06T09:27:28.899Z"
+  },
+  {
+    "id": "mur-doctorates-316140",
+    "title": "Global Studies for an Inclusive and Integrated Society. Global Culture, Digital Transformation, Diversity Inclusion and Social Innovation for Development",
+    "institution": "Università per stranieri",
+    "department": "Da bando ufficiale",
+    "location": "Reggio Calabria",
+    "region": "Calabria",
+    "positionType": "PhD",
+    "professorRank": "",
+    "discipline": "Altro / interdisciplinare",
+    "ssd": "ECON-06/A - Economia aziendale\nGSPS-06/A - Sociologia dei processi culturali e comunicativi\nGSPS-08/A - Sociologia dei processi economici e del lavoro\nGSPS-05/A - Sociologia generale",
+    "gsd": "13/ECON-06 - ECONOMIA AZIENDALE\n14/GSPS-06 - SOCIOLOGIA DEI PROCESSI CULTURALI E COMUNICATIVI\n14/GSPS-08 - SOCIOLOGIA DEI PROCESSI ECONOMICI, DEL LAVORO, DELL'AMBIENTE E DEL TERRITORIO\n14/GSPS-05 - SOCIOLOGIA GENERALE",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-05",
+    "deadlineStatus": "closing_soon",
+    "publishedAt": "2026-08-14",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/doctorate.php/public/fellowship/id_fellow/316140",
+    "salaryOrAmount": "16.243 Euro",
+    "duration": "36",
+    "language": "IT/EN",
+    "summary": "Il Corso di Dottorato si caratterizza per un approccio interdisciplinare allo studio dei processi globali e delle trasformazioni sociali, economiche, culturali e tecnologiche della società contemporanea. Le attività di ricerca si sviluppano nell’ambito dei due curricula nei quali è articolato il percorso formativo, tra loro strettamente interconnessi, valorizzando l’integrazione tra prospettive economiche, aziendali...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "global studies for an inclusive integrated society global culture digital transformation diversity inclusion social innovation for development|per stranieri|2026-10-05",
+    "reviewStatus": "needs_review",
+    "confidenceScore": 0.83,
+    "reviewReasons": [
+      "multiple_scientific_sectors"
+    ],
+    "updatedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-fixed-term-researchers-151585",
@@ -31901,7 +32096,7 @@
     "gsd": "05/BIOS-07 - BIOCHIMICA",
     "fundingType": "Non specificato",
     "deadline": "2026-10-06",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-07",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/316980",
@@ -31932,7 +32127,7 @@
     "gsd": "09/IEGE-01 - INGEGNERIA ECONOMICO-GESTIONALE",
     "fundingType": "Non specificato",
     "deadline": "2026-10-06",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-09",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317129",
@@ -31963,7 +32158,7 @@
     "gsd": "09/IINF-05 - SISTEMI DI ELABORAZIONE DELLE INFORMAZIONI",
     "fundingType": "Non specificato",
     "deadline": "2026-10-06",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-15",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317244",
@@ -31994,7 +32189,7 @@
     "gsd": "10/LATI-01 - LINGUA E LETTERATURA LATINA",
     "fundingType": "Non specificato",
     "deadline": "2026-10-06",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-15",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/317409",
@@ -32025,7 +32220,7 @@
     "gsd": "06/MEDS-19 - MALATTIE DELL'APPARATO LOCOMOTORE E MEDICINA FISICA E RIABILITATIVA",
     "fundingType": "Non specificato",
     "deadline": "2026-10-06",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-16",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317128",
@@ -32056,7 +32251,7 @@
     "gsd": "08/CEAR-08 - DESIGN, TECNOLOGIA DELL'ARCHITETTURA, ARCHITETTURA TECNICA E GESTIONE DELL'AMBIENTE COSTRUITO",
     "fundingType": "Non specificato",
     "deadline": "2026-10-06",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-17",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317473",
@@ -32087,7 +32282,7 @@
     "gsd": "14/GSPS-06 - SOCIOLOGIA DEI PROCESSI CULTURALI E COMUNICATIVI",
     "fundingType": "Non specificato",
     "deadline": "2026-10-06",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-17",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317474",
@@ -32118,7 +32313,7 @@
     "gsd": "09/IINF-03 - TELECOMUNICAZIONI",
     "fundingType": "Non specificato",
     "deadline": "2026-10-06",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-16",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/317420",
@@ -32151,7 +32346,7 @@
     "gsd": "02/PHYS-03 - FISICA SPERIMENTALE DELLA MATERIA E APPLICAZIONI",
     "fundingType": "Non specificato",
     "deadline": "2026-10-06",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-18",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317500",
@@ -32182,7 +32377,7 @@
     "gsd": "06/MEDS-02 - PATOLOGIA GENERALE E PATOLOGIA CLINICA",
     "fundingType": "Non specificato",
     "deadline": "2026-10-06",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-18",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/317515",
@@ -32213,7 +32408,7 @@
     "gsd": "02/PHYS-04 - FISICA TEORICA DELLA MATERIA, MODELLI, METODI MATEMATICI E APPLICAZIONI",
     "fundingType": "Non specificato",
     "deadline": "2026-10-06",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-21",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/317487",
@@ -32244,7 +32439,7 @@
     "gsd": "07/AGRI-01 - ECONOMIA AGRARIA, ALIMENTARE ED ESTIMO RURALE",
     "fundingType": "Non specificato",
     "deadline": "2026-10-06",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-21",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/317563",
@@ -32275,7 +32470,7 @@
     "gsd": "05/BIOS-08 - BIOLOGIA MOLECOLARE",
     "fundingType": "Non specificato",
     "deadline": "2026-10-06",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-21",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/317638",
@@ -32308,7 +32503,7 @@
     "gsd": "09/IINF-05 - SISTEMI DI ELABORAZIONE DELLE INFORMAZIONI",
     "fundingType": "Non specificato",
     "deadline": "2026-10-06",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-21",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/317639",
@@ -32339,7 +32534,7 @@
     "gsd": "09/IBIO-01 - BIOINGEGNERIA",
     "fundingType": "Non specificato",
     "deadline": "2026-10-06",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-18",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317513",
@@ -32372,7 +32567,7 @@
     "gsd": "08/CEAR-07 - TECNICA DELLE COSTRUZIONI",
     "fundingType": "Non specificato",
     "deadline": "2026-10-06",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-21",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317568",
@@ -32403,7 +32598,7 @@
     "gsd": "08/CEAR-07 - TECNICA DELLE COSTRUZIONI",
     "fundingType": "Non specificato",
     "deadline": "2026-10-06",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-21",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317643",
@@ -32434,7 +32629,7 @@
     "gsd": "11/GEOG-01 - GEOGRAFIA",
     "fundingType": "Non specificato",
     "deadline": "2026-10-06",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-21",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317644",
@@ -32465,7 +32660,7 @@
     "gsd": "09/IINF-04 - AUTOMATICA",
     "fundingType": "Non specificato",
     "deadline": "2026-10-06",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-18",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317549",
@@ -32496,7 +32691,7 @@
     "gsd": "02/PHYS-05 - ASTROFISICA E COSMOLOGIA, FISICA DELLO SPAZIO, DELLA TERRA E DEL CLIMA",
     "fundingType": "Non specificato",
     "deadline": "2026-10-06",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-21",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317552",
@@ -32527,7 +32722,7 @@
     "gsd": "02/PHYS-05 - ASTROFISICA E COSMOLOGIA, FISICA DELLO SPAZIO, DELLA TERRA E DEL CLIMA",
     "fundingType": "Non specificato",
     "deadline": "2026-10-06",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-21",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317553",
@@ -32558,7 +32753,7 @@
     "gsd": "09/IINF-04 - AUTOMATICA",
     "fundingType": "Non specificato",
     "deadline": "2026-10-06",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-21",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317598",
@@ -32589,7 +32784,7 @@
     "gsd": "11/PSIC-01 - PSICOLOGIA GENERALE, NEUROPSICOLOGIA E NEUROSCIENZE COGNITIVE, PSICOMETRIA",
     "fundingType": "Non specificato",
     "deadline": "2026-10-06",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-21",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/317540",
@@ -32622,7 +32817,7 @@
     "gsd": "06/MEDS-26 - SCIENZE TECN. DI MEDICINA DI LABOR., SC. DELLE PROF. SANIT. TECN. DIAGNOSTICHE, ASSIST. E DELLA PREVENZIONE, SC. DELLE PROF. SANIT. DELLA RIABILITAZIONE, SC. TECN. MED. E CHIRURG. AVANZATE",
     "fundingType": "Non specificato",
     "deadline": "2026-10-06",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-21",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/317541",
@@ -32655,7 +32850,7 @@
     "gsd": "03/CHEM-01 - CHIMICA ANALITICA, AMBIENTALE E DEI BENI CULTURALI",
     "fundingType": "Non specificato",
     "deadline": "2026-10-06",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-21",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/317542",
@@ -32673,6 +32868,293 @@
       "generic_institution"
     ],
     "updatedAt": "2026-09-21T10:45:22.570Z"
+  },
+  {
+    "id": "mur-research-assignments-317662",
+    "title": "Compilazione sicura per codice generato da AI",
+    "institution": "Università degli Studi di Trento",
+    "department": "Da bando ufficiale",
+    "location": "Trento",
+    "region": "Piemonte",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Ingegneria, informatica e AI",
+    "ssd": "INFO-01/A - Informatica",
+    "gsd": "01/INFO-01 - INFORMATICA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-06",
+    "deadlineStatus": "closing_soon",
+    "publishedAt": "2026-09-15",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317662",
+    "salaryOrAmount": "22.500,00",
+    "duration": "12 mesi",
+    "language": "IT/EN",
+    "summary": "Questo progetto affronta i rischi del codice generato dall’IA, che agisce come un **compilatore stocastico e non affidabile**, traducendo intenzioni espresse in linguaggio naturale in codice spesso funzionalmente corretto, ma privo di consapevolezza rispetto agli aspetti di sicurezza. Il progetto propone una nuova teoria di **patch di sicurezza modulari (pluggable)** per rendere più robusto il codice generato dall’I...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "compilazione sicura per codice generato da ai|studi trento|2026-10-06",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-22T09:58:48.184Z"
+  },
+  {
+    "id": "mur-research-assignments-317656",
+    "title": "Svelare il costo nascosto della violenza da partner intimo sulla salute neuroendocrina e cardiovascolare delle donne",
+    "institution": "Univ. Studi Padova",
+    "department": "Da bando ufficiale",
+    "location": "Padova",
+    "region": "Veneto",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Biologia, biotech e farmacia",
+    "ssd": "BIOS-06/A - Fisiologia",
+    "gsd": "05/BIOS-06 - FISIOLOGIA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-06",
+    "deadlineStatus": "closing_soon",
+    "publishedAt": "2026-09-17",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317656",
+    "salaryOrAmount": "22.505,00",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "La violenza da partner intimo (Intimate Partner Violence, IPV) è associata a conseguenze rilevanti e durature sulla salute fisica e mentale delle donne, ma i meccanismi biologici responsabili del danno multiorgano restano ancora incompletamente definiti. Il Progetto WISH integra ricerca preclinica e clinica per caratterizzare gli effetti dell’IPV a livello cerebrale, cardiovascolare, endocrino e immunitario. Nel mod...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "svelare il costo nascosto violenza da partner intimo sulla salute neuroendocrina e cardiovascolare donne|univ studi padova|2026-10-06",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-22T09:58:48.184Z"
+  },
+  {
+    "id": "mur-research-assignments-317657",
+    "title": "Dinamiche di traduzione locale alla sinapsi di modelli murini di malattie neuromuscolari",
+    "institution": "Univ. Studi Padova",
+    "department": "Da bando ufficiale",
+    "location": "Padova",
+    "region": "Veneto",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Biologia, biotech e farmacia",
+    "ssd": "BIOS-06/A - Fisiologia",
+    "gsd": "05/BIOS-06 - FISIOLOGIA",
+    "fundingType": "ERC",
+    "deadline": "2026-10-06",
+    "deadlineStatus": "closing_soon",
+    "publishedAt": "2026-09-17",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317657",
+    "salaryOrAmount": "€ 24,320.00",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Le funzioni motorie realizzano azioni evolutivamente rilevanti e necessarie, come la corsa e la respirazione. Esse si basano su impulsi elettrici che generano contrazioni muscolari attraverso la giunzione neuromuscolare (NMJ). Studi recenti dimostrano che a livello della NMJ le proteine vengono prodotte localmente non solo durante lo sviluppo, ma anche in topi adulti e che tale processo risulta alterato in patologie...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "dinamiche traduzione locale alla sinapsi modelli murini malattie neuromuscolari|univ studi padova|2026-10-06",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-22T09:58:48.184Z"
+  },
+  {
+    "id": "mur-research-assignments-317521",
+    "title": "Sviluppo di algoritmi e metodologie per l’elaborazione sistematica di grandi dataset DInSAR satellitari a media risoluzione spaziale",
+    "institution": "Istituto per il Rilevamento Elettromagnetico dell’Ambiente – IREA",
+    "department": "Da bando ufficiale",
+    "location": "Napoli",
+    "region": "Lazio",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Ingegneria, informatica e AI",
+    "ssd": "-",
+    "gsd": "09/IINF-03 - TELECOMUNICAZIONI",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-06",
+    "deadlineStatus": "closing_soon",
+    "publishedAt": "2026-09-18",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317521",
+    "salaryOrAmount": "25.000 Euro",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Sviluppo di algoritmi e metodologie per l’elaborazione sistematica di grandi sequenze di dati DInSAR multitemporali, acquisiti da piattaforme satellitari a media risoluzione spaziale, mediante l’impiego di risorse di calcolo ad alte prestazioni (HPC), finalizzati all’ottimizzazione della qualità delle serie temporali di spostamento del suolo e alla loro validazione",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "sviluppo algoritmi e metodologie per l elaborazione sistematica grandi dataset dinsar satellitari a media risoluzione spaziale|istituto per il rilevamento elettromagnetico dell ambiente irea|2026-10-06",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-22T09:58:48.184Z"
+  },
+  {
+    "id": "mur-research-assignments-317647",
+    "title": "SNIF - Ingredienti naturali più sani e sostenibili per l'industria alimentare: sviluppo di tecnologie analitiche e procedure di produzione biocatalizzate",
+    "institution": "Consiglio Nazionale delle Ricerche - Istituto di Scienze e Tecnologie Chimiche",
+    "department": "Da bando ufficiale",
+    "location": "Milano",
+    "region": "Lombardia",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Matematica, fisica e chimica",
+    "ssd": "CHEM-05/A - Chimica organica",
+    "gsd": "03/CHEM-05 - CHIMICA ORGANICA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-06",
+    "deadlineStatus": "closing_soon",
+    "publishedAt": "2026-09-21",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317647",
+    "salaryOrAmount": "23.100 Euro",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "L’ Incaricato di ricerca si occuperà della sintesi chemoenzimatica di addittivi alimentari con attività antimicrobica e della sintesi di glucosidi utilizzabili come esaltatori di sapidità. In particolare verranno condotte le seguenti attività: i) ottimizzazione del processo di produzione dell’acido fenilattico per via fermentativa, ii) sintesi del glucoside morelid, iii) isolamento da fonti vegetali di flavonoidi e...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "snif ingredienti naturali piu sani e sostenibili per l industria alimentare sviluppo tecnologie analitiche e procedure produzione biocatalizzate|consiglio nazionale ricerche istituto scienze e tecnologie chimiche|2026-10-06",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "possibleDuplicateSourceIds": [
+      "mur-research-assignments-317720"
+    ],
+    "updatedAt": "2026-09-22T09:58:48.184Z"
+  },
+  {
+    "id": "mur-research-assignments-317720",
+    "title": "SNIF - Ingredienti naturali più sani e sostenibili per l'industria alimentare: sviluppo di tecnologie analitiche e procedure di produzione biocatalizzate",
+    "institution": "Consiglio Nazionale delle Ricerche - Istituto di Scienze e Tecnologie Chimiche",
+    "department": "Da bando ufficiale",
+    "location": "Milano",
+    "region": "Lombardia",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Matematica, fisica e chimica",
+    "ssd": "CHEM-05/A - Chimica organica",
+    "gsd": "03/CHEM-05 - CHIMICA ORGANICA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-06",
+    "deadlineStatus": "closing_soon",
+    "publishedAt": "2026-09-21",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317720",
+    "salaryOrAmount": "23.100 Euro",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "L’ Incaricato di ricerca si occuperà della sintesi di peptidi biologicamente attivi da utilizzare come additivi alimentari. In particolare verranno condotte le seguenti attività: i) sintesi in soluzione ed in fase solida di peptidi isolati da brodi alimentari, ii) eventuale scale-up della produzione di alcuni peptidi selezionati, iii) isolamento e analisi di batteriocine da brodi di fermentazione",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "snif ingredienti naturali piu sani e sostenibili per l industria alimentare sviluppo tecnologie analitiche e procedure produzione biocatalizzate|consiglio nazionale ricerche istituto scienze e tecnologie chimiche|2026-10-06",
+    "reviewStatus": "needs_review",
+    "confidenceScore": 0.71,
+    "reviewReasons": [
+      "possible_duplicate"
+    ],
+    "possibleDuplicateOf": "mur-research-assignments-317647",
+    "updatedAt": "2026-09-22T09:58:48.184Z"
+  },
+  {
+    "id": "mur-research-assignments-317648",
+    "title": "Monitoraggio sulla diffusione e l’inserimento dei vitigni Piwi nella vitivinicoltura del Veneto",
+    "institution": "Università degli Studi di Padova – Centro CIRVE",
+    "department": "Da bando ufficiale",
+    "location": "Italy",
+    "region": "Veneto",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Ambiente, agraria e veterinaria",
+    "ssd": "AGRI-01/A - Economia agraria, alimentare ed estimo rurale",
+    "gsd": "07/AGRI-01 - ECONOMIA AGRARIA, ALIMENTARE ED ESTIMO RURALE",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-06",
+    "deadlineStatus": "closing_soon",
+    "publishedAt": "2026-09-21",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317648",
+    "salaryOrAmount": "25.800 Euro",
+    "duration": "12",
+    "language": "IT/EN",
+    "summary": "Il Progetto di ricerca è finalizzato all’attivazione di un Osservatorio sulle varietà PIWI con l’obiettivo di mapparne la diffusione all’interno del Veneto e di acquisire conoscenze dettagliate sul loro comportamento in campo, sull’effettiva tolleranza/suscettibilità a stress biotici , sulle loro caratteristiche produttive e, sulla loro gestione agronomica e sul loro utilizzo enologico in azienda. L’Osservatorio rac...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "monitoraggio sulla diffusione e l inserimento dei vitigni piwi nella vitivinicoltura veneto|studi padova centro cirve|2026-10-06",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-22T09:58:48.184Z"
+  },
+  {
+    "id": "mur-research-assignments-317719",
+    "title": "Optimal Particle identification Of Single Site events with Underground MKIDs detectors. Sviluppo di rivelatori superconduttivi per la ricostruzione topologica di eventi in macro calorimetri criogenici",
+    "institution": "INFN - Istituto Nazionale di Fisica Nucleare",
+    "department": "Da bando ufficiale",
+    "location": "Frascati",
+    "region": "Italia",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Matematica, fisica e chimica",
+    "ssd": "-",
+    "gsd": "02/PHYS-01 - FISICA SPERIMENTALE DELLE INTERAZIONI FONDAMENTALI E APPLICAZIONI",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-06",
+    "deadlineStatus": "closing_soon",
+    "publishedAt": "2026-09-21",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317719",
+    "salaryOrAmount": "25.000 Euro",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Bando n. 29165/2026 per il conferimento di n. 1 incarico di ricerca scientifica di Fascia 2 presso i Laboratori Nazionali del Gran Sasso dell'INFN.",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "optimal particle identification of single site events with underground mkids detectors sviluppo rivelatori superconduttivi per la ricostruzione topologica eventi in macro calorimetri criogenici|infn istituto nazionale fisica nucleare|2026-10-06",
+    "reviewStatus": "needs_review",
+    "confidenceScore": 0.83,
+    "reviewReasons": [
+      "unknown_region"
+    ],
+    "updatedAt": "2026-09-22T09:58:48.184Z"
+  },
+  {
+    "id": "mur-postdoc-assignments-317680",
+    "title": "Preparazione ed esecuzione dei test e della integrazione dei moduli pixel-strip del Tracciatore Esterno di CMS",
+    "institution": "INFN - Istituto Nazionale di Fisica Nucleare",
+    "department": "Da bando ufficiale",
+    "location": "Frascati",
+    "region": "Toscana",
+    "positionType": "Postdoc",
+    "professorRank": "",
+    "discipline": "Matematica, fisica e chimica",
+    "ssd": "-",
+    "gsd": "02/PHYS-01 - FISICA SPERIMENTALE DELLE INTERAZIONI FONDAMENTALI E APPLICAZIONI",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-06",
+    "deadlineStatus": "closing_soon",
+    "publishedAt": "2026-09-21",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/317680",
+    "salaryOrAmount": "28.761 Euro",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Bando n. 29166/2026 per il conferimento di n. 1 incarico post-doc per ricerca scientifica, di Fascia 1 presso la Sezione di Pisa.",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "preparazione ed esecuzione dei test e integrazione dei moduli pixel strip tracciatore esterno cms|infn istituto nazionale fisica nucleare|2026-10-06",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-doctorates-316040",
@@ -32985,6 +33467,167 @@
     "confidenceScore": 0.95,
     "reviewReasons": [],
     "updatedAt": "2026-09-18T09:46:56.385Z"
+  },
+  {
+    "id": "mur-postdoc-assignments-317702",
+    "title": "Procedura di valutazione comparativa per n. 1 incarico post-doc - Dipartimento di Scienze dell'Educazione",
+    "institution": "Università di Bologna",
+    "department": "Da bando ufficiale",
+    "location": "Bologna",
+    "region": "Emilia-Romagna",
+    "positionType": "Postdoc",
+    "professorRank": "",
+    "discipline": "Filosofia, storia, lingue, pedagogia e psicologia",
+    "ssd": "PAED-02/A - Didattica e pedagogia speciale",
+    "gsd": "11/PAED-02 - RICERCA EDUCATIVA: DIDATTICA, PEDAGOGIA SPECIALE E PEDAGOGIA SPERIMENTALE",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-07",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-22",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/317702",
+    "salaryOrAmount": "28.456 Euro",
+    "duration": "12 mesi",
+    "language": "IT/EN",
+    "summary": "Titolo del progetto: “Attività di ricerca per la progettazione di strumenti metodologico-didattici per la formazione degli insegnanti in ottica gender-sensitive nelle discipline STEAM”. L’attività di ricerca sarà finalizzata alla progettazione, sviluppo e validazione di strumenti metodologico-didattici per la formazione iniziale e in servizio degli insegnanti nell’ambito del progetto Erasmus+ G-STEAM (Gender-Sensiti...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "procedura valutazione comparativa per n 1 incarico post doc dipartimento scienze dell educazione|bologna|2026-10-07",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "possibleDuplicateSourceIds": [
+      "mur-postdoc-assignments-317703"
+    ],
+    "updatedAt": "2026-09-22T09:58:48.184Z"
+  },
+  {
+    "id": "mur-postdoc-assignments-317703",
+    "title": "Procedura di valutazione comparativa per n. 1 incarico post-doc - Dipartimento di Scienze dell'Educazione",
+    "institution": "Università di Bologna",
+    "department": "Da bando ufficiale",
+    "location": "Bologna",
+    "region": "Emilia-Romagna",
+    "positionType": "Postdoc",
+    "professorRank": "",
+    "discipline": "Filosofia, storia, lingue, pedagogia e psicologia",
+    "ssd": "PAED-02/A - Didattica e pedagogia speciale",
+    "gsd": "11/PAED-02 - RICERCA EDUCATIVA: DIDATTICA, PEDAGOGIA SPECIALE E PEDAGOGIA SPERIMENTALE",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-07",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-23",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/317703",
+    "salaryOrAmount": "28.456 Euro",
+    "duration": "12 mesi",
+    "language": "IT/EN",
+    "summary": "Titolo del progetto:“Innovazione didattica e ricerca-azione nei percorsi di formazione iniziale degli insegnanti (PF60): modelli digitali, progettazione inclusiva e qualità del tirocinio”. L’attività di ricerca si propone di innovare i percorsi PF60 attraverso la progettazione, sperimentazione e validazione di format didattici per la formazione iniziale degli insegnanti, in presenza e online, basati su micro-learnin...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "procedura valutazione comparativa per n 1 incarico post doc dipartimento scienze dell educazione|bologna|2026-10-07",
+    "reviewStatus": "needs_review",
+    "confidenceScore": 0.71,
+    "reviewReasons": [
+      "possible_duplicate"
+    ],
+    "possibleDuplicateOf": "mur-postdoc-assignments-317702",
+    "updatedAt": "2026-09-22T09:58:48.184Z"
+  },
+  {
+    "id": "mur-postdoc-assignments-317711",
+    "title": "Procedura di valutazione comparativa per n. 1 incarico post-doc - Dipartimento di Scienze dell'Educazione",
+    "institution": "Università di Bologna",
+    "department": "Da bando ufficiale",
+    "location": "Bologna",
+    "region": "Emilia-Romagna",
+    "positionType": "Postdoc",
+    "professorRank": "",
+    "discipline": "Filosofia, storia, lingue, pedagogia e psicologia",
+    "ssd": "PAED-02/B - Pedagogia sperimentale",
+    "gsd": "11/PAED-02 - RICERCA EDUCATIVA: DIDATTICA, PEDAGOGIA SPECIALE E PEDAGOGIA SPERIMENTALE",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-07",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-22",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/317711",
+    "salaryOrAmount": "28.456 Euro",
+    "duration": "12 mesi",
+    "language": "IT/EN",
+    "summary": "Titolo del progetto:“Processi di formative educational evaluation per l'innovazione curricolare in contesti universitari. Monitorare, valutare, promuovere la LM 57 R del Dipartimento EDU UNIBO”. L’attività di ricerca riguarda la progettazione e l’implementazione di un piano di valutazione dell’impatto dell’offerta formativa blended di un corso di Laurea Magistrale, secondo la prospettiva dei Formative Educational Ev...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "procedura valutazione comparativa per n 1 incarico post doc dipartimento scienze dell educazione|bologna|2026-10-07",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-22T09:58:48.184Z"
+  },
+  {
+    "id": "mur-postdoc-assignments-317700",
+    "title": "“ACCEPT REMOTE - Acceptance of Remote Operations for Future Mobility, Call HORIZON-CL5-2025-04”.",
+    "institution": "Politecnico di Bari",
+    "department": "Da bando ufficiale",
+    "location": "Bari",
+    "region": "Puglia",
+    "positionType": "Postdoc",
+    "professorRank": "",
+    "discipline": "Ingegneria, informatica e AI",
+    "ssd": "IINF-04/A - Automatica",
+    "gsd": "09/IINF-04 - AUTOMATICA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-07",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-21",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/317700",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Accettazione delle operazioni a distanza per la mobilità del futuro (AcceptRemote) Il progetto sviluppa un quadro completo di preparazione sociale e una metodologia per il livello di preparazione sociale che integra inclusività, fiducia, adattamento culturale e sensibilità di genere in tutte le attività scientifiche e tecnologiche e nei nostri tre progetti pilota strategicamente posizionati.",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "accept remote acceptance of remote operations for future mobility call horizon cl5 2025 04|politecnico bari|2026-10-07",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-22T09:58:48.184Z"
+  },
+  {
+    "id": "mur-postdoc-assignments-317701",
+    "title": "1 incarico post-doc con contratto di lavoro subordinato, a tempo determinato, della durata di 12 mesi, ai sensi dell’art. 22bis della Legge n. 240/2010 ss.mm.ii., SSD GIUR-10/A",
+    "institution": "Università del Salento",
+    "department": "Da bando ufficiale",
+    "location": "Lecce",
+    "region": "Puglia",
+    "positionType": "Postdoc",
+    "professorRank": "",
+    "discipline": "Economia, diritto e politica",
+    "ssd": "GIUR-10/A - Diritto dell'unione europea",
+    "gsd": "12/GIUR-10 - DIRITTO DELL'UNIONE EUROPEA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-07",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-22",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/317701",
+    "salaryOrAmount": "40.824 Euro",
+    "duration": "annuale",
+    "language": "IT/EN",
+    "summary": "Tutti i dettagli del bando sono reperibili dal Bando di selezione di cui al D.R. n. 800 del 22.09.2026 e dal sito web di Ateneo nella sezione https://trasparenza.unisalento.it/page/5/bandi-di-concorso.html, inserendo nell’oggetto la procedura di riferimento (SSD, GSD, etc.) e nella categoria la voce “Incarichi post-doc”.",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "1 incarico post doc con contratto lavoro subordinato a tempo determinato durata 12 mesi ai sensi dell art 22bis legge n 240 2010 ss mm ii ssd giur 10 a|salento|2026-10-07",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-doctorates-316860",
@@ -33737,6 +34380,37 @@
     "updatedAt": "2026-09-21T10:45:22.570Z"
   },
   {
+    "id": "mur-research-assignments-317661",
+    "title": "Design and Evaluation of GPU-initiated communication techniques",
+    "institution": "Università degli Studi di Trento",
+    "department": "Da bando ufficiale",
+    "location": "Trento",
+    "region": "Trentino-Alto Adige",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Ingegneria, informatica e AI",
+    "ssd": "INFO-01/A - Informatica",
+    "gsd": "01/INFO-01 - INFORMATICA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-08",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-15",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317661",
+    "salaryOrAmount": "22.500,00",
+    "duration": "12 mesi",
+    "language": "IT/EN",
+    "summary": "La ricerca si concentra sulla progettazione e valutazione di tecniche di comunicazione avviate da GPU per sistemi di calcolo ad alte prestazioni e intelligenza artificiale. L'obiettivo è ridurre il coinvolgimento della CPU nelle operazioni di comunicazione, consentendo alle GPU di avviare, controllare e gestire direttamente i trasferimenti di dati su interconnessioni ad alte prestazioni.-..",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "design evaluation of gpu initiated communication techniques|studi trento|2026-10-08",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-22T09:58:48.184Z"
+  },
+  {
     "id": "mur-doctorates-316004",
     "title": "Arte e Patrimonio Culturale come Strumenti di Ricerca Pratica per Progetti di Innovazione di Rilevanza Internazionale",
     "institution": "Conservatorio di Musica di Vicenza",
@@ -34045,6 +34719,68 @@
     "confidenceScore": 0.95,
     "reviewReasons": [],
     "updatedAt": "2026-09-19T09:32:28.482Z"
+  },
+  {
+    "id": "mur-research-assignments-317724",
+    "title": "Metodi statistici per dati di grandi dimensioni, complessi e strutturati",
+    "institution": "Scuola Superiore Sant'Anna di Pisa",
+    "department": "Da bando ufficiale",
+    "location": "Pisa",
+    "region": "Toscana",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Economia, diritto e politica",
+    "ssd": "STAT-01/A - Statistica",
+    "gsd": "13/STAT-01 - STATISTICA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-09",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-22",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317724",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Il progetto di ricerca si concentrerà sullo sviluppo di metodologia statistica innovativa per l'inferenza in problemi complessi, strutturati e di grandi dimensioni, quali quelli derivanti da dati ad alta o altissima dimensionalità, dati su grafi e reti, dati funzionali, dati multimodali, etc. Particolare attenzione sarà rivolta a metodi di apprendimento statistico sparsi e interpretabili; a tecniche scalabili per la...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "metodi statistici per dati grandi dimensioni complessi e strutturati|scuola superiore sant anna pisa|2026-10-09",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-22T09:58:48.184Z"
+  },
+  {
+    "id": "mur-research-assignments-317716",
+    "title": "Indagini bio-ecologiche e sviluppo di metodi innovativi per la gestione sostenibile di fitofagi d'interesse agrario (Pubblicato sull'Albo Ufficiale di Unifi con n. 9940/2026)",
+    "institution": "Università degli studi di Firenze",
+    "department": "Da bando ufficiale",
+    "location": "Firenze",
+    "region": "Toscana",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Ambiente, agraria e veterinaria",
+    "ssd": "AGRI-05/A - Entomologia generale e applicata",
+    "gsd": "07/AGRI-05 - PATOLOGIA VEGETALE ED ENTOMOLOGIA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-09",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-21",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317716",
+    "salaryOrAmount": "27.754 Euro",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "La ricerca ha lo scopo di individuare nuovi metodi sostenibili per il controllo di insetti fitofagi di interesse agrario, quali Philaenus spumarius, Neophilaenus campestris, Drosophila suzukii e Scaphoideus titanus. In particolare, in laboratorio verranno indagate le risposte comportamentali delle sputacchine a diversi stimoli (chimici e/o fisici), al fine di sviluppare innovativi sistemi di monitoraggio o di contro...",
+    "requirements": [
+      "candidature.selezioni@dagri.unifi.it"
+    ],
+    "dedupeKey": "indagini bio ecologiche e sviluppo metodi innovativi per la gestione sostenibile fitofagi d interesse agrario pubblicato sull albo ufficiale unifi con n 9940 2026|studi firenze|2026-10-09",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-postdoc-assignments-317040",
@@ -34860,6 +35596,68 @@
     "confidenceScore": 0.95,
     "reviewReasons": [],
     "updatedAt": "2026-09-17T10:00:13.546Z"
+  },
+  {
+    "id": "mur-technologists-152523",
+    "title": "Apprendere e usare concetti: Scambio di conoscenze e coinvolgimento nelle dinamiche interne e sociali - LINKAGES",
+    "institution": "Sapienza Università di Roma",
+    "department": "Da bando ufficiale",
+    "location": "Roma",
+    "region": "Lazio",
+    "positionType": "Tecnologo",
+    "professorRank": "",
+    "discipline": "Filosofia, storia, lingue, pedagogia e psicologia",
+    "ssd": "PSIC-01/A - Psicologia generale",
+    "gsd": "11/PSIC-01 - PSICOLOGIA GENERALE, NEUROPSICOLOGIA E NEUROSCIENZE COGNITIVE, PSICOMETRIA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-12",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-22",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/tecno.php/public/job/id_job/152523",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Attività di supporto tecnico nell’ambito del progetto LINKAGES. Attività di supporto tecnico scientifico qualificato nelle fasi di acquisizione, sincronizzazione, gestione, pre-processing e analisi di segnali biomedici e dati multimodali. Le attività principali includeranno lo sviluppo, l’implementazione e la manutenzione di pipeline di analisi per dati neuroscientifici, comportamentali e psicometrici e il supporto...",
+    "requirements": [
+      "Elaborazione e analisi avanzata di segnali bioelettrici (EEG), con particolare riferimento alla tecnica dell’hyperscanning;Programmazione e sviluppo software (Python, Matlab, ecc.);Sviluppo di sistemi di sincronizzazione hardware e/o software tra diverse piattaforme di acquisizione dati (per es.: sistemi EEG, sistemi di cinematica, script per survay online come Qualtrics e/o PsycoPy;);Conoscenza dei fondamenti di elaborazione del linguaggio naturale (NLP), familiarità con tecniche di word embedding e interesse per l’utilizzo di Large Language Models (LLM) in contesti di ricerca;Conoscenza dei sistemi operativi e applicazioni informatiche più in uso; linguaggi di programmazione (ad es. Python e Matlab);conoscenza di software per l’analisi di dati multimodali e di segnali EEG, cinematici, software per l’analisi di dati psicologici (Qualtrics, R);Capacità di lavorare in contesti multidisciplinari;buona conoscenza della lingua inglese;conoscenza di elementi di Legislazione universitaria;conoscenza dello Statuto e Regolamenti di Sapienza Università di Roma"
+    ],
+    "dedupeKey": "apprendere e usare concetti scambio conoscenze e coinvolgimento nelle dinamiche interne e sociali linkages|sapienza roma|2026-10-12",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-22T09:58:48.184Z"
+  },
+  {
+    "id": "mur-research-assignments-317682",
+    "title": "Sviluppo di modelli predittivi basati su intelligenza artificiale per la stratificazione del rischio individuale e la simulazione di traiettorie evolutive nell'ambito di programmi di screening del cancro del polmone",
+    "institution": "ALMA MATER STUDIORUM - UNIVERSITA' DI BOLOGNA - - DIPARTIMENTO DI INGEGNERIA DELL'ENERGIA ELETTRICA E DELL'INFORMAZIONE \"GUGLIELMO MARCONI\"",
+    "department": "Da bando ufficiale",
+    "location": "Bologna",
+    "region": "Emilia-Romagna",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Ingegneria, informatica e AI",
+    "ssd": "IBIO-01/A - Bioingegneria",
+    "gsd": "09/IBIO-01 - BIOINGEGNERIA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-12",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-21",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317682",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "L’attività riguarda lo sviluppo, la validazione e l’interpretazione di modelli predittivi per la stratificazione del rischio individuale nell’ambito del WP4 del progetto Try-A-Lung. Sarà progettato un modello post-test che integri dati clinici e caratteristiche quantitative ricavate da immagini low-dose CT, tra cui morfologia dei noduli, enfisema e punteggi di rischio per tumore polmonare, patologie cardiovascolari...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "sviluppo modelli predittivi basati su intelligenza artificiale per la stratificazione rischio individuale e la simulazione traiettorie evolutive nell ambito programmi screening cancro polmone|alma mater studiorum bologna dipartimento ingegneria dell energia elettrica e dell informazione guglielmo marconi|2026-10-12",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-postdoc-assignments-316706",
@@ -37825,6 +38623,37 @@
     "updatedAt": "2026-09-17T10:00:13.546Z"
   },
   {
+    "id": "mur-research-assignments-317705",
+    "title": "Sviluppo di conglomerati bituminosi ad alte prestazioni ed elevata compatibilità ambientale mediante impiego di additivi di nuova generazione - 2026_IDR_DICA_17",
+    "institution": "Politecnico di Milano",
+    "department": "Da bando ufficiale",
+    "location": "Milano",
+    "region": "Lombardia",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Architettura, design e territorio",
+    "ssd": "CEAR-03/A - Strade, ferrovie e aeroporti",
+    "gsd": "08/CEAR-03 - INFRASTRUTTURE E SISTEMI DI TRASPORTO, ESTIMO E VALUTAZIONE",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-16",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-22",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317705",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Il programma di ricerca è basato su un ampio studio di laboratorio finalizzato allo sviluppo di conglomerati bituminosi ad alte prestazioni ed elevata compatibilità ambientale mediante l'impiego di additivi di nuova generazione. Sono previste: prove reometriche e tradizionali su leganti tal quali e leganti additivati; prove composizionali, volumetriche e prestazionali su miscele bituminose prodotte con aggregati di...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "sviluppo conglomerati bituminosi ad alte prestazioni ed elevata compatibilita ambientale mediante impiego additivi nuova generazione 2026 idr dica 17|politecnico milano|2026-10-16",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-22T09:58:48.184Z"
+  },
+  {
     "id": "mur-research-contracts-317467",
     "title": "Photoluminescence and Raman spectroscopy of III-V nanowires for quantum photonic applications",
     "institution": "SAPIENZA UNVIERSITA' DI ROMA",
@@ -38587,6 +39416,37 @@
     "updatedAt": "2026-09-21T10:45:22.570Z"
   },
   {
+    "id": "mur-fixed-term-researchers-152283",
+    "title": "Procedura selettiva per l’assunzione di n. 1 ricercatore a tempo determinato in tenure-track (RTT) - 2026RTT05_RIS_RTDa25",
+    "institution": "Università degli Studi di Padova",
+    "department": "Da bando ufficiale",
+    "location": "Padova",
+    "region": "Veneto",
+    "positionType": "RTT",
+    "professorRank": "",
+    "discipline": "Medicina e salute",
+    "ssd": "MEDS-20/A - Pediatria generale e specialistica",
+    "gsd": "06/MEDS-20 - PEDIATRIA GENERALE E SPECIALISTICA E NEUROPSICHIATRIA INFANTILE",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-19",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-21",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/152283",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Procedura selettiva per l’assunzione di n. 1 ricercatore a tempo determinato in tenure-track (RTT) ai sensi dell’art. 24 della legge 240/2010 come modificato dalla L. 79/2022 riservate a ricercatori di tipo a), con contratto in scadenza nel 2025 – 2026RTT05_RIS_RTDa25",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "procedura selettiva per l assunzione n 1 ricercatore a tempo determinato in tenure track rtt 2026rtt05 ris rtda25|studi padova|2026-10-19",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-22T09:58:48.184Z"
+  },
+  {
     "id": "mur-research-assignments-316903",
     "title": "Modelli integrati di processo e sistema produttivo. - 2026_IDR_DMEC_25",
     "institution": "Politecnico di Milano",
@@ -38928,6 +39788,452 @@
     "updatedAt": "2026-09-21T10:45:22.570Z"
   },
   {
+    "id": "mur-research-assignments-317461",
+    "title": "CONCORSO A N. 1 INCARICO DI RICERCA, GRUPPO 13/ECON-06 ECONOMIA AZIENDALE, CENTRO BIDSA, UNIVERSITÀ COMMERCIALE “LUIGI BOCCONI” DI MILANO",
+    "institution": "Bocconi University",
+    "department": "Da bando ufficiale",
+    "location": "Milano",
+    "region": "Lombardia",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Economia, diritto e politica",
+    "ssd": "ECON-06/A - Economia aziendale",
+    "gsd": "13/ECON-06 - ECONOMIA AZIENDALE",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-21",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-21",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317461",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Il progetto studia come il passaggio dai tradizionali gatekeeper culturali a piattaforme decentralizzate e algoritmiche come TikTok trasformi le disuguaglianze nel mercato culturale. L’analisi si concentra su tre dimensioni: genere, valutando gli effetti su visibilità, rappresentazione e successo commerciale; condizione socioeconomica, verificando se la diffusione dei contenuti democratizzi l’accesso o rafforzi le d...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "concorso a n 1 incarico ricerca gruppo 13 econ 06 economia aziendale centro bidsa commerciale luigi bocconi milano|bocconi|2026-10-21",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-22T09:58:48.184Z"
+  },
+  {
+    "id": "mur-postdoc-assignments-317660",
+    "title": "Progettazione, sintesi e sviluppo di nuovi agenti antimicrobici e antimalarici.",
+    "institution": "Sapienza Università di Roma",
+    "department": "Da bando ufficiale",
+    "location": "Roma",
+    "region": "Lazio",
+    "positionType": "Postdoc",
+    "professorRank": "",
+    "discipline": "Matematica, fisica e chimica",
+    "ssd": "CHEM-07/A - Chimica farmaceutica",
+    "gsd": "03/CHEM-07 - CHIMICA FARMACEUTICA, TOSSICOLOGICA, NUTRACEUTICO-ALIMENTARE, DELLE FERMENTAZIONI E DEI PRODOTTI PER IL BENESSERE E PER LA SALUTE",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-21",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-21",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/317660",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "La/il candidata/o si dovrà occupare della progettazione e sintesi di nuovi agenti antimicrobici ed antimalarici e della identificazione e validazione di nuovi bersagli terapeutici in Mycobacterium tuberculosis e Plasmodium spp.",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "progettazione sintesi e sviluppo nuovi agenti antimicrobici e antimalarici|sapienza roma|2026-10-21",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-22T09:58:48.184Z"
+  },
+  {
+    "id": "mur-fixed-term-researchers-152143",
+    "title": "Valutazione comparativa a n. 1 posto di ricercatore a tempo determinato L. 240/2010 – Dipartimento di Economia e Management - gsd 13/STAT-01 (Statistica), ssd STAT-01/A (Statistica)",
+    "institution": "University of Trento – Department of Economics and Management",
+    "department": "Department of Economics and Management",
+    "location": "Trento",
+    "region": "Trentino-Alto Adige",
+    "positionType": "RTT",
+    "professorRank": "",
+    "discipline": "Economia, diritto e politica",
+    "ssd": "STAT-01/A - Statistica",
+    "gsd": "13/STAT-01 - STATISTICA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-22",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-10",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/152143",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Presso l’Università degli Studi di Trento è indetta, ai sensi dell’art. 24 della legge 30 dicembre 2010 n. 240, la seguente procedura di valutazione comparativa presso il Dipartimento di Economia e Management: n. 1 posto di ricercatore a tempo determinato, gruppo scientifico disciplinare 13/STAT-01 (Statistica), settore scientifico disciplinare STAT-01/A (Statistica).",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "valutazione comparativa a n 1 posto ricercatore a tempo determinato l 240 2010 dipartimento economia e management gsd 13 stat 01 statistica ssd stat 01 a statistica|of trento department of economics management|2026-10-22",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-22T09:58:48.184Z"
+  },
+  {
+    "id": "mur-fixed-term-researchers-152503",
+    "title": "Procedura pubblica di selezione per il reclutamento di n. 5 ricercatori a tempo determinato in tenure track - Codice PICA: 26RTT006",
+    "institution": "Università degli studi di Bergamo",
+    "department": "Da bando ufficiale",
+    "location": "Bergamo",
+    "region": "Lombardia",
+    "positionType": "RTT",
+    "professorRank": "",
+    "discipline": "Altro / interdisciplinare",
+    "ssd": "IINF-04/A - Automatica\nECON-07/A - Economia e gestione delle imprese\nIEGE-01/A - Ingegneria economico-gestionale\nPHIL-02/A - Logica e filosofia della scienza\nSTAT-01/A - Statistica",
+    "gsd": "09/IINF-04 - AUTOMATICA\n13/ECON-07 - ECONOMIA E GESTIONE DELLE IMPRESE\n09/IEGE-01 - INGEGNERIA ECONOMICO-GESTIONALE\n11/PHIL-02 - LOGICA, STORIA E FILOSOFIA DELLE SCIENZE E DELLE TECNICHE\n13/STAT-01 - STATISTICA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-22",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-22",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/152503",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Procedura pubblica di selezione ai sensi dell’art. 24 della Legge 30 dicembre 2010, n. 240 per il reclutamento di n. 5 ricercatori a tempo determinato in tenure track (RTT) presso vari Dipartimenti dell’Università degli studi di Bergamo - Codice PICA: 26RTT006.",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "procedura pubblica selezione per il reclutamento n 5 ricercatori a tempo determinato in tenure track codice pica 26rtt006|studi bergamo|2026-10-22",
+    "reviewStatus": "needs_review",
+    "confidenceScore": 0.83,
+    "reviewReasons": [
+      "multiple_scientific_sectors"
+    ],
+    "updatedAt": "2026-09-22T09:58:48.184Z"
+  },
+  {
+    "id": "mur-fixed-term-researchers-152183",
+    "title": "1 ricercatore/ricercatrice a tempo determinato (RTT) finanziato dalla RAS - Università di Cagliari",
+    "institution": "Università degli Studi di Cagliari",
+    "department": "Dipartimento di Ingegneria meccanica, chimica e dei materiali",
+    "location": "Cagliari",
+    "region": "Sardegna",
+    "positionType": "RTT",
+    "professorRank": "",
+    "discipline": "Ingegneria, informatica e AI",
+    "ssd": "IIND-03/A - Progettazione meccanica e costruzione di macchine",
+    "gsd": "09/IIND-03 - PROGETTAZIONE INDUSTRIALE, COSTRUZIONI MECCANICHE E METALLURGIA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-22",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-22",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/152183",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Selezione pubblica per il reclutamento di n. 1 ricercatore/ricercatrice a tempo determinato tenure track (RTT) finanziato dalla RAS – codice selezione: rttLR_44D_0926_09/IIND-03",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "1 ricercatore ricercatrice a tempo determinato rtt finanziato dalla ras cagliari|studi cagliari|2026-10-22",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-22T09:58:48.184Z"
+  },
+  {
+    "id": "mur-fixed-term-researchers-152203",
+    "title": "8 ricercatori/ricercatrici a tempo determinato (RTT) - Università di Cagliari",
+    "institution": "Università degli Studi di Cagliari",
+    "department": "Dipartimenti dell'Università di Cagliari",
+    "location": "Cagliari",
+    "region": "Sardegna",
+    "positionType": "RTT",
+    "professorRank": "",
+    "discipline": "Altro / interdisciplinare",
+    "ssd": "GIUR-08/A - Diritto tributario\nECON-09/B - Economia degli intermediari finanziari\nPHYS-01/A - Fisica sperimentale delle interazioni fondamentali e applicazioni\nGEOG-01/A - Geografia\nSPAN-01/B - Lingua e letterature ispano-americane\nMEDS-09/B - Malattie del sangue\nMEDS-25/B - Medicina del lavoro\nMEDS-02/B - Patologia clinica",
+    "gsd": "12/GIUR-08 - DIRITTO TRIBUTARIO\n13/ECON-09 - ECONOMIA DEGLI INTERMEDIARI FINANZIARI E FINANZA AZIENDALE\n02/PHYS-01 - FISICA SPERIMENTALE DELLE INTERAZIONI FONDAMENTALI E APPLICAZIONI\n11/GEOG-01 - GEOGRAFIA\n10/SPAN-01 - LINGUE, LETTERATURE E CULTURE SPAGNOLA E ISPANO-AMERICANE\n06/MEDS-09 - MALATTIE DEL SANGUE, ONCOLOGIA E REUMATOLOGIA\n06/MEDS-25 - MEDICINA LEGALE E DEL LAVORO\n06/MEDS-02 - PATOLOGIA GENERALE E PATOLOGIA CLINICA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-22",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-22",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/152203",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Selezione pubblica per il reclutamento di n. 8 ricercatori/ricercatrici a tempo determinato tenure track (RTT) – codice selezione: rttL_45D_0926",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "8 ricercatori ricercatrici a tempo determinato rtt cagliari|studi cagliari|2026-10-22",
+    "reviewStatus": "needs_review",
+    "confidenceScore": 0.83,
+    "reviewReasons": [
+      "multiple_scientific_sectors"
+    ],
+    "updatedAt": "2026-09-22T09:58:48.184Z"
+  },
+  {
+    "id": "mur-fixed-term-researchers-152204",
+    "title": "3 ricercatori/ricercatrici a tempo determinato tenure track (RTT), riservati rtda/assegnisti - Università di Cagliari",
+    "institution": "Università degli Studi di Cagliari",
+    "department": "Dipartimenti dell'Università di Cagliari",
+    "location": "Cagliari",
+    "region": "Sardegna",
+    "positionType": "RTT",
+    "professorRank": "",
+    "discipline": "Altro / interdisciplinare",
+    "ssd": "ARCH-01/A - Preistoria e protostoria\nCEAR-04/A - Geomatica\nECON-02/A - Politica economica",
+    "gsd": "10/ARCH-01 - ARCHEOLOGIA\n08/CEAR-04 - GEOMATICA\n13/ECON-02 - POLITICA ECONOMICA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-22",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-22",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/152204",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Selezioni pubbliche per il reclutamento di n. 3 ricercatori/ricercatrici a tempo determinato tenure track (RTT), riservata a candidati/e che sono, o sono stati, per almeno un anno ricercatori a tempo determinato di tipologia a) o, per almeno tre anni, titolari di uno o più assegni di ricerca ex art.22 della L.240/2010 - codice selezione: rttA_46D_0926",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "3 ricercatori ricercatrici a tempo determinato tenure track rtt riservati rtda assegnisti cagliari|studi cagliari|2026-10-22",
+    "reviewStatus": "needs_review",
+    "confidenceScore": 0.83,
+    "reviewReasons": [
+      "multiple_scientific_sectors"
+    ],
+    "updatedAt": "2026-09-22T09:58:48.184Z"
+  },
+  {
+    "id": "mur-fixed-term-researchers-152206",
+    "title": "3 ricercatori/ricercatrici a tempo determinato tenure track (RTT), ai sensi dell’art. 24, comma 1-bis, della legge 240/2010 - Università di Cagliari",
+    "institution": "Università degli Studi di Cagliari",
+    "department": "Dipartimenti dell'Università di Cagliari",
+    "location": "Cagliari",
+    "region": "Sardegna",
+    "positionType": "RTT",
+    "professorRank": "",
+    "discipline": "Altro / interdisciplinare",
+    "ssd": "MATH-05/A - Analisi numerica\nSPAN-01/A - Letteratura spagnola\nPAED-01/B - Storia della pedagogia e dell'educazione",
+    "gsd": "01/MATH-05 - ANALISI NUMERICA\n10/SPAN-01 - LINGUE, LETTERATURE E CULTURE SPAGNOLA E ISPANO-AMERICANE\n11/PAED-01 - PEDAGOGIA E STORIA DELLA PEDAGOGIA E DELL'EDUCAZIONE",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-22",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-22",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/152206",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Selezioni pubbliche per il reclutamento di n. 3 ricercatori/ricercatrici a tempo determinato tenure track (RTT), ai sensi dell’art. 24, comma 1-bis, della legge 240/2010, riservate a candidati che per almeno trentasei mesi, anche cumulativamente, abbiano frequentato corsi di dottorato di ricerca o svolto attività di ricerca sulla base di formale attribuzione di incarichi, escluse le attività a titolo gratuito, press...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "3 ricercatori ricercatrici a tempo determinato tenure track rtt ai sensi dell art 24 comma 1 bis legge 240 2010 cagliari|studi cagliari|2026-10-22",
+    "reviewStatus": "needs_review",
+    "confidenceScore": 0.83,
+    "reviewReasons": [
+      "multiple_scientific_sectors"
+    ],
+    "updatedAt": "2026-09-22T09:58:48.184Z"
+  },
+  {
+    "id": "mur-fixed-term-researchers-152483",
+    "title": "SELEZIONI PUBBLICHE 2 POSTI RICERCATORE (RTT) ART. 24 L. 240/2010 - UNIVERSITA' DI TORINO, RISERVATE AI TITOLARI DI CONTRATTO DA RTD-A IN SCADENZA 2025 e 2026",
+    "institution": "Universita DI TORINO",
+    "department": "Da bando ufficiale",
+    "location": "TORINO",
+    "region": "Piemonte",
+    "positionType": "RTT",
+    "professorRank": "",
+    "discipline": "Altro / interdisciplinare",
+    "ssd": "ECON-06/A - Economia aziendale\nPHIL-02/A - Logica e filosofia della scienza",
+    "gsd": "13/ECON-06 - ECONOMIA AZIENDALE\n11/PHIL-02 - LOGICA, STORIA E FILOSOFIA DELLE SCIENZE E DELLE TECNICHE",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-22",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-11",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/152483",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "SELEZIONI PUBBLICHE 2 POSTI RICERCATORE TD TENURE TRACK (RTT) ART. 24 L. 240/2010 PRESSO L'UNIVERSITA' DI TORINO, RISERVATE AI TITOLARI DI CONTRATTO DA RTD-A IN SCADENZA NEGLI ANNI 2025 e 2026 (D.M. MUR n. 193 del 5 marzo 2026)",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "selezioni pubbliche 2 posti ricercatore rtt art 24 l 240 2010 torino riservate ai titolari contratto da rtd a in scadenza 2025 e 2026|torino|2026-10-22",
+    "reviewStatus": "needs_review",
+    "confidenceScore": 0.83,
+    "reviewReasons": [
+      "multiple_scientific_sectors"
+    ],
+    "updatedAt": "2026-09-22T09:58:48.184Z"
+  },
+  {
+    "id": "mur-professor-calls-151923",
+    "title": "PROCEDURA SELETTIVA AD 1 POSTO DI PROFESSORE ORDINARIO AI SENSI DELL’ART. 18 L. 240/2010, g.s.d. 11/PSIC-03, s.s.d. PSIC-03/B (Psicologia del lavoro e delle organizzazioni) – Dipartimento di Psicologia e Scienze Cognitive",
+    "institution": "University of Trento - Department of Psychology and Cognitive Science",
+    "department": "Department of Psychology and Cognitive Science",
+    "location": "Rovereto",
+    "region": "Trentino-Alto Adige",
+    "positionType": "Professore I fascia",
+    "professorRank": "Professore I fascia",
+    "discipline": "Filosofia, storia, lingue, pedagogia e psicologia",
+    "ssd": "PSIC-03/B - Psicologia del lavoro e delle organizzazioni",
+    "gsd": "11/PSIC-03 - PSICOLOGIA SOCIALE, DEL LAVORO E DELLE ORGANIZZAZIONI",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-22",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-10",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/profcalls.php/public/job/id_job/151923",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Presso l’Università degli Studi di Trento è indetta, ai sensi dell’art. 18, comma 1, della legge 30 dicembre 2010 n. 240, la seguente procedura selettiva: n. 1 posto di professore universitario di ruolo di prima fascia per il gruppo scientifico disciplinare 11/PSIC-03 (Psicologia sociale, del lavoro e delle organizzazioni), settore scientifico disciplinare PSIC-03/B (Psicologia del lavoro e delle organizzazioni), pr...",
+    "requirements": [
+      "Al procedimento possono partecipare: a) candidati che abbiano conseguito l'abilitazione scientifica nazionale, ai sensi dell'art. 16 della L. 240/2010, per il settore concorsuale 11/E3 (Psicologia Sociale, del Lavoro e delle Organizzazioni) corrispondente (ai sensi del DM 639/2024) al gruppo scientifico disciplinare oggetto del bando e per le funzioni oggetto del procedimento; b) candidati che abbiano conseguito l’idoneità ai sensi della Legge 210/1998 per un settore scientifico disciplinare compreso nel settore concorsuale 11/E3 (Psicologia Sociale, del Lavoro e delle Organizzazioni) corrispondente (ai sensi del DM 639/2024) al gruppo scientifico disciplinare oggetto del bando, e per la fascia oggetto del procedimento limitatamente al periodo di durata dell’idoneità; Al procedimento possono partecipare: a) candidati che abbiano conseguito l'abilitazione scientifica nazionale, ai sensi dell'art. 16 della L. 240/2010, per il settore concorsuale 11/E3 (Psicologia Sociale, del Lavoro e delle Organizzazioni) corrispondente (ai sensi del DM 639/2024) al gruppo scientifico disciplinare oggetto del bando e per le funzioni oggetto del procedimento; b) candidati che abbiano conseguito l’idoneità ai sensi della Legge 210/1998 per un settore scientifico disciplinare compreso nel settore concorsuale 11/E3 (Psicologia Sociale, del Lavoro e delle Organizzazioni) corrispondente (ai sensi del DM 639/2024) al gruppo scientifico disciplinare oggetto del bando, e per la fascia oggetto del procedimento limitatamente al periodo di durata dell’idoneità; c) professori già in servizio presso altri Atenei nella fascia corrispondente a quella per la quale viene bandita la procedura selettiva; d) studiosi stabilmente impegnati all’estero in attività di ricerca o insegnamento a livello universitario in posizione di livello pari a quelle oggetto del bando, sulla base delle tabelle di corrispondenza definite dal Ministero tramite il D.M. 456/2023."
+    ],
+    "dedupeKey": "procedura selettiva ad 1 posto professore ordinario ai sensi dell art 18 l 240 2010 g s d 11 psic 03 s s d psic 03 b psicologia lavoro e organizzazioni dipartimento psicologia e scienze cognitive|of trento department of psychology cognitive science|2026-10-22",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-22T09:58:48.184Z"
+  },
+  {
+    "id": "mur-professor-calls-152166",
+    "title": "n. 17 professoresse/professori ordinarie/i - Università di Cagliari",
+    "institution": "Università degli Studi di Cagliari",
+    "department": "Dipartimenti dell'Università di Cagliari",
+    "location": "Cagliari",
+    "region": "Sardegna",
+    "positionType": "Professore II fascia",
+    "professorRank": "Professore II fascia",
+    "discipline": "Altro / interdisciplinare",
+    "ssd": "ANGL-01/A - Letteratura inglese\nBIOS-07/A - Biochimica\nIINF-02/A - Campi elettromagnetici\nCHEM-02/A - Chimica fisica\nGIUR-02/A - Diritto commerciale\nGIUR-09/A - Diritto internazionale\nGIUR-15/A - Diritto romano e fondamenti del diritto europeo\nECON-09/B - Economia degli intermediari finanziari\nIINF-01/A - Elettronica\nPHIL-04/B - Filosofia e teoria dei linguaggi\nPHYS-01/A - Fisica sperimentale delle interazioni fondamentali e applicazioni\nICHI-02/A - Impianti chimici\nINFO-01/A - Informatica\nCEAR-03/A - Strade, ferrovie e aeroporti\nIINF-05/A - Sistemi di elaborazione delle informazioni\nGSPS-06/A - Sociologia dei processi culturali e comunicativi\nHIST-03/A - Storia contemporanea",
+    "gsd": "10/ANGL-01 - ANGLISTICA E ANGLOAMERICANISTICA\n05/BIOS-07 - BIOCHIMICA\n09/IINF-02 - CAMPI ELETTROMAGNETICI\n03/CHEM-02 - CHIMICA FISICA\n12/GIUR-02 - DIRITTO COMMERCIALE E DELLA NAVIGAZIONE\n12/GIUR-09 - DIRITTO INTERNAZIONALE\n12/GIUR-15 - DIRITTO ROMANO E FONDAMENTI DEL DIRITTO EUROPEO\n13/ECON-09 - ECONOMIA DEGLI INTERMEDIARI FINANZIARI E FINANZA AZIENDALE\n09/IINF-01 - ELETTRONICA\n11/PHIL-04 - ESTETICA E FILOSOFIA DEI LINGUAGGI\n02/PHYS-01 - FISICA SPERIMENTALE DELLE INTERAZIONI FONDAMENTALI E APPLICAZIONI\n09/ICHI-02 - IMPIANTI E PROCESSI INDUSTRIALI CHIMICI\n01/INFO-01 - INFORMATICA\n08/CEAR-03 - INFRASTRUTTURE E SISTEMI DI TRASPORTO, ESTIMO E VALUTAZIONE\n09/IINF-05 - SISTEMI DI ELABORAZIONE DELLE INFORMAZIONI\n14/GSPS-06 - SOCIOLOGIA DEI PROCESSI CULTURALI E COMUNICATIVI\n11/HIST-03 - STORIA CONTEMPORANEA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-22",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-22",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/profcalls.php/public/job/id_job/152166",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Procedure selettive libere di chiamata di n. 17 professoresse/professori ordinarie/i ai sensi dell’art.18, comma 1, della legge 240/2010 – codice procedura: ords_42D_0926",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "n 17 professoresse professori ordinarie i cagliari|studi cagliari|2026-10-22",
+    "reviewStatus": "needs_review",
+    "confidenceScore": 0.83,
+    "reviewReasons": [
+      "multiple_scientific_sectors"
+    ],
+    "updatedAt": "2026-09-22T09:58:48.184Z"
+  },
+  {
+    "id": "mur-professor-calls-152168",
+    "title": "n.1 professoressa/professore associata/o - Università degli Studi di Cagliari",
+    "institution": "Università degli Studi di Cagliari",
+    "department": "Dipartimento di Ingegneria elettrica ed elettronica",
+    "location": "Cagliari",
+    "region": "Umbria",
+    "positionType": "Professore II fascia",
+    "professorRank": "Professore II fascia",
+    "discipline": "Ingegneria, informatica e AI",
+    "ssd": "IIND-08/B - Sistemi elettrici per l'energia",
+    "gsd": "09/IIND-08 - INGEGNERIA DELL'ENERGIA ELETTRICA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-22",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-22",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/profcalls.php/public/job/id_job/152168",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Procedura selettiva di chiamata, riservata agli esterni, di una/un professoressa/professore associata/o, ai sensi dell’art. 18, commi 1 e 4, della legge 240/2010 – cod. proc.: assr_43D_0926_09/IIND-08",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "n 1 professoressa professore associata o studi cagliari|studi cagliari|2026-10-22",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-22T09:58:48.184Z"
+  },
+  {
+    "id": "mur-research-assignments-317659",
+    "title": "Airbnb e trasformazioni urbane: impatti sul mercato immobiliare e sul tessuto sociale a Firenze",
+    "institution": "Università degli Studi di Firenze",
+    "department": "Da bando ufficiale",
+    "location": "Firenze",
+    "region": "Toscana",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Economia, diritto e politica",
+    "ssd": "STAT-01/A - Statistica",
+    "gsd": "13/STAT-01 - STATISTICA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-22",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-21",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317659",
+    "salaryOrAmount": "22.500 Euro",
+    "duration": "12 mesi",
+    "language": "IT/EN",
+    "summary": "Negli ultimi anni, la diffusione degli affitti brevi ha trasformato i contesti urbani, con ripercussioni sul tessuto sociale e sul mercato residenziale. L’obiettivo del progetto è analizzare tale fenomeno a Firenze, evidenziandone le dinamiche attuali e le possibili evoluzioni future, con particolare attenzione alla sua concentrazione nel centro storico.",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "airbnb e trasformazioni urbane impatti sul mercato immobiliare e sul tessuto sociale a firenze|studi firenze|2026-10-22",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-22T09:58:48.184Z"
+  },
+  {
+    "id": "mur-research-assignments-317718",
+    "title": "Filiera sostenibile dell’olio d’oliva – Calabria e Umbria – Olivicoltura sostenibile",
+    "institution": "Università degli Studi di Perugia",
+    "department": "Da bando ufficiale",
+    "location": "Perugia",
+    "region": "Umbria",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Ambiente, agraria e veterinaria",
+    "ssd": "AGRI-03/A - Arboricoltura generale e coltivazioni arboree",
+    "gsd": "07/AGRI-03 - SCIENZE E TECNOLOGIE DEI SISTEMI ARBOREI E FORESTALI",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-22",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-18",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317718",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "L’attività di ricerca mira a rafforzare la sostenibilità e la resilienza della filiera olivicolo-olearia, migliorandone l’adattamento ai cambiamenti climatici, la competitività economica e la qualità dell’olio extra vergine di oliva. Per mitigare gli effetti degli stress abiotici sull’olivo saranno valutate sostanze bioattive innovative. Al fine di incrementare la fertilità del suolo, favorire il sequestro del carbo...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "filiera sostenibile dell olio d oliva calabria e umbria olivicoltura sostenibile|studi perugia|2026-10-22",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-22T09:58:48.184Z"
+  },
+  {
     "id": "mur-research-assignments-317486",
     "title": "Modellazione cinetica della crescita di idrocarburi policiclici aromatici - 2026_IDR_DCMC_21",
     "institution": "Politecnico di Milano",
@@ -39178,6 +40484,37 @@
     "confidenceScore": 0.95,
     "reviewReasons": [],
     "updatedAt": "2026-09-21T10:45:22.570Z"
+  },
+  {
+    "id": "mur-research-assignments-317709",
+    "title": "Studio della fluidodinamica multi-scala e scambio di massa in colonne a gorgogliamento su scala pilota nell'ambito del progetto AURIGA - 2026_IDR_DENG_29",
+    "institution": "Politecnico di Milano",
+    "department": "Da bando ufficiale",
+    "location": "Milano",
+    "region": "Lombardia",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Ingegneria, informatica e AI",
+    "ssd": "IIND-07/A - Fisica tecnica industriale",
+    "gsd": "09/IIND-07 - FISICA TECNICA E INGEGNERIA NUCLEARE",
+    "fundingType": "Non specificato",
+    "deadline": "2026-11-10",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-09-22",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317709",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Bando a valere sul progetto AURIGA (\"Unvealing the RIddles of GAs liquid fluid dynamics: towards novel carbon dioxide absorption systems\"). Codice progetto FIS-2023-00204, CUP D53C25000730001, finanziato nell'ambito del bando FIS2 (Decreto Direttoriale n. 1236 del 1-08-2023). Il programma di ricerca ricade nelle attività del progetto AURIGA ed ha come oggetto lo studio della fluidodinamica multi-scala e lo scambio d...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "studio fluidodinamica multi scala e scambio massa in colonne a gorgogliamento su scala pilota nell ambito progetto auriga 2026 idr deng 29|politecnico milano|2026-11-10",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-09-22T09:58:48.184Z"
   },
   {
     "id": "mur-postdoc-assignments-317343",
