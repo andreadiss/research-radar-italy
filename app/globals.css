@@ -380,6 +380,93 @@ select {
   background: rgba(255, 255, 255, 0.16);
 }
 
+.home-recent {
+  display: grid;
+  gap: 16px;
+  margin: 0 auto;
+  max-width: 1180px;
+  padding: 30px clamp(18px, 4vw, 56px) 12px;
+}
+
+.home-recent-heading {
+  align-items: flex-end;
+  display: flex;
+  gap: 18px;
+  justify-content: space-between;
+}
+
+.home-recent-heading span {
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 850;
+  text-transform: uppercase;
+}
+
+.home-recent-heading h2 {
+  font-size: clamp(22px, 3vw, 30px);
+  line-height: 1.15;
+  margin: 5px 0 0;
+}
+
+.home-recent-grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.home-recent-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  display: grid;
+  gap: 9px;
+  min-width: 0;
+  padding: 15px;
+  transition: border-color 140ms ease, box-shadow 140ms ease, transform 140ms ease;
+}
+
+.home-recent-card:hover {
+  border-color: #a8b8af;
+  box-shadow: 0 10px 24px rgba(24, 32, 27, 0.06);
+  transform: translateY(-1px);
+}
+
+.home-recent-card .badge {
+  justify-self: start;
+}
+
+.home-recent-card h3 {
+  display: -webkit-box;
+  font-size: 16px;
+  line-height: 1.32;
+  margin: 0;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.home-recent-card p {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.home-recent-card > div {
+  align-items: center;
+  color: var(--muted);
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 12px;
+  gap: 7px 12px;
+}
+
+.home-recent-card > div span {
+  align-items: center;
+  display: inline-flex;
+  gap: 5px;
+}
+
 .floating-menu {
   align-items: center;
   backdrop-filter: blur(22px) saturate(1.35);
@@ -1573,6 +1660,10 @@ select {
 }
 
 @media (max-width: 900px) {
+  .home-recent-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .job-card-top {
     align-items: stretch;
     flex-direction: column;
@@ -1584,6 +1675,20 @@ select {
 }
 
 @media (max-width: 640px) {
+
+  .home-recent {
+    padding: 24px 14px 8px;
+  }
+
+  .home-recent-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .home-recent-grid {
+    grid-template-columns: 1fr;
+  }
 
   .topbar {
     gap: 8px;
