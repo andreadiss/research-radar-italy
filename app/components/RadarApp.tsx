@@ -72,6 +72,10 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
     return () => window.removeEventListener("focus", refreshDay);
   }, []);
   const openPositions = positions.filter((position) => isOpenPosition(position, today));
+  const recentPositions = sortPositions(
+    openPositions.filter((position) => position.publishedAt <= today),
+    "recenti"
+  ).slice(0, 6);
   const visibleGrants = grants.filter((grant) => isAvailableGrant(grant, today));
   const grantPrograms = Array.from(new Set(visibleGrants.map((grant) => grant.program))).sort();
   const savedPreview = { count: 0, items: [] };
@@ -160,6 +164,33 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
           ) : null}
         </div>
       </section>
+
+      {intent === "home" && recentPositions.length > 0 ? (
+        <section className="home-recent" aria-labelledby="home-recent-title">
+          <div className="home-recent-heading">
+            <div>
+              <span>Dal catalogo MUR</span>
+              <h2 id="home-recent-title">Ultime opportunità pubblicate</h2>
+            </div>
+            <Link className="back-link" href={"/posizioni/?sort=recenti" as Route}>
+              Vedi tutte le posizioni
+            </Link>
+          </div>
+          <div className="home-recent-grid">
+            {recentPositions.map((position) => (
+              <Link className="home-recent-card" href={`/positions/${position.id}` as Route} key={position.id}>
+                <span className="badge type">{position.positionType}</span>
+                <h3>{position.title}</h3>
+                <p>{position.institution}</p>
+                <div>
+                  <span><MapPin size={14} />{position.location}</span>
+                  <span><CalendarClock size={14} />{deadlineLabel(position.deadline)}</span>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </section>
+      ) : null}
 
       {intent !== "home" ? (
         <FloatingIntentMenu
@@ -889,7 +920,6 @@ function normalizeText(value: string) {
     .replace(/[\u0300-\u036f]/g, "")
     .toLowerCase();
 }
-
 
 
 

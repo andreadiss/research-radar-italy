@@ -93,6 +93,20 @@ errors.extend(f"Broken internal link: {source} -> {target}" for source, target i
 records = json.loads(Path("lib/generated/mur-positions.json").read_text())
 positions = [page for route, page in pages.items() if route.startswith("/positions/")]
 today = datetime.now(ZoneInfo("Europe/Rome")).strftime("%Y-%m-%d")
+recent_records = sorted(
+    (
+        record for record in records
+        if not record.get("archivedAt")
+        and not (bool(re.fullmatch(r"\d{4}-\d{2}-\d{2}", record["deadline"])) and record["deadline"] < today)
+        and record["publishedAt"] <= today
+    ),
+    key=lambda record: record["publishedAt"],
+    reverse=True,
+)[:6]
+recent_urls = {f"/positions/{quote(record['id'], safe='')}/" for record in recent_records}
+home_position_links = {unquote(urlsplit(link).path) for link in pages["/"].links if urlsplit(link).path.startswith("/positions/")}
+if not recent_urls.issubset(home_position_links):
+    errors.append(f"Homepage recent opportunities mismatch: expected {sorted(recent_urls)}, found {sorted(home_position_links)}")
 expected_lastmod = {}
 for record in records:
     deadline = record["deadline"]
@@ -150,5 +164,6 @@ report = {"html_pages": len(pages), "sitemap_urls": len(urls), "reachable_pages"
 report["category_cta_checks"] = category_counts
 report["discipline_path_checks"] = discipline_paths
 report["position_lastmod_checks"] = len(sitemap_lastmod)
+report["homepage_recent_position_links"] = len(recent_urls)
 print(json.dumps(report, ensure_ascii=False, indent=2))
 if errors: sys.exit(1)
