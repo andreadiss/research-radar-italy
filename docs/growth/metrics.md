@@ -1,5 +1,7 @@
 ## Baseline
 
+23 settembre 2026 — Bilancio settimanale: gli export condivisi il 19 settembre non sono stati aggiornati e GSC Wizard restituisce ancora `INVALID_ARGUMENT`. Ultimo confronto indipendente disponibile: 23 luglio–19 agosto, 0 clic e 16 impression; 20 agosto–16 settembre, 3 clic e 16 impression. I clic aumentano ma le impression restano identiche e i volumi sono minimi: nessuna crescita consolidata o causalità dimostrabile. Baseline tecnica Dottorati: 29 bandi aperti, 28 associati a 13 regioni specifiche e 1 con regione generica «Italia» escluso dai percorsi.
+
 22 settembre 2026 — Baseline tecnica homepage: 0 link diretti a schede posizione nell'HTML prima dell'intervento; target 6 link alle opportunità aperte più recentemente pubblicate. GSC Wizard oggi restituisce `INVALID_ARGUMENT` anche su proprietà e query già valide, quindi nessun nuovo dato Search Console. Restano valide le baseline export del 19 settembre; nessuna crescita dichiarata.
 
 21 settembre 2026 — Nessun nuovo dato Search Console: GSC Wizard restituisce ancora `payment_required`; restano valide le baseline export del 19 settembre. Per il task `lastmod`, baseline tecnica da build: 557 schede aperte hanno `updatedAt`, 0 timestamp malformati; il conteggio sitemap finale è misurato dai gate di build. Non dichiarare più crawl o traffico finché un export successivo non lo mostra.

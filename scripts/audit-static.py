@@ -159,10 +159,33 @@ for position_type, route in (("Postdoc", "/posizioni/postdoc/"), ("PhD", "/posiz
     if actual != expected:
         errors.append(f"Incorrect discipline links on {route}: expected {sorted(expected)}, found {sorted(actual)}")
     discipline_paths[position_type] = len(actual)
+
+# Check geographic paths rendered only on the Dottorati landing page.
+phd_regions = {
+    record["region"] for record in records
+    if record["positionType"] == "PhD"
+    and not record.get("archivedAt")
+    and record["deadline"] >= today
+    and record.get("region")
+    and record["region"] != "Italia"
+}
+expected_phd_regions = {
+    f"/posizioni/?type=PhD&region={quote(region, safe='')}"
+    for region in phd_regions
+}
+actual_phd_regions = {
+    link for link in pages["/posizioni/dottorati/"].links
+    if link.startswith("/posizioni/?type=PhD&region=")
+}
+if actual_phd_regions != expected_phd_regions:
+    errors.append(
+        f"Incorrect region links on /posizioni/dottorati/: expected {sorted(expected_phd_regions)}, found {sorted(actual_phd_regions)}"
+    )
 titles = [page.title for page in positions]
 report = {"html_pages": len(pages), "sitemap_urls": len(urls), "reachable_pages": len(seen), "orphan_sitemap_urls": len(orphans), "broken_internal_links": len(broken), "duplicate_position_titles": len(titles) - len(set(titles)), "initial_html": {route: {"h1": pages[route].h1, "links": len(pages[route].links)} for route in ("/", "/posizioni/", "/funding/")}, "errors": errors}
 report["category_cta_checks"] = category_counts
 report["discipline_path_checks"] = discipline_paths
+report["phd_region_path_checks"] = len(actual_phd_regions)
 report["position_lastmod_checks"] = len(sitemap_lastmod)
 report["homepage_recent_position_links"] = len(recent_urls)
 print(json.dumps(report, ensure_ascii=False, indent=2))

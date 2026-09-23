@@ -1,5 +1,7 @@
 # Research Radar Italy — Audit iniziale
 
+23 settembre 2026 — Revisione settimanale e intervento landing: la pagina Dottorati esponeva percorsi disciplinari ma nessun accesso geografico, benché 28 dei 29 bandi aperti avessero una regione specifica. Aggiunti 13 collegamenti regionali generati dal dataset nell'HTML iniziale, con conteggi e filtri esistenti; il record con regione generica «Italia» resta escluso. Il rilascio homepage del 22 settembre è stato verificato live prima del nuovo intervento.
+
 22 settembre 2026 — La homepage collegava categorie e indice ma nessuna scheda direttamente: le opportunità più recenti richiedevano almeno due passaggi. Aggiunta una sezione server-rendered con le sei posizioni aperte più recentemente pubblicate, titolo, tipo, ente, sede e scadenza. I link cambiano con il dataset e puntano alle URL canoniche esistenti; nessuna nuova pagina o dato inventato.
 
 21 settembre 2026 — Intervento crawl: le schede posizione aperte ora espongono in sitemap il `lastmod` derivato da `updatedAt`. La provenance è verificata nel reconciler: il timestamp resta invariato quando il contenuto sorgente è identico e cambia solo quando il record cambia o riapre. Route aggregate, landing e grant restano senza `lastmod`, perché non hanno la stessa provenance. Google dichiara di usare il segnale solo quando è coerente e verificabilmente accurato; non è una garanzia di scansione o indicizzazione.

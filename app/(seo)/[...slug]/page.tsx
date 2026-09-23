@@ -47,6 +47,7 @@ export default function SeoLandingRoute({ params }: PageProps) {
   const items = landingItems(page);
   const disciplines = landingDisciplines(page);
   const disciplineSection = landingDisciplineSection(page);
+  const regions = landingRegions(page);
   const structuredData = buildStructuredData(page, items);
 
   return (
@@ -116,6 +117,20 @@ export default function SeoLandingRoute({ params }: PageProps) {
             </section>
           ) : null}
 
+          {regions.length > 0 ? (
+            <section className="seo-faq" aria-labelledby="regions-title">
+              <h2 id="regions-title">Dottorati per regione</h2>
+              <p>Scegli una regione per vedere i bandi di dottorato attualmente disponibili nel radar.</p>
+              <nav className="seo-related-links" aria-label="Regioni con bandi di dottorato aperti">
+                {regions.map((region) => (
+                  <Link href={region.href as Route} key={region.name}>
+                    {region.name} ({region.count})
+                  </Link>
+                ))}
+              </nav>
+            </section>
+          ) : null}
+
           <section className="seo-faq">
             <h2>Domande frequenti</h2>
             {page.faqs.map((faq) => (
@@ -135,6 +150,24 @@ export default function SeoLandingRoute({ params }: PageProps) {
       </section>
     </main>
   );
+}
+
+function landingRegions(page: SeoLandingPage) {
+  if (page.path !== "/posizioni/dottorati") return [];
+
+  const counts = positions
+    .filter((position) => position.positionType === "PhD" && isOpenPosition(position))
+    .filter((position) => position.region && position.region !== "Italia")
+    .reduce((byRegion, position) => {
+      byRegion.set(position.region, (byRegion.get(position.region) ?? 0) + 1);
+      return byRegion;
+    }, new Map<string, number>());
+
+  return Array.from(counts, ([name, count]) => ({
+    name,
+    count,
+    href: `/posizioni/?type=PhD&region=${encodeURIComponent(name)}`
+  })).sort((a, b) => b.count - a.count || a.name.localeCompare(b.name, "it"));
 }
 
 function landingDisciplines(page: SeoLandingPage) {
