@@ -1,5 +1,7 @@
 ## Experiment opportunities
 
+23 settembre 2026 — Miglioramento osservazionale, non A/B test: 13 percorsi regionali nella landing Dottorati riducono i passaggi per trovare bandi locali e rendono esplicita la copertura geografica reale. Gate tecnico: corrispondenza esatta con regioni e conteggi dei PhD aperti, esclusione del valore generico «Italia», filtri esistenti e nessuna nuova URL canonica. Outcome futuro: impression/clic della landing e utilizzo dei filtri regionali solo quando misurabili.
+
 22 settembre 2026 — Miglioramento osservazionale, non A/B test: esporre sei opportunità recenti direttamente in homepage riduce la profondità di navigazione e offre ai crawler link prioritari verso contenuti nuovi. Gate tecnico: selezione deterministica per `publishedAt`, esclusione di archiviate/scadute/future e verifica automatica dei link. Outcome futuro: impression/clic delle sei URL e utilizzo del percorso, senza causalità anticipata.
 
 21 settembre 2026 — Miglioramento osservazionale, non A/B test: fornire a Google il `lastmod` content-level delle schede posizione aperte può aiutare a prioritizzare la riscansione delle URL realmente cambiate. Gate: valore uguale a `updatedAt`, assente sulle route senza provenance e mai sostituito dalla data corrente. Outcome futuro: stato di copertura e impression per scheda negli export successivi; nessun risultato positivo dichiarato oggi.

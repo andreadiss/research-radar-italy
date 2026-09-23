@@ -1,5 +1,7 @@
 # Decision log
 
+23 settembre 2026 — Per la sessione settimanale scegliere un ampliamento utile della landing Dottorati, non la nuova libreria editoriale: i percorsi regionali usano dati già verificati, non richiedono governance settimanale né introducono nuove pagine. Escludere «Italia» perché non è una regione specifica. Gli export GSC restano snapshot e non vanno descritti come monitoraggio aggiornato.
+
 22 settembre 2026 — Preferire link diretti e contenuti verificati in homepage al markup `JobPosting`: gli estratti MUR non garantiscono ancora una descrizione completa conforme. Mostrare le sei posizioni aperte più recenti secondo `publishedAt`, senza promuovere record futuri o modificare canonical/sitemap. Nessun tracking aggiuntivo, nuova landing o servizio.
 
 21 settembre 2026 — Superata la precedente esclusione generale di `lastmod` soltanto per le schede posizione: il reconciler ora dimostra provenance content-level e ha test espliciti contro date fittizie. Usare `updatedAt` solo sulle posizioni aperte; non usare data di controllo fonte, pubblicazione, scadenza, build o data corrente. Non applicare `JobPosting`: le schede contengono estratti e non sempre la descrizione completa richiesta dalle linee guida Google. Nessuna Indexing API o nuovo servizio senza autorizzazione.
