@@ -1,5 +1,7 @@
 # Research Radar Italy — Audit iniziale
 
+24 settembre 2026 — La landing Postdoc offriva percorsi disciplinari ma nessun accesso geografico. Nel catalogo corrente risultano 98 Postdoc aperti: 93 associati a 14 regioni specifiche e 5 con localizzazione generica «Italia». Aggiunti i 14 collegamenti regionali con conteggi e filtri esistenti; «Italia» resta esclusa. Il rilascio Dottorati del 23 settembre è stato prima verificato live con tutti i 13 percorsi regionali.
+
 23 settembre 2026 — Revisione settimanale e intervento landing: la pagina Dottorati esponeva percorsi disciplinari ma nessun accesso geografico, benché 28 dei 29 bandi aperti avessero una regione specifica. Aggiunti 13 collegamenti regionali generati dal dataset nell'HTML iniziale, con conteggi e filtri esistenti; il record con regione generica «Italia» resta escluso. Il rilascio homepage del 22 settembre è stato verificato live prima del nuovo intervento.
 
 22 settembre 2026 — La homepage collegava categorie e indice ma nessuna scheda direttamente: le opportunità più recenti richiedevano almeno due passaggi. Aggiunta una sezione server-rendered con le sei posizioni aperte più recentemente pubblicate, titolo, tipo, ente, sede e scadenza. I link cambiano con il dataset e puntano alle URL canoniche esistenti; nessuna nuova pagina o dato inventato.
