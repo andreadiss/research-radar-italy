@@ -48,6 +48,7 @@ export default function SeoLandingRoute({ params }: PageProps) {
   const disciplines = landingDisciplines(page);
   const disciplineSection = landingDisciplineSection(page);
   const regions = landingRegions(page);
+  const regionSection = landingRegionSection(page);
   const structuredData = buildStructuredData(page, items);
 
   return (
@@ -117,11 +118,11 @@ export default function SeoLandingRoute({ params }: PageProps) {
             </section>
           ) : null}
 
-          {regions.length > 0 ? (
+          {regions.length > 0 && regionSection ? (
             <section className="seo-faq" aria-labelledby="regions-title">
-              <h2 id="regions-title">Dottorati per regione</h2>
-              <p>Scegli una regione per vedere i bandi di dottorato attualmente disponibili nel radar.</p>
-              <nav className="seo-related-links" aria-label="Regioni con bandi di dottorato aperti">
+              <h2 id="regions-title">{regionSection.title}</h2>
+              <p>{regionSection.description}</p>
+              <nav className="seo-related-links" aria-label={regionSection.ariaLabel}>
                 {regions.map((region) => (
                   <Link href={region.href as Route} key={region.name}>
                     {region.name} ({region.count})
@@ -153,10 +154,15 @@ export default function SeoLandingRoute({ params }: PageProps) {
 }
 
 function landingRegions(page: SeoLandingPage) {
-  if (page.path !== "/posizioni/dottorati") return [];
+  const positionType = page.path === "/posizioni/postdoc"
+    ? "Postdoc"
+    : page.path === "/posizioni/dottorati"
+      ? "PhD"
+      : null;
+  if (!positionType) return [];
 
   const counts = positions
-    .filter((position) => position.positionType === "PhD" && isOpenPosition(position))
+    .filter((position) => position.positionType === positionType && isOpenPosition(position))
     .filter((position) => position.region && position.region !== "Italia")
     .reduce((byRegion, position) => {
       byRegion.set(position.region, (byRegion.get(position.region) ?? 0) + 1);
@@ -166,8 +172,22 @@ function landingRegions(page: SeoLandingPage) {
   return Array.from(counts, ([name, count]) => ({
     name,
     count,
-    href: `/posizioni/?type=PhD&region=${encodeURIComponent(name)}`
+    href: `/posizioni/?type=${positionType}&region=${encodeURIComponent(name)}`
   })).sort((a, b) => b.count - a.count || a.name.localeCompare(b.name, "it"));
+}
+
+function landingRegionSection(page: SeoLandingPage) {
+  if (page.path === "/posizioni/postdoc") return {
+    title: "Postdoc per regione",
+    description: "Scegli una regione per vedere le posizioni postdoc attualmente disponibili nel radar.",
+    ariaLabel: "Regioni con posizioni postdoc aperte"
+  };
+  if (page.path === "/posizioni/dottorati") return {
+    title: "Dottorati per regione",
+    description: "Scegli una regione per vedere i bandi di dottorato attualmente disponibili nel radar.",
+    ariaLabel: "Regioni con bandi di dottorato aperti"
+  };
+  return null;
 }
 
 function landingDisciplines(page: SeoLandingPage) {

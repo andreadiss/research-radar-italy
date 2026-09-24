@@ -1,5 +1,7 @@
 # Decision log
 
+24 settembre 2026 — Estendere ai Postdoc lo stesso blocco regionale già verificato sui Dottorati, riutilizzando `/posizioni/?type=Postdoc&region=…`. Non creare landing, canonical o sitemap aggiuntive e non interpretare «Italia» come regione. Generalizzare anche l'audit statico affinché protegga entrambi i set di collegamenti a ogni build.
+
 23 settembre 2026 — Per la sessione settimanale scegliere un ampliamento utile della landing Dottorati, non la nuova libreria editoriale: i percorsi regionali usano dati già verificati, non richiedono governance settimanale né introducono nuove pagine. Escludere «Italia» perché non è una regione specifica. Gli export GSC restano snapshot e non vanno descritti come monitoraggio aggiornato.
 
 22 settembre 2026 — Preferire link diretti e contenuti verificati in homepage al markup `JobPosting`: gli estratti MUR non garantiscono ancora una descrizione completa conforme. Mostrare le sei posizioni aperte più recenti secondo `publishedAt`, senza promuovere record futuri o modificare canonical/sitemap. Nessun tracking aggiuntivo, nuova landing o servizio.
