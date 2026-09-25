@@ -1,5 +1,7 @@
 # Decision log
 
+25 settembre 2026 — Potenziare la landing Contratti di ricerca su entrambi gli assi già supportati dai filtri, perché 60/63 record hanno dati specifici per area e regione. Escludere «Altro / interdisciplinare» e «Italia» anziché promuovere percorsi generici. Riutilizzare `/posizioni/` senza nuove landing, canonical, sitemap, tracking o tassonomie; estendere l'audit statico ai 18 link.
+
 24 settembre 2026 — Estendere ai Postdoc lo stesso blocco regionale già verificato sui Dottorati, riutilizzando `/posizioni/?type=Postdoc&region=…`. Non creare landing, canonical o sitemap aggiuntive e non interpretare «Italia» come regione. Generalizzare anche l'audit statico affinché protegga entrambi i set di collegamenti a ogni build.
 
 23 settembre 2026 — Per la sessione settimanale scegliere un ampliamento utile della landing Dottorati, non la nuova libreria editoriale: i percorsi regionali usano dati già verificati, non richiedono governance settimanale né introducono nuove pagine. Escludere «Italia» perché non è una regione specifica. Gli export GSC restano snapshot e non vanno descritti come monitoraggio aggiornato.

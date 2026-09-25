@@ -158,7 +158,9 @@ function landingRegions(page: SeoLandingPage) {
     ? "Postdoc"
     : page.path === "/posizioni/dottorati"
       ? "PhD"
-      : null;
+      : page.path === "/posizioni/contratti-di-ricerca"
+        ? "Contratto di ricerca"
+        : null;
   if (!positionType) return [];
 
   const counts = positions
@@ -172,7 +174,7 @@ function landingRegions(page: SeoLandingPage) {
   return Array.from(counts, ([name, count]) => ({
     name,
     count,
-    href: `/posizioni/?type=${positionType}&region=${encodeURIComponent(name)}`
+    href: `/posizioni/?type=${encodeURIComponent(positionType)}&region=${encodeURIComponent(name)}`
   })).sort((a, b) => b.count - a.count || a.name.localeCompare(b.name, "it"));
 }
 
@@ -187,6 +189,11 @@ function landingRegionSection(page: SeoLandingPage) {
     description: "Scegli una regione per vedere i bandi di dottorato attualmente disponibili nel radar.",
     ariaLabel: "Regioni con bandi di dottorato aperti"
   };
+  if (page.path === "/posizioni/contratti-di-ricerca") return {
+    title: "Contratti di ricerca per regione",
+    description: "Scegli una regione per vedere i contratti di ricerca attualmente disponibili nel radar.",
+    ariaLabel: "Regioni con contratti di ricerca aperti"
+  };
   return null;
 }
 
@@ -195,12 +202,14 @@ function landingDisciplines(page: SeoLandingPage) {
     ? "Postdoc"
     : page.path === "/posizioni/dottorati"
       ? "PhD"
-      : null;
+      : page.path === "/posizioni/contratti-di-ricerca"
+        ? "Contratto di ricerca"
+        : null;
   if (!positionType) return [];
 
   const counts = positions
     .filter((position) => position.positionType === positionType && isOpenPosition(position))
-    .filter((position) => positionType !== "PhD" || position.discipline !== "Altro / interdisciplinare")
+    .filter((position) => positionType === "Postdoc" || position.discipline !== "Altro / interdisciplinare")
     .reduce((byDiscipline, position) => {
       byDiscipline.set(position.discipline, (byDiscipline.get(position.discipline) ?? 0) + 1);
       return byDiscipline;
@@ -209,7 +218,7 @@ function landingDisciplines(page: SeoLandingPage) {
   return Array.from(counts, ([name, count]) => ({
     name,
     count,
-    href: `/posizioni/?type=${positionType}&discipline=${encodeURIComponent(name)}`
+    href: `/posizioni/?type=${encodeURIComponent(positionType)}&discipline=${encodeURIComponent(name)}`
   })).sort((a, b) => b.count - a.count || a.name.localeCompare(b.name, "it"));
 }
 
@@ -223,6 +232,11 @@ function landingDisciplineSection(page: SeoLandingPage) {
     title: "Dottorati per area disciplinare",
     description: "Scegli un’area per vedere i bandi di dottorato attualmente disponibili nel radar.",
     ariaLabel: "Aree disciplinari dottorati"
+  };
+  if (page.path === "/posizioni/contratti-di-ricerca") return {
+    title: "Contratti di ricerca per area disciplinare",
+    description: "Scegli un’area per vedere i contratti di ricerca attualmente disponibili nel radar.",
+    ariaLabel: "Aree disciplinari dei contratti di ricerca"
   };
   return null;
 }

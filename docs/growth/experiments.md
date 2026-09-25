@@ -1,5 +1,7 @@
 ## Experiment opportunities
 
+25 settembre 2026 — Miglioramento osservazionale, non A/B test: aggiungere alla landing Contratti di ricerca otto percorsi disciplinari e dieci regionali riduce i passaggi verso risultati pertinenti. Gate tecnico: corrispondenza esatta con il catalogo aperto, esclusione dei valori generici, filtri esistenti e nessuna nuova URL canonica. Outcome futuro: impression/clic della landing e uso dei filtri solo quando misurabili.
+
 24 settembre 2026 — Miglioramento osservazionale, non A/B test: 14 percorsi regionali nella landing Postdoc riducono i passaggi per trovare opportunità locali e rendono esplicita la copertura geografica reale. Gate tecnico: corrispondenza esatta con regioni e conteggi dei Postdoc aperti, esclusione di «Italia», filtri esistenti e nessuna nuova URL canonica. Outcome futuro: impression/clic della landing e uso dei filtri solo quando misurabili.
 
 23 settembre 2026 — Miglioramento osservazionale, non A/B test: 13 percorsi regionali nella landing Dottorati riducono i passaggi per trovare bandi locali e rendono esplicita la copertura geografica reale. Gate tecnico: corrispondenza esatta con regioni e conteggi dei PhD aperti, esclusione del valore generico «Italia», filtri esistenti e nessuna nuova URL canonica. Outcome futuro: impression/clic della landing e utilizzo dei filtri regionali solo quando misurabili.
