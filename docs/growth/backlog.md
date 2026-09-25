@@ -1,5 +1,7 @@
 ## Prioritized backlog
 
+25 settembre 2026 — P1 scelto: rendere esplorabili i Contratti di ricerca nella landing esistente per area e regione. Impact medio-alto potenziale su utilità e ricerche ad alta intenzione, Confidence alta su dati/percorso e bassa sull'effetto traffico, Effort piccolo, Risk basso. Gate: otto aree e dieci regioni specifiche, conteggi derivati dal catalogo, filtri funzionanti e HTML iniziale; categorie generiche escluse.
+
 24 settembre 2026 — P1 scelto: rendere i Postdoc esplorabili per regione nella landing esistente. Impact medio-alto potenziale su utilità e ricerche locali, Confidence alta su dati/percorso e bassa sull'effetto traffico, Effort piccolo, Risk basso. Gate: tutte e sole le 14 regioni specifiche dei Postdoc aperti, conteggi derivati dal catalogo, filtri funzionanti e HTML iniziale; i 5 record «Italia» sono esclusi.
 
 23 settembre 2026 — P1 scelto: rendere i Dottorati esplorabili per regione nella landing esistente. Impact medio-alto potenziale su utilità e ricerche geografiche, Confidence alta su dati/percorso e bassa sull'effetto traffico, Effort medio, Risk basso. Gate: tutte e sole le 13 regioni specifiche dei PhD aperti, conteggi derivati dal catalogo, filtri funzionanti e HTML iniziale. Revisione settimanale: la crescita non è misurabile con dati successivi al 16 settembre; mantenere priorità su landing e collegamenti verificati, senza A/B test o nuove pagine finché il volume resta minimo.

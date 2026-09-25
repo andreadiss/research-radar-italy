@@ -138,31 +138,39 @@ for record in records:
         errors.append(f"Category link target has no exported HTML: {target}")
     category_counts["category" if record["positionType"] in category_paths else "directory_fallback"] += 1
 
-# Check discipline paths rendered in the two SEO landing pages.
+# Check discipline paths rendered in the relevant SEO landing pages.
 discipline_paths = {}
-for position_type, route in (("Postdoc", "/posizioni/postdoc/"), ("PhD", "/posizioni/dottorati/")):
+for position_type, route in (
+    ("Postdoc", "/posizioni/postdoc/"),
+    ("PhD", "/posizioni/dottorati/"),
+    ("Contratto di ricerca", "/posizioni/contratti-di-ricerca/"),
+):
     disciplines = {
         record["discipline"] for record in records
         if record["positionType"] == position_type
         and not record.get("archivedAt")
         and record["deadline"] >= today
-        and (position_type != "PhD" or record["discipline"] != "Altro / interdisciplinare")
+        and (position_type == "Postdoc" or record["discipline"] != "Altro / interdisciplinare")
     }
     expected = {
-        f"/posizioni/?type={position_type}&discipline={quote(discipline, safe='')}"
+        f"/posizioni/?type={quote(position_type, safe='')}&discipline={quote(discipline, safe='')}"
         for discipline in disciplines
     }
     actual = {
         link for link in pages[route].links
-        if link.startswith(f"/posizioni/?type={position_type}&discipline=")
+        if link.startswith(f"/posizioni/?type={quote(position_type, safe='')}&discipline=")
     }
     if actual != expected:
         errors.append(f"Incorrect discipline links on {route}: expected {sorted(expected)}, found {sorted(actual)}")
     discipline_paths[position_type] = len(actual)
 
-# Check geographic paths rendered in the Dottorati and Postdoc landing pages.
+# Check geographic paths rendered in the relevant position landing pages.
 region_paths = {}
-for position_type, route in (("PhD", "/posizioni/dottorati/"), ("Postdoc", "/posizioni/postdoc/")):
+for position_type, route in (
+    ("PhD", "/posizioni/dottorati/"),
+    ("Postdoc", "/posizioni/postdoc/"),
+    ("Contratto di ricerca", "/posizioni/contratti-di-ricerca/"),
+):
     regions = {
         record["region"] for record in records
         if record["positionType"] == position_type
@@ -172,12 +180,12 @@ for position_type, route in (("PhD", "/posizioni/dottorati/"), ("Postdoc", "/pos
         and record["region"] != "Italia"
     }
     expected = {
-        f"/posizioni/?type={position_type}&region={quote(region, safe='')}"
+        f"/posizioni/?type={quote(position_type, safe='')}&region={quote(region, safe='')}"
         for region in regions
     }
     actual = {
         link for link in pages[route].links
-        if link.startswith(f"/posizioni/?type={position_type}&region=")
+        if link.startswith(f"/posizioni/?type={quote(position_type, safe='')}&region=")
     }
     if actual != expected:
         errors.append(f"Incorrect region links on {route}: expected {sorted(expected)}, found {sorted(actual)}")

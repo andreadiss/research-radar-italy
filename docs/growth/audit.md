@@ -1,5 +1,7 @@
 # Research Radar Italy — Audit iniziale
 
+25 settembre 2026 — La landing Contratti di ricerca esponeva 63 opportunità ma nessun percorso per area o regione. Il catalogo corrente contiene 60 contratti associati a otto aree specifiche e 60 associati a dieci regioni specifiche; tre discipline «Altro / interdisciplinare» e tre localizzazioni «Italia» restano escluse. Il rilascio Postdoc del 24 settembre è stato prima verificato live con tutti i 14 percorsi regionali.
+
 24 settembre 2026 — La landing Postdoc offriva percorsi disciplinari ma nessun accesso geografico. Nel catalogo corrente risultano 98 Postdoc aperti: 93 associati a 14 regioni specifiche e 5 con localizzazione generica «Italia». Aggiunti i 14 collegamenti regionali con conteggi e filtri esistenti; «Italia» resta esclusa. Il rilascio Dottorati del 23 settembre è stato prima verificato live con tutti i 13 percorsi regionali.
 
 23 settembre 2026 — Revisione settimanale e intervento landing: la pagina Dottorati esponeva percorsi disciplinari ma nessun accesso geografico, benché 28 dei 29 bandi aperti avessero una regione specifica. Aggiunti 13 collegamenti regionali generati dal dataset nell'HTML iniziale, con conteggi e filtri esistenti; il record con regione generica «Italia» resta escluso. Il rilascio homepage del 22 settembre è stato verificato live prima del nuovo intervento.

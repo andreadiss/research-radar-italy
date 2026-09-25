@@ -1,5 +1,7 @@
 ## Baseline
 
+25 settembre 2026 — Baseline tecnica Contratti di ricerca: 63 opportunità aperte; 60 associate a otto aree specifiche e 60 a dieci regioni specifiche. Percorsi nella landing: discipline 0→8, regioni 0→10; tre valori generici per ciascun asse esclusi. GSC Wizard restituisce ancora `INVALID_ARGUMENT`/`payment_required`: nessun nuovo dato Search Console e nessun aumento di traffico dichiarato.
+
 24 settembre 2026 — Baseline tecnica Postdoc: 98 opportunità aperte, 93 associate a 14 regioni specifiche e 5 con localizzazione generica «Italia» escluse dai percorsi; collegamenti regionali nella landing 0→14. GSC Wizard restituisce `INVALID_ARGUMENT`, quindi nessun nuovo dato Search Console e nessun aumento di traffico dichiarato. Restano validi gli ultimi export al 16 settembre.
 
 23 settembre 2026 — Bilancio settimanale: gli export condivisi il 19 settembre non sono stati aggiornati e GSC Wizard restituisce ancora `INVALID_ARGUMENT`. Ultimo confronto indipendente disponibile: 23 luglio–19 agosto, 0 clic e 16 impression; 20 agosto–16 settembre, 3 clic e 16 impression. I clic aumentano ma le impression restano identiche e i volumi sono minimi: nessuna crescita consolidata o causalità dimostrabile. Baseline tecnica Dottorati: 29 bandi aperti, 28 associati a 13 regioni specifiche e 1 con regione generica «Italia» escluso dai percorsi.
