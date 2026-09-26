@@ -1,5 +1,7 @@
 ## Baseline
 
+26 settembre 2026 — Segnale pubblico Dottorati: la URL esatta compare nei risultati di ricerca con titolo e descrizione della landing; il servizio di ricerca riporta una scansione circa quattro giorni prima. Verifica live: HTTP 200, canonical corretto, index/follow e sitemap presente. Questo dimostra reperibilità pubblica della landing, non impression, clic o copertura complessiva. GSC Wizard continua a restituire `INVALID_ARGUMENT`/`payment_required`; ultima baseline quantitativa invariata agli export del 16 settembre.
+
 25 settembre 2026 — Baseline tecnica Contratti di ricerca: 63 opportunità aperte; 60 associate a otto aree specifiche e 60 a dieci regioni specifiche. Percorsi nella landing: discipline 0→8, regioni 0→10; tre valori generici per ciascun asse esclusi. GSC Wizard restituisce ancora `INVALID_ARGUMENT`/`payment_required`: nessun nuovo dato Search Console e nessun aumento di traffico dichiarato.
 
 24 settembre 2026 — Baseline tecnica Postdoc: 98 opportunità aperte, 93 associate a 14 regioni specifiche e 5 con localizzazione generica «Italia» escluse dai percorsi; collegamenti regionali nella landing 0→14. GSC Wizard restituisce `INVALID_ARGUMENT`, quindi nessun nuovo dato Search Console e nessun aumento di traffico dichiarato. Restano validi gli ultimi export al 16 settembre.

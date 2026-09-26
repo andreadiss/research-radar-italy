@@ -1,5 +1,7 @@
 # Research Radar Italy — Audit iniziale
 
+26 settembre 2026 — Riesame concordato della landing Dottorati: una ricerca pubblica mirata restituisce https://rritaly.com/posizioni/dottorati/ con titolo «Bandi di dottorato in Italia: PhD aperti» e segnala una scansione avvenuta circa quattro giorni prima. La pagina live risponde 200 da GitHub Pages, è index/follow, ha canonical autoreferenziale, link interni e presenza nella sitemap da 715 URL. È evidenza pubblica di reperibilità nel motore, non sostituisce URL Inspection: GSC Wizard resta bloccato da `payment_required` e non consente di leggere stato, ultima scansione o impression dalla proprietà.
+
 25 settembre 2026 — La landing Contratti di ricerca esponeva 63 opportunità ma nessun percorso per area o regione. Il catalogo corrente contiene 60 contratti associati a otto aree specifiche e 60 associati a dieci regioni specifiche; tre discipline «Altro / interdisciplinare» e tre localizzazioni «Italia» restano escluse. Il rilascio Postdoc del 24 settembre è stato prima verificato live con tutti i 14 percorsi regionali.
 
 24 settembre 2026 — La landing Postdoc offriva percorsi disciplinari ma nessun accesso geografico. Nel catalogo corrente risultano 98 Postdoc aperti: 93 associati a 14 regioni specifiche e 5 con localizzazione generica «Italia». Aggiunti i 14 collegamenti regionali con conteggi e filtri esistenti; «Italia» resta esclusa. Il rilascio Dottorati del 23 settembre è stato prima verificato live con tutti i 13 percorsi regionali.
