@@ -1,5 +1,7 @@
 # Decision log
 
+26 settembre 2026 — Considerare risolta, per la landing Dottorati, l'ipotesi operativa «URL non reperibile»: il risultato pubblico esiste e i segnali tecnici live sono corretti. Non ripetere richieste manuali d'indicizzazione, non cambiare canonical/sitemap e non aggiungere link duplicati. Separare questo risultato dalla copertura delle singole schede e dal traffico, che restano non misurabili senza un nuovo export o accesso GSC.
+
 25 settembre 2026 — Potenziare la landing Contratti di ricerca su entrambi gli assi già supportati dai filtri, perché 60/63 record hanno dati specifici per area e regione. Escludere «Altro / interdisciplinare» e «Italia» anziché promuovere percorsi generici. Riutilizzare `/posizioni/` senza nuove landing, canonical, sitemap, tracking o tassonomie; estendere l'audit statico ai 18 link.
 
 24 settembre 2026 — Estendere ai Postdoc lo stesso blocco regionale già verificato sui Dottorati, riutilizzando `/posizioni/?type=Postdoc&region=…`. Non creare landing, canonical o sitemap aggiuntive e non interpretare «Italia» come regione. Generalizzare anche l'audit statico affinché protegga entrambi i set di collegamenti a ogni build.

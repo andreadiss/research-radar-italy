@@ -1,5 +1,7 @@
 ## Prioritized backlog
 
+26 settembre 2026 — Chiuso il controllo P1 sulla discoverability della landing Dottorati: la pagina è ora reperibile nei risultati pubblici e non richiede ulteriori reinvii o correzioni tecniche senza nuovi segnali. Impact del controllo alto sulla prioritizzazione, Confidence media sullo stato pubblico e nulla sulle impression mancanti, Effort piccolo, Risk nullo. Prossima P1: aumentare contenuto distintivo e percorsi verificati sulle landing/schede già esistenti; misurare copertura e traffico solo da un nuovo export autorizzato.
+
 25 settembre 2026 — P1 scelto: rendere esplorabili i Contratti di ricerca nella landing esistente per area e regione. Impact medio-alto potenziale su utilità e ricerche ad alta intenzione, Confidence alta su dati/percorso e bassa sull'effetto traffico, Effort piccolo, Risk basso. Gate: otto aree e dieci regioni specifiche, conteggi derivati dal catalogo, filtri funzionanti e HTML iniziale; categorie generiche escluse.
 
 24 settembre 2026 — P1 scelto: rendere i Postdoc esplorabili per regione nella landing esistente. Impact medio-alto potenziale su utilità e ricerche locali, Confidence alta su dati/percorso e bassa sull'effetto traffico, Effort piccolo, Risk basso. Gate: tutte e sole le 14 regioni specifiche dei Postdoc aperti, conteggi derivati dal catalogo, filtri funzionanti e HTML iniziale; i 5 record «Italia» sono esclusi.
