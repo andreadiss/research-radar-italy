@@ -1,5 +1,7 @@
 # Decision log
 
+27 settembre 2026 — Aggiungere segnali data soltanto dalle provenance esistenti: `publishedAt` come `datePublished`; `updatedAt` come `dateModified` solo quando non precede la pubblicazione, sia nel JSON-LD WebPage sia nei metadati Open Graph. Non correggere date sorgente con la data di build, non trasformare le schede in `JobPosting` e non sollecitare indicizzazione manuale per URL pubblicate da 1–2 giorni. Riutilizzare la PR #25 aperta per evitare una seconda PR documentale.
+
 26 settembre 2026 — Considerare risolta, per la landing Dottorati, l'ipotesi operativa «URL non reperibile»: il risultato pubblico esiste e i segnali tecnici live sono corretti. Non ripetere richieste manuali d'indicizzazione, non cambiare canonical/sitemap e non aggiungere link duplicati. Separare questo risultato dalla copertura delle singole schede e dal traffico, che restano non misurabili senza un nuovo export o accesso GSC.
 
 25 settembre 2026 — Potenziare la landing Contratti di ricerca su entrambi gli assi già supportati dai filtri, perché 60/63 record hanno dati specifici per area e regione. Escludere «Altro / interdisciplinare» e «Italia» anziché promuovere percorsi generici. Riutilizzare `/posizioni/` senza nuove landing, canonical, sitemap, tracking o tassonomie; estendere l'audit statico ai 18 link.

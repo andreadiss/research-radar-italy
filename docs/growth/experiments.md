@@ -1,5 +1,7 @@
 ## Experiment opportunities
 
+27 settembre 2026 — Miglioramento osservazionale, non A/B test: aggiungere alle schede i segnali macchina `datePublished` e Open Graph coerenti con le date MUR già visibili può aiutare i motori a interpretare la freschezza senza inventarla. Gate tecnico: valori esatti dal record, esclusione di `dateModified` se anteriore alla pubblicazione, build valida e presenza nell'HTML statico. Outcome futuro: reperibilità del campione e impression delle schede quando disponibili; nessuna promessa o attribuzione oggi.
+
 26 settembre 2026 — Esito dell'osservazione indicizzazione avviata il 19 settembre: la landing Dottorati è reperibile pubblicamente e il risultato espone title e description corretti. Gate tecnico live superato; nessun A/B test e nessuna attribuzione alla richiesta manuale o agli interventi successivi. Il gate di outcome traffico resta non misurabile finché non arriva un nuovo export GSC autorizzato.
 
 25 settembre 2026 — Miglioramento osservazionale, non A/B test: aggiungere alla landing Contratti di ricerca otto percorsi disciplinari e dieci regionali riduce i passaggi verso risultati pertinenti. Gate tecnico: corrispondenza esatta con il catalogo aperto, esclusione dei valori generici, filtri esistenti e nessuna nuova URL canonica. Outcome futuro: impression/clic della landing e uso dei filtri solo quando misurabili.

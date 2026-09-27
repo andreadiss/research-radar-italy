@@ -32,6 +32,7 @@ export function generateMetadata({ params }: { params: { id: string } }): Metada
   );
   const url = `/positions/${position.id}`;
   const expired = !isOpenPosition(position);
+  const modifiedTime = validModifiedTime(position.publishedAt, position.updatedAt);
 
   return {
     title,
@@ -42,7 +43,9 @@ export function generateMetadata({ params }: { params: { id: string } }): Metada
       type: "article",
       title,
       description,
-      url
+      url,
+      publishedTime: position.publishedAt,
+      ...(modifiedTime ? { modifiedTime } : {})
     },
     twitter: {
       card: "summary_large_image",
@@ -64,6 +67,7 @@ export default function PositionDetail({ params }: { params: { id: string } }) {
   );
   const requirements = meaningfulRequirements(position.requirements);
   const related = relatedPositions(position, positions, italyToday());
+  const modifiedTime = validModifiedTime(position.publishedAt, position.updatedAt);
 
   // These records contain short source extracts, not complete job descriptions.
   // Use WebPage until the requirements for truthful JobPosting markup are met.
@@ -74,7 +78,8 @@ export default function PositionDetail({ params }: { params: { id: string } }) {
     name: position.title,
     description: position.summary,
     inLanguage: "it-IT",
-    dateModified: position.updatedAt,
+    datePublished: position.publishedAt,
+    ...(modifiedTime ? { dateModified: modifiedTime } : {}),
     citation: position.sourceUrl,
     about: { "@type": "Organization", name: position.institution },
     url: absoluteUrl(`/positions/${position.id}`),
@@ -183,4 +188,8 @@ function formatDate(value: string) {
     month: "long",
     year: "numeric"
   }).format(new Date(value));
+}
+
+function validModifiedTime(publishedAt: string, updatedAt?: string) {
+  return updatedAt && updatedAt >= `${publishedAt}T00:00:00` ? updatedAt : undefined;
 }
