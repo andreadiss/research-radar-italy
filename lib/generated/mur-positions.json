@@ -24666,7 +24666,8 @@
       "multiple_scientific_sectors",
       "generic_institution"
     ],
-    "updatedAt": "2026-09-11T09:43:02.340Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z",
+    "archivedAt": "2026-09-27T10:34:21.443Z"
   },
   {
     "id": "mur-research-contracts-317122",
@@ -24697,7 +24698,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-11T09:43:02.340Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z",
+    "archivedAt": "2026-09-27T10:34:21.443Z"
   },
   {
     "id": "mur-research-assignments-317189",
@@ -24728,7 +24730,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-12T09:22:46.927Z"
+    "updatedAt": "2026-09-12T09:22:46.927Z",
+    "archivedAt": "2026-09-27T10:34:21.443Z"
   },
   {
     "id": "mur-research-contracts-317410",
@@ -24759,7 +24762,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-16T09:58:06.341Z"
+    "updatedAt": "2026-09-16T09:58:06.341Z",
+    "archivedAt": "2026-09-27T10:34:21.443Z"
   },
   {
     "id": "mur-research-contracts-317446",
@@ -24792,7 +24796,8 @@
     "reviewReasons": [
       "multiple_scientific_sectors"
     ],
-    "updatedAt": "2026-09-17T10:00:13.546Z"
+    "updatedAt": "2026-09-17T10:00:13.546Z",
+    "archivedAt": "2026-09-27T10:34:21.443Z"
   },
   {
     "id": "mur-fixed-term-researchers-151883",
@@ -31378,7 +31383,7 @@
     "positionType": "Professore II fascia",
     "professorRank": "Professore II fascia",
     "discipline": "Altro / interdisciplinare",
-    "ssd": "MEDS-13/B - Chirurgia vascolare\nMEDS-13/A - Chirurgia toracica",
+    "ssd": "MEDS-13/A - Chirurgia toracica\nMEDS-13/B - Chirurgia vascolare",
     "gsd": "06/MEDS-13 - CHIRURGIA CARDIO-TORACO-VASCOLARE",
     "fundingType": "Non specificato",
     "deadline": "2026-10-05",
@@ -31399,7 +31404,7 @@
     "reviewReasons": [
       "multiple_scientific_sectors"
     ],
-    "updatedAt": "2026-09-23T10:00:04.654Z"
+    "updatedAt": "2026-09-27T10:34:21.443Z"
   },
   {
     "id": "mur-professor-calls-151849",
@@ -37199,7 +37204,7 @@
     "gsd": "09/IINF-05 - SISTEMI DI ELABORAZIONE DELLE INFORMAZIONI",
     "fundingType": "Non specificato",
     "deadline": "2026-10-11",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-24",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317842",
@@ -37230,7 +37235,7 @@
     "gsd": "02/PHYS-01 - FISICA SPERIMENTALE DELLE INTERAZIONI FONDAMENTALI E APPLICAZIONI",
     "fundingType": "Non specificato",
     "deadline": "2026-10-11",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-23",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317940",
