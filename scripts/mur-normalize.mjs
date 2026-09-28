@@ -1,4 +1,5 @@
 import { meaningfulRequirements } from "../lib/requirements.mjs";
+import { applyVerifiedPositionEnrichment } from "../lib/verified-position-enrichments.mjs";
 export function normalizeRecords(records) {
   return dedupePositions(
     records
@@ -28,7 +29,7 @@ export function toPosition(record) {
     sourceUrl
   });
 
-  return {
+  return applyVerifiedPositionEnrichment({
     id: `mur-${record.sourceCategory}-${record.externalId}`,
     title,
     institution,
@@ -60,7 +61,7 @@ export function toPosition(record) {
     reviewStatus: review.status,
     confidenceScore: review.confidenceScore,
     reviewReasons: review.reasons
-  };
+  });
 }
 
 function dedupePositions(items) {
