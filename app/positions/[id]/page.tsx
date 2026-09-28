@@ -80,7 +80,7 @@ export default function PositionDetail({ params }: { params: { id: string } }) {
     inLanguage: "it-IT",
     datePublished: position.publishedAt,
     ...(modifiedTime ? { dateModified: modifiedTime } : {}),
-    citation: position.sourceUrl,
+    citation: position.verificationUrl ? [position.sourceUrl, position.verificationUrl] : position.sourceUrl,
     about: { "@type": "Organization", name: position.institution },
     url: absoluteUrl(`/positions/${position.id}`),
     sameAs: position.sourceUrl,
@@ -151,6 +151,12 @@ export default function PositionDetail({ params }: { params: { id: string } }) {
               <ExternalLink size={17} />
               Apri fonte ufficiale
             </OfficialSourceLink>
+            {position.verificationUrl ? (
+              <OfficialSourceLink className="button secondary" href={position.verificationUrl}>
+                <ExternalLink size={17} />
+                Apri il bando completo dell’ateneo
+              </OfficialSourceLink>
+            ) : null}
           </div>
           {related.length > 0 ? (
             <section aria-labelledby="related-opportunities-title">

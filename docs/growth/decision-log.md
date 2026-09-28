@@ -1,5 +1,7 @@
 # Decision log
 
+28 settembre 2026 — Arricchire esclusivamente `mur-postdoc-assignments-317743` tramite un override versionato applicato sia alla lettura sia al normalizzatore: effetto pubblico immediato senza riscrivere la cache generata, persistenza ai prossimi sync. Conservare MUR come fonte primaria e aggiungere il bando Sapienza come seconda fonte; non dedurre campi assenti, non fare scraping generalizzato e non introdurre `JobPosting`, servizi, workflow o tracking.
+
 27 settembre 2026 — Aggiungere segnali data soltanto dalle provenance esistenti: `publishedAt` come `datePublished`; `updatedAt` come `dateModified` solo quando non precede la pubblicazione, sia nel JSON-LD WebPage sia nei metadati Open Graph. Non correggere date sorgente con la data di build, non trasformare le schede in `JobPosting` e non sollecitare indicizzazione manuale per URL pubblicate da 1–2 giorni. Riutilizzare la PR #25 aperta per evitare una seconda PR documentale.
 
 26 settembre 2026 — Considerare risolta, per la landing Dottorati, l'ipotesi operativa «URL non reperibile»: il risultato pubblico esiste e i segnali tecnici live sono corretti. Non ripetere richieste manuali d'indicizzazione, non cambiare canonical/sitemap e non aggiungere link duplicati. Separare questo risultato dalla copertura delle singole schede e dal traffico, che restano non misurabili senza un nuovo export o accesso GSC.

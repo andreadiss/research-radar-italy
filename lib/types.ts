@@ -53,6 +53,7 @@ export type Position = {
   publishedAt: string;
   sourceName: string;
   sourceUrl: string;
+  verificationUrl?: string;
   salaryOrAmount: string;
   duration: string;
   language: "IT" | "EN" | "IT/EN";
