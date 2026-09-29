@@ -1,5 +1,7 @@
 ## Experiment opportunities
 
+29 settembre 2026 — Miglioramento osservazionale, non A/B test: estendere a una seconda scheda debole lo stesso arricchimento verificato permette di validare la ripetibilità del modello senza generalizzazioni automatiche. Gate: corrispondenza puntuale con PDF e pagina ufficiale, isolamento per ID, persistenza al normalizzatore e HTML statico. Outcome futuro: impression/clic della URL e apertura della fonte quando misurabili; nessun effetto attribuito oggi.
+
 28 settembre 2026 — Miglioramento osservazionale, non A/B test: una scheda con attività, durata, importo e requisito verificati è più utile per valutare l'opportunità e offre testo distintivo per ricerche specifiche. Gate tecnico: valori identici alla fonte primaria, override circoscritto e persistente al sync, link al bando completo e HTML statico verificato. Outcome futuro: impression/clic della singola URL e apertura della fonte, solo quando disponibili; nessuna causalità attribuita oggi.
 
 27 settembre 2026 — Miglioramento osservazionale, non A/B test: aggiungere alle schede i segnali macchina `datePublished` e Open Graph coerenti con le date MUR già visibili può aiutare i motori a interpretare la freschezza senza inventarla. Gate tecnico: valori esatti dal record, esclusione di `dateModified` se anteriore alla pubblicazione, build valida e presenza nell'HTML statico. Outcome futuro: reperibilità del campione e impression delle schede quando disponibili; nessuna promessa o attribuzione oggi.

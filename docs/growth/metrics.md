@@ -1,5 +1,7 @@
 ## Baseline
 
+29 settembre 2026 — Baseline contenuto aggiornata dopo il sync: 637 posizioni aperte, 17 sintesi sotto 80 caratteri e 93 sotto 160. Sulla scheda `mur-research-assignments-317744`: sintesi 29→259 caratteri; durata, importo e requisito verificati 0→3; fonti ufficiali collegate 1→2. La scheda arricchita il 28 settembre resta corretta live e nella cache. GSC Wizard restituisce ancora `INVALID_ARGUMENT`: nessun nuovo dato di impression o clic.
+
 28 settembre 2026 — Baseline contenuto: 645 posizioni aperte, 23 sintesi sotto 80 caratteri e 97 sotto 160. Sulla scheda `mur-postdoc-assignments-317743`: sintesi 27→265 caratteri; durata, importo e requisiti verificati 0→3; fonti ufficiali collegate 1→2. GSC Wizard restituisce ancora `INVALID_ARGUMENT`: nessun nuovo dato di impression o clic e nessun aumento di traffico dichiarato.
 
 27 settembre 2026 — Campione schede recenti: 4/4 URL pubblicate il 25–26 settembre rispondono 200, hanno canonical corretto e risultano nella sitemap; 0/4 reperibili nella ricerca pubblica per URL esatta al controllo. Il ritardo di 1–2 giorni è troppo breve per concludere mancata indicizzazione. Segnali data: `datePublished` JSON-LD/Open Graph 0→tutte le 1.412 schede; 21 timestamp tecnici antecedenti alla pubblicazione esclusi da `dateModified`. GSC Wizard continua a restituire `INVALID_ARGUMENT`; nessun nuovo dato di impression o clic.

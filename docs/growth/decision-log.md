@@ -1,5 +1,7 @@
 # Decision log
 
+29 settembre 2026 — Aggiungere al registro versionato esclusivamente l’ID `mur-research-assignments-317744`, riutilizzando l’override già applicato in lettura e normalizzazione. Conservare MUR come prima fonte e collegare la pagina ufficiale Sapienza IR 02/26 come fonte completa. Non sintetizzare requisiti ulteriori, non estendere per somiglianza agli altri record e non introdurre scraping generalizzato, `JobPosting`, servizi, workflow o tracking.
+
 28 settembre 2026 — Arricchire esclusivamente `mur-postdoc-assignments-317743` tramite un override versionato applicato sia alla lettura sia al normalizzatore: effetto pubblico immediato senza riscrivere la cache generata, persistenza ai prossimi sync. Conservare MUR come fonte primaria e aggiungere il bando Sapienza come seconda fonte; non dedurre campi assenti, non fare scraping generalizzato e non introdurre `JobPosting`, servizi, workflow o tracking.
 
 27 settembre 2026 — Aggiungere segnali data soltanto dalle provenance esistenti: `publishedAt` come `datePublished`; `updatedAt` come `dateModified` solo quando non precede la pubblicazione, sia nel JSON-LD WebPage sia nei metadati Open Graph. Non correggere date sorgente con la data di build, non trasformare le schede in `JobPosting` e non sollecitare indicizzazione manuale per URL pubblicate da 1–2 giorni. Riutilizzare la PR #25 aperta per evitare una seconda PR documentale.
