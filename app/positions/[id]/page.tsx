@@ -8,9 +8,12 @@ import { getPositionById, positions } from "@/lib/positions";
 import { absoluteUrl, jsonLd, truncateText } from "@/lib/seo";
 import { meaningfulRequirements } from "@/lib/requirements.mjs";
 import { positionMetadataTitle } from "@/lib/position-metadata-title.mjs";
+import { positionTitleContext } from "@/lib/position-title-context.mjs";
 import { relatedPositions } from "@/lib/related-positions";
 import { seoLandingPages } from "@/lib/seo-landing-pages";
 import { italyToday, isOpenPosition } from "@/lib/opportunity-status";
+
+const openPositions = positions.filter((position) => isOpenPosition(position));
 
 export function generateStaticParams() {
   return positions.map((position) => ({ id: position.id }));
@@ -26,7 +29,8 @@ export function generateMetadata({ params }: { params: { id: string } }): Metada
     };
   }
 
-  const title = positionMetadataTitle(truncateText(position.title, 100), position.institution, position.id);
+  const titleContext = positionTitleContext(position, openPositions);
+  const title = positionMetadataTitle(truncateText(titleContext.metadataSubject, 100), position.institution, position.id);
   const description = truncateText(
     `${position.title}. ${position.discipline}${position.ssd ? `, ${position.ssd}` : ""}. Scadenza: ${formatDate(position.deadline)}. Fonte: ${position.sourceName}.`
   );
@@ -68,6 +72,7 @@ export default function PositionDetail({ params }: { params: { id: string } }) {
   const requirements = meaningfulRequirements(position.requirements);
   const related = relatedPositions(position, positions, italyToday());
   const modifiedTime = validModifiedTime(position.publishedAt, position.updatedAt);
+  const titleContext = positionTitleContext(position, openPositions);
 
   // These records contain short source extracts, not complete job descriptions.
   // Use WebPage until the requirements for truthful JobPosting markup are met.
@@ -75,7 +80,7 @@ export default function PositionDetail({ params }: { params: { id: string } }) {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "@id": absoluteUrl(`/positions/${position.id}#page`),
-    name: position.title,
+    name: titleContext.heading,
     description: position.summary,
     inLanguage: "it-IT",
     datePublished: position.publishedAt,
@@ -92,7 +97,7 @@ export default function PositionDetail({ params }: { params: { id: string } }) {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: absoluteUrl("/") },
       { "@type": "ListItem", position: 2, name: "Posizioni", item: absoluteUrl("/posizioni") },
-      { "@type": "ListItem", position: 3, name: position.title, item: absoluteUrl(`/positions/${position.id}`) }
+      { "@type": "ListItem", position: 3, name: titleContext.heading, item: absoluteUrl(`/positions/${position.id}`) }
     ]
   };
   const structuredData = !isOpenPosition(position)
@@ -118,7 +123,7 @@ export default function PositionDetail({ params }: { params: { id: string } }) {
             <span className="badge type">{position.positionType}</span>
             <span className="badge">{position.discipline}</span>
           </div>
-          <h1>{position.title}</h1>
+          <h1>{titleContext.heading}</h1>
           <div className="job-meta">
             <span>{position.institution}</span>
             <span>{position.department}</span>

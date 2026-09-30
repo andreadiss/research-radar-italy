@@ -1,5 +1,7 @@
 # Decision log
 
+30 settembre 2026 — Dare priorità alla distinguibilità delle schede aperte con titolo ripetuto, problema misurato su 64/655 record. Aggiungere il SSD ufficiale all’H1 e usare tipo+SSD come soggetto del metadata title per le 61 collisioni con settore valido; mantenere l’identificatore nel title per i 21 casi che restano omonimi anche per SSD. Le tre schede senza SSD rimangono invariate. Nessuna modifica a titolo sorgente, URL, canonical, sitemap o pipeline. Il campione pubblico non mostra blocchi tecnici, ma la causa della mancata indicizzazione delle schede rimane indeterminata senza ispezione GSC.
+
 29 settembre 2026 — Aggiungere al registro versionato esclusivamente l’ID `mur-research-assignments-317744`, riutilizzando l’override già applicato in lettura e normalizzazione. Conservare MUR come prima fonte e collegare la pagina ufficiale Sapienza IR 02/26 come fonte completa. Non sintetizzare requisiti ulteriori, non estendere per somiglianza agli altri record e non introdurre scraping generalizzato, `JobPosting`, servizi, workflow o tracking.
 
 28 settembre 2026 — Arricchire esclusivamente `mur-postdoc-assignments-317743` tramite un override versionato applicato sia alla lettura sia al normalizzatore: effetto pubblico immediato senza riscrivere la cache generata, persistenza ai prossimi sync. Conservare MUR come fonte primaria e aggiungere il bando Sapienza come seconda fonte; non dedurre campi assenti, non fare scraping generalizzato e non introdurre `JobPosting`, servizi, workflow o tracking.
