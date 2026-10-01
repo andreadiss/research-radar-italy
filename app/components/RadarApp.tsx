@@ -5,7 +5,7 @@ import { SiteTopbar } from "@/app/components/SiteTopbar";
 import type { Route } from "next";
 import { CalendarClock, FileText, MapPin, Search } from "lucide-react";
 import { useSearchParams } from "next/navigation";
-import { Suspense, useEffect, useState } from "react";
+import { Suspense, useEffect, useMemo, useState } from "react";
 import { isAvailableGrant, isOpenPosition, italyToday } from "@/lib/opportunity-status";
 import { FloatingIntentMenu } from "@/app/components/FloatingIntentMenu";
 import { HomeFavoritesPreview } from "@/app/components/HomeFavoritesPreview";
@@ -16,6 +16,7 @@ import { TrackedLink } from "@/app/components/TrackedLink";
 import { positionTypes } from "@/lib/filters";
 import { grants } from "@/lib/grants";
 import { positions } from "@/lib/positions";
+import { positionTitleContext } from "@/lib/position-title-context.mjs";
 import type { GrantOpportunity } from "@/lib/types";
 
 type SearchParams = {
@@ -71,7 +72,14 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
     window.addEventListener("focus", refreshDay);
     return () => window.removeEventListener("focus", refreshDay);
   }, []);
-  const openPositions = positions.filter((position) => isOpenPosition(position, today));
+  const openPositions = useMemo(
+    () => positions.filter((position) => isOpenPosition(position, today)),
+    [today]
+  );
+  const positionTitles = useMemo(
+    () => new Map(openPositions.map((position) => [position.id, positionTitleContext(position, openPositions).heading])),
+    [openPositions]
+  );
   const recentPositions = sortPositions(
     openPositions.filter((position) => position.publishedAt <= today),
     "recenti"
@@ -180,7 +188,7 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
             {recentPositions.map((position) => (
               <Link className="home-recent-card" href={`/positions/${position.id}` as Route} key={position.id}>
                 <span className="badge type">{position.positionType}</span>
-                <h3>{position.title}</h3>
+                <h3>{positionTitles.get(position.id) ?? position.title}</h3>
                 <p>{position.institution}</p>
                 <div>
                   <span><MapPin size={14} />{position.location}</span>
@@ -325,7 +333,7 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
                         detailHref={`/positions/${position.id}`}
                         opportunityId={position.id}
                         opportunityType="position"
-                        title={position.title}
+                        title={positionTitles.get(position.id) ?? position.title}
                       />
                     </div>
                   </div>
@@ -334,10 +342,10 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
                     meta={`${position.institution} / ${position.ssd} / ${position.location}`}
                     sourceHref={position.sourceUrl}
                     summary={position.summary}
-                    title={position.title}
+                    title={positionTitles.get(position.id) ?? position.title}
                     triggerClassName="card-main-link preview-title-button"
                   >
-                    <h3 className="job-title">{position.title}</h3>
+                    <h3 className="job-title">{positionTitles.get(position.id) ?? position.title}</h3>
                   </OpportunityPreview>
                   <p className="job-summary">{position.summary}</p>
                   <Link href={`/positions/${position.id}`} className="back-link">Dettagli e fonte ufficiale</Link>
@@ -920,8 +928,6 @@ function normalizeText(value: string) {
     .replace(/[\u0300-\u036f]/g, "")
     .toLowerCase();
 }
-
-
 
 
 

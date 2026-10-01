@@ -33,3 +33,12 @@ test("uses the SSD when universities differ but the official call title is the s
   const pavia = { ...common, id: "mur-postdoc-2", institution: "Università di Pavia", ssd: "MATH-04/A" };
   assert.equal(positionTitleContext(milan, [milan, pavia]).metadataSubject, "Postdoc — MEDS-09/A");
 });
+
+test("normalizes multiline source sectors for readable discovery titles", () => {
+  const mixed = { ...common, id: "mur-postdoc-1", ssd: "MEDS-13/A - Chirurgia toracica\nMEDS-13/B - Chirurgia vascolare" };
+  const peer = { ...common, id: "mur-postdoc-2", ssd: "ECON-01/A" };
+  assert.equal(
+    positionTitleContext(mixed, [mixed, peer]).heading,
+    `${common.title} — MEDS-13/A - Chirurgia toracica MEDS-13/B - Chirurgia vascolare`
+  );
+});
