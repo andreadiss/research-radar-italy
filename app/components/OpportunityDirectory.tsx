@@ -3,6 +3,7 @@ import Link from "next/link";
 import { SiteTopbar } from "@/app/components/SiteTopbar";
 import { absoluteUrl, jsonLd } from "@/lib/seo";
 import { directoryItems, directoryPageCount, directoryPageSize, directoryPath } from "@/lib/opportunity-directory";
+import { positionTitleContext } from "@/lib/position-title-context.mjs";
 
 export function directoryMetadata(page: number): Metadata {
   return {
@@ -25,7 +26,7 @@ export function OpportunityDirectory({ page = 1 }: { page?: number }) {
         <p>{all.length} schede con scadenza non trascorsa nell'ultima raccolta MUR/Cineca. Pagina {page} di {pageCount}. Requisiti e disponibilità vanno confermati sul bando ufficiale.</p>
         <section className="seo-opportunity-list" aria-label="Opportunità aperte">
           {items.map((item) => <Link className="seo-result-link" key={item.id} href={`/positions/${item.id}`}>
-            <strong>{item.title}</strong>
+            <strong>{positionTitleContext(item, all).heading}</strong>
             <small>{item.institution} · {item.positionType} · {item.discipline} · Scadenza <time dateTime={item.deadline}>{item.deadline}</time></small>
           </Link>)}
           {!items.length ? <p>Non risultano opportunità aperte nell'ultima raccolta.</p> : null}
@@ -41,7 +42,7 @@ export function OpportunityDirectory({ page = 1 }: { page?: number }) {
     </section>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd({
       "@context": "https://schema.org", "@type": "CollectionPage", name: "Opportunità accademiche per scadenza", url: absoluteUrl(directoryPath(page)),
-      mainEntity: { "@type": "ItemList", numberOfItems: items.length, itemListElement: items.map((item, index) => ({ "@type": "ListItem", position: index + 1, name: item.title, url: absoluteUrl(`/positions/${item.id}`) })) }
+      mainEntity: { "@type": "ItemList", numberOfItems: items.length, itemListElement: items.map((item, index) => ({ "@type": "ListItem", position: index + 1, name: positionTitleContext(item, all).heading, url: absoluteUrl(`/positions/${item.id}`) })) }
     }) }} />
   </main>;
 }

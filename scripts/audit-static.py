@@ -16,7 +16,9 @@ class Page(HTMLParser):
         super().__init__()
         self.links, self.h1, self.title = [], [], ""
         self.back_links = []
+        self.discovery_links = []
         self.canonical = None
+        self.current_discovery_link = None
         self.in_title = self.in_h1 = False
 
     def handle_starttag(self, tag, attrs):
@@ -25,6 +27,8 @@ class Page(HTMLParser):
             self.links.append(attrs["href"])
             if "back-link" in attrs.get("class", "").split():
                 self.back_links.append(attrs["href"])
+            if any(name in attrs.get("class", "").split() for name in ("seo-result-link", "home-recent-card")):
+                self.current_discovery_link = {"href": attrs["href"], "text": ""}
         if tag == "h1":
             self.in_h1 = True
         if tag == "title":
@@ -33,12 +37,16 @@ class Page(HTMLParser):
             self.canonical = attrs.get("href")
 
     def handle_endtag(self, tag):
+        if tag == "a" and self.current_discovery_link is not None:
+            self.discovery_links.append((self.current_discovery_link["href"], " ".join(self.current_discovery_link["text"].split())))
+            self.current_discovery_link = None
         if tag == "h1": self.in_h1 = False
         if tag == "title": self.in_title = False
 
     def handle_data(self, data):
         if self.in_title: self.title += data
         if self.in_h1: self.h1.append(data)
+        if self.current_discovery_link is not None: self.current_discovery_link["text"] += data
 
 
 root = Path("out")
@@ -108,10 +116,12 @@ home_position_links = {unquote(urlsplit(link).path) for link in pages["/"].links
 if not recent_urls.issubset(home_position_links):
     errors.append(f"Homepage recent opportunities mismatch: expected {sorted(recent_urls)}, found {sorted(home_position_links)}")
 expected_lastmod = {}
+open_records = []
 for record in records:
     deadline = record["deadline"]
     is_past = bool(re.fullmatch(r"\d{4}-\d{2}-\d{2}", deadline)) and deadline < today
     if not record.get("archivedAt") and not is_past:
+        open_records.append(record)
         if not record.get("updatedAt"):
             errors.append(f"Open position lacks content modification provenance: {record['id']}")
         else:
@@ -120,6 +130,31 @@ if sitemap_lastmod != expected_lastmod:
     errors.append(
         f"Sitemap lastmod mismatch: expected {len(expected_lastmod)} exact position timestamps, found {len(sitemap_lastmod)}"
     )
+
+# Repeated official titles must expose their source SSD on crawlable discovery links.
+def normalized_title(value):
+    return " ".join(value.split()).casefold()
+
+title_counts = {}
+for record in open_records:
+    key = normalized_title(record["title"])
+    title_counts[key] = title_counts.get(key, 0) + 1
+contextual_titles = {
+    record["id"]: f'{record["title"]} — {" ".join(record["ssd"].split())}'
+    for record in open_records
+    if title_counts[normalized_title(record["title"])] > 1
+    and record.get("ssd", "").strip() not in ("", "-")
+}
+contextual_discovery_checks = 0
+for route, page in pages.items():
+    for href, text in page.discovery_links:
+        match = re.fullmatch(r"/positions/([^/]+)/?", unquote(urlsplit(href).path))
+        if not match or match.group(1) not in contextual_titles:
+            continue
+        contextual_discovery_checks += 1
+        expected = contextual_titles[match.group(1)]
+        if expected not in text:
+            errors.append(f"Repeated title lacks SSD context on {route}: {href}")
 # Check the final category CTA even on archived pages outside the sitemap.
 category_paths = {
     "PhD": "/posizioni/dottorati/",
@@ -197,5 +232,6 @@ report["discipline_path_checks"] = discipline_paths
 report["region_path_checks"] = region_paths
 report["position_lastmod_checks"] = len(sitemap_lastmod)
 report["homepage_recent_position_links"] = len(recent_urls)
+report["contextual_discovery_title_checks"] = contextual_discovery_checks
 print(json.dumps(report, ensure_ascii=False, indent=2))
 if errors: sys.exit(1)

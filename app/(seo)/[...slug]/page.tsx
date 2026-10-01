@@ -8,8 +8,10 @@ import { positions } from "@/lib/positions";
 import { isAvailableGrant, isOpenPosition } from "@/lib/opportunity-status";
 import { absoluteUrl, jsonLd } from "@/lib/seo";
 import { getSeoLandingPage, seoLandingPages, type SeoLandingPage } from "@/lib/seo-landing-pages";
+import { positionTitleContext } from "@/lib/position-title-context.mjs";
 
 type PageProps = { params: { slug: string[] } };
+const openPositions = positions.filter((position) => isOpenPosition(position));
 
 export const dynamicParams = false;
 
@@ -248,7 +250,7 @@ function landingItems(page: SeoLandingPage) {
       .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
       .map((position) => ({
         href: `/positions/${position.id}`,
-        title: position.title,
+        title: positionTitleContext(position, openPositions).heading,
         meta: `${position.institution} - ${position.discipline} - scadenza ${formatDate(position.deadline)}`
       }));
   }

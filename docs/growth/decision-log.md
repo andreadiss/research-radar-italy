@@ -1,5 +1,7 @@
 # Decision log
 
+1 ottobre 2026 — Riutilizzare `positionTitleContext` anche nelle superfici di scoperta: sei opportunità recenti in homepage, risultati filtrati, prime otto opportunità delle landing e indice paginato. Allineare i nomi ItemList nelle landing e nell’indice. Non cambiare la regola, i record sorgente, URL, canonical, sitemap, ranking o filtri. Aggiungere un audit sui link crawlable che fallisce se una scheda contestualizzata torna a essere collegata con titolo ambiguo.
+
 30 settembre 2026 — Dare priorità alla distinguibilità delle schede aperte con titolo ripetuto, problema misurato su 64/655 record. Aggiungere il SSD ufficiale all’H1 e usare tipo+SSD come soggetto del metadata title per le 61 collisioni con settore valido; mantenere l’identificatore nel title per i 21 casi che restano omonimi anche per SSD. Le tre schede senza SSD rimangono invariate. Nessuna modifica a titolo sorgente, URL, canonical, sitemap o pipeline. Il campione pubblico non mostra blocchi tecnici, ma la causa della mancata indicizzazione delle schede rimane indeterminata senza ispezione GSC.
 
 29 settembre 2026 — Aggiungere al registro versionato esclusivamente l’ID `mur-research-assignments-317744`, riutilizzando l’override già applicato in lettura e normalizzazione. Conservare MUR come prima fonte e collegare la pagina ufficiale Sapienza IR 02/26 come fonte completa. Non sintetizzare requisiti ulteriori, non estendere per somiglianza agli altri record e non introdurre scraping generalizzato, `JobPosting`, servizi, workflow o tracking.
