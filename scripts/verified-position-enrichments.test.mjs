@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import fs from "node:fs";
 import test from "node:test";
 import { applyVerifiedPositionEnrichment } from "../lib/verified-position-enrichments.mjs";
 
@@ -41,4 +42,52 @@ test("enriches the verified Sapienza research assignment with official details",
 test("leaves every non-target position unchanged", () => {
   const position = { id: "mur-postdoc-assignments-other", summary: "Originale" };
   assert.equal(applyVerifiedPositionEnrichment(position), position);
+});
+
+test("replaces a URL-only summary with verified source fields", () => {
+  const position = applyVerifiedPositionEnrichment({
+    id: "mur-fixed-term-researchers-example",
+    title: "Procedura selettiva per un ricercatore in tenure track",
+    institution: "Università di Esempio",
+    positionType: "RTT",
+    ssd: "IBIO-01/A - Bioingegneria",
+    deadline: "2026-10-05",
+    summary: "https://www.example.edu/concorsi"
+  });
+
+  assert.equal(
+    position.summary,
+    "RTT presso Università di Esempio nel settore IBIO-01/A - Bioingegneria. Scadenza per le candidature: 5 ottobre 2026."
+  );
+});
+
+test("keeps a substantive title when an official description is only a URL", () => {
+  const position = applyVerifiedPositionEnrichment({
+    id: "mur-research-assignments-example",
+    title: "Analisi di sistemi complessi",
+    institution: "Università di Esempio",
+    positionType: "Incarico di ricerca",
+    ssd: "-",
+    deadline: "2026-10-14",
+    summary: "https://www.example.edu/bando"
+  });
+
+  assert.equal(
+    position.summary,
+    "Incarico di ricerca presso Università di Esempio sul tema “Analisi di sistemi complessi”. Scadenza per le candidature: 14 ottobre 2026."
+  );
+});
+
+test("no generated position is published with a URL-only summary", () => {
+  const positions = JSON.parse(
+    fs.readFileSync(new URL("../lib/generated/mur-positions.json", import.meta.url), "utf8")
+  );
+  const urlOnly = (value) => /^https?:\/\/\S+$/i.test(String(value ?? "").trim());
+  const affected = positions.filter((position) => urlOnly(position.summary));
+
+  assert.ok(affected.length > 0, "fixture must exercise the fallback");
+  assert.deepEqual(
+    affected.map(applyVerifiedPositionEnrichment).filter((position) => urlOnly(position.summary)),
+    []
+  );
 });
