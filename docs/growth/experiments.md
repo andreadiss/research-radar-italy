@@ -1,5 +1,7 @@
 ## Experiment opportunities
 
+2 ottobre 2026 — Miglioramento osservazionale, non A/B test: sostituire le sintesi URL-only con un riepilogo leggibile può aumentare utilità e unicità delle schede deboli. Gate: solo riepiloghi che corrispondono interamente a campi MUR verificati, URL fonte conservato, nessun campo mancante inventato e test regressivi su titolo generico e specifico. Outcome futuro: impression e clic delle schede quando disponibili; nessuna causalità attribuita.
+
 1 ottobre 2026 — Miglioramento osservazionale, non A/B test: usare la stessa etichetta titolo+SSD nei link interni può rendere più chiaro il percorso prima dell’apertura e fornire anchor text più specifico. Gate: applicazione solo alle collisioni aperte con SSD, coerenza fra interfaccia e ItemList, nessun cambiamento a URL o filtri. Outcome futuro: impression e clic delle schede, solo con dati successivi; nessuna causalità attribuita.
 
 30 settembre 2026 — Miglioramento osservazionale, non A/B test: rendere esplicito il SSD nei titoli visibili e metadata delle sole schede con titolo ufficiale ripetuto può aiutare persone e motori a distinguere bandi diversi. Gate tecnico: titolo ufficiale preservato nell’H1, SSD dalla fonte, nessuna modifica per schede uniche/archiviate, build e audit statico. Outcome futuro: impression e clic di schede di dettaglio, soltanto con dati successivi e senza attribuzione causale. Il volume attuale non sostiene test statistici.
