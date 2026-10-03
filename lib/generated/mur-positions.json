@@ -29736,7 +29736,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-10-03T10:25:41.561Z"
   },
   {
     "id": "mur-research-assignments-316352",
@@ -29767,7 +29768,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-10-03T10:25:41.561Z"
   },
   {
     "id": "mur-research-assignments-316353",
@@ -29798,7 +29800,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-10-03T10:25:41.561Z"
   },
   {
     "id": "mur-research-assignments-316354",
@@ -29829,7 +29832,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-10-03T10:25:41.561Z"
   },
   {
     "id": "mur-research-assignments-316580",
@@ -29860,7 +29864,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-10-03T10:25:41.561Z"
   },
   {
     "id": "mur-research-assignments-316486",
@@ -29893,7 +29898,8 @@
     "reviewReasons": [
       "multiple_scientific_sectors"
     ],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-10-03T10:25:41.561Z"
   },
   {
     "id": "mur-research-assignments-316641",
@@ -29924,7 +29930,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-09-06T09:27:28.899Z",
+    "archivedAt": "2026-10-03T10:25:41.561Z"
   },
   {
     "id": "mur-postdoc-assignments-316680",
@@ -29955,7 +29962,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-11T09:43:02.340Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z",
+    "archivedAt": "2026-10-03T10:25:41.561Z"
   },
   {
     "id": "mur-postdoc-assignments-317156",
@@ -29986,7 +29994,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-12T09:22:46.927Z"
+    "updatedAt": "2026-09-12T09:22:46.927Z",
+    "archivedAt": "2026-10-03T10:25:41.561Z"
   },
   {
     "id": "mur-research-contracts-317362",
@@ -30017,7 +30026,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-17T10:00:13.546Z"
+    "updatedAt": "2026-09-17T10:00:13.546Z",
+    "archivedAt": "2026-10-03T10:25:41.561Z"
   },
   {
     "id": "mur-research-contracts-317411",
@@ -30048,7 +30058,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-17T10:00:13.546Z"
+    "updatedAt": "2026-09-17T10:00:13.546Z",
+    "archivedAt": "2026-10-03T10:25:41.561Z"
   },
   {
     "id": "mur-research-assignments-317448",
@@ -30079,7 +30090,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-17T10:00:13.546Z"
+    "updatedAt": "2026-09-17T10:00:13.546Z",
+    "archivedAt": "2026-10-03T10:25:41.561Z"
   },
   {
     "id": "mur-research-assignments-317477",
@@ -30110,7 +30122,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-17T10:00:13.546Z"
+    "updatedAt": "2026-09-17T10:00:13.546Z",
+    "archivedAt": "2026-10-03T10:25:41.561Z"
   },
   {
     "id": "mur-research-assignments-317478",
@@ -30173,7 +30186,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-21T10:45:22.570Z"
+    "updatedAt": "2026-09-21T10:45:22.570Z",
+    "archivedAt": "2026-10-03T10:25:41.561Z"
   },
   {
     "id": "mur-research-assignments-317640",
@@ -30204,7 +30218,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-21T10:45:22.570Z"
+    "updatedAt": "2026-09-21T10:45:22.570Z",
+    "archivedAt": "2026-10-03T10:25:41.561Z"
   },
   {
     "id": "mur-research-contracts-317760",
@@ -30235,7 +30250,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-23T10:00:04.654Z"
+    "updatedAt": "2026-09-23T10:00:04.654Z",
+    "archivedAt": "2026-10-03T10:25:41.561Z"
   },
   {
     "id": "mur-research-assignments-317747",
@@ -30270,7 +30286,8 @@
       "mur-research-assignments-317749",
       "mur-research-assignments-317752"
     ],
-    "updatedAt": "2026-09-23T10:00:04.654Z"
+    "updatedAt": "2026-09-23T10:00:04.654Z",
+    "archivedAt": "2026-10-03T10:25:41.561Z"
   },
   {
     "id": "mur-research-assignments-317749",
@@ -30304,7 +30321,8 @@
       "possible_duplicate"
     ],
     "possibleDuplicateOf": "mur-research-assignments-317747",
-    "updatedAt": "2026-09-23T10:00:04.654Z"
+    "updatedAt": "2026-09-23T10:00:04.654Z",
+    "archivedAt": "2026-10-03T10:25:41.561Z"
   },
   {
     "id": "mur-research-assignments-317752",
@@ -30338,7 +30356,8 @@
       "possible_duplicate"
     ],
     "possibleDuplicateOf": "mur-research-assignments-317747",
-    "updatedAt": "2026-09-23T10:00:04.654Z"
+    "updatedAt": "2026-09-23T10:00:04.654Z",
+    "archivedAt": "2026-10-03T10:25:41.561Z"
   },
   {
     "id": "mur-postdoc-assignments-317782",
@@ -30369,7 +30388,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-23T10:00:04.654Z"
+    "updatedAt": "2026-09-23T10:00:04.654Z",
+    "archivedAt": "2026-10-03T10:25:41.561Z"
   },
   {
     "id": "mur-doctorates-316779",
@@ -30454,7 +30474,7 @@
     "salaryOrAmount": "Da bando ufficiale",
     "duration": "Da bando ufficiale",
     "language": "IT/EN",
-    "summary": "Selezione pubblica per il reclutamento di n. 1 Ricercatore a tempo determinato art. 24, comma 3 Legge 30 dicembre 2010, n. 240",
+    "summary": "RTT presso Università degli Studi di Ferrara nel settore IIND-07/B - Fisica tecnica ambientale. Scadenza per le candidature: 3 ottobre 2026.",
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
@@ -30462,7 +30482,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-18T09:46:56.385Z"
+    "updatedAt": "2026-10-03T10:25:41.561Z"
   },
   {
     "id": "mur-fixed-term-researchers-152207",
@@ -30485,7 +30505,7 @@
     "salaryOrAmount": "Da bando ufficiale",
     "duration": "Da bando ufficiale",
     "language": "IT/EN",
-    "summary": "Selezione pubblica per il reclutamento di n. 1 Ricercatore a tempo determinato art. 24, comma 3 Legge 30 dicembre 2010, n. 240",
+    "summary": "RTT presso Università degli Studi di Ferrara nel settore IIND-06/B - Sistemi per l'energia e l'ambiente. Scadenza per le candidature: 3 ottobre 2026.",
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
@@ -30493,7 +30513,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-18T09:46:56.385Z"
+    "updatedAt": "2026-10-03T10:25:41.561Z"
   },
   {
     "id": "mur-fixed-term-researchers-152023",
@@ -31390,7 +31410,7 @@
     "salaryOrAmount": "Da bando ufficiale",
     "duration": "Da bando ufficiale",
     "language": "IT/EN",
-    "summary": "Procedura selettiva di chiamata per n. 1 posto di Ricercatore a Tempo Determinato in Tenure Track (rtt) ex art. 24, co. 3, L. 240/2010 per ex ricercatori RTDA – Dip. di Architettura e Progetto – concorso 2026RTTEXRTDA003",
+    "summary": "RTT presso Sapienza Università di Roma nel settore CEAR-09/B - Architettura del paesaggio. Scadenza per le candidature: 5 ottobre 2026.",
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
@@ -31398,7 +31418,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-10-03T10:25:41.561Z"
   },
   {
     "id": "mur-professor-calls-151844",
@@ -31421,7 +31441,7 @@
     "salaryOrAmount": "Da bando ufficiale",
     "duration": "Da bando ufficiale",
     "language": "IT/EN",
-    "summary": "Procedura selettiva pubblica per la chiamata di n. 1 posto di Professore di prima fascia ai sensi dell'art. 18, comma 4 ter della Legge 240/2010",
+    "summary": "Professore I fascia presso Università degli Studi di Ferrara nel settore BIOS-11/A - Farmacologia. Scadenza per le candidature: 5 ottobre 2026.",
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
@@ -31429,7 +31449,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-10-03T10:25:41.561Z"
   },
   {
     "id": "mur-professor-calls-151845",
@@ -31452,7 +31472,7 @@
     "salaryOrAmount": "Da bando ufficiale",
     "duration": "Da bando ufficiale",
     "language": "IT/EN",
-    "summary": "Procedura selettiva pubblica per la chiamata di n. 1 posto di Professore di prima fascia ai sensi dell'art. 18, comma 4 ter della Legge 240/2010",
+    "summary": "Professore I fascia presso Università degli Studi di Ferrara nel settore GIUR-17/A - Filosofia del diritto. Scadenza per le candidature: 5 ottobre 2026.",
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
@@ -31460,7 +31480,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-10-03T10:25:41.561Z"
   },
   {
     "id": "mur-professor-calls-151846",
@@ -31483,7 +31503,7 @@
     "salaryOrAmount": "Da bando ufficiale",
     "duration": "Da bando ufficiale",
     "language": "IT/EN",
-    "summary": "Procedura selettiva pubblica per la chiamata di n. 1 posto di Professore di prima fascia ai sensi dell'art. 18, comma 4 ter della Legge 240/2010",
+    "summary": "Professore I fascia presso Università degli Studi di Ferrara nel settore GIUR-14/A - Diritto penale. Scadenza per le candidature: 5 ottobre 2026.",
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
@@ -31491,7 +31511,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-10-03T10:25:41.561Z"
   },
   {
     "id": "mur-professor-calls-151847",
@@ -31514,7 +31534,7 @@
     "salaryOrAmount": "Da bando ufficiale",
     "duration": "Da bando ufficiale",
     "language": "IT/EN",
-    "summary": "Procedura selettiva pubblica per la chiamata di n. 1 posto di Professore di prima fascia ai sensi dell'art. 18, comma 4 ter della Legge 240/2010",
+    "summary": "Professore I fascia presso Università degli Studi di Ferrara nel settore CEAR-10/A - Disegno. Scadenza per le candidature: 5 ottobre 2026.",
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
@@ -31522,7 +31542,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-10-03T10:25:41.561Z"
   },
   {
     "id": "mur-professor-calls-151848",
@@ -31545,7 +31565,7 @@
     "salaryOrAmount": "Da bando ufficiale",
     "duration": "Da bando ufficiale",
     "language": "IT/EN",
-    "summary": "Procedura selettiva pubblica per la chiamata di n. 1 posto di Professore di seconda fascia ai sensi dell'art. 18, comma 1 della Legge 240/2010",
+    "summary": "Professore II fascia presso Università degli Studi di Ferrara nel settore MEDS-13/A - Chirurgia toracica MEDS-13/B - Chirurgia vascolare. Scadenza per le candidature: 5 ottobre 2026.",
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
@@ -31555,7 +31575,7 @@
     "reviewReasons": [
       "multiple_scientific_sectors"
     ],
-    "updatedAt": "2026-09-27T10:34:21.443Z"
+    "updatedAt": "2026-10-03T10:25:41.561Z"
   },
   {
     "id": "mur-professor-calls-151849",
@@ -31578,7 +31598,7 @@
     "salaryOrAmount": "Da bando ufficiale",
     "duration": "Da bando ufficiale",
     "language": "IT/EN",
-    "summary": "Procedura selettiva pubblica per la chiamata di n. 1 posto di Professore di seconda fascia ai sensi dell'art. 18, comma 1 della Legge 240/2010",
+    "summary": "Professore II fascia presso Università degli Studi di Ferrara nel settore ECON-01/A - Economia politica. Scadenza per le candidature: 5 ottobre 2026.",
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
@@ -31586,7 +31606,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-10-03T10:25:41.561Z"
   },
   {
     "id": "mur-professor-calls-151850",
@@ -31609,7 +31629,7 @@
     "salaryOrAmount": "Da bando ufficiale",
     "duration": "Da bando ufficiale",
     "language": "IT/EN",
-    "summary": "Procedura selettiva pubblica per la chiamata di n. 1 posto di Professore di seconda fascia ai sensi dell'art. 18, comma 1 della Legge 240/2010",
+    "summary": "Professore II fascia presso Università degli Studi di Ferrara nel settore MEDS-21/A - Ginecologia e ostetricia. Scadenza per le candidature: 5 ottobre 2026.",
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
@@ -31617,7 +31637,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-10-03T10:25:41.561Z"
   },
   {
     "id": "mur-research-contracts-316708",
@@ -31702,7 +31722,7 @@
     "salaryOrAmount": "Da bando ufficiale",
     "duration": "Da bando ufficiale",
     "language": "IT/EN",
-    "summary": "Procedura selettiva di chiamata per n. 4 posti di Ricercatore a Tempo Determinato in Tenure Track (rtt) ex art. 24, co. 3, l. 240/2010 per ex ricercatori RTDA PNRR – vari SSD e Dipartimenti – concorso 2026RTTEXRTDAPNRR003",
+    "summary": "RTT presso Sapienza Università di Roma nel settore IBIO-01/A - Bioingegneria CEAR-12/B - Urbanistica IINF-05/A - Sistemi di elaborazione delle informazioni CEAR-07/A - Tecnica delle costruzioni. Scadenza per le candidature: 5 ottobre 2026.",
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
@@ -31712,7 +31732,7 @@
     "reviewReasons": [
       "multiple_scientific_sectors"
     ],
-    "updatedAt": "2026-09-06T09:27:28.899Z"
+    "updatedAt": "2026-10-03T10:25:41.561Z"
   },
   {
     "id": "mur-research-contracts-316771",
@@ -34461,7 +34481,7 @@
     "salaryOrAmount": "Da bando ufficiale",
     "duration": "Da bando ufficiale",
     "language": "IT/EN",
-    "summary": "Analisi dati ecologici spaziali, modellistica macroecologica.",
+    "summary": "Postdoc presso SAPIENZA - UNIVERSITA' DI ROMA nel settore BIOS-03/A - Zoologia sul tema “Analisi dati ecologici spaziali, modellistica macroecologica”. Scadenza per le candidature: 7 ottobre 2026.",
     "requirements": [
       "concorsi-bbcd@uniroma1.it"
     ],
@@ -34469,7 +34489,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-11T09:43:02.340Z"
+    "updatedAt": "2026-10-03T10:25:41.561Z"
   },
   {
     "id": "mur-postdoc-assignments-316880",
@@ -37580,7 +37600,7 @@
     "salaryOrAmount": "Da bando ufficiale",
     "duration": "Da bando ufficiale",
     "language": "IT/EN",
-    "summary": "Regolazione epigenetica nel muscolo scheletrico, con particolare riferimento alle malattie neuromuscolari",
+    "summary": "Postdoc presso SAPIENZA UNIVERSITA' DI ROMA nel settore BIOS-06/A - Fisiologia sul tema “Regolazione epigenetica nel muscolo scheletrico, con particolare riferimento alle malattie neuromuscolari”. Scadenza per le candidature: 10 ottobre 2026.",
     "requirements": [
       "concorsi-bbcd@cert.uniroma1.it"
     ],
@@ -37588,7 +37608,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-11T09:43:02.340Z"
+    "updatedAt": "2026-10-03T10:25:41.561Z"
   },
   {
     "id": "mur-postdoc-assignments-317100",
@@ -38816,6 +38836,102 @@
     "confidenceScore": 0.95,
     "reviewReasons": [],
     "updatedAt": "2026-10-02T11:07:08.111Z"
+  },
+  {
+    "id": "mur-research-contracts-318389",
+    "title": "BANDO CR N 10 IFAC FI- STRIVE (FOE 2022) - Verso la transizione energetica CUP del progetto: B53C22010110001, SoFIA - Studio dei materiali mediante tecniche di diffusione di luce e di neutroni",
+    "institution": "ISTITUTO DI FISICA APPLICATA",
+    "department": "Da bando ufficiale",
+    "location": "Sesto fiorentino",
+    "region": "Italia",
+    "positionType": "Contratto di ricerca",
+    "professorRank": "",
+    "discipline": "Altro / interdisciplinare",
+    "ssd": "-",
+    "gsd": "03/CHEM-02 - CHIMICA FISICA\n02/PHYS-03 - FISICA SPERIMENTALE DELLA MATERIA E APPLICAZIONI\n09/IMAT-01 - SCIENZA E TECNOLOGIA DEI MATERIALI\n09/ICHI-01 - SISTEMI, METODI E TECNOLOGIE DELL'INGEGNERIA CHIMICA E DI PROCESSO",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-12",
+    "deadlineStatus": "closing_soon",
+    "publishedAt": "2026-10-03",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/318389",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": ") Il progetto prevede la ricerca e l’individuazione di materiali nano-porosi in grado di modificare le condizioni termodinamiche di formazione degli idrati di idrogeno cresciuti al loro interno. Questi esperimenti saranno eseguiti sia su campioni “bulk”, in assenza di materiali nano-porosi, che in idrati cresciuti all’interno di tali materiali. 2) Il progetto ha come oggetto principale lo studio e la caratterizzazio...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "bando cr n 10 ifac fi strive foe 2022 verso la transizione energetica cup progetto b53c22010110001 sofia studio dei materiali mediante tecniche diffusione luce e neutroni|istituto fisica applicata|2026-10-12",
+    "reviewStatus": "needs_review",
+    "confidenceScore": 0.71,
+    "reviewReasons": [
+      "unknown_region",
+      "multiple_scientific_sectors"
+    ],
+    "updatedAt": "2026-10-03T10:25:41.561Z"
+  },
+  {
+    "id": "mur-research-assignments-318390",
+    "title": "Dissecting new signaling pathways involved in Hh-dependent cancers for innovative targeted therapies and immunotherapies",
+    "institution": "Sapienza Dipartimento di Medicina molecolare",
+    "department": "Da bando ufficiale",
+    "location": "Roma",
+    "region": "Lazio",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Medicina e salute",
+    "ssd": "MEDS-26/A - Scienze tecniche di medicina di laboratorio",
+    "gsd": "06/MEDS-26 - SCIENZE TECN. DI MEDICINA DI LABOR., SC. DELLE PROF. SANIT. TECN. DIAGNOSTICHE, ASSIST. E DELLA PREVENZIONE, SC. DELLE PROF. SANIT. DELLA RIABILITAZIONE, SC. TECN. MED. E CHIRURG. AVANZATE",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-12",
+    "deadlineStatus": "closing_soon",
+    "publishedAt": "2026-10-02",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/318390",
+    "salaryOrAmount": "22.500 Euro",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Studio della fosfatasi acida lisosomiale ACP2 nella regolazione della proteina ERAP1 e nel controllo della via di segnale di Hedgehog",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "dissecting new signaling pathways involved in hh dependent cancers for innovative targeted therapies immunotherapies|sapienza dipartimento medicina molecolare|2026-10-12",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-10-03T10:25:41.561Z"
+  },
+  {
+    "id": "mur-research-assignments-318393",
+    "title": "Caratterizzazione dei meccanismi molecolari di regolazione della pathway di STING e della risposta agli interferoni di tipo I da parte di MYC(N)",
+    "institution": "Sapienza Dipartimento di Medicina molecolare",
+    "department": "Da bando ufficiale",
+    "location": "Roma",
+    "region": "Lazio",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Medicina e salute",
+    "ssd": "MEDS-02/A - Patologia generale",
+    "gsd": "06/MEDS-02 - PATOLOGIA GENERALE E PATOLOGIA CLINICA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-12",
+    "deadlineStatus": "closing_soon",
+    "publishedAt": "2026-10-02",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/318393",
+    "salaryOrAmount": "22.500 Euro",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Approcci molecolari, cellulari e sviluppo di modelli animali per lo studio della regolazione della pathway di STING e della risposta agli interferoni di tipo I da parte di MYC(N)",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "caratterizzazione dei meccanismi molecolari regolazione pathway sting e risposta agli interferoni tipo i da parte myc n|sapienza dipartimento medicina molecolare|2026-10-12",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-10-03T10:25:41.561Z"
   },
   {
     "id": "mur-postdoc-assignments-316706",
@@ -41570,6 +41686,99 @@
     "updatedAt": "2026-09-30T11:11:02.386Z"
   },
   {
+    "id": "mur-research-assignments-318384",
+    "title": "Dipendenza locale e Formal Psychological Assessment",
+    "institution": "Università degli Studi di Padova - Dipartimento di Psicologia Generale",
+    "department": "Da bando ufficiale",
+    "location": "Padova",
+    "region": "Veneto",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Filosofia, storia, lingue, pedagogia e psicologia",
+    "ssd": "PSIC-01/C - Psicometria",
+    "gsd": "11/PSIC-01 - PSICOLOGIA GENERALE, NEUROPSICOLOGIA E NEUROSCIENZE COGNITIVE, PSICOMETRIA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-13",
+    "deadlineStatus": "closing_soon",
+    "publishedAt": "2026-10-02",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/318384",
+    "salaryOrAmount": "22.500 Euro",
+    "duration": "mensile",
+    "language": "IT/EN",
+    "summary": "Lo scopo del progetto è di estendere l’attuale spettro di applicazione del Formal Psychological Assessment (FPA), un approccio formale alla valutazione psicologica basato su una commistione di Teoria delle Strutture di Conoscenza e di Formal Concept Analysis, con un occhio di riguardo verso costrutti psicologici in cui l’assunto di indipendenza locale degli item preposti alla misura possa essere più facilmente viola...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "dipendenza locale e formal psychological assessment|studi padova dipartimento psicologia generale|2026-10-13",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-10-03T10:25:41.561Z"
+  },
+  {
+    "id": "mur-research-assignments-318385",
+    "title": "Unveiling the genesis of the mental NUMber line: BRAIN and behavioral studies in chicks and newborns",
+    "institution": "Università degli Studi di Padova - Dipartimento di Psicologia Generale",
+    "department": "Da bando ufficiale",
+    "location": "Padova",
+    "region": "Veneto",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Filosofia, storia, lingue, pedagogia e psicologia",
+    "ssd": "PSIC-01/B - Neuropsicologia e neuroscienze cognitive",
+    "gsd": "11/PSIC-01 - PSICOLOGIA GENERALE, NEUROPSICOLOGIA E NEUROSCIENZE COGNITIVE, PSICOMETRIA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-13",
+    "deadlineStatus": "closing_soon",
+    "publishedAt": "2026-10-02",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/318385",
+    "salaryOrAmount": "22.500 Euro",
+    "duration": "mensile",
+    "language": "IT/EN",
+    "summary": "Gli esseri umani utilizzano simboli astratti, come i numeri, per rappresentare le caratteristiche fisiche dell’ambiente, come le dimensioni o il numero degli oggetti. Gli animali condividono con gli esseri umani un senso del numero, che consente loro di stimare le quantità. Esseri umani e animali associano numeri piccoli alla sinistra e numeri grandi alla destra, come descritto dalla linea numerica mentale. Sebbene...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "unveiling genesis of mental number line brain behavioral studies in chicks newborns|studi padova dipartimento psicologia generale|2026-10-13",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-10-03T10:25:41.561Z"
+  },
+  {
+    "id": "mur-research-assignments-318396",
+    "title": "Scattering di raggi X operando per lo studio dell’evoluzione strutturale e morfologica in celle (foto)elettrochimiche",
+    "institution": "CNR - Consiglio Nazionale delle Ricerche",
+    "department": "Da bando ufficiale",
+    "location": "Roma",
+    "region": "Lazio",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Matematica, fisica e chimica",
+    "ssd": "-",
+    "gsd": "02/PHYS-01 - FISICA SPERIMENTALE DELLE INTERAZIONI FONDAMENTALI E APPLICAZIONI",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-13",
+    "deadlineStatus": "closing_soon",
+    "publishedAt": "2026-10-02",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/318396",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Sviluppo e l’impiego di una cella (foto)elettrochimica per la caratterizzazione operando dell’evoluzione strutturale e morfologica degli elettrodi mediante tecniche di X-ray scattering, integrate con misure elettrochimiche simultanee",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "scattering raggi x operando per lo studio dell evoluzione strutturale e morfologica in celle foto elettrochimiche|cnr consiglio nazionale ricerche|2026-10-13",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-10-03T10:25:41.561Z"
+  },
+  {
     "id": "mur-research-contracts-318125",
     "title": "Microreattori bioibridi basati su cellule artificiali per la valorizzazione della CO₂",
     "institution": "MUR",
@@ -44070,6 +44279,37 @@
     "updatedAt": "2026-10-02T11:07:08.111Z"
   },
   {
+    "id": "mur-doctorates-318398",
+    "title": "SECONDO Bando per l'accesso al 42° ciclo di dottorato di ricerca AA 2026/2027",
+    "institution": "Università degli Studi Roma Tre",
+    "department": "Da bando ufficiale",
+    "location": "Roma",
+    "region": "Lazio",
+    "positionType": "PhD",
+    "professorRank": "",
+    "discipline": "Economia, diritto e politica",
+    "ssd": "-",
+    "gsd": "",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-16",
+    "deadlineStatus": "closing_soon",
+    "publishedAt": "2026-10-02",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/doctorate.php/public/fellowship/id_fellow/318398",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "- ECONOMIA - ELETTRONICA APPLICATA - INFORMATICA E AUTOMAZIONE - INGEGNERIA MECCANICA E INDUSTRIALE - LINGUE, LETTERATURE E CULTURE STRANIERE - METODI E MODELLI PER L’INGEGNERIA SOSTENIBILE - BIOLOGIA MOLECOLARE, CELLULARE E AMBIENTALE - SCIENZE DELLA MATERIA E DEI NANOMATERIALI - SCIENZE E TECNOLOGIE BIOMEDICHE - SCIENZE POLITICHE - STORIA, TERRITORIO E PATRIMONIO CULTURALE",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "secondo bando per l accesso al 42 ciclo dottorato ricerca aa 2026 2027|studi roma tre|2026-10-16",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-10-03T10:25:41.561Z"
+  },
+  {
     "id": "mur-research-contracts-317467",
     "title": "Photoluminescence and Raman spectroscopy of III-V nanowires for quantum photonic applications",
     "institution": "SAPIENZA UNVIERSITA' DI ROMA",
@@ -44083,7 +44323,7 @@
     "gsd": "02/PHYS-03 - FISICA SPERIMENTALE DELLA MATERIA E APPLICAZIONI",
     "fundingType": "ERC",
     "deadline": "2026-10-17",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-17",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/317467",
@@ -44114,7 +44354,7 @@
     "gsd": "08/CEAR-11 - RESTAURO E STORIA DELL'ARCHITETTURA",
     "fundingType": "Non specificato",
     "deadline": "2026-10-17",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-17",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317460",
@@ -44145,7 +44385,7 @@
     "gsd": "05/BIOS-14 - GENETICA",
     "fundingType": "Non specificato",
     "deadline": "2026-10-17",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-17",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/317470",
@@ -44176,7 +44416,7 @@
     "gsd": "",
     "fundingType": "Non specificato",
     "deadline": "2026-10-17",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-17",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/152383",
@@ -44209,7 +44449,7 @@
     "gsd": "09/IEGE-01 - INGEGNERIA ECONOMICO-GESTIONALE",
     "fundingType": "Non specificato",
     "deadline": "2026-10-17",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-17",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/317488",
@@ -44240,7 +44480,7 @@
     "gsd": "09/ICHI-02 - IMPIANTI E PROCESSI INDUSTRIALI CHIMICI",
     "fundingType": "Non specificato",
     "deadline": "2026-10-17",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-17",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/317490",
@@ -44271,7 +44511,7 @@
     "gsd": "10/GERM-01 - FILOLOGIE, LINGUE, LETTERATURE E CULTURE GERMANICHE",
     "fundingType": "ERC",
     "deadline": "2026-10-17",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-17",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/317476",
@@ -44302,7 +44542,7 @@
     "gsd": "13/ECON-03 - SCIENZA DELLE FINANZE",
     "fundingType": "Non specificato",
     "deadline": "2026-10-17",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-17",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317492",
@@ -44333,7 +44573,7 @@
     "gsd": "12/GIUR-05 - DIRITTO COSTITUZIONALE E PUBBLICO",
     "fundingType": "Non specificato",
     "deadline": "2026-10-17",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-17",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317496",
@@ -44364,7 +44604,7 @@
     "gsd": "09/IINF-01 - ELETTRONICA\n02/PHYS-03 - FISICA SPERIMENTALE DELLA MATERIA E APPLICAZIONI",
     "fundingType": "Non specificato",
     "deadline": "2026-10-17",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-30",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/318187",
@@ -44397,7 +44637,7 @@
     "gsd": "02/PHYS-02 - FISICA TEORICA DELLE INTERAZIONI FONDAMENTALI, MODELLI, METODI MATEMATICI E APPLICAZIONI",
     "fundingType": "Non specificato",
     "deadline": "2026-10-17",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-10-02",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/318365",
@@ -44428,7 +44668,7 @@
     "gsd": "05/BIOS-08 - BIOLOGIA MOLECOLARE",
     "fundingType": "Non specificato",
     "deadline": "2026-10-17",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-10-02",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/318373",
@@ -45876,6 +46116,37 @@
     "updatedAt": "2026-10-02T11:07:08.111Z"
   },
   {
+    "id": "mur-research-assignments-318392",
+    "title": "Demand for Skills in the Age of Generative AI",
+    "institution": "ALMA MATER STUDIORUM - UNIVERSITA' DI BOLOGNA - - DIPARTIMENTO DI SCIENZE ECONOMICHE",
+    "department": "Da bando ufficiale",
+    "location": "Bologna",
+    "region": "Emilia-Romagna",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Economia, diritto e politica",
+    "ssd": "ECON-01/A - Economia politica",
+    "gsd": "13/ECON-01 - ECONOMIA POLITICA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-19",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-10-05",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/318392",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Il titolare dell'incarico supporterà il gruppo di ricerca nelle attività connesse al progetto. In particolare, collaborerà alla pulizia e alla preparazione dei dati, nonché alla definizione di appropriate metodologie statistiche per l'analisi. Contribuirà inoltre alle analisi empiriche mediante software statistici e strumenti di intelligenza artificiale e alla redazione di articoli divulgativi e scientifici",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "demand for skills in age of generative ai|alma mater studiorum bologna dipartimento scienze economiche|2026-10-19",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-10-03T10:25:41.561Z"
+  },
+  {
     "id": "mur-research-contracts-318139",
     "title": "Contratto di ricerca con finanziamento esterno art. 22 L. 240/2010",
     "institution": "Università degli Studi di Milano, su finanziamento codice U-GOV CDR_FIN26ACANA39 della Veneranda Fabbrica del Duomo di Milano",
@@ -46060,6 +46331,37 @@
     "confidenceScore": 0.95,
     "reviewReasons": [],
     "updatedAt": "2026-10-02T11:07:08.111Z"
+  },
+  {
+    "id": "mur-research-assignments-318391",
+    "title": "Modelli di Physical AI per applicazioni di robotica innovativa",
+    "institution": "ALMA MATER STUDIORUM - UNIVERSITA' DI BOLOGNA - - DIPARTIMENTO DI INFORMATICA - SCIENZA E INGEGNERIA",
+    "department": "Da bando ufficiale",
+    "location": "Bologna",
+    "region": "Emilia-Romagna",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Ingegneria, informatica e AI",
+    "ssd": "IINF-05/A - Sistemi di elaborazione delle informazioni",
+    "gsd": "09/IINF-05 - SISTEMI DI ELABORAZIONE DELLE INFORMAZIONI",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-20",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-10-05",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/318391",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Studio dello stato dell’arte su VLA (Vision Language Action Models) e WM (World Models). Definizione di specifiche per l’acquisizione di dataset di tipo video-actions sia in modalità teleoperazione sia mediante l’utilizzo di ambienti di simulazione. Sviluppo e addestramento di VLA e WM.",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "modelli physical ai per applicazioni robotica innovativa|alma mater studiorum bologna dipartimento informatica scienza e ingegneria|2026-10-20",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-10-03T10:25:41.561Z"
   },
   {
     "id": "mur-research-assignments-316903",
@@ -48016,6 +48318,347 @@
     "updatedAt": "2026-10-02T11:07:08.111Z"
   },
   {
+    "id": "mur-research-contracts-318275",
+    "title": "L’impatto degli psichedelici sul neurosviluppo",
+    "institution": "Università degli Studi di Catania",
+    "department": "Da bando ufficiale",
+    "location": "Catania",
+    "region": "Piemonte",
+    "positionType": "Contratto di ricerca",
+    "professorRank": "",
+    "discipline": "Biologia, biotech e farmacia",
+    "ssd": "BIOS-11/A - Farmacologia",
+    "gsd": "05/BIOS-11 - FARMACOLOGIA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-22",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-10-02",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/318275",
+    "salaryOrAmount": "54.910,36 Euro",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Questo progetto indaga la sicurezza riproduttiva, i rischi teratologici e il potenziale terapeutico dell'esposizione prenatale alla psilocibina e la sua interazione con un modello di esposizione prenatale al principale componente psicoattivo della Cannabis, il THC. L'obiettivo primario è valutare se la psilocibina induca alterazioni a lungo termine nella cura materna o nel neurosviluppo della prole, oppure se possa...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "l impatto psichedelici sul neurosviluppo|studi catania|2026-10-22",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-10-03T10:25:41.561Z"
+  },
+  {
+    "id": "mur-research-contracts-318276",
+    "title": "Oncologia di precisione - Sviluppo di competenze specialistiche per la gestione e annotazione di dati clinico-molecolari oncologici con particolare attenzione alle neoplasie del torace",
+    "institution": "Università degli Studi di Catania",
+    "department": "Da bando ufficiale",
+    "location": "Catania",
+    "region": "Sicilia",
+    "positionType": "Contratto di ricerca",
+    "professorRank": "",
+    "discipline": "Medicina e salute",
+    "ssd": "MEDS-13/A - Chirurgia toracica",
+    "gsd": "06/MEDS-13 - CHIRURGIA CARDIO-TORACO-VASCOLARE",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-22",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-10-02",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/318276",
+    "salaryOrAmount": "54.910,36 Euro",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Il progetto sviluppa competenze specialistiche nella gestione e annotazione di dati clinico-molecolari oncologici, con particolare attenzione alle neoplasie del torace. Il/la biologo/a contribuirà alla costruzione di un database integrato secondo principi FAIR e GDPR, all'analisi di dati NGS e all'annotazione funzionale delle alterazioni mediante database pubblici e standard internazionali. I profili molecolari sara...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "oncologia precisione sviluppo competenze specialistiche per la gestione e annotazione dati clinico molecolari oncologici con particolare attenzione alle neoplasie torace|studi catania|2026-10-22",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-10-03T10:25:41.561Z"
+  },
+  {
+    "id": "mur-research-contracts-318277",
+    "title": "Ruolo dei recettori per GIP e GLP1 nel carcinoma mammario",
+    "institution": "Università degli Studi di Catania",
+    "department": "Da bando ufficiale",
+    "location": "Catania",
+    "region": "Piemonte",
+    "positionType": "Contratto di ricerca",
+    "professorRank": "",
+    "discipline": "Medicina e salute",
+    "ssd": "MEDS-08/A - Endocrinologia",
+    "gsd": "06/MEDS-08 - ENDOCRINOLOGIA, NEFROLOGIA E SCIENZE DELL'ALIMENTAZIONE E DEL BENESSERE",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-22",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-10-02",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/318277",
+    "salaryOrAmount": "54.910,36 Euro",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "La linea di ricerca studierà il ruolo dei recettori per le incretine GIP e GLP-1 (GIPR e GLP1R) nel carcinoma mammario. L’espressione dei recettori sarà valutata in campioni tumorali e mediante analisi di dataset trascrittomici, quali TCGA, valutandone l’associazione con sottotipi molecolari, prognosi e caratteristiche clinico-patologiche. Saranno inoltre condotti studi funzionali in vitro su linee cellulari di carc...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "ruolo dei recettori per gip e glp1 nel carcinoma mammario|studi catania|2026-10-22",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-10-03T10:25:41.561Z"
+  },
+  {
+    "id": "mur-research-contracts-318341",
+    "title": "Sistema Intelligente di Fitodepurazione applicata alle colture microalgali e valorizzazione delle sostanze bioattive per la salute umana e la sostenibilità ambientale – SIMBio",
+    "institution": "Università degli Studi di Catania",
+    "department": "Da bando ufficiale",
+    "location": "Catania",
+    "region": "Sicilia",
+    "positionType": "Contratto di ricerca",
+    "professorRank": "",
+    "discipline": "Medicina e salute",
+    "ssd": "MEDS-24/B - Igiene generale e applicata",
+    "gsd": "06/MEDS-24 - STATISTICA MEDICA, IGIENE GENERALE E APPLICATA E SCIENZE INFERMIERISTICHE GENERALI, CLINICHE, PEDIATRICHE E OSTETRICO-GINECOLOGICHE E NEONATALI",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-22",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-10-02",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/318341",
+    "salaryOrAmount": "54.910,36 Euro",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "La ricerca è finalizzata allo sviluppo di un sistema innovativo e sostenibile per il trattamento delle acque reflue mediante colture microalgali del genere Scenedesmus spp., integrato con tecnologie avanzate di monitoraggio e modelli predittivi basati sull’intelligenza artificiale. Il progetto, secondo un approccio interdisciplinare e One Health, mira a ottimizzare i processi di depurazione e la produzione di biomas...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "sistema intelligente fitodepurazione applicata alle colture microalgali e valorizzazione sostanze bioattive per la salute umana e la sostenibilita ambientale simbio|studi catania|2026-10-22",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-10-03T10:25:41.561Z"
+  },
+  {
+    "id": "mur-research-contracts-318346",
+    "title": "Simulazione di trasporto di cariche in dispositivi elettronici nanometrici",
+    "institution": "Università degli Studi di Catania",
+    "department": "Da bando ufficiale",
+    "location": "Catania",
+    "region": "Sicilia",
+    "positionType": "Contratto di ricerca",
+    "professorRank": "",
+    "discipline": "Matematica, fisica e chimica",
+    "ssd": "MATH-04/A - Fisica matematica",
+    "gsd": "01/MATH-04 - FISICA MATEMATICA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-22",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-10-02",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/318346",
+    "salaryOrAmount": "54.910,36 Euro",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "La linea di ricerca proposta è finalizzata alla formulazione di modelli di trasporto quantistico per la simulazione di dispositivi elettronici su scala nanometrica, migliorando l’approssimazione standard di massa efficace con l’inclusione di effetti di non parabolicità direttamente nell’equazione di Schrödinger. L’obiettivo principale è di simulare dispositivi quantistici quali il diodo risonante ad effetto tunnelin...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "simulazione trasporto cariche in dispositivi elettronici nanometrici|studi catania|2026-10-22",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-10-03T10:25:41.561Z"
+  },
+  {
+    "id": "mur-research-contracts-318348",
+    "title": "Sviluppo di molecole ad acido nucleico finalizzate al recupero della disfunzione mitocondriale nel cancro e nella neurodegenerazione",
+    "institution": "Università degli Studi di Catania",
+    "department": "Da bando ufficiale",
+    "location": "Catania",
+    "region": "Sicilia",
+    "positionType": "Contratto di ricerca",
+    "professorRank": "",
+    "discipline": "Biologia, biotech e farmacia",
+    "ssd": "BIOS-08/A - Biologia molecolare",
+    "gsd": "05/BIOS-08 - BIOLOGIA MOLECOLARE",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-22",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-10-02",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/318348",
+    "salaryOrAmount": "54.910,36 Euro",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Il progetto mira a sviluppare nuove strategie terapeutiche basate sul targeting della proteina mitocondriale VDAC nei tumori e nella neurodegenerazione. Il primo obiettivo è interferire con il complesso VDAC-Esochinasi 1 (HK1), centrale sia nella disfunzione mitocondriale associata a neurodegenerazione che responsabile del vantaggio metabolico e della resistenza all’apoptosi delle cellule tumorali. A tal fine, verra...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "sviluppo molecole ad acido nucleico finalizzate al recupero disfunzione mitocondriale nel cancro e nella neurodegenerazione|studi catania|2026-10-22",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-10-03T10:25:41.561Z"
+  },
+  {
+    "id": "mur-research-contracts-318349",
+    "title": "Produzione accumulo e gestione di energia tramite tecn. avanzate e abilitanti per la transizione energet Smart sector integration Preparazione e caratterizzazione chimico-fisica di materiali avanzati e interfacce funzionali per applicazioni energet",
+    "institution": "Università degli Studi di Catania",
+    "department": "Da bando ufficiale",
+    "location": "Catania",
+    "region": "Sicilia",
+    "positionType": "Contratto di ricerca",
+    "professorRank": "",
+    "discipline": "Matematica, fisica e chimica",
+    "ssd": "CHEM-02/A - Chimica fisica",
+    "gsd": "03/CHEM-02 - CHIMICA FISICA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-22",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-10-02",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/318349",
+    "salaryOrAmount": "54.910,36 Euro",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Il progetto mira allo sviluppo di materiali avanzati e interfacce micro- e nanostrutturate per tecnologie di conversione, accumulo e gestione dell'energia. Saranno progettati e sintetizzati film sottili di diversa natura, inclusi ossidi, metalli e materiali ibridi, tra cui MOF. Le proprietà strutturali, chimiche ed elettrochimiche saranno correlate alle prestazioni funzionali attraverso tecniche avanzate di caratter...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "produzione accumulo e gestione energia tramite tecn avanzate e abilitanti per la transizione energet smart sector integration preparazione e caratterizzazione chimico fisica materiali avanzati e interfacce funzionali per applicazioni energet|studi catania|2026-10-22",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-10-03T10:25:41.561Z"
+  },
+  {
+    "id": "mur-research-contracts-318350",
+    "title": "Ferroptosi e tumori nella medicina predittiva: ruolo degli enzimi antiossidanti nei processi di vulnerabilità tumorale.",
+    "institution": "Università degli Studi di Catania",
+    "department": "Da bando ufficiale",
+    "location": "Catania",
+    "region": "Sicilia",
+    "positionType": "Contratto di ricerca",
+    "professorRank": "",
+    "discipline": "Biologia, biotech e farmacia",
+    "ssd": "BIOS-07/A - Biochimica",
+    "gsd": "05/BIOS-07 - BIOCHIMICA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-22",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-10-02",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/318350",
+    "salaryOrAmount": "54.910,36 Euro",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Il progetto affronta il ruolo della ferroptosi nella progressione e nella resistenza ai trattamenti dei tumori, con particolare attenzione all'interazione tra metabolismo del ferro, omeostasi redox e sistemi antiossidanti. L'obiettivo è ampliare la conoscenza dei meccanismi molecolari che determinano la vulnerabilità delle cellule tumorali e la loro risposta ai trattamenti, individuando possibili biomarcatori e nuov...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "ferroptosi e tumori nella medicina predittiva ruolo enzimi antiossidanti nei processi vulnerabilita tumorale|studi catania|2026-10-22",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-10-03T10:25:41.561Z"
+  },
+  {
+    "id": "mur-research-contracts-318351",
+    "title": "Incremento della Sostenibilità di Colture Agricole mediante tecniche di Precisione (ISCAP)",
+    "institution": "Università degli Studi di Catania",
+    "department": "Da bando ufficiale",
+    "location": "Catania",
+    "region": "Sicilia",
+    "positionType": "Contratto di ricerca",
+    "professorRank": "",
+    "discipline": "Ambiente, agraria e veterinaria",
+    "ssd": "AGRI-04/B - Meccanica agraria",
+    "gsd": "07/AGRI-04 - INGEGNERIA AGRARIA, FORESTALE E DEI BIOSISTEMI",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-22",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-10-02",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/318351",
+    "salaryOrAmount": "54.910,36 Euro",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Il progetto di ricerca si colloca nell’ambito dell’innovazione per la sostenibilità delle produzioni agricole, con particolare riferimento alla difesa fitosanitaria nelle colture arboree mediterranee (es. agrumi e olivo). L’obiettivo è sviluppare e integrare conoscenze e tecnologie avanzate per la riduzione dell’impiego di agrofarmaci, attraverso approcci di agricoltura di precisione.La declinazione operativa dei ri...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "incremento sostenibilita colture agricole mediante tecniche precisione iscap|studi catania|2026-10-22",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-10-03T10:25:41.561Z"
+  },
+  {
+    "id": "mur-research-contracts-318352",
+    "title": "Sicurezza e conservazione dei tessuti edilizi storici tra abbandono e turistificazione",
+    "institution": "Università degli Studi di Catania",
+    "department": "Da bando ufficiale",
+    "location": "Catania",
+    "region": "Sicilia",
+    "positionType": "Contratto di ricerca",
+    "professorRank": "",
+    "discipline": "Architettura, design e territorio",
+    "ssd": "CEAR-11/B - Restauro dell'architettura",
+    "gsd": "08/CEAR-11 - RESTAURO E STORIA DELL'ARCHITETTURA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-22",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-10-02",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/318352",
+    "salaryOrAmount": "54.910,36 Euro",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "L’obiettivo della ricerca è formulare una metodologia per l’analisi multilivello dei tessuti edilizi storici in relazione ai rischi naturali e antropici, finalizzata a strategie di conservazione. Nel biennio saranno sviluppati: stato dell’arte; selezione di due casi studio siciliani caratterizzati da fragilità connesse all’abbandono e a rischi naturali; conoscenza diretta mediante rilievo critico e indiretta tramite...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "sicurezza e conservazione dei tessuti edilizi storici tra abbandono e turistificazione|studi catania|2026-10-22",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-10-03T10:25:41.561Z"
+  },
+  {
+    "id": "mur-research-contracts-318363",
+    "title": "Università Imprenditoriali: valorizzazione e trasferimento di conoscenza",
+    "institution": "Università degli Studi di Catania",
+    "department": "Da bando ufficiale",
+    "location": "Catania",
+    "region": "Sicilia",
+    "positionType": "Contratto di ricerca",
+    "professorRank": "",
+    "discipline": "Economia, diritto e politica",
+    "ssd": "ECON-07/A - Economia e gestione delle imprese",
+    "gsd": "13/ECON-07 - ECONOMIA E GESTIONE DELLE IMPRESE",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-22",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-10-02",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/318363",
+    "salaryOrAmount": "54.910,36 Euro",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "programma di ricerca si inserisce nel quadro del crescente interesse rivolto a livello nazionale e internazionale all'exploitation dei risultati della ricerca universitaria, come leva strategica per la generazione di impatto economico, sociale e tecnologico. In linea con le riflessioni teoriche più recenti sul Platform Business Model applicato all’Entrepreneurial University, il progetto intende indagare il ruolo che...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "imprenditoriali valorizzazione e trasferimento conoscenza|studi catania|2026-10-22",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-10-03T10:25:41.561Z"
+  },
+  {
     "id": "mur-research-assignments-317833",
     "title": "Difesa di precisione delle colture mediante droni e valutazione dell’efficacia dei trattamenti attraverso computer vision basata su YOLO",
     "institution": "UNIVERSITA DEGLI STUDI DI PALERMO",
@@ -48479,6 +49122,72 @@
     "confidenceScore": 0.95,
     "reviewReasons": [],
     "updatedAt": "2026-10-01T11:38:00.335Z"
+  },
+  {
+    "id": "mur-research-contracts-318397",
+    "title": "Sviluppo di metodologie numeriche per l'analisi dei fenomeni franosi",
+    "institution": "Università della Calabria (University of Calabria)",
+    "department": "Da bando ufficiale",
+    "location": "Rende (CS)",
+    "region": "Italia",
+    "positionType": "Contratto di ricerca",
+    "professorRank": "",
+    "discipline": "Architettura, design e territorio",
+    "ssd": "CEAR-05/A - Geotecnica",
+    "gsd": "08/CEAR-05 - GEOTECNICA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-23",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-10-02",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/318397",
+    "salaryOrAmount": "40.000 Euro",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Il progetto di ricerca è finalizzato allo sviluppo di attività scientifiche e tecnico-operative nell’ambito del trasferimento tecnologico. In particolare, mira a sviluppare e validare metodologie avanzate per l’analisi predittiva degli eventi franosi. L'attività scientifica si focalizzerà sull'intero processo evolutivo delle frane, dalla fase di pre-rottura a quella di post-rottura, attraverso l'implementazione di m...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "sviluppo metodologie numeriche per l analisi dei fenomeni franosi|calabria of calabria|2026-10-23",
+    "reviewStatus": "needs_review",
+    "confidenceScore": 0.83,
+    "reviewReasons": [
+      "unknown_region"
+    ],
+    "updatedAt": "2026-10-03T10:25:41.561Z"
+  },
+  {
+    "id": "mur-research-contracts-318399",
+    "title": "Mitigazione del rischio incendio di strutture in calcestruzzo armato rinforzate con materiali compositi fibro-rinforzati",
+    "institution": "Università della Calabria (University of Calabria)",
+    "department": "Da bando ufficiale",
+    "location": "Rende (CS)",
+    "region": "Italia",
+    "positionType": "Contratto di ricerca",
+    "professorRank": "",
+    "discipline": "Architettura, design e territorio",
+    "ssd": "CEAR-07/A - Tecnica delle costruzioni",
+    "gsd": "08/CEAR-07 - TECNICA DELLE COSTRUZIONI",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-23",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-10-02",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/318399",
+    "salaryOrAmount": "40.000",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Sviluppo e validazione di metodologie sperimentali e numeriche per la valutazione del comportamento al fuoco di strutture in calcestruzzo armato rinforzate mediante materiali compositi fibro-rinforzati. L’attività comprenderà la raccolta e sistematizzazione di dati sperimentali finalizzati alla definizione di coefficienti di riduzione delle prestazioni in funzione dell’esposizione termica, l’esecuzione e l’analisi d...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "mitigazione rischio incendio strutture in calcestruzzo armato rinforzate con materiali compositi fibro rinforzati|calabria of calabria|2026-10-23",
+    "reviewStatus": "needs_review",
+    "confidenceScore": 0.83,
+    "reviewReasons": [
+      "unknown_region"
+    ],
+    "updatedAt": "2026-10-03T10:25:41.561Z"
   },
   {
     "id": "mur-postdoc-assignments-317881",
@@ -49720,7 +50429,7 @@
     "salaryOrAmount": "Da bando ufficiale",
     "duration": "Da bando ufficiale",
     "language": "IT/EN",
-    "summary": "Procedura selettiva di chiamata per n. 1 posto di Ricercatore a tempo determinato in Tenure Track (RTT) indetta ai sensi dell’art. 24, c. 3, della L. 30 dicembre 2010, n. 240 - cod. concorso 2026RTTA006",
+    "summary": "RTT presso Sapienza Università di Roma nel settore IIND-01/E - Impianti e sistemi aerospaziali. Scadenza per le candidature: 28 ottobre 2026.",
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
@@ -49728,7 +50437,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-29T11:22:46.042Z"
+    "updatedAt": "2026-10-03T10:25:41.561Z"
   },
   {
     "id": "mur-research-assignments-318274",
@@ -50748,7 +51457,7 @@
     "salaryOrAmount": "39.224 Euro",
     "duration": "Da bando ufficiale",
     "language": "IT/EN",
-    "summary": "Patologie allergiche, fragilità e genere: un nuovo punto di incontro tra immunologia e salute pubblica",
+    "summary": "Postdoc presso Sapienza Università di Roma nel settore MEDS-05/A - Medicina interna sul tema “Patologie allergiche, fragilità e genere: un nuovo punto di incontro tra immunologia e salute pubblica”. Scadenza per le candidature: 31 ottobre 2026.",
     "requirements": [
       "DMADMIN@CERT.UNIROMA1.IT"
     ],
@@ -50756,7 +51465,7 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-10-01T11:38:00.335Z"
+    "updatedAt": "2026-10-03T10:25:41.561Z"
   },
   {
     "id": "mur-research-contracts-318273",
@@ -50887,6 +51596,99 @@
     ],
     "possibleDuplicateOf": "mur-research-assignments-318221",
     "updatedAt": "2026-10-01T11:38:00.335Z"
+  },
+  {
+    "id": "mur-research-contracts-318386",
+    "title": "CONCORSO A N. 1 CONTRATTO DI RICERCA, GRUPPO 13/ECON-01 ECONOMIA POLITICA, CENTRO INSPIRE, UNIVERSITÀ COMMERCIALE “LUIGI BOCCONI” DI MILANO",
+    "institution": "Bocconi University",
+    "department": "Da bando ufficiale",
+    "location": "Milano",
+    "region": "Lombardia",
+    "positionType": "Contratto di ricerca",
+    "professorRank": "",
+    "discipline": "Economia, diritto e politica",
+    "ssd": "ECON-01/A - Economia politica",
+    "gsd": "13/ECON-01 - ECONOMIA POLITICA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-11-01",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-10-01",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/318386",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Il progetto studia l’accesso alla giustizia con dati amministrativi e metodi avanzati di inferenza causale, con particolare attenzione al Brasile. Analizza come condizioni economiche e costi del contenzioso incidano sul ricorso ai tribunali, sulle domande presentate e sulle probabilità di successo; il ruolo delle relazioni personali nelle decisioni giudiziarie; gli effetti di una vittoria sulle aspettative di tutela...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "concorso a n 1 contratto ricerca gruppo 13 econ 01 economia politica centro inspire commerciale luigi bocconi milano|bocconi|2026-11-01",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-10-03T10:25:41.561Z"
+  },
+  {
+    "id": "mur-research-assignments-318401",
+    "title": "Intelligenza artificiale, benessere del consumatore e comportamento d’acquisto: nuove prospettive per il marketing digitale",
+    "institution": "Sapienza Università di Roma - Dipartimento di Management",
+    "department": "Da bando ufficiale",
+    "location": "Roma",
+    "region": "Lazio",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Economia, diritto e politica",
+    "ssd": "ECON-07/A - Economia e gestione delle imprese",
+    "gsd": "13/ECON-07 - ECONOMIA E GESTIONE DELLE IMPRESE",
+    "fundingType": "Non specificato",
+    "deadline": "2026-11-01",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-10-02",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/318401",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Il progetto adotta un disegno multi-metodo in cinque fasi integrate, combinando analisi bibliometrica, ricerca qualitativa, indagine quantitativa ed esperimenti. L’obiettivo è comprendere come l’intelligenza artificiale influenzi conoscenza, autoefficacia, fiducia, benessere e comportamento d’acquisto nei percorsi omnicanale.",
+    "requirements": [
+      "direttore.management@cert.uniroma1.it"
+    ],
+    "dedupeKey": "intelligenza artificiale benessere consumatore e comportamento d acquisto nuove prospettive per il marketing digitale|sapienza roma dipartimento management|2026-11-01",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-10-03T10:25:41.561Z"
+  },
+  {
+    "id": "mur-postdoc-assignments-318402",
+    "title": "Innovazione e imprenditorialità nelle PMI: trasformazione digitale, governance e competitività",
+    "institution": "Sapienza Università di Roma - Dipartimento di Management",
+    "department": "Da bando ufficiale",
+    "location": "Roma",
+    "region": "Lazio",
+    "positionType": "Postdoc",
+    "professorRank": "",
+    "discipline": "Economia, diritto e politica",
+    "ssd": "-",
+    "gsd": "13/ECON-07 - ECONOMIA E GESTIONE DELLE IMPRESE",
+    "fundingType": "Non specificato",
+    "deadline": "2026-11-01",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-10-02",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/318402",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "L’attività di ricerca sarà orientata allo studio dei processi di innovazione e imprenditorialità nelle PMI, con attenzione all’impatto delle tecnologie digitali sui modelli organizzativi e di governance. Potranno essere approfonditi i temi della competitività, della capacità di adattamento, della sostenibilità, della gestione del rischio e della creazione di valore. Saranno valorizzati approcci teorici ed empirici,...",
+    "requirements": [
+      "direttore.management@cert.uniroma1.it"
+    ],
+    "dedupeKey": "innovazione e imprenditorialita nelle pmi trasformazione digitale governance e competitivita|sapienza roma dipartimento management|2026-11-01",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-10-03T10:25:41.561Z"
   },
   {
     "id": "mur-research-assignments-317462",
@@ -51137,6 +51939,99 @@
     "confidenceScore": 0.95,
     "reviewReasons": [],
     "updatedAt": "2026-10-02T11:07:08.111Z"
+  },
+  {
+    "id": "mur-doctorates-318394",
+    "title": "Patrimoni musicali e paesaggi sonori: fonti, spazi, strumenti, pratiche pedagogiche e performative",
+    "institution": "Conservatorio di Musica",
+    "department": "Da bando ufficiale",
+    "location": "Brescia",
+    "region": "Lombardia",
+    "positionType": "PhD",
+    "professorRank": "",
+    "discipline": "Filosofia, storia, lingue, pedagogia e psicologia",
+    "ssd": "-",
+    "gsd": "",
+    "fundingType": "Non specificato",
+    "deadline": "2026-11-02",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-10-02",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/doctorate.php/public/fellowship/id_fellow/318394",
+    "salaryOrAmount": "16.243 Euro",
+    "duration": "36",
+    "language": "IT/EN",
+    "summary": "Il Dottorato in Patrimoni musicali e paesaggi sonori: fonti, spazi, strumenti, pratiche pedagogiche e performative nasce dalla necessità di rispondere a un’urgenza epistemologica e culturale del nostro tempo: comprendere e valorizzare il ruolo che il suono, nelle sue molteplici manifestazioni – musicali, ambientali, performative – ha giocato e continua a giocare nella configurazione delle culture, dei territori e de...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "patrimoni musicali e paesaggi sonori fonti spazi strumenti pratiche pedagogiche e performative|conservatorio musica|2026-11-02",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-10-03T10:25:41.561Z"
+  },
+  {
+    "id": "mur-research-assignments-318381",
+    "title": "Manoscritti greci e opere latine nella Napoli aragonese",
+    "institution": "Dipartimento Studi Umanistici - Università di Napoli Federico II",
+    "department": "Da bando ufficiale",
+    "location": "NAPOLI",
+    "region": "Campania",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Filosofia, storia, lingue, pedagogia e psicologia",
+    "ssd": "FICP-01/A - Filologia greca e latina",
+    "gsd": "10/FICP-01 - FILOLOGIA GRECA E LATINA, LETTERATURA CRISTIANA ANTICA, PAPIROLOGIA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-11-02",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-10-02",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/318381",
+    "salaryOrAmount": "22,5",
+    "duration": "annuale",
+    "language": "IT/EN",
+    "summary": "Ricerche sulla circolazione dei mss. di classici greci e latini nella Napoli aragonese (XV sec.) e sull’uso dei classici nella letteratura di propaganda antiottomana, con riferimento a traduzioni dal greco, orazioni, opuscoli e opere poetiche",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "manoscritti greci e opere latine nella napoli aragonese|dipartimento studi umanistici napoli federico ii|2026-11-02",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-10-03T10:25:41.561Z"
+  },
+  {
+    "id": "mur-postdoc-assignments-318382",
+    "title": "Platone e la tradizione poetica: il ruolo di allusioni e citazioni nella forma dialogica",
+    "institution": "Dipartimento Studi Umanistici - Università di Napoli Federico II",
+    "department": "Da bando ufficiale",
+    "location": "NAPOLI",
+    "region": "Campania",
+    "positionType": "Postdoc",
+    "professorRank": "",
+    "discipline": "Filosofia, storia, lingue, pedagogia e psicologia",
+    "ssd": "HELL-01/B - Lingua e letteratura greca",
+    "gsd": "10/HELL-01 - LINGUA E LETTERATURA GRECA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-11-02",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-10-02",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/318382",
+    "salaryOrAmount": "28.456,48",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "PlatRef mira a una ricognizione completa dei modi in cui Platone richiama la poesia in funzione dell’indagine filosofica rappresentata nei dialoghi. I riferimenti poetici compaiono infatti nei momenti chiave dei dialoghi, quando vengono introdotti nuovi argomenti o temi. Uno studio complessivo di queste strategie può aprire nuove prospettive negli studi platonici: il modo vario in cui Platone impiega la poesia sugge...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "platone e la tradizione poetica il ruolo allusioni e citazioni nella forma dialogica|dipartimento studi umanistici napoli federico ii|2026-11-02",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-10-03T10:25:41.561Z"
   },
   {
     "id": "mur-research-contracts-318320",
