@@ -1,5 +1,7 @@
 ## Baseline
 
+3 ottobre 2026 — Catalogo corrente: 679 opportunità aperte, 15 con sintesi equivalente al titolo dopo normalizzazione di maiuscole e punteggiatura. Il fallback porta la metrica tecnica 15→0. GSC Wizard resta `payment_required`; nessun costo attivato e nessun nuovo dato di traffico. Ultima baseline utente invariata al 27 settembre.
+
 2 ottobre 2026 — Catalogo corrente: 668 opportunità aperte, 11 con sintesi costituita soltanto da un URL. Il fallback porta la metrica tecnica 11→0 usando solo campi MUR già pubblicati. GSC Wizard risponde `payment_required`; non è stato attivato alcun costo e non sono disponibili nuove metriche di traffico. Resta valida l’ultima baseline utente fino al 27 settembre; nessun incremento attribuito.
 
 1 ottobre 2026 — Main dopo i sync: 655 schede aperte; 65 con titolo ufficiale ripetuto in 21 gruppi, 60 con SSD valido. Prima dell’intervento, il contesto SSD era presente nell’H1 della scheda ma assente dall’etichetta dei link di scoperta. Metrica tecnica: portare a zero i link crawlable verso queste schede che usano il titolo ambiguo. Nessun nuovo dato Search Console: resta valida la baseline dell’export fino al 27 settembre e non viene dichiarato alcun aumento di traffico.

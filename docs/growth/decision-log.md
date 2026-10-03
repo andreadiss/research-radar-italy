@@ -1,5 +1,7 @@
 # Decision log
 
+3 ottobre 2026 — Estendere il fallback verificato della PR #30 anche quando la sintesi equivale al titolo, ignorando punteggiatura e maiuscole. Non ripetere nel riepilogo le formule amministrative che iniziano con «Procedura selettiva», «Selezione pubblica», «Procedura di selezione» o «Avviso pubblico»; conservare invece come tema i titoli scientifici specifici. Nessuna modifica a cache, URL, canonical, workflow o dati mancanti.
+
 2 ottobre 2026 — Trattare una descrizione composta da un solo URL come dato non utile alla lettura. Generare in lettura e durante i futuri sync un riepilogo deterministico dai soli campi MUR disponibili: tipo, ente, SSD valido, titolo sostanziale e scadenza. Escludere il titolo quando è una formula generica «Procedura selettiva»; non modificare la cache, la fonte, le URL, i workflow o i campi mancanti.
 
 1 ottobre 2026 — Riutilizzare `positionTitleContext` anche nelle superfici di scoperta: sei opportunità recenti in homepage, risultati filtrati, prime otto opportunità delle landing e indice paginato. Allineare i nomi ItemList nelle landing e nell’indice. Non cambiare la regola, i record sorgente, URL, canonical, sitemap, ranking o filtri. Aggiungere un audit sui link crawlable che fallisce se una scheda contestualizzata torna a essere collegata con titolo ambiguo.

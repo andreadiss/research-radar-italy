@@ -78,16 +78,54 @@ test("keeps a substantive title when an official description is only a URL", () 
   );
 });
 
-test("no generated position is published with a URL-only summary", () => {
+test("replaces a title-only administrative summary without repeating the title", () => {
+  const position = applyVerifiedPositionEnrichment({
+    id: "mur-fixed-term-researchers-title-only",
+    title: "Selezione pubblica per il reclutamento di n. 1 Ricercatore a tempo determinato",
+    institution: "Università di Ferrara",
+    positionType: "RTT",
+    ssd: "IIND-07/B - Fisica tecnica ambientale",
+    deadline: "2026-10-05",
+    summary: "Selezione pubblica per il reclutamento di n. 1 Ricercatore a tempo determinato."
+  });
+
+  assert.equal(
+    position.summary,
+    "RTT presso Università di Ferrara nel settore IIND-07/B - Fisica tecnica ambientale. Scadenza per le candidature: 5 ottobre 2026."
+  );
+});
+
+test("adds context to a substantive title-only summary", () => {
+  const position = applyVerifiedPositionEnrichment({
+    id: "mur-postdoc-assignments-title-only",
+    title: "Analisi dati ecologici spaziali",
+    institution: "Sapienza Università di Roma",
+    positionType: "Postdoc",
+    ssd: "BIOS-03/A - Zoologia",
+    deadline: "2026-10-07",
+    summary: "Analisi dati ecologici spaziali."
+  });
+
+  assert.equal(
+    position.summary,
+    "Postdoc presso Sapienza Università di Roma nel settore BIOS-03/A - Zoologia sul tema “Analisi dati ecologici spaziali”. Scadenza per le candidature: 7 ottobre 2026."
+  );
+});
+
+test("no generated position is published with a URL-only or title-only summary", () => {
   const positions = JSON.parse(
     fs.readFileSync(new URL("../lib/generated/mur-positions.json", import.meta.url), "utf8")
   );
   const urlOnly = (value) => /^https?:\/\/\S+$/i.test(String(value ?? "").trim());
-  const affected = positions.filter((position) => urlOnly(position.summary));
+  const normalize = (value) => String(value ?? "").toLocaleLowerCase("it").replace(/[^a-z0-9à-ÿ]+/gi, " ").trim();
+  const titleOnly = (position) => normalize(position.summary) && normalize(position.summary) === normalize(position.title);
+  const affected = positions.filter((position) => urlOnly(position.summary) || titleOnly(position));
 
   assert.ok(affected.length > 0, "fixture must exercise the fallback");
   assert.deepEqual(
-    affected.map(applyVerifiedPositionEnrichment).filter((position) => urlOnly(position.summary)),
+    affected
+      .map(applyVerifiedPositionEnrichment)
+      .filter((position) => urlOnly(position.summary) || titleOnly(position)),
     []
   );
 });

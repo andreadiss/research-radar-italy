@@ -1,5 +1,7 @@
 ## Prioritized backlog
 
+3 ottobre 2026 — P1 scelto: eliminare le sintesi che duplicano integralmente il titolo su 15 opportunità aperte. Impact medio su utilità e contenuto distintivo; Confidence alta sul difetto e sui campi MUR, bassa sull’effetto traffico; Effort piccolo; Risk basso. Gate: 15→0 sintesi title-only e nessun cambiamento alle descrizioni sostanziali. Prossima P1: migliorare un ulteriore gruppo di sintesi brevi soltanto quando i campi ufficiali aggiungono informazione verificabile.
+
 2 ottobre 2026 — P1 scelto: eliminare le descrizioni costituite solo da URL sulle 11 opportunità aperte. Impact medio su utilità e contenuto distintivo; Confidence alta sul difetto e sui campi MUR, bassa sull’effetto traffico; Effort piccolo; Risk basso. Gate: 11→0 sintesi URL-only, nessuna inferenza esterna, fallback condiviso fra cache corrente e futuri sync. Prossima P1: riesaminare le schede di dettaglio in Search Console quando sarà disponibile un accesso gratuito o un export utente aggiornato.
 
 1 ottobre 2026 — P1 scelto: propagare il titolo contestualizzato già pubblicato sulle schede ai percorsi che portano alle schede. Impact medio su chiarezza e anchor text; Confidence alta sull’incoerenza e bassa sull’effetto SEO; Effort piccolo; Risk basso. Gate: stessa funzione condivisa in homepage, risultati, landing e indice; solo le 60 schede aperte con titolo ripetuto e SSD valido cambiano etichetta. Prossima P1: ottenere da Search Console i motivi di esclusione di un campione di schede, senza richieste massive.
