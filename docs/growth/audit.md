@@ -1,5 +1,7 @@
 # Research Radar Italy — Audit iniziale
 
+3 ottobre 2026 — Il sync successivo alla PR #30 conserva il fallback e le due schede campione restano corrette live. Nel catalogo corrente, 15 delle 679 opportunità aperte ripetono il titolo come intera sintesi: soprattutto procedure amministrative omonime e due Postdoc tematici. Scelto di estendere il fallback ai soli riepiloghi equivalenti al titolo, usando ente, SSD, titolo sostanziale e scadenza MUR senza modificare record o fonti.
+
 2 ottobre 2026 — Il rilascio del 1 ottobre resta corretto live: indice e scheda campione espongono il titolo contestualizzato, pagine core e favicon rispondono 200 e il controllo inesistente 404. Sul catalogo corrente, 11 opportunità aperte usano come sintesi un URL nudo: tre RTT Verona, quattro incarichi Bicocca e quattro procedure Teramo. Scelto un fallback persistente che compone un riepilogo esclusivamente da tipo, ente, SSD, titolo e scadenza già acquisiti dal MUR; URL fonte e record generato restano invariati.
 
 1 ottobre 2026 — PR #28 confermata su `main` dopo i sync ordinari. Il catalogo corrente contiene 655 schede aperte: 65 condividono il titolo ufficiale in 21 gruppi e 60 hanno un SSD valido. L’intervento del 30 settembre rendeva distintiva la sola pagina di dettaglio; homepage, risultati filtrati, landing e indice continuavano a presentare il titolo non contestualizzato. Scelto di riutilizzare la stessa regola verificata sui percorsi di scoperta e nel relativo ItemList, senza modificare titolo sorgente, URL o tassonomia.

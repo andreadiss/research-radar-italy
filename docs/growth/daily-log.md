@@ -1,5 +1,7 @@
 # Daily log
 
+3 ottobre 2026 — Letti main c983bfc, PR aperte (nessuna) e sei documenti growth; PR #30 verificata live dopo il sync. GSC Wizard resta `payment_required`, senza costi attivati. Un task: estendere il fallback verificato alle 15/679 opportunità aperte con sintesi equivalente al titolo. Metrica tecnica 15→0; aggiunti test su formule amministrative, titoli scientifici e intero dataset. Gate, PR, deploy e verifica live nel report finale; nessun aumento di traffico dichiarato.
+
 2 ottobre 2026 — Letti main c87457f, PR aperte (nessuna) e sei documenti growth; rilascio del 1 ottobre verificato live. GSC Wizard resta bloccato da `payment_required`, senza costi attivati. Un task: fallback persistente per le 11 opportunità aperte la cui sintesi è soltanto un URL, usando esclusivamente tipo, ente, settore, titolo e scadenza MUR. Metrica tecnica prevista 11→0; aggiunti test su procedure generiche e titoli sostanziali. Gate, PR, deploy e verifica live nel report finale; nessun aumento di traffico dichiarato.
 
 1 ottobre 2026 — Letti main d8c2d86, PR aperte (nessuna) e sei documenti growth; PR #28 verificata su main dopo i sync. Catalogo corrente: 655 schede aperte, 65 con titolo ripetuto e 60 contestualizzabili con SSD. Un task: rendere coerenti le etichette di scoperta con l’H1 distintivo già pubblicato, riutilizzando la stessa funzione in homepage, risultati, landing e indice e allineando ItemList. Aggiunto audit regressivo sui link crawlable. Nessun nuovo dato GSC o aumento di traffico dichiarato; gate, PR, deploy e verifica live nel report finale.
