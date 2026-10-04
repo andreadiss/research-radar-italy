@@ -112,6 +112,39 @@ test("adds context to a substantive title-only summary", () => {
   );
 });
 
+test("replaces Bicocca postdoc boilerplate with sector and duration", () => {
+  const position = applyVerifiedPositionEnrichment({
+    id: "mur-postdoc-assignments-316864",
+    title: "procedura selettiva per il conferimento di n. 1 incarico post-doc",
+    institution: "Università degli Studi di Milano - Bicocca",
+    positionType: "Postdoc",
+    ssd: "BIOS-15/A - Microbiologia",
+    duration: "12 mesi",
+    deadline: "2026-10-10",
+    summary: "Selezione pubblica per il conferimento di n. 1 incarico post-doc, ai sensi dell’art. 22 bis della Legge 240/2010"
+  });
+
+  assert.equal(
+    position.summary,
+    "Postdoc presso Università degli Studi di Milano - Bicocca nel settore BIOS-15/A - Microbiologia. Durata: 12 mesi. Scadenza per le candidature: 10 ottobre 2026."
+  );
+});
+
+test("does not rewrite similar boilerplate from an unverified institution", () => {
+  const position = {
+    id: "mur-postdoc-assignments-other-institution",
+    title: "procedura selettiva per il conferimento di n. 1 incarico post-doc",
+    institution: "Altra Università",
+    positionType: "Postdoc",
+    ssd: "BIOS-15/A - Microbiologia",
+    duration: "12 mesi",
+    deadline: "2026-10-10",
+    summary: "Selezione pubblica per il conferimento di n. 1 incarico post-doc, ai sensi dell’art. 22 bis della Legge 240/2010"
+  };
+
+  assert.equal(applyVerifiedPositionEnrichment(position), position);
+});
+
 test("no generated position is published with a URL-only or title-only summary", () => {
   const positions = JSON.parse(
     fs.readFileSync(new URL("../lib/generated/mur-positions.json", import.meta.url), "utf8")
@@ -128,4 +161,21 @@ test("no generated position is published with a URL-only or title-only summary",
       .filter((position) => urlOnly(position.summary) || titleOnly(position)),
     []
   );
+});
+
+test("all generated Bicocca boilerplate postdocs receive distinct context", () => {
+  const positions = JSON.parse(
+    fs.readFileSync(new URL("../lib/generated/mur-positions.json", import.meta.url), "utf8")
+  );
+  const affected = positions.filter((position) =>
+    position.institution === "Università degli Studi di Milano - Bicocca" &&
+    position.positionType === "Postdoc" &&
+    /^procedura selettiva per il conferimento di n\. 1 incarico post-doc$/i.test(position.title) &&
+    /^selezione pubblica per il conferimento di n\. 1 incarico post-doc\b/i.test(position.summary)
+  );
+
+  assert.ok(affected.length >= 5, "dataset must exercise the verified Bicocca group");
+  assert.ok(affected.map(applyVerifiedPositionEnrichment).every((position) =>
+    position.summary.includes(position.ssd) && position.summary.includes(position.duration)
+  ));
 });

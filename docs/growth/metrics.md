@@ -1,5 +1,7 @@
 ## Baseline
 
+4 ottobre 2026 — Catalogo corrente: 682 opportunità aperte, 43 con sintesi sotto 140 caratteri. Cinque Postdoc Bicocca condividono la stessa sintesi amministrativa ma hanno SSD e durata distinti: riepiloghi contestuali 0→5; boilerplate identici nel gruppo 5→0. GSC Wizard resta `payment_required`; nessun costo o nuovo dato di traffico.
+
 3 ottobre 2026 — Catalogo corrente: 679 opportunità aperte, 15 con sintesi equivalente al titolo dopo normalizzazione di maiuscole e punteggiatura. Il fallback porta la metrica tecnica 15→0. GSC Wizard resta `payment_required`; nessun costo attivato e nessun nuovo dato di traffico. Ultima baseline utente invariata al 27 settembre.
 
 2 ottobre 2026 — Catalogo corrente: 668 opportunità aperte, 11 con sintesi costituita soltanto da un URL. Il fallback porta la metrica tecnica 11→0 usando solo campi MUR già pubblicati. GSC Wizard risponde `payment_required`; non è stato attivato alcun costo e non sono disponibili nuove metriche di traffico. Resta valida l’ultima baseline utente fino al 27 settembre; nessun incremento attribuito.
