@@ -1,5 +1,7 @@
 ## Experiment opportunities
 
+4 ottobre 2026 — Miglioramento osservazionale, non A/B test: rendere distintivi cinque Postdoc altrimenti indistinguibili può aiutare la valutazione e l’anchor semantica delle schede. Gate: corrispondenza esatta con istituzione e boilerplate Bicocca, SSD valido, durata non generica, test negativo su altri enti. Outcome futuro: impression e clic delle singole URL quando disponibili; nessuna causalità attribuita.
+
 3 ottobre 2026 — Miglioramento osservazionale, non A/B test: sostituire una sintesi identica al titolo con contesto ufficiale può rendere la scheda più informativa e distinguibile. Gate: equivalenza verificata dopo normalizzazione, titoli amministrativi esclusi dal tema, titoli specifici conservati, campi MUR soltanto. Outcome futuro: impression e clic delle schede quando disponibili; nessuna causalità attribuita.
 
 2 ottobre 2026 — Miglioramento osservazionale, non A/B test: sostituire le sintesi URL-only con un riepilogo leggibile può aumentare utilità e unicità delle schede deboli. Gate: solo riepiloghi che corrispondono interamente a campi MUR verificati, URL fonte conservato, nessun campo mancante inventato e test regressivi su titolo generico e specifico. Outcome futuro: impression e clic delle schede quando disponibili; nessuna causalità attribuita.

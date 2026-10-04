@@ -1,5 +1,7 @@
 # Decision log
 
+4 ottobre 2026 — Non trasformare automaticamente tutte le sintesi brevi. Aggiungere un fallback solo al gruppo Postdoc Bicocca con istituzione, titolo e boilerplate esatti e SSD valido; includere la durata soltanto per questo gruppo verificato. Lasciare invariati record simili di altri enti e ogni descrizione sostanziale. Nessuna modifica a cache, URL, canonical, workflow o tracking.
+
 3 ottobre 2026 — Estendere il fallback verificato della PR #30 anche quando la sintesi equivale al titolo, ignorando punteggiatura e maiuscole. Non ripetere nel riepilogo le formule amministrative che iniziano con «Procedura selettiva», «Selezione pubblica», «Procedura di selezione» o «Avviso pubblico»; conservare invece come tema i titoli scientifici specifici. Nessuna modifica a cache, URL, canonical, workflow o dati mancanti.
 
 2 ottobre 2026 — Trattare una descrizione composta da un solo URL come dato non utile alla lettura. Generare in lettura e durante i futuri sync un riepilogo deterministico dai soli campi MUR disponibili: tipo, ente, SSD valido, titolo sostanziale e scadenza. Escludere il titolo quando è una formula generica «Procedura selettiva»; non modificare la cache, la fonte, le URL, i workflow o i campi mancanti.

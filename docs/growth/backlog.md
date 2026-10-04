@@ -1,5 +1,7 @@
 ## Prioritized backlog
 
+4 ottobre 2026 — P1 scelto: distinguere cinque Postdoc Bicocca aperti che condividono titolo e sintesi amministrativa. Impact medio su chiarezza e utilità; Confidence alta sui campi MUR, bassa sull’effetto traffico; Effort piccolo; Risk basso. Gate: riepilogo con ente, SSD, durata e scadenza per i soli record Bicocca compatibili; nessuna modifica alle altre 38 sintesi brevi. Prossima P1: verificare le schede con ente generico o contaminato da note di finanziamento.
+
 3 ottobre 2026 — P1 scelto: eliminare le sintesi che duplicano integralmente il titolo su 15 opportunità aperte. Impact medio su utilità e contenuto distintivo; Confidence alta sul difetto e sui campi MUR, bassa sull’effetto traffico; Effort piccolo; Risk basso. Gate: 15→0 sintesi title-only e nessun cambiamento alle descrizioni sostanziali. Prossima P1: migliorare un ulteriore gruppo di sintesi brevi soltanto quando i campi ufficiali aggiungono informazione verificabile.
 
 2 ottobre 2026 — P1 scelto: eliminare le descrizioni costituite solo da URL sulle 11 opportunità aperte. Impact medio su utilità e contenuto distintivo; Confidence alta sul difetto e sui campi MUR, bassa sull’effetto traffico; Effort piccolo; Risk basso. Gate: 11→0 sintesi URL-only, nessuna inferenza esterna, fallback condiviso fra cache corrente e futuri sync. Prossima P1: riesaminare le schede di dettaglio in Search Console quando sarà disponibile un accesso gratuito o un export utente aggiornato.
