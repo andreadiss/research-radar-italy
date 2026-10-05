@@ -1,5 +1,7 @@
 ## Experiment opportunities
 
+5 ottobre 2026 — Miglioramento di correttezza e usabilità, non A/B test: separare Psicologia rende il filtro coerente con i codici disciplinari ufficiali e riduce l’eterogeneità del percorso. Gate: classificazione primaria solo su `PSIC-*`, fallback testuale soltanto su termini psicologici espliciti, regressioni su letteratura e patrimonio musicale. Outcome tecnico: 35 record migrati e filtro dedicato; outcome utente futuro da osservare senza causalità.
+
 4 ottobre 2026 — Miglioramento osservazionale, non A/B test: rendere distintivi cinque Postdoc altrimenti indistinguibili può aiutare la valutazione e l’anchor semantica delle schede. Gate: corrispondenza esatta con istituzione e boilerplate Bicocca, SSD valido, durata non generica, test negativo su altri enti. Outcome futuro: impression e clic delle singole URL quando disponibili; nessuna causalità attribuita.
 
 3 ottobre 2026 — Miglioramento osservazionale, non A/B test: sostituire una sintesi identica al titolo con contesto ufficiale può rendere la scheda più informativa e distinguibile. Gate: equivalenza verificata dopo normalizzazione, titoli amministrativi esclusi dal tema, titoli specifici conservati, campi MUR soltanto. Outcome futuro: impression e clic delle schede quando disponibili; nessuna causalità attribuita.

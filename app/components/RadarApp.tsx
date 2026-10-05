@@ -48,8 +48,12 @@ const subjectChips: SubjectChip[] = [
   { label: "Architettura, design e territorio", filters: { discipline: "Architettura, design e territorio" } },
   { label: "Economia, diritto e politica", filters: { discipline: "Economia, diritto e politica" } },
   {
-    label: "Filosofia, storia, lingue, pedagogia e psicologia",
-    filters: { discipline: "Filosofia, storia, lingue, pedagogia e psicologia" }
+    label: "Psicologia",
+    filters: { discipline: "Psicologia" }
+  },
+  {
+    label: "Filosofia, storia, lingue e pedagogia",
+    filters: { discipline: "Filosofia, storia, lingue e pedagogia" }
   }
 ];
 
@@ -928,7 +932,6 @@ function normalizeText(value: string) {
     .replace(/[\u0300-\u036f]/g, "")
     .toLowerCase();
 }
-
 
 
 

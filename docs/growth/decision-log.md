@@ -1,5 +1,7 @@
 # Decision log
 
+5 ottobre 2026 — Separare Psicologia usando come segnale prioritario il prefisso SSD ufficiale `PSIC-*`; accettare il fallback testuale solo per termini psicologici espliciti. Rinominare il gruppo residuo «Filosofia, storia, lingue e pedagogia» e aggiungere Psicologia ai filtri. Non riclassificare per analogia, non creare nuove landing e lasciare i casi ambigui alla regola esistente o a «Altro / interdisciplinare».
+
 4 ottobre 2026 — Non trasformare automaticamente tutte le sintesi brevi. Aggiungere un fallback solo al gruppo Postdoc Bicocca con istituzione, titolo e boilerplate esatti e SSD valido; includere la durata soltanto per questo gruppo verificato. Lasciare invariati record simili di altri enti e ogni descrizione sostanziale. Nessuna modifica a cache, URL, canonical, workflow o tracking.
 
 3 ottobre 2026 — Estendere il fallback verificato della PR #30 anche quando la sintesi equivale al titolo, ignorando punteggiatura e maiuscole. Non ripetere nel riepilogo le formule amministrative che iniziano con «Procedura selettiva», «Selezione pubblica», «Procedura di selezione» o «Avviso pubblico»; conservare invece come tema i titoli scientifici specifici. Nessuna modifica a cache, URL, canonical, workflow o dati mancanti.

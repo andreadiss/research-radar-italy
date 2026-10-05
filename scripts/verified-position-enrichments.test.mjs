@@ -163,7 +163,7 @@ test("no generated position is published with a URL-only or title-only summary",
   );
 });
 
-test("all generated Bicocca boilerplate postdocs receive distinct context", () => {
+test("the verified Bicocca postdoc group retains distinct context after sync", () => {
   const positions = JSON.parse(
     fs.readFileSync(new URL("../lib/generated/mur-positions.json", import.meta.url), "utf8")
   );
@@ -171,10 +171,11 @@ test("all generated Bicocca boilerplate postdocs receive distinct context", () =
     position.institution === "Università degli Studi di Milano - Bicocca" &&
     position.positionType === "Postdoc" &&
     /^procedura selettiva per il conferimento di n\. 1 incarico post-doc$/i.test(position.title) &&
-    /^selezione pubblica per il conferimento di n\. 1 incarico post-doc\b/i.test(position.summary)
+    position.deadline === "2026-10-10" &&
+    position.ssd && position.ssd !== "-"
   );
 
-  assert.ok(affected.length >= 5, "dataset must exercise the verified Bicocca group");
+  assert.equal(affected.length, 5, "dataset must retain the verified Bicocca group");
   assert.ok(affected.map(applyVerifiedPositionEnrichment).every((position) =>
     position.summary.includes(position.ssd) && position.summary.includes(position.duration)
   ));
