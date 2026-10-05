@@ -68,7 +68,37 @@ test("still recognizes literature explicitly", () => {
     sourceUrl: "https://bandi.mur.gov.it/test-phd-literature",
     deadline: "2026-12-31"
   });
-  assert.equal(p.discipline, "Filosofia, storia, lingue, pedagogia e psicologia");
+  assert.equal(p.discipline, "Filosofia, storia, lingue e pedagogia");
+});
+
+test("separates psychology using the official PSIC sector", () => {
+  const p = toPosition({
+    externalId: "psychology-sector",
+    sourceCategory: "research-assignments",
+    title: "Procedura di selezione",
+    description: "Consultare il bando ufficiale.",
+    institution: "Università di Roma",
+    city: "Roma",
+    gsd: "11/PSIC-01",
+    ssd: "PSIC-01/A",
+    sourceUrl: "https://bandi.mur.gov.it/test-psychology-sector",
+    deadline: "2026-12-31"
+  });
+  assert.equal(p.discipline, "Psicologia");
+});
+
+test("recognizes an explicit psychology research topic without a sector", () => {
+  const p = toPosition({
+    externalId: "psychology-topic",
+    sourceCategory: "doctorates",
+    title: "Psychology of decision making",
+    description: "La selezione richiede curriculum e lettera di motivazione.",
+    institution: "Università di Milano",
+    city: "Milano",
+    sourceUrl: "https://bandi.mur.gov.it/test-psychology-topic",
+    deadline: "2026-12-31"
+  });
+  assert.equal(p.discipline, "Psicologia");
 });
 
 test("does not treat technical design as architecture or product design", () => {
@@ -124,7 +154,7 @@ test("prefers the specific doctoral title to secondary subjects in the descripti
     sourceUrl: "https://bandi.mur.gov.it/test-phd-musical-heritage",
     deadline: "2026-12-31"
   });
-  assert.equal(p.discipline, "Filosofia, storia, lingue, pedagogia e psicologia");
+  assert.equal(p.discipline, "Filosofia, storia, lingue e pedagogia");
 });
 
 test("keeps a multi-area doctoral call interdisciplinary", () => {
