@@ -1,5 +1,7 @@
 ## Baseline
 
+5 ottobre 2026 — Baseline qualità tassonomia: categoria aggregata 170 record → Psicologia 35 e «Filosofia, storia, lingue e pedagogia» 135; sulle 684 opportunità aperte, 13 e 66 rispettivamente. Il filtro Psicologia passa da assente a presente. Nessun nuovo dato di traffico o effetto SEO attribuito; baseline GSC del 4 ottobre invariata: 3 pagine indicizzate, 609 non indicizzate.
+
 4 ottobre 2026 — Catalogo corrente: 682 opportunità aperte, 43 con sintesi sotto 140 caratteri. Cinque Postdoc Bicocca condividono la stessa sintesi amministrativa ma hanno SSD e durata distinti: riepiloghi contestuali 0→5; boilerplate identici nel gruppo 5→0. GSC Wizard resta `payment_required`; nessun costo o nuovo dato di traffico.
 
 3 ottobre 2026 — Catalogo corrente: 679 opportunità aperte, 15 con sintesi equivalente al titolo dopo normalizzazione di maiuscole e punteggiatura. Il fallback porta la metrica tecnica 15→0. GSC Wizard resta `payment_required`; nessun costo attivato e nessun nuovo dato di traffico. Ultima baseline utente invariata al 27 settembre.
