@@ -155,6 +155,10 @@ function inferDiscipline(researchField, gsd, ssd, title, description) {
   const primaryText = searchText(researchField, gsd, ssd, title);
   const sector = sectorPrefix(researchField, gsd, ssd);
 
+  // The official SSD prefix is the strongest available signal: PSIC belongs to
+  // psychology even though its numeric macro-sector (11) also includes other
+  // humanities and social-science disciplines.
+  if (/\bpsic-\d{2}(?:\/[a-z])?\b/.test(primaryText)) return "Psicologia";
   if (sector === "06") return "Medicina e salute";
   if (sector === "05") return "Biologia, biotech e farmacia";
   if (sector === "09" || /01\/info|info-01/.test(primaryText)) return "Ingegneria, informatica e AI";
@@ -162,7 +166,7 @@ function inferDiscipline(researchField, gsd, ssd, title, description) {
   if (["04", "07"].includes(sector)) return "Ambiente, agraria e veterinaria";
   if (sector === "08") return "Architettura, design e territorio";
   if (["12", "13", "14"].includes(sector)) return "Economia, diritto e politica";
-  if (["10", "11"].includes(sector)) return "Filosofia, storia, lingue, pedagogia e psicologia";
+  if (["10", "11"].includes(sector)) return "Filosofia, storia, lingue e pedagogia";
 
   return disciplineFromText(primaryText) ?? disciplineFromText(searchText(description)) ?? "Altro / interdisciplinare";
 }
@@ -176,7 +180,8 @@ function disciplineFromText(text) {
     ["Ambiente, agraria e veterinaria", /\b04\/|\b07\/|earth|geolog|geo|agri|veterinar|food|agrar|ambient|groundwater|water resource|hydrolog/],
     ["Architettura, design e territorio", /\b08\/|cear|architett|architectural|urban|territor|civil|edil|costruzion|reconstruction|\bphd in design\b|\bdesign studies\b|\btematica,?\s+design$/],
     ["Economia, diritto e politica", /\b12\/|\b13\/|\b14\/|giur|diritto|law|econ|econom|finanz|politic|relazioni internazionali|\bphd in management\b|\bmanagement studies\b/],
-    ["Filosofia, storia, lingue, pedagogia e psicologia", /\b10\/|\b11\/|hist|filol|letteratur|literat|linguist|cultural|archeolog|filosof|psicolog|sociolog|pedagog|anthropolog|music|artistic|performing arts|\barte\b|patrimonio culturale/]
+    ["Psicologia", /\bpsic-\d{2}(?:\/[a-z])?\b|psicolog|psycholog|psychometr/],
+    ["Filosofia, storia, lingue e pedagogia", /\b10\/|\b11\/|hist|filol|letteratur|literat|linguist|cultural|archeolog|filosof|sociolog|pedagog|anthropolog|music|artistic|performing arts|\barte\b|patrimonio culturale/]
   ].filter(([, pattern]) => pattern.test(text)).map(([discipline]) => discipline);
 
   return matches.length === 1 ? matches[0] : null;
