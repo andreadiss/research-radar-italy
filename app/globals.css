@@ -1235,6 +1235,19 @@ select {
   -webkit-line-clamp: 2;
 }
 
+.job-sector {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.45;
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.job-sector strong {
+  color: var(--ink);
+  font-weight: 700;
+}
+
 .job-meta {
   color: var(--muted);
   display: flex;
