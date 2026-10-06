@@ -1,5 +1,6 @@
 # Decision log
 
+6 ottobre 2026 — Mostrare il SSD ufficiale subito dopo il titolo della card, prima della sintesi. Per valore assente mostrare «non disponibile nella scheda»; nessuna disciplina o argomento inferito. Conservare area nel badge e tema nel riepilogo.
 5 ottobre 2026 — Separare Psicologia usando come segnale prioritario il prefisso SSD ufficiale `PSIC-*`; accettare il fallback testuale solo per termini psicologici espliciti. Rinominare il gruppo residuo «Filosofia, storia, lingue e pedagogia» e aggiungere Psicologia ai filtri. Non riclassificare per analogia, non creare nuove landing e lasciare i casi ambigui alla regola esistente o a «Altro / interdisciplinare».
 
 4 ottobre 2026 — Non trasformare automaticamente tutte le sintesi brevi. Aggiungere un fallback solo al gruppo Postdoc Bicocca con istituzione, titolo e boilerplate esatti e SSD valido; includere la durata soltanto per questo gruppo verificato. Lasciare invariati record simili di altri enti e ogni descrizione sostanziale. Nessuna modifica a cache, URL, canonical, workflow o tracking.
