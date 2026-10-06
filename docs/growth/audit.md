@@ -1,5 +1,6 @@
 # Research Radar Italy — Audit iniziale
 
+6 ottobre 2026 — Verifica live del filtro Psicologia: 13 risultati e classificazione visibile; nelle card il SSD ufficiale era dopo ente e sede, poco leggibile a colpo d’occhio. Spostato sotto il titolo con etichetta esplicita, mantenendo il riepilogo come indicazione del tema.
 5 ottobre 2026 — Audit retroattivo della tassonomia: 170 record erano raccolti sotto «Filosofia, storia, lingue, pedagogia e psicologia». Il prefisso SSD ufficiale identifica senza inferenze 35 record `PSIC-*`; tra le 681 opportunità aperte sono 13, mentre 66 appartengono alle altre discipline del gruppo. Scelto di separare Psicologia nei dati, nel normalizzatore e nei filtri, rinominando il gruppo residuo senza creare landing o classificazioni non verificabili.
 
 4 ottobre 2026 — Il sync successivo alla PR #31 conserva i riepiloghi contestuali. Nel catalogo corrente risultano 43/682 opportunità aperte con sintesi sotto 140 caratteri, ma solo cinque formano un gruppo omogeneo verificabile: Postdoc Bicocca con identico titolo e boilerplate, SSD specifico, durata di 12 o 24 mesi e scadenza 10 ottobre. Scelto di sostituire il boilerplate solo per questo gruppo; le altre 38 sintesi brevi restano invariate perché specifiche o prive di contesto sufficiente.
