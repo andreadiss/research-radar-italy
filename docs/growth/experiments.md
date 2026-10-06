@@ -1,5 +1,6 @@
 ## Experiment opportunities
 
+6 ottobre 2026 — Miglioramento UX diretto, senza A/B test: etichetta SSD vicino al titolo nelle card, con fallback dichiarato quando il campo manca. Verificare leggibilità desktop/mobile e assenza di regressioni; outcome utente da misurare quando disponibile.
 5 ottobre 2026 — Miglioramento di correttezza e usabilità, non A/B test: separare Psicologia rende il filtro coerente con i codici disciplinari ufficiali e riduce l’eterogeneità del percorso. Gate: classificazione primaria solo su `PSIC-*`, fallback testuale soltanto su termini psicologici espliciti, regressioni su letteratura e patrimonio musicale. Outcome tecnico: 35 record migrati e filtro dedicato; outcome utente futuro da osservare senza causalità.
 
 4 ottobre 2026 — Miglioramento osservazionale, non A/B test: rendere distintivi cinque Postdoc altrimenti indistinguibili può aiutare la valutazione e l’anchor semantica delle schede. Gate: corrispondenza esatta con istituzione e boilerplate Bicocca, SSD valido, durata non generica, test negativo su altri enti. Outcome futuro: impression e clic delle singole URL quando disponibili; nessuna causalità attribuita.
