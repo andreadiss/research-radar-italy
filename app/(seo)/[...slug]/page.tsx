@@ -49,6 +49,7 @@ export default function SeoLandingRoute({ params }: PageProps) {
   const items = landingItems(page);
   const disciplines = landingDisciplines(page);
   const disciplineSection = landingDisciplineSection(page);
+  const positionTypes = landingPositionTypes(page);
   const regions = landingRegions(page);
   const regionSection = landingRegionSection(page);
   const structuredData = buildStructuredData(page, items);
@@ -114,6 +115,20 @@ export default function SeoLandingRoute({ params }: PageProps) {
                 {disciplines.map((discipline) => (
                   <Link href={discipline.href as Route} key={discipline.name}>
                     {discipline.name} ({discipline.count})
+                  </Link>
+                ))}
+              </nav>
+            </section>
+          ) : null}
+
+          {positionTypes.length > 0 ? (
+            <section className="seo-faq" aria-labelledby="position-types-title">
+              <h2 id="position-types-title">Opportunità in Psicologia per tipo</h2>
+              <p>Scegli il tipo di posizione per restringere la ricerca senza perdere il filtro Psicologia.</p>
+              <nav className="seo-related-links" aria-label="Tipi di posizione in Psicologia">
+                {positionTypes.map((positionType) => (
+                  <Link href={positionType.href as Route} key={positionType.name}>
+                    {positionType.name} ({positionType.count})
                   </Link>
                 ))}
               </nav>
@@ -243,15 +258,39 @@ function landingDisciplineSection(page: SeoLandingPage) {
   return null;
 }
 
+function landingPositionTypes(page: SeoLandingPage) {
+  if (page.filter.discipline !== "Psicologia") return [];
+
+  const counts = positions
+    .filter((position) => position.discipline === page.filter.discipline && isOpenPosition(position))
+    .reduce((byType, position) => {
+      byType.set(position.positionType, (byType.get(position.positionType) ?? 0) + 1);
+      return byType;
+    }, new Map<string, number>());
+
+  return Array.from(counts, ([name, count]) => ({
+    name,
+    count,
+    href: `/posizioni/?type=${encodeURIComponent(name)}&discipline=${encodeURIComponent(page.filter.discipline ?? "")}`
+  })).sort((a, b) => b.count - a.count || a.name.localeCompare(b.name, "it"));
+}
+
 function landingItems(page: SeoLandingPage) {
   if (page.kind === "positions") {
     return positions
-      .filter((position) => position.positionType === page.filter.type && isOpenPosition(position))
+      .filter((position) => (!page.filter.type || position.positionType === page.filter.type)
+        && (!page.filter.discipline || position.discipline === page.filter.discipline)
+        && isOpenPosition(position))
       .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
       .map((position) => ({
         href: `/positions/${position.id}`,
         title: positionTitleContext(position, openPositions).heading,
-        meta: `${position.institution} - ${position.discipline} - scadenza ${formatDate(position.deadline)}`
+        meta: [
+          position.institution,
+          position.discipline,
+          position.ssd && position.ssd !== "-" ? position.ssd : null,
+          `scadenza ${formatDate(position.deadline)}`
+        ].filter(Boolean).join(" - ")
       }));
   }
 

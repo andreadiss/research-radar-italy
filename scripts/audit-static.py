@@ -199,6 +199,57 @@ for position_type, route in (
         errors.append(f"Incorrect discipline links on {route}: expected {sorted(expected)}, found {sorted(actual)}")
     discipline_paths[position_type] = len(actual)
 
+# Check the dedicated Psychology path against the verified catalog taxonomy.
+psychology_route = "/posizioni/psicologia/"
+psychology_records = sorted(
+    (record for record in open_records if record["discipline"] == "Psicologia"),
+    key=lambda record: record["publishedAt"],
+    reverse=True,
+)
+if psychology_route not in pages:
+    errors.append("Missing Psychology landing page")
+else:
+    expected_psychology_results = [
+        f"/positions/{quote(record['id'], safe='')}" for record in psychology_records[:8]
+    ]
+    actual_psychology_results = [
+        unquote(urlsplit(href).path).rstrip("/")
+        for href, _ in pages[psychology_route].discovery_links
+    ]
+    if actual_psychology_results != expected_psychology_results:
+        errors.append(
+            f"Psychology landing results mismatch: expected {expected_psychology_results}, found {actual_psychology_results}"
+        )
+
+    expected_psychology_types = {
+        f"/posizioni/?type={quote(record['positionType'], safe='')}&discipline=Psicologia"
+        for record in psychology_records
+    }
+    actual_psychology_types = {
+        link for link in pages[psychology_route].links
+        if link.startswith("/posizioni/?type=") and link.endswith("&discipline=Psicologia")
+    }
+    if actual_psychology_types != expected_psychology_types:
+        errors.append(
+            f"Psychology type paths mismatch: expected {sorted(expected_psychology_types)}, found {sorted(actual_psychology_types)}"
+        )
+
+    result_text = {
+        unquote(urlsplit(href).path).rstrip("/"): text
+        for href, text in pages[psychology_route].discovery_links
+    }
+    for record in psychology_records[:8]:
+        if record.get("ssd", "").strip() in ("", "-"):
+            continue
+        href = f"/positions/{quote(record['id'], safe='')}"
+        if " ".join(record["ssd"].split()) not in result_text.get(href, ""):
+            errors.append(f"Psychology landing result lacks SSD context: {href}")
+
+if psychology_route not in pages["/"].links:
+    errors.append("Homepage does not link to the Psychology landing page")
+if f"https://rritaly.com{psychology_route}" not in urls:
+    errors.append("Psychology landing page is missing from the sitemap")
+
 # Check geographic paths rendered in the relevant position landing pages.
 region_paths = {}
 for position_type, route in (
@@ -229,6 +280,11 @@ titles = [page.title for page in positions]
 report = {"html_pages": len(pages), "sitemap_urls": len(urls), "reachable_pages": len(seen), "orphan_sitemap_urls": len(orphans), "broken_internal_links": len(broken), "duplicate_position_titles": len(titles) - len(set(titles)), "initial_html": {route: {"h1": pages[route].h1, "links": len(pages[route].links)} for route in ("/", "/posizioni/", "/funding/")}, "errors": errors}
 report["category_cta_checks"] = category_counts
 report["discipline_path_checks"] = discipline_paths
+report["psychology_path_checks"] = {
+    "open_positions": len(psychology_records),
+    "listed_positions": min(8, len(psychology_records)),
+    "type_paths": len({record["positionType"] for record in psychology_records}),
+}
 report["region_path_checks"] = region_paths
 report["position_lastmod_checks"] = len(sitemap_lastmod)
 report["homepage_recent_position_links"] = len(recent_urls)

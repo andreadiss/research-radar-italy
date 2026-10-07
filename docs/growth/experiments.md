@@ -1,5 +1,7 @@
 ## Experiment opportunities
 
+7 ottobre 2026 — Miglioramento di architettura informativa, non A/B test: rendere Psicologia raggiungibile da homepage e landing dedicata, mantenendo filtri, SSD e fonte verificabile. Osservare in futuro impression/clic della URL e utilizzo dei filtri solo quando i volumi e l’accesso GSC lo consentiranno; nessuna richiesta manuale massiva di indicizzazione.
+
 6 ottobre 2026 — Miglioramento UX diretto, senza A/B test: etichetta SSD vicino al titolo nelle card, con fallback dichiarato quando il campo manca. Verificare leggibilità desktop/mobile e assenza di regressioni; outcome utente da misurare quando disponibile.
 5 ottobre 2026 — Miglioramento di correttezza e usabilità, non A/B test: separare Psicologia rende il filtro coerente con i codici disciplinari ufficiali e riduce l’eterogeneità del percorso. Gate: classificazione primaria solo su `PSIC-*`, fallback testuale soltanto su termini psicologici espliciti, regressioni su letteratura e patrimonio musicale. Outcome tecnico: 35 record migrati e filtro dedicato; outcome utente futuro da osservare senza causalità.
 

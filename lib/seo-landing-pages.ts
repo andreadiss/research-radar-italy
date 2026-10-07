@@ -9,7 +9,7 @@ export type SeoLandingPage = {
   metaTitle: string;
   description: string;
   intro: string;
-  filter: { type?: PositionType; program?: string };
+  filter: { type?: PositionType; discipline?: string; program?: string };
   primaryHref: string;
   primaryLabel: string;
   guideTitle: string;
@@ -19,6 +19,31 @@ export type SeoLandingPage = {
 };
 
 export const seoLandingPages: SeoLandingPage[] = [
+  {
+    segments: ["posizioni", "psicologia"],
+    path: "/posizioni/psicologia",
+    kind: "positions",
+    shortLabel: "Psicologia",
+    title: "Posizioni accademiche in Psicologia in Italia",
+    metaTitle: "Posizioni in Psicologia: bandi accademici aperti",
+    description: "Trova posizioni accademiche aperte in Psicologia in Italia, con argomento della ricerca, settore scientifico, sede, scadenza e fonte ufficiale.",
+    intro: "Una vista dedicata alle opportunita classificate come Psicologia tramite settore scientifico o tema esplicito nelle fonti MUR. Confronta argomento, SSD, sede e scadenza prima di aprire il bando ufficiale.",
+    filter: { discipline: "Psicologia" },
+    primaryHref: "/posizioni/?discipline=Psicologia",
+    primaryLabel: "Vedi tutte le posizioni in Psicologia",
+    guideTitle: "Come valutare una posizione in Psicologia",
+    guide: [
+      "Leggi insieme titolo e sintesi per capire l’argomento specifico della ricerca.",
+      "Controlla il settore scientifico-disciplinare: distingue, per esempio, psicometria, psicologia clinica, sociale e neuroscienze cognitive.",
+      "Verifica requisiti, durata, importo e modalita di candidatura nella fonte ufficiale."
+    ],
+    faqs: [
+      { question: "Quali posizioni compaiono in questa pagina?", answer: "Le opportunita che il radar classifica come Psicologia usando il settore scientifico ufficiale o un tema psicologico esplicito nella fonte MUR." },
+      { question: "Posso distinguere le diverse aree della Psicologia?", answer: "Si. Ogni scheda mostra il settore scientifico quando disponibile, oltre al titolo e alla sintesi del progetto." },
+      { question: "Dove posso verificare il bando completo?", answer: "Ogni opportunita collega la fonte ufficiale MUR o dell’ente, che resta il riferimento per requisiti e candidatura." }
+    ],
+    keywords: ["posizioni psicologia universita", "bandi psicologia ricerca", "postdoc psicologia Italia", "ricerca psicologia Italia"]
+  },
   {
     segments: ["posizioni", "dottorati"],
     path: "/posizioni/dottorati",

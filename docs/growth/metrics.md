@@ -1,5 +1,7 @@
 ## Baseline
 
+7 ottobre 2026 — Baseline prodotto: 13 opportunità Psicologia aperte in quattro tipologie; percorso dedicato 0→1, collegamento homepage 0→1 e otto risultati recenti con SSD quando disponibile. Revisione GSC: ultimo intervallo consolidato disponibile 23–29 settembre, 61 impression e 1 clic; Postdoc 30/0, posizione 5,73; Dottorati 26/1, posizione 8,73. Non è disponibile oggi una seconda finestra adiacente di sette giorni: `query_search_analytics` restituisce `INVALID_ARGUMENT`, quindi non si dichiarano crescita settimanale, visibilità della nuova landing o andamento non-brand. Copertura nota al 4 ottobre: 3 pagine indicizzate e 609 non indicizzate.
+
 6 ottobre 2026 — Metrica tecnica: il settore scientifico passa dalla riga finale a sotto il titolo nelle card dei risultati. Filtro Psicologia live: 13 risultati. Nessuna nuova misura GSC né effetto su traffico/indicizzazione attribuito.
 5 ottobre 2026 — Baseline qualità tassonomia: categoria aggregata 170 record → Psicologia 35 e «Filosofia, storia, lingue e pedagogia» 135; sulle 681 opportunità aperte, 13 e 66 rispettivamente. Il filtro Psicologia passa da assente a presente. Nessun nuovo dato di traffico o effetto SEO attribuito; baseline GSC del 4 ottobre invariata: 3 pagine indicizzate, 609 non indicizzate.
 
