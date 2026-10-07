@@ -1,5 +1,7 @@
 # Research Radar Italy — Audit iniziale
 
+7 ottobre 2026 — Revisione settimanale: il catalogo corrente contiene 709 opportunità aperte e 13 posizioni classificate Psicologia tramite tassonomia verificata, distribuite in quattro tipologie. Il rilascio del 6 ottobre rende il SSD leggibile nelle card. Manca però un percorso pubblico dedicato che unisca argomento, SSD e tipologia: scelta una landing Psicologia generata dagli stessi dati, collegata dalla homepage e protetta da audit statico. Nessuna nuova misura GSC disponibile: il connettore restituisce `INVALID_ARGUMENT`; resta valida la baseline del 4 ottobre (3 pagine indicizzate, 609 non indicizzate).
+
 6 ottobre 2026 — Verifica live del filtro Psicologia: 13 risultati e classificazione visibile; nelle card il SSD ufficiale era dopo ente e sede, poco leggibile a colpo d’occhio. Spostato sotto il titolo con etichetta esplicita, mantenendo il riepilogo come indicazione del tema.
 5 ottobre 2026 — Audit retroattivo della tassonomia: 170 record erano raccolti sotto «Filosofia, storia, lingue, pedagogia e psicologia». Il prefisso SSD ufficiale identifica senza inferenze 35 record `PSIC-*`; tra le 681 opportunità aperte sono 13, mentre 66 appartengono alle altre discipline del gruppo. Scelto di separare Psicologia nei dati, nel normalizzatore e nei filtri, rinominando il gruppo residuo senza creare landing o classificazioni non verificabili.
 
