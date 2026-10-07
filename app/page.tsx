@@ -33,7 +33,7 @@ function buildHomeStructuredData() {
         logo: absoluteUrl("/icon-192.png"),
         description: "Research Radar Italy aggrega opportunita accademiche, posizioni di ricerca e funding call in Italia da fonti ufficiali.",
         areaServed: { "@type": "Country", name: "Italia" },
-        knowsAbout: ["Bandi MUR", "Dottorati", "Postdoc", "Contratti di ricerca", "PRIN", "MSCA", "ERC"]
+        knowsAbout: ["Bandi MUR", "Psicologia", "Dottorati", "Postdoc", "Contratti di ricerca", "PRIN", "MSCA", "ERC"]
       },
       {
         "@type": "WebSite",
