@@ -1,5 +1,7 @@
 # Decision log
 
+7 ottobre 2026 — Creare un solo percorso Psicologia curato dalla tassonomia esistente, senza moltiplicare landing per singolo SSD. Esporre tipologie e conteggi dinamici, mantenere l’argomento nella sintesi e il settore ufficiale nei risultati. Non reinviare le cinque schede prioritarie prima dei 7–10 giorni concordati e non attribuire effetti di indicizzazione alla nuova pagina.
+
 6 ottobre 2026 — Mostrare il SSD ufficiale subito dopo il titolo della card, prima della sintesi. Per valore assente mostrare «non disponibile nella scheda»; nessuna disciplina o argomento inferito. Conservare area nel badge e tema nel riepilogo.
 5 ottobre 2026 — Separare Psicologia usando come segnale prioritario il prefisso SSD ufficiale `PSIC-*`; accettare il fallback testuale solo per termini psicologici espliciti. Rinominare il gruppo residuo «Filosofia, storia, lingue e pedagogia» e aggiungere Psicologia ai filtri. Non riclassificare per analogia, non creare nuove landing e lasciare i casi ambigui alla regola esistente o a «Altro / interdisciplinare».
 
