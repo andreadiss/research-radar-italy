@@ -177,14 +177,14 @@
     "program": "PRIN",
     "funder": "MUR",
     "discipline": "Tutte le discipline",
-    "deadline": "2026-06-04",
-    "deadlineStatus": "expired",
+    "deadline": "monitoraggio fonte",
+    "deadlineStatus": "unknown",
     "publishedAt": "2026-04-17",
     "sourceName": "Portale PRIN MUR/Cineca",
     "sourceUrl": "https://prin.mur.gov.it/Iniziative/Detail?key=jZ2ltVjfZK67XID5zZ2xJw%3D%3D",
     "eligibility": "PI e responsabili di unita tramite credenziali Loginmiur, secondo il Bando PRIN 2026 HYBRID",
-    "summary": "Bando PRIN 2026 HYBRID - Decreto direttoriale n. 2610 del 17 aprile 2026. Presentazione domande dalle 15:00 del 20 aprile alle 15:00 del 4 giugno 2026.",
-    "status": "closed",
+    "summary": "Bando PRIN 2026 HYBRID - Decreto direttoriale n. 2610 del 17 aprile 2026. Finestra di candidatura da verificare sul portale PRIN.",
+    "status": "source_monitoring",
     "sourceType": "official_call",
     "firstSeenAt": "2026-04-17"
   }
