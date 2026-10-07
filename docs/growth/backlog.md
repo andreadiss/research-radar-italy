@@ -1,5 +1,7 @@
 ## Prioritized backlog
 
+7 ottobre 2026 — **P1 percorso Psicologia** (Impact 8, Confidence 9, Effort 4, Risk 2): landing unica basata sulla tassonomia verificata, con 13 opportunità aperte, quattro percorsi per tipologia, SSD nei risultati e link dalla homepage. Successivo: misurare le sintesi che non comunicano un argomento specifico e migliorare solo i gruppi supportati da fonti verificabili.
+
 6 ottobre 2026 — P1 UX card: settore scientifico accanto al titolo (Impact 6, Confidence 8, Effort 2, Risk 1). Baseline: il SSD era in fondo alla card. Seguito: audit delle sintesi che non esprimono un tema specifico, senza deduzioni.
 5 ottobre 2026 — **SHIPPED / P1 tassonomia Psicologia** (Impact 8, Confidence 9, Effort 3, Risk 2): separare i record con SSD ufficiale `PSIC-*`, aggiungere il filtro dedicato e rinominare il gruppo residuo. Baseline: 35 record Psicologia totali, 13 aperti; 135 record nel gruppo umanistico residuo, 66 aperti. Successivo: misurare e rendere visibile l’argomento specifico nelle card senza dedurlo da testi ambigui.
 
