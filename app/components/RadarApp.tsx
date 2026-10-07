@@ -58,6 +58,7 @@ const subjectChips: SubjectChip[] = [
 ];
 
 const popularSearches = [
+  { path: "/posizioni/psicologia", label: "Psicologia" },
   { path: "/posizioni/dottorati", label: "Dottorati" },
   { path: "/posizioni/postdoc", label: "Postdoc" },
   { path: "/posizioni/contratti-di-ricerca", label: "Contratti di ricerca" },
@@ -930,7 +931,6 @@ function normalizeText(value: string) {
     .replace(/[\u0300-\u036f]/g, "")
     .toLowerCase();
 }
-
 
 
 
