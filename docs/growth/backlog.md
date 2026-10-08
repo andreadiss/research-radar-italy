@@ -1,5 +1,7 @@
 ## Prioritized backlog
 
+8 ottobre 2026 — **P1 chiarezza tema Postdoc Udine** (Impact 6, Confidence 9, Effort 2, Risk 1): riepiloghi tematici verificati per tre schede con etichetta generica, senza modificare gli altri 56 testi brevi. Prossimo: valutare i gruppi amministrativi Firenze solo dopo verifica di titoli tematici nelle fonti complete.
+
 7 ottobre 2026 — **P1 percorso Psicologia** (Impact 8, Confidence 9, Effort 4, Risk 2): landing unica basata sulla tassonomia verificata, con 13 opportunità aperte, quattro percorsi per tipologia, SSD nei risultati e link dalla homepage. Successivo: misurare le sintesi che non comunicano un argomento specifico e migliorare solo i gruppi supportati da fonti verificabili.
 
 6 ottobre 2026 — P1 UX card: settore scientifico accanto al titolo (Impact 6, Confidence 8, Effort 2, Risk 1). Baseline: il SSD era in fondo alla card. Seguito: audit delle sintesi che non esprimono un tema specifico, senza deduzioni.
