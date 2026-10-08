@@ -1,5 +1,7 @@
 ## Experiment opportunities
 
+8 ottobre 2026 — Miglioramento diretto, non A/B test: sostituire il solo ruolo generico nelle tre schede Udine con un riepilogo composto da campi ufficiali. Gate: titolo non amministrativo, tipo Postdoc, riepilogo esatto «Incarico post-doc» e test negativo sui titoli generici.
+
 7 ottobre 2026 — Miglioramento di architettura informativa, non A/B test: rendere Psicologia raggiungibile da homepage e landing dedicata, mantenendo filtri, SSD e fonte verificabile. Osservare in futuro impression/clic della URL e utilizzo dei filtri solo quando i volumi e l’accesso GSC lo consentiranno; nessuna richiesta manuale massiva di indicizzazione.
 
 6 ottobre 2026 — Miglioramento UX diretto, senza A/B test: etichetta SSD vicino al titolo nelle card, con fallback dichiarato quando il campo manca. Verificare leggibilità desktop/mobile e assenza di regressioni; outcome utente da misurare quando disponibile.

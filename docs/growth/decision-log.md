@@ -1,5 +1,7 @@
 # Decision log
 
+8 ottobre 2026 — Estendere il fallback contestuale esclusivamente ai Postdoc con riepilogo esatto «Incarico post-doc» e titolo tematico non amministrativo. Non riscrivere automaticamente tutte le sintesi brevi e non dedurre argomenti oltre titolo e SSD acquisiti dalla fonte MUR.
+
 7 ottobre 2026 — Creare un solo percorso Psicologia curato dalla tassonomia esistente, senza moltiplicare landing per singolo SSD. Esporre tipologie e conteggi dinamici, mantenere l’argomento nella sintesi e il settore ufficiale nei risultati. Non reinviare le cinque schede prioritarie prima dei 7–10 giorni concordati e non attribuire effetti di indicizzazione alla nuova pagina.
 
 6 ottobre 2026 — Mostrare il SSD ufficiale subito dopo il titolo della card, prima della sintesi. Per valore assente mostrare «non disponibile nella scheda»; nessuna disciplina o argomento inferito. Conservare area nel badge e tema nel riepilogo.
