@@ -1,5 +1,7 @@
 # Research Radar Italy — Audit iniziale
 
+8 ottobre 2026 — Il percorso Psicologia resta live dopo i sync ordinari. Nel catalogo corrente risultano 736 opportunità aperte e 59 sintesi sotto 140 caratteri; solo tre formano un gruppo omogeneo ad alta confidenza: Postdoc Udine con riepilogo identico «Incarico post-doc», titolo tematico e SSD presenti nella fonte MUR. Scelto un fallback limitato che riusa tipo, ente, SSD, titolo e scadenza verificati.
+
 7 ottobre 2026 — Revisione settimanale: il catalogo corrente contiene 709 opportunità aperte e 13 posizioni classificate Psicologia tramite tassonomia verificata, distribuite in quattro tipologie. Il rilascio del 6 ottobre rende il SSD leggibile nelle card. Manca però un percorso pubblico dedicato che unisca argomento, SSD e tipologia: scelta una landing Psicologia generata dagli stessi dati, collegata dalla homepage e protetta da audit statico. Nessuna nuova misura GSC disponibile: il connettore restituisce `INVALID_ARGUMENT`; resta valida la baseline del 4 ottobre (3 pagine indicizzate, 609 non indicizzate).
 
 6 ottobre 2026 — Verifica live del filtro Psicologia: 13 risultati e classificazione visibile; nelle card il SSD ufficiale era dopo ente e sede, poco leggibile a colpo d’occhio. Spostato sotto il titolo con etichetta esplicita, mantenendo il riepilogo come indicazione del tema.
