@@ -112,6 +112,37 @@ test("adds context to a substantive title-only summary", () => {
   );
 });
 
+test("replaces a bare postdoc label with its verified topic and sector", () => {
+  const position = applyVerifiedPositionEnrichment({
+    id: "mur-postdoc-assignments-udine",
+    title: "Developing chromosome transplant technologies towards universal cell therapies”",
+    institution: "Università degli Studi di Udine",
+    positionType: "Postdoc",
+    ssd: "BIOS-07/A - Biochimica",
+    deadline: "2026-10-20",
+    summary: "Incarico post-doc"
+  });
+
+  assert.equal(
+    position.summary,
+    "Postdoc presso Università degli Studi di Udine nel settore BIOS-07/A - Biochimica sul tema “Developing chromosome transplant technologies towards universal cell therapies”. Scadenza per le candidature: 20 ottobre 2026."
+  );
+});
+
+test("does not replace a bare postdoc label when the title is administrative", () => {
+  const position = {
+    id: "mur-postdoc-assignments-generic",
+    title: "Selezione pubblica per incarichi post-doc",
+    institution: "Università di Esempio",
+    positionType: "Postdoc",
+    ssd: "BIOS-07/A - Biochimica",
+    deadline: "2026-10-20",
+    summary: "Incarico post-doc"
+  };
+
+  assert.equal(applyVerifiedPositionEnrichment(position), position);
+});
+
 test("replaces Bicocca postdoc boilerplate with sector and duration", () => {
   const position = applyVerifiedPositionEnrichment({
     id: "mur-postdoc-assignments-316864",
@@ -178,5 +209,20 @@ test("the verified Bicocca postdoc group retains distinct context after sync", (
   assert.equal(affected.length, 5, "dataset must retain the verified Bicocca group");
   assert.ok(affected.map(applyVerifiedPositionEnrichment).every((position) =>
     position.summary.includes(position.ssd) && position.summary.includes(position.duration)
+  ));
+});
+
+test("bare postdoc summaries retain verified topic context after sync", () => {
+  const positions = JSON.parse(
+    fs.readFileSync(new URL("../lib/generated/mur-positions.json", import.meta.url), "utf8")
+  );
+  const affected = positions.filter((position) =>
+    position.positionType === "Postdoc" &&
+    /^incarico post-doc$/i.test(String(position.summary ?? "").trim())
+  );
+
+  assert.equal(affected.length, 3, "dataset must retain the verified bare-summary group");
+  assert.ok(affected.map(applyVerifiedPositionEnrichment).every((position) =>
+    position.summary.includes(position.title) && position.summary.includes(position.ssd)
   ));
 });
