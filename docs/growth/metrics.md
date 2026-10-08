@@ -1,5 +1,7 @@
 ## Baseline
 
+8 ottobre 2026 — Catalogo: 736 opportunità aperte, 59 sintesi sotto 140 caratteri. Riepiloghi ridotti al solo ruolo «Incarico post-doc»: 3→0 dopo il fallback contestuale; ogni nuovo testo conserva titolo, SSD, ente e scadenza MUR. Nessuna nuova estrazione GSC e nessun effetto su traffico attribuito.
+
 7 ottobre 2026 — Baseline prodotto: 13 opportunità Psicologia aperte in quattro tipologie; percorso dedicato 0→1, collegamento homepage 0→1 e otto risultati recenti con SSD quando disponibile. Revisione GSC: ultimo intervallo consolidato disponibile 23–29 settembre, 61 impression e 1 clic; Postdoc 30/0, posizione 5,73; Dottorati 26/1, posizione 8,73. Non è disponibile oggi una seconda finestra adiacente di sette giorni: `query_search_analytics` restituisce `INVALID_ARGUMENT`, quindi non si dichiarano crescita settimanale, visibilità della nuova landing o andamento non-brand. Copertura nota al 4 ottobre: 3 pagine indicizzate e 609 non indicizzate.
 
 6 ottobre 2026 — Metrica tecnica: il settore scientifico passa dalla riga finale a sotto il titolo nelle card dei risultati. Filtro Psicologia live: 13 risultati. Nessuna nuova misura GSC né effetto su traffico/indicizzazione attribuito.
