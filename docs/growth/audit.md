@@ -1,6 +1,6 @@
 # Research Radar Italy — Audit iniziale
 
-9 ottobre 2026 — Revisione Next Best Actions sulla homepage: due card impilate in un carosello alto circa 352 px; la prima è un link alla stessa homepage e la seconda è parzialmente coperta. Diagnosi visiva sul sito live; intervento proposto: due card esplicite, entrambe visibili, con un percorso reale all’indice e la condivisione invariata. Nessun nuovo dato GSC o effetto traffico osservato.
+9 ottobre 2026 — Su feedback dell’utente, la proposta NBA è ridotta a un banner compatto con solo invito alla condivisione e un pulsante. Eliminati carosello, self-link e percorso aggiuntivo all’indice dalla proposta. Il sito live resta invariato fino ad approvazione e deploy; nessuna nuova misura traffico.
 
 9 ottobre 2026 — Export GSC Web fino al 6 ottobre: 25 clic/312 impression dal 7 luglio; 23–29 settembre 1/61 contro 30 settembre–6 ottobre 9/155. Pagine esportate: Postdoc 2/86, RTT 3/64, Dottorati 2/60; tre schede richieste il 4 ottobre hanno complessivamente 5 impression e 0 clic. La tabella Query mostra solo 1/25 clic, quindi non permette attribuzione completa per intenzione o brand. Nella landing Postdoc le otto anteprime mostravano titolo e metadati senza sintesi del progetto; il riepilogo ufficiale è già disponibile nelle relative schede. GSC Wizard restituisce payment_required (prova scaduta); nessuna nuova misura della copertura indice.
 
