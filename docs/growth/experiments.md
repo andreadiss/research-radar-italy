@@ -1,5 +1,7 @@
 ## Experiment opportunities
 
+9 ottobre 2026 — Intervento UX diretto, senza A/B test: card NBA affiancate, titoli e CTA espliciti, nessun carosello o illustrazione dominante. Gate: link indice corretto, dialogo di condivisione funzionante, focus visibile e layout mobile; futura card editoriale usa la stessa struttura solo con contenuto e URL verificati. Outcome da osservare con dati disponibili: accesso all’indice, visite a opportunità e ritorni; nessun volume sufficiente per confronto causale.
+
 9 ottobre 2026 — Miglioramento diretto di contenuto e orientamento nella landing Postdoc, senza A/B test: mostrare la sintesi verificata accanto al titolo delle otto opportunità recenti. Guardrail: nessun testo inventato; omettere la sintesi se coincide con il titolo; mantenere CTA, filtro e URL invariati. Osservare impression/clic delle landing su finestre confrontabili e accessi alle schede quando disponibili; il confronto 1/61→9/155 precede questo intervento.
 
 8 ottobre 2026 — Miglioramento diretto, non A/B test: sostituire il solo ruolo generico nelle tre schede Udine con un riepilogo composto da campi ufficiali. Gate: titolo non amministrativo, tipo Postdoc, riepilogo esatto «Incarico post-doc» e test negativo sui titoli generici.

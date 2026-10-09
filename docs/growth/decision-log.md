@@ -1,5 +1,7 @@
 # Decision log
 
+9 ottobre 2026 — Direzione prodotto: P0 traffico qualificato e utilità delle opportunità. Ridisegnare le card Next Best Actions esistenti eliminando il link alla homepage e la sovrapposizione; mantenere due azioni reali e un pattern estendibile a «next best content» senza pubblicare placeholder. La parte editoriale sul job market e la transizione accademia→azienda richiedono fonti e contenuti originali; la community resta una fase successiva con approvazioni specifiche per dati, accessi e moderazione. Questo redesign visibile viene presentato in PR per revisione prima del merge.
+
 9 ottobre 2026 — Il nuovo export mostra crescita osservata di clic e impression nelle finestre 23–29 settembre e 30 settembre–6 ottobre, ma non consente attribuzione causale. Priorità a una migliore scelta delle opportunità sulla landing Postdoc, che riceve 86 impression nei tre mesi ma omette il riepilogo nelle anteprime; i riepiloghi burocratici RTT richiedono prima un audit dei dati. Nessuna richiesta manuale massiva di indicizzazione, nessuna nuova landing basata su query con pochi dati; revisione del campione indice dal 14 ottobre. GSC Wizard richiede ora abbonamento: usare export utente senza attivare spese.
 
 8 ottobre 2026 — Estendere il fallback contestuale esclusivamente ai Postdoc con riepilogo esatto «Incarico post-doc» e titolo tematico non amministrativo. Non riscrivere automaticamente tutte le sintesi brevi e non dedurre argomenti oltre titolo e SSD acquisiti dalla fonte MUR.

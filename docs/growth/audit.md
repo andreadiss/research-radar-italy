@@ -1,5 +1,7 @@
 # Research Radar Italy — Audit iniziale
 
+9 ottobre 2026 — Revisione Next Best Actions sulla homepage: due card impilate in un carosello alto circa 352 px; la prima è un link alla stessa homepage e la seconda è parzialmente coperta. Diagnosi visiva sul sito live; intervento proposto: due card esplicite, entrambe visibili, con un percorso reale all’indice e la condivisione invariata. Nessun nuovo dato GSC o effetto traffico osservato.
+
 9 ottobre 2026 — Export GSC Web fino al 6 ottobre: 25 clic/312 impression dal 7 luglio; 23–29 settembre 1/61 contro 30 settembre–6 ottobre 9/155. Pagine esportate: Postdoc 2/86, RTT 3/64, Dottorati 2/60; tre schede richieste il 4 ottobre hanno complessivamente 5 impression e 0 clic. La tabella Query mostra solo 1/25 clic, quindi non permette attribuzione completa per intenzione o brand. Nella landing Postdoc le otto anteprime mostravano titolo e metadati senza sintesi del progetto; il riepilogo ufficiale è già disponibile nelle relative schede. GSC Wizard restituisce payment_required (prova scaduta); nessuna nuova misura della copertura indice.
 
 8 ottobre 2026 — Il percorso Psicologia resta live dopo i sync ordinari. Nel catalogo corrente risultano 736 opportunità aperte e 59 sintesi sotto 140 caratteri; solo tre formano un gruppo omogeneo ad alta confidenza: Postdoc Udine con riepilogo identico «Incarico post-doc», titolo tematico e SSD presenti nella fonte MUR. Scelto un fallback limitato che riusa tipo, ente, SSD, titolo e scadenza verificati.
