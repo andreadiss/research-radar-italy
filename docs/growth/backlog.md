@@ -1,5 +1,7 @@
 ## Prioritized backlog
 
+9 ottobre 2026 — **P1 tema nelle anteprime Postdoc** (Impact 7, Confidence 8, Effort 2, Risk 1): aggiungere il riepilogo già presente nella scheda alle otto anteprime della landing Postdoc, evitando di ripetere il titolo. Misurare la copertura nel build statico. Roadmap: mantenere la verifica del campione indice dal 14 ottobre, quando sarà trascorsa la finestra di 7–10 giorni; dopo il rilascio valutare snippet/intent delle landing Postdoc e RTT e la leggibilità mobile. I 9 clic della nuova settimana non giustificano A/B test o pubblicazione massiva di nuove pagine.
+
 8 ottobre 2026 — **P1 chiarezza tema Postdoc Udine** (Impact 6, Confidence 9, Effort 2, Risk 1): riepiloghi tematici verificati per tre schede con etichetta generica, senza modificare gli altri 56 testi brevi. Prossimo: valutare i gruppi amministrativi Firenze solo dopo verifica di titoli tematici nelle fonti complete.
 
 7 ottobre 2026 — **P1 percorso Psicologia** (Impact 8, Confidence 9, Effort 4, Risk 2): landing unica basata sulla tassonomia verificata, con 13 opportunità aperte, quattro percorsi per tipologia, SSD nei risultati e link dalla homepage. Successivo: misurare le sintesi che non comunicano un argomento specifico e migliorare solo i gruppi supportati da fonti verificabili.
