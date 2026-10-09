@@ -1,5 +1,7 @@
 # Daily log
 
+9 ottobre 2026 — Feedback diretto: la prima proposta di due card era troppo verbosa. PR #39 aggiornata a un banner di condivisione con una CTA; layout responsive e dialogo esistente mantenuti, senza tracking aggiuntivo. La roadmap resta P0 traffico, poi contenuti job market, transizione accademia→azienda e community condizionata ad autorizzazioni. Gate tecnici rieseguiti; nessun merge/deploy prima della revisione visuale dell’utente.
+
 9 ottobre 2026 — Analizzato export Prestazioni fino al 6 ottobre: finestre uguali 1/61→9/155 clic/impression, tre schede prioritarie hanno 5 impression complessive; query incomplete e nessun dato nuovo di copertura. GSC Wizard bloccato da payment_required, trial scaduta. Lette PR aperte (nessuna) e documenti growth; scelto micro-task low risk: aggiungere nella landing Postdoc la sintesi già presente nelle schede alle otto anteprime. Verifiche e stato del rilascio nella PR/report.
 9 ottobre 2026 — Verifica del deploy: dopo i sync ordinari i tre Postdoc Udine non compaiono più nel gruppo con sintesi generica; il test introdotto il giorno prima assumeva impropriamente che il gruppo rimanesse sempre presente e bloccava Pages. Corretta solo l’asserzione di presenza del record: i test di comportamento sui campioni restano attivi. Nuovo deploy da verificare prima di dichiarare shipped la PR #37.
 

@@ -1,90 +1,14 @@
 "use client";
 
-import type { Route } from "next";
-import { BookmarkCheck, ChevronLeft, ChevronRight, Copy, Search, Send, Sparkles, Star, X } from "lucide-react";
-import { useRef, useState, type PointerEvent } from "react";
-import { TrackedLink } from "@/app/components/TrackedLink";
-import { track } from "@/lib/client-analytics";
-
-type NextBestAction = {
-  id: string;
-  title: string;
-  copy: string;
-  href: Route;
-  event: string;
-  asset: "favorite" | "share";
-  visualTitle: string;
-  visualMeta: string;
-  visualQuery: string;
-};
-
-const actions: NextBestAction[] = [
-  {
-    id: "browser-favorite",
-    title: "Tienilo a portata di mano",
-    copy: "Salva Research Radar nei preferiti del browser e torna qui quando cerchi nuovi bandi.",
-    href: "/" as Route,
-    event: "next_best_action_clicked",
-    asset: "favorite",
-    visualTitle: "Preferiti",
-    visualMeta: "Research Radar",
-    visualQuery: "ritorna in un tap"
-  },
-  {
-    id: "share-colleagues",
-    title: "Condividilo con il tuo gruppo",
-    copy: "Mandalo a colleghi, dottorandi o lab: aiuta tutti a non perdere nuove call.",
-    href: "/" as Route,
-    event: "next_best_action_clicked",
-    asset: "share",
-    visualTitle: "Lab update",
-    visualMeta: "nuove call",
-    visualQuery: "inoltra ai colleghi"
-  }
-];
+import { Copy, Send, X } from "lucide-react";
+import { useRef, useState } from "react";
 
 export function NextBestActions() {
   const shareInputRef = useRef<HTMLInputElement>(null);
-  const pointerStartX = useRef<number | null>(null);
-  const [activeIndex, setActiveIndex] = useState(0);
   const [shareOpen, setShareOpen] = useState(false);
   const [copied, setCopied] = useState(false);
 
-  const orderedActions = actions.map((_, offset) => {
-    const index = (activeIndex + offset) % actions.length;
-    return {
-      action: actions[index],
-      originalIndex: index
-    };
-  });
-
-  function scrollActions(direction: "left" | "right") {
-    const nextIndex = direction === "right"
-      ? Math.min(activeIndex + 1, actions.length - 1)
-      : Math.max(activeIndex - 1, 0);
-
-    setActiveIndex(nextIndex);
-  }
-
-  function handlePointerStart(event: PointerEvent<HTMLDivElement>) {
-    pointerStartX.current = event.clientX;
-  }
-
-  function handlePointerEnd(event: PointerEvent<HTMLDivElement>) {
-    if (pointerStartX.current === null) return;
-
-    const deltaX = event.clientX - pointerStartX.current;
-    pointerStartX.current = null;
-
-    if (Math.abs(deltaX) < 36) return;
-    scrollActions(deltaX < 0 ? "right" : "left");
-  }
-
   function openShareModal() {
-    track("next_best_action_clicked", {
-      action_id: "share-colleagues",
-      position: activeIndex + 1
-    });
     setCopied(false);
     setShareOpen(true);
   }
@@ -97,103 +21,27 @@ export function NextBestActions() {
       shareInputRef.current?.select();
       document.execCommand("copy");
     }
-    track("share_link_copied", { share_url: shareUrl });
     setCopied(true);
   }
 
   return (
-    <section className="next-best-actions" aria-label="Azioni consigliate">
-      <button
-        aria-label="Mostra azione precedente"
-        className="next-best-arrow next-best-arrow-left"
-        onClick={() => scrollActions("left")}
-        type="button"
-      >
-        <ChevronLeft size={17} />
-      </button>
-      <div
-        className="next-best-track"
-        onPointerDown={handlePointerStart}
-        onPointerUp={handlePointerEnd}
-      >
-        {orderedActions.map(({ action, originalIndex }, index) => {
-          const cardContent = (
-            <>
-              <span className={`next-best-asset asset-${action.asset}`} aria-hidden="true">
-                <span className="asset-glow" />
-                <span className="asset-window asset-window-main">
-                  <span />
-                  <strong>{action.visualTitle}</strong>
-                  <small>{action.visualMeta}</small>
-                </span>
-                <span className="asset-window asset-window-secondary">
-                  {action.asset === "share" ? <Send size={16} /> : <Search size={16} />}
-                  <span>{action.visualQuery}</span>
-                </span>
-                <span className="asset-token asset-token-bookmark">
-                  {action.asset === "favorite" ? <Star size={17} /> : <BookmarkCheck size={17} />}
-                </span>
-                <span className="asset-token asset-token-spark">
-                  <Sparkles size={15} />
-                </span>
-              </span>
-              <span className="next-best-copy">
-                <small>Prossima azione</small>
-                <strong>{action.title}</strong>
-                <span>{action.copy}</span>
-              </span>
-            </>
-          );
-
-          return action.asset === "share" ? (
-            <button
-              className={`next-best-card next-best-card-button${index === 0 ? " is-active" : ""}`}
-              key={action.id}
-              onClick={openShareModal}
-              type="button"
-            >
-              {cardContent}
-            </button>
-          ) : (
-            <TrackedLink
-              className={`next-best-card${index === 0 ? " is-active" : ""}`}
-              event={action.event}
-              href={action.href}
-              key={action.id}
-              properties={{ action_id: action.id, position: originalIndex + 1 }}
-            >
-              {cardContent}
-            </TrackedLink>
-          );
-        })}
+    <section className="next-best-actions" aria-label="Condividi Research Radar">
+      <div className="next-best-banner">
+        <span className="next-best-icon" aria-hidden="true"><Send size={22} /></span>
+        <strong>Passa il radar al tuo gruppo</strong>
+        <button className="next-best-share-button" onClick={openShareModal} type="button">
+          Condividi
+        </button>
       </div>
-      <button
-        aria-label="Mostra azione successiva"
-        className="next-best-arrow next-best-arrow-right"
-        onClick={() => scrollActions("right")}
-        type="button"
-      >
-        <ChevronRight size={17} />
-      </button>
       {shareOpen ? (
         <div className="preview-overlay" role="dialog" aria-modal="true" aria-labelledby="share-modal-title">
           <div className="preview-card share-modal-card">
             <button className="modal-close" onClick={() => setShareOpen(false)} type="button" aria-label="Chiudi">
               <X size={18} />
             </button>
-            <span className="preview-kicker">Condividi Research Radar</span>
-            <h2 id="share-modal-title">Passa il radar al tuo gruppo</h2>
-            <p>
-              Copia il link e invialo a colleghi, dottorandi o persone del tuo lab che stanno cercando opportunita
-              accademiche in Italia.
-            </p>
+            <h2 id="share-modal-title">Condividi Research Radar</h2>
             <div className="share-link-box">
-              <input
-                aria-label="Link da condividere"
-                readOnly
-                ref={shareInputRef}
-                value={typeof window === "undefined" ? "https://rritaly.com" : window.location.origin}
-              />
+              <input aria-label="Link da condividere" readOnly ref={shareInputRef} value={typeof window === "undefined" ? "https://rritaly.com" : window.location.origin} />
               <button className="button primary" onClick={copyShareLink} type="button">
                 <Copy size={16} />
                 {copied ? "Copiato" : "Copia link"}

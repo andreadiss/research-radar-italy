@@ -1,5 +1,7 @@
 # Decision log
 
+9 ottobre 2026 — Feedback dell’utente sul redesign: troppo testo e troppe azioni. Scelta aggiornata: un solo banner compatto che invita a condividere Research Radar, con una sola CTA; nessun link all’indice nel banner. La futura card di contenuto rimane in roadmap ma non viene introdotta ora. PR #39 aggiornata e ancora senza merge/deploy; priorità P0 al traffico qualificato con evidenze, non al volume di componenti.
+
 9 ottobre 2026 — Il nuovo export mostra crescita osservata di clic e impression nelle finestre 23–29 settembre e 30 settembre–6 ottobre, ma non consente attribuzione causale. Priorità a una migliore scelta delle opportunità sulla landing Postdoc, che riceve 86 impression nei tre mesi ma omette il riepilogo nelle anteprime; i riepiloghi burocratici RTT richiedono prima un audit dei dati. Nessuna richiesta manuale massiva di indicizzazione, nessuna nuova landing basata su query con pochi dati; revisione del campione indice dal 14 ottobre. GSC Wizard richiede ora abbonamento: usare export utente senza attivare spese.
 
 8 ottobre 2026 — Estendere il fallback contestuale esclusivamente ai Postdoc con riepilogo esatto «Incarico post-doc» e titolo tematico non amministrativo. Non riscrivere automaticamente tutte le sintesi brevi e non dedurre argomenti oltre titolo e SSD acquisiti dalla fonte MUR.
