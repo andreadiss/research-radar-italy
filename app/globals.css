@@ -2407,6 +2407,16 @@ select {
   font-size: 15px;
 }
 
+.seo-result-summary {
+  color: var(--ink);
+  display: -webkit-box;
+  font-size: 13px;
+  line-height: 1.45;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
 .seo-result-link small {
   color: var(--muted);
   font-size: 12px;

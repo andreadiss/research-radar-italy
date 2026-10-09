@@ -1,5 +1,7 @@
 # Decision log
 
+9 ottobre 2026 — Il nuovo export mostra crescita osservata di clic e impression nelle finestre 23–29 settembre e 30 settembre–6 ottobre, ma non consente attribuzione causale. Priorità a una migliore scelta delle opportunità sulla landing Postdoc, che riceve 86 impression nei tre mesi ma omette il riepilogo nelle anteprime; i riepiloghi burocratici RTT richiedono prima un audit dei dati. Nessuna richiesta manuale massiva di indicizzazione, nessuna nuova landing basata su query con pochi dati; revisione del campione indice dal 14 ottobre. GSC Wizard richiede ora abbonamento: usare export utente senza attivare spese.
+
 8 ottobre 2026 — Estendere il fallback contestuale esclusivamente ai Postdoc con riepilogo esatto «Incarico post-doc» e titolo tematico non amministrativo. Non riscrivere automaticamente tutte le sintesi brevi e non dedurre argomenti oltre titolo e SSD acquisiti dalla fonte MUR.
 
 7 ottobre 2026 — Creare un solo percorso Psicologia curato dalla tassonomia esistente, senza moltiplicare landing per singolo SSD. Esporre tipologie e conteggi dinamici, mantenere l’argomento nella sintesi e il settore ufficiale nei risultati. Non reinviare le cinque schede prioritarie prima dei 7–10 giorni concordati e non attribuire effetti di indicizzazione alla nuova pagina.

@@ -88,6 +88,7 @@ export default function SeoLandingRoute({ params }: PageProps) {
               {items.slice(0, 8).map((item) => (
                 <Link className="seo-result-link" href={item.href as Route} key={item.href}>
                   <strong>{item.title}</strong>
+                  {item.summary ? <span className="seo-result-summary">{item.summary}</span> : null}
                   <small>{item.meta}</small>
                 </Link>
               ))}
@@ -285,6 +286,9 @@ function landingItems(page: SeoLandingPage) {
       .map((position) => ({
         href: `/positions/${position.id}`,
         title: positionTitleContext(position, openPositions).heading,
+        summary: page.path === "/posizioni/postdoc" && position.summary.trim() !== position.title.trim()
+          ? position.summary
+          : null,
         meta: [
           position.institution,
           position.discipline,
@@ -299,6 +303,7 @@ function landingItems(page: SeoLandingPage) {
     .map((grant) => ({
       href: `/grants/${grant.id}`,
       title: grant.title,
+      summary: null,
       meta: `${grant.funder} - ${grant.discipline} - scadenza ${formatDate(grant.deadline)}`
     }));
 }
