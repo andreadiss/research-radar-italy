@@ -1,5 +1,7 @@
 # Research Radar Italy — Audit iniziale
 
+10 ottobre 2026 — Dopo il rilascio del banner #39, individuato un falso feedback: il dialogo indicava «Copiato» anche quando la Clipboard API falliva e il fallback `execCommand` restituiva `false`. Correzione limitata alla conferma dell'esito e a un'istruzione manuale in caso di fallimento; banner, URL e tracking invariati.
+
 9 ottobre 2026 — Su feedback dell’utente, la proposta NBA è ridotta a un banner compatto con solo invito alla condivisione e un pulsante. Eliminati carosello, self-link e percorso aggiuntivo all’indice dalla proposta. Il sito live resta invariato fino ad approvazione e deploy; nessuna nuova misura traffico.
 
 9 ottobre 2026 — Export GSC Web fino al 6 ottobre: 25 clic/312 impression dal 7 luglio; 23–29 settembre 1/61 contro 30 settembre–6 ottobre 9/155. Pagine esportate: Postdoc 2/86, RTT 3/64, Dottorati 2/60; tre schede richieste il 4 ottobre hanno complessivamente 5 impression e 0 clic. La tabella Query mostra solo 1/25 clic, quindi non permette attribuzione completa per intenzione o brand. Nella landing Postdoc le otto anteprime mostravano titolo e metadati senza sintesi del progetto; il riepilogo ufficiale è già disponibile nelle relative schede. GSC Wizard restituisce payment_required (prova scaduta); nessuna nuova misura della copertura indice.
