@@ -36486,7 +36486,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-18T09:46:56.385Z"
+    "updatedAt": "2026-09-18T09:46:56.385Z",
+    "archivedAt": "2026-10-10T11:11:29.422Z"
   },
   {
     "id": "mur-research-assignments-316971",
@@ -36517,7 +36518,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-09T09:47:44.496Z"
+    "updatedAt": "2026-09-09T09:47:44.496Z",
+    "archivedAt": "2026-10-10T11:11:29.422Z"
   },
   {
     "id": "mur-postdoc-assignments-316975",
@@ -36548,7 +36550,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-11T09:43:02.340Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z",
+    "archivedAt": "2026-10-10T11:11:29.422Z"
   },
   {
     "id": "mur-research-contracts-317000",
@@ -36579,7 +36582,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-10T09:45:48.573Z"
+    "updatedAt": "2026-09-10T09:45:48.573Z",
+    "archivedAt": "2026-10-10T11:11:29.422Z"
   },
   {
     "id": "mur-research-contracts-317003",
@@ -36610,7 +36614,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-10T09:45:48.573Z"
+    "updatedAt": "2026-09-10T09:45:48.573Z",
+    "archivedAt": "2026-10-10T11:11:29.422Z"
   },
   {
     "id": "mur-postdoc-assignments-316978",
@@ -36641,7 +36646,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-11T09:43:02.340Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z",
+    "archivedAt": "2026-10-10T11:11:29.422Z"
   },
   {
     "id": "mur-postdoc-assignments-316979",
@@ -36672,7 +36678,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-11T09:43:02.340Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z",
+    "archivedAt": "2026-10-10T11:11:29.422Z"
   },
   {
     "id": "mur-research-assignments-317404",
@@ -36703,7 +36710,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-16T09:58:06.341Z"
+    "updatedAt": "2026-09-16T09:58:06.341Z",
+    "archivedAt": "2026-10-10T11:11:29.422Z"
   },
   {
     "id": "mur-research-assignments-317509",
@@ -36734,7 +36742,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-18T09:46:56.385Z"
+    "updatedAt": "2026-09-18T09:46:56.385Z",
+    "archivedAt": "2026-10-10T11:11:29.422Z"
   },
   {
     "id": "mur-research-assignments-317514",
@@ -36765,7 +36774,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-19T09:32:28.482Z"
+    "updatedAt": "2026-09-19T09:32:28.482Z",
+    "archivedAt": "2026-10-10T11:11:29.422Z"
   },
   {
     "id": "mur-research-assignments-317724",
@@ -36796,7 +36806,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-22T09:58:48.184Z"
+    "updatedAt": "2026-09-22T09:58:48.184Z",
+    "archivedAt": "2026-10-10T11:11:29.422Z"
   },
   {
     "id": "mur-research-assignments-317716",
@@ -36827,7 +36838,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-22T09:58:48.184Z"
+    "updatedAt": "2026-09-22T09:58:48.184Z",
+    "archivedAt": "2026-10-10T11:11:29.422Z"
   },
   {
     "id": "mur-research-assignments-317745",
@@ -36858,7 +36870,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-23T10:00:04.654Z"
+    "updatedAt": "2026-09-23T10:00:04.654Z",
+    "archivedAt": "2026-10-10T11:11:29.422Z"
   },
   {
     "id": "mur-technologists-152623",
@@ -36889,7 +36902,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-24T10:02:43.240Z"
+    "updatedAt": "2026-09-24T10:02:43.240Z",
+    "archivedAt": "2026-10-10T11:11:29.422Z"
   },
   {
     "id": "mur-research-assignments-317843",
@@ -36920,7 +36934,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-24T10:02:43.240Z"
+    "updatedAt": "2026-09-24T10:02:43.240Z",
+    "archivedAt": "2026-10-10T11:11:29.422Z"
   },
   {
     "id": "mur-research-assignments-317880",
@@ -36953,7 +36968,8 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-09-24T10:02:43.240Z"
+    "updatedAt": "2026-09-24T10:02:43.240Z",
+    "archivedAt": "2026-10-10T11:11:29.422Z"
   },
   {
     "id": "mur-research-assignments-317896",
@@ -36984,7 +37000,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-24T10:02:43.240Z"
+    "updatedAt": "2026-09-24T10:02:43.240Z",
+    "archivedAt": "2026-10-10T11:11:29.422Z"
   },
   {
     "id": "mur-research-assignments-317897",
@@ -37015,7 +37032,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-24T10:02:43.240Z"
+    "updatedAt": "2026-09-24T10:02:43.240Z",
+    "archivedAt": "2026-10-10T11:11:29.422Z"
   },
   {
     "id": "mur-postdoc-assignments-317746",
@@ -37046,7 +37064,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-24T10:02:43.240Z"
+    "updatedAt": "2026-09-24T10:02:43.240Z",
+    "archivedAt": "2026-10-10T11:11:29.422Z"
   },
   {
     "id": "mur-postdoc-assignments-317753",
@@ -37077,7 +37096,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-24T10:02:43.240Z"
+    "updatedAt": "2026-09-24T10:02:43.240Z",
+    "archivedAt": "2026-10-10T11:11:29.422Z"
   },
   {
     "id": "mur-research-contracts-317901",
@@ -37108,7 +37128,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-25T10:12:50.392Z"
+    "updatedAt": "2026-09-25T10:12:50.392Z",
+    "archivedAt": "2026-10-10T11:11:29.422Z"
   },
   {
     "id": "mur-research-assignments-317923",
@@ -37139,7 +37160,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-25T10:12:50.392Z"
+    "updatedAt": "2026-09-25T10:12:50.392Z",
+    "archivedAt": "2026-10-10T11:11:29.422Z"
   },
   {
     "id": "mur-research-assignments-317835",
@@ -37170,7 +37192,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-25T10:12:50.392Z"
+    "updatedAt": "2026-09-25T10:12:50.392Z",
+    "archivedAt": "2026-10-10T11:11:29.422Z"
   },
   {
     "id": "mur-research-assignments-317925",
@@ -37201,7 +37224,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-25T10:12:50.392Z"
+    "updatedAt": "2026-09-25T10:12:50.392Z",
+    "archivedAt": "2026-10-10T11:11:29.422Z"
   },
   {
     "id": "mur-postdoc-assignments-317821",
@@ -37232,7 +37256,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-25T10:12:50.392Z"
+    "updatedAt": "2026-09-25T10:12:50.392Z",
+    "archivedAt": "2026-10-10T11:11:29.422Z"
   },
   {
     "id": "mur-postdoc-assignments-317824",
@@ -37263,7 +37288,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-25T10:12:50.392Z"
+    "updatedAt": "2026-09-25T10:12:50.392Z",
+    "archivedAt": "2026-10-10T11:11:29.422Z"
   },
   {
     "id": "mur-postdoc-assignments-317826",
@@ -37294,7 +37320,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-25T10:12:50.392Z"
+    "updatedAt": "2026-09-25T10:12:50.392Z",
+    "archivedAt": "2026-10-10T11:11:29.422Z"
   },
   {
     "id": "mur-research-assignments-318128",
@@ -37325,7 +37352,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-29T11:22:46.042Z"
+    "updatedAt": "2026-09-29T11:22:46.042Z",
+    "archivedAt": "2026-10-10T11:11:29.422Z"
   },
   {
     "id": "mur-research-assignments-318138",
@@ -37356,7 +37384,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-29T11:22:46.042Z"
+    "updatedAt": "2026-09-29T11:22:46.042Z",
+    "archivedAt": "2026-10-10T11:11:29.422Z"
   },
   {
     "id": "mur-postdoc-assignments-318130",
@@ -37390,7 +37419,8 @@
       "unknown_region",
       "generic_institution"
     ],
-    "updatedAt": "2026-09-29T11:22:46.042Z"
+    "updatedAt": "2026-09-29T11:22:46.042Z",
+    "archivedAt": "2026-10-10T11:11:29.422Z"
   },
   {
     "id": "mur-postdoc-assignments-318120",
@@ -37421,7 +37451,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-29T11:22:46.042Z"
+    "updatedAt": "2026-09-29T11:22:46.042Z",
+    "archivedAt": "2026-10-10T11:11:29.422Z"
   },
   {
     "id": "mur-postdoc-assignments-318123",
@@ -37452,7 +37483,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-29T11:22:46.042Z"
+    "updatedAt": "2026-09-29T11:22:46.042Z",
+    "archivedAt": "2026-10-10T11:11:29.422Z"
   },
   {
     "id": "mur-research-assignments-318089",
@@ -37483,7 +37515,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-30T11:11:02.386Z"
+    "updatedAt": "2026-09-30T11:11:02.386Z",
+    "archivedAt": "2026-10-10T11:11:29.422Z"
   },
   {
     "id": "mur-research-assignments-318184",
@@ -37514,7 +37547,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-30T11:11:02.386Z"
+    "updatedAt": "2026-09-30T11:11:02.386Z",
+    "archivedAt": "2026-10-10T11:11:29.422Z"
   },
   {
     "id": "mur-postdoc-assignments-317040",
@@ -47142,6 +47176,40 @@
     "updatedAt": "2026-10-09T11:54:52.561Z"
   },
   {
+    "id": "mur-research-assignments-318704",
+    "title": "Sviluppo di algoritmi per il trasferimento radiativo e la classificazione di scene.",
+    "institution": "CNR",
+    "department": "Da bando ufficiale",
+    "location": "Firenze",
+    "region": "Toscana",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Altro / interdisciplinare",
+    "ssd": "-",
+    "gsd": "02/PHYS-05 - ASTROFISICA E COSMOLOGIA, FISICA DELLO SPAZIO, DELLA TERRA E DEL CLIMA\n02/PHYS-04 - FISICA TEORICA DELLA MATERIA, MODELLI, METODI MATEMATICI E APPLICAZIONI\n02/PHYS-02 - FISICA TEORICA DELLE INTERAZIONI FONDAMENTALI, MODELLI, METODI MATEMATICI E APPLICAZIONI",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-19",
+    "deadlineStatus": "closing_soon",
+    "publishedAt": "2026-10-09",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/318704",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "selezione pubblica per soli titoli, ai sensi dell'art. 3 del \"Regolamento di disciplina per il conferimento di incarichi di ricerca” del CNR per il conferimento di n. 1 Incarico di ricerca presso la sede IAC di Firenze",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "sviluppo algoritmi per il trasferimento radiativo e la classificazione scene|cnr|2026-10-19",
+    "reviewStatus": "needs_review",
+    "confidenceScore": 0.71,
+    "reviewReasons": [
+      "multiple_scientific_sectors",
+      "generic_institution"
+    ],
+    "updatedAt": "2026-10-10T11:11:29.422Z"
+  },
+  {
     "id": "mur-research-contracts-318139",
     "title": "Contratto di ricerca con finanziamento esterno art. 22 L. 240/2010",
     "institution": "Università degli Studi di Milano, su finanziamento codice U-GOV CDR_FIN26ACANA39 della Veneranda Fabbrica del Duomo di Milano",
@@ -53061,7 +53129,7 @@
     "gsd": "09/IINF-04 - AUTOMATICA",
     "fundingType": "Non specificato",
     "deadline": "2026-10-24",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-24",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/317881",
@@ -53092,7 +53160,7 @@
     "gsd": "09/IINF-03 - TELECOMUNICAZIONI",
     "fundingType": "Non specificato",
     "deadline": "2026-10-24",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-24",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/317882",
@@ -53123,7 +53191,7 @@
     "gsd": "09/IIND-08 - INGEGNERIA DELL'ENERGIA ELETTRICA",
     "fundingType": "Non specificato",
     "deadline": "2026-10-24",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-24",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/317883",
@@ -53154,7 +53222,7 @@
     "gsd": "09/IIND-06 - MACCHINE E SISTEMI PER L'ENERGIA E L'AMBIENTE",
     "fundingType": "Non specificato",
     "deadline": "2026-10-24",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-24",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/317884",
@@ -53185,7 +53253,7 @@
     "gsd": "10/LATI-01 - LINGUA E LETTERATURA LATINA",
     "fundingType": "Non specificato",
     "deadline": "2026-10-24",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-24",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/317886",
@@ -53216,7 +53284,7 @@
     "gsd": "09/IINF-05 - SISTEMI DI ELABORAZIONE DELLE INFORMAZIONI",
     "fundingType": "Non specificato",
     "deadline": "2026-10-24",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-24",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/317921",
@@ -53247,7 +53315,7 @@
     "gsd": "02/PHYS-01 - FISICA SPERIMENTALE DELLE INTERAZIONI FONDAMENTALI E APPLICAZIONI",
     "fundingType": "Non specificato",
     "deadline": "2026-10-24",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-23",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/317920",
@@ -53280,7 +53348,7 @@
     "gsd": "10/ARCH-01 - ARCHEOLOGIA",
     "fundingType": "Non specificato",
     "deadline": "2026-10-24",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-24",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317900",
@@ -53311,7 +53379,7 @@
     "gsd": "13/STAT-01 - STATISTICA",
     "fundingType": "Non specificato",
     "deadline": "2026-10-24",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-24",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/317904",
@@ -53342,7 +53410,7 @@
     "gsd": "11/PSIC-01 - PSICOLOGIA GENERALE, NEUROPSICOLOGIA E NEUROSCIENZE COGNITIVE, PSICOMETRIA",
     "fundingType": "Non specificato",
     "deadline": "2026-10-24",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-24",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/317922",
@@ -53373,7 +53441,7 @@
     "gsd": "08/CEAR-01 - IDRAULICA, IDROLOGIA, COSTRUZIONI IDRAULICHE E MARITTIME",
     "fundingType": "Non specificato",
     "deadline": "2026-10-24",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-10-09",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/318623",
@@ -53404,7 +53472,7 @@
     "gsd": "09/IIND-01 - INGEGNERIA AEROSPAZIALE E NAVALE",
     "fundingType": "Non specificato",
     "deadline": "2026-10-24",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-10-09",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/318680",
@@ -53435,7 +53503,7 @@
     "gsd": "09/IIND-01 - INGEGNERIA AEROSPAZIALE E NAVALE",
     "fundingType": "Non specificato",
     "deadline": "2026-10-24",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-10-09",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/318682",
@@ -53451,6 +53519,70 @@
     "confidenceScore": 0.95,
     "reviewReasons": [],
     "updatedAt": "2026-10-09T11:54:52.561Z"
+  },
+  {
+    "id": "mur-fixed-term-researchers-153003",
+    "title": "Procedura selettiva di chiamata per n. 1 posto di ricercatore/rice a Tempo Determinato in Tenure Track (rtt) ex art. 24, co. 3, L. 240/2010 per ex ricercatori RTDA",
+    "institution": "Università eCampus",
+    "department": "Da bando ufficiale",
+    "location": "Novedrate",
+    "region": "Italia",
+    "positionType": "RTT",
+    "professorRank": "",
+    "discipline": "Filosofia, storia, lingue e pedagogia",
+    "ssd": "PHIL-04/B - Filosofia e teoria dei linguaggi",
+    "gsd": "11/PHIL-04 - ESTETICA E FILOSOFIA DEI LINGUAGGI",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-24",
+    "deadlineStatus": "closing_soon",
+    "publishedAt": "2026-09-23",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/153003",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Procedura selettiva per il reclutamento di 1 ricercatore/rice a tempo determinato in Tenure Track (RTT), ex art. 24, L. 240/2010 modificato dalla L. 79/2022, riservato ai sensi del D.M. 05/03/2026 n. 194, a candidati titolari di contratti da RTDA - integralmente finanziato - in scadenza nell’anno 2025",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "procedura selettiva chiamata per n 1 posto ricercatore rice a tempo determinato in tenure track rtt ex art 24 co 3 l 240 2010 per ex ricercatori rtda|ecampus|2026-10-24",
+    "reviewStatus": "needs_review",
+    "confidenceScore": 0.83,
+    "reviewReasons": [
+      "unknown_region"
+    ],
+    "updatedAt": "2026-10-10T11:11:29.422Z"
+  },
+  {
+    "id": "mur-research-assignments-318705",
+    "title": "Conversational-AI nelle imprese: percezioni, processi decisionali e implicazioni per il branding",
+    "institution": "Università degli Studi di Urbino Carlo Bo",
+    "department": "Da bando ufficiale",
+    "location": "URBINO",
+    "region": "Marche",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Economia, diritto e politica",
+    "ssd": "ECON-07/A - Economia e gestione delle imprese",
+    "gsd": "13/ECON-07 - ECONOMIA E GESTIONE DELLE IMPRESE",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-24",
+    "deadlineStatus": "closing_soon",
+    "publishedAt": "2026-10-09",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/318705",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "La diffusione di sistemi conversazionali basati sull’intelligenza artificiale(CAI) sta trasformando il modo in cui le imprese operano, comunicano e gestiscono le proprie risorse e strategie aziendali. Sebbene la ricerca abbia dedicato crescente attenzione alle applicazioni di Intelligenza Artificiale(AI) e ai suoi effetti sulla produttività e sull'innovazione,rimane ancora limitata la comprensione di come imprendito...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "conversational ai nelle imprese percezioni processi decisionali e implicazioni per il branding|studi urbino carlo bo|2026-10-24",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-10-10T11:11:29.422Z"
   },
   {
     "id": "mur-research-assignments-317985",
@@ -56574,6 +56706,130 @@
     "updatedAt": "2026-10-09T11:54:52.561Z"
   },
   {
+    "id": "mur-research-contracts-318720",
+    "title": "Contratto di ricerca art. 22 L. 240/2010",
+    "institution": "Università degli Studi di Milano, su finanziamento codice U-GOV MUR26FPARO_01",
+    "department": "Da bando ufficiale",
+    "location": "Milano",
+    "region": "Lombardia",
+    "positionType": "Contratto di ricerca",
+    "professorRank": "",
+    "discipline": "Economia, diritto e politica",
+    "ssd": "-",
+    "gsd": "13/ECON-01 - ECONOMIA POLITICA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-30",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-10-09",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/318720",
+    "salaryOrAmount": "40.197 Euro",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Selezione pubblica per la copertura di 2 posti di contrattista di ricerca mediante stipula di contratto di lavoro della durata di 2 anni, ai sensi dell’art.22 della Legge 240/2010",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "contratto ricerca art 22 l 240 2010|studi milano su finanziamento codice u gov mur26fparo 01|2026-10-30",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-10-10T11:11:29.422Z"
+  },
+  {
+    "id": "mur-postdoc-assignments-318721",
+    "title": "Incarico post-doc art. 22-bis L. 240/2010",
+    "institution": "Università degli Studi di Milano, su finanziamento codice U-GOV MUR26CSINI_01",
+    "department": "Da bando ufficiale",
+    "location": "Milano",
+    "region": "Lombardia",
+    "positionType": "Postdoc",
+    "professorRank": "",
+    "discipline": "Psicologia",
+    "ssd": "PSIC-01/A - Psicologia generale",
+    "gsd": "11/PSIC-01 - PSICOLOGIA GENERALE, NEUROPSICOLOGIA E NEUROSCIENZE COGNITIVE, PSICOMETRIA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-30",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-10-09",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/318721",
+    "salaryOrAmount": "29.162 Euro",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Selezione pubblica per il conferimento di un posto per incarico post-doc, ai sensi dell’art.22-bis della Legge 240/2010",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "incarico post doc art 22 bis l 240 2010|studi milano su finanziamento codice u gov mur26csini 01|2026-10-30",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-10-10T11:11:29.422Z"
+  },
+  {
+    "id": "mur-postdoc-assignments-318722",
+    "title": "Incarico post-doc art. 22-bis L. 240/2010",
+    "institution": "Università degli Studi di Milano, su finanziamento codice U-GOV RL_DG-AGR26ROBER_01",
+    "department": "Da bando ufficiale",
+    "location": "Milano",
+    "region": "Lombardia",
+    "positionType": "Postdoc",
+    "professorRank": "",
+    "discipline": "Ambiente, agraria e veterinaria",
+    "ssd": "AGRI-04/B - Meccanica agraria",
+    "gsd": "07/AGRI-04 - INGEGNERIA AGRARIA, FORESTALE E DEI BIOSISTEMI",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-30",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-10-09",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/318722",
+    "salaryOrAmount": "29.162 Euro",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Selezione pubblica per il conferimento di un posto per incarico post-doc, ai sensi dell’art.22-bis della Legge 240/2010",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "incarico post doc art 22 bis l 240 2010|studi milano su finanziamento codice u gov rl dg agr26rober 01|2026-10-30",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-10-10T11:11:29.422Z"
+  },
+  {
+    "id": "mur-postdoc-assignments-318723",
+    "title": "Incarico post-doc art. 22-bis L. 240/2010",
+    "institution": "Università degli Studi di Milano, su finanziamento codice U-GOV MUR26ACATT_01",
+    "department": "Da bando ufficiale",
+    "location": "Milano",
+    "region": "Lombardia",
+    "positionType": "Postdoc",
+    "professorRank": "",
+    "discipline": "Biologia, biotech e farmacia",
+    "ssd": "BIOS-11/A - Farmacologia",
+    "gsd": "05/BIOS-11 - FARMACOLOGIA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-10-30",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-10-09",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/318723",
+    "salaryOrAmount": "29.162 Euro",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Selezione pubblica per il conferimento di 3 posti per incarico post-doc, ai sensi dell’art.22-bis della Legge 240/2010",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "incarico post doc art 22 bis l 240 2010|studi milano su finanziamento codice u gov mur26acatt 01|2026-10-30",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-10-10T11:11:29.422Z"
+  },
+  {
     "id": "mur-research-assignments-316904",
     "title": "Sviluppo e applicazioni di propulsori ionici avanzati per l'atmosfera - 2026_IDR_DAER_7",
     "institution": "Politecnico di Milano",
@@ -59615,6 +59871,37 @@
     "updatedAt": "2026-10-09T11:54:52.561Z"
   },
   {
+    "id": "mur-research-assignments-318727",
+    "title": "Multilingual Bites (MuBi): In che modo la migrazione e le lingue minoritarie plasmano il lessico culinario italiano",
+    "institution": "Università degli studi di Roma Sapienza",
+    "department": "Da bando ufficiale",
+    "location": "ROMA",
+    "region": "Lazio",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Filosofia, storia, lingue e pedagogia",
+    "ssd": "ANGL-01/C - Lingua, traduzione e linguistica inglese",
+    "gsd": "10/ANGL-01 - ANGLISTICA E ANGLOAMERICANISTICA",
+    "fundingType": "ERC",
+    "deadline": "2026-11-07",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-10-08",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/318727",
+    "salaryOrAmount": "22.500 Euro",
+    "duration": "mensile",
+    "language": "IT/EN",
+    "summary": "La figura che verrà assunta per l’incarico di ricerca collaborerà alle attività centrali del progetto MuBi, contribuendo alla raccolta, organizzazione e analisi dei dati linguistici relativi alla microlingua culinaria in contesti multiculturali. Parteciperà alla conduzione di interviste etnografiche in cucine domestiche, ristoranti, mercati e centri di accoglienza, curando la preparazione dei protocolli, la gestione...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "multilingual bites mubi in che modo la migrazione e le lingue minoritarie plasmano il lessico culinario italiano|studi roma sapienza|2026-11-07",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-10-10T11:11:29.422Z"
+  },
+  {
     "id": "mur-fixed-term-researchers-152544",
     "title": "Assistant Professor nel Dipartimento di Studi Giuridici, 12/GIUR-17 FILOSOFIA DEL DIRITTO",
     "institution": "Bocconi University",
@@ -60019,6 +60306,169 @@
     "confidenceScore": 0.95,
     "reviewReasons": [],
     "updatedAt": "2026-10-09T11:54:52.561Z"
+  },
+  {
+    "id": "mur-doctorates-318728",
+    "title": "COGNITIVE DESIGN: EVOLUZIONE INTEGRATA DI UOMO E TECNOLOGIA NELLA NUOVA ERA PRODUTTIVA",
+    "institution": "ISIA Firenze",
+    "department": "Da bando ufficiale",
+    "location": "Firenze",
+    "region": "Toscana",
+    "positionType": "PhD",
+    "professorRank": "",
+    "discipline": "Altro / interdisciplinare",
+    "ssd": "-",
+    "gsd": "",
+    "fundingType": "Non specificato",
+    "deadline": "2026-11-09",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-10-09",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/doctorate.php/public/fellowship/id_fellow/318728",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Il percorso unisce design, automazione industriale, trasformazione digitale e scienze cognitive per studiare l'interazione uomo-macchina e i nuovi scenari produttivi (dalla grande industria all'artigianato digitale).",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "cognitive design evoluzione integrata uomo e tecnologia nella nuova era produttiva|isia firenze|2026-11-09",
+    "reviewStatus": "needs_review",
+    "confidenceScore": 0.83,
+    "reviewReasons": [
+      "unknown_discipline"
+    ],
+    "updatedAt": "2026-10-10T11:11:29.422Z"
+  },
+  {
+    "id": "mur-research-contracts-318432",
+    "title": "ACTION (Advancing Counterspeech Against Toxic Interactions Online – Promuovere il counterspeech contro le interazioni tossiche online)",
+    "institution": "MUR",
+    "department": "Da bando ufficiale",
+    "location": "-",
+    "region": "Italia",
+    "positionType": "Contratto di ricerca",
+    "professorRank": "",
+    "discipline": "Filosofia, storia, lingue e pedagogia",
+    "ssd": "PHIL-04/B - Filosofia e teoria dei linguaggi",
+    "gsd": "11/PHIL-04 - ESTETICA E FILOSOFIA DEI LINGUAGGI",
+    "fundingType": "Non specificato",
+    "deadline": "2026-11-09",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-10-05",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/318432",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Procedura di selezione per il conferimento di n. 1 contratto di ricerca ai sensi dell’art. 22, della Legge 30 dicembre 2010, n. 240.",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "action advancing counterspeech against toxic interactions online promuovere il counterspeech contro le interazioni tossiche online|mur|2026-11-09",
+    "reviewStatus": "needs_review",
+    "confidenceScore": 0.71,
+    "reviewReasons": [
+      "unknown_region",
+      "generic_institution"
+    ],
+    "updatedAt": "2026-10-10T11:11:29.422Z"
+  },
+  {
+    "id": "mur-research-contracts-318448",
+    "title": "ACTION (Advancing Counterspeech Against Toxic Interactions Online – Promuovere il counterspeech contro le interazioni tossiche online)",
+    "institution": "MUR",
+    "department": "Da bando ufficiale",
+    "location": "-",
+    "region": "Italia",
+    "positionType": "Contratto di ricerca",
+    "professorRank": "",
+    "discipline": "Ingegneria, informatica e AI",
+    "ssd": "INFO-01/A - Informatica",
+    "gsd": "01/INFO-01 - INFORMATICA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-11-09",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-10-05",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/318448",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Procedura di selezione per il conferimento di n. 1 contratto di ricerca ai sensi dell’art. 22, della Legge 30 dicembre 2010, n. 240.",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "action advancing counterspeech against toxic interactions online promuovere il counterspeech contro le interazioni tossiche online|mur|2026-11-09",
+    "reviewStatus": "needs_review",
+    "confidenceScore": 0.71,
+    "reviewReasons": [
+      "unknown_region",
+      "generic_institution"
+    ],
+    "updatedAt": "2026-10-10T11:11:29.422Z"
+  },
+  {
+    "id": "mur-research-assignments-318726",
+    "title": "Bando IDR 11/2026 - Algoritmi Responsabili Guidati dal linguaggio naturale per Operazioni sul Cloud",
+    "institution": "Sapienza Università di Roma - Dipartimento di Scienze Statistiche",
+    "department": "Da bando ufficiale",
+    "location": "Roma",
+    "region": "Lazio",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Ingegneria, informatica e AI",
+    "ssd": "INFO-01/A - Informatica",
+    "gsd": "01/INFO-01 - INFORMATICA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-11-09",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-10-09",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/318726",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Attività di ricerca a supporto dello sviluppo di metodi e strumenti di intelligenza artificiale applicata alla gestione e all'analisi di dati complessi, con sperimentazione e diffusione dei risultati scientifici.",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "bando idr 11 2026 algoritmi responsabili guidati dal linguaggio naturale per operazioni sul cloud|sapienza roma dipartimento scienze statistiche|2026-11-09",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-10-10T11:11:29.422Z"
+  },
+  {
+    "id": "mur-postdoc-assignments-318725",
+    "title": "Bando IPD 10/2026 - Modelli e metodi per la classificazione non supervisionata di dati funzionali con applicazioni alla dynamic survival prediction via landmarking",
+    "institution": "Sapienza Università di Roma - Dipartimento di Scienze Statistiche",
+    "department": "Da bando ufficiale",
+    "location": "Roma",
+    "region": "Lazio",
+    "positionType": "Postdoc",
+    "professorRank": "",
+    "discipline": "Economia, diritto e politica",
+    "ssd": "STAT-01/A - Statistica",
+    "gsd": "13/STAT-01 - STATISTICA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-11-09",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-10-09",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/318725",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "L'obiettivo di questo progetto è proporre e sviluppare nuovi metodi e modelli per la classificazione non supervisionata di dati funzionali. Tali metodi sfrutteranno inoltre la natura funzionale dei dati longitudinali dei pazienti raccolti di routine per fornire informazioni prognostiche più accurate per i modelli di sopravvivenza dinamica. Le tecniche di clustering funzionale saranno estese per tenere conto della na...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "bando ipd 10 2026 modelli e metodi per la classificazione non supervisionata dati funzionali con applicazioni alla dynamic survival prediction via landmarking|sapienza roma dipartimento scienze statistiche|2026-11-09",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-10-10T11:11:29.422Z"
   },
   {
     "id": "mur-research-assignments-317709",
