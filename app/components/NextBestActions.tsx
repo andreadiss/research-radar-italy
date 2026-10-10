@@ -7,21 +7,30 @@ export function NextBestActions() {
   const shareInputRef = useRef<HTMLInputElement>(null);
   const [shareOpen, setShareOpen] = useState(false);
   const [copied, setCopied] = useState(false);
+  const [copyFailed, setCopyFailed] = useState(false);
 
   function openShareModal() {
     setCopied(false);
+    setCopyFailed(false);
     setShareOpen(true);
   }
 
   async function copyShareLink() {
     const shareUrl = window.location.origin;
+    let success = false;
     try {
       await navigator.clipboard.writeText(shareUrl);
+      success = true;
     } catch {
       shareInputRef.current?.select();
-      document.execCommand("copy");
+      try {
+        success = document.execCommand("copy");
+      } catch {
+        success = false;
+      }
     }
-    setCopied(true);
+    setCopied(success);
+    setCopyFailed(!success);
   }
 
   return (
@@ -47,6 +56,7 @@ export function NextBestActions() {
                 {copied ? "Copiato" : "Copia link"}
               </button>
             </div>
+            {copyFailed ? <p role="status">Seleziona il link e copialo manualmente.</p> : null}
           </div>
         </div>
       ) : null}

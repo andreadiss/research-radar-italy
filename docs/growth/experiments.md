@@ -1,5 +1,7 @@
 ## Experiment opportunities
 
+10 ottobre 2026 — Correzione osservazionale della condivisione, senza A/B test: confermare la copia solo se riesce e mantenere un percorso manuale se il browser la blocca. Verificare apertura dialogo, esito positivo, esito negativo simulato e leggibilità del messaggio; nessun tracking nuovo.
+
 9 ottobre 2026 — Intervento UX diretto, senza A/B test: sostituire le card NBA sovrapposte con un banner breve e una sola CTA «Condividi» che apre il dialogo esistente. Gate: dimensioni compatte desktop/mobile, focus visibile, dialogo e copia link funzionanti. Nessuna card editoriale placeholder né nuovo tracking; outcome traffico da misurare solo con dati disponibili.
 
 9 ottobre 2026 — Miglioramento diretto di contenuto e orientamento nella landing Postdoc, senza A/B test: mostrare la sintesi verificata accanto al titolo delle otto opportunità recenti. Guardrail: nessun testo inventato; omettere la sintesi se coincide con il titolo; mantenere CTA, filtro e URL invariati. Osservare impression/clic delle landing su finestre confrontabili e accessi alle schede quando disponibili; il confronto 1/61→9/155 precede questo intervento.

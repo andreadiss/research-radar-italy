@@ -1,5 +1,7 @@
 # Daily log
 
+10 ottobre 2026 — Letti main, PR aperte (nessuna) e sei documenti growth; verificato il banner live dopo #39. Scelto un fix low risk al falso «Copiato» in caso di doppio fallimento della copia. TypeScript, 14 suite di test, build statica e audit locali superati; nessuna nuova misura GSC o promessa di traffico. PR e verifica pubblica nel report.
+
 9 ottobre 2026 — Feedback diretto: la prima proposta di due card era troppo verbosa. PR #39 aggiornata a un banner di condivisione con una CTA; layout responsive e dialogo esistente mantenuti, senza tracking aggiuntivo. La roadmap resta P0 traffico, poi contenuti job market, transizione accademia→azienda e community condizionata ad autorizzazioni. Gate tecnici rieseguiti; nessun merge/deploy prima della revisione visuale dell’utente.
 
 9 ottobre 2026 — Analizzato export Prestazioni fino al 6 ottobre: finestre uguali 1/61→9/155 clic/impression, tre schede prioritarie hanno 5 impression complessive; query incomplete e nessun dato nuovo di copertura. GSC Wizard bloccato da payment_required, trial scaduta. Lette PR aperte (nessuna) e documenti growth; scelto micro-task low risk: aggiungere nella landing Postdoc la sintesi già presente nelle schede alle otto anteprime. Verifiche e stato del rilascio nella PR/report.
