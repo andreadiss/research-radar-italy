@@ -37579,7 +37579,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-11T09:43:02.340Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z",
+    "archivedAt": "2026-10-11T11:24:49.816Z"
   },
   {
     "id": "mur-research-assignments-317127",
@@ -37610,7 +37611,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-11T09:43:02.340Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z",
+    "archivedAt": "2026-10-11T11:24:49.816Z"
   },
   {
     "id": "mur-postdoc-assignments-316861",
@@ -37641,7 +37643,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-10-04T11:07:20.304Z"
+    "updatedAt": "2026-10-04T11:07:20.304Z",
+    "archivedAt": "2026-10-11T11:24:49.816Z"
   },
   {
     "id": "mur-postdoc-assignments-316863",
@@ -37672,7 +37675,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-10-04T11:07:20.304Z"
+    "updatedAt": "2026-10-04T11:07:20.304Z",
+    "archivedAt": "2026-10-11T11:24:49.816Z"
   },
   {
     "id": "mur-postdoc-assignments-316864",
@@ -37703,7 +37707,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-10-04T11:07:20.304Z"
+    "updatedAt": "2026-10-04T11:07:20.304Z",
+    "archivedAt": "2026-10-11T11:24:49.816Z"
   },
   {
     "id": "mur-postdoc-assignments-316865",
@@ -37734,7 +37739,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-10-04T11:07:20.304Z"
+    "updatedAt": "2026-10-04T11:07:20.304Z",
+    "archivedAt": "2026-10-11T11:24:49.816Z"
   },
   {
     "id": "mur-postdoc-assignments-316866",
@@ -37765,7 +37771,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-10-04T11:07:20.304Z"
+    "updatedAt": "2026-10-04T11:07:20.304Z",
+    "archivedAt": "2026-10-11T11:24:49.816Z"
   },
   {
     "id": "mur-postdoc-assignments-317084",
@@ -37796,7 +37803,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-10-03T10:25:41.561Z"
+    "updatedAt": "2026-10-03T10:25:41.561Z",
+    "archivedAt": "2026-10-11T11:24:49.816Z"
   },
   {
     "id": "mur-postdoc-assignments-317100",
@@ -37827,7 +37835,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-11T09:43:02.340Z"
+    "updatedAt": "2026-09-11T09:43:02.340Z",
+    "archivedAt": "2026-10-11T11:24:49.816Z"
   },
   {
     "id": "mur-research-contracts-317961",
@@ -37860,7 +37869,8 @@
     "reviewReasons": [
       "multiple_scientific_sectors"
     ],
-    "updatedAt": "2026-09-25T10:12:50.392Z"
+    "updatedAt": "2026-09-25T10:12:50.392Z",
+    "archivedAt": "2026-10-11T11:24:49.816Z"
   },
   {
     "id": "mur-research-contracts-317982",
@@ -37891,7 +37901,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-25T10:12:50.392Z"
+    "updatedAt": "2026-09-25T10:12:50.392Z",
+    "archivedAt": "2026-10-11T11:24:49.816Z"
   },
   {
     "id": "mur-research-assignments-317960",
@@ -37922,7 +37933,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-25T10:12:50.392Z"
+    "updatedAt": "2026-09-25T10:12:50.392Z",
+    "archivedAt": "2026-10-11T11:24:49.816Z"
   },
   {
     "id": "mur-research-assignments-318200",
@@ -37953,7 +37965,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-30T11:11:02.386Z"
+    "updatedAt": "2026-09-30T11:11:02.386Z",
+    "archivedAt": "2026-10-11T11:24:49.816Z"
   },
   {
     "id": "mur-research-assignments-318220",
@@ -37984,7 +37997,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-10-01T11:38:00.335Z"
+    "updatedAt": "2026-10-01T11:38:00.335Z",
+    "archivedAt": "2026-10-11T11:24:49.816Z"
   },
   {
     "id": "mur-doctorates-316140",
@@ -38849,7 +38863,7 @@
     "positionType": "PhD",
     "professorRank": "",
     "discipline": "Altro / interdisciplinare",
-    "ssd": "CHIM/08 - CHIMICA FARMACEUTICA\nBIO/07 - ECOLOGIA\nIUS/13 - DIRITTO INTERNAZIONALE\nIUS/14 - DIRITTO DELL'UNIONE EUROPEA\nCHIM/10 - CHIMICA DEGLI ALIMENTI\nBIO/11 - BIOLOGIA MOLECOLARE",
+    "ssd": "IUS/14 - DIRITTO DELL'UNIONE EUROPEA\nCHIM/08 - CHIMICA FARMACEUTICA\nCHIM/10 - CHIMICA DEGLI ALIMENTI\nBIO/07 - ECOLOGIA\nBIO/11 - BIOLOGIA MOLECOLARE\nIUS/13 - DIRITTO INTERNAZIONALE",
     "gsd": "",
     "fundingType": "Non specificato",
     "deadline": "2026-10-12",
@@ -38870,7 +38884,7 @@
     "reviewReasons": [
       "multiple_scientific_sectors"
     ],
-    "updatedAt": "2026-10-05T12:17:53.172Z"
+    "updatedAt": "2026-10-11T11:24:49.816Z"
   },
   {
     "id": "mur-research-assignments-317981",
@@ -40972,7 +40986,7 @@
     "positionType": "Incarico di ricerca",
     "professorRank": "",
     "discipline": "Altro / interdisciplinare",
-    "ssd": "MATH-02/A - Algebra\nMATH-02/B - Geometria\nMATH-03/A - Analisi matematica\nMATH-03/B - Probabilità e statistica matematica\nMATH-05/A - Analisi numerica\nMATH-04/A - Fisica matematica\nMATH-01/A - Logica matematica\nMATH-01/B - Didattica e storia della matematica\nMATH-06/A - Ricerca operativa",
+    "ssd": "MATH-02/B - Geometria\nMATH-02/A - Algebra\nMATH-03/B - Probabilità e statistica matematica\nMATH-03/A - Analisi matematica\nMATH-05/A - Analisi numerica\nMATH-04/A - Fisica matematica\nMATH-01/A - Logica matematica\nMATH-01/B - Didattica e storia della matematica\nMATH-06/A - Ricerca operativa",
     "gsd": "01/MATH-02 - ALGEBRA E GEOMETRIA\n01/MATH-03 - ANALISI MATEMATICA, PROBABILITÀ E STATISTICA MATEMATICA\n01/MATH-05 - ANALISI NUMERICA\n01/MATH-04 - FISICA MATEMATICA\n01/MATH-01 - LOGICA MATEMATICA, DIDATTICA E STORIA DELLA MATEMATICA\n01/MATH-06 - RICERCA OPERATIVA",
     "fundingType": "Non specificato",
     "deadline": "2026-10-13",
@@ -40993,7 +41007,7 @@
     "reviewReasons": [
       "multiple_scientific_sectors"
     ],
-    "updatedAt": "2026-10-06T12:02:40.858Z"
+    "updatedAt": "2026-10-11T11:24:49.816Z"
   },
   {
     "id": "mur-research-assignments-317628",
@@ -43195,7 +43209,7 @@
     "positionType": "PhD",
     "professorRank": "",
     "discipline": "Altro / interdisciplinare",
-    "ssd": "GIUR-11/B - Diritto pubblico comparato\nGIUR-09/A - Diritto internazionale\nGIUR-01/A - Diritto privato\nSPAN-01/C - Lingua, traduzione e linguistica spagnola\nGSPS-02/A - Scienza politica\nIINF-05/A - Sistemi di elaborazione delle informazioni\n-\nGSPS-06/A - Sociologia dei processi culturali e comunicativi\nGSPS-05/A - Sociologia generale\nHIST-03/A - Storia contemporanea\nGSPS-03/A - Storia del pensiero politico\nSTEC-01/B - Storia economica\nGSPS-04/B - Storia delle relazioni internazionali\nGSPS-04/C - Storia e istituzioni dell'Africa",
+    "ssd": "GIUR-11/B - Diritto pubblico comparato\nGIUR-09/A - Diritto internazionale\nGIUR-01/A - Diritto privato\nSPAN-01/C - Lingua, traduzione e linguistica spagnola\nGSPS-02/A - Scienza politica\nIINF-05/A - Sistemi di elaborazione delle informazioni\n-\nGSPS-06/A - Sociologia dei processi culturali e comunicativi\nGSPS-05/A - Sociologia generale\nHIST-03/A - Storia contemporanea\nGSPS-03/A - Storia del pensiero politico\nSTEC-01/B - Storia economica\nGSPS-04/C - Storia e istituzioni dell'Africa\nGSPS-04/B - Storia delle relazioni internazionali",
     "gsd": "12/GIUR-11 - DIRITTO COMPARATO\n12/GIUR-09 - DIRITTO INTERNAZIONALE\n12/GIUR-01 - DIRITTO PRIVATO\n10/SPAN-01 - LINGUE, LETTERATURE E CULTURE SPAGNOLA E ISPANO-AMERICANE\n14/GSPS-02 - SCIENZA POLITICA\n09/IINF-05 - SISTEMI DI ELABORAZIONE DELLE INFORMAZIONI\n14/GSPS-06 - SOCIOLOGIA DEI PROCESSI CULTURALI E COMUNICATIVI\n14/GSPS-05 - SOCIOLOGIA GENERALE\n11/HIST-03 - STORIA CONTEMPORANEA\n14/GSPS-03 - STORIA DEL PENSIERO E DELLE ISTITUZIONI POLITICHE\n13/STEC-01 - STORIA DELL'ECONOMIA\n14/GSPS-04 - STORIA INTERNAZIONALE E STUDI DI AREA",
     "fundingType": "Non specificato",
     "deadline": "2026-10-15",
@@ -43216,7 +43230,7 @@
     "reviewReasons": [
       "multiple_scientific_sectors"
     ],
-    "updatedAt": "2026-10-06T12:02:40.858Z"
+    "updatedAt": "2026-10-11T11:24:49.816Z"
   },
   {
     "id": "mur-doctorates-296947",
@@ -45351,7 +45365,7 @@
     "positionType": "Postdoc",
     "professorRank": "",
     "discipline": "Altro / interdisciplinare",
-    "ssd": "GEOS-04/A - Geofisica della Terra solida\nGEOS-03/A - Geografia fisica e geomorfologia\nGEOS-02/B - Geologia stratigrafica e sedimentologia\nGEOS-02/C - Geologia strutturale e tettonica",
+    "ssd": "GEOS-04/A - Geofisica della Terra solida\nGEOS-03/A - Geografia fisica e geomorfologia\nGEOS-02/C - Geologia strutturale e tettonica\nGEOS-02/B - Geologia stratigrafica e sedimentologia",
     "gsd": "04/GEOS-04 - GEOFISICA\n04/GEOS-03 - GEOGRAFIA FISICA, GEOMORFOLOGIA E GEOLOGIA APPLICATA\n04/GEOS-02 - PALEONTOLOGIA, GEOLOGIA STRATIGRAFICA E SEDIMENTOLOGIA, GEOLOGIA STRUTTURALE E TETTONICA",
     "fundingType": "Non specificato",
     "deadline": "2026-10-18",
@@ -45374,7 +45388,7 @@
       "multiple_scientific_sectors",
       "generic_institution"
     ],
-    "updatedAt": "2026-10-06T12:02:40.858Z"
+    "updatedAt": "2026-10-11T11:24:49.816Z"
   },
   {
     "id": "mur-research-assignments-317844",
@@ -53598,7 +53612,7 @@
     "gsd": "02/PHYS-03 - FISICA SPERIMENTALE DELLA MATERIA E APPLICAZIONI",
     "fundingType": "Non specificato",
     "deadline": "2026-10-25",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-25",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317985",
@@ -53629,7 +53643,7 @@
     "gsd": "05/BIOS-03 - ZOOLOGIA E ANTROPOLOGIA",
     "fundingType": "Non specificato",
     "deadline": "2026-10-25",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-25",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317986",
@@ -53660,7 +53674,7 @@
     "gsd": "02/PHYS-03 - FISICA SPERIMENTALE DELLA MATERIA E APPLICAZIONI",
     "fundingType": "Non specificato",
     "deadline": "2026-10-25",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-25",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/317988",
@@ -53691,7 +53705,7 @@
     "gsd": "05/BIOS-08 - BIOLOGIA MOLECOLARE",
     "fundingType": "Non specificato",
     "deadline": "2026-10-25",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-25",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/317963",
@@ -53722,7 +53736,7 @@
     "gsd": "11/HIST-04 - SCIENZE DEL LIBRO, DEL DOCUMENTO E STORICO-RELIGIOSE",
     "fundingType": "Non specificato",
     "deadline": "2026-10-25",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-25",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/318004",
@@ -53753,7 +53767,7 @@
     "gsd": "11/HIST-04 - SCIENZE DEL LIBRO, DEL DOCUMENTO E STORICO-RELIGIOSE",
     "fundingType": "Non specificato",
     "deadline": "2026-10-25",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-25",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/318010",
@@ -53784,7 +53798,7 @@
     "gsd": "11/HIST-04 - SCIENZE DEL LIBRO, DEL DOCUMENTO E STORICO-RELIGIOSE",
     "fundingType": "Non specificato",
     "deadline": "2026-10-25",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-25",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/318011",
@@ -53815,7 +53829,7 @@
     "gsd": "11/HIST-04 - SCIENZE DEL LIBRO, DEL DOCUMENTO E STORICO-RELIGIOSE",
     "fundingType": "Non specificato",
     "deadline": "2026-10-25",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-25",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/318012",
@@ -53846,7 +53860,7 @@
     "gsd": "09/IINF-05 - SISTEMI DI ELABORAZIONE DELLE INFORMAZIONI",
     "fundingType": "ERC",
     "deadline": "2026-10-25",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-25",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/318020",
@@ -53877,7 +53891,7 @@
     "gsd": "08/CEAR-09 - PROGETTAZIONE ARCHITETTONICA",
     "fundingType": "Non specificato",
     "deadline": "2026-10-25",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-25",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/318021",
@@ -53908,7 +53922,7 @@
     "gsd": "08/CEAR-01 - IDRAULICA, IDROLOGIA, COSTRUZIONI IDRAULICHE E MARITTIME",
     "fundingType": "Non specificato",
     "deadline": "2026-10-25",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-10-09",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/318581",
