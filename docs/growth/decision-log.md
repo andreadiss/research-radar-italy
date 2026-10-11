@@ -1,5 +1,7 @@
 # Decision log
 
+11 ottobre 2026 — Nelle card usare «Argomento o descrizione del bando», non «Argomento della ricerca»: alcune fonti MUR contengono descrizioni procedurali e l’etichetta più prudente evita di trasformarle in temi dedotti. Area e SSD restano separati e fedeli ai campi esistenti; rimuovere il badge area duplicato.
+
 10 ottobre 2026 — Il messaggio «Copiato» deve rappresentare un esito reale. Conservare Clipboard API e fallback esistenti; usare il valore booleano di `execCommand`, gestire l'eccezione e mostrare un'istruzione manuale in caso di fallimento. Nessuna modifica al banner approvato, ai dati o ai link.
 
 9 ottobre 2026 — Feedback dell’utente sul redesign: troppo testo e troppe azioni. Scelta aggiornata: un solo banner compatto che invita a condividere Research Radar, con una sola CTA; nessun link all’indice nel banner. La futura card di contenuto rimane in roadmap ma non viene introdotta ora. PR #39 aggiornata e ancora senza merge/deploy; priorità P0 al traffico qualificato con evidenze, non al volume di componenti.

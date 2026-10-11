@@ -1,5 +1,7 @@
 ## Baseline
 
+11 ottobre 2026 — Baseline strutturale delle card principali: 1/3 elementi di contesto aveva un’etichetta esplicita (solo settore scientifico); target 3/3 (area disciplinare, settore scientifico, argomento o descrizione). Nessuna nuova metrica di traffico o indicizzazione e nessun effetto attribuito.
+
 10 ottobre 2026 — Baseline funzionale: il codice della condivisione mostrava «Copiato» dopo qualunque tentativo, anche quando il fallback restituiva `false`. Gate: feedback positivo condizionato all'esito; in errore istruzione manuale. Nessun dato di traffico o condivisioni disponibile, nessun effetto di acquisizione dichiarato.
 
 9 ottobre 2026 — Baseline UX homepage: 2 azioni in carosello sovrapposto, di cui 1 self-link. Target tecnico della proposta aggiornata: 1 banner di condivisione e 1 sola CTA, senza duplicare altri percorsi già presenti nella homepage. Misure traffico restano quelle dell’export fino al 6 ottobre (23–29 settembre 1 clic/61 impression; 30 settembre–6 ottobre 9/155); nessun effetto attribuito.

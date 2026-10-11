@@ -1,5 +1,7 @@
 ## Experiment opportunities
 
+11 ottobre 2026 — Miglioramento UX diretto, senza A/B test: rendere confrontabili area, SSD e argomento nelle card con una gerarchia visiva responsive. Gate: stessi dati sorgente, nessuna classificazione inventata, leggibilità desktop/mobile, filtri e link invariati.
+
 10 ottobre 2026 — Correzione osservazionale della condivisione, senza A/B test: confermare la copia solo se riesce e mantenere un percorso manuale se il browser la blocca. Verificare apertura dialogo, esito positivo, esito negativo simulato e leggibilità del messaggio; nessun tracking nuovo.
 
 9 ottobre 2026 — Intervento UX diretto, senza A/B test: sostituire le card NBA sovrapposte con un banner breve e una sola CTA «Condividi» che apre il dialogo esistente. Gate: dimensioni compatte desktop/mobile, focus visibile, dialogo e copia link funzionanti. Nessuna card editoriale placeholder né nuovo tracking; outcome traffico da misurare solo con dati disponibili.

@@ -327,7 +327,6 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
                   <div className="job-card-top">
                     <div className="badges">
                       <span className="badge type">{position.positionType}</span>
-                      <span className="badge">{position.discipline}</span>
                     </div>
                     <div className="card-side-actions">
                       <span className={deadlineClass(position.deadline)}>
@@ -352,8 +351,20 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
                   >
                     <h3 className="job-title">{positionTitles.get(position.id) ?? position.title}</h3>
                   </OpportunityPreview>
-                  <p className="job-sector">Settore scientifico: <strong>{position.ssd && position.ssd !== "-" ? position.ssd : "non disponibile nella scheda"}</strong></p>
-                  <p className="job-summary">{position.summary}</p>
+                  <div className="job-research-context" aria-label="Ambito della posizione">
+                    <p>
+                      <span>Area disciplinare</span>
+                      <strong>{position.discipline}</strong>
+                    </p>
+                    <p>
+                      <span>Settore scientifico</span>
+                      <strong>{position.ssd && position.ssd !== "-" ? position.ssd : "Non disponibile nella scheda"}</strong>
+                    </p>
+                  </div>
+                  <div className="job-topic">
+                    <span>Argomento o descrizione del bando</span>
+                    <p className="job-summary">{position.summary}</p>
+                  </div>
                   <Link href={`/positions/${position.id}`} className="back-link">Dettagli e fonte ufficiale</Link>
                   <div className="job-meta">
                     <span>
