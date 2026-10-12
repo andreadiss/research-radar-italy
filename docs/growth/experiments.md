@@ -1,5 +1,7 @@
 ## Experiment opportunities
 
+12 ottobre 2026 — Miglioramento diretto, non A/B test: sulle descrizioni procedurali la card riusa soltanto il titolo ufficiale oppure espone l'assenza dell'argomento. Gate: 68/68 casi ricevono una presentazione esplicita; schede e testo sorgente invariati. Nessuna causalità sul traffico.
+
 11 ottobre 2026 — Miglioramento UX diretto, senza A/B test: rendere confrontabili area, SSD e argomento nelle card con una gerarchia visiva responsive. Gate: stessi dati sorgente, nessuna classificazione inventata, leggibilità desktop/mobile, filtri e link invariati.
 
 10 ottobre 2026 — Correzione osservazionale della condivisione, senza A/B test: confermare la copia solo se riesce e mantenere un percorso manuale se il browser la blocca. Verificare apertura dialogo, esito positivo, esito negativo simulato e leggibilità del messaggio; nessun tracking nuovo.

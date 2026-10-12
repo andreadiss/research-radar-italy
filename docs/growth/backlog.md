@@ -1,5 +1,7 @@
 ## Prioritized backlog
 
+12 ottobre 2026 — **P1 argomento nelle card** (Impact 7, Confidence 8, Effort 2, Risk 1): 68/733 descrizioni aperte sono solo procedurali. Per 37 card riusare il titolo ufficiale non procedurale; per 31 dichiarare il dato non specificato. Nessuna modifica a classificazioni, fonti o schede.
+
 11 ottobre 2026 — **P1 chiarezza delle card** (Impact 8, Confidence 9, Effort 2, Risk 1): trasformare area e SSD in campi espliciti e identificare il riepilogo come «Argomento o descrizione del bando». Layout a due colonne su desktop e una su mobile; dati, filtri, URL e ordinamento invariati. Priorità successiva: riesame copertura indice dal 14 ottobre.
 
 10 ottobre 2026 — **P1 affidabilità condivisione** (Impact 5, Confidence 9, Effort 1, Risk 1): mostrare «Copiato» solo dopo esito positivo dell'API o del fallback; se entrambi falliscono, selezionare il link e indicare la copia manuale. Priorità successiva: copertura indice del campione dal 14 ottobre e chiarezza delle schede, senza nuove richieste massive.
