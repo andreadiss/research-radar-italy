@@ -1,5 +1,7 @@
 # Research Radar Italy — Audit iniziale
 
+12 ottobre 2026 — Verificato il rilascio #41 e nessuna PR aperta. Nel catalogo corrente 68/733 posizioni aperte hanno una descrizione che inizia con solo linguaggio procedurale: 37 conservano un titolo ufficiale non procedurale, 31 hanno anche un titolo procedurale. Scelta una presentazione limitata alle card: per le prime usare il titolo ufficiale come argomento; per le seconde dichiarare che l'argomento non è specificato. Testo sorgente e scheda restano invariati.
+
 11 ottobre 2026 — Verificato il rilascio #40 e nessuna PR aperta. Nelle card dei risultati l’area disciplinare era un badge senza etichetta, il solo SSD era esplicito e il testo tematico appariva come paragrafo anonimo. Scelta una gerarchia a tre livelli — area, settore scientifico, argomento o descrizione — usando esclusivamente i campi già acquisiti; nessuna riclassificazione o testo generato.
 
 10 ottobre 2026 — Dopo il rilascio del banner #39, individuato un falso feedback: il dialogo indicava «Copiato» anche quando la Clipboard API falliva e il fallback `execCommand` restituiva `false`. Correzione limitata alla conferma dell'esito e a un'istruzione manuale in caso di fallimento; banner, URL e tracking invariati.

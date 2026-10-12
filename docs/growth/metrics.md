@@ -1,5 +1,7 @@
 ## Baseline
 
+12 ottobre 2026 — Baseline di chiarezza sul catalogo corrente: 733 posizioni aperte, 68 descrizioni con apertura esclusivamente procedurale. Dopo la regola proposta, 37 card usano il titolo ufficiale non procedurale come argomento e 31 dichiarano «non specificato»; 0 testi o classificazioni inventati. Nessun nuovo dato GSC o GA4 e nessun effetto traffico attribuito.
+
 11 ottobre 2026 — Baseline strutturale delle card principali: 1/3 elementi di contesto aveva un’etichetta esplicita (solo settore scientifico); target 3/3 (area disciplinare, settore scientifico, argomento o descrizione). Nessuna nuova metrica di traffico o indicizzazione e nessun effetto attribuito.
 
 10 ottobre 2026 — Baseline funzionale: il codice della condivisione mostrava «Copiato» dopo qualunque tentativo, anche quando il fallback restituiva `false`. Gate: feedback positivo condizionato all'esito; in errore istruzione manuale. Nessun dato di traffico o condivisioni disponibile, nessun effetto di acquisizione dichiarato.

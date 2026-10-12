@@ -1,5 +1,7 @@
 # Decision log
 
+12 ottobre 2026 — Non riscrivere le descrizioni procedurali né dedurre un tema. Nelle sole card, se la descrizione è procedurale e il titolo ufficiale non lo è, presentare quel titolo come «Argomento dal titolo ufficiale»; se anche il titolo è procedurale, dichiarare «Non specificato» e rimandare al bando. Conservare testo integrale, dati e pagina di dettaglio.
+
 11 ottobre 2026 — Nelle card usare «Argomento o descrizione del bando», non «Argomento della ricerca»: alcune fonti MUR contengono descrizioni procedurali e l’etichetta più prudente evita di trasformarle in temi dedotti. Area e SSD restano separati e fedeli ai campi esistenti; rimuovere il badge area duplicato.
 
 10 ottobre 2026 — Il messaggio «Copiato» deve rappresentare un esito reale. Conservare Clipboard API e fallback esistenti; usare il valore booleano di `execCommand`, gestire l'eccezione e mostrare un'istruzione manuale in caso di fallimento. Nessuna modifica al banner approvato, ai dati o ai link.

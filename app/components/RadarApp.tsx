@@ -17,6 +17,7 @@ import { positionTypes } from "@/lib/filters";
 import { grants } from "@/lib/grants";
 import { positions } from "@/lib/positions";
 import { positionTitleContext } from "@/lib/position-title-context.mjs";
+import { positionTopicPresentation } from "@/lib/position-topic.mjs";
 import type { GrantOpportunity } from "@/lib/types";
 
 type SearchParams = {
@@ -322,8 +323,10 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
             </div>
           ) : filtered.length > 0 ? (
             <div className="jobs-list">
-              {filtered.map((position) => (
-                <article className="job-card" key={position.id}>
+              {filtered.map((position) => {
+                const topic = positionTopicPresentation(position.title, position.summary);
+                return (
+                  <article className="job-card" key={position.id}>
                   <div className="job-card-top">
                     <div className="badges">
                       <span className="badge type">{position.positionType}</span>
@@ -362,8 +365,8 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
                     </p>
                   </div>
                   <div className="job-topic">
-                    <span>Argomento o descrizione del bando</span>
-                    <p className="job-summary">{position.summary}</p>
+                    <span>{topic.label}</span>
+                    <p className="job-summary">{topic.text}</p>
                   </div>
                   <Link href={`/positions/${position.id}`} className="back-link">Dettagli e fonte ufficiale</Link>
                   <div className="job-meta">
@@ -374,8 +377,9 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
                     <span>Pubblicato {formatDate(position.publishedAt)}</span>
                     <span>{position.sourceName}</span>
                   </div>
-                </article>
-              ))}
+                  </article>
+                );
+              })}
             </div>
           ) : (
             <div className="empty-state">
