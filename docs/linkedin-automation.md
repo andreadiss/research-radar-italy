@@ -1,15 +1,22 @@
-# LinkedIn publication workflow — €0
+# LinkedIn Research Radar Italy — senza Buffer, costo zero
 
-The weekly GitHub Action **Prepare LinkedIn draft (approval required)** reads the existing MUR cache, filters for positions published within the previous 7 days whose deadlines have not passed, excludes items flagged for review, and creates a GitHub Issue containing a suggested LinkedIn post and links to the official source notices.
+## Flusso
+Ogni lunedì il workflow GitHub Actions **Prepare LinkedIn draft (approval required)** legge le opportunità già importate da MUR, seleziona fino a cinque posizioni pubblicate negli ultimi sette giorni e con scadenza futura e crea una **GitHub Issue** con una proposta di post. Le posizioni contrassegnate per revisione sono escluse.
 
-## Review
-Go to repository **Issues**, open the latest `LinkedIn draft approval` issue, verify every official source, edit the proposed copy, and manually publish to the **Research Radar Italy LinkedIn Page** or queue it in Buffer Free. Closing the issue can serve as a record of completed review but **does not publish anything**.
+## Come approvare e pubblicare
+1. Vai in GitHub → **Issues** → **LinkedIn draft approval — YYYY-Www**.
+2. Controlla uno per uno i link ufficiali, le scadenze, il settore e i dettagli della posizione.
+3. Copia la sezione **Testo proposto** (senza i titoli Markdown) nel composer della pagina LinkedIn **Research Radar Italy**.
+4. Modifica o programma il post usando le funzionalità native di LinkedIn.
+5. Chiudi la GitHub Issue per segnare l'operazione come completata.
 
-Run manually via **Actions → Prepare LinkedIn draft → Run workflow**. The scheduled job runs every Monday at 08:30 UTC. It will not create an issue if there are no eligible new positions. The site and MUR ingestion remain unchanged.
+Il workflow **non accede a LinkedIn, non pubblica e non programma nulla**. L'ultima azione richiede sempre una persona. Nessun account Buffer e nessuna API a pagamento.
 
-## Limitations / future integration
-- Buffer and LinkedIn are **not connected** by this PR. The GitHub connector cannot authenticate to your external accounts.
-- Fully automatic transfer to Buffer drafts requires the Buffer channel ID and approved API access. Keep tokens in GitHub Actions Secrets; never commit them.
-- The approval safeguard should remain in place. A public GitHub issue may be visible to everyone because this repository is public. It contains only public opportunity data, not credentials.
-- GitHub Actions scheduled runs may be delayed, and hosted-run quotas/policies can change.
-- The campaign uses UTM parameters to enable attribution if website analytics are configured.
+## Attivazione e prova
+Dopo il merge della pull request, apri GitHub → Actions → **Prepare LinkedIn draft (approval required)** → **Run workflow**. Il job pianificato parte ogni lunedì alle 08:30 UTC (10:30 in Italia con ora legale / 09:30 con ora solare). Se non ci sono posizioni recenti valide, non apre alcuna issue. Una sola issue a settimana; i run pianificati di GitHub possono subire ritardi.
+
+## Limiti e metriche
+- Tutti i dati sono presenti in un repository GitHub pubblico: la bozza è visibile pubblicamente nelle issue.
+- Le bozze contengono link UTM; per misurare conversioni e visite servono analytics del sito.
+- Le opportunità di categorie non incluse nella cache MUR non vengono coperte.
+- È consigliabile correggere o integrare il testo prima di pubblicarlo: il copy viene generato con un modello testuale senza AI e senza costi.
