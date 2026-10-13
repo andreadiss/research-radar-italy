@@ -1,5 +1,7 @@
 ## Baseline
 
+13 ottobre 2026 — Superficie LinkedIn nel repository: 1 workflow pianificato, 1 script generatore e 1 guida operativa introdotti dalla PR #43; target 0/0/0. Nessuna metrica di traffico, pubblicazione LinkedIn o effetto SEO associato.
+
 12 ottobre 2026 — Baseline di chiarezza sul catalogo corrente: 733 posizioni aperte, 68 descrizioni con apertura esclusivamente procedurale. Dopo la regola proposta, 37 card usano il titolo ufficiale non procedurale come argomento e 31 dichiarano «non specificato»; 0 testi o classificazioni inventati. Nessun nuovo dato GSC o GA4 e nessun effetto traffico attribuito.
 
 11 ottobre 2026 — Baseline strutturale delle card principali: 1/3 elementi di contesto aveva un’etichetta esplicita (solo settore scientifico); target 3/3 (area disciplinare, settore scientifico, argomento o descrizione). Nessuna nuova metrica di traffico o indicizzazione e nessun effetto attribuito.

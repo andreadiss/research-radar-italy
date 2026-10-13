@@ -1,5 +1,7 @@
 # Decision log
 
+13 ottobre 2026 — LinkedIn non deve essere gestito dal repository GitHub. Rimuovere integralmente la PR #43 e non sostituirla con workflow, issue automatiche o script nel progetto. Conservare invariati sito, dati, sync MUR e pipeline di deploy.
+
 12 ottobre 2026 — Non riscrivere le descrizioni procedurali né dedurre un tema. Nelle sole card, se la descrizione è procedurale e il titolo ufficiale non lo è, presentare quel titolo come «Argomento dal titolo ufficiale»; se anche il titolo è procedurale, dichiarare «Non specificato» e rimandare al bando. Conservare testo integrale, dati e pagina di dettaglio.
 
 11 ottobre 2026 — Nelle card usare «Argomento o descrizione del bando», non «Argomento della ricerca»: alcune fonti MUR contengono descrizioni procedurali e l’etichetta più prudente evita di trasformarle in temi dedotti. Area e SSD restano separati e fedeli ai campi esistenti; rimuovere il badge area duplicato.

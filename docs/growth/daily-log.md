@@ -1,5 +1,7 @@
 # Daily log
 
+13 ottobre 2026 — Letti `main` 3d94ce8, PR aperte (nessuna) e sei documenti growth; verificato il rilascio #42. Individuata la PR #43 in conflitto con la decisione esplicita di non gestire LinkedIn tramite GitHub. Rimosso il perimetro completo: workflow pianificato, script generatore e guida; nessuna modifica al sito o ai dati e nessuna metrica di traffico attribuita.
+
 12 ottobre 2026 — Letti main, PR aperte (nessuna) e sei documenti growth; verificato il rilascio #41. Misurate 68/733 posizioni aperte con descrizione procedurale: 37 con titolo ufficiale utilizzabile come argomento, 31 senza argomento esplicito. Preparata una regola di sola presentazione per card, senza cambiare dati o schede. TypeScript, 79 test, build statica (1.968 pagine), audit dati e audit statico superati; nessuna nuova misura GSC o promessa di traffico.
 
 11 ottobre 2026 — Letti main, PR aperte (nessuna) e sei documenti growth; verificato il rilascio #40. Scelto un micro-task UX low risk sulle card principali: area, SSD e argomento/descrizione diventano campi espliciti e responsive senza modificare dati o classificazioni. TypeScript, 76 test, build statica e audit superati localmente; nessuna nuova misura GSC o promessa di traffico.
