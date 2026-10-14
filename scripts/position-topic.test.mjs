@@ -40,3 +40,29 @@ test("signals when neither description nor title specifies a topic", () => {
     }
   );
 });
+
+test("does not present an administrative professor title as a research topic", () => {
+  assert.deepEqual(
+    positionTopicPresentation(
+      "n.1 professoressa/professore associata/o, finanziato dalla RAS - GSD 13/ECON-07",
+      "Procedura selettiva per la copertura di un posto."
+    ),
+    {
+      label: "Argomento",
+      text: "Non specificato nella descrizione MUR disponibile; consulta il bando ufficiale."
+    }
+  );
+});
+
+test("does not present an administrative research-contract title as a topic", () => {
+  assert.deepEqual(
+    positionTopicPresentation(
+      "n. 3 contratti di ricerca art. 22",
+      "Bando di selezione per il conferimento di contratti di ricerca."
+    ),
+    {
+      label: "Argomento",
+      text: "Non specificato nella descrizione MUR disponibile; consulta il bando ufficiale."
+    }
+  );
+});
