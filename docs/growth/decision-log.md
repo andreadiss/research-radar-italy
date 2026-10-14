@@ -1,5 +1,7 @@
 # Decision log
 
+14 ottobre 2026 — Riutilizzare `positionTopicPresentation` nelle schede di dettaglio. Se il riepilogo è sostanziale, presentarlo una sola volta come «Argomento»; se è procedurale ma il titolo ufficiale è sostanziale, mostrare il titolo come argomento e mantenere il testo originale sotto «Descrizione del bando»; se entrambi sono procedurali, dichiarare il tema non specificato. Non cambiare record, metadata, URL, canonical o classificazioni.
+
 13 ottobre 2026 — LinkedIn non deve essere gestito dal repository GitHub. Rimuovere integralmente la PR #43 e non sostituirla con workflow, issue automatiche o script nel progetto. Conservare invariati sito, dati, sync MUR e pipeline di deploy.
 
 12 ottobre 2026 — Non riscrivere le descrizioni procedurali né dedurre un tema. Nelle sole card, se la descrizione è procedurale e il titolo ufficiale non lo è, presentare quel titolo come «Argomento dal titolo ufficiale»; se anche il titolo è procedurale, dichiarare «Non specificato» e rimandare al bando. Conservare testo integrale, dati e pagina di dettaglio.

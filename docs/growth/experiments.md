@@ -1,5 +1,7 @@
 ## Experiment opportunities
 
+14 ottobre 2026 — Miglioramento diretto, non A/B test: allineare card e scheda nella presentazione dell'argomento. Gate: una sola sezione tematica esplicita; descrizione ufficiale aggiuntiva soltanto se il testo mostrato come argomento differisce; nessuna classificazione o riscrittura inventata. Osservare in futuro clic e impression delle schede, senza attribuzione causale.
+
 13 ottobre 2026 — Non è un esperimento: rimozione dell'automazione LinkedIn da GitHub per rispettare il canale operativo deciso dall'utente. Nessun test di traffico o contenuto; guardrail: zero workflow, script e documenti LinkedIn residui nel repository.
 
 12 ottobre 2026 — Miglioramento diretto, non A/B test: sulle descrizioni procedurali la card riusa soltanto il titolo ufficiale oppure espone l'assenza dell'argomento. Gate: 68/68 casi ricevono una presentazione esplicita; schede e testo sorgente invariati. Nessuna causalità sul traffico.
