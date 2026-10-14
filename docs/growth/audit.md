@@ -1,5 +1,7 @@
 # Research Radar Italy — Audit iniziale
 
+14 ottobre 2026 — Revisione settimanale: le cinque schede prioritarie richieste il 4 ottobre sono tutte reperibili nella ricerca pubblica Google (5/5), contro 0/5 nella precedente ispezione GSC; il dato non sostituisce la copertura completa perché il login Search Console non è disponibile in questa esecuzione. Resta un'incoerenza prodotto: la regola che chiarisce l'argomento nelle card non è applicata alle schede. Scelto di riusare la stessa presentazione nel dettaglio e conservare separatamente la descrizione procedurale quando differisce.
+
 13 ottobre 2026 — Rilevata su `main` la PR #43, che introduceva un workflow GitHub pianificato, uno script e documentazione per bozze LinkedIn. La soluzione confligge con la successiva decisione esplicita di gestire LinkedIn fuori da GitHub. Scelta la rimozione completa dei tre file, senza modifiche al sito, ai dati o alla pipeline MUR.
 
 12 ottobre 2026 — Verificato il rilascio #41 e nessuna PR aperta. Nel catalogo corrente 68/733 posizioni aperte hanno una descrizione che inizia con solo linguaggio procedurale: 37 conservano un titolo ufficiale non procedurale, 31 hanno anche un titolo procedurale. Scelta una presentazione limitata alle card: per le prime usare il titolo ufficiale come argomento; per le seconde dichiarare che l'argomento non è specificato. Testo sorgente e scheda restano invariati.

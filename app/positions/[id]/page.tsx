@@ -9,6 +9,7 @@ import { absoluteUrl, jsonLd, truncateText } from "@/lib/seo";
 import { meaningfulRequirements } from "@/lib/requirements.mjs";
 import { positionMetadataTitle } from "@/lib/position-metadata-title.mjs";
 import { positionTitleContext } from "@/lib/position-title-context.mjs";
+import { positionTopicPresentation } from "@/lib/position-topic.mjs";
 import { relatedPositions } from "@/lib/related-positions";
 import { seoLandingPages } from "@/lib/seo-landing-pages";
 import { italyToday, isOpenPosition } from "@/lib/opportunity-status";
@@ -73,6 +74,7 @@ export default function PositionDetail({ params }: { params: { id: string } }) {
   const related = relatedPositions(position, positions, italyToday());
   const modifiedTime = validModifiedTime(position.publishedAt, position.updatedAt);
   const titleContext = positionTitleContext(position, openPositions);
+  const topic = positionTopicPresentation(position.title, position.summary);
 
   // These records contain short source extracts, not complete job descriptions.
   // Use WebPage until the requirements for truthful JobPosting markup are met.
@@ -141,8 +143,13 @@ export default function PositionDetail({ params }: { params: { id: string } }) {
             <DetailItem label="Lingua" value={position.language} />
           </div>
 
-          <h2>Sintesi</h2>
-          <p className="summary">{position.summary}</p>
+          <h2>{topic.label}</h2>
+          <p className="summary">{topic.text}</p>
+
+          {topic.text !== position.summary ? <>
+            <h2>Descrizione del bando</h2>
+            <p className="summary">{position.summary}</p>
+          </> : null}
 
           <h2>Requisiti principali</h2>
           {requirements.length > 0 ? <ul className="summary">

@@ -1,5 +1,7 @@
 ## Baseline
 
+14 ottobre 2026 — Campione indicizzazione: 5/5 URL prioritarie del 4 ottobre risultano oggi reperibili nella ricerca pubblica Google; la verifica non misura le altre pagine né sostituisce Search Console. Ultimi dati GSC consolidati disponibili fino al 6 ottobre: 23–29 settembre 1 clic/61 impression; 30 settembre–6 ottobre 9/155, finestre adiacenti di sette giorni ma ormai con otto giorni di ritardo. Schede: etichetta tematica esplicita 0/1 nel dettaglio → target 1/1; descrizione sorgente sempre conservata.
+
 13 ottobre 2026 — Superficie LinkedIn nel repository: 1 workflow pianificato, 1 script generatore e 1 guida operativa introdotti dalla PR #43; target 0/0/0. Nessuna metrica di traffico, pubblicazione LinkedIn o effetto SEO associato.
 
 12 ottobre 2026 — Baseline di chiarezza sul catalogo corrente: 733 posizioni aperte, 68 descrizioni con apertura esclusivamente procedurale. Dopo la regola proposta, 37 card usano il titolo ufficiale non procedurale come argomento e 31 dichiarano «non specificato»; 0 testi o classificazioni inventati. Nessun nuovo dato GSC o GA4 e nessun effetto traffico attribuito.
