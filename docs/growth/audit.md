@@ -1,5 +1,7 @@
 # Research Radar Italy — Audit iniziale
 
+15 ottobre 2026 — Verificati il rilascio #46, il successivo aggiornamento Grants e l'assenza di PR aperte. Nelle card ente e località comparivano soltanto dopo argomento, CTA e altri contenuti: due informazioni primarie per confrontare opportunità erano quindi lontane dal titolo. Scelto di portarle subito sotto il titolo e lasciare nel footer soltanto pubblicazione e fonte, senza cambiare dati o azioni.
+
 14 ottobre 2026 — Revisione settimanale: le cinque schede prioritarie richieste il 4 ottobre sono tutte reperibili nella ricerca pubblica Google (5/5), contro 0/5 nella precedente ispezione GSC; il dato non sostituisce la copertura completa perché il login Search Console non è disponibile in questa esecuzione. Resta un'incoerenza prodotto: la regola che chiarisce l'argomento nelle card non è applicata alle schede. Scelto di riusare la stessa presentazione nel dettaglio e conservare separatamente la descrizione procedurale quando differisce. Il controllo finale ha escluso anche titoli amministrativi numerici di professori, ricercatori e contratti dalla presentazione come argomento.
 
 13 ottobre 2026 — Rilevata su `main` la PR #43, che introduceva un workflow GitHub pianificato, uno script e documentazione per bozze LinkedIn. La soluzione confligge con la successiva decisione esplicita di gestire LinkedIn fuori da GitHub. Scelta la rimozione completa dei tre file, senza modifiche al sito, ai dati o alla pipeline MUR.
