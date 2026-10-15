@@ -1,5 +1,7 @@
 ## Prioritized backlog
 
+15 ottobre 2026 — **P1 gerarchia ente/località nelle card** (Impact 7, Confidence 9, Effort 1, Risk 1): spostare le due informazioni subito sotto il titolo, prima di area, SSD e argomento. Eliminare la duplicazione nel footer; dati, filtri, link e CTA invariati.
+
 14 ottobre 2026 — **SHIPPED / P1 argomento nelle schede** (Impact 8, Confidence 9, Effort 2, Risk 1): applicare alle pagine di dettaglio la regola già verificata sulle card. Mostrare l'argomento dal testo o dal titolo ufficiale; quando manca, dichiararlo; conservare la descrizione originale se diversa. Titoli amministrativi esclusi con guardrail dedicato. Campione indicizzazione pubblico 5/5; prossimo controllo della copertura completa solo con accesso GSC.
 
 13 ottobre 2026 — **P0 rimozione automazione LinkedIn da GitHub** (Impact 9, Confidence 10, Effort 1, Risk 1): eliminare workflow, script e guida aggiunti dalla PR #43 per riallineare il repository alla decisione utente. Nessun sostituto nel repository; il percorso LinkedIn resta esterno.
