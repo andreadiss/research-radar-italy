@@ -1,5 +1,7 @@
 # Decision log
 
+15 ottobre 2026 — Trattare ente e località come contesto primario della posizione: mostrarli immediatamente dopo il titolo nelle card e non ripeterli nel footer. Conservare area, SSD e argomento come secondo livello; nessuna modifica a dataset, ranking, filtri, URL o fonte.
+
 14 ottobre 2026 — Riutilizzare `positionTopicPresentation` nelle schede di dettaglio. Se il riepilogo è sostanziale, presentarlo una sola volta come «Argomento»; se è procedurale ma il titolo ufficiale è sostanziale, mostrare il titolo come argomento e mantenere il testo originale sotto «Descrizione del bando»; se titolo e riepilogo sono procedurali o amministrativi, dichiarare il tema non specificato. Non cambiare record, metadata, URL, canonical o classificazioni.
 
 13 ottobre 2026 — LinkedIn non deve essere gestito dal repository GitHub. Rimuovere integralmente la PR #43 e non sostituirla con workflow, issue automatiche o script nel progetto. Conservare invariati sito, dati, sync MUR e pipeline di deploy.

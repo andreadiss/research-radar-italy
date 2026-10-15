@@ -1,5 +1,7 @@
 ## Baseline
 
+15 ottobre 2026 — Gerarchia card: ente e località erano mostrati dopo 4 blocchi decisionali (titolo, area/SSD, argomento, CTA); target: subito dopo il titolo, prima dell'ambito disciplinare. Nessuna nuova metrica GSC: il connettore restituisce `INVALID_ARGUMENT`.
+
 14 ottobre 2026 — Campione indicizzazione: 5/5 URL prioritarie del 4 ottobre risultano oggi reperibili nella ricerca pubblica Google; la verifica non misura le altre pagine né sostituisce Search Console. Ultimi dati GSC consolidati disponibili fino al 6 ottobre: 23–29 settembre 1 clic/61 impression; 30 settembre–6 ottobre 9/155, finestre adiacenti di sette giorni ma ormai con otto giorni di ritardo. Schede: etichetta tematica esplicita 0/1 nel dettaglio → 1/1; descrizione sorgente sempre conservata; 2 nuovi casi di test bloccano titoli amministrativi usati come tema.
 
 13 ottobre 2026 — Superficie LinkedIn nel repository: 1 workflow pianificato, 1 script generatore e 1 guida operativa introdotti dalla PR #43; target 0/0/0. Nessuna metrica di traffico, pubblicazione LinkedIn o effetto SEO associato.

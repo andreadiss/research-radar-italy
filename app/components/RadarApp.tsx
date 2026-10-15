@@ -354,6 +354,10 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
                   >
                     <h3 className="job-title">{positionTitles.get(position.id) ?? position.title}</h3>
                   </OpportunityPreview>
+                  <div className="job-primary-meta" aria-label="Ente e località">
+                    <strong>{position.institution}</strong>
+                    <span><MapPin size={14} />{position.location}</span>
+                  </div>
                   <div className="job-research-context" aria-label="Ambito della posizione">
                     <p>
                       <span>Area disciplinare</span>
@@ -370,10 +374,6 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
                   </div>
                   <Link href={`/positions/${position.id}`} className="back-link">Dettagli e fonte ufficiale</Link>
                   <div className="job-meta">
-                    <span>
-                      <strong>{position.institution}</strong>
-                    </span>
-                    <span className="meta-with-icon"><MapPin size={14} />{position.location}</span>
                     <span>Pubblicato {formatDate(position.publishedAt)}</span>
                     <span>{position.sourceName}</span>
                   </div>

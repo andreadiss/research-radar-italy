@@ -1223,6 +1223,27 @@ select {
   margin: 0;
 }
 
+.job-primary-meta {
+  align-items: center;
+  color: var(--muted);
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 14px;
+  gap: 6px 14px;
+  margin-top: -3px;
+}
+
+.job-primary-meta strong {
+  color: var(--ink);
+  font-weight: 800;
+}
+
+.job-primary-meta span {
+  align-items: center;
+  display: inline-flex;
+  gap: 4px;
+}
+
 .job-summary {
   color: #46524b;
   display: -webkit-box;
