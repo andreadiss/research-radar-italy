@@ -1,5 +1,7 @@
 # Decision log
 
+16 ottobre 2026 — Conservare tutte le 19 scelte ma ridurre l'ingombro verticale dei filtri su mobile con overflow orizzontale nativo sotto 640 px. Evitare accordion o menu aggiuntivi, che nasconderebbero opzioni e introdurrebbero un passaggio. Desktop, dati, ranking, tracking, URL e logica restano invariati.
+
 15 ottobre 2026 — Trattare ente e località come contesto primario della posizione: mostrarli immediatamente dopo il titolo nelle card e non ripeterli nel footer. Conservare area, SSD e argomento come secondo livello; nessuna modifica a dataset, ranking, filtri, URL o fonte.
 
 14 ottobre 2026 — Riutilizzare `positionTopicPresentation` nelle schede di dettaglio. Se il riepilogo è sostanziale, presentarlo una sola volta come «Argomento»; se è procedurale ma il titolo ufficiale è sostanziale, mostrare il titolo come argomento e mantenere il testo originale sotto «Descrizione del bando»; se titolo e riepilogo sono procedurali o amministrativi, dichiarare il tema non specificato. Non cambiare record, metadata, URL, canonical o classificazioni.
