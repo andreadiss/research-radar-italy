@@ -1,5 +1,7 @@
 ## Prioritized backlog
 
+16 ottobre 2026 — **Correzione P0 filtri visibili**: su richiesta esplicita, annullare la riga scorrevole della PR #48 e mostrare tutte le opzioni contemporaneamente su mobile. Criterio: nessun chip richiede scorrimento orizzontale; ordine, conteggi, destinazioni e desktop invariati.
+
 16 ottobre 2026 — **SHIPPED / P1 filtri mobile compatti** (Impact 7, Confidence 8, Effort 1, Risk 1): trasformare ogni gruppo di chip in una singola riga scorrevole sotto 640 px, con scrollbar nativa e snap. Mantenere tutte le 19 scelte, ordine, conteggi, URL, tracking e desktop invariati.
 
 15 ottobre 2026 — **P1 gerarchia ente/località nelle card** (Impact 7, Confidence 9, Effort 1, Risk 1): spostare le due informazioni subito sotto il titolo, prima di area, SSD e argomento. Eliminare la duplicazione nel footer; dati, filtri, link e CTA invariati.
