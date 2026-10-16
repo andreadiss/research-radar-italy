@@ -1,5 +1,7 @@
 # Research Radar Italy — Audit iniziale
 
+16 ottobre 2026 — Feedback dell'utente sulla PR #48: la riga orizzontale nasconde i filtri fuori dal viewport e non soddisfa il requisito di accesso immediato. Ripristinato il layout a capo su mobile: ogni chip resta visibile senza scorrimento laterale. Le 19 opzioni e la logica restano invariate.
+
 16 ottobre 2026 — Verificato il rilascio #47, il successivo aggiornamento dati e l'assenza di PR aperte. Su schermi fino a 640 px i 19 filtri rapidi (9 tipologie, 9 materie, 1 modalità) andavano a capo su molte righe prima dei risultati. Scelto di mantenere tutte le opzioni visibili ma disporre ogni gruppo su una singola riga scorrevole, con scrollbar nativa sottile e snap, senza cambiare ordine, conteggi, URL o logica dei filtri.
 
 15 ottobre 2026 — Verificati il rilascio #46, il successivo aggiornamento Grants e l'assenza di PR aperte. Nelle card ente e località comparivano soltanto dopo argomento, CTA e altri contenuti: due informazioni primarie per confrontare opportunità erano quindi lontane dal titolo. Scelto di portarle subito sotto il titolo e lasciare nel footer soltanto pubblicazione e fonte, senza cambiare dati o azioni.

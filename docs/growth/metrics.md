@@ -1,5 +1,7 @@
 ## Baseline
 
+16 ottobre 2026 — Correzione visibilità: 19/19 chip mostrati nella pagina mobile senza scorrimento orizzontale. L'altezza della sezione torna a dipendere dal numero di righe; nessuna nuova misura di traffico disponibile.
+
 16 ottobre 2026 — Densità filtri mobile: 19 scelte in più righe variabili → una riga scorrevole per gruppo sotto 640 px; logica, URL e risultati invariati. Nessun nuovo dato GSC: il connettore restituisce `payment_required`.
 
 15 ottobre 2026 — Gerarchia card: ente e località erano mostrati dopo 4 blocchi decisionali (titolo, area/SSD, argomento, CTA); target: subito dopo il titolo, prima dell'ambito disciplinare. Nessuna nuova metrica GSC: il connettore restituisce `INVALID_ARGUMENT`.

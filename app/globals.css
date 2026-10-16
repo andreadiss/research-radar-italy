@@ -1871,23 +1871,13 @@ select {
 
   .chip-row {
     gap: 7px;
-    flex-wrap: nowrap;
-    margin-right: -14px;
-    overflow-x: auto;
-    overscroll-behavior-inline: contain;
-    padding-bottom: 7px;
-    padding-right: 14px;
-    scroll-snap-type: inline proximity;
-    scrollbar-color: #9ccdc2 transparent;
-    scrollbar-width: thin;
+    flex-wrap: wrap;
   }
 
   .quick-chip {
-    flex: 0 0 auto;
     font-size: 12px;
     min-height: 32px;
     padding: 6px 10px;
-    scroll-snap-align: start;
   }
 
   .job-card {

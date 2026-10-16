@@ -1,5 +1,7 @@
 # Daily log
 
+16 ottobre 2026 — L'utente ha corretto la priorità UX: i filtri devono essere tutti in evidenza e raggiungibili subito. Ripristinato il wrapping delle 19 opzioni mobile dopo la PR #48; nessun cambiamento a dati, URL o desktop.
+
 16 ottobre 2026 — Letti `main` 54b72bb, PR aperte (nessuna) e sei documenti growth; verificato il rilascio #47 e preservati i successivi aggiornamenti dati. GSC Wizard restituisce `payment_required`, quindi nessuna metrica nuova o attribuzione. Un task UX: i 19 filtri rapidi mobile passano da molte righe a una riga scorrevole per gruppo, con scrollbar sottile e snap. Conteggi, ordine, URL, tracking e desktop invariati. Gate, PR, deploy e verifica live nel report finale.
 
 15 ottobre 2026 — Letti `main` 0a0ce27, PR aperte (nessuna) e sei documenti growth; verificati il rilascio #46 e il sync Grants successivo. GSC Wizard continua a restituire `INVALID_ARGUMENT`, quindi nessun dato nuovo inventato. Scelto un micro-task UX low risk: ente e località passano dal fondo della card a subito sotto il titolo, riducendo la distanza informativa senza cambiare dati, CTA o filtri. TypeScript, 81 test, build statica di 2.093 pagine, audit dati (0 errori) e statico (743 URL sitemap, 0 link rotti/orfani) superati.
