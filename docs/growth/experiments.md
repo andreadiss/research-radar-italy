@@ -1,5 +1,7 @@
 ## Experiment opportunities
 
+16 ottobre 2026 — Miglioramento UX diretto, non A/B test: ridurre l'altezza iniziale dei filtri mobile per rendere più rapido raggiungere i risultati senza nascondere opzioni. Guardrail: scrollbar visibile, chip non compresse, scroll snap, desktop e destinazioni invariati.
+
 15 ottobre 2026 — Miglioramento UX diretto, non A/B test: anticipare ente e località nelle card per facilitare scansione e confronto. Guardrail: una sola occorrenza visiva, gerarchia responsive, stessi dati e stessi percorsi; nessuna attribuzione di traffico.
 
 14 ottobre 2026 — Miglioramento diretto, non A/B test: allineare card e scheda nella presentazione dell'argomento. Gate: una sola sezione tematica esplicita; descrizione ufficiale aggiuntiva soltanto se il testo mostrato come argomento differisce; titoli amministrativi esclusi; nessuna classificazione o riscrittura inventata. Osservare in futuro clic e impression delle schede, senza attribuzione causale.
