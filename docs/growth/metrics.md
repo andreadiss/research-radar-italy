@@ -1,5 +1,7 @@
 ## Baseline
 
+17 ottobre 2026 — Baseline contenuti: 719 opportunità aperte, 10 con sintesi `V. BANDO` (1,39%). Dopo l’arricchimento di presentazione verificato: 0/10 placeholder nel gruppo UniTo e 10/10 titoli tematici distinti; il dataset MUR sorgente resta invariato. Nessuna nuova metrica GSC: il connettore resta `payment_required`; non si attribuisce traffico alla modifica.
+
 16 ottobre 2026 — Correzione visibilità: 19/19 chip mostrati nella pagina mobile senza scorrimento orizzontale. L'altezza della sezione torna a dipendere dal numero di righe; nessuna nuova misura di traffico disponibile.
 
 16 ottobre 2026 — Densità filtri mobile: 19 scelte in più righe variabili → una riga scorrevole per gruppo sotto 640 px; logica, URL e risultati invariati. Nessun nuovo dato GSC: il connettore restituisce `payment_required`.
