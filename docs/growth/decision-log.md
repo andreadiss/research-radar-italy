@@ -1,5 +1,7 @@
 # Decision log
 
+17 ottobre 2026 — Applicare override versionati soltanto ai dieci ID UniTo verificati nei PDF ufficiali, riusando lo stesso meccanismo già persistente ai sync. Pubblicare titolo tematico, sintesi, dipartimento e durata; conservare MUR come fonte primaria e il PDF come verifica. Non classificare o riscrivere in massa record simili.
+
 16 ottobre 2026 — Decisione aggiornata dopo feedback: privilegiare la visibilità simultanea di tutti i filtri rispetto al minor ingombro verticale. Rimosso lo scorrimento orizzontale introdotto dalla PR #48.
 
 16 ottobre 2026 — Conservare tutte le 19 scelte ma ridurre l'ingombro verticale dei filtri su mobile con overflow orizzontale nativo sotto 640 px. Evitare accordion o menu aggiuntivi, che nasconderebbero opzioni e introdurrebbero un passaggio. Desktop, dati, ranking, tracking, URL e logica restano invariati.

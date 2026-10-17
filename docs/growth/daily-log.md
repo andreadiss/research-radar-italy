@@ -1,5 +1,7 @@
 # Daily log
 
+17 ottobre 2026 — Letti `main` 737284b, PR aperte (nessuna) e sei documenti growth; verificata come baseline la correzione filtri #49. GSC non interrogato di nuovo perché il connettore resta documentato come `payment_required`. Misurate 719 opportunità aperte e 10 sintesi `V. BANDO`; verificati cinque PDF ufficiali UniTo per 74–78/CDR e 30–34/POST_DOC. Preparato arricchimento persistente dei dieci ID con tema, dipartimento e durata e test di isolamento. Nessun dato di traffico inventato.
+
 16 ottobre 2026 — L'utente ha corretto la priorità UX: i filtri devono essere tutti in evidenza e raggiungibili subito. Ripristinato il wrapping delle 19 opzioni mobile dopo la PR #48; nessun cambiamento a dati, URL o desktop.
 
 16 ottobre 2026 — Letti `main` 54b72bb, PR aperte (nessuna) e sei documenti growth; verificato il rilascio #47 e preservati i successivi aggiornamenti dati. GSC Wizard restituisce `payment_required`, quindi nessuna metrica nuova o attribuzione. Un task UX: i 19 filtri rapidi mobile passano da molte righe a una riga scorrevole per gruppo, con scrollbar sottile e snap. Conteggi, ordine, URL, tracking e desktop invariati. Gate, PR, deploy e verifica live nel report finale.

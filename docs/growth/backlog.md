@@ -1,5 +1,7 @@
 ## Prioritized backlog
 
+17 ottobre 2026 — **P0 qualità delle schede UniTo** (Impact 9, Confidence 10, Effort 3, Risk 1): sostituire 10/719 argomenti aperti ridotti a `V. BANDO` con titolo, sintesi, dipartimento e durata attestati nei PDF ufficiali dei codici 74–78/CDR e 30–34/POST_DOC. Guardrail: dieci temi distinti, URL di verifica conservato, zero estensioni per somiglianza. Prossimo P1: misurare il gruppo residuo di descrizioni procedurali e verificare una sola fonte omogenea.
+
 16 ottobre 2026 — **Correzione P0 filtri visibili**: su richiesta esplicita, annullare la riga scorrevole della PR #48 e mostrare tutte le opzioni contemporaneamente su mobile. Criterio: nessun chip richiede scorrimento orizzontale; ordine, conteggi, destinazioni e desktop invariati.
 
 16 ottobre 2026 — **SHIPPED / P1 filtri mobile compatti** (Impact 7, Confidence 8, Effort 1, Risk 1): trasformare ogni gruppo di chip in una singola riga scorrevole sotto 640 px, con scrollbar nativa e snap. Mantenere tutte le 19 scelte, ordine, conteggi, URL, tracking e desktop invariati.

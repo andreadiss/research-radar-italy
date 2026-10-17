@@ -44,6 +44,32 @@ test("leaves every non-target position unchanged", () => {
   assert.equal(applyVerifiedPositionEnrichment(position), position);
 });
 
+test("replaces the ten verified UniTo placeholders with distinct research topics", () => {
+  const positions = JSON.parse(
+    fs.readFileSync(new URL("../lib/generated/mur-positions.json", import.meta.url), "utf8")
+  );
+  const ids = [
+    "mur-research-contracts-318761",
+    "mur-research-contracts-318762",
+    "mur-research-contracts-318763",
+    "mur-research-contracts-318764",
+    "mur-research-contracts-318765",
+    "mur-postdoc-assignments-318768",
+    "mur-postdoc-assignments-318769",
+    "mur-postdoc-assignments-318771",
+    "mur-postdoc-assignments-318772",
+    "mur-postdoc-assignments-318773"
+  ];
+  const enriched = ids.map((id) => applyVerifiedPositionEnrichment(positions.find((position) => position.id === id)));
+
+  assert.equal(enriched.length, 10);
+  assert.ok(enriched.every((position) => position && !/^V\. BANDO\b/i.test(position.summary)));
+  assert.equal(new Set(enriched.map((position) => position.title)).size, 10);
+  assert.ok(enriched.every((position) => position.verificationUrl && position.department !== "Da bando ufficiale"));
+  assert.match(enriched.find((position) => position.id.endsWith("318772")).summary, /Crisippo di Soli/);
+  assert.match(enriched.find((position) => position.id.endsWith("318773")).summary, /ECLI, NLP/);
+});
+
 test("replaces a URL-only summary with verified source fields", () => {
   const position = applyVerifiedPositionEnrichment({
     id: "mur-fixed-term-researchers-example",
