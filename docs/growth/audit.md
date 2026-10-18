@@ -1,5 +1,7 @@
 # Research Radar Italy — Audit iniziale
 
+18 ottobre 2026 — Verificato che il sync successivo conserva i dieci arricchimenti UniTo della PR #50. Nel catalogo corrente 44/749 opportunità aperte restano senza argomento esplicito; il gruppo omogeneo immediatamente verificabile comprende due Postdoc Firenze con descrizione procedurale. I bandi ufficiali D.R. 1297/2026 e 1296/2026 specificano programmi, dipartimenti, durata e trattamento economico distinti. Scelto un override puntuale dei soli ID 318507 e 318513.
+
 17 ottobre 2026 — Verificata la correzione mobile #49 e misurato il catalogo corrente: 10/719 opportunità aperte mostravano `V. BANDO` come argomento, pur avendo SSD valido. I cinque PDF ufficiali UniTo collegati dal MUR identificano in modo univoco tema, dipartimento e durata per i codici 74–78/CDR e 30–34/POST_DOC. Scelto un arricchimento puntuale e persistente dei dieci ID, senza inferenze sugli altri record.
 
 16 ottobre 2026 — Feedback dell'utente sulla PR #48: la riga orizzontale nasconde i filtri fuori dal viewport e non soddisfa il requisito di accesso immediato. Ripristinato il layout a capo su mobile: ogni chip resta visibile senza scorrimento laterale. Le 19 opzioni e la logica restano invariate.
