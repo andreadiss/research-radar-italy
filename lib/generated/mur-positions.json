@@ -45234,7 +45234,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-17T10:00:13.546Z"
+    "updatedAt": "2026-09-17T10:00:13.546Z",
+    "archivedAt": "2026-10-18T09:38:50.812Z"
   },
   {
     "id": "mur-research-assignments-317460",
@@ -45265,7 +45266,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-17T10:00:13.546Z"
+    "updatedAt": "2026-09-17T10:00:13.546Z",
+    "archivedAt": "2026-10-18T09:38:50.812Z"
   },
   {
     "id": "mur-postdoc-assignments-317470",
@@ -45296,7 +45298,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-17T10:00:13.546Z"
+    "updatedAt": "2026-09-17T10:00:13.546Z",
+    "archivedAt": "2026-10-18T09:38:50.812Z"
   },
   {
     "id": "mur-fixed-term-researchers-152383",
@@ -45329,7 +45332,8 @@
     "reviewReasons": [
       "unknown_discipline"
     ],
-    "updatedAt": "2026-09-18T09:46:56.385Z"
+    "updatedAt": "2026-09-18T09:46:56.385Z",
+    "archivedAt": "2026-10-18T09:38:50.812Z"
   },
   {
     "id": "mur-research-contracts-317488",
@@ -45360,7 +45364,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-18T09:46:56.385Z"
+    "updatedAt": "2026-09-18T09:46:56.385Z",
+    "archivedAt": "2026-10-18T09:38:50.812Z"
   },
   {
     "id": "mur-research-contracts-317490",
@@ -45391,7 +45396,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-18T09:46:56.385Z"
+    "updatedAt": "2026-09-18T09:46:56.385Z",
+    "archivedAt": "2026-10-18T09:38:50.812Z"
   },
   {
     "id": "mur-research-contracts-317476",
@@ -45422,7 +45428,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-18T09:46:56.385Z"
+    "updatedAt": "2026-09-18T09:46:56.385Z",
+    "archivedAt": "2026-10-18T09:38:50.812Z"
   },
   {
     "id": "mur-research-assignments-317492",
@@ -45453,7 +45460,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-18T09:46:56.385Z"
+    "updatedAt": "2026-09-18T09:46:56.385Z",
+    "archivedAt": "2026-10-18T09:38:50.812Z"
   },
   {
     "id": "mur-research-assignments-317496",
@@ -45484,7 +45492,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-09-18T09:46:56.385Z"
+    "updatedAt": "2026-09-18T09:46:56.385Z",
+    "archivedAt": "2026-10-18T09:38:50.812Z"
   },
   {
     "id": "mur-research-assignments-318187",
@@ -45517,7 +45526,8 @@
     "reviewReasons": [
       "multiple_scientific_sectors"
     ],
-    "updatedAt": "2026-09-30T11:11:02.386Z"
+    "updatedAt": "2026-09-30T11:11:02.386Z",
+    "archivedAt": "2026-10-18T09:38:50.812Z"
   },
   {
     "id": "mur-research-contracts-318365",
@@ -45548,7 +45558,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-10-02T11:07:08.111Z"
+    "updatedAt": "2026-10-02T11:07:08.111Z",
+    "archivedAt": "2026-10-18T09:38:50.812Z"
   },
   {
     "id": "mur-research-assignments-318373",
@@ -45579,7 +45590,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-10-02T11:07:08.111Z"
+    "updatedAt": "2026-10-02T11:07:08.111Z",
+    "archivedAt": "2026-10-18T09:38:50.812Z"
   },
   {
     "id": "mur-research-assignments-318375",
@@ -45610,7 +45622,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-10-07T11:48:01.548Z"
+    "updatedAt": "2026-10-07T11:48:01.548Z",
+    "archivedAt": "2026-10-18T09:38:50.812Z"
   },
   {
     "id": "mur-fixed-term-researchers-151044",
@@ -50618,9 +50631,9 @@
   },
   {
     "id": "mur-postdoc-assignments-318507",
-    "title": "Selezione pubblica per incarichi post-doc",
+    "title": "Controllo di singoli atomi di stronzio in array di pinzette ottiche",
     "institution": "Università degli Studi di Firenze",
-    "department": "Da bando ufficiale",
+    "department": "Dipartimento di Fisica e Astronomia",
     "location": "Firenze",
     "region": "Toscana",
     "positionType": "Postdoc",
@@ -50634,10 +50647,10 @@
     "publishedAt": "2026-10-06",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/318507",
-    "salaryOrAmount": "Da bando ufficiale",
-    "duration": "Da bando ufficiale",
+    "salaryOrAmount": "€ 29.162,20 lordo dipendente annuo",
+    "duration": "24 mesi",
     "language": "IT/EN",
-    "summary": "Selezione pubblica per il conferimento di incarichi post-doc ai sensi dell'art. 22 bis della legge 240/2010",
+    "summary": "Sviluppo di metodi sperimentali per controllare singoli atomi di stronzio in array di pinzette ottiche, studiare l’eccitazione verso stati di Rydberg e ottimizzare imaging e raffreddamento ottico.",
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
@@ -50645,13 +50658,14 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-10-07T11:48:01.548Z"
+    "verificationUrl": "https://www.unifi.it/it/ateneo/lavora-con-noi/reclutamento-bandi-di-concorso/1-incarico-post-doc-dr-12972026",
+    "updatedAt": "2026-10-18T09:38:50.812Z"
   },
   {
     "id": "mur-postdoc-assignments-318513",
-    "title": "Selezione pubblica per incarichi post-doc",
+    "title": "IA ed Extended Reality per valorizzare il patrimonio culturale",
     "institution": "Università degli Studi di Firenze",
-    "department": "Da bando ufficiale",
+    "department": "Dipartimento di Ingegneria Civile e Ambientale",
     "location": "Firenze",
     "region": "Toscana",
     "positionType": "Postdoc",
@@ -50665,10 +50679,10 @@
     "publishedAt": "2026-10-06",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/318513",
-    "salaryOrAmount": "Da bando ufficiale",
-    "duration": "Da bando ufficiale",
+    "salaryOrAmount": "€ 29.162,20 lordo dipendente annuo",
+    "duration": "24 mesi",
     "language": "IT/EN",
-    "summary": "Selezione pubblica per il conferimento di incarichi post-doc ai sensi dell'art. 22 bis della legge 240/2010",
+    "summary": "Sviluppo e sperimentazione di metodologie basate su intelligenza artificiale ed Extended Reality per comunicare e valorizzare il patrimonio culturale, inclusi MOOC su Moodle 5 nel progetto CHEDAR.",
     "requirements": [
       "Requisiti indicati nel bando ufficiale"
     ],
@@ -50676,7 +50690,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-10-07T11:48:01.548Z"
+    "verificationUrl": "https://www.unifi.it/it/ateneo/lavora-con-noi/reclutamento-bandi-di-concorso/1-incarico-post-doc-dr-12962026",
+    "updatedAt": "2026-10-18T09:38:50.812Z"
   },
   {
     "id": "mur-research-assignments-318517",
@@ -60541,7 +60556,7 @@
     "gsd": "13/ECON-04 - ECONOMIA APPLICATA",
     "fundingType": "ERC",
     "deadline": "2026-11-01",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-30",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/318221",
@@ -60575,7 +60590,7 @@
     "gsd": "13/ECON-04 - ECONOMIA APPLICATA",
     "fundingType": "Non specificato",
     "deadline": "2026-11-01",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-09-30",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/318222",
@@ -60609,7 +60624,7 @@
     "gsd": "13/ECON-01 - ECONOMIA POLITICA",
     "fundingType": "Non specificato",
     "deadline": "2026-11-01",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-10-01",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/318386",
@@ -60640,7 +60655,7 @@
     "gsd": "13/ECON-07 - ECONOMIA E GESTIONE DELLE IMPRESE",
     "fundingType": "Non specificato",
     "deadline": "2026-11-01",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-10-02",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/318401",
@@ -60671,7 +60686,7 @@
     "gsd": "13/ECON-07 - ECONOMIA E GESTIONE DELLE IMPRESE",
     "fundingType": "Non specificato",
     "deadline": "2026-11-01",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-10-02",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/318402",
@@ -60702,7 +60717,7 @@
     "gsd": "13/STAT-02 - STATISTICA ECONOMICA",
     "fundingType": "Non specificato",
     "deadline": "2026-11-01",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-10-16",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/318982",
