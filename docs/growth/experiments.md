@@ -1,5 +1,7 @@
 ## Experiment opportunities
 
+18 ottobre 2026 — Miglioramento diretto, non A/B test: rendere confrontabili due Postdoc Firenze prima descritti soltanto dalla procedura. Guardrail: programma, durata e importo riportati dai bandi UniFi; ID e fonte verificati; nessuna generalizzazione per SSD o ateneo. Outcome futuro: impression e clic delle due schede se disponibili, senza causalità anticipata.
+
 17 ottobre 2026 — Miglioramento diretto, non A/B test: rendere confrontabili dieci opportunità UniTo sostituendo il placeholder con il tema ufficiale. Guardrail: corrispondenza ID/codice bando, settore MUR invariato, fonte primaria collegata e test sull’intero gruppo. Outcome futuro: impression e clic delle dieci schede solo quando disponibili; nessuna causalità anticipata.
 
 16 ottobre 2026 — Correzione diretta dei filtri mobile: mostrare tutti i chip su righe a capo, senza interazione aggiuntiva per scoprire le opzioni. Non è un esperimento sul traffico.

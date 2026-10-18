@@ -1,5 +1,7 @@
 ## Prioritized backlog
 
+18 ottobre 2026 — **P1 chiarezza Postdoc Firenze** (Impact 7, Confidence 10, Effort 2, Risk 1): sostituire per 2/44 opportunità aperte senza argomento il testo procedurale con programmi verificati nei bandi UniFi D.R. 1297/2026 e 1296/2026. Guardrail: ID esatti, due temi distinti, fonte ufficiale collegata, nessuna estensione agli altri 42 casi. Prossimo: verificare i tre contratti Firenze collegati ai D.R. 1298/2026 e 1300/2026 solo quando i PDF completi sono accessibili.
+
 17 ottobre 2026 — **P0 qualità delle schede UniTo** (Impact 9, Confidence 10, Effort 3, Risk 1): sostituire 10/719 argomenti aperti ridotti a `V. BANDO` con titolo, sintesi, dipartimento e durata attestati nei PDF ufficiali dei codici 74–78/CDR e 30–34/POST_DOC. Guardrail: dieci temi distinti, URL di verifica conservato, zero estensioni per somiglianza. Prossimo P1: misurare il gruppo residuo di descrizioni procedurali e verificare una sola fonte omogenea.
 
 16 ottobre 2026 — **Correzione P0 filtri visibili**: su richiesta esplicita, annullare la riga scorrevole della PR #48 e mostrare tutte le opzioni contemporaneamente su mobile. Criterio: nessun chip richiede scorrimento orizzontale; ordine, conteggi, destinazioni e desktop invariati.
