@@ -202,6 +202,21 @@ test("does not rewrite similar boilerplate from an unverified institution", () =
   assert.equal(applyVerifiedPositionEnrichment(position), position);
 });
 
+test("enriches only the two verified Florence postdoc procedures", () => {
+  const positions = JSON.parse(
+    fs.readFileSync(new URL("../lib/generated/mur-positions.json", import.meta.url), "utf8")
+  );
+  const ids = ["mur-postdoc-assignments-318507", "mur-postdoc-assignments-318513"];
+  const enriched = ids.map((id) => applyVerifiedPositionEnrichment(positions.find((position) => position.id === id)));
+
+  assert.deepEqual(enriched.map((position) => position.id), ids);
+  assert.ok(enriched.every((position) => position.duration === "24 mesi"));
+  assert.ok(enriched.every((position) => position.salaryOrAmount === "€ 29.162,20 lordo dipendente annuo"));
+  assert.ok(enriched.every((position) => !/^selezione pubblica/i.test(position.title)));
+  assert.ok(enriched.every((position) => !/^selezione pubblica/i.test(position.summary)));
+  assert.ok(enriched.every((position) => position.verificationUrl.startsWith("https://www.unifi.it/")));
+});
+
 test("no generated position is published with a URL-only or title-only summary", () => {
   const positions = JSON.parse(
     fs.readFileSync(new URL("../lib/generated/mur-positions.json", import.meta.url), "utf8")
