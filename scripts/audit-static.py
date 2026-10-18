@@ -131,18 +131,29 @@ if sitemap_lastmod != expected_lastmod:
         f"Sitemap lastmod mismatch: expected {len(expected_lastmod)} exact position timestamps, found {len(sitemap_lastmod)}"
     )
 
-# Repeated official titles must expose their source SSD on crawlable discovery links.
+# Repeated rendered titles must expose their source SSD on crawlable discovery links.
+# Use the exported H1 rather than the raw cache title: verified enrichments can replace
+# a generic source title before the discovery link is rendered.
 def normalized_title(value):
     return " ".join(value.split()).casefold()
 
-title_counts = {}
+rendered_titles = {}
+records_by_id = {record["id"]: record for record in open_records}
 for record in open_records:
-    key = normalized_title(record["title"])
+    route = f"/positions/{record['id']}/"
+    page = pages.get(route)
+    if page and page.h1:
+        rendered_titles[record["id"]] = page.h1[0]
+
+title_counts = {}
+for title in rendered_titles.values():
+    key = normalized_title(title)
     title_counts[key] = title_counts.get(key, 0) + 1
 contextual_titles = {
-    record["id"]: f'{record["title"]} — {" ".join(record["ssd"].split())}'
+    record["id"]: rendered_titles[record["id"]]
     for record in open_records
-    if title_counts[normalized_title(record["title"])] > 1
+    if record["id"] in rendered_titles
+    and title_counts[normalized_title(rendered_titles[record["id"]])] > 1
     and record.get("ssd", "").strip() not in ("", "-")
 }
 contextual_discovery_checks = 0
@@ -153,7 +164,8 @@ for route, page in pages.items():
             continue
         contextual_discovery_checks += 1
         expected = contextual_titles[match.group(1)]
-        if expected not in text:
+        ssd = " ".join(records_by_id[match.group(1)]["ssd"].split())
+        if expected not in text or ssd not in text:
             errors.append(f"Repeated title lacks SSD context on {route}: {href}")
 # Check the final category CTA even on archived pages outside the sitemap.
 category_paths = {
