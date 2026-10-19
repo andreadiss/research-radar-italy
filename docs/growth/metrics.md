@@ -1,5 +1,7 @@
 ## Baseline
 
+19 ottobre 2026 — Baseline contenuti dopo la PR #51: 42 opportunità aperte ancora senza argomento esplicito. L’arricchimento verificato dei tre contratti Firenze porta il residuo previsto a 39, con 3/3 schede dotate di tema, dipartimento, durata e compenso. Nessuna nuova metrica GSC disponibile e nessun effetto traffico attribuito.
+
 18 ottobre 2026 — Catalogo corrente: 749 opportunità aperte, 75 descrizioni con apertura procedurale; la presentazione ricava 31 argomenti da titoli ufficiali e ne lascia 44 non specificati. L’intervento verificato riduce questi ultimi a 42 arricchendo 2 Postdoc Firenze con programma, dipartimento, durata e importo ufficiali. Nessuna nuova metrica GSC: l’ultima baseline resta l’export fino al 6 ottobre e non si attribuisce traffico alla modifica.
 
 17 ottobre 2026 — Baseline contenuti: 719 opportunità aperte, 10 con sintesi `V. BANDO` (1,39%). Dopo l’arricchimento di presentazione verificato: 0/10 placeholder nel gruppo UniTo e 10/10 titoli tematici distinti; il dataset MUR sorgente resta invariato. Nessuna nuova metrica GSC: il connettore resta `payment_required`; non si attribuisce traffico alla modifica.

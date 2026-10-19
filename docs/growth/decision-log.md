@@ -1,5 +1,7 @@
 # Decision log
 
+19 ottobre 2026 — Applicare override versionati ai contratti 318504, 318505 e 318506 sulla base dei D.R. 1298/2026 e 1300/2026. Per 318504 e 318506 pubblicare il programma comune AMUSED, senza assegnare arbitrariamente le due sotto-selezioni; per 318505 pubblicare il programma biomedico specifico. Conservare MUR come fonte primaria e UniFi come verifica.
+
 18 ottobre 2026 — Applicare override versionati soltanto ai Postdoc Firenze 318507 e 318513, verificati nei bandi UniFi D.R. 1297/2026 e 1296/2026. Pubblicare titolo tematico, sintesi, dipartimento, durata e trattamento economico; conservare MUR come fonte primaria e collegare la pagina ufficiale di Ateneo. Non dedurre temi dagli SSD né estendere la regola alle altre procedure Firenze.
 
 17 ottobre 2026 — Applicare override versionati soltanto ai dieci ID UniTo verificati nei PDF ufficiali, riusando lo stesso meccanismo già persistente ai sync. Pubblicare titolo tematico, sintesi, dipartimento e durata; conservare MUR come fonte primaria e il PDF come verifica. Non classificare o riscrivere in massa record simili.

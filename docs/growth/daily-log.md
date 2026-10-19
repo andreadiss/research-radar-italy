@@ -1,5 +1,7 @@
 # Daily log
 
+19 ottobre 2026 — Letti `main` e8eb1d5, PR aperte (nessuna) e sei documenti growth; verificato che il sync successivo conserva la PR #51. GSC non interrogato perché il connettore resta documentato come `payment_required`. I PDF UniFi D.R. 1298/2026 e 1300/2026 confermano per tre contratti programma, dipartimento, durata e compenso. Preparati override puntuali con tema AMUSED comune ai due ID ECON non disambiguabili e tema biomedico specifico per PHYS. Nessun dato di traffico inventato.
+
 18 ottobre 2026 — Letti `main` dd877f1, PR aperte (nessuna) e sei documenti growth; verificato che il sync successivo preserva la PR #50. GSC non interrogato perché il connettore resta documentato come `payment_required`. Misurate 749 opportunità aperte: 75 descrizioni procedurali, 31 con titolo tematico utilizzabile e 44 senza argomento. Verificati i bandi ufficiali UniFi D.R. 1297/2026 e 1296/2026; preparato arricchimento persistente dei soli Postdoc 318507 e 318513. Nessun dato di traffico inventato.
 
 17 ottobre 2026 — Letti `main` 737284b, PR aperte (nessuna) e sei documenti growth; verificata come baseline la correzione filtri #49. GSC non interrogato di nuovo perché il connettore resta documentato come `payment_required`. Misurate 719 opportunità aperte e 10 sintesi `V. BANDO`; verificati cinque PDF ufficiali UniTo per 74–78/CDR e 30–34/POST_DOC. Preparato arricchimento persistente dei dieci ID con tema, dipartimento e durata e test di isolamento. Nessun dato di traffico inventato.

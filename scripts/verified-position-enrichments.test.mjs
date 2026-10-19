@@ -217,6 +217,30 @@ test("enriches only the two verified Florence postdoc procedures", () => {
   assert.ok(enriched.every((position) => position.verificationUrl.startsWith("https://www.unifi.it/")));
 });
 
+test("enriches the three verified Florence research contracts without guessing the ECON sub-selection", () => {
+  const positions = JSON.parse(
+    fs.readFileSync(new URL("../lib/generated/mur-positions.json", import.meta.url), "utf8")
+  );
+  const ids = [
+    "mur-research-contracts-318504",
+    "mur-research-contracts-318505",
+    "mur-research-contracts-318506"
+  ];
+  const enriched = ids.map((id) => applyVerifiedPositionEnrichment(positions.find((position) => position.id === id)));
+  const economics = enriched.filter((position) => position.ssd.startsWith("ECON-03/A"));
+  const physics = enriched.find((position) => position.ssd.startsWith("PHYS-03/A"));
+
+  assert.deepEqual(enriched.map((position) => position.id), ids);
+  assert.ok(enriched.every((position) => position.duration === "24 mesi"));
+  assert.ok(enriched.every((position) => !/^selezione pubblica/i.test(position.title)));
+  assert.ok(enriched.every((position) => !/^selezione pubblica/i.test(position.summary)));
+  assert.ok(enriched.every((position) => position.verificationUrl.startsWith("https://www.unifi.it/")));
+  assert.equal(economics.length, 2);
+  assert.equal(economics[0].title, economics[1].title);
+  assert.match(economics[0].summary, /AMUSED/);
+  assert.match(physics.title, /segnali e immagini biomediche multimodali/i);
+});
+
 test("no generated position is published with a URL-only or title-only summary", () => {
   const positions = JSON.parse(
     fs.readFileSync(new URL("../lib/generated/mur-positions.json", import.meta.url), "utf8")
