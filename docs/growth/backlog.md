@@ -1,5 +1,7 @@
 ## Prioritized backlog
 
+20 ottobre 2026 — **P0 chiarezza landing ad alta visibilita** (Impact 8, Confidence 8, Effort 1, Risk 1): allineare snippet e introduzioni di Dottorati, Postdoc e RTT al bisogno di confronto, esplicitando argomento, SSD, ateneo, sede e scadenza. Baseline GSC: 507 impression e 14 clic complessivi nel periodo esportato. Guardrail: title, canonical, URL, filtri e contenuti delle schede invariati; nessun A/B test o attribuzione causale.
+
 19 ottobre 2026 — **P1 chiarezza contratti Firenze** (Impact 7, Confidence 10, Effort 2, Risk 1): arricchire 3/42 opportunità senza argomento con programma, dipartimento, durata e compenso dai D.R. 1298/2026 e 1300/2026. Guardrail: tema AMUSED comune ai due ID ECON perché il MUR non identifica la sotto-selezione; tema biomedico distinto per PHYS; nessuna deduzione dell’abbinamento ECON. Prossimo: misurare il successivo gruppo omogeneo di descrizioni procedurali supportato da fonti primarie.
 
 18 ottobre 2026 — **P1 chiarezza Postdoc Firenze** (Impact 7, Confidence 10, Effort 2, Risk 1): sostituire per 2/44 opportunità aperte senza argomento il testo procedurale con programmi verificati nei bandi UniFi D.R. 1297/2026 e 1296/2026. Guardrail: ID esatti, due temi distinti, fonte ufficiale collegata, nessuna estensione agli altri 42 casi. Prossimo: verificare i tre contratti Firenze collegati ai D.R. 1298/2026 e 1300/2026 solo quando i PDF completi sono accessibili.

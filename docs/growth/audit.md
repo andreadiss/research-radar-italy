@@ -1,5 +1,7 @@
 # Research Radar Italy — Audit iniziale
 
+20 ottobre 2026 — L’export GSC aggiornato al 17 ottobre mostra crescita della visibilita ma CTR contenuto sulle tre landing principali: Dottorati 174 impression/5 clic, Postdoc 171/4, RTT 162/5 nel periodo esportato. Gli snippet descrivono la categoria ma non rendono esplicito il vantaggio distintivo del radar: confronto immediato di argomento, SSD, ateneo, sede e scadenza. Scelto un aggiornamento puntuale di description e introduzione, senza cambiare title, URL, filtri o architettura.
+
 19 ottobre 2026 — Il sync automatico successivo conserva gli arricchimenti UniFi della PR #51. I bandi integrali D.R. 1298/2026 e 1300/2026 rendono verificabili tre contratti Firenze ancora procedurali: due nel progetto AMUSED sulle decisioni di iscrizione universitaria e uno sull’analisi di segnali e immagini biomediche multimodali. Per i due ID ECON il portale MUR non espone la sotto-selezione: viene pubblicato il tema comune verificato del progetto, senza abbinamenti dedotti.
 
 18 ottobre 2026 — Verificato che il sync successivo conserva i dieci arricchimenti UniTo della PR #50. Nel catalogo corrente 44/749 opportunità aperte restano senza argomento esplicito; il gruppo omogeneo immediatamente verificabile comprende due Postdoc Firenze con descrizione procedurale. I bandi ufficiali D.R. 1297/2026 e 1296/2026 specificano programmi, dipartimenti, durata e trattamento economico distinti. Scelto un override puntuale dei soli ID 318507 e 318513.
