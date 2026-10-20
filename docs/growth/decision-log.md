@@ -1,5 +1,7 @@
 # Decision log
 
+20 ottobre 2026 — Dare priorita alle landing Dottorati, Postdoc e RTT perche concentrano 507 impression e 14 clic nell’export GSC. Conservare i title gia coerenti con le query e migliorare description e introduzione con i criteri di confronto realmente presenti nel prodotto. Non modificare Contratti di ricerca oggi: 65 impression e CTR 4,62% indicano una priorita inferiore.
+
 19 ottobre 2026 — Applicare override versionati ai contratti 318504, 318505 e 318506 sulla base dei D.R. 1298/2026 e 1300/2026. Per 318504 e 318506 pubblicare il programma comune AMUSED, senza assegnare arbitrariamente le due sotto-selezioni; per 318505 pubblicare il programma biomedico specifico. Conservare MUR come fonte primaria e UniFi come verifica.
 
 18 ottobre 2026 — Applicare override versionati soltanto ai Postdoc Firenze 318507 e 318513, verificati nei bandi UniFi D.R. 1297/2026 e 1296/2026. Pubblicare titolo tematico, sintesi, dipartimento, durata e trattamento economico; conservare MUR come fonte primaria e collegare la pagina ufficiale di Ateneo. Non dedurre temi dagli SSD né estendere la regola alle altre procedure Firenze.
