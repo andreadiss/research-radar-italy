@@ -854,19 +854,6 @@ select {
   margin-bottom: 14px;
 }
 
-.results-guidance {
-  color: var(--muted);
-  font-size: 14px;
-  line-height: 1.5;
-  margin: -4px 0 14px;
-}
-
-.results-directory-link {
-  display: flex;
-  justify-content: center;
-  padding-top: 4px;
-}
-
 .sort-controls {
   align-items: center;
   display: flex;
