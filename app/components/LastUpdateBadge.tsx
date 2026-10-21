@@ -29,7 +29,8 @@ export function LastUpdateBadge() {
   });
 
   useEffect(() => {
-    setDate(currentDate());
+    const refreshTimer = window.setTimeout(() => setDate(currentDate()), 0);
+    return () => window.clearTimeout(refreshTimer);
   }, []);
 
   return (
