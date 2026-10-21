@@ -112,6 +112,7 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
     selectedValues(searchParams.type).length > 0 ||
     selectedValues(searchParams.discipline).length > 0 ||
     isTelematicFilterActive(searchParams);
+  const displayedPositions = canShowPositionResults ? filtered : filtered.slice(0, 8);
   const heroTitle =
     intent === "home"
       ? "Trova opportunità accademiche in Italia."
@@ -298,32 +299,28 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
                 </div>
               </div>
           </div>
-          {canShowPositionResults ? (
-            <>
-              <div className="results-header">
-                <div>
-                  <h2>
-                    Posizioni aperte
-                    <span className="results-count">{filtered.length} su {intentPositions.length}</span>
-                    <span className="results-deadline-count">{closingSoon} scadenze entro 14 giorni</span>
-                  </h2>
-                </div>
-                <SortControls intent={intent} searchParams={searchParams} />
-              </div>
-            </>
-          ) : null}
-          {!canShowPositionResults ? (
-            <div className="empty-state guided-filter-state">
-              <Search size={24} />
-              <h3>Scegli un filtro per vedere le posizioni</h3>
-              <Link href="/posizioni/indice" className="back-link">Esplora tutte le opportunità per scadenza</Link>
-              <p>
-                Parti da un tipo di posizione o da una materia: mostreremo solo opportunità rilevanti, senza affollare la pagina.
-              </p>
+          <div className="results-header">
+            <div>
+              <h2>
+                {canShowPositionResults ? "Posizioni aperte" : "Ultime posizioni pubblicate"}
+                <span className="results-count">
+                  {canShowPositionResults ? `${filtered.length} su ${intentPositions.length}` : `${displayedPositions.length} di ${intentPositions.length}`}
+                </span>
+                {canShowPositionResults ? (
+                  <span className="results-deadline-count">{closingSoon} scadenze entro 14 giorni</span>
+                ) : null}
+              </h2>
             </div>
-          ) : filtered.length > 0 ? (
+            <SortControls intent={intent} searchParams={searchParams} />
+          </div>
+          {!canShowPositionResults ? (
+            <p className="results-guidance">
+              Scegli uno o più filtri per restringere i risultati, oppure parti dalle opportunità più recenti.
+            </p>
+          ) : null}
+          {displayedPositions.length > 0 ? (
             <div className="jobs-list">
-              {filtered.map((position) => {
+              {displayedPositions.map((position) => {
                 const topic = positionTopicPresentation(position.title, position.summary);
                 return (
                   <article className="job-card" key={position.id}>
@@ -380,6 +377,11 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
                   </article>
                 );
               })}
+              {!canShowPositionResults && intentPositions.length > displayedPositions.length ? (
+                <div className="results-directory-link">
+                  <Link href="/posizioni/indice" className="button secondary">Esplora tutte per scadenza</Link>
+                </div>
+              ) : null}
             </div>
           ) : (
             <div className="empty-state">

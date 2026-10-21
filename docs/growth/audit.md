@@ -1,5 +1,7 @@
 # Research Radar Italy — Audit iniziale
 
+21 ottobre 2026 — Revisione settimanale: l’export GSC consolidato fino al 17 ottobre resta la fonte piu recente (10 clic/297 impression nella settimana 11–17 ottobre contro 5/114 il 4–10); GSC Wizard e bloccato da `payment_required`. Il percorso principale `/posizioni/` espone tutti i 19 filtri, ma al primo ingresso mostra 0 delle oltre 700 opportunita finche l’utente non seleziona un filtro. Scelto di mantenere i filtri integralmente visibili e mostrare sotto di essi le 8 opportunita aperte piu recenti, con CTA all’indice completo.
+
 20 ottobre 2026 — L’export GSC aggiornato al 17 ottobre mostra crescita della visibilita ma CTR contenuto sulle tre landing principali: Dottorati 174 impression/5 clic, Postdoc 171/4, RTT 162/5 nel periodo esportato. Gli snippet descrivono la categoria ma non rendono esplicito il vantaggio distintivo del radar: confronto immediato di argomento, SSD, ateneo, sede e scadenza. Scelto un aggiornamento puntuale di description e introduzione, senza cambiare title, URL, filtri o architettura.
 
 19 ottobre 2026 — Il sync automatico successivo conserva gli arricchimenti UniFi della PR #51. I bandi integrali D.R. 1298/2026 e 1300/2026 rendono verificabili tre contratti Firenze ancora procedurali: due nel progetto AMUSED sulle decisioni di iscrizione universitaria e uno sull’analisi di segnali e immagini biomediche multimodali. Per i due ID ECON il portale MUR non espone la sotto-selezione: viene pubblicato il tema comune verificato del progetto, senza abbinamenti dedotti.
