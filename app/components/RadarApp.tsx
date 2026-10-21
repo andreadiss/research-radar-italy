@@ -15,6 +15,7 @@ import { OpportunityPreview } from "@/app/components/OpportunityPreview";
 import { TrackedLink } from "@/app/components/TrackedLink";
 import { positionTypes } from "@/lib/filters";
 import { grants } from "@/lib/grants";
+import murCheckStatus from "@/lib/generated/mur-check-status.json";
 import { positions } from "@/lib/positions";
 import { positionTitleContext } from "@/lib/position-title-context.mjs";
 import { positionTopicPresentation } from "@/lib/position-topic.mjs";
@@ -71,7 +72,7 @@ const popularSearches = [
 
 export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } = {}) {
   const [searchParams, setSearchParams] = useState<SearchParams>({});
-  const [today, setToday] = useState(process.env.NEXT_PUBLIC_BUILD_DATE ?? italyToday());
+  const [today, setToday] = useState(() => murCheckStatus.lastSuccessfulCheckAt.slice(0, 10));
   useEffect(() => {
     const refreshDay = () => setToday(italyToday());
     refreshDay();
