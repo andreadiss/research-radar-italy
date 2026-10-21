@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import murCheckStatus from "@/lib/generated/mur-check-status.json";
 
 const dateFormatter = new Intl.DateTimeFormat("it-IT", {
   day: "numeric",
@@ -23,15 +22,14 @@ function currentDate() {
 
 export function LastUpdateBadge() {
   const [date, setDate] = useState(() => {
-    const snapshotDate = murCheckStatus.lastSuccessfulCheckAt.slice(0, 10);
-    const parsedSnapshotDate = new Date(`${snapshotDate}T12:00:00+02:00`);
-    return { timestamp: snapshotDate, label: dateFormatter.format(parsedSnapshotDate) };
+    const buildDate = process.env.NEXT_PUBLIC_BUILD_DATE;
+    if (!buildDate) return currentDate();
+    const parsedBuildDate = new Date(`${buildDate}T12:00:00+02:00`);
+    return { timestamp: buildDate, label: dateFormatter.format(parsedBuildDate) };
   });
 
   useEffect(() => {
-    const refreshDate = () => setDate(currentDate());
-    window.addEventListener("focus", refreshDate);
-    return () => window.removeEventListener("focus", refreshDate);
+    setDate(currentDate());
   }, []);
 
   return (

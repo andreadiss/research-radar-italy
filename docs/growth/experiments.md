@@ -1,7 +1,5 @@
 ## Experiment opportunities
 
-21 ottobre 2026 — Miglioramento diretto, non A/B test: mostrare 8 opportunita recenti al primo ingresso in `/posizioni/` invece dello stato vuoto. Guardrail: tutti i filtri restano visibili, le selezioni continuano a mostrare l’intero insieme pertinente, l’indice completo resta raggiungibile e il primo render non produce mismatch di idratazione. Outcome futuro: clic verso schede e pagine in GSC solo quando disponibili; nessuna attribuzione automatica.
-
 20 ottobre 2026 — Miglioramento diretto, non A/B test: rendere gli snippet delle tre landing piu visibili specifici sul valore per l’utente, cioe confrontare argomento, SSD, ateneo, sede e scadenza. Guardrail: nessuna modifica a title, URL, canonical, filtri o ranking; valutazione futura solo su finestre GSC omogenee, senza attribuire automaticamente variazioni di CTR.
 
 19 ottobre 2026 — Miglioramento diretto, non A/B test: sostituire la descrizione amministrativa di tre contratti UniFi con temi verificati nei bandi integrali. Guardrail: dati puntuali, fonte ufficiale collegata, stesso tema comune per i due ID ECON non disambiguabili e test di isolamento. Outcome futuro: impression e clic delle schede solo con dati disponibili; nessuna causalità anticipata.
@@ -104,3 +102,5 @@ Al massimo cinque, tutti senza piattaforme a pagamento:
 4. Copy di freshness: completamento percorso verso fonte; guardrail nessuna falsa dichiarazione di disponibilità; validazione qualitativa prima delle metriche. Non avviato.
 5. Una landing scelta da GSC: click organici e CTR; guardrail cannibalizzazione e accuratezza; 28–56 giorni. Non avviato.
 Con traffico ignoto non assegnare campioni o significatività arbitrari. Prima/dopo non dimostra da solo causalità.
+
+21 ottobre 2026 — La modifica delle card iniziali non è un esperimento né un A/B test. È stata ritirata dopo errori di idratazione osservati in produzione; nessuna metrica di crescita o utilizzo viene associata alla prova.

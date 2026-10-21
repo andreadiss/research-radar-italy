@@ -1,7 +1,5 @@
 # Decision log
 
-21 ottobre 2026 — Nel bilanciamento settimanale dare priorita all’usabilita dopo gli interventi del 19 ottobre sui dati e del 20 ottobre sulla discoverability. Conservare tutti i 19 filtri in evidenza, come richiesto dall’utente, ma rimuovere il requisito implicito di selezionarne uno prima di vedere opportunita. Limitare la vista iniziale a 8 record recenti per evitare di renderizzare l’intero catalogo e collegare l’indice ordinato per scadenza. Dopo lo smoke live, usare l’ultimo snapshot MUR come data del primo caricamento sia server sia client e aggiornare al giorno corrente solo al focus successivo, evitando cambi strutturali durante l’idratazione.
-
 20 ottobre 2026 — Dare priorita alle landing Dottorati, Postdoc e RTT perche concentrano 507 impression e 14 clic nell’export GSC. Conservare i title gia coerenti con le query e migliorare description e introduzione con i criteri di confronto realmente presenti nel prodotto. Non modificare Contratti di ricerca oggi: 65 impression e CTR 4,62% indicano una priorita inferiore.
 
 19 ottobre 2026 — Applicare override versionati ai contratti 318504, 318505 e 318506 sulla base dei D.R. 1298/2026 e 1300/2026. Per 318504 e 318506 pubblicare il programma comune AMUSED, senza assegnare arbitrariamente le due sotto-selezioni; per 318505 pubblicare il programma biomedico specifico. Conservare MUR come fonte primaria e UniFi come verifica.
@@ -103,3 +101,5 @@ Aggiornamento 7 settembre 2026 — Su richiesta esplicita, il badge mostra l'ult
 2026-09-06: privilegiare correttezza dei link esistenti. Nessun redesign, tracking, servizio o dipendenza aggiunti. Rimandare A/B test fino a baseline attendibile. GSC Wizard collegato ma funzioni non esposte in questa sessione. Non considerare la sitemap prova di indicizzazione. Richiedere approvazione per tracking, costi, strategia e terzi secondo mandato.
 
 2026-09-07: considerare conclusa la correzione CTA dopo verifica del merge e della produzione. Non introdurre ulteriori modifiche alle landing prima di dati sufficienti; i piccoli movimenti GSC su finestre mobili non dimostrano impatto. Per decisione dell'utente, Netlify è fuori scope: non analizzarlo, non modificarlo e non proporre interventi relativi nei task growth.
+
+2026-10-21: ritirare integralmente PR #54–#57. Gli errori React 425/422 osservati nel browser di produzione superano il guardrail LOW RISK. Prima di riprendere l'idea, aggiungere un test di idratazione browser che confronti HTML statico e primo render client.

@@ -15,7 +15,6 @@ import { OpportunityPreview } from "@/app/components/OpportunityPreview";
 import { TrackedLink } from "@/app/components/TrackedLink";
 import { positionTypes } from "@/lib/filters";
 import { grants } from "@/lib/grants";
-import murCheckStatus from "@/lib/generated/mur-check-status.json";
 import { positions } from "@/lib/positions";
 import { positionTitleContext } from "@/lib/position-title-context.mjs";
 import { positionTopicPresentation } from "@/lib/position-topic.mjs";
@@ -72,9 +71,10 @@ const popularSearches = [
 
 export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } = {}) {
   const [searchParams, setSearchParams] = useState<SearchParams>({});
-  const [today, setToday] = useState(() => murCheckStatus.lastSuccessfulCheckAt.slice(0, 10));
+  const [today, setToday] = useState(process.env.NEXT_PUBLIC_BUILD_DATE ?? italyToday());
   useEffect(() => {
     const refreshDay = () => setToday(italyToday());
+    refreshDay();
     window.addEventListener("focus", refreshDay);
     return () => window.removeEventListener("focus", refreshDay);
   }, []);
@@ -112,7 +112,6 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
     selectedValues(searchParams.type).length > 0 ||
     selectedValues(searchParams.discipline).length > 0 ||
     isTelematicFilterActive(searchParams);
-  const displayedPositions = canShowPositionResults ? filtered : filtered.slice(0, 8);
   const heroTitle =
     intent === "home"
       ? "Trova opportunità accademiche in Italia."
@@ -299,28 +298,32 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
                 </div>
               </div>
           </div>
-          <div className="results-header">
-            <div>
-              <h2>
-                {canShowPositionResults ? "Posizioni aperte" : "Ultime posizioni pubblicate"}
-                <span className="results-count">
-                  {canShowPositionResults ? `${filtered.length} su ${intentPositions.length}` : `${displayedPositions.length} di ${intentPositions.length}`}
-                </span>
-                {canShowPositionResults ? (
-                  <span className="results-deadline-count">{closingSoon} scadenze entro 14 giorni</span>
-                ) : null}
-              </h2>
-            </div>
-            <SortControls intent={intent} searchParams={searchParams} />
-          </div>
-          {!canShowPositionResults ? (
-            <p className="results-guidance">
-              Scegli uno o più filtri per restringere i risultati, oppure parti dalle opportunità più recenti.
-            </p>
+          {canShowPositionResults ? (
+            <>
+              <div className="results-header">
+                <div>
+                  <h2>
+                    Posizioni aperte
+                    <span className="results-count">{filtered.length} su {intentPositions.length}</span>
+                    <span className="results-deadline-count">{closingSoon} scadenze entro 14 giorni</span>
+                  </h2>
+                </div>
+                <SortControls intent={intent} searchParams={searchParams} />
+              </div>
+            </>
           ) : null}
-          {displayedPositions.length > 0 ? (
+          {!canShowPositionResults ? (
+            <div className="empty-state guided-filter-state">
+              <Search size={24} />
+              <h3>Scegli un filtro per vedere le posizioni</h3>
+              <Link href="/posizioni/indice" className="back-link">Esplora tutte le opportunità per scadenza</Link>
+              <p>
+                Parti da un tipo di posizione o da una materia: mostreremo solo opportunità rilevanti, senza affollare la pagina.
+              </p>
+            </div>
+          ) : filtered.length > 0 ? (
             <div className="jobs-list">
-              {displayedPositions.map((position) => {
+              {filtered.map((position) => {
                 const topic = positionTopicPresentation(position.title, position.summary);
                 return (
                   <article className="job-card" key={position.id}>
@@ -377,11 +380,6 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
                   </article>
                 );
               })}
-              {!canShowPositionResults && intentPositions.length > displayedPositions.length ? (
-                <div className="results-directory-link">
-                  <Link href="/posizioni/indice" className="button secondary">Esplora tutte per scadenza</Link>
-                </div>
-              ) : null}
             </div>
           ) : (
             <div className="empty-state">
