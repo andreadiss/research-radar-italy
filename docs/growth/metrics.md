@@ -1,6 +1,6 @@
 ## Baseline
 
-21 ottobre 2026 — Bilancio settimanale con dati consolidati fino al 17 ottobre: 11–17 ottobre 10 clic/297 impression/CTR 3,37%/posizione 7,62 circa, contro 4–10 ottobre 5/114/4,39%/8,84 circa. Visibilita e clic crescono, il CTR scende; volumi insufficienti per causalita. Baseline UX misurata su `/posizioni/`: 0 card visibili senza filtri nonostante oltre 700 opportunita aperte; intervento diretto previsto 0→8, con 19 filtri invariati e visibili.
+21 ottobre 2026 — Bilancio settimanale con dati consolidati fino al 17 ottobre: 11–17 ottobre 10 clic/297 impression/CTR 3,37%/posizione 7,62 circa, contro 4–10 ottobre 5/114/4,39%/8,84 circa. Visibilita e clic crescono, il CTR scende; volumi insufficienti per causalita. Baseline UX misurata su `/posizioni/`: 0 card visibili senza filtri nonostante oltre 700 opportunita aperte; intervento diretto previsto 0→8, con 19 filtri invariati e visibili. Guardrail aggiuntivo: 0 errori React di idratazione al primo caricamento dopo il fix.
 
 20 ottobre 2026 — Export GSC consolidato fino al 17 ottobre: 11–17 ottobre 10 clic, 297 impression, CTR 3,37%, posizione media ponderata circa 7,62; 4–10 ottobre 5 clic, 114 impression, CTR 4,39%, posizione circa 8,84. Nel periodo esportato le landing Dottorati, Postdoc e RTT sommano 507 impression e 14 clic (CTR aggregato 2,76%). I volumi non consentono causalita o A/B test; osservare finestre settimanali omogenee dopo il rilascio.
 

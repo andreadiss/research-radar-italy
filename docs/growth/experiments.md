@@ -1,6 +1,6 @@
 ## Experiment opportunities
 
-21 ottobre 2026 — Miglioramento diretto, non A/B test: mostrare 8 opportunita recenti al primo ingresso in `/posizioni/` invece dello stato vuoto. Guardrail: tutti i filtri restano visibili, le selezioni continuano a mostrare l’intero insieme pertinente e l’indice completo resta raggiungibile. Outcome futuro: clic verso schede e pagine in GSC solo quando disponibili; nessuna attribuzione automatica.
+21 ottobre 2026 — Miglioramento diretto, non A/B test: mostrare 8 opportunita recenti al primo ingresso in `/posizioni/` invece dello stato vuoto. Guardrail: tutti i filtri restano visibili, le selezioni continuano a mostrare l’intero insieme pertinente, l’indice completo resta raggiungibile e il primo render non produce mismatch di idratazione. Outcome futuro: clic verso schede e pagine in GSC solo quando disponibili; nessuna attribuzione automatica.
 
 20 ottobre 2026 — Miglioramento diretto, non A/B test: rendere gli snippet delle tre landing piu visibili specifici sul valore per l’utente, cioe confrontare argomento, SSD, ateneo, sede e scadenza. Guardrail: nessuna modifica a title, URL, canonical, filtri o ranking; valutazione futura solo su finestre GSC omogenee, senza attribuire automaticamente variazioni di CTR.
 
