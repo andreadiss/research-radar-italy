@@ -75,12 +75,8 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
   const [today, setToday] = useState(() => murCheckStatus.lastSuccessfulCheckAt.slice(0, 10));
   useEffect(() => {
     const refreshDay = () => setToday(italyToday());
-    const refreshTimer = window.setTimeout(refreshDay, 0);
     window.addEventListener("focus", refreshDay);
-    return () => {
-      window.clearTimeout(refreshTimer);
-      window.removeEventListener("focus", refreshDay);
-    };
+    return () => window.removeEventListener("focus", refreshDay);
   }, []);
   const openPositions = useMemo(
     () => positions.filter((position) => isOpenPosition(position, today)),
