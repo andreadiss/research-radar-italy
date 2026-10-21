@@ -1,5 +1,7 @@
 ## Prioritized backlog
 
+21 ottobre 2026 — **P0 accesso immediato alle opportunita** (Impact 9, Confidence 9, Effort 2, Risk 2): sostituire lo stato iniziale vuoto di `/posizioni/` con 8 opportunita recenti, mantenendo 19/19 filtri in evidenza e il percorso completo per scadenza. Baseline: 0 card visibili al primo ingresso non filtrato; target tecnico 8. Guardrail: nessuna modifica a dati, filtri, URL, tassonomia, ranking filtrato o tracking.
+
 20 ottobre 2026 — **P0 chiarezza landing ad alta visibilita** (Impact 8, Confidence 8, Effort 1, Risk 1): allineare snippet e introduzioni di Dottorati, Postdoc e RTT al bisogno di confronto, esplicitando argomento, SSD, ateneo, sede e scadenza. Baseline GSC: 507 impression e 14 clic complessivi nel periodo esportato. Guardrail: title, canonical, URL, filtri e contenuti delle schede invariati; nessun A/B test o attribuzione causale.
 
 19 ottobre 2026 — **P1 chiarezza contratti Firenze** (Impact 7, Confidence 10, Effort 2, Risk 1): arricchire 3/42 opportunità senza argomento con programma, dipartimento, durata e compenso dai D.R. 1298/2026 e 1300/2026. Guardrail: tema AMUSED comune ai due ID ECON perché il MUR non identifica la sotto-selezione; tema biomedico distinto per PHYS; nessuna deduzione dell’abbinamento ECON. Prossimo: misurare il successivo gruppo omogeneo di descrizioni procedurali supportato da fonti primarie.

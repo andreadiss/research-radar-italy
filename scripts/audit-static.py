@@ -17,14 +17,22 @@ class Page(HTMLParser):
         self.links, self.h1, self.title = [], [], ""
         self.back_links = []
         self.discovery_links = []
+        self.job_cards = 0
+        self.filter_chips = 0
         self.canonical = None
         self.current_discovery_link = None
         self.in_title = self.in_h1 = False
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
+        if tag == "article" and "job-card" in attrs.get("class", "").split():
+            self.job_cards += 1
         if tag == "a" and attrs.get("href"):
             self.links.append(attrs["href"])
+            if "quick-chip" in attrs.get("class", "").split() and any(
+                marker in attrs["href"] for marker in ("?type=", "?discipline=", "?telematic=")
+            ):
+                self.filter_chips += 1
             if "back-link" in attrs.get("class", "").split():
                 self.back_links.append(attrs["href"])
             if any(name in attrs.get("class", "").split() for name in ("seo-result-link", "home-recent-card")):
@@ -64,6 +72,10 @@ for route in ("/", "/posizioni/", "/funding/"):
         errors.append(f"Missing initial HTML content: {route}")
     if pages[route].title.count("Research Radar Italy") != 1:
         errors.append(f"Repeated or missing brand in title: {route}")
+if pages["/posizioni/"].job_cards != 8:
+    errors.append(f"Default positions page must show 8 recent opportunities, found {pages['/posizioni/'].job_cards}")
+if pages["/posizioni/"].filter_chips != 19:
+    errors.append(f"Positions page must keep all 19 filters visible, found {pages['/posizioni/'].filter_chips}")
 
 ns = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
 sitemap = ET.parse(root / "sitemap.xml")
@@ -289,7 +301,7 @@ for position_type, route in (
         errors.append(f"Incorrect region links on {route}: expected {sorted(expected)}, found {sorted(actual)}")
     region_paths[position_type] = len(actual)
 titles = [page.title for page in positions]
-report = {"html_pages": len(pages), "sitemap_urls": len(urls), "reachable_pages": len(seen), "orphan_sitemap_urls": len(orphans), "broken_internal_links": len(broken), "duplicate_position_titles": len(titles) - len(set(titles)), "initial_html": {route: {"h1": pages[route].h1, "links": len(pages[route].links)} for route in ("/", "/posizioni/", "/funding/")}, "errors": errors}
+report = {"html_pages": len(pages), "sitemap_urls": len(urls), "reachable_pages": len(seen), "orphan_sitemap_urls": len(orphans), "broken_internal_links": len(broken), "duplicate_position_titles": len(titles) - len(set(titles)), "initial_html": {route: {"h1": pages[route].h1, "links": len(pages[route].links), "job_cards": pages[route].job_cards, "filter_chips": pages[route].filter_chips} for route in ("/", "/posizioni/", "/funding/")}, "errors": errors}
 report["category_cta_checks"] = category_counts
 report["discipline_path_checks"] = discipline_paths
 report["psychology_path_checks"] = {
