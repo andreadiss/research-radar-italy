@@ -1,5 +1,7 @@
 ## Baseline
 
+22 ottobre 2026 — Baseline tecnica: homepage con 2 errori React di idratazione (425/422) osservati il 21 ottobre quando la data di build era il 20; dopo il sync del 22 ottobre la console e temporaneamente pulita perché build e browser condividono il giorno. KPI del fix: 0 errori React anche con calcolo scadenze testato su due giorni diversi. Nessun impatto traffico attribuito.
+
 20 ottobre 2026 — Export GSC consolidato fino al 17 ottobre: 11–17 ottobre 10 clic, 297 impression, CTR 3,37%, posizione media ponderata circa 7,62; 4–10 ottobre 5 clic, 114 impression, CTR 4,39%, posizione circa 8,84. Nel periodo esportato le landing Dottorati, Postdoc e RTT sommano 507 impression e 14 clic (CTR aggregato 2,76%). I volumi non consentono causalita o A/B test; osservare finestre settimanali omogenee dopo il rilascio.
 
 19 ottobre 2026 — Baseline contenuti dopo la PR #51: 42 opportunità aperte ancora senza argomento esplicito. L’arricchimento verificato dei tre contratti Firenze porta il residuo previsto a 39, con 3/3 schede dotate di tema, dipartimento, durata e compenso. Nessuna nuova metrica GSC disponibile e nessun effetto traffico attribuito.
