@@ -1,5 +1,7 @@
 # Daily log
 
+22 ottobre 2026 — Letti `main` e7278fd, PR aperte (nessuna) e sei documenti growth. Verificato il rollback #58 e misurata la causa degli errori homepage osservati il 21 ottobre: `daysUntil` leggeva l'orologio del browser invece della data deterministica del primo render. Preparato fix isolato con data esplicita e 3 test di regressione, senza ripristinare la vista iniziale ritirata né cambiare filtri, dati o ranking. GSC invariato: ultimo export consolidato al 17 ottobre, nessuna attribuzione.
+
 20 ottobre 2026 — Letti `main` d214957, PR aperte (nessuna) e sei documenti growth; verificato che il sync successivo conserva la PR #52. L’export GSC fino al 17 ottobre mostra 10 clic/297 impression nell’ultima settimana consolidata e concentra la maggiore opportunita di CTR su Dottorati, Postdoc e RTT. Preparato aggiornamento puntuale di description e introduzione delle tre landing per esplicitare argomento, SSD, ateneo, sede e scadenza; title, URL, canonical e filtri invariati. Nessun A/B test o effetto traffico attribuito.
 
 19 ottobre 2026 — Letti `main` e8eb1d5, PR aperte (nessuna) e sei documenti growth; verificato che il sync successivo conserva la PR #51. GSC non interrogato perché il connettore resta documentato come `payment_required`. I PDF UniFi D.R. 1298/2026 e 1300/2026 confermano per tre contratti programma, dipartimento, durata e compenso. Preparati override puntuali con tema AMUSED comune ai due ID ECON non disambiguabili e tema biomedico specifico per PHYS. Nessun dato di traffico inventato.

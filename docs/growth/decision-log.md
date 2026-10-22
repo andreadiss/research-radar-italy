@@ -1,5 +1,7 @@
 # Decision log
 
+22 ottobre 2026 — Correggere la causa condivisa del mismatch senza riproporre le 8 card iniziali ritirate. Passare `today` esplicitamente a giorni residui, label e classe; vietare letture autonome dell'orologio dentro il markup delle card. Conservare il refresh client esistente e il comportamento di `/posizioni/` ripristinato dalla PR #58.
+
 20 ottobre 2026 — Dare priorita alle landing Dottorati, Postdoc e RTT perche concentrano 507 impression e 14 clic nell’export GSC. Conservare i title gia coerenti con le query e migliorare description e introduzione con i criteri di confronto realmente presenti nel prodotto. Non modificare Contratti di ricerca oggi: 65 impression e CTR 4,62% indicano una priorita inferiore.
 
 19 ottobre 2026 — Applicare override versionati ai contratti 318504, 318505 e 318506 sulla base dei D.R. 1298/2026 e 1300/2026. Per 318504 e 318506 pubblicare il programma comune AMUSED, senza assegnare arbitrariamente le due sotto-selezioni; per 318505 pubblicare il programma biomedico specifico. Conservare MUR come fonte primaria e UniFi come verifica.

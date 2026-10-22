@@ -1,5 +1,7 @@
 ## Experiment opportunities
 
+22 ottobre 2026 — Correzione di affidabilita, non esperimento: scadenze e urgenza devono derivare dalla stessa data del catalogo durante il primo render. Nessun A/B test e nessuna ipotesi di crescita; outcome esclusivamente tecnico: zero mismatch di idratazione.
+
 20 ottobre 2026 — Miglioramento diretto, non A/B test: rendere gli snippet delle tre landing piu visibili specifici sul valore per l’utente, cioe confrontare argomento, SSD, ateneo, sede e scadenza. Guardrail: nessuna modifica a title, URL, canonical, filtri o ranking; valutazione futura solo su finestre GSC omogenee, senza attribuire automaticamente variazioni di CTR.
 
 19 ottobre 2026 — Miglioramento diretto, non A/B test: sostituire la descrizione amministrativa di tre contratti UniFi con temi verificati nei bandi integrali. Guardrail: dati puntuali, fonte ufficiale collegata, stesso tema comune per i due ID ECON non disambiguabili e test di isolamento. Outcome futuro: impression e clic delle schede solo con dati disponibili; nessuna causalità anticipata.

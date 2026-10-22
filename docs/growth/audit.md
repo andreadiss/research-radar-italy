@@ -1,5 +1,7 @@
 # Research Radar Italy — Audit iniziale
 
+22 ottobre 2026 — Verificato il rollback #58: `/posizioni/` e filtro Postdoc stabili, ma la homepage aveva mostrato errori React 425/422 dopo il cambio giorno. Causa misurata: le card usavano la data corrente del browser per scadenza e urgenza, mentre conteggi e dataset del primo render usavano la data di build. Allineate tutte le etichette alla stessa data esplicita; aggiornamento al giorno corrente resta nel solo effetto client gia esistente.
+
 20 ottobre 2026 — L’export GSC aggiornato al 17 ottobre mostra crescita della visibilita ma CTR contenuto sulle tre landing principali: Dottorati 174 impression/5 clic, Postdoc 171/4, RTT 162/5 nel periodo esportato. Gli snippet descrivono la categoria ma non rendono esplicito il vantaggio distintivo del radar: confronto immediato di argomento, SSD, ateneo, sede e scadenza. Scelto un aggiornamento puntuale di description e introduzione, senza cambiare title, URL, filtri o architettura.
 
 19 ottobre 2026 — Il sync automatico successivo conserva gli arricchimenti UniFi della PR #51. I bandi integrali D.R. 1298/2026 e 1300/2026 rendono verificabili tre contratti Firenze ancora procedurali: due nel progetto AMUSED sulle decisioni di iscrizione universitaria e uno sull’analisi di segnali e immagini biomediche multimodali. Per i due ID ECON il portale MUR non espone la sotto-selezione: viene pubblicato il tema comune verificato del progetto, senza abbinamenti dedotti.

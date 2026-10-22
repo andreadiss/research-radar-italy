@@ -18,6 +18,7 @@ import { grants } from "@/lib/grants";
 import { positions } from "@/lib/positions";
 import { positionTitleContext } from "@/lib/position-title-context.mjs";
 import { positionTopicPresentation } from "@/lib/position-topic.mjs";
+import { deadlineClass, deadlineLabel, daysUntil } from "@/lib/deadline-status.mjs";
 import type { GrantOpportunity } from "@/lib/types";
 
 type SearchParams = {
@@ -105,7 +106,7 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
     visibleGrants.filter((grant) => matchesGrantFilters(grant, searchParams)),
     sortOrder
   );
-  const closingSoon = filtered.filter((position) => daysUntil(position.deadline) <= 14).length;
+  const closingSoon = filtered.filter((position) => daysUntil(position.deadline, today) <= 14).length;
   const newPositionsToday = intentPositions.filter((position) => isToday(position.publishedAt, today)).length;
   const newGrantsToday = visibleGrants.filter((grant) => grant.firstSeenAt && isToday(grant.firstSeenAt, today)).length;
   const canShowPositionResults =
@@ -198,7 +199,7 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
                 <p>{position.institution}</p>
                 <div>
                   <span><MapPin size={14} />{position.location}</span>
-                  <span><CalendarClock size={14} />{deadlineLabel(position.deadline)}</span>
+                  <span><CalendarClock size={14} />{deadlineLabel(position.deadline, today)}</span>
                 </div>
               </Link>
             ))}
@@ -332,9 +333,9 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
                       <span className="badge type">{position.positionType}</span>
                     </div>
                     <div className="card-side-actions">
-                      <span className={deadlineClass(position.deadline)}>
+                      <span className={deadlineClass(position.deadline, today)}>
                         <CalendarClock size={15} />
-                        {deadlineLabel(position.deadline)}
+                        {deadlineLabel(position.deadline, today)}
                       </span>
                       <OpportunityActions
                         detailHref={`/positions/${position.id}`}
@@ -512,45 +513,6 @@ function formatDate(value: string) {
 
 function isToday(value: string, today: string) {
   return value.slice(0, 10) === today;
-}
-
-function daysUntil(value: string) {
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
-  const deadline = new Date(`${value}T00:00:00`);
-  return Math.ceil((deadline.getTime() - today.getTime()) / 86_400_000);
-}
-
-function deadlineLabel(value: string) {
-  const days = daysUntil(value);
-
-  if (days < 0) {
-    return "Scaduto";
-  }
-
-  if (days === 0) {
-    return "Scade oggi";
-  }
-
-  if (days === 1) {
-    return "Scade domani";
-  }
-
-  return `${days} giorni`;
-}
-
-function deadlineClass(value: string) {
-  const days = daysUntil(value);
-
-  if (days <= 7) {
-    return "deadline-pill urgent";
-  }
-
-  if (days <= 14) {
-    return "deadline-pill soon";
-  }
-
-  return "deadline-pill";
 }
 
 function grantStatusLabel(grant: GrantOpportunity) {
