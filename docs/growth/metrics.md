@@ -1,5 +1,7 @@
 ## Baseline
 
+24 ottobre 2026 — Catalogo: 619 opportunità aperte; argomento non specificato nella presentazione 46 prima della modifica e 44 dopo. Due titoli di progetto espliciti recuperati da descrizioni MUR: `mur-postdoc-assignments-318281` (MARGARET) e `mur-research-contracts-318280` (GALDYN). Metrica tecnica di chiarezza, non traffico.
+
 22 ottobre 2026 — Baseline tecnica: homepage con 2 errori React di idratazione (425/422) osservati il 21 ottobre quando la data di build era il 20; dopo il sync del 22 ottobre la console e temporaneamente pulita perché build e browser condividono il giorno. KPI del fix: 0 errori React anche con calcolo scadenze testato su due giorni diversi. Nessun impatto traffico attribuito.
 
 20 ottobre 2026 — Export GSC consolidato fino al 17 ottobre: 11–17 ottobre 10 clic, 297 impression, CTR 3,37%, posizione media ponderata circa 7,62; 4–10 ottobre 5 clic, 114 impression, CTR 4,39%, posizione circa 8,84. Nel periodo esportato le landing Dottorati, Postdoc e RTT sommano 507 impression e 14 clic (CTR aggregato 2,76%). I volumi non consentono causalita o A/B test; osservare finestre settimanali omogenee dopo il rilascio.

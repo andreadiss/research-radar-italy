@@ -1,5 +1,7 @@
 ## Experiment opportunities
 
+24 ottobre 2026 — Nessun A/B test: volumi insufficienti. Rilasciata come correzione deterministica una regola conservativa che mostra il titolo quando la fonte MUR dichiara letteralmente `progetto dal titolo` e lo delimita tra virgolette; misurazione tecnica 46→44 opportunità aperte senza argomento.
+
 22 ottobre 2026 — Correzione di affidabilita, non esperimento: scadenze e urgenza devono derivare dalla stessa data del catalogo durante il primo render. Nessun A/B test e nessuna ipotesi di crescita; outcome esclusivamente tecnico: zero mismatch di idratazione.
 
 20 ottobre 2026 — Miglioramento diretto, non A/B test: rendere gli snippet delle tre landing piu visibili specifici sul valore per l’utente, cioe confrontare argomento, SSD, ateneo, sede e scadenza. Guardrail: nessuna modifica a title, URL, canonical, filtri o ranking; valutazione futura solo su finestre GSC omogenee, senza attribuire automaticamente variazioni di CTR.

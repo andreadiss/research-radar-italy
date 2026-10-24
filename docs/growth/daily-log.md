@@ -1,5 +1,12 @@
 # Daily log
 
+## 2026-10-24
+
+- Letti main `763df70`, PR aperte (nessuna) e sei documenti growth; verificato il fix #59 nel giorno successivo al deploy.
+- GSC Wizard `get_indexing_tracker` e `list_sitemaps` bloccati da `payment_required`; nessun costo attivato e nessun dato inventato.
+- Misurate 619 opportunità aperte e 46 senza argomento presentabile. Due descrizioni MUR contengono titoli di progetto espliciti e virgolettati: MARGARET e GALDYN.
+- Aggiunta estrazione conservativa del titolo ufficiale: mancanti 46→44. Riferimenti non delimitati restano invariati; nessun A/B test o attribuzione di traffico.
+
 22 ottobre 2026 — Letti `main` e7278fd, PR aperte (nessuna) e sei documenti growth. Verificato il rollback #58 e misurata la causa degli errori homepage osservati il 21 ottobre: `daysUntil` leggeva l'orologio del browser invece della data deterministica del primo render. Preparato fix isolato con data esplicita e 3 test di regressione, senza ripristinare la vista iniziale ritirata né cambiare filtri, dati o ranking. GSC invariato: ultimo export consolidato al 17 ottobre, nessuna attribuzione.
 
 20 ottobre 2026 — Letti `main` d214957, PR aperte (nessuna) e sei documenti growth; verificato che il sync successivo conserva la PR #52. L’export GSC fino al 17 ottobre mostra 10 clic/297 impression nell’ultima settimana consolidata e concentra la maggiore opportunita di CTR su Dottorati, Postdoc e RTT. Preparato aggiornamento puntuale di description e introduzione delle tre landing per esplicitare argomento, SSD, ateneo, sede e scadenza; title, URL, canonical e filtri invariati. Nessun A/B test o effetto traffico attribuito.

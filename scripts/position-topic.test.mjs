@@ -28,6 +28,32 @@ test("uses the official title when the description is only procedural", () => {
   );
 });
 
+test("uses an explicitly quoted official project title in a procedural description", () => {
+  assert.deepEqual(
+    positionTopicPresentation(
+      "Selezione pubblica per n. 1 incarico post-doc",
+      "Selezione pubblica nell’ambito del progetto dal titolo “Altermagnetism: a promising landscape for future technology” – acronimo MARGARET."
+    ),
+    {
+      label: "Argomento dal progetto ufficiale",
+      text: "Altermagnetism: a promising landscape for future technology"
+    }
+  );
+});
+
+test("does not infer a topic from an unquoted project reference", () => {
+  assert.deepEqual(
+    positionTopicPresentation(
+      "Selezione pubblica per n. 1 incarico post-doc",
+      "Selezione pubblica finanziata nell’ambito del progetto MARGARET."
+    ),
+    {
+      label: "Argomento",
+      text: "Non specificato nella descrizione MUR disponibile; consulta il bando ufficiale."
+    }
+  );
+});
+
 test("signals when neither description nor title specifies a topic", () => {
   assert.deepEqual(
     positionTopicPresentation(
