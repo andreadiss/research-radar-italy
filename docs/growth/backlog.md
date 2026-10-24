@@ -1,5 +1,7 @@
 ## Prioritized backlog
 
+- [x] **P0 — Recuperare titoli di progetto espliciti dalle descrizioni MUR procedurali** — 24 ottobre: due opportunità aperte (MARGARET e GALDYN) ora espongono l’argomento verificabile; mancanti 46→44. Regola limitata alla formula `progetto dal titolo` con valore virgolettato.
+
 22 ottobre 2026 — **P0 stabilita primo render** (Impact 9, Confidence 10, Effort 1, Risk 1): rendere deterministiche etichette e classi di scadenza rispetto alla data gia condivisa dal componente. Guardrail: nessun cambiamento a dati, card, filtri o ranking; 3 test sul cambio giorno e ora legale; smoke console homepage e `/posizioni/` dopo deploy.
 
 20 ottobre 2026 — **P0 chiarezza landing ad alta visibilita** (Impact 8, Confidence 8, Effort 1, Risk 1): allineare snippet e introduzioni di Dottorati, Postdoc e RTT al bisogno di confronto, esplicitando argomento, SSD, ateneo, sede e scadenza. Baseline GSC: 507 impression e 14 clic complessivi nel periodo esportato. Guardrail: title, canonical, URL, filtri e contenuti delle schede invariati; nessun A/B test o attribuzione causale.

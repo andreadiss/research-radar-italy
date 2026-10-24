@@ -1,5 +1,11 @@
 # Decision log
 
+## 2026-10-24 — Usare solo titoli di progetto esplicitamente delimitati nella fonte
+
+- Decisione: nelle descrizioni procedurali mostrare come argomento il testo virgolettato dopo `progetto dal titolo`.
+- Motivazione: recupera due temi verificabili senza dedurre l’argomento da acronimi, codici o finanziamenti.
+- Guardrail: nessuna estrazione quando la formula o le virgolette mancano; in quel caso resta l’etichetta di dato non specificato.
+
 22 ottobre 2026 — Correggere la causa condivisa del mismatch senza riproporre le 8 card iniziali ritirate. Passare `today` esplicitamente a giorni residui, label e classe; vietare letture autonome dell'orologio dentro il markup delle card. Conservare il refresh client esistente e il comportamento di `/posizioni/` ripristinato dalla PR #58.
 
 20 ottobre 2026 — Dare priorita alle landing Dottorati, Postdoc e RTT perche concentrano 507 impression e 14 clic nell’export GSC. Conservare i title gia coerenti con le query e migliorare description e introduzione con i criteri di confronto realmente presenti nel prodotto. Non modificare Contratti di ricerca oggi: 65 impression e CTR 4,62% indicano una priorita inferiore.
