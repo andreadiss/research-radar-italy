@@ -111,3 +111,6 @@ Aggiornamento 7 settembre 2026 — Su richiesta esplicita, il badge mostra l'ult
 2026-09-07: considerare conclusa la correzione CTA dopo verifica del merge e della produzione. Non introdurre ulteriori modifiche alle landing prima di dati sufficienti; i piccoli movimenti GSC su finestre mobili non dimostrano impatto. Per decisione dell'utente, Netlify è fuori scope: non analizzarlo, non modificarlo e non proporre interventi relativi nei task growth.
 
 2026-10-21: ritirare integralmente PR #54–#57. Gli errori React 425/422 osservati nel browser di produzione superano il guardrail LOW RISK. Prima di riprendere l'idea, aggiungere un test di idratazione browser che confronti HTML statico e primo render client.
+## 2026-10-25 — Collegare temi ai codici di progetto solo quando univoci
+
+Per `mur-postdoc-assignments-318767`, usare il codice U-GOV `MUR25MCUCI_01` per mostrare progetto STAR-Plants, tema e Dipartimento di Bioscienze confermati da UniMi. Non copiare durata o importo da bandi di altra tipologia finanziati dallo stesso progetto. Non arricchire gli altri Postdoc Milano campionati senza una fonte ufficiale che colleghi in modo univoco codice e contenuto.

@@ -217,6 +217,21 @@ test("enriches only the two verified Florence postdoc procedures", () => {
   assert.ok(enriched.every((position) => position.verificationUrl.startsWith("https://www.unifi.it/")));
 });
 
+test("enriches the verified Milan STAR-Plants postdoc without changing unsupported fields", () => {
+  const positions = JSON.parse(
+    fs.readFileSync(new URL("../lib/generated/mur-positions.json", import.meta.url), "utf8")
+  );
+  const source = positions.find((position) => position.id === "mur-postdoc-assignments-318767");
+  const enriched = applyVerifiedPositionEnrichment(source);
+
+  assert.match(enriched.title, /STAR-Plants/);
+  assert.match(enriched.summary, /apomissia/i);
+  assert.equal(enriched.department, "Dipartimento di Bioscienze");
+  assert.equal(enriched.duration, source.duration);
+  assert.equal(enriched.salaryOrAmount, source.salaryOrAmount);
+  assert.equal(enriched.verificationUrl, "https://expertise.unimi.it/resource/orgunit/5804");
+});
+
 test("enriches the three verified Florence research contracts without guessing the ECON sub-selection", () => {
   const positions = JSON.parse(
     fs.readFileSync(new URL("../lib/generated/mur-positions.json", import.meta.url), "utf8")

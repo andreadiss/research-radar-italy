@@ -112,3 +112,4 @@ Tutti i task proposti usano strumenti esistenti; costo previsto €0, senza gara
 | P3 | Rendere breadcrumb genitore cliccabile | Basso-medio | Alta | 15 min | Basso e reversibile | Percorso verso categoria |
 
 Aggiornamento 21 ottobre 2026 — Il task “8 opportunità recenti all'ingresso” torna in backlog con Risk medio finché non esiste un test automatico di idratazione browser. Non riproporlo come micro-task LOW RISK.
+25 ottobre 2026 — **P1 tema Postdoc Milano STAR-Plants** (Impact 6, Confidence 9, Effort 2, Risk 1): collegare il solo record `318767` al progetto ufficiale tramite il codice U-GOV identico. Gate: titolo/tema/dipartimento verificati, nessuna modifica a durata/importo e nessuna estensione agli altri record Milano senza fonte univoca. Prossimo: verificare un secondo codice Milano solo quando il bando ufficiale completo è reperibile.
