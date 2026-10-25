@@ -108,3 +108,4 @@ Al massimo cinque, tutti senza piattaforme a pagamento:
 Con traffico ignoto non assegnare campioni o significatività arbitrari. Prima/dopo non dimostra da solo causalità.
 
 21 ottobre 2026 — La modifica delle card iniziali non è un esperimento né un A/B test. È stata ritirata dopo errori di idratazione osservati in produzione; nessuna metrica di crescita o utilizzo viene associata alla prova.
+25 ottobre 2026 — Nessun A/B test. Correzione deterministica su una singola scheda: l’identificatore U-GOV del record coincide con quello del progetto ufficiale STAR-Plants. Successo immediato = argomento specifico visibile e 43→42 schede aperte senza tema; outcome organico non attribuibile e da osservare solo con dati futuri sufficienti.

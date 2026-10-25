@@ -136,3 +136,4 @@ I kB della build non sono una misura di Core Web Vitals. Nessun dato CrUX/Lighth
 - GSC consolidata fino al 17 ottobre: 4–10 ottobre 5 clic / 114 impression / CTR 4,39% / posizione 8,84; 11–17 ottobre 10 clic / 297 impression / CTR 3,37% / posizione 7,62.
 - Modifica UX provata: card iniziali 0→8, poi rollback per errori React 425/422 in produzione. L'outcome finale resta 0 card iniziali; nessun impatto sul traffico attribuito.
 - GSC Wizard non interrogabile in questa sessione (`payment_required`); nessun costo o piano attivato.
+25 ottobre 2026 — Catalogo su `main` prima della modifica: 600 opportunità aperte e 43 senza argomento specifico nella presentazione. L’arricchimento verificato di `mur-postdoc-assignments-318767` riduce la coda a 42. È una metrica tecnica di chiarezza, non traffico. GSC Wizard ha risposto `payment_required`; ultima baseline valida invariata: 11–17 ottobre, 10 clic e 297 impression.
