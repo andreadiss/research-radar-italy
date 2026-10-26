@@ -2,10 +2,14 @@
 
 ## Roadmap operativa riallineata — 26 ottobre 2026
 
+### Pubblicazione congiunta — 26 ottobre
+
+Richiesta esplicita: pubblicare insieme guida breve e Insights di settembre con due entrypoint separati in homepage. Implementati `/guide/cercare-opportunita-ricerca/`, `/insights/2026-09/`, gli archivi `/guide/` e `/insights/`, due card statiche responsive e quattro URL nella sitemap. Fonti e data di verifica restano visibili. TypeScript, build di 2.350 route, test operativi e audit statico superati (0 link rotti/orfani). Conteggiare 2 contenuti pubblicati solo dopo merge, deploy e verifica live.
+
 ### Insights mensili — richiesta del 26 ottobre
 
 - Rubrica permanente «Insights del mese», archivio pianificato `/insights/` e URL mensili `/insights/AAAA-MM/`.
-- Entry point: card in homepage con mese, principale evidenza numerica e CTA «Leggi gli insight»; link permanente «Insights» nella navigazione; link contestuali dalle landing. La card cambia ogni mese, gli articoli precedenti restano nell'archivio. Questi accessi sono pianificati, non ancora implementati.
+- Entry point: card in homepage con mese, principale evidenza numerica e CTA «Leggi gli insight»; archivio raggiungibile dalla navigazione editoriale; link contestuali dalle landing da completare. La card cambia ogni mese, gli articoli precedenti restano nell'archivio. Prima card e archivio implementati nella pubblicazione congiunta.
 - Cadenza: pubblicazione entro il giorno 5 del mese successivo, dopo verifica del perimetro e della raccolta. Primo numero retrospettivo settembre entro il 1 novembre; ottobre entro il 5 novembre se la raccolta è verificabile.
 - KPI operativo: 1 numero al mese, URL permanente e accessi verificati; fonte, mese, copertura e metodo espliciti. Ogni numero conta fra i contenuti originali, senza doppio conteggio.
 - Dati: nuove schede pubblicate nel mese, incluse le oggi scadute; conteggi e quote per tipo, area/SSD e sede; temi espliciti con metodo e sovrapposizioni dichiarati. Mai confondere schede con posti o stock aperto con nuove pubblicazioni.
