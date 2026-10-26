@@ -162,7 +162,7 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
               </TrackedLink>
             </div>
           ) : null}
-          {intent === "home" ? <NextBestActions /> : null}
+          {intent === "home" ? <HomeEditorialLinks /> : null}
           {intent === "home" ? (
             <nav className="popular-searches" aria-label="Ricerche accademiche popolari">
               <span>Ricerche popolari</span>
@@ -175,10 +175,10 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
               </div>
             </nav>
           ) : null}
-          {intent === "home" ? <HomeEditorialLinks /> : null}
           {intent === "home" ? (
             <HomeFavoritesPreview count={savedPreview?.count ?? 0} items={savedPreview?.items ?? []} />
           ) : null}
+          {intent === "home" ? <NextBestActions /> : null}
         </div>
       </section>
 

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
+import { Compass, ChartNoAxesCombined } from "lucide-react";
 import { SiteTopbar } from "@/app/components/SiteTopbar";
 
 export function EditorialArticle({ title, category, children }: { title: string; category: string; children: ReactNode }) {
@@ -17,12 +18,14 @@ export function EditorialArticle({ title, category, children }: { title: string;
 export function HomeEditorialLinks() {
   return <section className="home-editorial" aria-label="Guide e analisi sulla ricerca universitaria">
     <Link className="editorial-entry" href="/guide/cercare-opportunita-ricerca">
-      <span className="editorial-kicker">Guida alla ricerca</span><h2>Non cercare soltanto “Postdoc”</h2>
-      <p>Come ampliare la ricerca e confrontare le opportunità pertinenti.</p><strong>Leggi la guida →</strong>
+      <Compass className="editorial-entry-icon" size={23} aria-hidden="true" />
+      <div className="editorial-entry-copy"><span className="editorial-kicker">Guida alla ricerca</span><h2>Stai cercando solo Postdoc?</h2>
+      <p>Scopri quali altre opportunità valutare</p></div><strong><span className="editorial-entry-cta">Leggi la guida </span><span aria-hidden="true">→</span></strong>
     </Link>
     <Link className="editorial-entry editorial-entry-insights" href="/insights/2026-09">
-      <span className="editorial-kicker">Insights del mese · Settembre 2026</span><h2>Un mese di ricerca, in 984 schede</h2>
-      <p>Le posizioni, i settori e i temi presenti nel nostro catalogo.</p><strong>Leggi gli insight →</strong>
+      <ChartNoAxesCombined className="editorial-entry-icon" size={23} aria-hidden="true" />
+      <div className="editorial-entry-copy"><span className="editorial-kicker">Insights · Settembre 2026</span><h2>Dove si concentra la ricerca?</h2>
+      <p>Settori e posizioni: i dati di settembre</p></div><strong><span className="editorial-entry-cta">Leggi gli insight </span><span aria-hidden="true">→</span></strong>
     </Link>
   </section>;
 }
