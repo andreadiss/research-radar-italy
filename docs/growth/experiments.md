@@ -109,3 +109,6 @@ Con traffico ignoto non assegnare campioni o significatività arbitrari. Prima/d
 
 21 ottobre 2026 — La modifica delle card iniziali non è un esperimento né un A/B test. È stata ritirata dopo errori di idratazione osservati in produzione; nessuna metrica di crescita o utilizzo viene associata alla prova.
 25 ottobre 2026 — Nessun A/B test. Correzione deterministica su una singola scheda: l’identificatore U-GOV del record coincide con quello del progetto ufficiale STAR-Plants. Successo immediato = argomento specifico visibile e 43→42 schede aperte senza tema; outcome organico non attribuibile e da osservare solo con dati futuri sufficienti.
+## 26 ottobre 2026 — Primo insight editoriale, non A/B test
+
+Ipotesi: una lettura originale del catalogo con metodo e percorsi pratici può attrarre e orientare chi cerca ricerca universitaria. Preparata una bozza completa e uno script read-only riproducibile; non è ancora un contenuto pubblicato. Gate: campione distinto dal mercato nazionale, conteggi di schede e non posti, freshness del 21 ottobre visibile, nessuna inferenza su competitività o assunzioni. Dopo pubblicazione osservare impression/clic per URL con finestre omogenee e ritardo GSC; nessun tracking nuovo e nessuna causalità dai bassi volumi.

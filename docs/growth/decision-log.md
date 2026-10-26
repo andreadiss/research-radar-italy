@@ -114,3 +114,6 @@ Aggiornamento 7 settembre 2026 — Su richiesta esplicita, il badge mostra l'ult
 ## 2026-10-25 — Collegare temi ai codici di progetto solo quando univoci
 
 Per `mur-postdoc-assignments-318767`, usare il codice U-GOV `MUR25MCUCI_01` per mostrare progetto STAR-Plants, tema e Dipartimento di Bioscienze confermati da UniMi. Non copiare durata o importo da bandi di altra tipologia finanziati dallo stesso progetto. Non arricchire gli altri Postdoc Milano campionati senza una fonte ufficiale che colleghi in modo univoco codice e contenuto.
+## 2026-10-26 — Riprendere la roadmap con un contenuto concreto
+
+Sospendere la sequenza di arricchimenti singoli come attività prevalente. Preparare il primo articolo originale sul catalogo con metodo riutilizzabile e rendere misurabili i traguardi concordati il 25 ottobre. Non presentare dati cached dal 21 come mercato attuale né la bozza come contenuto pubblicato. Nessuna nuova sezione, card o modifica a `/posizioni/` viene rilasciata in questa PR: integrazione e test browser sono il prossimo gate. Il sync MUR fallito richiede diagnosi separata senza modificare workflow o Supabase autonomamente.

@@ -1,5 +1,9 @@
 # Research Radar Italy — Audit iniziale
 
+## 26 ottobre 2026 — Priorità editoriale e freshness
+
+PR #61 verificata live: scheda 318767 HTTP 200 con STAR-Plants e canonical; home e `/posizioni/` HTTP 200. Quest’ultima conserva 0 link diretti alle schede nell’HTML iniziale: miglioramento strutturale ancora da testare, non causa dimostrata delle esclusioni. Ultimo controllo MUR registrato 21 ottobre 10:16 UTC; run MUR 40082371707 del 24 e 40182211006 del 25 ottobre falliti. Nessuna modifica a pipeline/persistenza: causa non ancora diagnosticata. Il contenuto originale preparato oggi è esplicitamente una fotografia della cache, non un censimento nazionale né disponibilità confermata. Stato: PR reviewable, non pubblicato.
+
 24 ottobre 2026 — Nel catalogo corrente 46/619 opportunità aperte mostravano ancora l’argomento come non specificato. Due descrizioni procedurali MUR contengono però un titolo di progetto esplicito e virgolettato: MARGARET sull’altermagnetismo e GALDYN sulla dinamica delle galassie e materia oscura. Aggiunta una presentazione conservativa del solo titolo ufficiale; riferimenti non virgolettati o incompleti restano non classificati.
 
 22 ottobre 2026 — Verificato il rollback #58: `/posizioni/` e filtro Postdoc stabili, ma la homepage aveva mostrato errori React 425/422 dopo il cambio giorno. Causa misurata: le card usavano la data corrente del browser per scadenza e urgenza, mentre conteggi e dataset del primo render usavano la data di build. Allineate tutte le etichette alla stessa data esplicita; aggiornamento al giorno corrente resta nel solo effetto client gia esistente.

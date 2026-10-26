@@ -1,5 +1,24 @@
 ## Prioritized backlog
 
+## Roadmap operativa riallineata — 26 ottobre 2026
+
+La roadmap del 9 ottobre prevale sul conteggio delle correzioni alle schede. Target concordati nel confronto del 25 ottobre; non sono previsioni garantite.
+
+| Traguardo | Scadenza | Stato e criterio di completamento |
+|---|---|---|
+| Primo contenuto originale sul mercato accademico | 1 novembre 2026 | Bozza completa in questa PR; completato solo con URL pubblico verificato, metodo e fonti visibili |
+| Prima card next best content | 8 novembre 2026 | Non avviata; un solo accesso pertinente a contenuto reale, revisione design prima del rilascio |
+| Struttura e prima guida accademia → azienda | 15 novembre 2026 | Non avviata; guida operativa verificata, non raccolta generica di link |
+| Tre contenuti originali pubblicati | 22 novembre 2026 | 0 pubblicati documentati; questa bozza non conta |
+| 60 clic organici / 50 clic sulle quattro landing, ultimi 28 giorni | 22 novembre 2026 | Baseline export al 23 ottobre: 33 / 25; verifica con nuovo export, non con numero di PR |
+| 100 clic organici, ultimi 28 giorni | 6 dicembre 2026 | Target, non promessa; baseline 33 |
+| Tre contenuti collegati accademia → azienda | 9 dicembre 2026 | Non avviato |
+| Piano ricerca community / decisione motivata | 9 gennaio / 9 febbraio 2027 | Non avviato; nessun reclutamento o raccolta dati senza autorizzazione |
+
+Regola di lavoro: almeno 70% del tempo su crescita/contenuti/transizione, salvo regressioni o blocchi; registrare minuti effettivi, non ricostruirli a posteriori. Report settimanale con scostamenti espliciti. La settimana deve coprire discoverability, qualità e UX.
+
+Intervento odierno: contenuto originale con conteggi riproducibili (Impact 8, Confidence 9 sul dato/3 sull’effetto traffico, Effort 3, Risk 1 in bozza). Priorità immediata successiva: diagnosticare in sola lettura il sync MUR fallito e il ritardo dal 21 ottobre; interventi su workflow/persistenza richiedono autorizzazione. Poi integrazione editoriale del primo articolo e test browser per `/posizioni/`, senza abbandonare la scadenza del 1° novembre.
+
 - [x] **P0 — Recuperare titoli di progetto espliciti dalle descrizioni MUR procedurali** — 24 ottobre: due opportunità aperte (MARGARET e GALDYN) ora espongono l’argomento verificabile; mancanti 46→44. Regola limitata alla formula `progetto dal titolo` con valore virgolettato.
 
 22 ottobre 2026 — **P0 stabilita primo render** (Impact 9, Confidence 10, Effort 1, Risk 1): rendere deterministiche etichette e classi di scadenza rispetto alla data gia condivisa dal componente. Guardrail: nessun cambiamento a dati, card, filtri o ranking; 3 test sul cambio giorno e ora legale; smoke console homepage e `/posizioni/` dopo deploy.

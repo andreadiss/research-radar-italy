@@ -1,5 +1,9 @@
 ## Baseline
 
+26 ottobre 2026 — Baseline GSC aggiornata dall’export utente analizzato il 25 ottobre (nessuna nuova estrazione oggi): 17–23 ottobre 11 clic/254 impression/CTR 4,33%/posizione ponderata circa 7,84; 10–16 ottobre 10/278/3,60%/7,69. Ultimi 28 giorni fino al 23: 33 clic, di cui 25 sulle quattro landing; query visibili spiegano solo 2 clic. Non attribuire causalità. Coverage aggiornato al 16 ottobre: 14 indicizzate, 766 rilevate non indicizzate, 2 redirect, 1 duplicata; l’incrocio utente del 25 trova 178 schede escluse ancora in sitemap. Non usare 14/783 come copertura del catalogo attivo.
+
+Misura editoriale riproducibile al commit 7d79b65: 588 schede non archiviate, pubblicate e con scadenza valida non trascorsa al 26 ottobre, su cache controllata l’ultima volta il 21. Incarichi 233, Postdoc 168, RTT 64, contratti 64, professori II 24, I 17, PhD 11, tecnologi 7; totale verificato 588. Lombardia 132/Lazio 124; 18 localizzazioni generiche Italia mantenute separate. Sono schede, non posti o domanda nazionale. Contenuti originali pubblicati: 0; bozze complete: 1. Nessun outcome di traffico associato. GSC Wizard Quick Wins rifiutato con payment_required; nessun costo attivato.
+
 24 ottobre 2026 — Catalogo: 619 opportunità aperte; argomento non specificato nella presentazione 46 prima della modifica e 44 dopo. Due titoli di progetto espliciti recuperati da descrizioni MUR: `mur-postdoc-assignments-318281` (MARGARET) e `mur-research-contracts-318280` (GALDYN). Metrica tecnica di chiarezza, non traffico.
 
 22 ottobre 2026 — Baseline tecnica: homepage con 2 errori React di idratazione (425/422) osservati il 21 ottobre quando la data di build era il 20; dopo il sync del 22 ottobre la console e temporaneamente pulita perché build e browser condividono il giorno. KPI del fix: 0 errori React anche con calcolo scadenze testato su due giorni diversi. Nessun impatto traffico attribuito.
