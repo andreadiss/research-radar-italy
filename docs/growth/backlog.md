@@ -2,6 +2,16 @@
 
 ## Roadmap operativa riallineata — 26 ottobre 2026
 
+### Insights mensili — richiesta del 26 ottobre
+
+- Rubrica permanente «Insights del mese», archivio pianificato `/insights/` e URL mensili `/insights/AAAA-MM/`.
+- Entry point: card in homepage con mese, principale evidenza numerica e CTA «Leggi gli insight»; link permanente «Insights» nella navigazione; link contestuali dalle landing. La card cambia ogni mese, gli articoli precedenti restano nell'archivio. Questi accessi sono pianificati, non ancora implementati.
+- Cadenza: pubblicazione entro il giorno 5 del mese successivo, dopo verifica del perimetro e della raccolta. Primo numero retrospettivo settembre entro il 1 novembre; ottobre entro il 5 novembre se la raccolta è verificabile.
+- KPI operativo: 1 numero al mese, URL permanente e accessi verificati; fonte, mese, copertura e metodo espliciti. Ogni numero conta fra i contenuti originali, senza doppio conteggio.
+- Dati: nuove schede pubblicate nel mese, incluse le oggi scadute; conteggi e quote per tipo, area/SSD e sede; temi espliciti con metodo e sovrapposizioni dichiarati. Mai confondere schede con posti o stock aperto con nuove pubblicazioni.
+- Crescita: delta mese su mese soltanto su fonti/tipi e copertura comparabili; distinguere crescita dei record raccolti da cambiamento del mercato. Settembre è la baseline finché agosto non è validato. Conservare snapshot e revisioni senza sovrascrivere le edizioni precedenti.
+- Ogni rilascio include il confronto con il mese precedente quando valido, tre evidenze numeriche, fonti e collegamenti alle opportunità; assenze di dati dichiarate, nessun trend inventato.
+
 La roadmap del 9 ottobre prevale sul conteggio delle correzioni alle schede. Target concordati nel confronto del 25 ottobre; non sono previsioni garantite.
 
 | Traguardo | Scadenza | Stato e criterio di completamento |
