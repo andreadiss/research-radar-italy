@@ -10,6 +10,7 @@ import { isAvailableGrant, isOpenPosition, italyToday } from "@/lib/opportunity-
 import { FloatingIntentMenu } from "@/app/components/FloatingIntentMenu";
 import { HomeFavoritesPreview } from "@/app/components/HomeFavoritesPreview";
 import { NextBestActions } from "@/app/components/NextBestActions";
+import { HomeEditorialLinks } from "@/app/components/EditorialArticle";
 import { OpportunityActions } from "@/app/components/OpportunityActions";
 import { OpportunityPreview } from "@/app/components/OpportunityPreview";
 import { TrackedLink } from "@/app/components/TrackedLink";
@@ -174,6 +175,7 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
               </div>
             </nav>
           ) : null}
+          {intent === "home" ? <HomeEditorialLinks /> : null}
           {intent === "home" ? (
             <HomeFavoritesPreview count={savedPreview?.count ?? 0} items={savedPreview?.items ?? []} />
           ) : null}
