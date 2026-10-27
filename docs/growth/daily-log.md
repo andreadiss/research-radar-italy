@@ -1,5 +1,11 @@
 # Daily log
 
+## 2026-10-27
+
+Gate pre-merge: TypeScript, 90/90 test, audit dati 0 errori, build production statica 2.348 route, audit di 2.343 HTML/578 URL sitemap con 0 errori/link rotti/orfani. Ordine filtri→due link editoriali→empty state verificato nell’HTML. Nessun errore React/sito nel controllo browser baseline (errori dell’estensione browser esclusi). Merge/deploy subordinati al ricontrollo main/head, verifica live nel report.
+
+Letti main c6eb931, nessuna PR aperta e sei documenti growth. Preservato il worktree con modifiche recenti, lavorando su worktree separato da origin/main. Verificata PR #63 in produzione: ordine homepage corretto e due accessi agli articoli. Misurato HTML di `/posizioni/`: nessun link editoriale; preparati due collegamenti contestuali sotto tutti i filtri e audit statico di presenza esatta da home/posizioni. On-page Audit GSC Wizard rifiutato con payment_required, nessun altro tentativo o costo. Sync MUR del 26 fallito, ultimo controllo completo registrato 21 ottobre; pipeline e dati invariati. Roadmap aggiornata a 2 articoli pubblicati; gate, PR e verifica deploy nel report finale, nessuna crescita attribuita.
+
 ## 2026-10-24
 
 - Letti main `763df70`, PR aperte (nessuna) e sei documenti growth; verificato il fix #59 nel giorno successivo al deploy.

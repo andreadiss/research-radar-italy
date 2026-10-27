@@ -1,5 +1,9 @@
 # Research Radar Italy — Audit iniziale
 
+## 27 ottobre 2026 — Discovery nel percorso principale
+
+Verificata PR #63 live: due accessi editoriali dopo Posizioni/Funding e Condividi prima delle ultime pubblicate. HTML `/posizioni/`: 0 link ai due articoli, contro 1+1 in home. Aggiunti due link testuali dopo tutti i filtri e prima dei risultati; layout flex-wrap già esistente, nessun filtro spostato, tracking o dati aggiunti. Audit statico richiede un link esatto per articolo da entrambe le pagine. Ultimo sync MUR visibile del 26 ottobre fallito; nessun tentativo di aggirare il rifiuto della fonte.
+
 ## 26 ottobre 2026 — Priorità editoriale e freshness
 
 Diagnosi completata dai log del job 121135444294 (run 40182211006, 25 ottobre): `Failed 403 Forbidden` nella lettura MUR chiamata da `buildSearchUrl`, poi import terminato con exit code 1. È un rifiuto di accesso alla fonte, non un errore Supabase dimostrato. Nessun aggiramento, retry forzato o modifica a workflow/credenziali. Il motivo server del 403 e il ripristino dell’accesso restano non determinati.

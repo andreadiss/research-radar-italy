@@ -117,3 +117,6 @@ Per `mur-postdoc-assignments-318767`, usare il codice U-GOV `MUR25MCUCI_01` per 
 ## 2026-10-26 — Riprendere la roadmap con un contenuto concreto
 
 Sospendere la sequenza di arricchimenti singoli come attività prevalente. Preparare il primo articolo originale sul catalogo con metodo riutilizzabile e rendere misurabili i traguardi concordati il 25 ottobre. Non presentare dati cached dal 21 come mercato attuale né la bozza come contenuto pubblicato. Nessuna nuova sezione, card o modifica a `/posizioni/` viene rilasciata in questa PR: integrazione e test browser sono il prossimo gate. Il sync MUR fallito richiede diagnosi separata senza modificare workflow o Supabase autonomamente.
+## 2026-10-27 — Portare gli articoli anche nel percorso Posizioni
+
+Conservare integralmente la home approvata con PR #63. Aggiungere soltanto due link testuali dopo i filtri di `/posizioni/`, senza card, caroselli, nuovi tracciamenti o spostamento dei filtri. Non riproporre in questo task le card iniziali ritirate per hydration. Aggiornare i KPI editoriali a 2 contenuti pubblicati dopo verifica reale; lo stato storico «0 pubblicati» del 26 non è lo stato corrente.

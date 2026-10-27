@@ -1,5 +1,7 @@
 ## Prioritized backlog
 
+27 ottobre 2026 — **P1 discovery contestuale** (Impact 7, Confidence 9 sul gap/3 sull’effetto traffico, Effort 1, Risk 1): due link sotto i filtri di `/posizioni/` verso gli articoli già pubblicati. Stato roadmap aggiornato dopo verifica live delle PR #62/#63: 2 contenuti pubblicati, primo contenuto e prima card editoriale completati il 26 ottobre. Prossimi: preparare il contenuto «Come leggere un bando» per l’8 novembre e validare la copertura di ottobre per gli Insights del 5 novembre; il sync MUR ancora fallito impedisce di chiamare completa la raccolta. Non sostituire questi traguardi con arricchimenti singoli.
+
 ## Roadmap operativa riallineata — 26 ottobre 2026
 
 ### Pubblicazione congiunta — 26 ottobre
@@ -20,10 +22,10 @@ La roadmap del 9 ottobre prevale sul conteggio delle correzioni alle schede. Tar
 
 | Traguardo | Scadenza | Stato e criterio di completamento |
 |---|---|---|
-| Primo contenuto originale sul mercato accademico | 1 novembre 2026 | Bozza completa in questa PR; completato solo con URL pubblico verificato, metodo e fonti visibili |
-| Prima card next best content | 8 novembre 2026 | Non avviata; un solo accesso pertinente a contenuto reale, revisione design prima del rilascio |
+| Primo contenuto originale sul mercato accademico | 1 novembre 2026 | Completato il 26 ottobre: Insights settembre pubblicato con metodo e fonte; URL e accesso homepage verificati il 27 |
+| Prima card next best content | 8 novembre 2026 | Completato il 26 ottobre: due accessi separati approvati e pubblicati con PR #62/#63; verificati il 27 |
 | Struttura e prima guida accademia → azienda | 15 novembre 2026 | Non avviata; guida operativa verificata, non raccolta generica di link |
-| Tre contenuti originali pubblicati | 22 novembre 2026 | 0 pubblicati documentati; questa bozza non conta |
+| Tre contenuti originali pubblicati | 22 novembre 2026 | 2 pubblicati e verificati (guida e Insights settembre); il terzo resta da completare |
 | 60 clic organici / 50 clic sulle quattro landing, ultimi 28 giorni | 22 novembre 2026 | Baseline export al 23 ottobre: 33 / 25; verifica con nuovo export, non con numero di PR |
 | 100 clic organici, ultimi 28 giorni | 6 dicembre 2026 | Target, non promessa; baseline 33 |
 | Tre contenuti collegati accademia → azienda | 9 dicembre 2026 | Non avviato |

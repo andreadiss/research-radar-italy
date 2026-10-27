@@ -112,3 +112,6 @@ Con traffico ignoto non assegnare campioni o significatività arbitrari. Prima/d
 ## 26 ottobre 2026 — Primo insight editoriale, non A/B test
 
 Ipotesi: una lettura originale del catalogo con metodo e percorsi pratici può attrarre e orientare chi cerca ricerca universitaria. Preparata una bozza completa e uno script read-only riproducibile; non è ancora un contenuto pubblicato. Gate: campione distinto dal mercato nazionale, conteggi di schede e non posti, freshness del 21 ottobre visibile, nessuna inferenza su competitività o assunzioni. Dopo pubblicazione osservare impression/clic per URL con finestre omogenee e ritardo GSC; nessun tracking nuovo e nessuna causalità dai bassi volumi.
+## 27 ottobre 2026 — Discovery contestuale, non A/B test
+
+Ipotesi: chi entra nel percorso Posizioni può approfondire guida e insight senza tornare alla home. Gate tecnico: due link crawlable dopo tutti i filtri, uno per destinazione, URL canoniche esistenti, nessuna modifica ai risultati o alla home approvata. Esposizioni e aperture non misurate: nessun nuovo tracking, effetto di discovery o CTR non dichiarato. La skill On-page Audit è sospesa al rifiuto payment_required; verifica pubblica e audit locali restano separati da dati Google.
