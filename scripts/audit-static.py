@@ -59,6 +59,16 @@ for path in root.rglob("index.html"):
     pages[route] = parsed
 
 errors = []
+editorial_destinations = (
+    "/guide/cercare-opportunita-ricerca/",
+    "/insights/2026-09/",
+)
+for route in ("/", "/posizioni/"):
+    for destination in editorial_destinations:
+        if pages[route].links.count(destination) != 1:
+            errors.append(f"Expected exactly one editorial link from {route} to {destination}")
+        if destination not in pages:
+            errors.append(f"Editorial destination has no exported HTML: {destination}")
 for route in ("/", "/posizioni/", "/funding/"):
     if not pages[route].h1 or not pages[route].links:
         errors.append(f"Missing initial HTML content: {route}")

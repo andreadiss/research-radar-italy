@@ -301,6 +301,10 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
                 </div>
               </div>
           </div>
+          <nav className="editorial-nav" aria-label="Guide e insight per la ricerca">
+            <Link href="/guide/cercare-opportunita-ricerca">Guida: non cercare solo Postdoc</Link>
+            <Link href="/insights/2026-09">Insights: settori e posizioni di settembre</Link>
+          </nav>
           {canShowPositionResults ? (
             <>
               <div className="results-header">
