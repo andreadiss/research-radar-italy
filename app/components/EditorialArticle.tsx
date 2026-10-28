@@ -3,12 +3,12 @@ import type { ReactNode } from "react";
 import { Compass, ChartNoAxesCombined } from "lucide-react";
 import { SiteTopbar } from "@/app/components/SiteTopbar";
 
-export function EditorialArticle({ title, category, children }: { title: string; category: string; children: ReactNode }) {
+export function EditorialArticle({ title, category, children, publishedOn = "26 ottobre 2026" }: { title: string; category: string; children: ReactNode; publishedOn?: string }) {
   return <main className="shell">
     <SiteTopbar />
     <article className="editorial-article">
       <nav className="editorial-nav" aria-label="Percorsi editoriali"><Link href="/">Home</Link><Link href="/guide">Guide</Link><Link href="/insights">Insights del mese</Link></nav>
-      <header><p className="editorial-kicker">{category}</p><h1>{title}</h1><p className="editorial-date">Pubblicato il 26 ottobre 2026</p></header>
+      <header><p className="editorial-kicker">{category}</p><h1>{title}</h1><p className="editorial-date">Pubblicato il {publishedOn}</p></header>
       {children}
       <div className="detail-actions"><Link className="button primary" href="/posizioni">Esplora le opportunità aperte</Link></div>
     </article>

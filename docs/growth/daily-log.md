@@ -1,5 +1,11 @@
 # Daily log
 
+## 2026-10-28 — Revisione settimanale
+
+Gate pre-merge superati: TypeScript, 90/90 test operativi, audit dati 0 errori, build production statica 2.349 route, audit 2.344 HTML/567 URL sitemap senza errori, link rotti o orfani. Audit della data correttamente basato sul testo renderizzato, non sui separatori HTML React. `main` ricontrollato e invariato a fa500f6; pubblicazione subordinata al confronto dell’esatto tree testato e alla verifica live.
+
+Letti main fa500f6, PR aperte (nessuna) e sei documenti growth; worktree separato, modifiche recenti preservate. Verificata PR #64 su HTML pubblico: home 200 e due accessi editoriali in Posizioni. GSC Wizard in sola lettura bloccato payment_required alla query totali 19–25 ottobre, nessuna ulteriore chiamata/costo/GA4. Confronto ultimo export disponibile: 17–23 ottobre 11/254 clic/impression vs 10–16 ottobre 10/278, dati al 23 (ritardo 5 giorni), nessuna crescita robusta né causalità dimostrata. Output della settimana verificati: #62/#63 due articoli, archivi e card; #64 link contestuali. Bilanciati discoverability (link/sitemap), qualità (fonti e limiti) e UX (checklist breve nel percorso esistente). Preparata guida «Come leggere un bando di ricerca» con otto controlli, due esempi ufficiali scaduti e collegamenti bidirezionali. Nessuna nuova card home o modifica dati/pipeline. Il 403 MUR noto resta un blocco della completezza, ultimo controllo completo 21 ottobre. Test, PR e deploy registrati sotto al completamento dei gate.
+
 ## 2026-10-27
 
 Gate pre-merge: TypeScript, 90/90 test, audit dati 0 errori, build production statica 2.348 route, audit di 2.343 HTML/578 URL sitemap con 0 errori/link rotti/orfani. Ordine filtri→due link editoriali→empty state verificato nell’HTML. Nessun errore React/sito nel controllo browser baseline (errori dell’estensione browser esclusi). Merge/deploy subordinati al ricontrollo main/head, verifica live nel report.

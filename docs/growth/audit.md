@@ -1,5 +1,9 @@
 # Research Radar Italy — Audit iniziale
 
+## 28 ottobre 2026 — Bando: dalla scoperta alla candidatura
+
+PR #64 verificata nell’HTML live: homepage 200 e due link editoriali in `/posizioni/`. L’archivio Guide contieneva un solo articolo, senza checklist per leggere la procedura dopo aver trovato un’opportunità. Preparata una guida di otto controlli, collegata dall’archivio e dalla prima guida, con esempi UniMi 700059 e UniFi D.R. 1297/2026 esplicitamente scaduti e fonti ufficiali consultate oggi. Nessuna nuova regola legale generalizzata o disponibilità dedotta. Ultimo MUR completo 21 ottobre; run 40489682685 del 27 fallito, nessuna modifica/aggiramento della fonte. Gate e pubblicazione nel daily-log/report.
+
 ## 27 ottobre 2026 — Discovery nel percorso principale
 
 Verificata PR #63 live: due accessi editoriali dopo Posizioni/Funding e Condividi prima delle ultime pubblicate. HTML `/posizioni/`: 0 link ai due articoli, contro 1+1 in home. Aggiunti due link testuali dopo tutti i filtri e prima dei risultati; layout flex-wrap già esistente, nessun filtro spostato, tracking o dati aggiunti. Audit statico richiede un link esatto per articolo da entrambe le pagine. Ultimo sync MUR visibile del 26 ottobre fallito; nessun tentativo di aggirare il rifiuto della fonte.
