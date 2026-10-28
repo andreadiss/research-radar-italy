@@ -1,5 +1,9 @@
 # Decision log
 
+## 2026-10-28 — Completare il percorso editoriale, preservare il design approvato
+
+Pubblicare una guida pratica alla lettura dei bandi nell’architettura Guide già esistente; collegarla dall’archivio e dalla guida iniziale senza una terza card homepage, nuovi filtri o navigazione strutturale. Fonti ufficiali, esempi scaduti espliciti e regole specifiche non generalizzate. Bilancio: i dati più recenti disponibili non dimostrano crescita robusta; proporre di concentrare il tempo su contenuti utili e transizione, non conteggio PR. Mantenere separati output, target e outcome. GSC payment_required non autorizza spese; il 403 MUR non autorizza aggiramenti o modifiche alla pipeline.
+
 ## 2026-10-24 — Usare solo titoli di progetto esplicitamente delimitati nella fonte
 
 - Decisione: nelle descrizioni procedurali mostrare come argomento il testo virgolettato dopo `progetto dal titolo`.

@@ -1,5 +1,9 @@
 ## Prioritized backlog
 
+28 ottobre 2026 — **P0 affidabilità data mostrata, prossimo fix isolato**: il browser live mostra «Dati MUR: 28 ott» mentre `lastSuccessfulCheckAt` è il 21; `LastUpdateBadge` usa build date e poi l’orologio client. Riprodotto e letto il codice: non è prova di nuovo sync. Dopo verifica del rilascio editoriale, correggere il badge usando il timestamp sorgente già esposto da Next, con test di non avanzamento dopo sync fallito; non modificare la pipeline o spostare nuovamente elementi della home.
+
+28 ottobre 2026 — **P1 guida alla lettura del bando** (Impact 8, Confidence 9 sull’utilità della checklist/3 sul traffico, Effort 2, Risk 1): un contenuto originale nel percorso esistente, senza redesign, collegato dalla prima guida e dall’archivio. Target terzo contenuto: preparato; conteggiare 3 pubblicati solo dopo deploy verificato. Prossimo: verificare il perimetro disponibile per Insights ottobre entro il 5 novembre; con raccolta MUR ferma al 21, non pubblicare totali mensili come completi. In parallelo preparare la proposta concreta della prima guida accademia→azienda, senza introdurre una nuova navigazione senza approvazione. Nessuna priorità a micro-arricchimenti isolati in sostituzione della roadmap.
+
 27 ottobre 2026 — **P1 discovery contestuale** (Impact 7, Confidence 9 sul gap/3 sull’effetto traffico, Effort 1, Risk 1): due link sotto i filtri di `/posizioni/` verso gli articoli già pubblicati. Stato roadmap aggiornato dopo verifica live delle PR #62/#63: 2 contenuti pubblicati, primo contenuto e prima card editoriale completati il 26 ottobre. Prossimi: preparare il contenuto «Come leggere un bando» per l’8 novembre e validare la copertura di ottobre per gli Insights del 5 novembre; il sync MUR ancora fallito impedisce di chiamare completa la raccolta. Non sostituire questi traguardi con arricchimenti singoli.
 
 ## Roadmap operativa riallineata — 26 ottobre 2026

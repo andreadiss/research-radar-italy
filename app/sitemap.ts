@@ -7,7 +7,7 @@ import { isAvailableGrant, isOpenPosition } from "@/lib/opportunity-status";
 import { directoryPageCount, directoryPath } from "@/lib/opportunity-directory";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const routes: MetadataRoute.Sitemap = ["/", "/posizioni", "/funding", "/about", "/privacy", "/cookie", "/terms", "/contact", "/guide", "/guide/cercare-opportunita-ricerca", "/insights", "/insights/2026-09"]
+  const routes: MetadataRoute.Sitemap = ["/", "/posizioni", "/funding", "/about", "/privacy", "/cookie", "/terms", "/contact", "/guide", "/guide/cercare-opportunita-ricerca", "/guide/leggere-bando-ricerca", "/insights", "/insights/2026-09"]
     .map((path) => ({ url: absoluteUrl(path) }));
   // Position updatedAt changes only when reconciled source content changes.
   // Keep lastmod off aggregate/static routes until they have equivalent provenance.

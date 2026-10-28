@@ -79,6 +79,17 @@ ns = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
 sitemap = ET.parse(root / "sitemap.xml")
 sitemap_items = sitemap.findall(".//s:url", ns)
 urls = [item.find("s:loc", ns).text for item in sitemap_items]
+reading_guide = "/guide/leggere-bando-ricerca/"
+if reading_guide not in pages or "https://rritaly.com" + reading_guide not in urls:
+    errors.append("Reading-call guide missing from export or sitemap")
+for route in ("/guide/", "/guide/cercare-opportunita-ricerca/"):
+    if pages[route].links.count(reading_guide) != 1:
+        errors.append(f"Expected one contextual reading-call guide link from {route}")
+if reading_guide in pages:
+    guide_html = (root / reading_guide.strip("/") / "index.html").read_text()
+    guide_text = re.sub(r"<[^>]+>", "", guide_html)
+    if "Pubblicato il 28 ottobre 2026" not in guide_text or "esempi già scaduti" not in guide_text:
+        errors.append("Reading-call guide missing publication date or expired-example disclosure")
 sitemap_lastmod = {
     item.find("s:loc", ns).text: item.find("s:lastmod", ns).text
     for item in sitemap_items if item.find("s:lastmod", ns) is not None

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { EditorialArticle } from "@/app/components/EditorialArticle";
 import { absoluteUrl } from "@/lib/site-url";
 
@@ -20,5 +21,6 @@ export default function Guide() {
     <p>Lombardia e Lazio raccolgono il 43,5% delle schede analizzate. Se puoi trasferirti, cercare in più regioni amplia le opportunità da valutare.</p>
     <aside className="editorial-method"><h2>Fonte e metodo</h2><p>Questa analisi descrive il nostro catalogo, non l’intero mercato italiano. I dati MUR/Cineca sono stati controllati il 21 ottobre 2026: nuove pubblicazioni, proroghe e ritiri successivi non sono confermati. Verifica sempre la fonte ufficiale. Una scheda può includere più posti; eventuali duplicazioni tra procedure non sono consolidate.</p>
     <p>Incluse schede non archiviate, pubblicate entro il 26 ottobre e con scadenza valida dal 26 ottobre in avanti. <a href="https://github.com/andreadiss/research-radar-italy/blob/main/scripts/market-snapshot.mjs">Calcolo riproducibile</a> sulla <a href="https://github.com/andreadiss/research-radar-italy/blob/7d79b65d2756053732e2fa9a0ae445cf77cac5a0/lib/generated/mur-positions.json">fonte versionata</a>.</p></aside>
+    <p>Hai trovato un’opportunità pertinente? <Link href="/guide/leggere-bando-ricerca">Controlla il bando prima di candidarti</Link>.</p>
   </EditorialArticle>;
 }
