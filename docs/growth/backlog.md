@@ -1,6 +1,8 @@
 ## Prioritized backlog
 
-28 ottobre 2026 — **P0 affidabilità data mostrata, prossimo fix isolato**: il browser live mostra «Dati MUR: 28 ott» mentre `lastSuccessfulCheckAt` è il 21; `LastUpdateBadge` usa build date e poi l’orologio client. Riprodotto e letto il codice: non è prova di nuovo sync. Dopo verifica del rilascio editoriale, correggere il badge usando il timestamp sorgente già esposto da Next, con test di non avanzamento dopo sync fallito; non modificare la pipeline o spostare nuovamente elementi della home.
+29 ottobre 2026 — **Badge: attività annullata su richiesta dell’utente del 28 ottobre.** «Dati MUR» e data corrente restano invariati; nessuna correzione da riproporre. Il timestamp dell’ultimo controllo completo viene usato soltanto per la verifica editoriale della raccolta, non per cambiare il badge.
+
+29 ottobre 2026 — **P1 readiness Insights ottobre** (Impact 8, Confidence 10 sul limite dei dati/3 sul traffico, Effort 1, Risk 1): lo script distingue mese in corso, controllo fonte precedente alla fine mese e copertura storica non validata. 647 schede pubblicate 1–21 ottobre nella cache, non intero mercato/mese. Nessuna pagina ottobre pubblicata ora. Prossimo: dopo chiusura mese verificare perimetro storico e raccolta; se incompleti, scegliere esplicitamente un rapporto parziale con limiti o rinviare, mai pubblicare delta di crescita non validati. Nel frattempo preparare la guida competenze trasferibili per il 15 novembre. Terzo contenuto completato: PR #65 online il 28 ottobre e verificata nuovamente il 29.
 
 28 ottobre 2026 — **P1 guida alla lettura del bando** (Impact 8, Confidence 9 sull’utilità della checklist/3 sul traffico, Effort 2, Risk 1): un contenuto originale nel percorso esistente, senza redesign, collegato dalla prima guida e dall’archivio. Target terzo contenuto: preparato; conteggiare 3 pubblicati solo dopo deploy verificato. Prossimo: verificare il perimetro disponibile per Insights ottobre entro il 5 novembre; con raccolta MUR ferma al 21, non pubblicare totali mensili come completi. In parallelo preparare la proposta concreta della prima guida accademia→azienda, senza introdurre una nuova navigazione senza approvazione. Nessuna priorità a micro-arricchimenti isolati in sostituzione della roadmap.
 
@@ -29,7 +31,8 @@ La roadmap del 9 ottobre prevale sul conteggio delle correzioni alle schede. Tar
 | Primo contenuto originale sul mercato accademico | 1 novembre 2026 | Completato il 26 ottobre: Insights settembre pubblicato con metodo e fonte; URL e accesso homepage verificati il 27 |
 | Prima card next best content | 8 novembre 2026 | Completato il 26 ottobre: due accessi separati approvati e pubblicati con PR #62/#63; verificati il 27 |
 | Struttura e prima guida accademia → azienda | 15 novembre 2026 | Non avviata; guida operativa verificata, non raccolta generica di link |
-| Tre contenuti originali pubblicati | 22 novembre 2026 | 2 pubblicati e verificati (guida e Insights settembre); il terzo resta da completare |
+| Come leggere un bando di ricerca | 8 novembre 2026 | Completato il 28 ottobre con PR #65; archivio, articolo e collegamenti verificati il 29 |
+| Tre contenuti originali pubblicati | 22 novembre 2026 | Completato il 28 ottobre: due guide e Insights settembre; non equivale a crescita del traffico |
 | 60 clic organici / 50 clic sulle quattro landing, ultimi 28 giorni | 22 novembre 2026 | Baseline export al 23 ottobre: 33 / 25; verifica con nuovo export, non con numero di PR |
 | 100 clic organici, ultimi 28 giorni | 6 dicembre 2026 | Target, non promessa; baseline 33 |
 | Tre contenuti collegati accademia → azienda | 9 dicembre 2026 | Non avviato |
