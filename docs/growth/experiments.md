@@ -1,5 +1,7 @@
 ## Experiment opportunities
 
+29 ottobre 2026 — Controllo editoriale deterministico, non A/B test: rendere verificabili i motivi che impediscono di chiamare completo o comparabile un mese. Test: mese in corso, confine Europe/Rome con ora legale, cambio anno, dati vuoti, check invalido/futuro e mancata certificazione automatica anche dopo un sync successivo. Nessun impatto traffico attribuito; l’output resta interno, nessun articolo prematuro.
+
 28 ottobre 2026 — Miglioramento editoriale diretto, non A/B test: checklist breve per passare dalla scheda al bando ufficiale senza confondere settore e progetto, data e ora, importo e netto, bozza e invio. Nessuna promessa di ammissibilità; esempi già scaduti dichiarati. Osservare in futuro scoperta/indicizzazione e clic della guida con nuovi dati disponibili, senza aggiungere tracking. Nessuna crescita attribuita agli articoli appena pubblicati.
 
 24 ottobre 2026 — Nessun A/B test: volumi insufficienti. Rilasciata come correzione deterministica una regola conservativa che mostra il titolo quando la fonte MUR dichiara letteralmente `progetto dal titolo` e lo delimita tra virgolette; misurazione tecnica 46→44 opportunità aperte senza argomento.

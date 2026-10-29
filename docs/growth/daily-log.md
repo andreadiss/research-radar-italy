@@ -1,5 +1,11 @@
 # Daily log
 
+## 2026-10-29
+
+Gate pre-merge superati: 7/7 test editoriali, TypeScript, 90/90 test operativi, audit dati senza errori, build statica production e audit di 2.343 HTML/537 URL sitemap con 0 errori, link rotti o orfani. Confrontati gli output settembre/ottobre con lo script precedente: conteggi, famiglie topic, identificativi e hash sorgente tutti invariati; aggiunti solo metadata di coverage. Nessuna modifica in app/, lib/, public/ o workflow.
+
+Letti main 830742e, PR aperte (nessuna), sei documenti growth e script mensile; worktree separato preserva il lavoro precedente. Verificata guida #65: home/archivio/articolo 200, canonical e link dall’archivio corretti. Annullata dal backlog la proposta badge, come chiesto dall’utente; codice badge invariato. GSC On-page Audit della nuova guida rifiutato payment_required; nessuna ulteriore chiamata o costo. Misurate 647 schede ottobre, ultima pubblicazione e ultimo controllo 21 ottobre; mese in corso. Preparato controllo editoriale riproducibile con blocker espliciti, sette test e comando test:editorial, senza nuove pagine, dati o workflow. Nessun delta di mercato calcolato, nessuna nuova metrica traffico. Gate e PR nel report; la guida di ieri porta a 3 i contenuti effettivamente pubblicati.
+
 ## 2026-10-28 — Revisione settimanale
 
 Gate pre-merge superati: TypeScript, 90/90 test operativi, audit dati 0 errori, build production statica 2.349 route, audit 2.344 HTML/567 URL sitemap senza errori, link rotti o orfani. Audit della data correttamente basato sul testo renderizzato, non sui separatori HTML React. `main` ricontrollato e invariato a fa500f6; pubblicazione subordinata al confronto dell’esatto tree testato e alla verifica live.

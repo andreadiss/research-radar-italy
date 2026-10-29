@@ -1,5 +1,9 @@
 # Research Radar Italy — Audit iniziale
 
+## 29 ottobre 2026 — Perimetro della prossima analisi mensile
+
+PR #65 verificata live: home, archivio e nuova guida HTTP 200, canonical corretti, collegamento dall’archivio presente. Main 830742e, nessuna PR aperta. Lo script mensile esponeva conteggi e una cautela generica, ma non il periodo effettivamente osservato né i blocker verificabili. Aggiunto report strutturato: mese non chiuso, ultimo check 21 ottobre, 647 schede con pubblicazione 1–21 ottobre, copertura storica non validata. Neppure un futuro sync riuscito certificherà automaticamente la comparabilità. Nessuna modifica alla raccolta, al sito o al badge (richiesta esplicita di mantenerlo).
+
 ## 28 ottobre 2026 — Bando: dalla scoperta alla candidatura
 
 PR #64 verificata nell’HTML live: homepage 200 e due link editoriali in `/posizioni/`. L’archivio Guide contieneva un solo articolo, senza checklist per leggere la procedura dopo aver trovato un’opportunità. Preparata una guida di otto controlli, collegata dall’archivio e dalla prima guida, con esempi UniMi 700059 e UniFi D.R. 1297/2026 esplicitamente scaduti e fonti ufficiali consultate oggi. Nessuna nuova regola legale generalizzata o disponibilità dedotta. Ultimo MUR completo 21 ottobre; run 40489682685 del 27 fallito, nessuna modifica/aggiramento della fonte. Gate e pubblicazione nel daily-log/report.

@@ -1,5 +1,9 @@
 # Decision log
 
+## 2026-10-29 — Badge invariato e analisi mensili senza completezza presunta
+
+La richiesta esplicita dell’utente del 28 ottobre annulla il fix del badge proposto nel report precedente: conservarlo con data corrente, rimuoverlo dalle priorità. Separare tale scelta dalla verifica delle fonti negli articoli. Prima di Insights ottobre, produrre metadata riproducibili di perimetro e blocker, non una pagina anticipata o percentuali di crescita del mercato. Un controllo fonte dopo la fine mese è condizione necessaria, non certificazione di copertura storica. Nessun cambio di pipeline, workflow, persistenza, design o navigazione.
+
 ## 2026-10-28 — Completare il percorso editoriale, preservare il design approvato
 
 Pubblicare una guida pratica alla lettura dei bandi nell’architettura Guide già esistente; collegarla dall’archivio e dalla guida iniziale senza una terza card homepage, nuovi filtri o navigazione strutturale. Fonti ufficiali, esempi scaduti espliciti e regole specifiche non generalizzate. Bilancio: i dati più recenti disponibili non dimostrano crescita robusta; proporre di concentrare il tempo su contenuti utili e transizione, non conteggio PR. Mantenere separati output, target e outcome. GSC payment_required non autorizza spese; il 403 MUR non autorizza aggiramenti o modifiche alla pipeline.
