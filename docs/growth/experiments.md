@@ -1,5 +1,7 @@
 ## Experiment opportunities
 
+30 ottobre 2026 — Revisione editoriale, non esperimento: guida con esercizio verificabile e tabella di esempi esplicitamente illustrativi, senza equivalenze automatiche tra dottorato e ruoli aziendali. Pilota copy fermo all’approvazione: qualità valutata su fedeltà alla cache, concretezza e sintesi, non su CTR non misurato. Nessun tracking aggiunto e nessun A/B test.
+
 29 ottobre 2026 — Controllo editoriale deterministico, non A/B test: rendere verificabili i motivi che impediscono di chiamare completo o comparabile un mese. Test: mese in corso, confine Europe/Rome con ora legale, cambio anno, dati vuoti, check invalido/futuro e mancata certificazione automatica anche dopo un sync successivo. Nessun impatto traffico attribuito; l’output resta interno, nessun articolo prematuro.
 
 28 ottobre 2026 — Miglioramento editoriale diretto, non A/B test: checklist breve per passare dalla scheda al bando ufficiale senza confondere settore e progetto, data e ora, importo e netto, bozza e invio. Nessuna promessa di ammissibilità; esempi già scaduti dichiarati. Osservare in futuro scoperta/indicizzazione e clic della guida con nuovi dati disponibili, senza aggiungere tracking. Nessuna crescita attribuita agli articoli appena pubblicati.

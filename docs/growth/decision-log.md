@@ -1,5 +1,9 @@
 # Decision log
 
+## 2026-10-30 — Delega copy delimitata e percorso transizione in bozza
+
+Attivare il copywriter per piccoli lotti nel budget ordinario, mantenendo al responsabile accuratezza e pubblicazione. La prima revisione recupera tre esempi del pilota e li registra senza ricostruire sette originali non reperiti: niente applicazione o estensione pubblicata finché il confronto completo non è mostrato e approvato. Dati e testi editoriali restano separati; titoli ufficiali preservati nel dettaglio. Nel frattempo avanzare sulla roadmap con una guida alle competenze trasferibili basata su tre fonti primarie, in PR reviewable senza pagina pubblica o redesign. Badge invariato come richiesto.
+
 ## 2026-10-29 — Badge invariato e analisi mensili senza completezza presunta
 
 La richiesta esplicita dell’utente del 28 ottobre annulla il fix del badge proposto nel report precedente: conservarlo con data corrente, rimuoverlo dalle priorità. Separare tale scelta dalla verifica delle fonti negli articoli. Prima di Insights ottobre, produrre metadata riproducibili di perimetro e blocker, non una pagina anticipata o percentuali di crescita del mercato. Un controllo fonte dopo la fine mese è condizione necessaria, non certificazione di copertura storica. Nessun cambio di pipeline, workflow, persistenza, design o navigazione.

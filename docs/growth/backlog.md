@@ -1,5 +1,7 @@
 ## Prioritized backlog
 
+30 ottobre 2026 — **P1 prima guida accademia→azienda** (Impact 8, Confidence 9 sulle fonti/3 sul traffico, Effort 2, Risk 1 in bozza): testo operativo pronto in `content/competenze-trasferibili-draft-2026-10-30.md`, fonti REA/EURAXESS/Oxford consultate e collocazione proposta nell’archivio Guide. Prossimo: revisione testo/entrypoint prima della pagina pubblica; nessuna quarta card home. **Copy quotidiano**: sotto-agente attivato nel budget esistente; registro `copy-review-2026-10-30.json` con tre esempi del pilota ricontrollati, sette non recuperati. Completare il confronto di dieci distinguendo le nuove proposte, mostrarlo e ottenere approvazione prima di applicare o estendere la pubblicazione. Evitare ripetizioni grazie agli ID registrati.
+
 29 ottobre 2026 — **Badge: attività annullata su richiesta dell’utente del 28 ottobre.** «Dati MUR» e data corrente restano invariati; nessuna correzione da riproporre. Il timestamp dell’ultimo controllo completo viene usato soltanto per la verifica editoriale della raccolta, non per cambiare il badge.
 
 29 ottobre 2026 — **P1 readiness Insights ottobre** (Impact 8, Confidence 10 sul limite dei dati/3 sul traffico, Effort 1, Risk 1): lo script distingue mese in corso, controllo fonte precedente alla fine mese e copertura storica non validata. 647 schede pubblicate 1–21 ottobre nella cache, non intero mercato/mese. Nessuna pagina ottobre pubblicata ora. Prossimo: dopo chiusura mese verificare perimetro storico e raccolta; se incompleti, scegliere esplicitamente un rapporto parziale con limiti o rinviare, mai pubblicare delta di crescita non validati. Nel frattempo preparare la guida competenze trasferibili per il 15 novembre. Terzo contenuto completato: PR #65 online il 28 ottobre e verificata nuovamente il 29.
@@ -30,7 +32,7 @@ La roadmap del 9 ottobre prevale sul conteggio delle correzioni alle schede. Tar
 |---|---|---|
 | Primo contenuto originale sul mercato accademico | 1 novembre 2026 | Completato il 26 ottobre: Insights settembre pubblicato con metodo e fonte; URL e accesso homepage verificati il 27 |
 | Prima card next best content | 8 novembre 2026 | Completato il 26 ottobre: due accessi separati approvati e pubblicati con PR #62/#63; verificati il 27 |
-| Struttura e prima guida accademia → azienda | 15 novembre 2026 | Non avviata; guida operativa verificata, non raccolta generica di link |
+| Struttura e prima guida accademia → azienda | 15 novembre 2026 | Bozza operativa e proposta entrypoint preparate il 30 ottobre; non pubblicata, revisione prima dell’implementazione |
 | Come leggere un bando di ricerca | 8 novembre 2026 | Completato il 28 ottobre con PR #65; archivio, articolo e collegamenti verificati il 29 |
 | Tre contenuti originali pubblicati | 22 novembre 2026 | Completato il 28 ottobre: due guide e Insights settembre; non equivale a crescita del traffico |
 | 60 clic organici / 50 clic sulle quattro landing, ultimi 28 giorni | 22 novembre 2026 | Baseline export al 23 ottobre: 33 / 25; verifica con nuovo export, non con numero di PR |
