@@ -1,3 +1,7 @@
+## 30 ottobre 2026 — Pubblicazione pilota copy approvato
+
+Recuperato pilota completo, review indipendente copywriter e responsabile. Implementate 10 card con correzioni di precisione (strumenti per automazioni/giochi, sicurezza come obiettivo e non risultato garantito). Nessun cambiamento a dettaglio ufficiale, tassonomia, filtri, scadenze, layout o badge. TypeScript, 90 test ops + 20 editoriali, audit dati 0 errori e build production 2.347 route superati. Audit 2.342 HTML / 502 URL sitemap: 0 errori, link rotti o orfani. QA 10/10 testi e titoli ufficiali nel dettaglio preservati; nuovo titolo home presente nell’HTML. Stato: pronto per deploy; verifica live ancora da completare.
+
 # Daily log
 
 ## 2026-10-29

@@ -1,0 +1,189 @@
+{
+  "reviewDate": "2026-10-30",
+  "status": "approved-implemented-pending-deploy",
+  "approvedBy": "User: Il pilota è ok pubblica le revisioni",
+  "reviewedCards": 10,
+  "implementedCards": 10,
+  "publishedCards": 0,
+  "sourceSnapshot": {
+    "path": "lib/generated/mur-positions.json",
+    "lastSuccessfulCheckAt": "2026-10-21T10:16:40.979Z",
+    "limitation": "Verifica di fedeltà sulla cache MUR, non nuova verifica live dell’apertura dei bandi."
+  },
+  "scope": "Solo presentazione card homepage/Posizioni e anteprima. Titoli ufficiali e dati del dettaglio invariati. Guida PR67 esclusa.",
+  "pilotRecovery": "Recuperate tutte le 10 proposte dalla risposta completa del sotto-agente nella conversazione. Le sette mancanti nella PR67 non sono nuove proposte.",
+  "precisionReview": "Corrette formulazioni 319308 (strumenti per automazioni/giochi), 319259 (obiettivo, non sicurezza garantita), 153523 (attività assegnate al laboratorio), 319301 (metodi).",
+  "guardrail": "Copy disattivato automaticamente se titolo, summary, ente, tipo, SSD, località o URL fonte differiscono dal record revisionato. Nessuna modifica a categorie, scadenze, filtri, layout o badge.",
+  "cards": [
+    {
+      "id": "mur-research-assignments-319258",
+      "source": {
+        "id": "mur-research-assignments-319258",
+        "title": "Valutazione di emulatori climatici basati sull'intelligenza artificiale - Rif. 109/26/IR",
+        "summary": "La ricerca svilupperà strumenti per valutare il realismo fisico e l’affidabilità di modelli ed emulatori climatici basati sull’intelligenza artificiale. A questo scopo, la suite Python AQUA (Application for QUality Assessment), sviluppata al Politecnico di Torino per modelli ad alta risoluzione a scala chilometrica, sarà estesa alle esigenze degli emulatori climatici. L’attività si inserisce nel progetto Horizon Eur...",
+        "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/319258",
+        "positionType": "Incarico di ricerca",
+        "institution": "Politecnico di Torino",
+        "ssd": "CEAR-01/B - Costruzioni idrauliche e marittime e idrologia",
+        "location": "TORINO"
+      },
+      "proposal": {
+        "title": "Valutare l’affidabilità degli emulatori climatici basati sull’IA",
+        "summary": "Estensione della suite Python AQUA per verificare il realismo fisico degli emulatori climatici."
+      }
+    },
+    {
+      "id": "mur-postdoc-assignments-319309",
+      "source": {
+        "id": "mur-postdoc-assignments-319309",
+        "title": "Sviluppo e validazione di trattamenti innovativi alle sementi e valutazione dell’adattabilità varietale di cereali autunno-vernini minori in differenti ambienti pedoclimatici",
+        "summary": "Incarico post-doc Dipartimento di Scienze Agrarie, Alimentari e Agro-Ambientali durata 12 mesi scadenza 5 novembre 2026 ore 13.00",
+        "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/319309",
+        "positionType": "Postdoc",
+        "institution": "Università di Pisa - Dipartimento di Scienze Agrarie, Alimentari e Agro-Ambientali",
+        "ssd": "AGRI-02/A - Agronomia e coltivazioni erbacee",
+        "location": "Pisa"
+      },
+      "proposal": {
+        "title": "Trattamenti alle sementi e adattabilità dei cereali autunno-vernini minori",
+        "summary": "Sviluppo e validazione dei trattamenti, con valutazione delle varietà in differenti ambienti pedoclimatici. Durata: 12 mesi."
+      }
+    },
+    {
+      "id": "mur-research-contracts-319308",
+      "source": {
+        "id": "mur-research-contracts-319308",
+        "title": "“UIST - User Interface Software and Technologies” (CUP B53C23004120005) e “HHPC - Horizon HPC” (CUP B53C24000890005) - Bando CR 007 2026 ISTI PI",
+        "summary": "Attività di ricerca,progettaz. e sviluppo di strumenti per la gestione di ambienti intelligenti,caratterizz. dalla presenza di sensori,oggetti Internet of Things (IoT) e/o robot connessi.Gli strumenti dovranno supportare la definizione e la gestione di automazioni o giochi in contesti applicativi,quali la smart home e l’ambient assisted living,favorendo l’interazione con l’ambiente anche da parte di utenti privi di...",
+        "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/319308",
+        "positionType": "Contratto di ricerca",
+        "institution": "Consiglio Nazionale delle Ricerche",
+        "ssd": "-",
+        "location": "Pisa"
+      },
+      "proposal": {
+        "title": "Strumenti per ambienti intelligenti con sensori, IoT e robot",
+        "summary": "Sviluppo di strumenti per definire e gestire automazioni o giochi nella smart home e nell’ambient assisted living."
+      }
+    },
+    {
+      "id": "mur-doctorates-319280",
+      "source": {
+        "id": "mur-doctorates-319280",
+        "title": "Design for Social Change",
+        "summary": "Dottorato di Ricerca in Design for Social Change (XLII ciclo – A.A. 2026/2027, III ciclo AFAM). ISIA Roma Design, in collaborazione con ISIA Firenze, ISIA Faenza e ISIA Urbino, indice il concorso per titoli ed esami per l’ammissione al corso triennale, con avvio previsto nella prima decade di dicembre 2026. Sono disponibili 11 posti con borsa (8 ISIA Roma, 1 ISIA Faenza, 1 ISIA Firenze, 1 ISIA Urbino) e 2 posti senz...",
+        "sourceUrl": "https://bandi.mur.gov.it/doctorate.php/public/fellowship/id_fellow/319280",
+        "positionType": "PhD",
+        "institution": "Ministero dell'Università e della Ricerca",
+        "ssd": "-",
+        "location": "Roma"
+      },
+      "proposal": {
+        "title": "Dottorato in Design for Social Change",
+        "summary": "Percorso triennale promosso da ISIA Roma con ISIA Firenze, Faenza e Urbino. Disponibili 11 posti con borsa."
+      }
+    },
+    {
+      "id": "mur-fixed-term-researchers-153483",
+      "source": {
+        "id": "mur-fixed-term-researchers-153483",
+        "title": "Selezione pubblica per la copertura di n. 1 posto di Ricercatore a tempo determinato in Tenure Track (RTT), ai sensi dell’art. 24 della Legge 240/2010",
+        "summary": "selezione pubblica per la copertura di n. 1 posto di Ricercatore a tempo determinato in Tenure Track (RTT), ai sensi dell’art. 24 della Legge 240/2010, con regime di impegno a tempo pieno, per il G.S.D. 10/ANGL-01 ANGLISTICA E ANGLOAMERICANISTICA e S.S.D. ANGL-01/A LETTERATURA INGLESE per il Dipartimento di Studi Umanistici (CODICE BANDO: 2026-RTT-12)",
+        "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/153483",
+        "positionType": "RTT",
+        "institution": "Università Piemonte Orientale",
+        "ssd": "ANGL-01/A - Letteratura inglese",
+        "location": "Vercelli"
+      },
+      "proposal": {
+        "title": "RTT in Letteratura inglese",
+        "summary": "Un posto a tempo pieno nel Dipartimento di Studi Umanistici (bando 2026-RTT-12). Il testo disponibile non specifica il progetto di ricerca."
+      }
+    },
+    {
+      "id": "mur-professor-calls-153543",
+      "source": {
+        "id": "mur-professor-calls-153543",
+        "title": "Procedura comparativa ai sensi dell’art. 18, comma 4, della legge 240/2010 s.m.i. per la chiamata di n. 1 professore universitario di ruolo di prima fascia",
+        "summary": "Procedura comparativa ai sensi dell’art. 18, comma 4, della legge 240/2010 s.m.i. per la chiamata di n. 1 professore universitario di ruolo di prima fascia, a tempo pieno, nel GSD 02/PHYS-01 Fisica sperimentale delle interazioni fondamentali e applicazioni, SSD PHYS-01/A Fisica sperimentale delle interazioni fondamentali e applicazioni per le esigenze dell’Area Scientifico-Tecnologica della Scuola Superiore Meridion...",
+        "sourceUrl": "https://bandi.mur.gov.it/profcalls.php/public/job/id_job/153543",
+        "positionType": "Professore I fascia",
+        "institution": "Scuola Superiore Meridionale",
+        "ssd": "PHYS-01/A - Fisica sperimentale delle interazioni fondamentali e applicazioni",
+        "location": "Napoli"
+      },
+      "proposal": {
+        "title": "Professore di I fascia in Fisica sperimentale delle interazioni fondamentali e applicazioni",
+        "summary": "Un posto a tempo pieno nell’Area Scientifico-Tecnologica della Scuola Superiore Meridionale."
+      }
+    },
+    {
+      "id": "mur-professor-calls-153546",
+      "source": {
+        "id": "mur-professor-calls-153546",
+        "title": "Procedura comparativa ai sensi dell’art. 18, comma 4, della legge 240/2010 s.m.i. per la chiamata di n. 1 professore universitario di ruolo di seconda fascia",
+        "summary": "Procedura comparativa ai sensi dell’art. 18, comma 4, della legge 240/2010 s.m.i. per la chiamata di n. 1 professore universitario di ruolo di seconda fascia, a tempo pieno, nel GSD GSD 10/LIFI-01 Linguistica e Filologia italiana, SSD LIFI-01/B Filologia della letteratura italiana per le esigenze dell’Area Umanistico-Giuridica della Scuola Superiore Meridionale, secondo la disciplina vigente anteriormente all’entrat...",
+        "sourceUrl": "https://bandi.mur.gov.it/profcalls.php/public/job/id_job/153546",
+        "positionType": "Professore II fascia",
+        "institution": "Scuola Superiore Meridionale",
+        "ssd": "LIFI-01/B - Filologia della letteratura italiana",
+        "location": "Napoli"
+      },
+      "proposal": {
+        "title": "Professore di II fascia in Filologia della letteratura italiana",
+        "summary": "Un posto a tempo pieno nell’Area Umanistico-Giuridica della Scuola Superiore Meridionale."
+      }
+    },
+    {
+      "id": "mur-technologists-153523",
+      "source": {
+        "id": "mur-technologists-153523",
+        "title": "LIFE25-CCA-IT-ART for LIFE",
+        "summary": "La figura sarà impegnata per contribuire in modo prevalente alle attività di ricerca assegnate al Laboratorio di Ecofisiologia forestale nell’ambito del progetto 101294786 — LIFE25-CCA-IT-ART for LIFE.",
+        "sourceUrl": "https://bandi.mur.gov.it/tecno.php/public/job/id_job/153523",
+        "positionType": "Tecnologo",
+        "institution": "Università degli Studi della Tuscia",
+        "ssd": "AGRI-03/B - Selvicoltura, pianificazione ed ecologia forestale",
+        "location": "VITERBO"
+      },
+      "proposal": {
+        "title": "Tecnologo per il Laboratorio di Ecofisiologia forestale",
+        "summary": "Contributo alle attività di ricerca assegnate al Laboratorio di Ecofisiologia forestale nel progetto LIFE25-CCA-IT-ART for LIFE."
+      }
+    },
+    {
+      "id": "mur-research-assignments-319301",
+      "source": {
+        "id": "mur-research-assignments-319301",
+        "title": "Sviluppo e studio meccanicistico di metodologie catalitiche stereoselettive per trasformazioni radicaliche",
+        "summary": "L'attività di ricerca sarà dedicata allo sviluppo di nuove metodologie stereoselettive per trasformazioni radicaliche, combinando sintesi organica, catalisi mediata da metalli di transizione e fotochimica con luce visibile. Le attività comprenderanno la progettazione e l'ottimizzazione di reazioni catalitiche, lo studio dell'ambito di applicazione, la sintesi e caratterizzazione di composti organici e indagini mecca...",
+        "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/319301",
+        "positionType": "Incarico di ricerca",
+        "institution": "ALMA MATER STUDIORUM - UNIVERSITA' DI BOLOGNA - - DIPARTIMENTO DI CHIMICA INDUSTRIALE \"TOSO MONTANARI\"",
+        "ssd": "CHEM-05/A - Chimica organica",
+        "location": "Bologna"
+      },
+      "proposal": {
+        "title": "Catalisi stereoselettiva per trasformazioni radicaliche",
+        "summary": "Studio e ottimizzazione di reazioni combinando sintesi organica, catalisi con metalli di transizione e fotochimica a luce visibile."
+      }
+    },
+    {
+      "id": "mur-research-assignments-319259",
+      "source": {
+        "id": "mur-research-assignments-319259",
+        "title": "Reti neurali robuste per applicazioni safety critical - rif. 110/26/IR",
+        "summary": "L'obiettivo è definire e implementare una strategia di macromodellazione e un insieme di metodi sinergici per rendere sicura l'implementazione di reti neurali convoluzionali per applicazioni avioniche e automobilistiche rispetto a guasti permanenti e transitori.",
+        "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/319259",
+        "positionType": "Incarico di ricerca",
+        "institution": "Politecnico di Torino",
+        "ssd": "IINF-01/A - Elettronica",
+        "location": "TORINO"
+      },
+      "proposal": {
+        "title": "Reti neurali robuste per applicazioni avioniche e automobilistiche",
+        "summary": "Definizione e implementazione di strategie di macromodellazione e metodi per migliorare la sicurezza delle reti convoluzionali rispetto a guasti permanenti e transitori."
+      }
+    }
+  ]
+}

@@ -1,3 +1,7 @@
+## 30 ottobre 2026 — Pubblicazione pilota copy approvato
+
+10 card revisionate e implementate, 0 ancora dichiarate pubblicate prima del deploy. Nessuna modifica a dati/filtri/scadenze; nessun CTR o aumento di traffico attribuito. Fonti cache fino al 21 ottobre. Registro completo: copy-review-2026-10-30.json.
+
 ## Baseline
 
 29 ottobre 2026 — Misura editoriale riproducibile: `node scripts/monthly-insights.mjs 2026-10 2026-10-29T08:46:31Z`. Cache SHA256 2a7b1ba0f3388e4101f5f2e6e159b4d2618aa425c41ef9cc9c5522a216a5890a; 647 schede con publishedAt in ottobre, intervallo presente 1–21 ottobre, incluse le ora scadute/archiviate. Mese ancora aperto; ultimo controllo completo 21 ottobre 10:16 UTC; copertura/comparabilità non validate. Nessun delta vs settembre e nessuna stima del mercato totale. PR #65 online e verificata oggi: 3 contenuti pubblicati, non una nuova misura traffico. GSC On-page Audit bloccato payment_required; nessuna ulteriore chiamata o costo; baseline traffico invariata all’export al 23 ottobre.

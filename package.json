@@ -19,7 +19,7 @@
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
-    "test:editorial": "node --test scripts/monthly-coverage.test.mjs",
+    "test:editorial": "node --test scripts/monthly-coverage.test.mjs scripts/position-card-copy.test.mjs",
     "audit:data": "node scripts/audit-data-quality.mjs",
     "test:ops": "node --test scripts/reconcile-positions.test.mjs scripts/mur-funding.test.mjs scripts/mur-html.test.mjs scripts/mur-dedupe.test.mjs scripts/related-positions.test.mjs scripts/funding-review-state.test.mjs scripts/mur-titles.test.mjs scripts/requirements.test.mjs scripts/mur-check-status.test.mjs scripts/fetch-text.test.mjs scripts/source-freshness.test.mjs scripts/position-metadata-title.test.mjs scripts/position-title-context.test.mjs scripts/position-topic.test.mjs scripts/verified-position-enrichments.test.mjs scripts/deadline-status.test.mjs",
     "audit:static": "python3 scripts/audit-static.py",
