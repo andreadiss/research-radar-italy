@@ -1,3 +1,7 @@
+## 30 ottobre 2026 — Pubblicazione pilota copy approvato
+
+Pilota copy approvato dall’utente: 10 card ricontrollate sulla cache MUR del 21 ottobre. Solo presentazione, titoli ufficiali nel dettaglio preservati. Fonte non ri-verificata live; nessuna attestazione di apertura aggiornata. Guardrail: fallback automatico al testo originale se i campi fonte revisionati cambiano.
+
 # Research Radar Italy — Audit iniziale
 
 ## 29 ottobre 2026 — Perimetro della prossima analisi mensile

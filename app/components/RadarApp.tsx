@@ -18,7 +18,7 @@ import { positionTypes } from "@/lib/filters";
 import { grants } from "@/lib/grants";
 import { positions } from "@/lib/positions";
 import { positionTitleContext } from "@/lib/position-title-context.mjs";
-import { positionTopicPresentation } from "@/lib/position-topic.mjs";
+import { positionCardPresentation } from "@/lib/position-card-copy.mjs";
 import { deadlineClass, deadlineLabel, daysUntil } from "@/lib/deadline-status.mjs";
 import type { GrantOpportunity } from "@/lib/types";
 
@@ -85,7 +85,7 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
     [today]
   );
   const positionTitles = useMemo(
-    () => new Map(openPositions.map((position) => [position.id, positionTitleContext(position, openPositions).heading])),
+    () => new Map(openPositions.map((position) => [position.id, positionCardPresentation(position, positionTitleContext(position, openPositions).heading).title])),
     [openPositions]
   );
   const recentPositions = sortPositions(
@@ -331,7 +331,7 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
           ) : filtered.length > 0 ? (
             <div className="jobs-list">
               {filtered.map((position) => {
-                const topic = positionTopicPresentation(position.title, position.summary);
+                const { topic, summary: previewSummary } = positionCardPresentation(position);
                 return (
                   <article className="job-card" key={position.id}>
                   <div className="job-card-top">
@@ -355,7 +355,7 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
                     detailHref={`/positions/${position.id}` as Route}
                     meta={`${position.institution} / ${position.ssd} / ${position.location}`}
                     sourceHref={position.sourceUrl}
-                    summary={position.summary}
+                    summary={previewSummary}
                     title={positionTitles.get(position.id) ?? position.title}
                     triggerClassName="card-main-link preview-title-button"
                   >

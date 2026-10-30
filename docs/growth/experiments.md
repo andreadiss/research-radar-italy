@@ -1,3 +1,7 @@
+## 30 ottobre 2026 — Pubblicazione pilota copy approvato
+
+Non è un A/B test. Valutazione immediata: fedeltà alla fonte, sintesi, separazione dai titoli ufficiali e fallback quando la fonte cambia. L’eventuale outcome di discovery/CTR richiede misure future sufficienti.
+
 ## Experiment opportunities
 
 29 ottobre 2026 — Controllo editoriale deterministico, non A/B test: rendere verificabili i motivi che impediscono di chiamare completo o comparabile un mese. Test: mese in corso, confine Europe/Rome con ora legale, cambio anno, dati vuoti, check invalido/futuro e mancata certificazione automatica anche dopo un sync successivo. Nessun impatto traffico attribuito; l’output resta interno, nessun articolo prematuro.

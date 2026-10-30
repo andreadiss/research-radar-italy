@@ -1,3 +1,7 @@
+## 30 ottobre 2026 — Pubblicazione pilota copy approvato
+
+Approvazione pilota copy ricevuta: implementate 10 revisioni; pubblicazione dopo QA/deploy. Riprendere poi piccoli lotti nel task giornaliero, preservando priorità roadmap. Guida competenze trasferibili nella PR67 ancora in bozza, esclusa da questa approvazione. Badge invariato.
+
 ## Prioritized backlog
 
 29 ottobre 2026 — **Badge: attività annullata su richiesta dell’utente del 28 ottobre.** «Dati MUR» e data corrente restano invariati; nessuna correzione da riproporre. Il timestamp dell’ultimo controllo completo viene usato soltanto per la verifica editoriale della raccolta, non per cambiare il badge.
