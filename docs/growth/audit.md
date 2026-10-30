@@ -1,5 +1,9 @@
 # Research Radar Italy — Audit iniziale
 
+## 30 ottobre 2026 — Guida competenze e primo registro copy verificabile
+
+Verificata #66 dopo sync Grants: main bdbc0a3; script coverage ancora 647 schede ottobre/ultimo check 21 ottobre. Smoke pubblico home, Posizioni, indice, Funding e campioni scheda/Grant superato. Nessuna PR aperta all’avvio. Preparata bozza originale con esercizio attività→competenza→evidenza, tre fonti primarie e proposta di collocazione nell’archivio Guide, senza nuova navigazione implementata. Copywriter delegato: ricontrollati i tre esempi già mostrati, tutti corrispondenti alla cache; il pilota completo di dieci non è stato recuperato. Registro esplicito 3 revisionate/0 applicate/7 mancanti, senza presumerne approvazione. Nessuna modifica a pagine, badge o dati.
+
 ## 29 ottobre 2026 — Perimetro della prossima analisi mensile
 
 PR #65 verificata live: home, archivio e nuova guida HTTP 200, canonical corretti, collegamento dall’archivio presente. Main 830742e, nessuna PR aperta. Lo script mensile esponeva conteggi e una cautela generica, ma non il periodo effettivamente osservato né i blocker verificabili. Aggiunto report strutturato: mese non chiuso, ultimo check 21 ottobre, 647 schede con pubblicazione 1–21 ottobre, copertura storica non validata. Neppure un futuro sync riuscito certificherà automaticamente la comparabilità. Nessuna modifica alla raccolta, al sito o al badge (richiesta esplicita di mantenerlo).

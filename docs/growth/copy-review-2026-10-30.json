@@ -1,0 +1,107 @@
+{
+  "reviewDate": "2026-10-30",
+  "status": "awaiting-pilot-approval",
+  "publishedCards": 0,
+  "reviewedCards": 3,
+  "ownerReview": {
+    "date": "2026-10-30",
+    "result": "Tre proposte ricontrollate dal responsabile su titolo, summary e metadati della cache. Fedeltà e limiti accettati per la revisione, non per la pubblicazione.",
+    "approvalToPublish": false,
+    "nextGate": "Recuperare o completare esplicitamente il confronto di 10 card, distinguendo nuove proposte dai tre esempi recuperati; mostrarlo all'utente e ottenere approvazione prima di applicarlo."
+  },
+  "scope": "Ricontrollo dei soli tre esempi del pilota mostrati in chat il 29 ottobre; nessuna estensione o applicazione.",
+  "pilotRecovery": {
+    "expectedCards": 10,
+    "recoveredFromProvidedConversation": 3,
+    "fullPilotRegistryFound": false,
+    "missingCards": 7,
+    "searchScope": "docs del repository corrente e nomi file locali sotto /workspace/scratch contenenti pilot, copywriter o copy-review",
+    "note": "Nessun registro preesistente trovato. Non si presume di avere recuperato l'intero pilota."
+  },
+  "sourceSnapshot": {
+    "repositoryCommit": "bdbc0a34139ba87d0fdff404b680356ed4d8c4fd",
+    "path": "lib/generated/mur-positions.json",
+    "sha256": "2a7b1ba0f3388e4101f5f2e6e159b4d2618aa425c41ef9cc9c5522a216a5890a",
+    "lastSuccessfulCheckAt": "2026-10-21T10:16:40.979Z",
+    "limitation": "Fedeltà verificata sulla cache della fonte MUR, non nuova verifica live dei bandi. Disponibilità e rettifiche dopo il 21 ottobre non confermate."
+  },
+  "cards": [
+    {
+      "id": "mur-research-assignments-319258",
+      "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/319258",
+      "context": {
+        "positionType": "Incarico di ricerca",
+        "institution": "Politecnico di Torino",
+        "ssd": "CEAR-01/B - Costruzioni idrauliche e marittime e idrologia",
+        "location": "TORINO"
+      },
+      "original": {
+        "title": "Valutazione di emulatori climatici basati sull'intelligenza artificiale - Rif. 109/26/IR",
+        "summary": "La ricerca svilupperà strumenti per valutare il realismo fisico e l’affidabilità di modelli ed emulatori climatici basati sull’intelligenza artificiale. A questo scopo, la suite Python AQUA (Application for QUality Assessment), sviluppata al Politecnico di Torino per modelli ad alta risoluzione a scala chilometrica, sarà estesa alle esigenze degli emulatori climatici. L’attività si inserisce nel progetto Horizon Eur..."
+      },
+      "proposal": {
+        "title": "Valutare l’affidabilità degli emulatori climatici basati sull’IA",
+        "summary": "Estensione della suite Python AQUA per verificarne il realismo fisico."
+      },
+      "evidence": [
+        "Titolo e summary menzionano emulatori climatici e intelligenza artificiale.",
+        "Il summary specifica realismo fisico, affidabilità ed estensione della suite Python AQUA."
+      ],
+      "outcome": "proposal-supported-by-cache-awaiting-approval",
+      "limits": "Summary sorgente troncato dopo Horizon Eur: nessuna espansione del progetto o inferenza dei contenuti mancanti. Titolo ufficiale da preservare nel dettaglio."
+    },
+    {
+      "id": "mur-fixed-term-researchers-153483",
+      "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/153483",
+      "context": {
+        "positionType": "RTT",
+        "institution": "Università Piemonte Orientale",
+        "ssd": "ANGL-01/A - Letteratura inglese",
+        "location": "Vercelli"
+      },
+      "original": {
+        "title": "Selezione pubblica per la copertura di n. 1 posto di Ricercatore a tempo determinato in Tenure Track (RTT), ai sensi dell’art. 24 della Legge 240/2010",
+        "summary": "selezione pubblica per la copertura di n. 1 posto di Ricercatore a tempo determinato in Tenure Track (RTT), ai sensi dell’art. 24 della Legge 240/2010, con regime di impegno a tempo pieno, per il G.S.D. 10/ANGL-01 ANGLISTICA E ANGLOAMERICANISTICA e S.S.D. ANGL-01/A LETTERATURA INGLESE per il Dipartimento di Studi Umanistici (CODICE BANDO: 2026-RTT-12)"
+      },
+      "proposal": {
+        "title": "RTT in Letteratura inglese",
+        "summary": "Un posto a tempo pieno nel Dipartimento di Studi Umanistici (bando 2026-RTT-12)."
+      },
+      "evidence": [
+        "SSD ANGL-01/A, dipartimento, numero di posti, tempo pieno e codice sono espliciti nella cache.",
+        "L'altro RTT in Letteratura inglese presente in cache è di Verona, senza il dipartimento del pilota: non corrisponde all'esempio."
+      ],
+      "outcome": "proposal-supported-by-cache-awaiting-approval",
+      "limits": "La fonte descrive la procedura, non un progetto o attività di ricerca specifiche: non inventare argomenti. Titolo ufficiale da preservare nel dettaglio."
+    },
+    {
+      "id": "mur-technologists-153523",
+      "sourceUrl": "https://bandi.mur.gov.it/tecno.php/public/job/id_job/153523",
+      "context": {
+        "positionType": "Tecnologo",
+        "institution": "Università degli Studi della Tuscia",
+        "ssd": "AGRI-03/B - Selvicoltura, pianificazione ed ecologia forestale",
+        "location": "VITERBO"
+      },
+      "original": {
+        "title": "LIFE25-CCA-IT-ART for LIFE",
+        "summary": "La figura sarà impegnata per contribuire in modo prevalente alle attività di ricerca assegnate al Laboratorio di Ecofisiologia forestale nell’ambito del progetto 101294786 — LIFE25-CCA-IT-ART for LIFE."
+      },
+      "proposal": {
+        "title": "Tecnologo per il Laboratorio di Ecofisiologia forestale",
+        "summary": "Contributo alle attività di ricerca del progetto LIFE25-CCA-IT-ART for LIFE."
+      },
+      "evidence": [
+        "Tipo Tecnologo, laboratorio e progetto sono espliciti nei dati fonte."
+      ],
+      "outcome": "proposal-supported-by-cache-awaiting-approval",
+      "limits": "Nessuna attività specifica o risultato atteso descritti nella fonte: mantenuta la formulazione generale. Titolo ufficiale da preservare nel dettaglio."
+    }
+  ],
+  "guardrails": [
+    "Nessun testo applicato al sito o ai dati fonte.",
+    "Tipo, SSD, località, categorie, scadenze, filtri, layout e badge invariati.",
+    "Revisione del responsabile e approvazione del pilota completo richieste prima della pubblicazione.",
+    "Nessun aumento CTR o traffico attribuito."
+  ]
+}
