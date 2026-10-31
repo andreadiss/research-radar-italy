@@ -1,3 +1,7 @@
+## 2026-10-31 — Non confondere ranking e qualità degli snippet
+
+Mantenere title/snippet Postdoc finché mancano dati query→pagina confrontabili: CTR inferiore a Dottorati non prova un difetto del testo. Proseguire roadmap e copy quotidiano su problemi direttamente verificabili; due nuove card Bologna con tema esplicito, senza toccare le dieci approvate o il titolo ufficiale dei dettagli. Registro completo del pilota su main prevale sulla vecchia ricostruzione parziale PR67; approvazione copy già ricevuta, guida PR67 ancora esclusa. Badge invariato.
+
 ## 30 ottobre 2026 — Pubblicazione pilota copy approvato
 
 L’utente approva «Il pilota è ok pubblica le revisioni». Recuperato il confronto completo di 10 card dalla risposta del sotto-agente originale; non limitarsi ai 3 esempi recuperati dalla PR67. Pubblicare in PR dedicata, senza includere la guida. Copy editoriale separato dai dati ufficiali, rollback rimuovendo soltanto l’integrazione card.

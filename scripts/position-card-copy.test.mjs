@@ -8,9 +8,14 @@ import { positionTitleContext } from "../lib/position-title-context.mjs";
 
 const positions = JSON.parse(readFileSync(new URL("../lib/generated/mur-positions.json", import.meta.url)));
 
-test("the approved pilot contains exactly ten unique records", () => {
-  assert.equal(reviewedCardCopy.length, 10);
-  assert.equal(new Set(reviewedCardCopy.map(({ source }) => source.id)).size, 10);
+test("the original ten-card pilot is preserved and all reviewed IDs remain unique", () => {
+  const pilot = JSON.parse(readFileSync(new URL("../docs/growth/copy-review-2026-10-30.json", import.meta.url))).cards;
+  assert.equal(pilot.length, 10);
+  for (const card of pilot) {
+    const review = reviewedCardCopy.find(({ source }) => source.id === card.id);
+    assert.deepEqual(review, { source: card.source, ...card.proposal });
+  }
+  assert.equal(new Set(reviewedCardCopy.map(({ source }) => source.id)).size, reviewedCardCopy.length);
 });
 
 for (const review of reviewedCardCopy) {

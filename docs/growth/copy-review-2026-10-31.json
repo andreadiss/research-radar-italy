@@ -1,0 +1,64 @@
+{
+  "reviewDate": "2026-10-31",
+  "status": "owner-reviewed-pending-deploy",
+  "ownerReview": "31 ottobre: titoli e sintesi ricontrollati sulle frasi esplicite in cache prima del troncamento; pilota precedente preservato e nessuna conferma di apertura corrente dedotta.",
+  "reviewedCards": 2,
+  "implementedCards": 2,
+  "publishedCards": 0,
+  "scope": "Nuovo lotto dopo approvazione e pubblicazione del pilota completo di 10 card nella PR68. Pilota precedente preservato integralmente e non ricontato.",
+  "sourceSnapshot": {
+    "path": "lib/generated/mur-positions.json",
+    "lastSuccessfulCheckAt": "2026-10-21T10:16:40.979Z",
+    "limitation": "Fedeltà verificata sui dati MUR presenti nella cache. Date di scadenza non trascorse al 31 ottobre, non conferma live di apertura o assenza di rettifiche successive al 21 ottobre."
+  },
+  "cards": [
+    {
+      "id": "mur-postdoc-assignments-319154",
+      "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/319154",
+      "positionType": "Postdoc",
+      "institution": "Università di Bologna",
+      "ssd": "PHYS-01/A - Fisica sperimentale delle interazioni fondamentali e applicazioni",
+      "location": "Bologna",
+      "publishedAt": "2026-10-20",
+      "deadline": "2026-11-03",
+      "original": {
+        "title": "Procedura di valutazione comparativa per n. 1 incarico post-doc - Dipartimento di Fisica e Astronomia “Augusto Righi”",
+        "summary": "Titolo del progetto:“Machine learning in tempo reale per il sistema di trigger dell’esperimento ATLAS e sviluppo di un’analisi a livello di trigger nel settore di Higgs”. L’incarico si colloca nel progetto ERC Consolidator Grant ARTEMIS (GA 101231048), che sviluppa tecniche di machine learning per la selezione in tempo reale degli eventi nell’esperimento ATLAS al CERN, e riguarda la componente di trigger del progett..."
+      },
+      "proposal": {
+        "title": "Machine learning in tempo reale per l’esperimento ATLAS",
+        "summary": "Sviluppo di tecniche per selezionare gli eventi nel sistema di trigger e di un’analisi a livello di trigger nel settore di Higgs."
+      },
+      "evidence": "Machine learning, ATLAS, selezione eventi in tempo reale, sistema di trigger e analisi nel settore di Higgs sono tutti espliciti nel testo fonte prima del troncamento.",
+      "outcome": "Conservato il progetto scientifico esplicito al posto del titolo procedurale; nessuna espansione della coda troncata o promessa di risultato.",
+      "limits": "Titolo ufficiale preservato nel dettaglio. Nessuna nuova informazione su attività oltre il testo acquisito."
+    },
+    {
+      "id": "mur-postdoc-assignments-319156",
+      "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/319156",
+      "positionType": "Postdoc",
+      "institution": "Università di Bologna",
+      "ssd": "GSPS-05/A - Sociologia generale",
+      "location": "Bologna",
+      "publishedAt": "2026-10-20",
+      "deadline": "2026-11-03",
+      "original": {
+        "title": "Procedura di valutazione comparativa per n. 1 incarico post-doc - Dipartimento di Storia Culture Civiltà -",
+        "summary": "Titolo del progetto:“Il centro storico in trasformazione: nuove popolazioni, pratiche urbane e disuguaglianze socio-spaziali”. L’attività di ricerca sarà finalizzata alla progettazione, realizzazione e analisi di un’indagine multidimensionale sulle rappresentazioni, immaginari e pratiche d’uso del centro storico di Bologna, a supporto della Strategia integrata promossa dal Comune di Bologna. Il/la titolare dell’inca..."
+      },
+      "proposal": {
+        "title": "Popolazioni, pratiche urbane e disuguaglianze nel centro storico di Bologna",
+        "summary": "Progettazione, realizzazione e analisi di un’indagine su rappresentazioni, immaginari e usi del centro storico, a supporto della Strategia integrata del Comune."
+      },
+      "evidence": "Tema delle trasformazioni e disuguaglianze nel centro storico, luogo Bologna, indagine e sostegno alla Strategia integrata del Comune sono espliciti nel testo fonte prima del troncamento.",
+      "outcome": "Titolo tematico e sintesi dell’attività al posto della sola procedura; nessuna inferenza su metodi, campione o risultati dell’indagine.",
+      "limits": "Titolo ufficiale preservato nel dettaglio. Nessuna aggiunta dopo la coda troncata."
+    }
+  ],
+  "guardrails": [
+    "Fingerprint completo id, title, summary, sourceUrl, positionType, institution, ssd e location nel modulo editoriale.",
+    "Copy disattivato se uno dei campi revisionati cambia.",
+    "Dati fonte, dettagli, categorie, filtri, scadenze, layout e badge invariati.",
+    "Nessuna crescita CTR o traffico attribuita."
+  ]
+}

@@ -1,3 +1,7 @@
+## 31 ottobre 2026 — Priorità misurate
+
+**P1 chiarezza card Postdoc** (Impact 7, Confidence 10 sulla fedeltà/3 sul traffico, Effort 1, Risk 1): due nuovi ID 319154/319156, separati dalle dieci card del pilota già pubblicate. **P1 diagnosi Postdoc**: non riscrivere la landing per il solo divario CTR vs Dottorati; ranking differente e query→pagina assente. Analisi riproducibile in `search-review-2026-10-31.md`. Prossimo: confronto per pagina/query/dispositivo quando disponibile; mantenere guida PR67 separata in revisione e verificare il perimetro Insights ottobre a mese concluso. Non riproporre approvazione del pilota né dichiarare sette card mancanti.
+
 ## 30 ottobre 2026 — Pubblicazione pilota copy approvato
 
 Approvazione pilota copy ricevuta: implementate 10 revisioni; pubblicazione dopo QA/deploy. Riprendere poi piccoli lotti nel task giornaliero, preservando priorità roadmap. Guida competenze trasferibili nella PR67 ancora in bozza, esclusa da questa approvazione. Badge invariato.

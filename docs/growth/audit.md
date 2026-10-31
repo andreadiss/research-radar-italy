@@ -1,3 +1,7 @@
+## 31 ottobre 2026 — Lettura dei dati e secondo lotto copy
+
+Verificata #68 su main b13549e e smoke pubblico dopo sync Grants; pilota completo recuperato, approvato e pubblicato, non riapplicato. Nuovo export letto: Postdoc 11/190 e posizione 6,84 vs Dottorati 25/196 e posizione 5,29 (22–28 ottobre). Mancano query→pagina, e le query visibili coprono solo 5/46 clic: non diagnosticare il divario come problema di testo. Due card Postdoc Bologna ancora procedurali hanno invece progetti espliciti nelle sintesi: ATLAS/Higgs e trasformazioni del centro storico. Scelto copy puntuale fedele a tali frasi, senza completare code troncate, inferire attività o cambiare dati/layout.
+
 ## 30 ottobre 2026 — Pubblicazione pilota copy approvato
 
 Pilota copy approvato dall’utente: 10 card ricontrollate sulla cache MUR del 21 ottobre. Solo presentazione, titoli ufficiali nel dettaglio preservati. Fonte non ri-verificata live; nessuna attestazione di apertura aggiornata. Guardrail: fallback automatico al testo originale se i campi fonte revisionati cambiano.
