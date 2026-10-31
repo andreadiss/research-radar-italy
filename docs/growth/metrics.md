@@ -1,3 +1,7 @@
+## 31 ottobre 2026 — Baseline aggiornata e copy
+
+Export utente al 28 ottobre, ritardo 3 giorni: 22–28 ottobre 46 clic/506 impression/CTR 9,09%/posizione ponderata circa 6,04 vs 15–21 ottobre 9/257/3,50%/8,08. Calcolati dal Grafico, non sommando le dimensioni. 37 clic negli ultimi tre giorni. Postdoc 11/190/pos6,84; Dottorati 25/196/pos5,29; RTT 9/70/pos6,01. Query visibili 5 clic/97 impression, nessuna associazione pagina: insufficiente per attribuzione CTR, intenti completi o non-brand. La crescita osservata precede il copy del 30 ottobre. Pilota: 10 pubblicate verificate, non ricontate. Oggi 2 nuove revisionate/implementate, pubblicazione dichiarata solo dopo deploy. Fonti cache al 21 ottobre, non attestazione di apertura corrente; registro con ID/originale/proposta/esito. Nessun costo GSC/GA4.
+
 ## 30 ottobre 2026 — Pubblicazione pilota copy approvato
 
 10 card revisionate e implementate, 0 ancora dichiarate pubblicate prima del deploy. Nessuna modifica a dati/filtri/scadenze; nessun CTR o aumento di traffico attribuito. Fonti cache fino al 21 ottobre. Registro completo: copy-review-2026-10-30.json.

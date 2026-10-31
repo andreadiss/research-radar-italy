@@ -1,3 +1,7 @@
+## 31 ottobre 2026 — Nessun test di CTR su confronti non omogenei
+
+Il confronto Postdoc/Dottorati non isola il copy: posizioni differenti e query→pagina non disponibile. Nessuna modifica degli snippet basata su tale confronto né A/B test. Miglioramento diretto su due card con tema esplicito verificato nella cache; guardrail identici al pilota: originale nel dettaglio, fingerprint completo e fallback a fonte cambiata. Nessun aumento di traffico attribuito.
+
 ## 30 ottobre 2026 — Pubblicazione pilota copy approvato
 
 Non è un A/B test. Valutazione immediata: fedeltà alla fonte, sintesi, separazione dai titoli ufficiali e fallback quando la fonte cambia. L’eventuale outcome di discovery/CTR richiede misure future sufficienti.
