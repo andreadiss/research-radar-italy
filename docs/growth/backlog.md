@@ -1,3 +1,7 @@
+## 1 novembre 2026 — Avanzare Insights senza fingere completezza
+
+**P1 Insights ottobre** (Impact 8, Confidence 10 sui conteggi/3 sul traffico, Effort 2, Risk 1 per bozza interna): pronto `content/insights-2026-10.md`, tre evidenze, tabelle e collegamenti. Non ancora pubblicato: controllo MUR fermo al 21, nessun confronto con settembre. Prima del 5 novembre decidere un perimetro dichiaratamente parziale oppure rinviare il numero; la bozza non modifica la promessa pubblica né sostituisce settembre in home. **P1 copy**: 2 nuovi ID 319145/319148, stessi guardrail e precedenti 12 intatti (Impact 7, Confidence 10 sulla fonte/3 sull'effetto, Effort 1, Risk 1). Guida PR67 ancora separata/non approvata; niente ripetuti cambi snippet in assenza di query→pagina. Badge invariato.
+
 ## 31 ottobre 2026 — Priorità misurate
 
 **P1 chiarezza card Postdoc** (Impact 7, Confidence 10 sulla fedeltà/3 sul traffico, Effort 1, Risk 1): due nuovi ID 319154/319156, separati dalle dieci card del pilota già pubblicate. **P1 diagnosi Postdoc**: non riscrivere la landing per il solo divario CTR vs Dottorati; ranking differente e query→pagina assente. Analisi riproducibile in `search-review-2026-10-31.md`. Prossimo: confronto per pagina/query/dispositivo quando disponibile; mantenere guida PR67 separata in revisione e verificare il perimetro Insights ottobre a mese concluso. Non riproporre approvazione del pilota né dichiarare sette card mancanti.

@@ -1,3 +1,7 @@
+## 2026-11-01 — Preparare il numero, non pubblicare un mese incompleto
+
+Ottobre è chiuso, ma non il problema di copertura: ultimo check MUR 21 ottobre, storico non validato. Preparare un articolo reviewable già utile, intitolato esplicitamente fotografia parziale, senza route, home o sitemap e senza confronto con settembre. Non sostituire il rapporto completo previsto con una pubblicazione parziale senza decisione esplicita sul perimetro. Proseguire intanto copy low risk su 2 nuove card e preservare tutte le 12 pubblicate; guida PR67 esclusa e badge invariato. Non aggirare il rifiuto MUR né attivare piani GSC.
+
 ## 2026-10-31 — Non confondere ranking e qualità degli snippet
 
 Mantenere title/snippet Postdoc finché mancano dati query→pagina confrontabili: CTR inferiore a Dottorati non prova un difetto del testo. Proseguire roadmap e copy quotidiano su problemi direttamente verificabili; due nuove card Bologna con tema esplicito, senza toccare le dieci approvate o il titolo ufficiale dei dettagli. Registro completo del pilota su main prevale sulla vecchia ricostruzione parziale PR67; approvazione copy già ricevuta, guida PR67 ancora esclusa. Badge invariato.

@@ -41,6 +41,16 @@ for (const review of reviewedCardCopy) {
   });
 }
 
+test("the published October 31 batch is preserved exactly", () => {
+  const batch = JSON.parse(readFileSync(new URL("../docs/growth/copy-review-2026-10-31.json", import.meta.url))).cards;
+  assert.equal(batch.length, 2);
+  for (const card of batch) {
+    const source = Object.fromEntries(["id", "sourceUrl", "positionType", "institution", "ssd", "location"].map(key => [key, card[key]]));
+    Object.assign(source, card.original);
+    assert.deepEqual(reviewedCardCopy.find(review => review.source.id === card.id), { source, ...card.proposal });
+  }
+});
+
 test("changed source content or context disables editorial copy", () => {
   const original = reviewedCardCopy[0].source;
   for (const key of Object.keys(original)) {

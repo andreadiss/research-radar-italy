@@ -1,3 +1,7 @@
+## 1 novembre 2026 — Gate editoriale e copy deterministico
+
+Nessun A/B test: la bozza ottobre non confronta mesi dalla copertura diversa, non deduce zero bandi dai giorni assenti e non equipara schede a posti. Tutti i conteggi derivano dallo script e dalla fonte fissata; quote e limiti espliciti. Due sole card nuove migliorate su contenuto già presente, senza dati/layout/filtri modificati; test di preservazione esatta aggiunto anche per il lotto pubblicato il 31 ottobre. Nessuna crescita SEO attribuita a output editoriali o al copy.
+
 ## 31 ottobre 2026 — Nessun test di CTR su confronti non omogenei
 
 Il confronto Postdoc/Dottorati non isola il copy: posizioni differenti e query→pagina non disponibile. Nessuna modifica degli snippet basata su tale confronto né A/B test. Miglioramento diretto su due card con tema esplicito verificato nella cache; guardrail identici al pilota: originale nel dettaglio, fingerprint completo e fallback a fonte cambiata. Nessun aumento di traffico attribuito.

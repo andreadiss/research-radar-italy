@@ -1,0 +1,65 @@
+{
+  "reviewDate": "2026-11-01",
+  "status": "owner-reviewed-pending-deploy",
+  "ownerReview": "1 novembre: originali, fingerprint e resa dopo arricchimento verificati dal responsabile. Temi e attività espliciti prima del troncamento; nessuna promessa di risultato o nuova conferma di apertura.",
+  "reviewedCards": 2,
+  "implementedCards": 2,
+  "publishedCards": 0,
+  "scope": "Due nuove card dopo il pilota approvato e il lotto del 31 ottobre. Esclusi tutti i dodici ID già revisionati; nessun testo precedente riapplicato.",
+  "sourceSnapshot": {
+    "path": "lib/generated/mur-positions.json",
+    "lastSuccessfulCheckAt": "2026-10-21T10:16:40.979Z",
+    "limitation": "Fedeltà verificata sulla cache MUR, non nuova verifica live dei bandi. Scadenze registrate non trascorse al 1 novembre: non equivalgono a conferma di apertura o assenza di rettifiche dopo il 21 ottobre."
+  },
+  "cards": [
+    {
+      "id": "mur-postdoc-assignments-319145",
+      "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/319145",
+      "positionType": "Postdoc",
+      "institution": "Università di Bologna",
+      "ssd": "AGRI-09/D - Zoocolture",
+      "location": "Cesena",
+      "publishedAt": "2026-10-19",
+      "deadline": "2026-11-03",
+      "original": {
+        "title": "Procedura di valutazione comparativa per n. 1 incarico post-doc - Dipartimento di Scienze mediche veterinarie",
+        "summary": "Titolo del progetto:“Conservazione dell’anguilla europea (Anguilla anguilla): miglioramento delle conoscenze sul ciclo biologico degli anguillidi e sviluppo di tecniche acquacolturali per l’allevamento”. Il progetto vuole acquisire nuove conoscenze sulla biologia riproduttiva dell’anguilla europea, con l’obiettivo di migliorare la comprensione del suo ciclo biologico, dei modelli migratori e delle tecniche utili per..."
+      },
+      "proposal": {
+        "title": "Conservazione e allevamento dell’anguilla europea",
+        "summary": "Studio della biologia riproduttiva e dei modelli migratori, con sviluppo di tecniche acquacolturali."
+      },
+      "evidence": "Conservazione dell'anguilla europea e sviluppo di tecniche acquacolturali per l'allevamento sono espliciti nel titolo del progetto; biologia riproduttiva e modelli migratori sono nel summary prima del troncamento.",
+      "outcome": "Titolo procedurale sostituito nella sola card da tema e attività verificabili; titolo ufficiale nel dettaglio invariato.",
+      "limits": "Non completata la frase troncata dopo tecniche utili per; nessun risultato biologico, attività operativa o requisito aggiunto."
+    },
+    {
+      "id": "mur-postdoc-assignments-319148",
+      "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/319148",
+      "positionType": "Postdoc",
+      "institution": "Università di Bologna",
+      "ssd": "INFO-01/A - Informatica",
+      "location": "Bologna",
+      "publishedAt": "2026-10-19",
+      "deadline": "2026-11-03",
+      "original": {
+        "title": "Procedura di valutazione comparativa per n. 1 incarico post-doc - Dipartimento di nformatica - Scienza e Ingegneria",
+        "summary": "Titolo del progetto:“Efficienza energetica nelle blockchain via reversibilita’”. Il post-doc studierà come migliorare l'efficienza energetica delle blockchain utilizzando il calcolo reversibile, che consente di superare il limite di Landauer (il quale stabilisce un limite inferiore all'energia necessaria per eseguire una computazione irreversibile). Più nel dettaglio, studierà come rendere reversibili o parzialmente..."
+      },
+      "proposal": {
+        "title": "Calcolo reversibile per le blockchain",
+        "summary": "Studio di metodi per migliorarne l’efficienza energetica."
+      },
+      "evidence": "Il testo fonte dichiara esplicitamente lo studio dell'efficienza energetica delle blockchain tramite calcolo reversibile.",
+      "outcome": "Eliminato il titolo procedurale dalla sola card; tema e obiettivo di ricerca distinti, senza promessa di riduzione effettiva dei consumi.",
+      "limits": "Nessuna estensione del dettaglio troncato e nessuna affermazione generale sul superamento del limite di Landauer. Il refuso nformatica resta nel titolo ufficiale fonte."
+    }
+  ],
+  "guardrails": [
+    "Fingerprint completo id, title, summary, sourceUrl, positionType, institution, ssd e location nel modulo editoriale.",
+    "Copy disattivato automaticamente quando cambia un campo fonte revisionato.",
+    "Dodici record editoriali precedenti, dettagli, dati fonte, categorie, filtri, scadenze, layout e badge invariati.",
+    "Nessuna pubblicazione autonoma; revisione finale del responsabile richiesta.",
+    "Nessun risultato CTR o traffico attribuito."
+  ]
+}
