@@ -1,3 +1,9 @@
+## 2026-11-01
+
+Gate pre-merge: TypeScript, 90 test operativi + 25 editoriali (115 totali), audit dati 0 errori, build statica production, audit 2.340 HTML/432 URL sitemap con 0 errori, link rotti o orfani. Verificate tutte le righe delle tabelle bozza contro lo script e le cinque destinazioni nell'export; nessuna route ottobre creata. Responsabile QA 2/2 card e test di preservazione dei 12 precedenti. Pubblicazione e smoke post-deploy da registrare nella PR, non ancora dichiarati.
+
+Letti main c594570, PR aperta #67 e sei documenti growth. Verificati #69 e successivo aggiornamento Grants: smoke pubblico PASS e dettagli 319154/319156 HTTP 200; originali/fingerprint precedenti preservati. GSC On-page Audit Postdoc rifiutato payment_required: interrotte le chiamate, €0 e niente GA4. Verificata readiness ottobre a mese chiuso: 647 schede 1–21 ottobre, fonte controllata 21, copertura/comparabilità non validate. Preparata bozza interna completa in content/insights-2026-10.md con tre evidenze, tabelle e percorsi; nessun articolo/route pubblico né delta di mercato. Copywriter su 2 nuovi ID 319145/319148, responsabile verifica originali, fingerprint e resa 2/2. Precedenti 12 non riapplicate; fonte cache, apertura/rettifiche attuali non attestate. Gate e verifica deploy registrati nel report/PR dopo l'esito; guida67 non inclusa, dati/badge/layout/workflow invariati.
+
 ## 2026-10-31
 
 Gate pre-merge: TypeScript, 90 test operativi + 22 editoriali, audit dati 0 errori, build statica production e audit 2.341 HTML/462 URL sitemap senza errori/link rotti/orfani. QA indipendente root su originali e fingerprint 2/2, testi dopo arricchimento coerenti; test confronta integralmente le dieci entry precedenti col pilota approvato. Aggiunti solo due record editoriali, dati fonte e titoli del dettaglio invariati. Deploy e verifica live nel report/PR, non dichiarati prima dell’esito.

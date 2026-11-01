@@ -1,3 +1,7 @@
+## 1 novembre 2026 — Mese chiuso, raccolta ancora parziale
+
+Main c594570 e PR aperta #67 letti; #69 e successivo sync Grants conservano i 12 record editoriali. Smoke pubblico home/posizioni/indice/funding/schede/sitemap superato; entrambi i dettagli di ieri 200. Readiness ottobre: 647 schede pubblicate 1–21 ottobre, controllo fonte 21 ottobre, mese chiuso ma copertura non validata. Preparata bozza interna completa con tre evidenze e percorsi, non route né rapporto mensile pubblico. Due nuove card Bologna/Cesena con progetti espliciti (anguilla e blockchain) revisionate dal copywriter e dal responsabile, senza deduzioni dopo i testi troncati.
+
 ## 31 ottobre 2026 — Lettura dei dati e secondo lotto copy
 
 Verificata #68 su main b13549e e smoke pubblico dopo sync Grants; pilota completo recuperato, approvato e pubblicato, non riapplicato. Nuovo export letto: Postdoc 11/190 e posizione 6,84 vs Dottorati 25/196 e posizione 5,29 (22–28 ottobre). Mancano query→pagina, e le query visibili coprono solo 5/46 clic: non diagnosticare il divario come problema di testo. Due card Postdoc Bologna ancora procedurali hanno invece progetti espliciti nelle sintesi: ATLAS/Higgs e trasformazioni del centro storico. Scelto copy puntuale fedele a tali frasi, senza completare code troncate, inferire attività o cambiare dati/layout.
