@@ -85,6 +85,16 @@ if reading_guide not in pages or "https://rritaly.com" + reading_guide not in ur
 for route in ("/guide/", "/guide/cercare-opportunita-ricerca/"):
     if pages[route].links.count(reading_guide) != 1:
         errors.append(f"Expected one contextual reading-call guide link from {route}")
+reading_guide_landings = (
+    "/posizioni/dottorati/", "/posizioni/postdoc/", "/posizioni/contratti-di-ricerca/",
+    "/posizioni/ricercatori-tempo-determinato/", "/posizioni/psicologia/",
+)
+for route in reading_guide_landings:
+    if pages[route].links.count(reading_guide) != 1:
+        errors.append(f"Expected exactly one reading-call guide link from {route}")
+for route in ("/funding/prin/", "/funding/msca/", "/funding/erc/"):
+    if reading_guide in pages[route].links:
+        errors.append(f"Position application guide must not be added to funding landing: {route}")
 if reading_guide in pages:
     guide_html = (root / reading_guide.strip("/") / "index.html").read_text()
     guide_text = re.sub(r"<[^>]+>", "", guide_html)

@@ -1,0 +1,65 @@
+{
+  "reviewDate": "2026-11-02",
+  "status": "owner-reviewed-pending-deploy",
+  "ownerReview": "2 novembre: responsabile verifica originali, fingerprint e resa dopo arricchimento 2/2. CREO TEX descrive il perimetro del progetto, non mansioni dedotte. Hyperstage resta una pubblicazione di settembre; nessuna apertura corrente attestata.",
+  "reviewedCards": 2,
+  "implementedCards": 2,
+  "publishedCards": 0,
+  "scope": "Nuovo lotto di due ID dopo esclusione di tutti i quattordici ID dei registri 30/31 ottobre e 1 novembre. Nessun testo precedente riapplicato.",
+  "sourceSnapshot": {
+    "path": "lib/generated/mur-positions.json",
+    "lastSuccessfulCheckAt": "2026-10-21T10:16:40.979Z",
+    "limitation": "Fedeltà alla cache MUR, non nuova verifica live dei bandi. Scadenze registrate non trascorse al 2 novembre: apertura attuale e rettifiche successive al 21 ottobre non confermate."
+  },
+  "cards": [
+    {
+      "id": "mur-research-assignments-318512",
+      "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/318512",
+      "positionType": "Incarico di ricerca",
+      "institution": "Università degli studi di Bergamo - DIGIP",
+      "ssd": "ECON-06/A - Economia aziendale",
+      "location": "Bergamo",
+      "publishedAt": "2026-10-06",
+      "deadline": "2026-11-05",
+      "original": {
+        "title": "Procedura pubblica di selezione per 1 incarico di ricerca",
+        "summary": "Procedura pubblica di selezione ai sensi dell’articolo 22-ter della legge 240 del 30.12.2010 per il conferimento di n. 1 Incarico di ricerca nell’ambito del progetto “Carbon footprint reduction, efficiency, resources optimization and digitalization for greener textile printing processes - CREO TEX - ID. 6122254 - CUP E59I25000790007, bando “COLLABORA & INNOVA” di Regione Lombardia – PR FESR 2021-2027 -Asse 1 - Azion..."
+      },
+      "proposal": {
+        "title": "Stampa tessile più sostenibile: progetto CREO TEX",
+        "summary": "Incarico nel progetto su riduzione dell’impronta carbonica, efficienza, ottimizzazione delle risorse e digitalizzazione dei processi."
+      },
+      "evidence": "Il titolo del progetto, acquisito prima del troncamento, esplicita carbon footprint reduction, efficiency, resources optimization, digitalization e greener textile printing processes.",
+      "outcome": "Il tema del progetto sostituisce nella sola card un titolo esclusivamente procedurale; la sintesi indica il perimetro del progetto, non nuove mansioni individuali.",
+      "limits": "Traduzione conservativa del solo titolo del progetto. Nessuna attività operativa specifica, requisito o riduzione dei consumi già ottenuta inferiti; nessuna ricostruzione della coda troncata."
+    },
+    {
+      "id": "mur-fixed-term-researchers-153343",
+      "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/153343",
+      "positionType": "RTT",
+      "institution": "Università degli Studi di Roma Tor Vergata",
+      "ssd": "PEMM-01/A - Discipline dello spettacolo",
+      "location": "Roma",
+      "publishedAt": "2026-09-25",
+      "deadline": "2026-11-12",
+      "original": {
+        "title": "Selezione pubblica per il reclutamento di un ricercatore in tenure track RTT con contratto di lavoro subordinato a tempo determinato ai sensi dell’art. 24, L. 240/2010 (Rif. 2668)",
+        "summary": "Prosecuzione e sviluppo del progetto Hyperstage (PRIN 2022) con implementazione dati digitali di nuove produzioni teatrali attraverso lo studio di testualità letterarie e documenti iconografici, con l'obiettivo di realizzarne la ricostruzione semantica secondo l'ontologia della base di conoscenza già pubblicata in open access."
+      },
+      "proposal": {
+        "title": "RTT sul progetto Hyperstage: produzioni teatrali e dati digitali",
+        "summary": "Studio di testi letterari e documenti iconografici per la ricostruzione semantica di nuove produzioni teatrali."
+      },
+      "evidence": "Hyperstage, implementazione di dati digitali, nuove produzioni teatrali, testualità letterarie, documenti iconografici e obiettivo di ricostruzione semantica sono espliciti nel summary.",
+      "outcome": "Titolo procedurale sostituito nella sola card da tipo e argomento; sintesi concreta dell’attività già descritta senza aggiungere risultati attesi.",
+      "limits": "Pubblicazione di settembre, selezionata per chiarezza della fonte e scadenza registrata non trascorsa, non presentata come nuova pubblicazione del giorno. Nessuna tecnologia, metodo o requisito aggiunto."
+    }
+  ],
+  "guardrails": [
+    "Fingerprint completo di id, title, summary, sourceUrl, positionType, institution, ssd e location nel modulo editoriale.",
+    "Copy disattivato automaticamente al cambiamento di un campo fonte revisionato.",
+    "Quattordici entry precedenti, titolo ufficiale nei dettagli, dati fonte, categorie, filtri, scadenze, layout e badge invariati.",
+    "Nessuna pubblicazione autonoma; revisione finale del responsabile richiesta.",
+    "Nessun risultato CTR o traffico attribuito."
+  ]
+}

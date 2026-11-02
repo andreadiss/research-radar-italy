@@ -1,3 +1,7 @@
+## 2 novembre 2026 — Collegare la roadmap al percorso che già porta utenti
+
+**P1 percorso candidatura** (Impact 7, Confidence 9 sul gap/3 sul traffico, Effort 1, Risk 1): guida già pubblicata resa raggiungibile una volta da ciascuna delle cinque landing posizioni; baseline 0/5 landing collegate, target 5/5. Non un redesign né nuovi contenuti o snippet. **Copy**: 2 nuovi ID 318512/153343, fonte verificabile e precedenti 14 intatti. Insights ottobre già in bozza, non riaperta oggi: copertura incompleta richiede decisione su perimetro parziale/rinvio prima del 5 novembre. Guida transizione PR67 separata/non approvata. Nessun task badge o pipeline.
+
 ## 1 novembre 2026 — Avanzare Insights senza fingere completezza
 
 **P1 Insights ottobre** (Impact 8, Confidence 10 sui conteggi/3 sul traffico, Effort 2, Risk 1 per bozza interna): pronto `content/insights-2026-10.md`, tre evidenze, tabelle e collegamenti. Non ancora pubblicato: controllo MUR fermo al 21, nessun confronto con settembre. Prima del 5 novembre decidere un perimetro dichiaratamente parziale oppure rinviare il numero; la bozza non modifica la promessa pubblica né sostituisce settembre in home. **P1 copy**: 2 nuovi ID 319145/319148, stessi guardrail e precedenti 12 intatti (Impact 7, Confidence 10 sulla fonte/3 sull'effetto, Effort 1, Risk 1). Guida PR67 ancora separata/non approvata; niente ripetuti cambi snippet in assenza di query→pagina. Badge invariato.
