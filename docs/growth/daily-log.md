@@ -1,5 +1,7 @@
 ## 2026-11-02
 
+Verifica post-deploy #71: Pages success, cinque link presenti, guida/dettagli/home/asset 200 e controllo 404 superati. Attivazione da tastiera raggiunge la guida. Il controllo visivo rileva affordance debole (reset globale a colore ereditato e nessuna decorazione): follow-up circoscritto sottolinea il solo link, senza nuovo CSS o variazioni di layout. Stesso intervento, non un nuovo task conteggiato; nuova verifica dopo build/deploy.
+
 Gate pre-merge: TypeScript, 90 test operativi + 28 editoriali = 118 superati; audit dati 0 errori, build statica production, audit 2.339 HTML/425 URL sitemap con 0 errori, link rotti o orfani. Audit controlla esattamente un link guida nelle cinque landing posizioni e nessuno nelle tre Funding. QA owner copy 2/2, precedenti 14 preservati; pubblicazione e verifica finale solo dopo Pages success.
 
 Letti main 529740d, PR aperta #67 e sei documenti growth. Verificata #70: smoke pubblico PASS e due dettagli 200. Audit GSC Postdoc payment_required, nessuna ulteriore chiamata o spesa. Misurate cinque landing posizioni: tutte 200 e 0 link alla guida leggere-bando-ricerca; aggiunto un accesso contestuale ciascuna, nessuna modifica Funding, filtri, layout o snippet. Copywriter su 2 nuovi ID 318512/153343, owner QA 2/2 originali/fingerprint/resa; 14 precedenti preservati. Fonti in cache 21 ottobre, apertura/rettifiche attuali non attestate; Hyperstage non è nuova uscita. Insights ottobre e guida PR67 non pubblicati. Test e stato finale nel report/PR, senza nuova PR documentale di sola chiusura.
