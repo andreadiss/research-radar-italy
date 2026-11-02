@@ -105,6 +105,9 @@ export default function SeoLandingRoute({ params }: PageProps) {
               <h2>{page.guideTitle}</h2>
               {page.guide.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
               <p><strong>Nota:</strong> Research Radar facilita la scoperta e il confronto. La fonte ufficiale resta il riferimento per requisiti, allegati e candidatura.</p>
+              {page.kind === "positions" ? (
+                <p>Hai trovato un’opportunità pertinente? <Link href="/guide/leggere-bando-ricerca">Otto controlli prima di candidarti</Link>.</p>
+              ) : null}
             </section>
           </div>
 

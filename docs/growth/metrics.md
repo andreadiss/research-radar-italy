@@ -1,3 +1,7 @@
+## 2 novembre 2026 — Metrica di percorso, non traffico
+
+HTTP live prima del task: cinque landing posizioni 200, ciascuna con 0 link alla guida /guide/leggere-bando-ricerca/. Target deterministico: esattamente 1 link in ognuna, 0 sulle tre landing Funding; guardrail nell'audit statico. Nuove card revisionate/implementate 2, pubblicazione dichiarata solo dopo deploy; 14 precedenti preservate, non ricontate. Fonte MUR cache al 21 ottobre, non attestazione apertura corrente; Hyperstage pubblicato a settembre, non nuova uscita del giorno. Nessuna estrazione GSC nuova: On-page Audit payment_required, interrotte le chiamate, €0/GA4 escluso; ultima baseline resta export al 28 ottobre. Nessun outcome CTR o traffico attribuito.
+
 ## 1 novembre 2026 — Output editoriali, non crescita misurata
 
 `monthly-insights.mjs 2026-10 2026-11-01T08:11:35Z`: 647 schede storiche (anche scadute/archiviate), intervallo pubblicazioni 1–21 ottobre, hash 2a7b1ba0f3388e4101f5f2e6e159b4d2618aa425c41ef9cc9c5522a216a5890a. Quote derivate: incarichi+Postdoc+contratti 565/647=87,3%; prime due aree 252/647=38,9%; prime cinque regioni 412/647=63,7%. «Italia» generica 25 schede, non regione. Mese chiuso ma confronto mercato vietato; 1 bozza ottobre, 0 nuovi articoli pubblici. Card nuove revisionate/implementate 2, pubblicazione da confermare dopo deploy; 12 precedenti preservate, non ricontate. Nessun nuovo dato traffico/indice: audit GSC rifiutato payment_required, nessuna ulteriore chiamata/costo/GA4; ultima baseline export al 28 ottobre resta invariata.

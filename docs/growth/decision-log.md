@@ -1,3 +1,7 @@
+## 2026-11-02 — Portare la guida già pubblicata nel contesto di candidatura
+
+Le landing che aiutano a trovare posizioni non collegano la checklist già disponibile: usare un solo link nel blocco di valutazione esistente per completare il percorso scoperta→verifica del bando. Non aggiungere sezioni o navigazione strutturale e non cambiare title/snippet per CTR aggregato. Estensione limitata alle cinque landing posizioni, Funding escluso. Due revisioni copy autorizzate, nessun dato o classificazione modificati. Insights ottobre resta bozza e PR67 non approvata; badge e pipeline invariati.
+
 ## 2026-11-01 — Preparare il numero, non pubblicare un mese incompleto
 
 Ottobre è chiuso, ma non il problema di copertura: ultimo check MUR 21 ottobre, storico non validato. Preparare un articolo reviewable già utile, intitolato esplicitamente fotografia parziale, senza route, home o sitemap e senza confronto con settembre. Non sostituire il rapporto completo previsto con una pubblicazione parziale senza decisione esplicita sul perimetro. Proseguire intanto copy low risk su 2 nuove card e preservare tutte le 12 pubblicate; guida PR67 esclusa e badge invariato. Non aggirare il rifiuto MUR né attivare piani GSC.

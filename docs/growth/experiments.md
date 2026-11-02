@@ -1,3 +1,7 @@
+## 2 novembre 2026 — Un collegamento utile, non un A/B test
+
+Link contestuale dopo la nota fonte ufficiale nelle sole landing posizioni, senza ripetizioni né sottrarre evidenza a opportunità e filtri. Audit richiede esattamente un link per ciascuna delle cinque landing e assenza nelle tre Funding. Copy dei due nuovi ID isolato tramite fingerprint e fallback; test preserva anche il lotto del 1 novembre. Nessuna inferenza dai volumi GSC né esperimento con tracking aggiuntivo.
+
 ## 1 novembre 2026 — Gate editoriale e copy deterministico
 
 Nessun A/B test: la bozza ottobre non confronta mesi dalla copertura diversa, non deduce zero bandi dai giorni assenti e non equipara schede a posti. Tutti i conteggi derivano dallo script e dalla fonte fissata; quote e limiti espliciti. Due sole card nuove migliorate su contenuto già presente, senza dati/layout/filtri modificati; test di preservazione esatta aggiunto anche per il lotto pubblicato il 31 ottobre. Nessuna crescita SEO attribuita a output editoriali o al copy.

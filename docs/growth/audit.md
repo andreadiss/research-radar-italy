@@ -1,3 +1,7 @@
+## 2 novembre 2026 — Dalle landing alla lettura del bando
+
+Main 529740d, unica PR aperta #67 non approvata; #70 verificata con smoke pubblico e dettagli 319145/319148 HTTP 200. Misura live: 0 link alla guida leggere-bando-ricerca in ciascuna delle cinque landing posizioni (Dottorati, Postdoc, RTT, Contratti, Psicologia), pur essendo la guida già online. Aggiunto un solo link contestuale nel blocco di valutazione esistente, dopo le opportunità nel DOM; nessun filtro/risultato spostato, CSS o navigazione strutturale modificati. Funding escluso. Due nuove card procedurali hanno temi espliciti: CREO TEX Bergamo e Hyperstage Roma; solo copy, fonte cache del 21 ottobre.
+
 ## 1 novembre 2026 — Mese chiuso, raccolta ancora parziale
 
 Main c594570 e PR aperta #67 letti; #69 e successivo sync Grants conservano i 12 record editoriali. Smoke pubblico home/posizioni/indice/funding/schede/sitemap superato; entrambi i dettagli di ieri 200. Readiness ottobre: 647 schede pubblicate 1–21 ottobre, controllo fonte 21 ottobre, mese chiuso ma copertura non validata. Preparata bozza interna completa con tre evidenze e percorsi, non route né rapporto mensile pubblico. Due nuove card Bologna/Cesena con progetti espliciti (anguilla e blockchain) revisionate dal copywriter e dal responsabile, senza deduzioni dopo i testi troncati.
