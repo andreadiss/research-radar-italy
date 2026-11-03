@@ -4,7 +4,8 @@ import Link from "next/link";
 import type { Route } from "next";
 import { ExternalLink, X } from "lucide-react";
 import { track } from "@/lib/client-analytics";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import { activateDialogKeyboard } from "@/lib/dialog-keyboard.mjs";
 
 type OpportunityPreviewProps = {
   children: React.ReactNode;
@@ -26,10 +27,18 @@ export function OpportunityPreview({
   triggerClassName
 }: OpportunityPreviewProps) {
   const [open, setOpen] = useState(false);
+  const triggerRef = useRef<HTMLButtonElement>(null);
+  const dialogRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (!open || !dialogRef.current) return;
+    return activateDialogKeyboard(dialogRef.current, triggerRef.current, () => setOpen(false));
+  }, [open]);
 
   return (
     <>
       <button
+        ref={triggerRef}
         className={triggerClassName ?? "preview-trigger"}
         onClick={() => {
           track("opportunity_preview_opened", {
@@ -43,7 +52,7 @@ export function OpportunityPreview({
         {children}
       </button>
       {open ? (
-        <div className="preview-overlay" role="dialog" aria-modal="true" aria-labelledby="opportunity-preview-title">
+        <div ref={dialogRef} tabIndex={-1} className="preview-overlay" role="dialog" aria-modal="true" aria-labelledby="opportunity-preview-title">
           <div className="preview-card">
             <button className="modal-close" onClick={() => setOpen(false)} type="button" aria-label="Chiudi anteprima">
               <X size={18} />

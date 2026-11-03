@@ -1,3 +1,7 @@
+## 3 novembre 2026 — Anteprima utilizzabile da tastiera
+
+Main 92e34f8 e PR aperta #67 letti; #71/#72 verificati con smoke pubblico. Prova browser Postdoc: Enter apre l'anteprima ma il focus rimane sul pulsante dietro il dialogo (`focusInDialog=false`); Escape lascia ancora 1 dialogo aperto. Il componente non gestiva focus, Tab o Escape. Scelto fix circoscritto: focus sul primo controllo, ciclo Tab/Shift+Tab entro il dialogo, chiusura Escape e ripristino al trigger; attivazione solo in useEffect dopo mount, senza letture DOM durante SSR. Due nuove card SARAS Roma con temi espliciti, solo copy e nessuna riclassificazione del SSD ambiguo.
+
 ## 2 novembre 2026 — Dalle landing alla lettura del bando
 
 Main 529740d, unica PR aperta #67 non approvata; #70 verificata con smoke pubblico e dettagli 319145/319148 HTTP 200. Misura live: 0 link alla guida leggere-bando-ricerca in ciascuna delle cinque landing posizioni (Dottorati, Postdoc, RTT, Contratti, Psicologia), pur essendo la guida già online. Aggiunto un solo link contestuale nel blocco di valutazione esistente, dopo le opportunità nel DOM; nessun filtro/risultato spostato, CSS o navigazione strutturale modificati. Funding escluso. Due nuove card procedurali hanno temi espliciti: CREO TEX Bergamo e Hyperstage Roma; solo copy, fonte cache del 21 ottobre.

@@ -1,0 +1,65 @@
+{
+  "reviewDate": "2026-11-03",
+  "status": "owner-reviewed-pending-deploy",
+  "ownerReview": "3 novembre: originali, fingerprint e resa dopo arricchimento verificati dal responsabile 2/2. Mantenuto avvio della digitalizzazione; nessuna nuova mansione, classificazione o apertura corrente attestata.",
+  "reviewedCards": 2,
+  "implementedCards": 2,
+  "publishedCards": 0,
+  "scope": "Due nuovi ID dopo esclusione dei sedici ID già revisionati nei registri 30/31 ottobre e 1/2 novembre. Titoli solo procedurali sostituiti nella presentazione delle card da temi espliciti in fonte.",
+  "sourceSnapshot": {
+    "path": "lib/generated/mur-positions.json",
+    "lastSuccessfulCheckAt": "2026-10-21T10:16:40.979Z",
+    "limitation": "Verifica di fedeltà sulla cache MUR, non nuovo controllo live dei bandi. Le scadenze registrate non sono trascorse al 3 novembre; apertura corrente e rettifiche successive al 21 ottobre non confermate."
+  },
+  "cards": [
+    {
+      "id": "mur-postdoc-assignments-319304",
+      "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/319304",
+      "positionType": "Postdoc",
+      "institution": "Sapienza Università di Roma",
+      "ssd": "PEMM-01/A - Discipline dello spettacolo",
+      "location": "Roma",
+      "publishedAt": "2026-10-21",
+      "deadline": "2026-11-20",
+      "original": {
+        "title": "BANDO INCARICO POST DOC - CODICE CONCORSO IPD 6 2026-GSD 10/PEMM-01_SSD PEMM-01/A, PEMM-01/B - Resp. Scientifici Prof. S. Locatelli, M. Berlangieri-SARAS -SAPIENZA",
+        "summary": "Archivi vulnerabili, pubblici connessi. Regimi di titolarità, accesso, transmedia design e valorizzazione degli archivi dello spettacolo SARAS (Archivio Gerardo Guerrieri e Archivio Audiovisivo dello Spettacolo)"
+      },
+      "proposal": {
+        "title": "Accesso e valorizzazione degli archivi dello spettacolo",
+        "summary": "Titolarità e transmedia design per l’Archivio Gerardo Guerrieri e l’Archivio Audiovisivo dello Spettacolo (SARAS)."
+      },
+      "evidence": "Titolarità, accesso, transmedia design, valorizzazione e i due archivi sono tutti nominati esplicitamente nel summary.",
+      "outcome": "Il titolo procedurale lascia spazio al tema; il summary identifica gli archivi e gli altri ambiti del progetto senza ripetere il titolo.",
+      "limits": "La fonte fornisce temi, non un elenco dettagliato di attività: non aggiunti metodi, prodotti, risultati o requisiti. Il titolo ufficiale menziona due SSD; il campo SSD acquisito resta invariato, senza riclassificazioni."
+    },
+    {
+      "id": "mur-postdoc-assignments-319002",
+      "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/319002",
+      "positionType": "Postdoc",
+      "institution": "Sapienza Università di Roma",
+      "ssd": "ARTE-01/C - Storia dell'arte contemporanea",
+      "location": "Roma",
+      "publishedAt": "2026-10-15",
+      "deadline": "2026-11-15",
+      "original": {
+        "title": "BANDO INCARICO POST DOC - CODICE CONCORSO IPD 5 2026-GSD 10/ARTE-01_SSD ARTE-01/C- Resp. Scientifico Prof. C. Zambianchi -SARAS",
+        "summary": "L’archivio di Marisa Volpi: riordinamento, descrizione, indicizzazione elettronica, avvio della digitalizzazione. In particolare, l'incarico persegue il seguente obiettivo generale: Costituire un'infrastruttura documentaria digitale permanente relativa al fondo della critica, storica dell’arte e scrittrice Marisa Volpi (1928-2015), conferito al Dipartimento SARAS dalle eredi, garantendone la conservazione, l'accessi..."
+      },
+      "proposal": {
+        "title": "Archivio Marisa Volpi: riordino e avvio della digitalizzazione",
+        "summary": "Descrizione e indicizzazione elettronica del fondo per costruire un’infrastruttura documentaria digitale permanente."
+      },
+      "evidence": "Riordinamento, descrizione, indicizzazione elettronica, avvio della digitalizzazione e obiettivo di infrastruttura documentaria digitale permanente sono espliciti prima del troncamento.",
+      "outcome": "Titolo scientifico-operativo al posto dei soli codici e riferimenti procedurali; mantenuto avvio per non promettere una digitalizzazione completa.",
+      "limits": "Non completata la coda troncata dopo accessi; non aggiunte mansioni o tecnologie, né garantito il completamento dell’infrastruttura."
+    }
+  ],
+  "guardrails": [
+    "Fingerprint completo di id, title, summary, sourceUrl, positionType, institution, ssd e location nel modulo editoriale.",
+    "Copy disattivato al cambiamento di un campo fonte revisionato.",
+    "Sedici entry precedenti, titoli ufficiali nei dettagli, dati, categorie, filtri, scadenze, layout e badge invariati.",
+    "Nessuna pubblicazione autonoma; revisione finale del responsabile richiesta.",
+    "Nessun impatto CTR o traffico attribuito."
+  ]
+}

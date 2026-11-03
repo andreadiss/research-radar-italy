@@ -1,3 +1,7 @@
+## 2026-11-03 — Riparare il percorso da tastiera prima di nuovi elementi UI
+
+Difetto misurato nell'anteprima: il dialogo visivo non sposta focus e non risponde a Escape. Correzione tecnica low risk del componente esistente, senza cambiare contenuti, layout, dati o logica di ricerca; nessuna estensione al dialogo Condividi oggi. Helper con test e dichiarazione TypeScript, attivazione client-only dopo mount per preservare il render statico. Copy in parallelo su due nuove card; non pubblicare Insights incompleti come numero completo né la guida67 senza approvazione.
+
 ## 2026-11-02 — Portare la guida già pubblicata nel contesto di candidatura
 
 Le landing che aiutano a trovare posizioni non collegano la checklist già disponibile: usare un solo link nel blocco di valutazione esistente per completare il percorso scoperta→verifica del bando. Non aggiungere sezioni o navigazione strutturale e non cambiare title/snippet per CTR aggregato. Estensione limitata alle cinque landing posizioni, Funding escluso. Due revisioni copy autorizzate, nessun dato o classificazione modificati. Insights ottobre resta bozza e PR67 non approvata; badge e pipeline invariati.

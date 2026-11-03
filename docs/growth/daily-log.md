@@ -1,3 +1,9 @@
+## 2026-11-03
+
+Gate pre-merge: TypeScript, 90 test operativi + 36 editoriali/tastiera = 126 PASS; audit dati 0 errori, build statica production, audit 2.338 HTML/372 URL sitemap con 0 errori/link rotti/orfani. Cinque test focus/Escape/Tab/cleanup superati; test preservazione esteso al lotto del 2 novembre. L'iniziale mancanza di dichiarazione TypeScript del nuovo helper è risolta con .d.mts; gate completo rieseguito e superato. Verifica browser del comportamento effettivo e deploy ancora subordinati al rilascio.
+
+Letti main 92e34f8, PR aperta #67 e sei documenti growth; worktree separato. Smoke pubblico precedente PASS. On-page Audit GSC Postdoc payment_required, nessuna ulteriore chiamata/costo. Riprodotti da tastiera focus fuori anteprima ed Escape inefficace; preparato focus iniziale, ciclo Tab/Shift+Tab, Escape e ritorno al trigger, senza CSS, SSR dinamico o tracking nuovo. Copywriter delegato su 2 nuovi ID 319304/319002, owner verifica originali/fingerprint/resa 2/2; 16 precedenti preservati. Fonti cache21ott, nessuna conferma apertura; titolo ufficiale con SSD multiplo non riclassificato. Insights ottobre e guida PR67 non pubblicati. Gate e verifica finale nel report/PR, nessuna dichiarazione anticipata di deploy.
+
 ## 2026-11-02
 
 Verifica post-deploy #71: Pages success, cinque link presenti, guida/dettagli/home/asset 200 e controllo 404 superati. Attivazione da tastiera raggiunge la guida. Il controllo visivo rileva affordance debole (reset globale a colore ereditato e nessuna decorazione): follow-up circoscritto sottolinea il solo link, senza nuovo CSS o variazioni di layout. Stesso intervento, non un nuovo task conteggiato; nuova verifica dopo build/deploy.

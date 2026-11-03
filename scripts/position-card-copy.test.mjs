@@ -61,6 +61,16 @@ test("the published November 1 batch is preserved exactly", () => {
   }
 });
 
+test("the published November 2 batch is preserved exactly", () => {
+  const batch = JSON.parse(readFileSync(new URL("../docs/growth/copy-review-2026-11-02.json", import.meta.url))).cards;
+  assert.equal(batch.length, 2);
+  for (const card of batch) {
+    const source = Object.fromEntries(["id", "sourceUrl", "positionType", "institution", "ssd", "location"].map(key => [key, card[key]]));
+    Object.assign(source, card.original);
+    assert.deepEqual(reviewedCardCopy.find(review => review.source.id === card.id), { source, ...card.proposal });
+  }
+});
+
 test("changed source content or context disables editorial copy", () => {
   const original = reviewedCardCopy[0].source;
   for (const key of Object.keys(original)) {
