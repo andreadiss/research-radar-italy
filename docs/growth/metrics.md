@@ -1,3 +1,7 @@
+## 3 novembre 2026 — Baseline tastiera e chiarezza
+
+Prova browser su anteprima Postdoc: focus nel dialogo=false dopo Enter; dopo Escape rimane 1 dialogo. Target deterministico: focus su Chiudi, Tab/Shift+Tab confinati, Escape→0 dialoghi e ritorno al trigger. Cinque test unitari DOM-adapter, non sostitutivi della verifica browser post-deploy. Card nuove revisionate/implementate 2, pubblicazione solo dopo deploy; 16 precedenti preservate. Fonte cache MUR21 ottobre, apertura/rettifiche attuali non attestate. Nessun nuovo dato GSC: On-page Audit rifiutato payment_required, chiamate fermate e €0/GA4 escluso; baseline export al28 ottobre invariata. Nessuna crescita associata al fix o al copy.
+
 ## 2 novembre 2026 — Metrica di percorso, non traffico
 
 HTTP live prima del task: cinque landing posizioni 200, ciascuna con 0 link alla guida /guide/leggere-bando-ricerca/. Target deterministico: esattamente 1 link in ognuna, 0 sulle tre landing Funding; guardrail nell'audit statico. Nuove card revisionate/implementate 2, pubblicazione dichiarata solo dopo deploy; 14 precedenti preservate, non ricontate. Fonte MUR cache al 21 ottobre, non attestazione apertura corrente; Hyperstage pubblicato a settembre, non nuova uscita del giorno. Nessuna estrazione GSC nuova: On-page Audit payment_required, interrotte le chiamate, €0/GA4 escluso; ultima baseline resta export al 28 ottobre. Nessun outcome CTR o traffico attribuito.

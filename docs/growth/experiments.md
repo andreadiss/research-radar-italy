@@ -1,3 +1,7 @@
+## 3 novembre 2026 — Correzione tastiera, non esperimento
+
+Requisiti verificabili: aprire con Enter, focus sul primo controllo, Tab e Shift+Tab senza uscita sullo sfondo, Escape chiude, chiusura restituisce focus al trigger. Funzione attivata solo dopo mount; cleanup rimuove il listener, trigger scollegato ignorato. Test con e senza fonte, controlli nascosti e fallback dialogo vuoto. Nessun nuovo evento analytics, consenso o A/B test. Copy con fingerprint e preservazione dei 16 precedenti, testo ufficiale nei dettagli invariato.
+
 ## 2 novembre 2026 — Un collegamento utile, non un A/B test
 
 Link contestuale dopo la nota fonte ufficiale nelle sole landing posizioni, senza ripetizioni né sottrarre evidenza a opportunità e filtri. Audit richiede esattamente un link per ciascuna delle cinque landing e assenza nelle tre Funding. Copy dei due nuovi ID isolato tramite fingerprint e fallback; test preserva anche il lotto del 1 novembre. Nessuna inferenza dai volumi GSC né esperimento con tracking aggiuntivo.
