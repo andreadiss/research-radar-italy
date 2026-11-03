@@ -1,3 +1,7 @@
+## 3 novembre 2026 — Correzione urgente ultime pubblicate in home
+
+Richiesta utente: chiarire subito le sei card in evidenza. Fonte aggiornata a3b6eb6 / 3 novembre 12:49 UTC: non più cache ferma al 21 ottobre. Revisionati i sei titoli e rese visibili brevi descrizioni in home, senza cambiare ordine, selezione o filtri. Cinque fonti riportano solo la procedura: ambito esplicito e limite dichiarato, nessun tema inventato. Il possibile duplicato 319575 è segnalato, non rimosso. Preservate le 18 revisioni precedenti e i titoli ufficiali nel dettaglio. Registro: copy-review-2026-11-03-home.json. Nessun impatto traffico attribuito; pubblicazione e verifica live da confermare nella PR dedicata.
+
 ## 2026-11-03
 
 Gate pre-merge: TypeScript, 90 test operativi + 36 editoriali/tastiera = 126 PASS; audit dati 0 errori, build statica production, audit 2.338 HTML/372 URL sitemap con 0 errori/link rotti/orfani. Cinque test focus/Escape/Tab/cleanup superati; test preservazione esteso al lotto del 2 novembre. L'iniziale mancanza di dichiarazione TypeScript del nuovo helper è risolta con .d.mts; gate completo rieseguito e superato. Verifica browser del comportamento effettivo e deploy ancora subordinati al rilascio.

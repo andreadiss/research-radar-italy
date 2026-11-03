@@ -452,6 +452,14 @@ select {
   margin: 0;
 }
 
+.home-recent-card .home-recent-summary {
+  color: var(--ink);
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
 .home-recent-card > div {
   align-items: center;
   color: var(--muted);

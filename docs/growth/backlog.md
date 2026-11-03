@@ -1,3 +1,7 @@
+## 3 novembre 2026 — Correzione urgente ultime pubblicate in home
+
+Richiesta utente: chiarire subito le sei card in evidenza. Fonte aggiornata a3b6eb6 / 3 novembre 12:49 UTC: non più cache ferma al 21 ottobre. Revisionati i sei titoli e rese visibili brevi descrizioni in home, senza cambiare ordine, selezione o filtri. Cinque fonti riportano solo la procedura: ambito esplicito e limite dichiarato, nessun tema inventato. Il possibile duplicato 319575 è segnalato, non rimosso. Preservate le 18 revisioni precedenti e i titoli ufficiali nel dettaglio. Registro: copy-review-2026-11-03-home.json. Nessun impatto traffico attribuito; pubblicazione e verifica live da confermare nella PR dedicata.
+
 ## 3 novembre 2026 — P1 accessibilità delle anteprime
 
 **Anteprima tastiera** (Impact 8, Confidence 10 sul difetto/3 sul traffico, Effort 2, Risk 2): due fallimenti riprodotti dal browser, focus fuori dialogo ed Escape inefficace. Fix limitato a OpportunityPreview, nessun redesign o navigazione nuova; test su confini Tab, controlli nascosti/assenti e cleanup. Condivisione fuori scope. **Copy**: 2 nuovi ID 319304/319002, precedenti 16 preservati. Insights ottobre pronto ma incompleto: raccomandazione per la revisione del 4 novembre è non pubblicare un rapporto completo finché manca copertura verificata; eventuale perimetro parziale richiede scelta esplicita. Guida PR67 resta separata/non approvata; badge/pipeline invariati.

@@ -194,17 +194,21 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
             </Link>
           </div>
           <div className="home-recent-grid">
-            {recentPositions.map((position) => (
+            {recentPositions.map((position) => {
+              const presentation = positionCardPresentation(position);
+              return (
               <Link className="home-recent-card" href={`/positions/${position.id}` as Route} key={position.id}>
                 <span className="badge type">{position.positionType}</span>
                 <h3>{positionTitles.get(position.id) ?? position.title}</h3>
+                <p className="home-recent-summary">{presentation.summary}</p>
                 <p>{position.institution}</p>
                 <div>
                   <span><MapPin size={14} />{position.location}</span>
                   <span><CalendarClock size={14} />{deadlineLabel(position.deadline, today)}</span>
                 </div>
               </Link>
-            ))}
+              );
+            })}
           </div>
         </section>
       ) : null}
