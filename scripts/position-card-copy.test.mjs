@@ -71,6 +71,22 @@ test("the published November 2 batch is preserved exactly", () => {
   }
 });
 
+test("the urgent homepage batch covers all six reviewed sources", () => {
+  const batch = JSON.parse(readFileSync(new URL("../docs/growth/copy-review-2026-11-03-home.json", import.meta.url))).cards;
+  assert.equal(batch.length, 6);
+  for (const card of batch) {
+    assert.deepEqual(reviewedCardCopy.find(review => review.source.id === card.source.id), card);
+    assert.ok(card.title.length < 90);
+    assert.doesNotMatch(card.title, /procedura|selezione pubblica/i);
+  }
+});
+
+test("a resolved duplicate warning invalidates the duplicate-specific summary", () => {
+  const review = reviewedCardCopy.find(review => review.source.id === "mur-research-contracts-319575");
+  const changed = { ...review.source, possibleDuplicateOf: undefined };
+  assert.equal(positionCardPresentation(changed).summary, changed.summary);
+});
+
 test("changed source content or context disables editorial copy", () => {
   const original = reviewedCardCopy[0].source;
   for (const key of Object.keys(original)) {

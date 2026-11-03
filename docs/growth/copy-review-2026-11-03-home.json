@@ -1,0 +1,108 @@
+{
+  "reviewDate": "2026-11-03",
+  "batch": "homepage-urgent",
+  "status": "approved-implemented-pending-deploy",
+  "approval": "User: Le ultime pubblicate che sono ora in evidenza in ho vanno riviste subito perché non si capisce nulla",
+  "scope": "Sei card home verificate live e allineate al main a3b6eb6; titoli editoriali e descrizioni brevi mostrate anche in homepage. Titoli ufficiali e campi originali nei dettagli invariati.",
+  "sourceSnapshot": {
+    "commit": "a3b6eb61d64d2372810131ea9d7483f4f87c5139",
+    "path": "lib/generated/mur-positions.json",
+    "updatedAt": "2026-11-03T12:49:08.378Z"
+  },
+  "reviewedCards": 6,
+  "implementedCards": 6,
+  "previousReviewsPreserved": 18,
+  "limitations": [
+    "Cinque summary MUR descrivono solo la procedura: non inventati temi o attività specifiche.",
+    "Fonti ufficiali MUR non accessibili via ricerca web. Risultati ufficiali UniFi D.R.1450/2026 confermano settori ma non consentono collegamento univoco di tutti gli ID/progetti; nessun arricchimento per supposizione.",
+    "319575 già segnalato nei dati come possibile duplicato di319572: segnalazione resa leggibile, nessuna rimozione o modifica alla deduplicazione.",
+    "Aggiunta una breve descrizione alle card esistenti; ordine, numero e selezione invariati."
+  ],
+  "cards": [
+    {
+      "source": {
+        "id": "mur-research-contracts-319485",
+        "title": "Procedura di valutazione comparativa per n. 1 contratto di ricerca - Dipartimento di Psicologia “Renzo Canestrari”",
+        "summary": "Titolo del progetto: “Caratterizzazione delle differenze interindividuali tra sign-trackers e goal-trackers nell'essere umano” - Il progetto di ricerca è finalizzato ad approfondire la caratterizzazione del fenomeno del sign-tracking e goal-tracking nell’essere umano, con particolare attenzione alla sua misurazione e interpretazione nell’ambito della ricerca traslazionale sui processi motivazionali e di attribuzione...",
+        "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/319485",
+        "positionType": "Contratto di ricerca",
+        "institution": "Università di Bologna",
+        "ssd": "PSIC-01/C - Psicometria",
+        "location": "Cesena"
+      },
+      "title": "Differenze individuali nella motivazione umana",
+      "summary": "Studio del sign-tracking e goal-tracking e della loro misurazione nell’essere umano."
+    },
+    {
+      "source": {
+        "id": "mur-research-contracts-319569",
+        "title": "Selezione pubblica per contratti di ricerca",
+        "summary": "Selezione pubblica per titoli e discussione per il reclutamento di un contrattista di ricerca ai sensi dell'art. 22 della legge 240/2010",
+        "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/319569",
+        "positionType": "Contratto di ricerca",
+        "institution": "Università degli studi di Firenze - Unità di Processo",
+        "ssd": "GEOS-03/A - Geografia fisica e geomorfologia",
+        "location": "Firenze"
+      },
+      "title": "Ricerca in geografia fisica e geomorfologia",
+      "summary": "Contratto nel settore GEOS-03/A. Tema e attività da verificare nel bando ufficiale."
+    },
+    {
+      "source": {
+        "id": "mur-research-contracts-319570",
+        "title": "Selezione pubblica per contratti di ricerca",
+        "summary": "Selezione pubblica per titoli e discussione per il reclutamento di un contrattista di ricerca ai sensi dell'art. 22 della legge 240/2010",
+        "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/319570",
+        "positionType": "Contratto di ricerca",
+        "institution": "Università degli studi di Firenze - Unità di Processo",
+        "ssd": "PHYS-05/B - Fisica del sistema Terra, dei pianeti, dello spazio e del clima",
+        "location": "Firenze"
+      },
+      "title": "Ricerca in fisica della Terra, dello spazio e del clima",
+      "summary": "Contratto nel settore PHYS-05/B, che comprende anche i pianeti. Tema e attività da verificare nel bando ufficiale."
+    },
+    {
+      "source": {
+        "id": "mur-research-contracts-319571",
+        "title": "Selezione pubblica per contratti di ricerca",
+        "summary": "Selezione pubblica per titoli e discussione per il reclutamento di un contrattista di ricerca ai sensi dell'art. 22 della legge 240/2010",
+        "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/319571",
+        "positionType": "Contratto di ricerca",
+        "institution": "Università degli studi di Firenze - Unità di Processo",
+        "ssd": "STAA-01/C - Assiriologia",
+        "location": "Firenze"
+      },
+      "title": "Ricerca in assiriologia",
+      "summary": "Contratto nel settore STAA-01/C. Tema e attività da verificare nel bando ufficiale."
+    },
+    {
+      "source": {
+        "id": "mur-research-contracts-319572",
+        "title": "Selezione pubblica per contratti di ricerca",
+        "summary": "Selezione pubblica per titoli e discussione per il reclutamento di un contrattista di ricerca ai sensi dell'art. 22 della legge 240/2010",
+        "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/319572",
+        "positionType": "Contratto di ricerca",
+        "institution": "Università degli Studi di Firenze",
+        "ssd": "BIOS-07/A - Biochimica",
+        "location": "Firenze"
+      },
+      "title": "Ricerca in biochimica",
+      "summary": "Contratto nel settore BIOS-07/A. Tema e attività da verificare nel bando ufficiale."
+    },
+    {
+      "source": {
+        "id": "mur-research-contracts-319575",
+        "title": "Selezione pubblica per contratti di ricerca",
+        "summary": "Selezione pubblica per titoli e discussione per il reclutamento di un contrattista di ricerca ai sensi dell'art. 22 della legge 240/2010",
+        "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/319575",
+        "positionType": "Contratto di ricerca",
+        "institution": "Università degli Studi di Firenze",
+        "ssd": "BIOS-07/A - Biochimica",
+        "location": "Firenze",
+        "possibleDuplicateOf": "mur-research-contracts-319572"
+      },
+      "title": "Ricerca in biochimica",
+      "summary": "Biochimica (BIOS-07/A). Possibile duplicato della scheda 319572, già segnalato nei dati. Verifica il bando ufficiale."
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 """Check crawlability of the actual static export, without launching a browser."""
 import json
+import subprocess
 import re
 import sys
 from collections import deque
@@ -188,6 +189,14 @@ contextual_titles = {
     and record.get("ssd", "").strip() not in ("", "-")
 }
 contextual_discovery_checks = 0
+card_titles = json.loads(subprocess.run([
+    "node", "--input-type=module", "-e",
+    "import fs from 'node:fs'; import {positionCardPresentation} from './lib/position-card-copy.mjs'; "
+    "import {applyVerifiedPositionEnrichment} from './lib/verified-position-enrichments.mjs'; "
+    "const records=JSON.parse(fs.readFileSync('lib/generated/mur-positions.json')); "
+    "console.log(JSON.stringify(Object.fromEntries(records.map(raw=>{const p=applyVerifiedPositionEnrichment(raw); "
+    "return [p.id,positionCardPresentation(p).title];}))));"
+], check=True, capture_output=True, text=True).stdout)
 for route, page in pages.items():
     for href, text in page.discovery_links:
         match = re.fullmatch(r"/positions/([^/]+)/?", unquote(urlsplit(href).path))
@@ -196,7 +205,15 @@ for route, page in pages.items():
         contextual_discovery_checks += 1
         expected = contextual_titles[match.group(1)]
         ssd = " ".join(records_by_id[match.group(1)]["ssd"].split())
-        if expected not in text or ssd not in text:
+        # A reviewed editorial title is allowed on the homepage card, but SSD
+        # context remains mandatory and the helper validates the source snapshot.
+        card_title = card_titles.get(match.group(1))
+        reviewed_home_title = route == "/" and card_title and card_title in text
+        title_present = expected in text or reviewed_home_title
+        # Editorial titles spell out the subject; the summary can retain the
+        # exact sector code without repeating the full administrative SSD label.
+        ssd_present = ssd in text or (reviewed_home_title and ssd.split(" - ")[0] in text)
+        if not title_present or not ssd_present:
             errors.append(f"Repeated title lacks SSD context on {route}: {href}")
 # Check the final category CTA even on archived pages outside the sitemap.
 category_paths = {
