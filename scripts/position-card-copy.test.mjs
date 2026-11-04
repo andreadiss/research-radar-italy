@@ -105,3 +105,23 @@ test("unreviewed positions preserve the existing presentation", () => {
     topic: positionTopicPresentation(position.title, position.summary)
   });
 });
+
+test("November 3 keyboard-day batch is preserved exactly", () => {
+  const batch = JSON.parse(readFileSync(new URL("../docs/growth/copy-review-2026-11-03.json", import.meta.url))).cards;
+  for (const card of batch) {
+    const source = Object.fromEntries(["id", "sourceUrl", "positionType", "institution", "ssd", "location"].map(key => [key, card[key]]));
+    Object.assign(source, card.original);
+    assert.deepEqual(reviewedCardCopy.find(review => review.source.id === card.id), { source, ...card.proposal });
+  }
+});
+
+test("priority batch matches its registry and both discovery surfaces reuse guarded copy", () => {
+  const batch = JSON.parse(readFileSync(new URL("../docs/growth/copy-review-2026-11-04.json", import.meta.url))).cards;
+  assert.equal(batch.length, 10);
+  for (const card of batch) assert.deepEqual(reviewedCardCopy.find(review => review.source.id === card.id), { source: card.source, ...card.proposal });
+  const detail = readFileSync(new URL("../app/positions/[id]/page.tsx", import.meta.url), 'utf8');
+  const landing = readFileSync(new URL("../app/(seo)/[...slug]/page.tsx", import.meta.url), 'utf8');
+  assert.match(detail, /positionCardPresentation\(item, positionTitleContext\(item, openPositions\)\.heading\)\.title/);
+  assert.match(landing, /positionCardPresentation\(position, positionTitleContext\(position, openPositions\)\.heading\)\.title/);
+  assert.match(landing, /positionCardPresentation\(position\)\.summary/);
+});

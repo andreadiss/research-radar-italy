@@ -195,7 +195,7 @@ card_titles = json.loads(subprocess.run([
     "import {applyVerifiedPositionEnrichment} from './lib/verified-position-enrichments.mjs'; "
     "const records=JSON.parse(fs.readFileSync('lib/generated/mur-positions.json')); "
     "console.log(JSON.stringify(Object.fromEntries(records.map(raw=>{const p=applyVerifiedPositionEnrichment(raw); "
-    "return [p.id,positionCardPresentation(p).title];}))));"
+    "const title=positionCardPresentation(p).title; return [p.id,title!==p.title?title:null];}))));"
 ], check=True, capture_output=True, text=True).stdout)
 for route, page in pages.items():
     for href, text in page.discovery_links:
@@ -205,14 +205,14 @@ for route, page in pages.items():
         contextual_discovery_checks += 1
         expected = contextual_titles[match.group(1)]
         ssd = " ".join(records_by_id[match.group(1)]["ssd"].split())
-        # A reviewed editorial title is allowed on the homepage card, but SSD
+        # A guarded editorial title is allowed on discovery surfaces, but SSD
         # context remains mandatory and the helper validates the source snapshot.
         card_title = card_titles.get(match.group(1))
-        reviewed_home_title = route == "/" and card_title and card_title in text
-        title_present = expected in text or reviewed_home_title
+        reviewed_title = card_title and card_title in text
+        title_present = expected in text or reviewed_title
         # Editorial titles spell out the subject; the summary can retain the
         # exact sector code without repeating the full administrative SSD label.
-        ssd_present = ssd in text or (reviewed_home_title and ssd.split(" - ")[0] in text)
+        ssd_present = ssd in text or (reviewed_title and ssd.split(" - ")[0] in text)
         if not title_present or not ssd_present:
             errors.append(f"Repeated title lacks SSD context on {route}: {href}")
 # Check the final category CTA even on archived pages outside the sitemap.

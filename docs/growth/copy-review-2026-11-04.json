@@ -1,0 +1,122 @@
+{
+  "reviewDate": "2026-11-04",
+  "status": "owner-reviewed-pending-deploy",
+  "ownerReview": "Originali, fingerprint completi e resa dopo arricchimento confrontati indipendentemente dal responsabile: 10/10 PASS; 24 precedenti preservate. Nessun tema dedotto dal settore.",
+  "additionalSourceCheck": {
+    "url": "https://www.unifi.it/it/ateneo/lavora-con-noi/reclutamento-bandi-di-concorso/7-incarichi-post-doc-dr-14512026",
+    "checkedOn": "2026-11-04",
+    "result": "Pagina ufficiale D.R.1451/2026 e allegato consultati: confermano i sei settori, ma il collegamento univoco fra singolo ID MUR e programma non è ancora attestato da codice/CUP nella cache. Pagina MUR319556 non accessibile tramite strumento web, nessun retry o aggiramento. Non applicati per supposizione i programmi dell'allegato."
+  },
+  "reviewedCards": 10,
+  "implementedCards": 10,
+  "publishedCards": 0,
+  "previousReviewsPreserved": 24,
+  "selection": "Home: sei ultime pubblicate con publishedAt <= 4 novembre, ordinamento stabile per data decrescente; prime otto card per data decrescente di Psicologia, Dottorati, Postdoc, Contratti di ricerca, RTT. I corrispondenti detail espongono fino a tre correlati; nessun ordinamento modificato.",
+  "sourceSnapshot": {
+    "commit": "27360a8",
+    "path": "lib/generated/mur-positions.json",
+    "lastSuccessfulCheckAt": "2026-11-03T12:54:12.531Z",
+    "limitation": "Fedeltà alla cache verificata dopo sync del 3 novembre, non nuovo controllo live di ogni bando. Nessuna disponibilità corrente o attività non documentata attestata."
+  },
+  "fingerprintFields": ["id", "title", "summary", "sourceUrl", "positionType", "institution", "ssd", "location"],
+  "extraFingerprint": "319574 include anche possibleDuplicateOf perché la proposta menziona la segnalazione esistente.",
+  "fingerprintInvalidationsBeforeBatch": [],
+  "prioritySurfaceBeforeBatch": {
+    "homepageIds": ["mur-research-contracts-319574", "mur-research-contracts-319485", "mur-research-contracts-319569", "mur-research-contracts-319570", "mur-research-contracts-319571", "mur-research-contracts-319572"],
+    "homepageMatchingReviews": 5,
+    "note": "Giorno di roll-over: 319574 è ora nella home. Non presentata come invalidazione di un fingerprint precedente."
+  },
+  "cards": [
+    {
+      "id": "mur-research-contracts-319574",
+      "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/319574",
+      "surfaces": ["homepage", "Contratti di ricerca: posizione 1"],
+      "source": {"id":"mur-research-contracts-319574","title":"Selezione pubblica per contratti di ricerca","summary":"Selezione pubblica per titoli e discussione per il reclutamento di un contrattista di ricerca ai sensi dell'art. 22 della legge 240/2010","sourceUrl":"https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/319574","positionType":"Contratto di ricerca","institution":"Università degli studi di Firenze - Unità di Processo","ssd":"GEOS-03/A - Geografia fisica e geomorfologia","location":"Firenze","possibleDuplicateOf":"mur-research-contracts-319569"},
+      "proposal": {"title":"Ricerca in geografia fisica e geomorfologia","summary":"Geografia fisica e geomorfologia (GEOS-03/A). Possibile duplicato della scheda 319569, già segnalato nei dati. Verifica il bando ufficiale."},
+      "evidence": "Settore dal SSD ufficiale; possibleDuplicateOf già presente nella fonte normalizzata. Nessuna attività o progetto specifico nel testo acquisito.",
+      "outcome": "Eliminata la sola formula burocratica e resa leggibile la segnalazione esistente senza deduplicare o cambiare dati."
+    },
+    {
+      "id":"mur-postdoc-assignments-319556",
+      "sourceUrl":"https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/319556",
+      "surfaces":["Postdoc: posizione 1"],
+      "source":{"id":"mur-postdoc-assignments-319556","title":"Selezione pubblica per incarichi post-doc","summary":"Selezione pubblica per il conferimento di incarichi post-doc ai sensi dell'art. 22 bis della legge 240/2010","sourceUrl":"https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/319556","positionType":"Postdoc","institution":"Università degli Studi di Firenze","ssd":"BIOS-15/A - Microbiologia","location":"Firenze"},
+      "proposal":{"title":"Postdoc in Microbiologia","summary":"Il testo acquisito descrive solo la selezione; argomento e attività del progetto non sono specificati. Verifica il bando ufficiale."},
+      "evidence":"Tipo e disciplina sono campi verificati; titolo e summary non descrivono il progetto.",
+      "outcome":"Distinta la disciplina dall’argomento mancante, senza dedurlo dal SSD."
+    },
+    {
+      "id":"mur-postdoc-assignments-319557",
+      "sourceUrl":"https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/319557",
+      "surfaces":["Postdoc: posizione 2"],
+      "source":{"id":"mur-postdoc-assignments-319557","title":"Selezione pubblica per incarichi post-doc","summary":"Selezione pubblica per il conferimento di incarichi post-doc ai sensi dell'art. 22 bis della legge 240/2010","sourceUrl":"https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/319557","positionType":"Postdoc","institution":"Università degli Studi di Firenze","ssd":"CHEM-05/A - Chimica organica","location":"Firenze"},
+      "proposal":{"title":"Postdoc in Chimica organica","summary":"Il testo acquisito descrive solo la selezione; argomento e attività del progetto non sono specificati. Verifica il bando ufficiale."},
+      "evidence":"Tipo e disciplina sono campi verificati; titolo e summary non descrivono il progetto.",
+      "outcome":"Distinta la disciplina dall’argomento mancante, senza dedurlo dal SSD."
+    },
+    {
+      "id":"mur-postdoc-assignments-319558",
+      "sourceUrl":"https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/319558",
+      "surfaces":["Postdoc: posizione 3"],
+      "source":{"id":"mur-postdoc-assignments-319558","title":"Selezione pubblica per incarichi post-doc","summary":"Selezione pubblica per il conferimento di incarichi post-doc ai sensi dell'art. 22 bis della legge 240/2010","sourceUrl":"https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/319558","positionType":"Postdoc","institution":"Università degli Studi di Firenze","ssd":"PHYS-03/A - Fisica sperimentale della materia e applicazioni","location":"Firenze"},
+      "proposal":{"title":"Postdoc in Fisica sperimentale della materia e applicazioni","summary":"Il testo acquisito descrive solo la selezione; argomento e attività del progetto non sono specificati. Verifica il bando ufficiale."},
+      "evidence":"Tipo e disciplina sono campi verificati; titolo e summary non descrivono il progetto.",
+      "outcome":"Distinta la disciplina dall’argomento mancante, senza dedurlo dal SSD."
+    },
+    {
+      "id":"mur-postdoc-assignments-319560",
+      "sourceUrl":"https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/319560",
+      "surfaces":["Postdoc: posizione 4"],
+      "source":{"id":"mur-postdoc-assignments-319560","title":"Selezione pubblica per incarichi post-doc","summary":"Selezione pubblica per il conferimento di incarichi post-doc ai sensi dell'art. 22 bis della legge 240/2010","sourceUrl":"https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/319560","positionType":"Postdoc","institution":"Università degli Studi di Firenze","ssd":"GSPS-05/A - Sociologia generale","location":"Firenze"},
+      "proposal":{"title":"Postdoc in Sociologia generale","summary":"Il testo acquisito descrive solo la selezione; argomento e attività del progetto non sono specificati. Verifica il bando ufficiale."},
+      "evidence":"Tipo e disciplina sono campi verificati; titolo e summary non descrivono il progetto.",
+      "outcome":"Distinta la disciplina dall’argomento mancante, senza dedurlo dal SSD."
+    },
+    {
+      "id":"mur-postdoc-assignments-319563",
+      "sourceUrl":"https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/319563",
+      "surfaces":["Postdoc: posizione 5"],
+      "source":{"id":"mur-postdoc-assignments-319563","title":"Selezione pubblica per incarichi post-doc","summary":"Selezione pubblica per il conferimento di incarichi post-doc ai sensi dell'art. 22 bis della legge 240/2010","sourceUrl":"https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/319563","positionType":"Postdoc","institution":"Università degli Studi di Firenze","ssd":"AGRI-02/A - Agronomia e coltivazioni erbacee","location":"Firenze"},
+      "proposal":{"title":"Postdoc in Agronomia e coltivazioni erbacee","summary":"Il testo acquisito descrive solo la selezione; argomento e attività del progetto non sono specificati. Verifica il bando ufficiale."},
+      "evidence":"Tipo e disciplina sono campi verificati; titolo e summary non descrivono il progetto.",
+      "outcome":"Distinta la disciplina dall’argomento mancante, senza dedurlo dal SSD."
+    },
+    {
+      "id":"mur-postdoc-assignments-319565",
+      "sourceUrl":"https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/319565",
+      "surfaces":["Postdoc: posizione 6"],
+      "source":{"id":"mur-postdoc-assignments-319565","title":"Selezione pubblica per incarichi post-doc","summary":"Selezione pubblica per il conferimento di incarichi post-doc ai sensi dell'art. 22 bis della legge 240/2010","sourceUrl":"https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/319565","positionType":"Postdoc","institution":"Università degli Studi di Firenze","ssd":"MEDS-24/A - Statistica medica","location":"Firenze"},
+      "proposal":{"title":"Postdoc in Statistica medica","summary":"Il testo acquisito descrive solo la selezione; argomento e attività del progetto non sono specificati. Verifica il bando ufficiale."},
+      "evidence":"Tipo e disciplina sono campi verificati; titolo e summary non descrivono il progetto.",
+      "outcome":"Distinta la disciplina dall’argomento mancante, senza dedurlo dal SSD."
+    },
+    {
+      "id":"mur-doctorates-319462",
+      "sourceUrl":"https://bandi.mur.gov.it/doctorate.php/public/fellowship/id_fellow/319462",
+      "surfaces":["Dottorati: posizione 1"],
+      "source":{"id":"mur-doctorates-319462","title":"Bando di concorso per l'ammissione ai dottorati di ricerca 43° ciclo - AA 2027-2028","summary":"La Scuola di Dottorato riunisce i programmi di dottorato offerti dall'Università Bocconi e si propone come punto di riferimento per la carriera accademica degli studenti di PhD. Il collegamento tra i corsi di dottorato permette agli studenti di scegliere tra un’ampia offerta di insegnamenti, che spaziano su tematiche di carattere interdisciplinare. Lungo tutto il percorso accademico degli studenti è fortemente incor...","sourceUrl":"https://bandi.mur.gov.it/doctorate.php/public/fellowship/id_fellow/319462","positionType":"PhD","institution":"Bocconi University","ssd":"-","location":"Milano"},
+      "proposal":{"title":"Dottorati Bocconi: 43° ciclo, a.a. 2027–2028","summary":"Programmi della Scuola di Dottorato Bocconi; la sintesi acquisita non elenca i singoli corsi o progetti. Verifica il bando ufficiale."},
+      "evidence":"Ente, ciclo e anno accademico espliciti. Summary generico e troncato: nessun elenco di singoli programmi o progetti acquisito.",
+      "outcome":"Tolto il solo preambolo burocratico; nessuna disciplina, borsa o progetto inventati."
+    },
+    {
+      "id":"mur-doctorates-319543",
+      "sourceUrl":"https://bandi.mur.gov.it/doctorate.php/public/fellowship/id_fellow/319543",
+      "surfaces":["Dottorati: posizione 2"],
+      "source":{"id":"mur-doctorates-319543","title":"Il GSSI bandisce un concorso per titoli ed esami per l’accesso al XLIII ciclo del Dottorato di Ricerca in Mathematics in Natural, Social and Life Sciences","summary":"PhD presso Gran Sasso Science Institute sul tema “Il GSSI bandisce un concorso per titoli ed esami per l’accesso al XLIII ciclo del Dottorato di Ricerca in Mathematics in Natural, Social and Life Sciences”. Scadenza per le candidature: 12 gennaio 2027.","sourceUrl":"https://bandi.mur.gov.it/doctorate.php/public/fellowship/id_fellow/319543","positionType":"PhD","institution":"Gran Sasso Science Institute","ssd":"-","location":"L'Aquila"},
+      "proposal":{"title":"Dottorato GSSI in Mathematics in Natural, Social and Life Sciences","summary":"Accesso al 43° ciclo. Il testo acquisito non descrive singoli progetti; approfondisci il programma nella fonte ufficiale."},
+      "evidence":"Denominazione ufficiale del corso, ente e ciclo nel titolo; il summary ripete la procedura, senza singoli progetti.",
+      "outcome":"Denominazione del corso invariata e testo procedurale non ripetuto come argomento."
+    },
+    {
+      "id":"mur-postdoc-assignments-319507",
+      "sourceUrl":"https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/319507",
+      "surfaces":["Psicologia: posizione 6"],
+      "source":{"id":"mur-postdoc-assignments-319507","title":"Procedura di valutazione comparativa per n. 1 incarico post-doc - Dipartimento di Psicologia","summary":"Titolo del progetto:“Validazione psicometrica dello strumento Scala di Valutazione della Complessità Sociale (SVCS-M)”. L’attività di ricerca consisterà in compiti specifici come: - Partecipazione alla pianificazione del protocollo di ricerca (individuazione dei tempi e delle modalità di raccolta e elaborazione dei dati, degli strumenti da utilizzare e dei ruoli delle persone coinvolte) - Creazione del database per...","sourceUrl":"https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/319507","positionType":"Postdoc","institution":"Università di Bologna","ssd":"PSIC-01/C - Psicometria","location":"Cesena"},
+      "proposal":{"title":"Validazione psicometrica della Scala di Valutazione della Complessità Sociale","summary":"Progetto SVCS-M: partecipazione alla pianificazione del protocollo, dalla raccolta ed elaborazione dei dati alla scelta di strumenti e ruoli."},
+      "evidence":"Nome dello strumento, validazione psicometrica e partecipazione alla pianificazione del protocollo sono espliciti prima della coda troncata.",
+      "outcome":"Tema e attività concreti senza completare la frase sul database."
+    }
+  ],
+  "guardrails":["Solo presentazione editoriale: fonti, dettagli, categorie, filtri, ordinamenti, scadenze, layout e badge invariati.","Nessuna estensione a record simili o deduzione del progetto dal SSD.","Revisione finale indipendente e gate del responsabile prima della pubblicazione.","Nessuna crescita CTR o traffico attribuita."]
+}

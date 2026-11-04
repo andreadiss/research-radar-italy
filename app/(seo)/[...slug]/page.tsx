@@ -9,6 +9,7 @@ import { isAvailableGrant, isOpenPosition } from "@/lib/opportunity-status";
 import { absoluteUrl, jsonLd } from "@/lib/seo";
 import { getSeoLandingPage, seoLandingPages, type SeoLandingPage } from "@/lib/seo-landing-pages";
 import { positionTitleContext } from "@/lib/position-title-context.mjs";
+import { positionCardPresentation } from "@/lib/position-card-copy.mjs";
 
 type PageProps = { params: { slug: string[] } };
 const openPositions = positions.filter((position) => isOpenPosition(position));
@@ -288,9 +289,9 @@ function landingItems(page: SeoLandingPage) {
       .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
       .map((position) => ({
         href: `/positions/${position.id}`,
-        title: positionTitleContext(position, openPositions).heading,
+        title: positionCardPresentation(position, positionTitleContext(position, openPositions).heading).title,
         summary: page.path === "/posizioni/postdoc" && position.summary.trim() !== position.title.trim()
-          ? position.summary
+          ? positionCardPresentation(position).summary
           : null,
         meta: [
           position.institution,

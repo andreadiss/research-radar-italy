@@ -143,3 +143,6 @@ Ipotesi: una lettura originale del catalogo con metodo e percorsi pratici può a
 ## 27 ottobre 2026 — Discovery contestuale, non A/B test
 
 Ipotesi: chi entra nel percorso Posizioni può approfondire guida e insight senza tornare alla home. Gate tecnico: due link crawlable dopo tutti i filtri, uno per destinazione, URL canoniche esistenti, nessuna modifica ai risultati o alla home approvata. Esposizioni e aperture non misurate: nessun nuovo tracking, effetto di discovery o CTR non dichiarato. La skill On-page Audit è sospesa al rifiuto payment_required; verifica pubblica e audit locali restano separati da dati Google.
+## 4 novembre 2026 — Copertura editoriale verificabile, nessun A/B
+
+Test deterministici: prima osservazione non produce nuovi arrivi fittizi; importazione di vecchia pubblicazione rilevata tramiteID; cambiamento fonte riaccoda; rimozione/reimport preserva firstSeen; stato pubblicata richiede prova. Audit export confronta le etichette revisionate nelle superfici con i registri e controlla i link; fallback a originale quando il fingerprint non corrisponde. Nessun tracking, nuovo layout o modifica dei suggerimenti. I denominatori contano ID unici del campione, non click o popolarità misurata. Perimetro Funding escluso dal lotto Posizioni e invariato.
