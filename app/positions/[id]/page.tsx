@@ -9,6 +9,7 @@ import { absoluteUrl, jsonLd, truncateText } from "@/lib/seo";
 import { meaningfulRequirements } from "@/lib/requirements.mjs";
 import { positionMetadataTitle } from "@/lib/position-metadata-title.mjs";
 import { positionTitleContext } from "@/lib/position-title-context.mjs";
+import { positionCardPresentation } from "@/lib/position-card-copy.mjs";
 import { positionTopicPresentation } from "@/lib/position-topic.mjs";
 import { relatedPositions } from "@/lib/related-positions";
 import { seoLandingPages } from "@/lib/seo-landing-pages";
@@ -175,7 +176,7 @@ export default function PositionDetail({ params }: { params: { id: string } }) {
               <h2 id="related-opportunities-title">Opportunità correlate</h2>
               <ul className="summary">
                 {related.map((item) => <li key={item.id}>
-                  <Link href={`/positions/${item.id}/`}>{item.title} — {item.institution}</Link>
+                  <Link href={`/positions/${item.id}/`}>{positionCardPresentation(item, positionTitleContext(item, openPositions).heading).title} — {item.institution}</Link>
                   {" · Scadenza: "}{formatDate(item.deadline)}
                 </li>)}
               </ul>

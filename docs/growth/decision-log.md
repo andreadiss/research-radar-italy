@@ -152,3 +152,8 @@ Sospendere la sequenza di arricchimenti singoli come attività prevalente. Prepa
 ## 2026-10-27 — Portare gli articoli anche nel percorso Posizioni
 
 Conservare integralmente la home approvata con PR #63. Aggiungere soltanto due link testuali dopo i filtri di `/posizioni/`, senza card, caroselli, nuovi tracciamenti o spostamento dei filtri. Non riproporre in questo task le card iniziali ritirate per hydration. Aggiornare i KPI editoriali a 2 contenuti pubblicati dopo verifica reale; lo stato storico «0 pubblicati» del 26 non è lo stato corrente.
+## 2026-11-04 — Revisionare le superfici che l'utente incontra
+
+Applicare il copy approvato anche a etichette landing e opportunità correlate; preservare gli H1 ufficiali e ogni algoritmo/ordine. Delega selezione, riscrittura e prima verifica di10card al copywriter, QA indipendente del responsabile. Registro/coda riproducibile con hash fonte, firstSeen osservativo, superfici, fonte originale, registro proposte e prove PR precedenti; non usare publishedAt come data d'importazione. Snapshot iniziale non consente N nuovi affidabile. Nuovo lotto rimane revisionata finché il commento di chiusura PR attesta deploy e controllo live, da riportare nel manifesto al controllo successivo.
+
+Bilancio: crescita storica22–28ottobre positiva ma settimana attuale non misurabile con il connettore bloccato. Riallocare il tempo verso chiarezza nei percorsi che già ricevono clic, fonti verificabili e coda esposta; non ripetere snippet per CTR aggregato. Aggiornata bozza828schede ottobre dopo sync3novembre; rinvio raccomandato del rapporto completo perché il solo sync non valida lo storico. Nessuna pubblicazione sostitutiva o PR67 senza approvazione.
