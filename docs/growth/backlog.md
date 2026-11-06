@@ -1,3 +1,7 @@
+## 6 novembre 2026 — Ripresa task e recupero copy prioritario
+
+Completare pubblicazione sicura del lotto10copy:80ID esposti al6novembre,17→27revisionati abbinati,63→53da valutare. Cambiato il denominatore rispetto agli82del4novembre per il trascorrere delle scadenze:non attribuirlo a crescita. Home6/6. NuoviID0, changed0. Proseguire i53ID prioritari, senza parafrasi inutili o attività inventate. Insightsottobre e guidaPR67 non pubblicati né approvati da questa ripresa.
+
 ## 3 novembre 2026 — Correzione urgente ultime pubblicate in home
 
 Richiesta utente: chiarire subito le sei card in evidenza. Fonte aggiornata a3b6eb6 / 3 novembre 12:49 UTC: non più cache ferma al 21 ottobre. Revisionati i sei titoli e rese visibili brevi descrizioni in home, senza cambiare ordine, selezione o filtri. Cinque fonti riportano solo la procedura: ambito esplicito e limite dichiarato, nessun tema inventato. Il possibile duplicato 319575 è segnalato, non rimosso. Preservate le 18 revisioni precedenti e i titoli ufficiali nel dettaglio. Registro: copy-review-2026-11-03-home.json. Nessun impatto traffico attribuito; pubblicazione e verifica live da confermare nella PR dedicata.

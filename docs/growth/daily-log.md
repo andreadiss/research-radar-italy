@@ -1,3 +1,7 @@
+## 6 novembre 2026 — Ripresa task e recupero copy prioritario
+
+Task6a9cfdef riattivato con is_enabled=true:orario9Europe/Rome e mandato invariati. Repositoryrecuperato daGitHub dopo manutenzione workspace. Main57f0308,unicaPRaperta67esclusa. Homeprecedente6/6revisionata;sourcecheck3novembre. Confrontobaseline4novembre:0nuovi,0changed;campioneattuale80ID,17→27revisionati,arretrato63→53. Lotto10preparato dalcopywriter e controllato indipendentemente;34precedenti preservate. TypeScript,161test(90ops+71editoriali),build,auditdati0errori e auditstatico2620HTML/517sitemap/0errori/linkrotti/orfani superati. Auditcopy43occorrenze su45superfici,10/10matching. Pronto per deploy; verifica live ancora da completare,non ancora dichiarato shipped.
+
 ## 3 novembre 2026 — Correzione urgente ultime pubblicate in home
 
 Richiesta utente: chiarire subito le sei card in evidenza. Fonte aggiornata a3b6eb6 / 3 novembre 12:49 UTC: non più cache ferma al 21 ottobre. Revisionati i sei titoli e rese visibili brevi descrizioni in home, senza cambiare ordine, selezione o filtri. Cinque fonti riportano solo la procedura: ambito esplicito e limite dichiarato, nessun tema inventato. Il possibile duplicato 319575 è segnalato, non rimosso. Preservate le 18 revisioni precedenti e i titoli ufficiali nel dettaglio. Registro: copy-review-2026-11-03-home.json. Nessun impatto traffico attribuito; pubblicazione e verifica live da confermare nella PR dedicata.
