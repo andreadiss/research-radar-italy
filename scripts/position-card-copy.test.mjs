@@ -87,6 +87,17 @@ test("a resolved duplicate warning invalidates the duplicate-specific summary", 
   assert.equal(positionCardPresentation(changed).summary, changed.summary);
 });
 
+test("November 6 recovery batch matches source and preserves restricted eligibility", () => {
+  const batch = JSON.parse(readFileSync(new URL("../docs/growth/copy-review-2026-11-06.json", import.meta.url))).cards;
+  assert.equal(batch.length, 10);
+  for (const card of batch) {
+    assert.deepEqual(reviewedCardCopy.find(review => review.source.id === card.id), { source: card.source, ...card.proposal });
+  }
+  const restricted = batch.find(card => card.id === "mur-doctorates-319080");
+  assert.match(restricted.proposal.title, /posti riservati/);
+  assert.match(restricted.proposal.summary, /Due posizioni riservate ai dipendenti/);
+});
+
 test("changed source content or context disables editorial copy", () => {
   const original = reviewedCardCopy[0].source;
   for (const key of Object.keys(original)) {

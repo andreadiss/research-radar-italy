@@ -1,3 +1,7 @@
+## 6 novembre 2026 — Ripresa task e recupero copy prioritario
+
+Recupero autorizzato dall’utente e task riattivato alle9Europe/Rome senza cambiare prompt/calendario. Main57f0308/PR75 verificata in home:6/6card revisionate. DatiMUR controllati3novembre12:54UTC; nessun nuovoID né cambiofingerprint rispetto baseline4novembre. Verifica fonte10proposte svolta da copywriter e responsabile;0invalidazioni.34revisioni precedenti preservate.
+
 ## 3 novembre 2026 — Correzione urgente ultime pubblicate in home
 
 Richiesta utente: chiarire subito le sei card in evidenza. Fonte aggiornata a3b6eb6 / 3 novembre 12:49 UTC: non più cache ferma al 21 ottobre. Revisionati i sei titoli e rese visibili brevi descrizioni in home, senza cambiare ordine, selezione o filtri. Cinque fonti riportano solo la procedura: ambito esplicito e limite dichiarato, nessun tema inventato. Il possibile duplicato 319575 è segnalato, non rimosso. Preservate le 18 revisioni precedenti e i titoli ufficiali nel dettaglio. Registro: copy-review-2026-11-03-home.json. Nessun impatto traffico attribuito; pubblicazione e verifica live da confermare nella PR dedicata.

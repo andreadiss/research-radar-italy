@@ -1,0 +1,199 @@
+{
+  "reviewDate": "2026-11-06",
+  "status": "owner-reviewed-pending-deploy",
+  "reviewedCards": 10,
+  "implementedCards": 10,
+  "publishedCards": 0,
+  "previousReviewsPreserved": 34,
+  "sourceSnapshot": {
+    "commit": "57f03089f3d9d69802475f4040d70918e8d3b24e",
+    "lastSuccessfulCheckAt": "2026-11-03T12:54:12.531Z",
+    "limitation": "Fedeltà alla cache; rettifiche successive non verificate live."
+  },
+  "ownerReview": "10/10 confrontate indipendentemente con titolo/summary dopo arricchimento. Fonte troncata non completata.319248 mantiene la distinzione tra tema e competenze richieste;319344 proposta di screening non validazione clinica;319080 conserva2posti riservati a dipendenti convenzionati. Nessun ente MUR sostituito per inferenza.",
+  "selection": "Home6/6già revisionata; selezionati10ID ancora esposti e non revisionati del campione aggiornato al6novembre.319437 escluso dalla priorità home perché publishedAt9novembre futuro.",
+  "recovery": "Task giornaliero riattivato il6novembre dall’utente; recupero manuale nella sessione corrente. Nessuna modifica a calendario, badge, dati, algoritmi, filtri, layout, pipeline o titoli ufficiali.",
+  "previousReleaseEvidence": "PR75 comment6627371207: deploy41806643553 riuscito,10revisioni precedenti verificate; manifesto aggiornato in questo lotto sostanziale.",
+  "cards": [
+    {
+      "id": "mur-research-contracts-319559",
+      "source": {
+        "id": "mur-research-contracts-319559",
+        "title": "Prospettiva temporale e comportamenti a rischio per la salute nell'adolescenza",
+        "summary": "Il progetto mira a indagare fattori di rischio e di protezione alla base dei comportamenti a rischio per la salute in adolescenza; l’indagine si focalizza sul ruolo della prospettiva temporale e dei processi di autoregolazione nei comportamenti alimentari disfunzionali e nel consumo problematico di alcol e di altre sostanze. Obiettivo è contribuire alla costruzione di conoscenze scientifiche utili alla progettazione...",
+        "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/319559",
+        "positionType": "Contratto di ricerca",
+        "institution": "SAPIENZA UNIVERSITA' DI ROMA",
+        "ssd": "PSIC-02/A - Psicologia dello sviluppo e dell'educazione",
+        "location": "ROMA"
+      },
+      "proposal": {
+        "title": "Adolescenza: prospettiva temporale e comportamenti a rischio",
+        "summary": "Studio del ruolo dell’autoregolazione e della prospettiva temporale nei comportamenti alimentari disfunzionali e nel consumo problematico di alcol e altre sostanze."
+      },
+      "evidence": "Testo proposto ricavato dai campi source.title e source.summary integrali qui registrati; vincoli e limiti preservati."
+    },
+    {
+      "id": "mur-postdoc-assignments-319344",
+      "source": {
+        "id": "mur-postdoc-assignments-319344",
+        "title": "PROGETTO OLTRE LE DIFFERENZE: PER UN ECOSISTEMA DELL’ACCOGLIENZA ALL’UNIVERSITA’ DI FOGGIA",
+        "summary": "Spesso fragilità neuropsicologiche latenti o disturbi del neurosviluppo non diagnosticati causano insuccessi accademici. Il progetto propone uno screening informatizzato per intercettare i soggetti a rischio e indirizzarli verso percorsi di potenziamento o valutazioni specialistiche. Il sistema rileverà precocemente difficoltà attentive, mnestiche, esecutive, di comprensione, letto-scrittura, calcolo, ansia di prest...",
+        "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/319344",
+        "positionType": "Postdoc",
+        "institution": "Ministero dell'Università e della Ricerca – MUR",
+        "ssd": "PSIC-01/B - Neuropsicologia e neuroscienze cognitive",
+        "location": "Foggia"
+      },
+      "proposal": {
+        "title": "Screening delle fragilità neuropsicologiche all’università",
+        "summary": "Il progetto Oltre le differenze propone uno screening informatizzato per individuare studenti a rischio e orientarli verso potenziamento o valutazioni specialistiche."
+      },
+      "evidence": "Testo proposto ricavato dai campi source.title e source.summary integrali qui registrati; vincoli e limiti preservati."
+    },
+    {
+      "id": "mur-research-assignments-319248",
+      "source": {
+        "id": "mur-research-assignments-319248",
+        "title": "SONNO: Disturbo dello spettro autistico e sonno: Esplorazione e valutazione del modello elettrofisiologico del sonno",
+        "summary": "Si chiedono: competenze teoriche sull’elettrofisiologia del sonno, sul sonno e relazione con i processi cognitivi nell’età evolutiva, in particolare nella popolazione pediatrica con autismo; esperienza pregressa nell’acquisizione di segnali actigrafici e polisonnografici e nella raccolta dati in bambini e adolescenti con autismo; capacità avanzata di analisi dei dati actigrafici e polisonnografici, con particolare r...",
+        "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/319248",
+        "positionType": "Incarico di ricerca",
+        "institution": "SAPIENZA UNIVERSITA' DI ROMA",
+        "ssd": "PSIC-01/B - Neuropsicologia e neuroscienze cognitive",
+        "location": "Roma"
+      },
+      "proposal": {
+        "title": "Sonno e autismo in età evolutiva",
+        "summary": "Studio del sonno nella popolazione pediatrica con autismo. Il bando richiede esperienza con dati actigrafici e polisonnografici."
+      },
+      "evidence": "Testo proposto ricavato dai campi source.title e source.summary integrali qui registrati; vincoli e limiti preservati."
+    },
+    {
+      "id": "mur-doctorates-319180",
+      "source": {
+        "id": "mur-doctorates-319180",
+        "title": "COMPOSIZIONE ELETTROACUSTICA, ARTI SONORE E APPLICAZIONI INTERMEDIALI",
+        "summary": "Il Dottorato in Composizione Elettroacustica, Arti Sonore e Applicazioni Intermediali del Conservatorio di Foggia forma compositori, esecutori e ricercatori capaci di innovare nel campo della musica elettroacustica e sperimentale, integrando arti visive, teatro, danza e nuove tecnologie come VR, AI e sistemi interattivi. I dottorandi sviluppano progetti in installazioni, concerti ed eventi culturali, collaborando co...",
+        "sourceUrl": "https://bandi.mur.gov.it/doctorate.php/public/fellowship/id_fellow/319180",
+        "positionType": "PhD",
+        "institution": "Ministero dell'Università e della Ricerca. Conservatorio di Musica Umberto Giordano.",
+        "ssd": "-",
+        "location": "Foggia"
+      },
+      "proposal": {
+        "title": "Dottorato in composizione elettroacustica e arti sonore",
+        "summary": "Musica sperimentale con arti visive, teatro, danza, realtà virtuale, IA e sistemi interattivi. Progetti in installazioni, concerti ed eventi culturali."
+      },
+      "evidence": "Testo proposto ricavato dai campi source.title e source.summary integrali qui registrati; vincoli e limiti preservati."
+    },
+    {
+      "id": "mur-doctorates-319080",
+      "source": {
+        "id": "mur-doctorates-319080",
+        "title": "Bando di concorso pubblico per 2 posti riservati ai dipendenti di enti e imprese convenzionati per l’ammissione al corso di dottorato industriale Intersectoral Innovation ex art.10 DM 226/2021-Università degli studi di Milano",
+        "summary": "Sono attivate presso l’Università degli Studi di Milano per l’anno accademico 2026/2027 (XLII ciclo – con decorrenza dal 1° gennaio 2027), due posizioni riservate a dipendenti di enti i imprese convenzionati per il corso di dottorato industriale “Intersectoral Innovation:dottorato intersettoriale per l’innovazione”. È pertanto indetto presso l'Università degli Studi di Milano un pubblico concorso, per titoli ed esam...",
+        "sourceUrl": "https://bandi.mur.gov.it/doctorate.php/public/fellowship/id_fellow/319080",
+        "positionType": "PhD",
+        "institution": "Università degli Studi di Milano",
+        "ssd": "-",
+        "location": "Milano"
+      },
+      "proposal": {
+        "title": "Dottorato industriale Intersectoral Innovation — posti riservati",
+        "summary": "Due posizioni riservate ai dipendenti di enti e imprese convenzionati, nel dottorato intersettoriale per l’innovazione dell’Università di Milano."
+      },
+      "evidence": "Testo proposto ricavato dai campi source.title e source.summary integrali qui registrati; vincoli e limiti preservati."
+    },
+    {
+      "id": "mur-doctorates-318728",
+      "source": {
+        "id": "mur-doctorates-318728",
+        "title": "COGNITIVE DESIGN: EVOLUZIONE INTEGRATA DI UOMO E TECNOLOGIA NELLA NUOVA ERA PRODUTTIVA",
+        "summary": "Il percorso unisce design, automazione industriale, trasformazione digitale e scienze cognitive per studiare l'interazione uomo-macchina e i nuovi scenari produttivi (dalla grande industria all'artigianato digitale).",
+        "sourceUrl": "https://bandi.mur.gov.it/doctorate.php/public/fellowship/id_fellow/318728",
+        "positionType": "PhD",
+        "institution": "ISIA Firenze",
+        "ssd": "-",
+        "location": "Firenze"
+      },
+      "proposal": {
+        "title": "Dottorato in Cognitive Design e interazione uomo-macchina",
+        "summary": "Design, automazione industriale e scienze cognitive per studiare l’interazione uomo-macchina e i nuovi scenari produttivi, dall’industria all’artigianato digitale."
+      },
+      "evidence": "Testo proposto ricavato dai campi source.title e source.summary integrali qui registrati; vincoli e limiti preservati."
+    },
+    {
+      "id": "mur-postdoc-assignments-319454",
+      "source": {
+        "id": "mur-postdoc-assignments-319454",
+        "title": "Analisi di dati omici per applicazioni biotecnologiche avanzate",
+        "summary": "Il progetto è finalizzato allo sviluppo e all'applicazione di approcci innovativi per l'analisi integrata di dati omici (genomica, trascrittomica, epigenomica, metagenomica e altre discipline affini) a supporto di applicazioni biotecnologiche avanzate. Le attività prevedono l'impiego di piattaforme di sequenziamento massivo di seconda e terza generazione, l'integrazione di metodologie bioinformatiche e di intelligen...",
+        "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/319454",
+        "positionType": "Postdoc",
+        "institution": "MUR",
+        "ssd": "BIOS-08/A - Biologia molecolare",
+        "location": "Roma"
+      },
+      "proposal": {
+        "title": "Dati omici integrati per applicazioni biotecnologiche",
+        "summary": "Analisi integrata di dati genomici, trascrittomici, epigenomici e metagenomici, con sequenziamento massivo di seconda e terza generazione."
+      },
+      "evidence": "Testo proposto ricavato dai campi source.title e source.summary integrali qui registrati; vincoli e limiti preservati."
+    },
+    {
+      "id": "mur-postdoc-assignments-319068",
+      "source": {
+        "id": "mur-postdoc-assignments-319068",
+        "title": "I disturbi della nutrizione e dell'alimentazione: diagnosi clinica e ricerca sull'efficacia dei trattamenti",
+        "summary": "Il progetto ha l'obiettivo di studiare i disturbi della nutrizione e dell'alimentazione (DNA), integrando la valutazione clinico-diagnostica e la ricerca empirica sull'efficacia dei trattamenti psicologici e integrati. L'attività prevede: valutazione clinica e psicodiagnostica con strumenti validati per la personalità, il funzionamento mentale e la sintomatologia dei DNA; raccolta e gestione di dati clinici e di esi...",
+        "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/319068",
+        "positionType": "Postdoc",
+        "institution": "SAPIENZA UNIVERSITA' DI ROMA-DIPARTIMENTO DI PSICOLOGIA DINAMICA CLINICA E SALUTE",
+        "ssd": "PSIC-04/A - Psicologia dinamica",
+        "location": "ROMA"
+      },
+      "proposal": {
+        "title": "Disturbi alimentari: valutazione clinica ed efficacia dei trattamenti",
+        "summary": "Valutazione clinica e psicodiagnostica dei disturbi della nutrizione e dell’alimentazione, con ricerca sull’efficacia dei trattamenti psicologici e integrati."
+      },
+      "evidence": "Testo proposto ricavato dai campi source.title e source.summary integrali qui registrati; vincoli e limiti preservati."
+    },
+    {
+      "id": "mur-postdoc-assignments-319214",
+      "source": {
+        "id": "mur-postdoc-assignments-319214",
+        "title": "IpD48/2026: Vescicole Extracellulari da microalghe ingegnerizzate per il delivery sostenibile di chetocarotenoidi e tocoferolo in applicazioni cosmetiche avanzate",
+        "summary": "Il programma di ricerca riguarda lo svolgimento di attività sperimentali nell’ambito del progetto ALGAVES, finalizzate allo sviluppo di vescicole extracellulari (EVs) derivate da microalghe ingegnerizzate come sistemi di delivery di chetocarotenoidi e tocoferolo. In particolare, sarà coinvolto/a nell’isolamento e purificazione delle EVs e nella loro caratterizzazione mediante NTA, TEM, DLS e Western blot. Parteciper...",
+        "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/319214",
+        "positionType": "Postdoc",
+        "institution": "Università degli Studi di Verona",
+        "ssd": "-",
+        "location": "Verona"
+      },
+      "proposal": {
+        "title": "Vescicole da microalghe per applicazioni cosmetiche",
+        "summary": "Isolamento, purificazione e caratterizzazione di vescicole extracellulari da microalghe ingegnerizzate, per veicolare chetocarotenoidi e tocoferolo nel progetto ALGAVES."
+      },
+      "evidence": "Testo proposto ricavato dai campi source.title e source.summary integrali qui registrati; vincoli e limiti preservati."
+    },
+    {
+      "id": "mur-postdoc-assignments-318701",
+      "source": {
+        "id": "mur-postdoc-assignments-318701",
+        "title": "Bando IPD 08/2026 - Dati multi-fonte e campioni non probabilistici",
+        "summary": "La letteratura statistica studia le stime ottenute da campioni non probabilistici sulla base di alcune condizioni (delle “standard”) molto stringenti, quasi mai verificate nelle applicazioni. Il progetto si propone di sviluppare nuovi stimatori e nuovi metodi per valutare l’errore campionario, in assenza delle condizioni standard. L’attività del contrattista post-doc dovrebbe esplicitarsi sia a livello teorico, nell...",
+        "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/318701",
+        "positionType": "Postdoc",
+        "institution": "Sapienza Università di Roma - Dipartimento di Scienze Statistiche",
+        "ssd": "STAT-01/A - Statistica",
+        "location": "Roma"
+      },
+      "proposal": {
+        "title": "Stime ed errore campionario nei campioni non probabilistici",
+        "summary": "Sviluppo di nuovi stimatori e metodi per valutare l’errore campionario quando non valgono le condizioni standard, nell’ambito dei dati multi-fonte e dei campioni non probabilistici."
+      },
+      "evidence": "Testo proposto ricavato dai campi source.title e source.summary integrali qui registrati; vincoli e limiti preservati."
+    }
+  ]
+}
