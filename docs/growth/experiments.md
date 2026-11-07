@@ -1,3 +1,7 @@
+## 7 novembre 2026 — Chiarezza delle schede esposte
+
+Nessun A/B test. Verifica deterministica di fingerprint, registri e resa nell’export; titoli ufficiali e fallback su fonte modificata preservati. Nessuna modifica a filtri, dati, tassonomia, ordine, suggerimenti, layout o badge.
+
 ## 6 novembre 2026 — Ripresa task e recupero copy prioritario
 
 Nessun A/Btest. Controlli deterministici su fedeltàfonte e fallback;vincolo2postiRISERVATI preservato;screening319344 descritto come proposta,non strumento validato;319248 distingue competenze richieste da attività. Nessun requisito inventato,nessuna modifica layout/suggerimenti/filtri/scadenze.

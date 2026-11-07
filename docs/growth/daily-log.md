@@ -1,3 +1,7 @@
+## 7 novembre 2026 — Chiarezza delle schede esposte
+
+Letti main, PR aperta #67 e documenti growth. Verificato il lotto #76: nota di chiusura 6685766726, smoke pubblico e Psicologia; manifesto aggiornato nello stesso intervento. Nuovi ID 0, fingerprint variati 0. Copy 10 nuovi su 77 ID esposti; home 6/6 e 44 precedenti preservati. Registro e snapshot del 7 novembre conservano lo stato pre-deploy; prove del rilascio e test nella PR. Nessuna pubblicazione di Insights o guida.
+
 ## 6 novembre 2026 — Ripresa task e recupero copy prioritario
 
 Task6a9cfdef riattivato con is_enabled=true:orario9Europe/Rome e mandato invariati. Repositoryrecuperato daGitHub dopo manutenzione workspace. Main57f0308,unicaPRaperta67esclusa. Homeprecedente6/6revisionata;sourcecheck3novembre. Confrontobaseline4novembre:0nuovi,0changed;campioneattuale80ID,17→27revisionati,arretrato63→53. Lotto10preparato dalcopywriter e controllato indipendentemente;34precedenti preservate. TypeScript,161test(90ops+71editoriali),build,auditdati0errori e auditstatico2620HTML/517sitemap/0errori/linkrotti/orfani superati. Auditcopy43occorrenze su45superfici,10/10matching. Pronto per deploy; verifica live ancora da completare,non ancora dichiarato shipped.

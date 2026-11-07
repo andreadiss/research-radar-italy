@@ -136,3 +136,17 @@ test("priority batch matches its registry and both discovery surfaces reuse guar
   assert.match(landing, /positionCardPresentation\(position, positionTitleContext\(position, openPositions\)\.heading\)\.title/);
   assert.match(landing, /positionCardPresentation\(position\)\.summary/);
 });
+
+test("November 7 copy matches its review registry and uses matching source fields", () => {
+  const batch = JSON.parse(readFileSync(new URL("../docs/growth/copy-review-2026-11-07.json", import.meta.url))).cards;
+  assert.ok(batch.length > 0 && batch.length <= 10);
+  for (const card of batch) {
+    const record = positions.find(position => position.id === card.id);
+    assert.ok(record, card.id);
+    const source = applyVerifiedPositionEnrichment(record);
+    for (const [key, value] of Object.entries(card.source)) assert.equal(source[key], value, `${card.id}:${key}`);
+    assert.deepEqual(reviewedCardCopy.find(review => review.source.id === card.id), { source: card.source, ...card.proposal });
+    assert.equal(positionCardPresentation(source).title, card.proposal.title);
+    assert.equal(positionCardPresentation(source).summary, card.proposal.summary);
+  }
+});
