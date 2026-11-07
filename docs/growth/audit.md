@@ -1,3 +1,7 @@
+## 7 novembre 2026 — Chiarezza delle schede esposte
+
+Verificata la PR #76 su main `7cc3b7c`: smoke pubblico e testo aggiornato nella landing Psicologia. Confronto con snapshot 6 novembre: 2.570 ID, zero nuovi, zero campi fonte variati o override invalidati. MUR controllato il 3 novembre; il badge non è un segnale di nuova acquisizione.
+
 ## 6 novembre 2026 — Ripresa task e recupero copy prioritario
 
 Recupero autorizzato dall’utente e task riattivato alle9Europe/Rome senza cambiare prompt/calendario. Main57f0308/PR75 verificata in home:6/6card revisionate. DatiMUR controllati3novembre12:54UTC; nessun nuovoID né cambiofingerprint rispetto baseline4novembre. Verifica fonte10proposte svolta da copywriter e responsabile;0invalidazioni.34revisioni precedenti preservate.

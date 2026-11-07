@@ -1,3 +1,7 @@
+## 7 novembre 2026 — Chiarezza delle schede esposte
+
+Delegata la selezione e la prima verifica al copywriter; responsabile ha confrontato le dieci proposte con gli estratti fonte. Nove temi espliciti e una scheda di Geologia applicata con progetto non attestato. D.R. UniFi 1450/2026 conferma il settore ma non collega esplicitamente l’ID MUR al progetto: nessun abbinamento dedotto.
+
 ## 6 novembre 2026 — Ripresa task e recupero copy prioritario
 
 Il6novembre l’utente approva riattivazione task e recupero immediato. Ripreso il lavoro esistente anziché creare duplicati. Copywriter delegato in sola lettura,ownerrevisione/pubblicazione. Non confondere319437(datapubblicazione9novembre)con cardhome corrente. Aggiornato manifesto con provaPR75 giàverificata,nel medesimo lotto sostanziale. Nessuna pubblicazione diPR67oInsightsottobre.

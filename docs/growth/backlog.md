@@ -1,3 +1,7 @@
+## 7 novembre 2026 — Chiarezza delle schede esposte
+
+Priorità: chiarezza nei percorsi già esposti (impatto 8/10, confidenza 9/10 sulla fedeltà, sforzo 2/10, rischio 2/10). Da 26 a 36 revisioni abbinate su 77 ID del campione odierno; restano 41 da valutare, non 41 difetti accertati. Prossimo lotto: temi recuperabili da fonti ufficiali, senza inferire attività dal solo SSD. PR #67 e Insights restano separati.
+
 ## 6 novembre 2026 — Ripresa task e recupero copy prioritario
 
 Completare pubblicazione sicura del lotto10copy:80ID esposti al6novembre,17→27revisionati abbinati,63→53da valutare. Cambiato il denominatore rispetto agli82del4novembre per il trascorrere delle scadenze:non attribuirlo a crescita. Home6/6. NuoviID0, changed0. Proseguire i53ID prioritari, senza parafrasi inutili o attività inventate. Insightsottobre e guidaPR67 non pubblicati né approvati da questa ripresa.

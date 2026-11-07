@@ -1,3 +1,7 @@
+## 7 novembre 2026 — Chiarezza delle schede esposte
+
+Home 6/6. Campione: ID unici in home, prime otto delle cinque landing Posizioni e fino a tre correlati delle rispettive schede. Copertura editoriale 26→36/77, arretrato 51→41, 10 revisionate prima del deploy. Il denominatore può cambiare con le scadenze. GSC Wizard rifiuta la query senza dimensioni (`payment_required`); nessuna nuova misura di traffico, CTR o indice e nessun costo.
+
 ## 6 novembre 2026 — Ripresa task e recupero copy prioritario
 
 Outputrecupero:10nuove revisioni,34precedenti preservate,44totali dopo test; pubblicazione nuova subordinata al deploy. Campione attuale80ID unici:17→27revisionati,arretrato63→53;home6/6. Fontecatalogo2570ID invariata rispetto4novembre,nuovi0,changed0. Nessun nuovoexportGSC né aumentoCTR/traffico attribuito. Ultimi dati documentati fino28ottobre,non performance attuale.
