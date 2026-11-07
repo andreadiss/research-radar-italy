@@ -48,7 +48,8 @@ function toDbImportRun(run) {
     report_json: {
       newOrChanged: run.newOrChanged ?? 0,
       sourceRecordsTotal: run.sourceRecordsTotal ?? 0,
-      positionsTotal: run.positionsTotal ?? 0
+      positionsTotal: run.positionsTotal ?? 0,
+      failedDetails: run.failedDetails ?? []
     }
   };
 }

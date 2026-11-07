@@ -37,6 +37,10 @@ if (!skipFetch) {
 
 const latest = JSON.parse(await readFile(rawPath, "utf8"));
 const fetchedRecords = latest.results ?? [];
+const failedDetails = latest.failedDetails ?? [];
+const unavailableIds = new Set(failedDetails.map(({ sourceCategory, externalId }) =>
+  `mur-${sourceCategory}-${externalId}`
+));
 const previousSourceRecords = await readJson(`${storeDir}/source-records.json`, []);
 const previousPositions = await readJson(cachePath, []);
 const previousRuns = await readJson(`${storeDir}/import-runs.json`, []);
@@ -79,7 +83,8 @@ const currentSourceRecords = allSourceRecords.filter((record) => record.lastSeen
 const normalizedPositions = normalizeRecords(currentSourceRecords.map((record) => record.normalizedSnapshot));
 const allPositions = reconcilePositions(previousPositions, normalizedPositions, {
   fullSync: limit === "all",
-  checkedAt: startedAt
+  checkedAt: startedAt,
+  unavailableIds
 })
   .sort((a, b) => String(a.deadline).localeCompare(String(b.deadline)));
 
@@ -89,6 +94,7 @@ const importRun = {
   startedAt,
   finishedAt: new Date().toISOString(),
   status: "success",
+  failedDetails,
   recordsSeen: fetchedRecords.length,
   newOrChanged,
   sourceRecordsTotal: allSourceRecords.length,
@@ -117,10 +123,13 @@ if (persist === "supabase") {
 
 // Only a complete, live import with successful persistence certifies freshness.
 // Replaying a local fixture or a limited import must preserve the previous check.
-if (!skipFetch && limit === "all") {
+if (!skipFetch && limit === "all" && failedDetails.length === 0) {
   await writeJson(checkStatusPath, { lastSuccessfulCheckAt: new Date().toISOString() });
 }
 
+if (failedDetails.length > 0) {
+  console.warn(`Partial MUR sync: ${failedDetails.length} details deferred until the next import. Full-check timestamp unchanged.`);
+}
 console.log(`Fetched ${fetchedRecords.length} records`);
 console.log(`New or changed source records: ${newOrChanged}`);
 console.log(`Store totals: ${allSourceRecords.length} source records, ${allPositions.length} positions`);

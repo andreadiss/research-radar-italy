@@ -80,19 +80,37 @@ if (selectedCategories.length === 0) {
 }
 
 const results = [];
+const failedDetails = [];
+const isolatedDetailStatuses = new Set([404, 410, 500, 502, 503, 504]);
+const maxFailedDetails = 10;
 const importStartedAt = new Date().toISOString();
 
 for (const category of selectedCategories) {
   const searchUrl = await buildSearchUrl(category, status);
   const searchHtml = await fetchText(searchUrl);
   const detailUrls = extractDetailUrls(searchHtml, category).slice(0, Number.isFinite(limit) ? limit : undefined);
+  let imported = 0;
 
   for (const detailUrl of detailUrls) {
-    const detailHtml = await fetchText(detailUrl);
+    const externalId = detailUrl.pathname.split("/").at(-1);
+    let detailHtml;
+    try {
+      detailHtml = await fetchText(detailUrl);
+    } catch (error) {
+      // A broken detail page still present in a successful search is not a withdrawal.
+      // Do not suppress permission/rate-limit errors or broad source failures.
+      if (!isolatedDetailStatuses.has(error.status)) throw error;
+      failedDetails.push({ sourceCategory: category.key, externalId, sourceUrl: detailUrl.href, status: error.status });
+      console.warn(`MUR detail deferred: HTTP ${error.status} ${detailUrl.href}`);
+      if (failedDetails.length > maxFailedDetails) {
+        throw new Error(`More than ${maxFailedDetails} MUR details unavailable; keeping the previous catalog.`, { cause: error });
+      }
+      continue;
+    }
     const fields = extractTableFields(detailHtml);
 
     results.push({
-      externalId: detailUrl.pathname.split("/").at(-1) ?? detailUrl.href,
+      externalId,
       sourceName: "MUR/Cineca",
       sourceCategory: category.key,
       sourceCategoryLabel: category.label,
@@ -133,10 +151,11 @@ for (const category of selectedCategories) {
       fundingType: detectFundingFromFields(fields),
       rawFields: fields
     });
+    imported += 1;
   }
 
   console.log(
-    `${category.label}: ${detailUrls.length} detail URLs imported from ${searchUrl.href}`
+    `${category.label}: ${imported}/${detailUrls.length} detail URLs imported from ${searchUrl.href}`
   );
 }
 
@@ -150,6 +169,7 @@ await writeFile(
       status,
       limit,
       count: results.length,
+      failedDetails,
       results
     },
     null,
@@ -158,7 +178,7 @@ await writeFile(
   "utf8"
 );
 
-console.log(`Wrote ${results.length} records to ${outputPath}`);
+console.log(`Wrote ${results.length} records to ${outputPath}; ${failedDetails.length} details deferred`);
 
 async function buildSearchUrl(category, statusValue) {
   const url = new URL(category.searchPath, BASE_URL);

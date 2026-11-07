@@ -22,6 +22,7 @@ export async function fetchTextWithRetry(url, options = {}) {
     if (response?.ok) return response.text();
     if (response) {
       const error = new Error(`Failed ${response.status} ${response.statusText}: ${url}`);
+      error.status = response.status;
       if (!RETRYABLE_STATUS.has(response.status) || attempt === attempts - 1) throw error;
       lastError = error;
     }
