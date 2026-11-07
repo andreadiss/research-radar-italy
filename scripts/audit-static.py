@@ -62,7 +62,7 @@ for path in root.rglob("index.html"):
 errors = []
 editorial_destinations = (
     "/guide/cercare-opportunita-ricerca/",
-    "/insights/2026-09/",
+    "/insights/2026-10/",
 )
 for route in ("/", "/posizioni/"):
     for destination in editorial_destinations:
@@ -70,6 +70,8 @@ for route in ("/", "/posizioni/"):
             errors.append(f"Expected exactly one editorial link from {route} to {destination}")
         if destination not in pages:
             errors.append(f"Editorial destination has no exported HTML: {destination}")
+    if "/insights/2026-09/" in pages[route].links:
+        errors.append(f"September should remain in the archive, not the featured slot on {route}")
 for route in ("/", "/posizioni/", "/funding/"):
     if not pages[route].h1 or not pages[route].links:
         errors.append(f"Missing initial HTML content: {route}")
@@ -80,6 +82,11 @@ ns = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
 sitemap = ET.parse(root / "sitemap.xml")
 sitemap_items = sitemap.findall(".//s:url", ns)
 urls = [item.find("s:loc", ns).text for item in sitemap_items]
+for edition in ("/insights/2026-10/", "/insights/2026-09/"):
+    if edition not in pages or "https://rritaly.com" + edition not in urls:
+        errors.append(f"Insight missing from export or sitemap: {edition}")
+    if pages["/insights/"].links.count(edition) != 1:
+        errors.append(f"Expected one archive link to {edition}")
 reading_guide = "/guide/leggere-bando-ricerca/"
 if reading_guide not in pages or "https://rritaly.com" + reading_guide not in urls:
     errors.append("Reading-call guide missing from export or sitemap")

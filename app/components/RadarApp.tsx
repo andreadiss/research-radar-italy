@@ -11,6 +11,7 @@ import { FloatingIntentMenu } from "@/app/components/FloatingIntentMenu";
 import { HomeFavoritesPreview } from "@/app/components/HomeFavoritesPreview";
 import { NextBestActions } from "@/app/components/NextBestActions";
 import { HomeEditorialLinks } from "@/app/components/EditorialArticle";
+import { latestInsight } from "@/lib/insight-editions";
 import { OpportunityActions } from "@/app/components/OpportunityActions";
 import { OpportunityPreview } from "@/app/components/OpportunityPreview";
 import { TrackedLink } from "@/app/components/TrackedLink";
@@ -307,7 +308,7 @@ export function RadarApp({ initialIntent = "home" }: { initialIntent?: Intent } 
           </div>
           <nav className="editorial-nav" aria-label="Guide e insight per la ricerca">
             <Link href="/guide/cercare-opportunita-ricerca">Guida: non cercare solo Postdoc</Link>
-            <Link href="/insights/2026-09">Insights: settori e posizioni di settembre</Link>
+            <Link href={latestInsight.path}>Insights: {latestInsight.month}</Link>
           </nav>
           {canShowPositionResults ? (
             <>

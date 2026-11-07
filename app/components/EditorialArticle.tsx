@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { ReactNode } from "react";
 import { Compass, ChartNoAxesCombined } from "lucide-react";
 import { SiteTopbar } from "@/app/components/SiteTopbar";
+import { latestInsight } from "@/lib/insight-editions";
 
 export function EditorialArticle({ title, category, children, publishedOn = "26 ottobre 2026" }: { title: string; category: string; children: ReactNode; publishedOn?: string }) {
   return <main className="shell">
@@ -22,10 +23,10 @@ export function HomeEditorialLinks() {
       <div className="editorial-entry-copy"><span className="editorial-kicker">Guida alla ricerca</span><h2>Stai cercando solo Postdoc?</h2>
       <p>Scopri quali altre opportunità valutare</p></div><strong><span className="editorial-entry-cta">Leggi la guida </span><span aria-hidden="true">→</span></strong>
     </Link>
-    <Link className="editorial-entry editorial-entry-insights" href="/insights/2026-09">
+    <Link className="editorial-entry editorial-entry-insights" href={latestInsight.path}>
       <ChartNoAxesCombined className="editorial-entry-icon" size={23} aria-hidden="true" />
-      <div className="editorial-entry-copy"><span className="editorial-kicker">Insights · Settembre 2026</span><h2>Dove si concentra la ricerca?</h2>
-      <p>Settori e posizioni: i dati di settembre</p></div><strong><span className="editorial-entry-cta">Leggi gli insight </span><span aria-hidden="true">→</span></strong>
+      <div className="editorial-entry-copy"><span className="editorial-kicker">Insights · {latestInsight.month}</span><h2>{latestInsight.title}</h2>
+      <p>{latestInsight.summary}</p></div><strong><span className="editorial-entry-cta">Leggi gli insight </span><span aria-hidden="true">→</span></strong>
     </Link>
   </section>;
 }

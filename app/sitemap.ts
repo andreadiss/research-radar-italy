@@ -5,9 +5,10 @@ import { seoLandingPages } from "@/lib/seo-landing-pages";
 import { absoluteUrl } from "@/lib/site-url";
 import { isAvailableGrant, isOpenPosition } from "@/lib/opportunity-status";
 import { directoryPageCount, directoryPath } from "@/lib/opportunity-directory";
+import { insightEditions } from "@/lib/insight-editions";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const routes: MetadataRoute.Sitemap = ["/", "/posizioni", "/funding", "/about", "/privacy", "/cookie", "/terms", "/contact", "/guide", "/guide/cercare-opportunita-ricerca", "/guide/leggere-bando-ricerca", "/insights", "/insights/2026-09"]
+  const routes: MetadataRoute.Sitemap = ["/", "/posizioni", "/funding", "/about", "/privacy", "/cookie", "/terms", "/contact", "/guide", "/guide/cercare-opportunita-ricerca", "/guide/leggere-bando-ricerca", "/insights", ...insightEditions.map(({ path }) => path)]
     .map((path) => ({ url: absoluteUrl(path) }));
   // Position updatedAt changes only when reconciled source content changes.
   // Keep lastmod off aggregate/static routes until they have equivalent provenance.
