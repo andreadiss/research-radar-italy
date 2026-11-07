@@ -1,6 +1,6 @@
 # Ottobre 2026: una fotografia parziale delle opportunità di ricerca
 
-**Bozza interna aggiornata il 4 novembre 2026. Non pubblicata, non collegata al sito.** Il controllo fonte del 3 novembre contiene ora schede pubblicate fino al 31 ottobre, ma non certifica la completezza storica. Prima della pubblicazione occorre validare la copertura oppure approvare esplicitamente una fotografia del solo catalogo osservato. Non presentare questa bozza come il bilancio completo del mercato di ottobre.
+**Bozza storica del 4 novembre 2026, sostituita dalla versione approvata del 7 novembre.** I numeri qui sotto appartengono allo snapshot precedente. La versione destinata al sito è in `app/insights/2026-10/page.tsx`: 929 schede dal 1° al 31 ottobre, snapshot `340f35f854a88886e784bd823dfe487e4d963c0a`, ultimo controllo 7 novembre 2026, SHA256 `d9a673542868bb6df3488788c03025f0e0fedeeb11935da844914b2266de2610`. Riproduzione: `node scripts/monthly-insights.mjs 2026-10 2026-11-07T10:00:00Z` sullo snapshot indicato. Approvata la fotografia del catalogo osservato, non un bilancio completo né un confronto di mercato.
 
 ## Il dato da cui partire
 
