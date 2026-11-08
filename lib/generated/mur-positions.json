@@ -68387,7 +68387,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-10-08T12:03:08.902Z"
+    "updatedAt": "2026-10-08T12:03:08.902Z",
+    "archivedAt": "2026-11-08T11:57:08.388Z"
   },
   {
     "id": "mur-research-assignments-318661",
@@ -68450,7 +68451,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-10-09T11:54:52.561Z"
+    "updatedAt": "2026-10-09T11:54:52.561Z",
+    "archivedAt": "2026-11-08T11:57:08.388Z"
   },
   {
     "id": "mur-research-assignments-318692",
@@ -68481,7 +68483,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-10-09T11:54:52.561Z"
+    "updatedAt": "2026-10-09T11:54:52.561Z",
+    "archivedAt": "2026-11-08T11:57:08.388Z"
   },
   {
     "id": "mur-postdoc-assignments-318663",
@@ -68514,7 +68517,8 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-10-09T11:54:52.561Z"
+    "updatedAt": "2026-10-09T11:54:52.561Z",
+    "archivedAt": "2026-11-08T11:57:08.388Z"
   },
   {
     "id": "mur-postdoc-assignments-318669",
@@ -68545,7 +68549,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-10-09T11:54:52.561Z"
+    "updatedAt": "2026-10-09T11:54:52.561Z",
+    "archivedAt": "2026-11-08T11:57:08.388Z"
   },
   {
     "id": "mur-research-assignments-318727",
@@ -68576,7 +68581,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-10-10T11:11:29.422Z"
+    "updatedAt": "2026-10-10T11:11:29.422Z",
+    "archivedAt": "2026-11-08T11:57:08.388Z"
   },
   {
     "id": "mur-fixed-term-researchers-153828",
@@ -68609,7 +68615,8 @@
     "reviewReasons": [
       "unknown_region"
     ],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-08T11:57:08.388Z"
   },
   {
     "id": "mur-fixed-term-researchers-153829",
@@ -68643,7 +68650,8 @@
       "unknown_region",
       "multiple_scientific_sectors"
     ],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-08T11:57:08.388Z"
   },
   {
     "id": "mur-research-assignments-319617",
@@ -68674,7 +68682,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-08T11:57:08.388Z"
   },
   {
     "id": "mur-fixed-term-researchers-152544",
@@ -81786,7 +81795,7 @@
     "gsd": "13/STAT-04 - METODI MATEMATICI DELL'ECONOMIA E DELLE SCIENZE ATTUARIALI E FINANZIARIE",
     "fundingType": "PNRR",
     "deadline": "2026-11-22",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-10-23",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/153623",
@@ -83212,6 +83221,37 @@
     "updatedAt": "2026-11-07T09:14:54.805Z"
   },
   {
+    "id": "mur-research-assignments-319239",
+    "title": "2026-IdrDip-07-sanpubb - Neurosviluppo, salute mentale e benessere psicologico di Bambini e Adolescenti",
+    "institution": "Università di Pavia",
+    "department": "Da bando ufficiale",
+    "location": "Pavia",
+    "region": "Lombardia",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Medicina e salute",
+    "ssd": "MEDS-24/A - Statistica medica",
+    "gsd": "06/MEDS-24 - STATISTICA MEDICA, IGIENE GENERALE E APPLICATA E SCIENZE INFERMIERISTICHE GENERALI, CLINICHE, PEDIATRICHE E OSTETRICO-GINECOLOGICHE E NEONATALI",
+    "fundingType": "Non specificato",
+    "deadline": "2026-11-24",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-10-21",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/319239",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "L’obiettivo del progetto è descrivere la salute neuropsichica di bambini e adolescenti residenti in Lombardia attraverso l’analisi longitudinale degli accessi ai servizi sanitari, stimando prevalenza e incidenza dei disturbi neuropsichici, analizzandone continuità di cura,andamento temporale e distribuzione territoriale, nonché i fattori individuali e territoriali associati a condizioni dicriticità.Le attività colle...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "2026 idrdip 07 sanpubb neurosviluppo salute mentale e benessere psicologico bambini e adolescenti|pavia|2026-11-24",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-11-08T11:57:08.388Z"
+  },
+  {
     "id": "mur-postdoc-assignments-318934",
     "title": "Processi chimici innovativi per il trattamento delle acque e dei fanghi industriali e il recupero di composti ad elevato valore aggiunto",
     "institution": "Dipartimento Ingegneria Chimica Materiali Ambiente",
@@ -83803,6 +83843,163 @@
       "multiple_scientific_sectors"
     ],
     "updatedAt": "2026-11-07T09:14:54.805Z"
+  },
+  {
+    "id": "mur-research-assignments-319555",
+    "title": "2026-IdrDip-05-medmol - Compartimentalizzazione della segnalazione nucleare nell’invecchiamento del muscolo scheletrico: il ruolo dello squilibrio tra chinasi e fosfatasi",
+    "institution": "Università di Pavia",
+    "department": "Da bando ufficiale",
+    "location": "Pavia",
+    "region": "Lombardia",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Biologia, biotech e farmacia",
+    "ssd": "BIOS-06/A - Fisiologia",
+    "gsd": "05/BIOS-06 - FISIOLOGIA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-11-25",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-10-23",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/319555",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Il progetto propone l’idea innovativa che l’equilibrio tra chinasi e fosfatasi nucleari sia fondamentale per il mantenimento dell’omeostasi del muscolo scheletrico durante l’invecchiamento. Per verificare questa ipotesi,il candidato utilizzerà diverse tecniche e strumenti innovativi,tra cui screening CRISPR-FRET ottici combinati, biosensori a localizzazione nucleare e analisi proteomiche spaziali dei nuclei di singo...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "2026 idrdip 05 medmol compartimentalizzazione segnalazione nucleare nell invecchiamento muscolo scheletrico il ruolo dello squilibrio tra chinasi e fosfatasi|pavia|2026-11-25",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-11-08T11:57:08.388Z"
+  },
+  {
+    "id": "mur-research-assignments-319581",
+    "title": "2026-IdrDip-07-medmol - Teleangiectasia Emorragica Ereditaria (HHT): identificazione di varianti e sviluppo di strategie terapeutiche",
+    "institution": "Università di Pavia",
+    "department": "Da bando ufficiale",
+    "location": "Pavia",
+    "region": "Lombardia",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Altro / interdisciplinare",
+    "ssd": "BIOS-10/A - Biologia cellulare e applicata\nMEDS-01/A - Genetica medica",
+    "gsd": "05/BIOS-10 - BIOLOGIA CELLULARE E APPLICATA\n06/MEDS-01 - GENETICA MEDICA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-11-25",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-10-23",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/319581",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Analisi del genoma in pazienti privi di diagnosi molecolare dopo iter diagnostico classico. L’incarico prevederà: analisi dei risultati di sequenziamento, identificazione e classificazione delle varianti criptiche, caratterizzazione delle varianti, con particolare attenzione a quelle correlate ad un’alterazione dello splicing. Analisi secondarie mediante RNA-seq su materiale bioptico dei pazienti alla ricerca di pat...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "2026 idrdip 07 medmol teleangiectasia emorragica ereditaria hht identificazione varianti e sviluppo strategie terapeutiche|pavia|2026-11-25",
+    "reviewStatus": "needs_review",
+    "confidenceScore": 0.83,
+    "reviewReasons": [
+      "multiple_scientific_sectors"
+    ],
+    "updatedAt": "2026-11-08T11:57:08.388Z"
+  },
+  {
+    "id": "mur-research-assignments-319586",
+    "title": "2026-IdrDip-06-medmol - Predisposizione Germinale all’insorgenza delle neoplasie mieloproliferative Ph-negative",
+    "institution": "Università di Pavia",
+    "department": "Da bando ufficiale",
+    "location": "Pavia",
+    "region": "Lombardia",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Medicina e salute",
+    "ssd": "MEDS-09/B - Malattie del sangue",
+    "gsd": "06/MEDS-09 - MALATTIE DEL SANGUE, ONCOLOGIA E REUMATOLOGIA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-11-25",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-10-23",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/319586",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Il progetto è focalizzato a dimostrare la prevalenza nelle neoplasie mieloproliferative di mutazioni a carico di geni coinvolti nei meccanismi di riparazione del DNA e a dimostrare se la sorveglianza dei familiari sani mutati consenta una identificazione precoce di neoplasia solide e/o di disordini mieloidi. Infine, cercheremo di valutare in vitro se le varianti germinali di CHEK2 possono agire in sinergia con le mu...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "2026 idrdip 06 medmol predisposizione germinale all insorgenza neoplasie mieloproliferative ph negative|pavia|2026-11-25",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-11-08T11:57:08.388Z"
+  },
+  {
+    "id": "mur-research-assignments-319593",
+    "title": "2026-IdrDip-08-medmol - Approcci analitici integrati e imaging High-Content quantitativo e multiparametrico per lo studio di modelli tumorali",
+    "institution": "Università di Pavia",
+    "department": "Da bando ufficiale",
+    "location": "Pavia",
+    "region": "Lombardia",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Medicina e salute",
+    "ssd": "MEDS-02/A - Patologia generale",
+    "gsd": "06/MEDS-02 - PATOLOGIA GENERALE E PATOLOGIA CLINICA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-11-25",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-10-23",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/319593",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "ll progetto integra diverse metodologie d'analisi cellulari, biomolecolari e fenotipiche, tra cui saggi di citotossicità e proliferazione cellulare, saggi immunoenzimatici (ELISA/Western Blot), citometria a flusso e analisi di espressione genica (qPCR/RNA-Seq), e in modo particolare l’imaging e l'analisi ad alto contenuto (High-Content Imaging and Analysis) che combinano la microscopia automatizzata con un'analisi d...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "2026 idrdip 08 medmol approcci analitici integrati e imaging high content quantitativo e multiparametrico per lo studio modelli tumorali|pavia|2026-11-25",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-11-08T11:57:08.388Z"
+  },
+  {
+    "id": "mur-postdoc-assignments-319515",
+    "title": "2026-IpdDip-03-diii - Ricerca di soluzioni LNA CMOS a banda ultra-larga con cancellazione del rumore per ricevitori senza FEM",
+    "institution": "Università di Pavia",
+    "department": "Da bando ufficiale",
+    "location": "Pavia",
+    "region": "Lombardia",
+    "positionType": "Postdoc",
+    "professorRank": "",
+    "discipline": "Ingegneria, informatica e AI",
+    "ssd": "IINF-01/A - Elettronica",
+    "gsd": "09/IINF-01 - ELETTRONICA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-11-25",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-10-21",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/319515",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Le architetture di ricezione allo stato dell'arte si basano su molteplici stadi LNA in GaAs collegati in cascata e integrati nel modulo front-end (FEM), seguiti da un balun su PCB che interfaccia il FEM con il circuito integrato in CMOS. Tale approccio garantisce prestazioni elevate, ma comporta un aumento del consumo di potenza, dei costi e della complessità complessiva del sistema. L'obiettivo del progetto è indiv...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "2026 ipddip 03 diii ricerca soluzioni lna cmos a banda ultra larga con cancellazione rumore per ricevitori senza fem|pavia|2026-11-25",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-11-08T11:57:08.388Z"
   },
   {
     "id": "mur-fixed-term-researchers-153248",
@@ -85763,6 +85960,39 @@
     "updatedAt": "2026-11-07T09:14:54.805Z"
   },
   {
+    "id": "mur-research-assignments-319602",
+    "title": "2026-IdrDip-09-medmol - Sequenziamento in situ delle nicchie tissutali dei linfociti T nel tumore del colon retto",
+    "institution": "Università di Pavia",
+    "department": "Da bando ufficiale",
+    "location": "Pavia",
+    "region": "Lombardia",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Altro / interdisciplinare",
+    "ssd": "BIOS-10/A - Biologia cellulare e applicata\nBIOS-08/A - Biologia molecolare\nMEDS-02/A - Patologia generale",
+    "gsd": "05/BIOS-10 - BIOLOGIA CELLULARE E APPLICATA\n05/BIOS-08 - BIOLOGIA MOLECOLARE\n06/MEDS-02 - PATOLOGIA GENERALE E PATOLOGIA CLINICA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-11-27",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-10-27",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/319602",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Set up ed utilizzo di metodi innovativi di in situ sequencing. Analisi di tessuti di carcinoma del colon, volti a studiare il processo di “exhaustion” dei linfociti T.",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "2026 idrdip 09 medmol sequenziamento in situ nicchie tissutali dei linfociti t nel tumore colon retto|pavia|2026-11-27",
+    "reviewStatus": "needs_review",
+    "confidenceScore": 0.83,
+    "reviewReasons": [
+      "multiple_scientific_sectors"
+    ],
+    "updatedAt": "2026-11-08T11:57:08.388Z"
+  },
+  {
     "id": "mur-postdoc-assignments-319541",
     "title": "Valutazione funzionale di cementi endodontici bioattivi e nuove strategie di detersione canalare per l'ottimizzazione del successo clinico",
     "institution": "Università degli Studi di Napoli Federico II",
@@ -86650,6 +86880,37 @@
     "updatedAt": "2026-11-07T09:14:54.805Z"
   },
   {
+    "id": "mur-research-assignments-319578",
+    "title": "2026-IdrDip-18-chimica - Approcci fotoindotti metallo-catalizzati per la valorizzazione di bioplastiche",
+    "institution": "Università di Pavia",
+    "department": "Da bando ufficiale",
+    "location": "Pavia",
+    "region": "Piemonte",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Matematica, fisica e chimica",
+    "ssd": "CHEM-05/A - Chimica organica",
+    "gsd": "03/CHEM-05 - CHIMICA ORGANICA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-11-30",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-10-09",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/319578",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Il programma di ricerca prevede: 1) lo studio di processi fotoindotti metallo-catalizzati per la valorizzazione delle bioplastiche; 2) lo sviluppo di processi fotocatalizzati di tipo eterogeneo per la decomposizione controllata di polimeri di tipo estereo; 3) l’implementazione su scala del grammo di processi per la valorizzazione fotocatalizzata di materiali bioplastici.",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "2026 idrdip 18 chimica approcci fotoindotti metallo catalizzati per la valorizzazione bioplastiche|pavia|2026-11-30",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-11-08T11:57:08.388Z"
+  },
+  {
     "id": "mur-research-assignments-319257",
     "title": "Implicazioni morali dei comportamenti collettivi omertosi nei contesti organizzativi",
     "institution": "Sapienza Università di Roma",
@@ -87208,6 +87469,37 @@
     "confidenceScore": 0.95,
     "reviewReasons": [],
     "updatedAt": "2026-11-07T09:14:54.805Z"
+  },
+  {
+    "id": "mur-research-assignments-319596",
+    "title": "2026-IdrDip-19-chimica - Messa a punto e ottimizzazione di processi sintetici fotoindotti per molecole di interesse farmaceutico",
+    "institution": "Università di Pavia",
+    "department": "Da bando ufficiale",
+    "location": "Pavia",
+    "region": "Lombardia",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Matematica, fisica e chimica",
+    "ssd": "CHEM-05/A - Chimica organica",
+    "gsd": "03/CHEM-05 - CHIMICA ORGANICA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-12-02",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-10-26",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/319596",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Il programma prevede a) il design di procedure specifiche mediate da luce visibile per il raggiungimento di target sintetici di interesse farmaceutico. b) lo scale-up dei processi sviluppati attraverso condizioni di flusso continuo.",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "2026 idrdip 19 chimica messa a punto e ottimizzazione processi sintetici fotoindotti per molecole interesse farmaceutico|pavia|2026-12-02",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-11-08T11:57:08.388Z"
   },
   {
     "id": "mur-fixed-term-researchers-153714",
@@ -89353,6 +89645,37 @@
     "updatedAt": "2026-11-07T09:14:54.805Z"
   },
   {
+    "id": "mur-research-assignments-319706",
+    "title": "2026-IdrDip-07-DISTA - Messa a punto e implementazione in campo di tecniche di inerbimento per vigneti in Oltrepò Pavese: dalla teoria alla pratica sperimentale.",
+    "institution": "Università di Pavia",
+    "department": "Da bando ufficiale",
+    "location": "Pavia",
+    "region": "Lombardia",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Biologia, biotech e farmacia",
+    "ssd": "BIOS-01/C - Botanica ambientale e applicata",
+    "gsd": "05/BIOS-01 - BOTANICA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-12-03",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-11-02",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/319706",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Il tema è quello della mitigazione degli effetti del cambiamento climatico, nello specifico l’eccessiva perdita di acqua dal terreno di colture permanenti (vitigni),mediante inerbimenti con specie erbacee spontanee autoctone (cover crops), seguendo il principio delle Nature Based Solution (NBS).Domande di ricerca: data l’importanza dell’inerbimento nell’interfila e delle sue terminazioni tardo-primaverili nel preser...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "2026 idrdip 07 dista messa a punto e implementazione in campo tecniche inerbimento per vigneti in oltrepo pavese dalla teoria alla pratica sperimentale|pavia|2026-12-03",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-11-08T11:57:08.388Z"
+  },
+  {
     "id": "mur-fixed-term-researchers-153686",
     "title": "Assistant Professor nel Dipartimento di Computing Sciences (INFO-01/A)",
     "institution": "Bocconi University",
@@ -90070,6 +90393,37 @@
     "confidenceScore": 0.95,
     "reviewReasons": [],
     "updatedAt": "2026-11-07T09:14:54.805Z"
+  },
+  {
+    "id": "mur-research-assignments-319702",
+    "title": "2026-IdrDip-03-medint - Ottimizzazione dei percorsi assistenziali nelle artriti infiammatorie croniche attraverso l’implementazione sistematica dei patient reported outcomes.",
+    "institution": "Università di Pavia",
+    "department": "Da bando ufficiale",
+    "location": "Pavia",
+    "region": "Lombardia",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Medicina e salute",
+    "ssd": "MEDS-09/C - Reumatologia",
+    "gsd": "06/MEDS-09 - MALATTIE DEL SANGUE, ONCOLOGIA E REUMATOLOGIA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-12-04",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-10-29",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/319702",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Il programma di ricerca è finalizzato all’ottimizzazione dei percorsi di cura del paziente con artrite reumatoide e artrite psoriasica, focalizzandosi sull’integrazione sistematica dei Patient-Reported Outcomes (PROMs) e dei Patient-Reported Experiences (PREMs). Le attività riguardano lo studio della qualità della vita, della disabilità e della percezione della malattia, approfondendo l’impatto del monitoraggio digi...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "2026 idrdip 03 medint ottimizzazione dei percorsi assistenziali nelle artriti infiammatorie croniche attraverso l implementazione sistematica dei patient reported outcomes|pavia|2026-12-04",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-11-08T11:57:08.388Z"
   },
   {
     "id": "mur-research-contracts-319791",
