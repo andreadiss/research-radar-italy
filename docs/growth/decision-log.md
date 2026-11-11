@@ -1,3 +1,9 @@
+## 11 novembre 2026 — Bilancio settimanale, accessibilità e nuove schede
+
+Bilancio settimanale: non è verificabile la crescita attuale con dati Prestazioni fermi al 28 ottobre; nessuna attribuzione ai rilasci. Mantenere il tempo sui percorsi di scoperta, sulle fonti e sull’accessibilità; non fare ulteriori cambi di snippet per CTR aggregato senza nuovi dati. Tre fronti bilanciati: discoverability tramite Insights ottobre e collegamenti verificati, qualità tramite 10 card/coda/fingerprint, usabilità tramite fix Condividi. Nessun redesign, costo o variazione del calendario.
+
+Le modifiche pipeline #78 sono lavoro recente già presente, fuori dall’intervento di oggi. Il fallimento Pages precedente viene osservato, non aggirato: merge/deploy del nuovo lotto solo con guardrail superati e chiusura pubblicazione dopo verifica live. Le 54 revisioni precedenti restano immutate; il manifesto incorpora la prova #77 nel lotto sostanziale, senza PR documentale separata.
+
 ## 7 novembre 2026 — Chiarezza delle schede esposte
 
 Delegata la selezione e la prima verifica al copywriter; responsabile ha confrontato le dieci proposte con gli estratti fonte. Nove temi espliciti e una scheda di Geologia applicata con progetto non attestato. D.R. UniFi 1450/2026 conferma il settore ma non collega esplicitamente l’ID MUR al progetto: nessun abbinamento dedotto.

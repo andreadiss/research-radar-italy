@@ -1,3 +1,7 @@
+## 11 novembre 2026 — Bilancio settimanale, accessibilità e nuove schede
+
+P1 accessibilità Condividi: Impact 8, Confidence 10 sul difetto/3 sul traffico, Effort 2, Risk 2. P1 copy nuove schede esposte: 10 revisioni, home 0/6→6/6 e campione 10→20/95; restano 75 ID da valutare, non 75 difetti accertati. Recuperati 356 ID rispetto al 7 novembre, tutti accodati; 40 fingerprint variati e 3 vecchie revisioni disattivate per SSD cambiato. Prossimo: verificare i tre SSD e continuare la coda, senza abbinare progetti per supposizione. Insights ottobre #79 è ora pubblicato e verificato: annullati i vecchi blocker di approvazione del perimetro; resta non certificata la completezza del mercato. Guida #67 ancora non approvata.
+
 ## 7 novembre 2026 — Chiarezza delle schede esposte
 
 Priorità: chiarezza nei percorsi già esposti (impatto 8/10, confidenza 9/10 sulla fedeltà, sforzo 2/10, rischio 2/10). Da 26 a 36 revisioni abbinate su 77 ID del campione odierno; restano 41 da valutare, non 41 difetti accertati. Prossimo lotto: temi recuperabili da fonti ufficiali, senza inferire attività dal solo SSD. PR #67 e Insights restano separati.

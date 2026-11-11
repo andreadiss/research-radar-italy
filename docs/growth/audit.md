@@ -1,3 +1,7 @@
+## 11 novembre 2026 — Bilancio settimanale, accessibilità e nuove schede
+
+Main `581be6b`, PR aperta #67 e sei documenti letti. Verificati home→Insights ottobre, Posizioni→ottobre, archivio→settembre/ottobre: HTTP 200 e canonical corretti. Il precedente deploy automatico 42843196727 ha build riuscita e pubblicazione Pages fallita; il sito resta sul rilascio precedente, motivo dettagliato non disponibile tramite gli endpoint consentiti. Nessun workflow modificato. Riprodotto Condividi: focus fuori dialogo dopo Enter, Escape lascia 1 dialogo; riusato l’helper già collaudato nelle anteprime, con ripristino al trigger e ciclo Tab.
+
 ## 7 novembre 2026 — Chiarezza delle schede esposte
 
 Verificata la PR #76 su main `7cc3b7c`: smoke pubblico e testo aggiornato nella landing Psicologia. Confronto con snapshot 6 novembre: 2.570 ID, zero nuovi, zero campi fonte variati o override invalidati. MUR controllato il 3 novembre; il badge non è un segnale di nuova acquisizione.
