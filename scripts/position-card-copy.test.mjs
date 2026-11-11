@@ -150,3 +150,18 @@ test("November 7 copy matches its review registry and uses matching source field
     assert.equal(positionCardPresentation(source).summary, card.proposal.summary);
   }
 });
+
+test("November 11 exposed-card batch matches sources and preserves the November 7 release", () => {
+  const batch = JSON.parse(readFileSync(new URL("../docs/growth/copy-review-2026-11-11.json", import.meta.url))).cards;
+  const previous = JSON.parse(readFileSync(new URL("../docs/growth/copy-review-2026-11-07.json", import.meta.url))).cards;
+  assert.equal(batch.length, 10);
+  for (const card of [...previous, ...batch]) {
+    assert.deepEqual(reviewedCardCopy.find(review => review.source.id === card.id), { source: card.source, ...card.proposal });
+  }
+  for (const card of batch) {
+    const source = applyVerifiedPositionEnrichment(positions.find(position => position.id === card.id));
+    for (const [key, value] of Object.entries(card.source)) assert.equal(source[key], value, `${card.id}:${key}`);
+    assert.equal(positionCardPresentation(source).title, card.proposal.title);
+    assert.equal(positionCardPresentation(source).summary, card.proposal.summary);
+  }
+});

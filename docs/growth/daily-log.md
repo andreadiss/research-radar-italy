@@ -1,3 +1,9 @@
+## 11 novembre 2026 — Bilancio settimanale, accessibilità e nuove schede
+
+Revisione settimanale eseguita. Letti main581be6b, PR67 e sei growth; verificati Insights ottobre #79 e archivio settembre, smoke pubblico PASS. Rilasci della settimana già verificati: copy #76/#77 e Insights ottobre #79; nessun risultato di traffico attribuito. GSC 2–8nov vs26ott–1nov bloccato payment_required. Ultimo confronto disponibile 22–28ott vs15–21ott: 46/506 vs9/257 clic/impression, dati al28ott con14giorni di ritardo. Crescita attuale e indice non aggiornabili oggi; proposta di priorità invariata su percorsi utili e qualità delle fonti, non conteggio PR.
+
+Misurato difetto tastiera Condividi e preparato fix client-only con helper esistente, senza layout o invii. Delegata selezione/riscrittura/prima verifica di10card al copywriter; owner QA10/10 e preservazione esatta delle54precedenti. Snapshot 2.926ID, nuovi356 e hash variati40 rispetto7nov;3override SSD invalidati restano disattivati. Campione95ID:10→20 revisionati,85→75arretrato,home0→6/6. Controlli locali184test,TypeScript,build,auditdati0errori e statico2.986HTML/778sitemap/0linkrotti/orfani; auditcopy30su46superfici. Il registro conserva checkpoint pre-deploy; chiusura live nella PR. Nessuna modifica a workflow, badge, sorgenti o guida67.
+
 ## 7 novembre 2026 — Chiarezza delle schede esposte
 
 Letti main, PR aperta #67 e documenti growth. Verificato il lotto #76: nota di chiusura 6685766726, smoke pubblico e Psicologia; manifesto aggiornato nello stesso intervento. Nuovi ID 0, fingerprint variati 0. Copy 10 nuovi su 77 ID esposti; home 6/6 e 44 precedenti preservati. Registro e snapshot del 7 novembre conservano lo stato pre-deploy; prove del rilascio e test nella PR. Nessuna pubblicazione di Insights o guida.

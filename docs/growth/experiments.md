@@ -1,3 +1,7 @@
+## 11 novembre 2026 — Bilancio settimanale, accessibilità e nuove schede
+
+Nessun A/B test e nessuna nuova raccolta dati. Outcome deterministici: Condividi sposta il focus dentro il dialogo, gestisce Tab/Shift+Tab, Escape e ritorno al trigger; clipboard, feedback e contenuti restano invariati. Test helper e collegamento del componente, poi verifica browser post-deploy. Copy controllato su fonti e fingerprint, con 3 mismatch mantenuti disattivati. TypeScript, 90 test operativi + 94 editoriali/tastiera, audit dati e build statica superati; audit 2.986 HTML/778 sitemap: 0 errori, link rotti o orfani; audit copy 30 occorrenze su 46 superfici.
+
 ## 7 novembre 2026 — Chiarezza delle schede esposte
 
 Nessun A/B test. Verifica deterministica di fingerprint, registri e resa nell’export; titoli ufficiali e fallback su fonte modificata preservati. Nessuna modifica a filtri, dati, tassonomia, ordine, suggerimenti, layout o badge.

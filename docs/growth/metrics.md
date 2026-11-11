@@ -1,3 +1,9 @@
+## 11 novembre 2026 — Bilancio settimanale, accessibilità e nuove schede
+
+Finestre settimanali richieste 2–8 novembre e 26 ottobre–1 novembre: query_search_analytics senza dimensioni rifiutata payment_required, poi chiamate interrotte; €0, GA4 escluso. Ultimo export documentato fino al 28 ottobre, oggi 14 giorni di ritardo: 22–28 vs 15–21 ottobre, clic 46 vs 9, impression 506 vs 257, CTR 9,09% vs 3,50%, posizione ponderata circa 6,04 vs 8,08. È un confronto storico, non la crescita della settimana attuale. Landing 22–28: Dottorati 25 clic/196 impression, Postdoc 11/190, RTT 9/70; query visibili soltanto 5/46 clic, non-brand non misurabile in modo completo. Fonte: sezione 31 ottobre di metrics.md e search-review-2026-10-31.md.
+
+Catalogo 2.926 ID; rispetto al 7 novembre 356 nuovi ID registrati, 40 fingerprint variati, 3 revisioni invalidate. Fonte controllata 9 novembre 14:12 UTC. Campione: ID unici in home6, prime8 delle5 landing Posizioni e fino3 correlati dei relativi dettagli: 95 ID, 10→20 con revisione abbinata, arretrato 85→75, home 0→6/6. 10 revisionate/implementate, pubblicazione da confermare dopo deploy. 54 precedenti preservate, 64 entry totali, non tutte applicate perché il guard disattiva i mismatch.
+
 ## 7 novembre 2026 — Chiarezza delle schede esposte
 
 Home 6/6. Campione: ID unici in home, prime otto delle cinque landing Posizioni e fino a tre correlati delle rispettive schede. Copertura editoriale 26→36/77, arretrato 51→41, 10 revisionate prima del deploy. Il denominatore può cambiare con le scadenze. GSC Wizard rifiuta la query senza dimensioni (`payment_required`); nessuna nuova misura di traffico, CTR o indice e nessun costo.
