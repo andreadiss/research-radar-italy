@@ -1,3 +1,7 @@
+## 12 novembre 2026 — Recupero copy prioritario
+
+Scelto lotto copy sulle superfici già esposte: Impact7/10, Confidence9/10 sulla fedeltà e non sul traffico, Effort2/10, Risk1/10. Dieci revisioni: tre mismatch SSD ricontrollati ma non riattivati, sette nuove proposte pertinenti. Baseline odierna21/95 e home6/6; differisce da ieri per il trascorrere delle scadenze, non per crescita. PR67 separata/non approvata. Il supporto a versioni successive delle revisioni invalidate va affrontato come task distinto con test di unicità e fallback.
+
 ## 11 novembre 2026 — Bilancio settimanale, accessibilità e nuove schede
 
 P1 accessibilità Condividi: Impact 8, Confidence 10 sul difetto/3 sul traffico, Effort 2, Risk 2. P1 copy nuove schede esposte: 10 revisioni, home 0/6→6/6 e campione 10→20/95; restano 75 ID da valutare, non 75 difetti accertati. Recuperati 356 ID rispetto al 7 novembre, tutti accodati; 40 fingerprint variati e 3 vecchie revisioni disattivate per SSD cambiato. Prossimo: verificare i tre SSD e continuare la coda, senza abbinare progetti per supposizione. Insights ottobre #79 è ora pubblicato e verificato: annullati i vecchi blocker di approvazione del perimetro; resta non certificata la completezza del mercato. Guida #67 ancora non approvata.

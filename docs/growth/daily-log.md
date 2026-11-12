@@ -1,3 +1,9 @@
+## 12 novembre 2026 — Recupero copy prioritario
+
+Owner QA7/7 fonti/proposte e preservazione64entry PASS. TypeScript,91testoperativi+102editoriali/tastiera=193, auditdati0errori, buildstatica production e auditcopy39occorrenze su46superfici superati. Copertura21→28/95,home6/6,arretrato74→67. Tre mismatch ricontrollati restano disattivati; nessun cambiamento del modello di override. Registro/coda conservano checkpoint pre-deploy, chiusura pubblicazione nel commento PR verificato.
+
+Letti main91d4a4f, PR67 aperta e sei growth. Verificati precedente PR80 e successivo deploy Grants: smoke pubblico PASS; pubblicazione10card di ieri recepita nel manifesto. Snapshot invariato dal11nov:0nuovi/0cambi fonte. Copywriter delegato su3mismatchSSD e7nuovecard esposte; i mismatch restano disattivati. Il sito resta sano, nessuna attività su pipeline/infrastruttura. GSC non ripetuto dopo payment_required di ieri; nessun dato di crescita inventato. Gate, PR e pubblicazione riportati al completamento, senza dichiarazione anticipata.
+
 ## 11 novembre 2026 — Bilancio settimanale, accessibilità e nuove schede
 
 Revisione settimanale eseguita. Letti main581be6b, PR67 e sei growth; verificati Insights ottobre #79 e archivio settembre, smoke pubblico PASS. Rilasci della settimana già verificati: copy #76/#77 e Insights ottobre #79; nessun risultato di traffico attribuito. GSC 2–8nov vs26ott–1nov bloccato payment_required. Ultimo confronto disponibile 22–28ott vs15–21ott: 46/506 vs9/257 clic/impression, dati al28ott con14giorni di ritardo. Crescita attuale e indice non aggiornabili oggi; proposta di priorità invariata su percorsi utili e qualità delle fonti, non conteggio PR.
