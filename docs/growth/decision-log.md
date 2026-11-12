@@ -1,3 +1,7 @@
+## 12 novembre 2026 — Recupero copy prioritario
+
+Registrata nel manifesto la pubblicazione verificata delle10card della PR80 (commento6791794147), senza riapplicarle. Delega al copywriter di selezione, proposte e prima verifica; controllo indipendente del responsabile prima della pubblicazione. Non estendere il modello delle revisioni allo scopo di riattivare tre mismatch durante un lotto editoriale: conservare i guardrail. Fonti cache9nov, non apertura o rettifiche correnti riconfermate.
+
 ## 11 novembre 2026 — Bilancio settimanale, accessibilità e nuove schede
 
 Bilancio settimanale: non è verificabile la crescita attuale con dati Prestazioni fermi al 28 ottobre; nessuna attribuzione ai rilasci. Mantenere il tempo sui percorsi di scoperta, sulle fonti e sull’accessibilità; non fare ulteriori cambi di snippet per CTR aggregato senza nuovi dati. Tre fronti bilanciati: discoverability tramite Insights ottobre e collegamenti verificati, qualità tramite 10 card/coda/fingerprint, usabilità tramite fix Condividi. Nessun redesign, costo o variazione del calendario.

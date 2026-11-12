@@ -1,3 +1,7 @@
+## 12 novembre 2026 — Recupero copy prioritario
+
+Verificati main `91d4a4f`, unica PR aperta #67 (guida non approvata) e i sei documenti growth. PR80 pubblicata, Pages success anche dopo sync Grants (run43040806984); smoke pubblico home/Posizioni/indice/Funding/schede/sitemap PASS. MUR invariato: 2.926 ID, zero nuovi e zero fingerprint variati rispetto11nov; ultimo controllo fonte9novembre. I tre mismatch SSD restano disattivati; nessuna correzione tassonomica o modifica fonte dedotta.
+
 ## 11 novembre 2026 — Bilancio settimanale, accessibilità e nuove schede
 
 Main `581be6b`, PR aperta #67 e sei documenti letti. Verificati home→Insights ottobre, Posizioni→ottobre, archivio→settembre/ottobre: HTTP 200 e canonical corretti. Il precedente deploy automatico 42843196727 ha build riuscita e pubblicazione Pages fallita; il sito resta sul rilascio precedente, motivo dettagliato non disponibile tramite gli endpoint consentiti. Nessun workflow modificato. Riprodotto Condividi: focus fuori dialogo dopo Enter, Escape lascia 1 dialogo; riusato l’helper già collaudato nelle anteprime, con ripristino al trigger e ciclo Tab.

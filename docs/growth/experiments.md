@@ -1,3 +1,7 @@
+## 12 novembre 2026 — Recupero copy prioritario
+
+Nessun A/B test. Solo verifica deterministica di fonte, fingerprint, preservazione64revisioni precedenti e resa testuale nelle superfici prioritarie. Tre mismatch SSD conservati disattivati, nessuna riattivazione con fonte non coincidente. Nessuna modifica a ordine, suggerimenti, filtri, layout, badge, scadenze o dati fonte; gate e chiusura deploy nella PR del lotto.
+
 ## 11 novembre 2026 — Bilancio settimanale, accessibilità e nuove schede
 
 Nessun A/B test e nessuna nuova raccolta dati. Outcome deterministici: Condividi sposta il focus dentro il dialogo, gestisce Tab/Shift+Tab, Escape e ritorno al trigger; clipboard, feedback e contenuti restano invariati. Test helper e collegamento del componente, poi verifica browser post-deploy. Copy controllato su fonti e fingerprint, con 3 mismatch mantenuti disattivati. TypeScript, 90 test operativi + 94 editoriali/tastiera, audit dati e build statica superati; audit 2.986 HTML/778 sitemap: 0 errori, link rotti o orfani; audit copy 30 occorrenze su 46 superfici.

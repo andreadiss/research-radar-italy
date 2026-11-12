@@ -1,3 +1,9 @@
+## 12 novembre 2026 — Recupero copy prioritario
+
+Esito pre-deploy: 10 card revisionate, di cui 7 nuove implementate e 3 differite; copertura21→28/95, arretrato74→67, home6/6. Registro71entry, precedenti64identiche e3mismatchancora disattivati. Zero crescita di traffico attribuita; pubblicazione solo dopo verifica live.
+
+Nuovi ID0, fingerprint cambiati0 dal controllo11nov; catalogo2.926, cacheMUR controllata9nov14:12UTC. Prima del lotto21/95 ID prioritari con copy abbinato, home6/6; il denominatore deduplica home6, prime8 delle5landing Posizioni e fino3correlati per scheda. Non è una classifica di popolarità. GSC payment_required verificato ieri: nessun retry quotidiano, spesa o GA4; nessun nuovo dato di traffico/CTR/indicizzazione disponibile.
+
 ## 11 novembre 2026 — Bilancio settimanale, accessibilità e nuove schede
 
 Finestre settimanali richieste 2–8 novembre e 26 ottobre–1 novembre: query_search_analytics senza dimensioni rifiutata payment_required, poi chiamate interrotte; €0, GA4 escluso. Ultimo export documentato fino al 28 ottobre, oggi 14 giorni di ritardo: 22–28 vs 15–21 ottobre, clic 46 vs 9, impression 506 vs 257, CTR 9,09% vs 3,50%, posizione ponderata circa 6,04 vs 8,08. È un confronto storico, non la crescita della settimana attuale. Landing 22–28: Dottorati 25 clic/196 impression, Postdoc 11/190, RTT 9/70; query visibili soltanto 5/46 clic, non-brand non misurabile in modo completo. Fonte: sezione 31 ottobre di metrics.md e search-review-2026-10-31.md.

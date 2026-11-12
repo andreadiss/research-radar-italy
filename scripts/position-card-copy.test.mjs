@@ -6,6 +6,25 @@ import { applyVerifiedPositionEnrichment } from "../lib/verified-position-enrich
 import { positionTopicPresentation } from "../lib/position-topic.mjs";
 import { positionTitleContext } from "../lib/position-title-context.mjs";
 
+test("November 12 priority copy matches sources and keeps invalidated reviews disabled", () => {
+  const batch = JSON.parse(readFileSync(new URL("../docs/growth/copy-review-2026-11-12.json", import.meta.url)));
+  assert.equal(batch.cards.length, 7);
+  assert.equal(batch.deferredReviews.length, 3);
+  for (const card of batch.cards) {
+    const source = applyVerifiedPositionEnrichment(positions.find(position => position.id === card.id));
+    for (const [key, value] of Object.entries(card.source)) assert.equal(source[key], value, `${card.id}:${key}`);
+    assert.deepEqual(reviewedCardCopy.find(review => review.source.id === card.id), { source: card.source, ...card.proposal });
+    assert.equal(positionCardPresentation(source).title, card.proposal.title);
+    assert.equal(positionCardPresentation(source).summary, card.proposal.summary);
+  }
+  for (const card of batch.deferredReviews) {
+    const source = applyVerifiedPositionEnrichment(positions.find(position => position.id === card.id));
+    assert.deepEqual(reviewedCardCopy.find(review => review.source.id === card.id), { source: card.source, ...card.previousProposal });
+    for (const [key, value] of Object.entries(card.currentSource)) assert.equal(source[key], value);
+    assert.equal(positionCardPresentation(source).title, source.title);
+  }
+});
+
 const positions = JSON.parse(readFileSync(new URL("../lib/generated/mur-positions.json", import.meta.url)));
 
 test("the original ten-card pilot is preserved and all reviewed IDs remain unique", () => {
