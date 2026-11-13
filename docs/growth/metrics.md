@@ -1,3 +1,9 @@
+## 13 novembre 2026 — Nuove opportunità in evidenza
+
+Esito pre-deploy: 10 revisioni implementate, copertura 16→26/97 e home 0→6/6; arretrato prioritario 81→71 ID da valutare, non difetti accertati. Registro81entry con71precedenti identiche;3mismatch storici ancora disattivati. Pubblicazione da confermare dopo deploy, nessuna crescita di traffico attribuita.
+
+Catalogo3.040 ID:114 nuovi rispetto allo snapshot12novembre,9fingerprint variati,3revisioni SSD ancora invalidate. Fonte controllata12novembre13:52UTC; nuovi per il sito, non necessariamente bandi pubblicati oggi. Campione97ID unici:home6+prime8delle5landingPosizioni+fino3correlati per seme; baseline16/97,home0/6,arretrato81. Non popolarità misurata. GSC payment_required noto dall11novembre: nessun retry quotidiano, GA4 o nuova metrica inventata.
+
 ## 12 novembre 2026 — Recupero copy prioritario
 
 Esito pre-deploy: 10 card revisionate, di cui 7 nuove implementate e 3 differite; copertura21→28/95, arretrato74→67, home6/6. Registro71entry, precedenti64identiche e3mismatchancora disattivati. Zero crescita di traffico attribuita; pubblicazione solo dopo verifica live.

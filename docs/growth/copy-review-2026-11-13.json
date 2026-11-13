@@ -1,0 +1,256 @@
+{
+  "reviewDate": "2026-11-13",
+  "status": "owner-reviewed-pending-deploy",
+  "ownerReview": "Dieci originali/proposte confrontati indipendentemente dal responsabile. Le 71 revisioni precedenti sono preservate. Per 320171 il limite sulle attività non descritte è visibile nella sintesi pubblica; le procedure ufficiali correlate non vengono abbinate. Nessuna attività, beneficio o efficacia dedotti oltre la fonte. Pubblicazione ancora da confermare dopo deploy.",
+  "reviewedCards": 10,
+  "implementedCards": 10,
+  "publishedCards": 0,
+  "deferredCards": 0,
+  "previousReviewsPreserved": 71,
+  "sourceSnapshot": {
+    "commit": "cab033f",
+    "path": "lib/generated/mur-positions.json",
+    "lastSuccessfulCheckAt": "2026-11-12T13:52:18.841Z",
+    "limitation": "Verifica dei campi della cache del 12 novembre; non controllo live delle fonti né attestazione di apertura attuale."
+  },
+  "selection": "Sei nuove home nel campione 13 novembre, poi quattro card nelle prime otto delle landing Dottorati/Postdoc/Contratti. Superfici ricostruite con isOpenPosition, seoLandingPages e relatedPositions come build-copy-queue.mjs. I tre precedenti mismatch SSD 319280/319180/318728 restano immutati e disattivati, non conteggiati nuovamente fra le dieci revisionate.",
+  "ownerSourceCheck320171": {
+    "checkedOn": "2026-11-13",
+    "relatedSourceUrl": "https://www.urp.cnr.it/node/50439",
+    "outcome": "Il responsabile ha consultato la fonte correlata CNR: riguarda tre borse di luglio BR10, non il bando IR 02.2026. Anche GU26E03843 e GU26E03844 si riferiscono a procedure diverse. Nessuna attività specifica di queste procedure è attribuita al nuovo incarico; conservati solo nome progetto, tipo, istituto e sede espliciti nella cache."
+  },
+  "cards": [
+    {
+      "id": "mur-research-assignments-320171",
+      "source": {
+        "id": "mur-research-assignments-320171",
+        "title": "“ELETTRORIGENERA FOLLOW UP”",
+        "summary": "BANDO IR N. 02.2026 ITAE ME Bando di selezione per titoli e colloquio per il conferimento di n. 1 “Incarico di Ricerca”, ai sensi dell'art. 22-ter della Legge 30 dicembre 2010 n. 240, presso l’Istituto di Tecnologie Avanzate per l’Energia “Nicola Giordano” sede di Messina",
+        "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/320171",
+        "positionType": "Incarico di ricerca",
+        "institution": "CNR Istituto di Tecnologie Avanzate per l’Energia Nicola Giordano",
+        "ssd": "-",
+        "location": "Messina"
+      },
+      "proposal": {
+        "title": "Incarico di ricerca: ELETTRORIGENERA FOLLOW UP",
+        "summary": "Selezione per titoli e colloquio al CNR, Istituto di Tecnologie Avanzate per l’Energia “Nicola Giordano”, sede di Messina. Attività specifiche non descritte nella scheda fonte."
+      },
+      "evidence": "Il titolo contiene soltanto il nome del progetto; il riepilogo esplicita incarico, selezione, istituto e sede. Non si deduce un tema scientifico dal nome o dai metadati disciplinari.",
+      "surfaces": [
+        "home"
+      ],
+      "limits": "Tema specifico e attività non disponibili nella cache; testo limitato ai dati procedurali espliciti.",
+      "outcome": "implemented-pending-owner-review"
+    },
+    {
+      "id": "mur-research-assignments-320176",
+      "source": {
+        "id": "mur-research-assignments-320176",
+        "title": "Ricerca e sviluppo di soluzioni per la gestione del Secure Processing Environment e la condivisione sicura di dati sanitari nell’ambito del WP3 del progetto FORTIFY (EHDS)",
+        "summary": "Il progetto di ricerca si inserisce nel WP3 del progetto europeo FORTIFY, dedicato alla validazione pratica di workflow, modelli di governance, strumenti tecnologici e meccanismi legali per la condivisione sicura di dati sanitari protetti da proprietà intellettuale nell'ambito dell'EHDS. L'attività di ricerca è finalizzata alla gestione di un SPE, quale infrastruttura tecnologica abilitante per l'elaborazione contro...",
+        "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/320176",
+        "positionType": "Incarico di ricerca",
+        "institution": "ALMA MATER STUDIORUM - UNIVERSITA' DI BOLOGNA - - DIPARTIMENTO DI INFORMATICA - SCIENZA E INGEGNERIA",
+        "ssd": "INFO-01/A - Informatica",
+        "location": "Bologna"
+      },
+      "proposal": {
+        "title": "Condivisione sicura di dati sanitari: progetto FORTIFY",
+        "summary": "Ricerca sulla gestione del Secure Processing Environment nel WP3 di FORTIFY, per condividere dati sanitari nell’ambito dell’EHDS."
+      },
+      "evidence": "Titolo: gestione del Secure Processing Environment e condivisione sicura di dati sanitari; riepilogo: WP3 FORTIFY ed EHDS.",
+      "surfaces": [
+        "home"
+      ],
+      "limits": "Il riepilogo è troncato: non si completa la descrizione dell’elaborazione dei dati.",
+      "outcome": "implemented-pending-owner-review"
+    },
+    {
+      "id": "mur-research-assignments-320174",
+      "source": {
+        "id": "mur-research-assignments-320174",
+        "title": "Metodi di Intelligenza Artiﬁciale neurosimbolica e Knowledge Graph per la rappresentazione computazionale del pensiero di Giordano Bruno",
+        "summary": "• L’attività di ricerca è ﬁnalizzata alla progettazione e allo sviluppo di metodologie e strumenti informatici basati su Knowledge Graph e Intelligenza Artiﬁciale neurosimbolica per la rappresentazione computazionale del pensiero di Giordano Bruno. Le attività riguarderanno la progettazione e la popolazione di un Knowledge Graph, la formalizzazione e rappresentazione computazionale della conoscenza, la modellazione...",
+        "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/320174",
+        "positionType": "Incarico di ricerca",
+        "institution": "Università degli Studi di Napoli “Federico II",
+        "ssd": "INFO-01/A - Informatica",
+        "location": "Napoli"
+      },
+      "proposal": {
+        "title": "IA neurosimbolica e Knowledge Graph per Giordano Bruno",
+        "summary": "Progettazione di strumenti informatici e di un Knowledge Graph per rappresentare computazionalmente il pensiero di Giordano Bruno."
+      },
+      "evidence": "Prima frase completa: progettazione e sviluppo di metodi e strumenti Knowledge Graph e IA neurosimbolica per la rappresentazione computazionale del pensiero di Giordano Bruno.",
+      "surfaces": [
+        "home"
+      ],
+      "limits": "Non si completa la parte finale troncata sulle altre attività.",
+      "outcome": "implemented-pending-owner-review"
+    },
+    {
+      "id": "mur-research-assignments-320177",
+      "source": {
+        "id": "mur-research-assignments-320177",
+        "title": "Valutazione dell’impatto psicosociale dei sistemi di Intelligenza Artiﬁciale generativa applicati al patrimonio culturale: rappresentazioni sociali e Public Understanding of Science nel caso di Giordano Bruno",
+        "summary": "Attività ﬁnalizzata alla valutazione dell’impatto sociale e psicosociale di sistemi di Intelligenza Artiﬁciale generativa applicati al patrimonio culturale, con particolare riferimento alla ﬁgura, al pensiero e all’opera di Giordano Bruno e alla loro mediazione attraverso sistemi di IA. Le attività comprenderanno la progettazione e l’implementazione di disegni di ricerca mixed-method, inclusi modelli sperimentali pr...",
+        "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/320177",
+        "positionType": "Incarico di ricerca",
+        "institution": "Università degli Studi di Napoli “Federico II",
+        "ssd": "PSIC-03/A - Psicologia sociale",
+        "location": "Napoli"
+      },
+      "proposal": {
+        "title": "Impatto psicosociale dell’IA generativa sul patrimonio culturale",
+        "summary": "Valutazione nel caso di Giordano Bruno, con progettazione e implementazione di disegni di ricerca mixed-method."
+      },
+      "evidence": "Titolo e prima frase esplicitano impatto sociale e psicosociale dell’IA generativa applicata al patrimonio culturale e Giordano Bruno; seconda frase esplicita disegni mixed-method.",
+      "surfaces": [
+        "home",
+        "/posizioni/psicologia"
+      ],
+      "limits": "Nessuna specifica sui modelli sperimentali oltre il taglio della fonte; nessun impatto già ottenuto asserito.",
+      "outcome": "implemented-pending-owner-review"
+    },
+    {
+      "id": "mur-research-contracts-320140",
+      "source": {
+        "id": "mur-research-contracts-320140",
+        "title": "Sviluppo e sperimentazione di sistemi di allevamento e biorisanamento basati su Poriferi autoctoni nell'ambito dell'acquacoltura multitrofica integrata (IMTA) del progetto AVATIM",
+        "summary": "Il progetto AVATIM mira a realizzare un sistema di acquacoltura sostenibile basato sull’approccio innovativo dell’IMTA, che prevede la messa in coltura di specie appartenenti a diversi livelli trofici al fine di mitigare l’impatto ambientale delle attività di allevamento ittico, ottimizzare l’uso delle risorse e contribuire al mantenimento di un ecosistema marino equilibrato. L'attività di ricerca è finalizzata alla...",
+        "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/320140",
+        "positionType": "Contratto di ricerca",
+        "institution": "MUR",
+        "ssd": "BIOS-03/A - Zoologia",
+        "location": "Roma"
+      },
+      "proposal": {
+        "title": "Poriferi autoctoni per acquacoltura e biorisanamento",
+        "summary": "Progetto AVATIM: sviluppo e sperimentazione di sistemi basati su Poriferi autoctoni nell’acquacoltura multitrofica integrata (IMTA)."
+      },
+      "evidence": "Il titolo ufficiale esplicita sviluppo e sperimentazione di sistemi di allevamento e biorisanamento basati su Poriferi autoctoni nell’IMTA del progetto AVATIM.",
+      "surfaces": [
+        "home",
+        "/posizioni/contratti-di-ricerca"
+      ],
+      "limits": "Ente fonte generico MUR, non corretto né espanso. Non si promettono benefici ambientali o completano attività troncate.",
+      "outcome": "implemented-pending-owner-review"
+    },
+    {
+      "id": "mur-research-assignments-320120",
+      "source": {
+        "id": "mur-research-assignments-320120",
+        "title": "Codice bando PICA IR-2026-115 Identificazione e caratterizzazione funzionale delle vescicole extracellulari coinvolte nella fisiopatologia della malattia di Alzheimer: focus sui miRNA come modulatori dell’infiammazione e biomarcatori.",
+        "summary": "Il progetto intende approfondire il ruolo delle vescicole extracellulari (EV) nella comunicazione tra neuroni e microglia durante le fasi iniziali della malattia di Alzheimer. Il candidato dovrà isolare le EV da cervello murino e valutare i loro effetti su colture primarie neurali e gliali. Le colture saranno esaminate mediante immunofluorescenza, saggi di attività mitocondriale e western blot. Le EV saranno inoltre...",
+        "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/320120",
+        "positionType": "Incarico di ricerca",
+        "institution": "UNIMORE",
+        "ssd": "BIOS-06/A - Fisiologia",
+        "location": "Modena"
+      },
+      "proposal": {
+        "title": "Vescicole extracellulari e miRNA nella malattia di Alzheimer",
+        "summary": "Studio della comunicazione tra neuroni e microglia: isolamento di vescicole da cervello murino e valutazione su colture neurali e gliali."
+      },
+      "evidence": "Titolo esplicita vescicole extracellulari e miRNA nell’Alzheimer; prime due frasi complete descrivono comunicazione neuroni-microglia, isolamento da cervello murino e prove su colture.",
+      "surfaces": [
+        "home"
+      ],
+      "limits": "Nessuna efficacia terapeutica o valore diagnostico confermato; non si completa la frase finale troncata.",
+      "outcome": "implemented-pending-owner-review"
+    },
+    {
+      "id": "mur-doctorates-320108",
+      "source": {
+        "id": "mur-doctorates-320108",
+        "title": "BANDO DI CONCORSO PER L’AMMISSIONE AI CORSI DI DOTTORATO DEL XLII CICLO - A.A.2026/2027",
+        "summary": "Bando di concorso per l’ammissione al Corso di Dottorato di Ricerca in Cultural Heritage and Creativity – XLII Ciclo, A.A. 2026/2027, articolato nei curricula “Design e innovazione per l’ambiente e la persona” e “Patrimonio Culturale e Arti Contemporanee”. Le candidature possono essere presentate dall’11 novembre all’11 dicembre 2026.",
+        "sourceUrl": "https://bandi.mur.gov.it/doctorate.php/public/fellowship/id_fellow/320108",
+        "positionType": "PhD",
+        "institution": "Accademia di belle arti di Lecce",
+        "ssd": "- Antropologia culturale\n- Design\n- Estetica\n- Stile, Storia dell'arte e del costume\n- Storia delle arti applicate",
+        "location": "LECCE"
+      },
+      "proposal": {
+        "title": "Dottorato in Cultural Heritage and Creativity",
+        "summary": "XLII ciclo: curricula “Design e innovazione per l’ambiente e la persona” e “Patrimonio Culturale e Arti Contemporanee”."
+      },
+      "evidence": "Il riepilogo ufficiale completo nomina il corso e i due curricula, sostituendo il titolo procedurale generico senza assegnare nuove categorie.",
+      "surfaces": [
+        "/posizioni/dottorati"
+      ],
+      "limits": "Non si deducono borse, requisiti o programmi oltre i curricula nominati.",
+      "outcome": "implemented-pending-owner-review"
+    },
+    {
+      "id": "mur-postdoc-assignments-320141",
+      "source": {
+        "id": "mur-postdoc-assignments-320141",
+        "title": "Implementazione di una catena di misurazione e regolazione per la gestione 4.0 e intelligente, l’efficientamento energetico e la sostenibilità degli impianti di estrazione dell’olio extravergine di oliva",
+        "summary": "L’attività di ricerca sarà finalizzata allo sviluppo e all’implementazione di una catena integrata di sensori e sistemi di misura per il monitoraggio continuo dei principali parametri operativi degli impianti di estrazione dell’olio extravergine di oliva. I dati acquisiti saranno utilizzati per lo sviluppo di modelli predittivi e strategie di regolazione finalizzate all’automazione e alla gestione intelligente del p...",
+        "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/320141",
+        "positionType": "Postdoc",
+        "institution": "MUR",
+        "ssd": "AGRI-04/B - Meccanica agraria",
+        "location": "Roma"
+      },
+      "proposal": {
+        "title": "Sensori e regolazione per gli impianti di estrazione dell’olio",
+        "summary": "Sviluppo di sensori e sistemi di misura per monitorare i parametri operativi degli impianti di estrazione dell’olio extravergine di oliva."
+      },
+      "evidence": "Prima frase completa: sviluppo e implementazione di catena integrata di sensori e sistemi di misura per monitoraggio continuo dei parametri operativi degli impianti.",
+      "surfaces": [
+        "/posizioni/postdoc"
+      ],
+      "limits": "Ente fonte generico MUR non corretto. Nessun risparmio energetico già conseguito né completamento della frase troncata.",
+      "outcome": "implemented-pending-owner-review"
+    },
+    {
+      "id": "mur-research-contracts-320175",
+      "source": {
+        "id": "mur-research-contracts-320175",
+        "title": "CONCORSO A N. 1 CONTRATTO DI RICERCA, GRUPPI 13/ECON-01, 13/ECON-03, 13/ECON-04, 13/ECON-09, 07/AGRI-01 CENTRO GREEN, UNIVERSITÀ COMMERCIALE “LUIGI BOCCONI” DI MILANO",
+        "summary": "Il progetto studia come i mercati possano affrontare le sfide ambientali in presenza di frizioni informative e distorsioni comportamentali. Integra economia ambientale e comportamentale, esperimenti sul campo su compensazione delle emissioni e inquinamento atmosferico, indagini e dati amministrativi, per valutare interventi e ricadute sul benessere. Esamina inoltre il ruolo dell’intelligenza artificiale nella valuta...",
+        "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/320175",
+        "positionType": "Contratto di ricerca",
+        "institution": "Bocconi University",
+        "ssd": "AGRI-01/A - Economia agraria, alimentare ed estimo rurale\nECON-04/A - Economia applicata\nECON-09/A - Finanza aziendale\nECON-01/A - Economia politica\nECON-03/A - Scienza delle finanze",
+        "location": "Milano"
+      },
+      "proposal": {
+        "title": "Mercati, sfide ambientali e distorsioni comportamentali",
+        "summary": "Ricerca di economia ambientale e comportamentale, con esperimenti sul campo su compensazione delle emissioni e inquinamento atmosferico."
+      },
+      "evidence": "Le prime due frasi complete esplicitano mercati, sfide ambientali, frizioni informative, distorsioni comportamentali ed esperimenti sui due temi indicati.",
+      "surfaces": [
+        "/posizioni/contratti-di-ricerca"
+      ],
+      "limits": "Nessuna riclassificazione dei molteplici SSD; esclusa la frase troncata sul ruolo dell’IA.",
+      "outcome": "implemented-pending-owner-review"
+    },
+    {
+      "id": "mur-research-contracts-320105",
+      "source": {
+        "id": "mur-research-contracts-320105",
+        "title": "CONCORSO A N. 1 CONTRATTO DI RICERCA, GRUPPO 13/STAT-03 DEMOGRAFIA E STATISTICA SOCIALE, CENTRO DONDENA, UNIVERSITÀ COMMERCIALE “LUIGI BOCCONI” DI MILANO",
+        "summary": "Il progetto WELFAIR studia l’equità intergenerazionale di fronte ai cambiamenti demografici e tecnologici e alle crescenti disuguaglianze, valutando il ruolo delle politiche di investimento sociale. Il Post-Doc contribuirà al Work Package 6, “Demographic Change”, guidato per Bocconi dal Dr. Matt Parbst, che analizza fertilità, rientro lavorativo dopo il parto e uscita anticipata dal lavoro per ragioni di cura o salu...",
+        "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/320105",
+        "positionType": "Contratto di ricerca",
+        "institution": "Bocconi University",
+        "ssd": "STAT-03/A - Demografia",
+        "location": "Milano"
+      },
+      "proposal": {
+        "title": "Equità intergenerazionale e cambiamento demografico: WELFAIR",
+        "summary": "Contributo al WP6 “Demographic Change”, su fertilità e rientro lavorativo dopo il parto nel contesto delle politiche di investimento sociale."
+      },
+      "evidence": "Riepilogo esplicita equità intergenerazionale, politiche di investimento sociale e contributo WP6 su fertilità e rientro lavorativo dopo il parto.",
+      "surfaces": [
+        "/posizioni/contratti-di-ricerca"
+      ],
+      "limits": "Escluso il tema finale troncato dell’uscita anticipata dal lavoro; tipo ufficiale Contratto di ricerca preservato senza inferirlo dal termine Post-Doc nel riepilogo.",
+      "outcome": "implemented-pending-owner-review"
+    }
+  ]
+}

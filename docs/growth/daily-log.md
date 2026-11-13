@@ -1,3 +1,9 @@
+## 13 novembre 2026 — Nuove opportunità in evidenza
+
+Owner QA10/10 fonti/proposte e preservazione71entry PASS. TypeScript,91testoperativi+113editoriali/tastiera=204, auditdati0errori, buildstatica production e auditcopy35occorrenze su50superfici superati. Titoli ufficiali H1 preservati10/10. Copertura16→26/97,home0→6/6,arretrato81→71. I3mismatch restano disattivati. Registro/coda conservano checkpoint pre-deploy; chiusura pubblicazione nel commento PR verificato.
+
+Letti maincab033f, PR67 e sei growth. Verificato rilascioPR81 dopo syncMUR riuscito: smoke pubblico PASS. Fonte ora12novembre13:52UTC;114nuoviID e9fingerprint cambiati rispetto12novembre, tutti da registrare nella coda. Home6nuove non revisionate, campione97ID con16revisioni abbinate. Delega copywriter6home+4landing;71entry precedenti da preservare,3mismatchSSD non riattivati. GSC resta indisponibile senza pagamento; nessun costo/GA4. Gate e chiusura live riportati nella PR dopo verifica, nessuna pubblicazione anticipata.
+
 ## 12 novembre 2026 — Recupero copy prioritario
 
 Owner QA7/7 fonti/proposte e preservazione64entry PASS. TypeScript,91testoperativi+102editoriali/tastiera=193, auditdati0errori, buildstatica production e auditcopy39occorrenze su46superfici superati. Copertura21→28/95,home6/6,arretrato74→67. Tre mismatch ricontrollati restano disattivati; nessun cambiamento del modello di override. Registro/coda conservano checkpoint pre-deploy, chiusura pubblicazione nel commento PR verificato.

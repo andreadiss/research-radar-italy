@@ -27,6 +27,19 @@ test("November 12 priority copy matches sources and keeps invalidated reviews di
 
 const positions = JSON.parse(readFileSync(new URL("../lib/generated/mur-positions.json", import.meta.url)));
 
+test("November 13 home and landing copy matches sources and exposes source limitations", () => {
+  const batch = JSON.parse(readFileSync(new URL("../docs/growth/copy-review-2026-11-13.json", import.meta.url))).cards;
+  assert.equal(batch.length, 10);
+  for (const card of batch) {
+    const source = applyVerifiedPositionEnrichment(positions.find(position => position.id === card.id));
+    for (const [key, value] of Object.entries(card.source)) assert.equal(source[key], value, `${card.id}:${key}`);
+    assert.deepEqual(reviewedCardCopy.find(review => review.source.id === card.id), { source: card.source, ...card.proposal });
+    assert.equal(positionCardPresentation(source).title, card.proposal.title);
+    assert.equal(positionCardPresentation(source).summary, card.proposal.summary);
+  }
+  assert.match(positionCardPresentation(positions.find(position => position.id === "mur-research-assignments-320171")).summary, /Attività specifiche non descritte nella scheda fonte/);
+});
+
 test("the original ten-card pilot is preserved and all reviewed IDs remain unique", () => {
   const pilot = JSON.parse(readFileSync(new URL("../docs/growth/copy-review-2026-10-30.json", import.meta.url))).cards;
   assert.equal(pilot.length, 10);

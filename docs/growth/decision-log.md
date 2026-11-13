@@ -1,3 +1,7 @@
+## 13 novembre 2026 — Nuove opportunità in evidenza
+
+Il lotto urgente sulle sei nuove card home risponde alla priorità utente già autorizzata; altre quattro revisioni nei percorsi esposti, senza conteggi arbitrari. Registrata la pubblicazione verificata delle7cardPR81 tramite commento6819886492, senza riapplicarle. Delegati selezione, riscrittura e prima verifica al copywriter; owner QA indipendente prima del rilascio. Fonte12novembre, non nuova conferma live dell’apertura di ciascun bando. Non sospendere il task per un’attesa transitoria dei check; merge soltanto dopo conclusione positiva.
+
 ## 12 novembre 2026 — Recupero copy prioritario
 
 Registrata nel manifesto la pubblicazione verificata delle10card della PR80 (commento6791794147), senza riapplicarle. Delega al copywriter di selezione, proposte e prima verifica; controllo indipendente del responsabile prima della pubblicazione. Non estendere il modello delle revisioni allo scopo di riattivare tre mismatch durante un lotto editoriale: conservare i guardrail. Fonti cache9nov, non apertura o rettifiche correnti riconfermate.

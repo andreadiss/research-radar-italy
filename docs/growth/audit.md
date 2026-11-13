@@ -1,3 +1,7 @@
+## 13 novembre 2026 — Nuove opportunità in evidenza
+
+Letti main `cab033f`, PR aperta #67 (guida separata non approvata) e sei documenti growth. Verificati PR81 e successivo sync MUR: Pages run43248757463 riuscito e smoke pubblico PASS. Catalogo3.040 ID,114 aggiunti dal12novembre e9fingerprint variati; ultimo controllo fonte12novembre13:52UTC. La home espone sei ID non revisionati. I tre mismatch SSD storici restano disattivati; nessuna modifica a dati, categorie o pipeline.
+
 ## 12 novembre 2026 — Recupero copy prioritario
 
 Verificati main `91d4a4f`, unica PR aperta #67 (guida non approvata) e i sei documenti growth. PR80 pubblicata, Pages success anche dopo sync Grants (run43040806984); smoke pubblico home/Posizioni/indice/Funding/schede/sitemap PASS. MUR invariato: 2.926 ID, zero nuovi e zero fingerprint variati rispetto11nov; ultimo controllo fonte9novembre. I tre mismatch SSD restano disattivati; nessuna correzione tassonomica o modifica fonte dedotta.

@@ -1,3 +1,7 @@
+## 13 novembre 2026 — Nuove opportunità in evidenza
+
+Nessun A/B test. Verifica deterministica di fonti, fingerprint, separazione copy/dati ufficiali e uso nelle superfici prioritarie. Conservare tutte le71revisioni precedenti e i3override SSD disattivati. Per testi fonte insufficienti dichiarare l’assenza di dettagli; non dedurre attività o benefici. Layout, algoritmi, scadenze, badge, tassonomia, tracking e pipeline invariati.
+
 ## 12 novembre 2026 — Recupero copy prioritario
 
 Nessun A/B test. Solo verifica deterministica di fonte, fingerprint, preservazione64revisioni precedenti e resa testuale nelle superfici prioritarie. Tre mismatch SSD conservati disattivati, nessuna riattivazione con fonte non coincidente. Nessuna modifica a ordine, suggerimenti, filtri, layout, badge, scadenze o dati fonte; gate e chiusura deploy nella PR del lotto.
