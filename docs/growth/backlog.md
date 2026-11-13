@@ -1,3 +1,7 @@
+## 13 novembre 2026 — Nuove opportunità in evidenza
+
+Priorità a sei nuove card home e quattro schede nelle prime otto di Dottorati/Postdoc/Contratti. Impact8, Confidence9 sulla fedeltà/3 sul traffico, Effort2, Risk1. Campione odierno97ID:16revisionati,home0/6,arretrato81 prima del lotto. Il denominatore cambia con ingressi e scadenze: non confrontarlo come crescita. Il progetto ELETTRORIGENERA richiede limite esplicito se attività non documentate; non dedurle dal nome. PR67 resta in attesa di approvazione del contenuto, senza pubblicazione automatica.
+
 ## 12 novembre 2026 — Recupero copy prioritario
 
 Scelto lotto copy sulle superfici già esposte: Impact7/10, Confidence9/10 sulla fedeltà e non sul traffico, Effort2/10, Risk1/10. Dieci revisioni: tre mismatch SSD ricontrollati ma non riattivati, sette nuove proposte pertinenti. Baseline odierna21/95 e home6/6; differisce da ieri per il trascorrere delle scadenze, non per crescita. PR67 separata/non approvata. Il supporto a versioni successive delle revisioni invalidate va affrontato come task distinto con test di unicità e fallback.
