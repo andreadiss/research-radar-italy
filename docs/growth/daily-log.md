@@ -1,3 +1,9 @@
+## 14 novembre 2026 — Chiarezza delle opportunità esposte
+
+OwnerQA10/10fonti/proposte e preservazione81entry PASS. TypeScript,91testoperativi+124editoriali/tastiera=215superati; test su trecontrattiCALIPSO,limiteprimoambito e differenza dei dueNanoBio-FARM. Copertura23→33/101,home1→6/6,arretrato78→68. I3mismatch restano disattivati. Registro/coda conservano checkpoint pre-deploy; ricevuta pubblicazione nellaPR dopo verifica live.
+
+Letti maincf75365,PR67 e sei growth; verificato rilascioPR82 dopo successivo syncMUR/Grants: smoke pubblico PASS. Catalogo3070,30nuoviID,7fingerprint variati dal13novembre; fonte13nov13:14UTC. Home1/6giàrevisionata e campione101ID con23revisioni abbinate. Copywriter delegato su5home+5landing;81entry precedenti preservate e3mismatchnonriattivati. Nessun costo, GA4, workflow o dato fonte modificato. Gate, PR e chiusura live documentati al completamento, senza dichiarazione anticipata.
+
 ## 13 novembre 2026 — Nuove opportunità in evidenza
 
 Owner QA10/10 fonti/proposte e preservazione71entry PASS. TypeScript,91testoperativi+113editoriali/tastiera=204, auditdati0errori, buildstatica production e auditcopy35occorrenze su50superfici superati. Titoli ufficiali H1 preservati10/10. Copertura16→26/97,home0→6/6,arretrato81→71. I3mismatch restano disattivati. Registro/coda conservano checkpoint pre-deploy; chiusura pubblicazione nel commento PR verificato.

@@ -1,0 +1,259 @@
+{
+  "reviewDate": "2026-11-14",
+  "status": "owner-reviewed-pending-deploy",
+  "ownerReview": "Dieci fonti e proposte confrontate indipendentemente dal responsabile. Preservate81entry precedenti e3mismatch SSD disattivati. Per CALIPSO mantenuti i tre contratti e reso visibile il limite sul primo ambito; non dedotti temi o efficacia delle ricerche. Pubblicazione da confermare dopo deploy.",
+  "reviewedCards": 10,
+  "implementedCards": 10,
+  "publishedCards": 0,
+  "deferredCards": 0,
+  "previousReviewsPreserved": 81,
+  "ownerSourceCheck320262": {
+    "checkedOn": "2026-11-14",
+    "sourceUrl": "https://www.inrim.it/it/news/asi-e-inrim-avviano-calipso-orologi-atomici-miniaturizzati-le-tecnologie-del-futuro",
+    "outcome": "Il responsabile ha consultato la fonte INRIM, che conferma il progetto generale CALIPSO ma non gli ambiti 2 e 3 del bando 8/2026. Non vengono espansi oltre il primo tema esplicito nella cache; il testo segnala il limite del riepilogo disponibile."
+  },
+  "sourceSnapshot": {
+    "commit": "cf75365",
+    "path": "lib/generated/mur-positions.json",
+    "lastSuccessfulCheckAt": "2026-11-13T13:14:15.561Z",
+    "limitation": "Fedeltà verificata sui campi della cache del13novembre; nessuna verifica live o attestazione di apertura attuale."
+  },
+  "selection": "Cinque card home non revisionate prima, più cinque card nelle prime otto di Postdoc, Contratti e Dottorati. Superfici ricostruite come build-copy-queue.mjs al14novembre. Fonte queue:30IDnuovi rispetto allo snapshot precedente, non dedotti da publishedAt. Gli81override precedenti sono preservati, inclusi i tre mismatch SSD disattivati.",
+  "cards": [
+    {
+      "id": "mur-postdoc-assignments-320270",
+      "source": {
+        "id": "mur-postdoc-assignments-320270",
+        "title": "Caratterizzazione morfologica e meccanobiologica di sistemi cellulari e tissutali mediante metodologie sperimentali e analisi quantitativa",
+        "summary": "Il programma è finalizzato alla caratterizzazione quantitativa della risposta meccanobiologica di cellule e tessuti, con attenzione alle interazioni cellula-matrice extracellulare e alle relazioni tra citoscheletro, adesioni cellulari e microambiente meccanico. Le attività comprenderanno studi sperimentali su modelli cellulari in condizioni meccaniche controllate, acquisizione di bioimmagini mediante microscopia ott...",
+        "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/320270",
+        "positionType": "Postdoc",
+        "institution": "MUR",
+        "ssd": "IBIO-01/A - Bioingegneria",
+        "location": "Roma"
+      },
+      "proposal": {
+        "title": "Meccanobiologia di cellule e tessuti",
+        "summary": "Studio quantitativo della risposta meccanobiologica e delle interazioni cellula-matrice, con esperimenti in condizioni meccaniche controllate."
+      },
+      "surfaces": [
+        "home",
+        "/posizioni/postdoc"
+      ],
+      "evidence": "Prime due frasi: risposta quantitativa di cellule e tessuti, interazioni cellula-matrice extracellulare e studi sperimentali su modelli cellulari in condizioni meccaniche controllate.",
+      "limits": "Non si completa la parte troncata sulle tecniche di microscopia.",
+      "outcome": "implemented-pending-owner-review"
+    },
+    {
+      "id": "mur-research-contracts-317125",
+      "source": {
+        "id": "mur-research-contracts-317125",
+        "title": "AGROECOLOGY PARTNERSHIP",
+        "summary": "Il candidato dovrà seguire le attività del progetto e in particolare quelle nei seguenti WP: - WP5 “Data and Monitoring for AE transition” Task 5.1, 5.2, 5.2.1, 5.2.2, 5.3.1, 5.3.2, 5.3.3, 5.3.4, 5.3.5 5.3.6, 5.4, 5.4.1 - WP8 “Coordination of the European Network of AE LLs and RIs” Task 8.1, 8.1.1, 8.1.2, 8.3, 8.4, 8.6, 8.6.1, 8.8 - WP10 “Education and training for AE in farming and food systems” Task 10.1, 10.2, 10...",
+        "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/317125",
+        "positionType": "Contratto di ricerca",
+        "institution": "Università degli Studi di Scienze Gastronomiche",
+        "ssd": "-",
+        "location": "Pollenzo fraz. di Bra"
+      },
+      "proposal": {
+        "title": "AGROECOLOGY PARTNERSHIP: dati, reti e formazione",
+        "summary": "Attività nei WP su dati e monitoraggio, coordinamento della rete europea di Living Lab e infrastrutture di ricerca, istruzione e formazione."
+      },
+      "surfaces": [
+        "home",
+        "/posizioni/contratti-di-ricerca"
+      ],
+      "evidence": "Il riepilogo elenca WP5 Data and Monitoring for AE transition, WP8 Coordination of the European Network of AE LLs and RIs e WP10 Education and training for AE in farming and food systems.",
+      "limits": "Sintesi dei titoli WP, non attribuzione di singole mansioni o responsabilità di coordinamento alla persona. Non completati i task troncati.",
+      "outcome": "implemented-pending-owner-review"
+    },
+    {
+      "id": "mur-research-contracts-320202",
+      "source": {
+        "id": "mur-research-contracts-320202",
+        "title": "Food Industry Monitor",
+        "summary": "Partecipare alla conduzione e allo sviluppo del progetto di ricerca Food Industry Monitor, contribuendo all’aggiornamento del database sulle aziende del settore food, con particolare riguardo all’aggiornamento delle variabili che misurano le performance economiche e di quelle che misurano le scelte di sostenibilità. Sviluppare analisi di tipo quantitativo e qualitativo sulle aziende del campione, contribuendo allo s...",
+        "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/320202",
+        "positionType": "Contratto di ricerca",
+        "institution": "Università degli Studi di Scienze Gastronomiche",
+        "ssd": "ECON-06/A - Economia aziendale",
+        "location": "Bra, loc. Pollenzo"
+      },
+      "proposal": {
+        "title": "Food Industry Monitor: performance e sostenibilità delle imprese",
+        "summary": "Aggiornamento del database delle aziende alimentari e delle variabili economiche e di sostenibilità; analisi quantitative e qualitative."
+      },
+      "surfaces": [
+        "home",
+        "/posizioni/contratti-di-ricerca"
+      ],
+      "evidence": "Riepilogo esplicito: aggiornamento database aziende settore food, performance economiche e scelte di sostenibilità; sviluppo analisi quantitative e qualitative.",
+      "limits": "Non si completa la frase finale troncata; nessuna valutazione delle performance già ottenute.",
+      "outcome": "implemented-pending-owner-review"
+    },
+    {
+      "id": "mur-research-contracts-320262",
+      "source": {
+        "id": "mur-research-contracts-320262",
+        "title": "8/2026/CONTRATTO DI RICERCA - Progetto di ricerca “CALIPSO (Chip Scale Atoms with Laser cooling and Integrated Photonics for a Stable Oscillator)”",
+        "summary": "È indetta una selezione pubblica per titoli e colloquio per la stipula di n. 3 contratti di ricerca, ai sensi dell’art. 22 della legge 30 dicembre 2010, n. 240, di cui: - n. 1 unità per lo svolgimento di attività di ricerca sul tema: “Sviluppo del pacchetto fisico per un orologio basato su atomi freddi di Rb” (ambito 01); - n. 1 unità per lo svolgimento di attività di ricerca sul tema “Realizzazione di un orologio b...",
+        "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/320262",
+        "positionType": "Contratto di ricerca",
+        "institution": "Istituto Nazionale di Ricerca Metrologica",
+        "ssd": "-",
+        "location": "TORINO"
+      },
+      "proposal": {
+        "title": "Progetto CALIPSO: tre contratti di ricerca",
+        "summary": "Il riepilogo disponibile descrive solo il primo ambito: sviluppo del pacchetto fisico per un orologio basato su atomi freddi di rubidio."
+      },
+      "surfaces": [
+        "home",
+        "/posizioni/contratti-di-ricerca"
+      ],
+      "evidence": "Riepilogo: selezione per tre contratti; primo ambito leggibile per intero riguarda sviluppo del pacchetto fisico per orologio basato su atomi freddi di Rb. Rb espanso con il nome chimico rubidio.",
+      "limits": "I temi dei restanti due contratti non sono completi nella cache; il primo non viene generalizzato a tutti e tre.",
+      "outcome": "implemented-pending-owner-review"
+    },
+    {
+      "id": "mur-research-contracts-320265",
+      "source": {
+        "id": "mur-research-contracts-320265",
+        "title": "9/2026/CONTRATTO DI RICERCA - Linea pilota quantistica per la produzione di chip avanzati destinati a tecnologie europee basate su atomi neutri - Accordo di sovvenzione specifico 1",
+        "summary": "L’attività svolta dalla risorsa verterà principalmente sulla fabbricazione e caratterizzazione delle microcelle contenenti i vapori atomici, cuore del dispositivo quantistico miniaturizzato basato su vapori atomici caldi. Inoltre, è prevista la caratterizzazione di magneto optical traps (MOT) compatte, come sorgenti per dispositivi a vapori atomici freddi. La figura si concentrerà sull’ottimizzazione dei processi pe...",
+        "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/320265",
+        "positionType": "Contratto di ricerca",
+        "institution": "Istituto Nazionale di Ricerca Metrologica",
+        "ssd": "-",
+        "location": "TORINO"
+      },
+      "proposal": {
+        "title": "Microcelle a vapori atomici per dispositivi quantistici",
+        "summary": "Fabbricazione e caratterizzazione di microcelle a vapori atomici caldi e caratterizzazione di trappole magneto-ottiche compatte."
+      },
+      "surfaces": [
+        "home",
+        "/posizioni/contratti-di-ricerca"
+      ],
+      "evidence": "Le prime due frasi complete indicano microcelle contenenti vapori atomici, dispositivo miniaturizzato a vapori caldi e caratterizzazione di magneto optical traps compatte.",
+      "limits": "Non si ricostruisce la parte troncata sull’ottimizzazione dei processi.",
+      "outcome": "implemented-pending-owner-review"
+    },
+    {
+      "id": "mur-postdoc-assignments-320271",
+      "source": {
+        "id": "mur-postdoc-assignments-320271",
+        "title": "Vision-Language Learning for Robust and Generalizable Visual Perception",
+        "summary": "Questa ricerca si concentra sullo sviluppo di metodi robusti e generalizzabili per la percezione visiva, integrando la visione artificiale con l’apprendimento visione-linguaggio. Mira a esplorare come le conoscenze semantiche e le rappresentazioni visive possano essere utilizzate congiuntamente per migliorare la comprensione visiva in diversi compiti e ambienti. Particolare attenzione sarà dedicata all’impiego di mo...",
+        "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/320271",
+        "positionType": "Postdoc",
+        "institution": "Università di Trento",
+        "ssd": "-",
+        "location": "Trento"
+      },
+      "proposal": {
+        "title": "Visione artificiale e apprendimento visione-linguaggio",
+        "summary": "Sviluppo di metodi per la percezione visiva che integrano conoscenze semantiche e rappresentazioni visive in compiti e ambienti diversi."
+      },
+      "surfaces": [
+        "/posizioni/postdoc"
+      ],
+      "evidence": "Prime due frasi complete: metodi robusti e generalizzabili, integrazione della visione artificiale con vision-language learning, uso congiunto di conoscenze semantiche e rappresentazioni visive.",
+      "limits": "Robustezza e generalizzazione sono obiettivi, non risultati acquisiti; esclusa la frase finale troncata.",
+      "outcome": "implemented-pending-owner-review"
+    },
+    {
+      "id": "mur-postdoc-assignments-320180",
+      "source": {
+        "id": "mur-postdoc-assignments-320180",
+        "title": "Procedura selettiva di valutazione comparativa, per titoli e colloquio, per il conferimento di n. 1 incarico post-doc, della durata di 24 mesi, presso il BIOMORF",
+        "summary": "L’attività di ricerca sarà finalizzata alla valutazione del recupero funzionale in modelli sperimentali di lesioni traumatiche articolari sottoposti a trattamento farmacologico con polinucleotidi e acido ialuronico. In particolare, il ricercatore sarà coinvolto nella pianificazione e nell’esecuzione di protocolli per l’analisi della funzionalità articolare mediante test di mobilità, valutazione del range of motion (...",
+        "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/320180",
+        "positionType": "Postdoc",
+        "institution": "Università degli Studi di MESSINA",
+        "ssd": "BIOS-05/A - Ecologia",
+        "location": "MESSINA"
+      },
+      "proposal": {
+        "title": "Recupero funzionale dopo lesioni articolari: modelli sperimentali",
+        "summary": "Valutazione in modelli sperimentali trattati con polinucleotidi e acido ialuronico, con protocolli di analisi della funzionalità articolare."
+      },
+      "surfaces": [
+        "/posizioni/postdoc"
+      ],
+      "evidence": "La prima frase completa descrive modelli sperimentali di lesioni traumatiche articolari sottoposti ai due trattamenti; la seconda esplicita pianificazione ed esecuzione di protocolli per analisi della funzionalità.",
+      "limits": "Non si afferma efficacia clinica o applicazione ai pazienti; SSD BIOS-05/A Ecologia preservato senza reinterpretazione o correzione copy.",
+      "outcome": "implemented-pending-owner-review"
+    },
+    {
+      "id": "mur-research-contracts-320273",
+      "source": {
+        "id": "mur-research-contracts-320273",
+        "title": "DBA.AD001.871 - NanoBio-FARM CUP B89J25001510005",
+        "summary": "Il prestatore di ricerca dovrà occuparsi di attività di ricerca finalizzate allo studio della Microbiologia applicata e caratterizzazione di microrganismi benefici, in particolare allo studio della biodiversità microbica di suoli e matrici organiche, mediante approcci microbiologici, molecolari e biotecnologici per l'identificazione, l'isolamento e la caratterizzazione di microrganismi benefici per le piante.",
+        "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/320273",
+        "positionType": "Contratto di ricerca",
+        "institution": "Consiglio Nazionale delle Ricerche Istituto per la Protezione Sostenibile delle Piante",
+        "ssd": "BIOS-08/A - Biologia molecolare",
+        "location": "Portici"
+      },
+      "proposal": {
+        "title": "NanoBio-FARM: microrganismi benefici per le piante",
+        "summary": "Studio della biodiversità microbica di suoli e matrici organiche: identificazione, isolamento e caratterizzazione con approcci microbiologici e molecolari."
+      },
+      "surfaces": [
+        "/posizioni/contratti-di-ricerca"
+      ],
+      "evidence": "Riepilogo completo: microbiologia applicata, biodiversità microbica di suoli e matrici organiche e identificazione/isolamento/caratterizzazione di microrganismi benefici per piante.",
+      "limits": "Distinto da320274 per attività microbiologiche; non si aggiungono specie o applicazioni non esplicite.",
+      "outcome": "implemented-pending-owner-review"
+    },
+    {
+      "id": "mur-research-contracts-320274",
+      "source": {
+        "id": "mur-research-contracts-320274",
+        "title": "progetto DBA.AD001.871 - NanoBio-FARM CUP B89J25001510005",
+        "summary": "Il prestatore di ricerca dovrà occuparsi di attività di ricerca finalizzate allo studio della Fisiologia vegetale, fenotipizzazione e valutazione di formulati biostimolanti, in particolare alla valutazione degli effetti di formulazioni innovative, a base di consorzi microbici benefici, nanoparticelle e composti bioattivi, sulla crescita, sullo sviluppo e sulle risposte fisiologiche delle piante. Le attività comprend...",
+        "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/320274",
+        "positionType": "Contratto di ricerca",
+        "institution": "Consiglio Nazionale delle Ricerche Istituto per la Protezione Sostenibile delle Piante",
+        "ssd": "BIOS-02/A - Fisiologia vegetale",
+        "location": "Portici"
+      },
+      "proposal": {
+        "title": "NanoBio-FARM: fisiologia vegetale e biostimolanti",
+        "summary": "Valutazione degli effetti di formulazioni con consorzi microbici, nanoparticelle e composti bioattivi sulla crescita e sulle risposte delle piante."
+      },
+      "surfaces": [
+        "/posizioni/contratti-di-ricerca"
+      ],
+      "evidence": "Prima frase completa: fisiologia vegetale, fenotipizzazione e valutazione di formulati biostimolanti con i tre componenti indicati su crescita, sviluppo e risposte fisiologiche delle piante.",
+      "limits": "Distinto da320273; nessun effetto positivo già dimostrato e nessuna continuazione delle attività troncate.",
+      "outcome": "implemented-pending-owner-review"
+    },
+    {
+      "id": "mur-doctorates-319881",
+      "source": {
+        "id": "mur-doctorates-319881",
+        "title": "Bando per l'ammissione a 2 posizioni per il corso di Dottorato di interesse nazionale in Catalisi e Energia XLII ciclo a.a. 2026_2027",
+        "summary": "PhD presso Università degli Studi di Perugia sul tema “Bando per l'ammissione a 2 posizioni per il corso di Dottorato di interesse nazionale in Catalisi e Energia XLII ciclo a.a. 2026_2027”. Scadenza per le candidature: 30 novembre 2026.",
+        "sourceUrl": "https://bandi.mur.gov.it/doctorate.php/public/fellowship/id_fellow/319881",
+        "positionType": "PhD",
+        "institution": "Università degli Studi di Perugia",
+        "ssd": "-",
+        "location": "Perugia"
+      },
+      "proposal": {
+        "title": "Dottorato in Catalisi e Energia: due posizioni",
+        "summary": "Corso di interesse nazionale, XLII ciclo 2026/2027, presso l’Università degli Studi di Perugia."
+      },
+      "surfaces": [
+        "/posizioni/dottorati"
+      ],
+      "evidence": "Titolo ufficiale: ammissione a due posizioni nel corso nazionale Catalisi e Energia XLII ciclo; riepilogo e istituzione: Università di Perugia.",
+      "limits": "Nessuna deduzione su borse, temi individuali o requisiti; riepilogo fonte generico e ripetitivo.",
+      "outcome": "implemented-pending-owner-review"
+    }
+  ]
+}

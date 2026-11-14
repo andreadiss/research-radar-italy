@@ -1,3 +1,7 @@
+## 14 novembre 2026 — Chiarezza delle opportunità esposte
+
+Letti main `cf75365`, PR aperta #67 (guida separata non approvata) e sei documenti growth. PR82 e successivi sync verificati: Pages run43446610136 riuscito; smoke pubblico PASS. Catalogo 3.070 ID, 30 aggiunti dal controllo13novembre, 7 fingerprint variati; fonte controllata13novembre13:14UTC. Home1/6 già revisionata, cinque nuove priorità editoriali. Nessuna modifica a pipeline, dati o tassonomia.
+
 ## 13 novembre 2026 — Nuove opportunità in evidenza
 
 Letti main `cab033f`, PR aperta #67 (guida separata non approvata) e sei documenti growth. Verificati PR81 e successivo sync MUR: Pages run43248757463 riuscito e smoke pubblico PASS. Catalogo3.040 ID,114 aggiunti dal12novembre e9fingerprint variati; ultimo controllo fonte12novembre13:52UTC. La home espone sei ID non revisionati. I tre mismatch SSD storici restano disattivati; nessuna modifica a dati, categorie o pipeline.

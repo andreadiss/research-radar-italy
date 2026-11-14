@@ -1,3 +1,7 @@
+## 14 novembre 2026 — Chiarezza delle opportunità esposte
+
+Priorità alla chiarezza delle nuove card esposte, come autorizzato dall’utente; selezione e prima verifica delegate al copywriter, owner QA indipendente. Manifesto aggiornato con ricevuta pubblicazione10cardPR82/commento6847782773, senza riapplicarle. Sourcecheck13novembre non attesta nuove rettifiche o apertura corrente di ogni bando. Rilasciare solo dopo tutti i guardrail e verificare prima di altri interventi; nessuna nuova approvazione richiesta per il solo lotto copy LOW RISK.
+
 ## 13 novembre 2026 — Nuove opportunità in evidenza
 
 Il lotto urgente sulle sei nuove card home risponde alla priorità utente già autorizzata; altre quattro revisioni nei percorsi esposti, senza conteggi arbitrari. Registrata la pubblicazione verificata delle7cardPR81 tramite commento6819886492, senza riapplicarle. Delegati selezione, riscrittura e prima verifica al copywriter; owner QA indipendente prima del rilascio. Fonte12novembre, non nuova conferma live dell’apertura di ciascun bando. Non sospendere il task per un’attesa transitoria dei check; merge soltanto dopo conclusione positiva.

@@ -1,3 +1,7 @@
+## 14 novembre 2026 — Chiarezza delle opportunità esposte
+
+Nessun A/B test. Verifiche deterministiche su fonte, fingerprint, resa card/anteprima e separazione dai titoli ufficiali. Preservare tutte81entry precedenti e3mismatch SSD disattivati. Quantità di contratti e differenze tra attività conservate; non completare sintesi troncate. Nessuna variazione di layout, badge, ordine, filtri, classificazioni, scadenze, algoritmi o tracking.
+
 ## 13 novembre 2026 — Nuove opportunità in evidenza
 
 Nessun A/B test. Verifica deterministica di fonti, fingerprint, separazione copy/dati ufficiali e uso nelle superfici prioritarie. Conservare tutte le71revisioni precedenti e i3override SSD disattivati. Per testi fonte insufficienti dichiarare l’assenza di dettagli; non dedurre attività o benefici. Layout, algoritmi, scadenze, badge, tassonomia, tracking e pipeline invariati.

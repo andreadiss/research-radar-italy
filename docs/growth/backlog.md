@@ -1,3 +1,7 @@
+## 14 novembre 2026 — Chiarezza delle opportunità esposte
+
+Lotto selezionato: cinque card home non revisionate più cinque nei percorsi Postdoc/Contratti/Dottorati. Impact8, Confidence9 sulla fedeltà/3 sul traffico, Effort2, Risk1. Baseline23/101, home1/6, arretrato78 ID da valutare. Non riapplicare320171 già pubblicata. CALIPSO: preservare i tre contratti senza estendere un tema a parti troncate; NanoBio-FARM: distinguere microbiologia e fisiologia vegetale. GuidaPR67 resta separata/non approvata.
+
 ## 13 novembre 2026 — Nuove opportunità in evidenza
 
 Priorità a sei nuove card home e quattro schede nelle prime otto di Dottorati/Postdoc/Contratti. Impact8, Confidence9 sulla fedeltà/3 sul traffico, Effort2, Risk1. Campione odierno97ID:16revisionati,home0/6,arretrato81 prima del lotto. Il denominatore cambia con ingressi e scadenze: non confrontarlo come crescita. Il progetto ELETTRORIGENERA richiede limite esplicito se attività non documentate; non dedurle dal nome. PR67 resta in attesa di approvazione del contenuto, senza pubblicazione automatica.
