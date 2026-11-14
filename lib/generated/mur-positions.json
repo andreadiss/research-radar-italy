@@ -72710,7 +72710,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-12T13:47:33.794Z"
+    "updatedAt": "2026-11-12T13:47:33.794Z",
+    "archivedAt": "2026-11-14T12:12:15.402Z"
   },
   {
     "id": "mur-postdoc-assignments-318701",
@@ -72741,7 +72742,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-12T13:47:33.794Z"
+    "updatedAt": "2026-11-12T13:47:33.794Z",
+    "archivedAt": "2026-11-14T12:12:15.402Z"
   },
   {
     "id": "mur-research-assignments-318726",
@@ -72772,7 +72774,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-12T13:47:33.794Z"
+    "updatedAt": "2026-11-12T13:47:33.794Z",
+    "archivedAt": "2026-11-14T12:12:15.402Z"
   },
   {
     "id": "mur-postdoc-assignments-318725",
@@ -72803,7 +72806,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-12T13:47:33.794Z"
+    "updatedAt": "2026-11-12T13:47:33.794Z",
+    "archivedAt": "2026-11-14T12:12:15.402Z"
   },
   {
     "id": "mur-research-assignments-318267",
@@ -72834,7 +72838,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-10-13T12:43:31.115Z"
+    "updatedAt": "2026-10-13T12:43:31.115Z",
+    "archivedAt": "2026-11-14T12:12:15.402Z"
   },
   {
     "id": "mur-research-assignments-318783",
@@ -72865,7 +72870,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-10-13T12:43:31.115Z"
+    "updatedAt": "2026-10-13T12:43:31.115Z",
+    "archivedAt": "2026-11-14T12:12:15.402Z"
   },
   {
     "id": "mur-research-assignments-318920",
@@ -72896,7 +72902,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-10-14T10:14:15.184Z"
+    "updatedAt": "2026-10-14T10:14:15.184Z",
+    "archivedAt": "2026-11-14T12:12:15.402Z"
   },
   {
     "id": "mur-postdoc-assignments-318946",
@@ -72927,7 +72934,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-10-15T09:56:24.009Z"
+    "updatedAt": "2026-10-15T09:56:24.009Z",
+    "archivedAt": "2026-11-14T12:12:15.402Z"
   },
   {
     "id": "mur-research-assignments-319030",
@@ -72961,7 +72969,8 @@
       "unknown_region",
       "generic_title"
     ],
-    "updatedAt": "2026-10-16T09:51:30.660Z"
+    "updatedAt": "2026-10-16T09:51:30.660Z",
+    "archivedAt": "2026-11-14T12:12:15.402Z"
   },
   {
     "id": "mur-research-contracts-319229",
@@ -72995,7 +73004,8 @@
     "possibleDuplicateSourceIds": [
       "mur-research-assignments-319508"
     ],
-    "updatedAt": "2026-11-03T12:49:08.378Z"
+    "updatedAt": "2026-11-03T12:49:08.378Z",
+    "archivedAt": "2026-11-14T12:12:15.402Z"
   },
   {
     "id": "mur-research-contracts-319482",
@@ -73026,7 +73036,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-03T12:49:08.378Z"
+    "updatedAt": "2026-11-03T12:49:08.378Z",
+    "archivedAt": "2026-11-14T12:12:15.402Z"
   },
   {
     "id": "mur-research-assignments-319439",
@@ -73057,7 +73068,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-03T12:49:08.378Z"
+    "updatedAt": "2026-11-03T12:49:08.378Z",
+    "archivedAt": "2026-11-14T12:12:15.402Z"
   },
   {
     "id": "mur-research-assignments-319508",
@@ -73091,7 +73103,8 @@
       "possible_duplicate"
     ],
     "possibleDuplicateOf": "mur-research-contracts-319229",
-    "updatedAt": "2026-11-03T12:49:08.378Z"
+    "updatedAt": "2026-11-03T12:49:08.378Z",
+    "archivedAt": "2026-11-14T12:12:15.402Z"
   },
   {
     "id": "mur-research-assignments-319343",
@@ -73122,7 +73135,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-03T12:49:08.378Z"
+    "updatedAt": "2026-11-03T12:49:08.378Z",
+    "archivedAt": "2026-11-14T12:12:15.402Z"
   },
   {
     "id": "mur-research-assignments-319407",
@@ -73153,7 +73167,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-03T12:49:08.378Z"
+    "updatedAt": "2026-11-03T12:49:08.378Z",
+    "archivedAt": "2026-11-14T12:12:15.402Z"
   },
   {
     "id": "mur-research-assignments-319428",
@@ -73184,7 +73199,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-03T12:49:08.378Z"
+    "updatedAt": "2026-11-03T12:49:08.378Z",
+    "archivedAt": "2026-11-14T12:12:15.402Z"
   },
   {
     "id": "mur-postdoc-assignments-319344",
@@ -73215,7 +73231,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-03T12:49:08.378Z"
+    "updatedAt": "2026-11-03T12:49:08.378Z",
+    "archivedAt": "2026-11-14T12:12:15.402Z"
   },
   {
     "id": "mur-research-contracts-319588",
@@ -73246,7 +73263,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-14T12:12:15.402Z"
   },
   {
     "id": "mur-research-contracts-319688",
@@ -73277,7 +73295,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-14T12:12:15.402Z"
   },
   {
     "id": "mur-research-contracts-319727",
@@ -73308,7 +73327,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-14T12:12:15.402Z"
   },
   {
     "id": "mur-research-contracts-319728",
@@ -73339,7 +73359,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-14T12:12:15.402Z"
   },
   {
     "id": "mur-research-assignments-319794",
@@ -73370,7 +73391,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-14T12:12:15.402Z"
   },
   {
     "id": "mur-research-assignments-319604",
@@ -73401,7 +73423,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-14T12:12:15.402Z"
   },
   {
     "id": "mur-research-assignments-319697",
@@ -73434,7 +73457,8 @@
     "reviewReasons": [
       "multiple_scientific_sectors"
     ],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-14T12:12:15.402Z"
   },
   {
     "id": "mur-postdoc-assignments-319643",
@@ -73465,7 +73489,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-14T12:12:15.402Z"
   },
   {
     "id": "mur-research-assignments-319929",
@@ -73496,7 +73521,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-09T13:55:57.841Z"
+    "updatedAt": "2026-11-09T13:55:57.841Z",
+    "archivedAt": "2026-11-14T12:12:15.402Z"
   },
   {
     "id": "mur-fixed-term-researchers-152165",
@@ -89224,7 +89250,7 @@
     "gsd": "12/GIUR-06 - DIRITTO AMMINISTRATIVO E PUBBLICO",
     "fundingType": "Non specificato",
     "deadline": "2026-11-28",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-11-13",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/320171",
@@ -89257,7 +89283,7 @@
     "gsd": "02/PHYS-03 - FISICA SPERIMENTALE DELLA MATERIA E APPLICAZIONI",
     "fundingType": "Non specificato",
     "deadline": "2026-11-28",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-11-13",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/320262",
@@ -89288,7 +89314,7 @@
     "gsd": "09/IINF-01 - ELETTRONICA\n02/PHYS-01 - FISICA SPERIMENTALE DELLE INTERAZIONI FONDAMENTALI E APPLICAZIONI",
     "fundingType": "Non specificato",
     "deadline": "2026-11-28",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-11-13",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/320265",
@@ -97466,6 +97492,68 @@
     "updatedAt": "2026-11-13T13:08:25.849Z"
   },
   {
+    "id": "mur-doctorates-320281",
+    "title": "Bando Dottorati di Ricerca 42° ciclo, III Sessione, a.a. 2026/2027, Università degli Studi di Udine (Decreti Rettorali 287/2026 e 1146/2026)",
+    "institution": "Università degli Studi di UDINE",
+    "department": "Da bando ufficiale",
+    "location": "UDINE",
+    "region": "Friuli-Venezia Giulia",
+    "positionType": "PhD",
+    "professorRank": "",
+    "discipline": "Medicina e salute",
+    "ssd": "-",
+    "gsd": "",
+    "fundingType": "Non specificato",
+    "deadline": "2026-12-14",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-11-13",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/doctorate.php/public/fellowship/id_fellow/320281",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Bando di concorso per l’ammissione al corso di dottorato di ricerca dell’Università degli Studi di Udine a.a. 2026/2027, 42° ciclo: Scienze degli alimenti. La posizione disponibile (III sessione) è riservata a dipendenti Ethiopian Public Health Institute.",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "bando dottorati ricerca 42 ciclo iii sessione a a 2026 2027 studi udine decreti rettorali 287 2026 e 1146 2026|studi udine|2026-12-14",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-11-14T12:12:15.402Z"
+  },
+  {
+    "id": "mur-research-assignments-320320",
+    "title": "Spettroscopia ottica di emettitori di singolo fotone in nanofili III-V",
+    "institution": "LA SAPIENZA UNIVERSITA'",
+    "department": "Da bando ufficiale",
+    "location": "ROMA",
+    "region": "Lazio",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Matematica, fisica e chimica",
+    "ssd": "PHYS-03/A - Fisica sperimentale della materia e applicazioni",
+    "gsd": "02/PHYS-03 - FISICA SPERIMENTALE DELLA MATERIA E APPLICAZIONI",
+    "fundingType": "ERC",
+    "deadline": "2026-12-14",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-11-13",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/320320",
+    "salaryOrAmount": "22.500 Euro",
+    "duration": "12",
+    "language": "IT/EN",
+    "summary": "Per gli scopi del progetto ERC NANOWHYR, si ha la necessità di ottimizzare un setup criogenico di autocorrelazione con detector superconduttori SNSPD appena costruito, e di effettuare spettroscopia ottica su emettitori di singolo fotone contenuti in nanofili di GaP, InAsP, e GaAsN.",
+    "requirements": [
+      "come da bando (https://xup-phys.cloud/)"
+    ],
+    "dedupeKey": "spettroscopia ottica emettitori singolo fotone in nanofili iii v|la sapienza|2026-12-14",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-11-14T12:12:15.402Z"
+  },
+  {
     "id": "mur-research-contracts-319931",
     "title": "CONCORSO A N. 1 CONTRATTO DI RICERCA, GRUPPO 09/IINF-05 SISTEMI DI ELABORAZIONE DELLE INFORMAZIONI, DIPARTIMENTO DI COMPUTING SCIENCES, UNIVERSITÀ COMMERCIALE “LUIGI BOCCONI” DI MILANO",
     "institution": "Bocconi University",
@@ -97683,6 +97771,68 @@
     "confidenceScore": 0.95,
     "reviewReasons": [],
     "updatedAt": "2026-11-13T13:08:25.849Z"
+  },
+  {
+    "id": "mur-research-contracts-320307",
+    "title": "Evolutionary Dynamics and Collective Intelligence on Graphs and Hypergraphs",
+    "institution": "Luiss Guido Carli",
+    "department": "Da bando ufficiale",
+    "location": "Roma",
+    "region": "Lazio",
+    "positionType": "Contratto di ricerca",
+    "professorRank": "",
+    "discipline": "Matematica, fisica e chimica",
+    "ssd": "PHYS-04/A - Fisica teorica della materia, modelli, metodi matematici e applicazioni",
+    "gsd": "02/PHYS-04 - FISICA TEORICA DELLA MATERIA, MODELLI, METODI MATEMATICI E APPLICAZIONI",
+    "fundingType": "Non specificato",
+    "deadline": "2026-12-16",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-11-16",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/320307",
+    "salaryOrAmount": "40.196 Euro",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Il progetto, sviluppato nell’ambito di CODYBE e principalmente riferito alla Linea FIS 2.3 “Higher-order evolutionary processes”, propone uno studio teorico e computazionale di come le interazioni sociali e la struttura delle reti influenzino l’intelligenza collettiva. Sarà analizzato un modello generale di compiti collettivi, confrontandone le previsioni con esperimenti comportamentali. La ricerca si articola in du...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "evolutionary dynamics collective intelligence on graphs hypergraphs|luiss guido carli|2026-12-16",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-11-14T12:12:15.402Z"
+  },
+  {
+    "id": "mur-postdoc-assignments-320308",
+    "title": "Metodologie computazionali per l’analisi della disinformazione e degli ecosistemi informativi digitali",
+    "institution": "Luiss Guido Carli",
+    "department": "Da bando ufficiale",
+    "location": "Roma",
+    "region": "Lazio",
+    "positionType": "Postdoc",
+    "professorRank": "",
+    "discipline": "Economia, diritto e politica",
+    "ssd": "STAT-01/A - Statistica",
+    "gsd": "13/STAT-01 - STATISTICA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-12-16",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-11-16",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/320308",
+    "salaryOrAmount": "29.555 Euro",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Il progetto analizza l’evoluzione degli ecosistemi dell’informazione digitale, la diffusione della disinformazione e le dinamiche di manipolazione che influenzano il dibattito pubblico e i processi democratici. Integrando metodologie computazionali e ricerca qualitativa, utilizza dati da piattaforme online, fonti aperte e dall’Italian Digital Media Observatory (IDMO). Tecniche di machine learning, NLP, analisi delle...",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "metodologie computazionali per l analisi disinformazione e ecosistemi informativi digitali|luiss guido carli|2026-12-16",
+    "reviewStatus": "auto_published",
+    "confidenceScore": 0.95,
+    "reviewReasons": [],
+    "updatedAt": "2026-11-14T12:12:15.402Z"
   },
   {
     "id": "mur-doctorates-320142",
