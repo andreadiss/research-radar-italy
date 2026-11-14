@@ -1,3 +1,9 @@
+## 14 novembre 2026 — Chiarezza delle opportunità esposte
+
+Esito pre-deploy:10revisioni implementate, copertura23→33/101,home1→6/6,arretrato78→68IDda valutare. Registro91entry,81precedenti identiche e3mismatch SSD disattivati. Quantità di contratti e temi distinti preservati. Pubblicazione da confermare dopo deploy, nessun effetto traffico attribuito.
+
+Catalogo3.070ID:30nuovi rispetto allo snapshot13novembre,7fingerprint cambiati,3overrideSSD storici disattivati. Fonte13novembre13:14UTC. Campione101ID unici:home6,prime8delle5landingPosizioni e fino3correlati per seme. Baseline23/101,home1/6,arretrato78; non popolarità misurata né crescita di traffico. GSC payment_required noto: nessun retry quotidiano, nessuna spesa, GA4 o nuova metrica inventata.
+
 ## 13 novembre 2026 — Nuove opportunità in evidenza
 
 Esito pre-deploy: 10 revisioni implementate, copertura 16→26/97 e home 0→6/6; arretrato prioritario 81→71 ID da valutare, non difetti accertati. Registro81entry con71precedenti identiche;3mismatch storici ancora disattivati. Pubblicazione da confermare dopo deploy, nessuna crescita di traffico attribuita.
