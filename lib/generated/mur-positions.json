@@ -73553,7 +73553,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-03T12:49:08.378Z"
+    "updatedAt": "2026-11-03T12:49:08.378Z",
+    "archivedAt": "2026-11-15T12:45:43.389Z"
   },
   {
     "id": "mur-research-assignments-318993",
@@ -73584,7 +73585,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-10-15T09:56:24.009Z"
+    "updatedAt": "2026-10-15T09:56:24.009Z",
+    "archivedAt": "2026-11-15T12:45:43.389Z"
   },
   {
     "id": "mur-research-contracts-318998",
@@ -73615,7 +73617,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-10-16T09:51:30.660Z"
+    "updatedAt": "2026-10-16T09:51:30.660Z",
+    "archivedAt": "2026-11-15T12:45:43.389Z"
   },
   {
     "id": "mur-research-contracts-318999",
@@ -73646,7 +73649,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-10-16T09:51:30.660Z"
+    "updatedAt": "2026-10-16T09:51:30.660Z",
+    "archivedAt": "2026-11-15T12:45:43.389Z"
   },
   {
     "id": "mur-research-assignments-319033",
@@ -73677,7 +73681,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-10-16T09:51:30.660Z"
+    "updatedAt": "2026-10-16T09:51:30.660Z",
+    "archivedAt": "2026-11-15T12:45:43.389Z"
   },
   {
     "id": "mur-postdoc-assignments-319036",
@@ -73708,7 +73713,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-10-16T09:51:30.660Z"
+    "updatedAt": "2026-10-16T09:51:30.660Z",
+    "archivedAt": "2026-11-15T12:45:43.389Z"
   },
   {
     "id": "mur-research-assignments-319381",
@@ -73741,7 +73747,8 @@
     "reviewReasons": [
       "generic_institution"
     ],
-    "updatedAt": "2026-11-03T12:49:08.378Z"
+    "updatedAt": "2026-11-03T12:49:08.378Z",
+    "archivedAt": "2026-11-15T12:45:43.389Z"
   },
   {
     "id": "mur-research-contracts-319621",
@@ -73772,7 +73779,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-15T12:45:43.389Z"
   },
   {
     "id": "mur-research-contracts-319622",
@@ -73803,7 +73811,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-15T12:45:43.389Z"
   },
   {
     "id": "mur-research-assignments-319640",
@@ -73834,7 +73843,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-15T12:45:43.389Z"
   },
   {
     "id": "mur-research-assignments-319647",
@@ -73865,7 +73875,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-15T12:45:43.389Z"
   },
   {
     "id": "mur-research-assignments-319652",
@@ -73896,7 +73907,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-15T12:45:43.389Z"
   },
   {
     "id": "mur-research-assignments-319657",
@@ -73927,7 +73939,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-15T12:45:43.389Z"
   },
   {
     "id": "mur-research-assignments-319746",
@@ -73960,7 +73973,8 @@
     "reviewReasons": [
       "multiple_scientific_sectors"
     ],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-15T12:45:43.389Z"
   },
   {
     "id": "mur-research-assignments-319747",
@@ -73993,7 +74007,8 @@
     "reviewReasons": [
       "unknown_region"
     ],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-15T12:45:43.389Z"
   },
   {
     "id": "mur-research-assignments-319748",
@@ -74024,7 +74039,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-15T12:45:43.389Z"
   },
   {
     "id": "mur-research-assignments-319750",
@@ -74055,7 +74071,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-15T12:45:43.389Z"
   },
   {
     "id": "mur-postdoc-assignments-319645",
@@ -74086,7 +74103,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-15T12:45:43.389Z"
   },
   {
     "id": "mur-postdoc-assignments-319656",
@@ -74117,7 +74135,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-15T12:45:43.389Z"
   },
   {
     "id": "mur-postdoc-assignments-319658",
@@ -74148,7 +74167,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-15T12:45:43.389Z"
   },
   {
     "id": "mur-postdoc-assignments-317343",
@@ -81638,7 +81658,7 @@
     "positionType": "Incarico di ricerca",
     "professorRank": "",
     "discipline": "Altro / interdisciplinare",
-    "ssd": "GEOS-04/B - Geofisica applicata\nGEOS-04/C - Oceanografia, meteorologia e climatologia\nGEOS-04/A - Geofisica della Terra solida\nGEOS-03/B - Geologia applicata\nGEOS-03/A - Geografia fisica e geomorfologia\nGEOS-01/D - Georisorse minerarie e applicazioni mineralogico-petrografiche per l'ambiente e per i beni culturali\nGEOS-01/C - Geochimica e vulcanologia\nGEOS-01/B - Petrologia\nGEOS-01/A - Mineralogia\nGEOS-02/A - Paleontologia e paleoecologia\nGEOS-02/B - Geologia stratigrafica e sedimentologia\nGEOS-02/C - Geologia strutturale e tettonica",
+    "ssd": "GEOS-04/B - Geofisica applicata\nGEOS-04/C - Oceanografia, meteorologia e climatologia\nGEOS-04/A - Geofisica della Terra solida\nGEOS-03/A - Geografia fisica e geomorfologia\nGEOS-03/B - Geologia applicata\nGEOS-01/A - Mineralogia\nGEOS-01/D - Georisorse minerarie e applicazioni mineralogico-petrografiche per l'ambiente e per i beni culturali\nGEOS-01/B - Petrologia\nGEOS-01/C - Geochimica e vulcanologia\nGEOS-02/C - Geologia strutturale e tettonica\nGEOS-02/A - Paleontologia e paleoecologia\nGEOS-02/B - Geologia stratigrafica e sedimentologia",
     "gsd": "04/GEOS-04 - GEOFISICA\n04/GEOS-03 - GEOGRAFIA FISICA, GEOMORFOLOGIA E GEOLOGIA APPLICATA\n04/GEOS-01 - MINERALOGIA, PETROLOGIA, GEOCHIMICA, VULCANOLOGIA, GEORISORSE E APPLICAZIONI\n04/GEOS-02 - PALEONTOLOGIA, GEOLOGIA STRATIGRAFICA E SEDIMENTOLOGIA, GEOLOGIA STRUTTURALE E TETTONICA",
     "fundingType": "Non specificato",
     "deadline": "2026-11-20",
@@ -81660,7 +81680,7 @@
       "unknown_region",
       "multiple_scientific_sectors"
     ],
-    "updatedAt": "2026-11-13T13:08:25.849Z"
+    "updatedAt": "2026-11-15T12:45:43.389Z"
   },
   {
     "id": "mur-research-assignments-319641",
@@ -81800,7 +81820,7 @@
     "positionType": "Incarico di ricerca",
     "professorRank": "",
     "discipline": "Altro / interdisciplinare",
-    "ssd": "MATH-02/B - Geometria\nMATH-02/A - Algebra\nMATH-03/B - Probabilità e statistica matematica\nMATH-03/A - Analisi matematica\nMATH-05/A - Analisi numerica\nPHYS-05/A - Astrofisica, cosmologia e scienza dello spazio\nPHYS-05/B - Fisica del sistema Terra, dei pianeti, dello spazio e del clima\nMATH-04/A - Fisica matematica\nPHYS-06/B - Didattica e storia della fisica\nPHYS-06/A - Fisica per le scienze della vita, l'ambiente e i beni culturali\nPHYS-03/A - Fisica sperimentale della materia e applicazioni\nPHYS-01/A - Fisica sperimentale delle interazioni fondamentali e applicazioni\nPHYS-04/A - Fisica teorica della materia, modelli, metodi matematici e applicazioni\nPHYS-02/A - Fisica teorica delle interazioni fondamentali, modelli, metodi matematici e applicazioni\nMATH-01/A - Logica matematica\nMATH-01/B - Didattica e storia della matematica\nMATH-06/A - Ricerca operativa",
+    "ssd": "MATH-02/A - Algebra\nMATH-02/B - Geometria\nMATH-03/B - Probabilità e statistica matematica\nMATH-03/A - Analisi matematica\nMATH-05/A - Analisi numerica\nPHYS-05/A - Astrofisica, cosmologia e scienza dello spazio\nPHYS-05/B - Fisica del sistema Terra, dei pianeti, dello spazio e del clima\nMATH-04/A - Fisica matematica\nPHYS-06/B - Didattica e storia della fisica\nPHYS-06/A - Fisica per le scienze della vita, l'ambiente e i beni culturali\nPHYS-03/A - Fisica sperimentale della materia e applicazioni\nPHYS-01/A - Fisica sperimentale delle interazioni fondamentali e applicazioni\nPHYS-04/A - Fisica teorica della materia, modelli, metodi matematici e applicazioni\nPHYS-02/A - Fisica teorica delle interazioni fondamentali, modelli, metodi matematici e applicazioni\nMATH-01/A - Logica matematica\nMATH-01/B - Didattica e storia della matematica\nMATH-06/A - Ricerca operativa",
     "gsd": "01/MATH-02 - ALGEBRA E GEOMETRIA\n01/MATH-03 - ANALISI MATEMATICA, PROBABILITÀ E STATISTICA MATEMATICA\n01/MATH-05 - ANALISI NUMERICA\n02/PHYS-05 - ASTROFISICA E COSMOLOGIA, FISICA DELLO SPAZIO, DELLA TERRA E DEL CLIMA\n01/MATH-04 - FISICA MATEMATICA\n02/PHYS-06 - FISICA PER LE SCIENZE DELLA VITA, L'AMBIENTE E I BENI CULTURALI, DIDATTICA E STORIA DELLA FISICA\n02/PHYS-03 - FISICA SPERIMENTALE DELLA MATERIA E APPLICAZIONI\n02/PHYS-01 - FISICA SPERIMENTALE DELLE INTERAZIONI FONDAMENTALI E APPLICAZIONI\n02/PHYS-04 - FISICA TEORICA DELLA MATERIA, MODELLI, METODI MATEMATICI E APPLICAZIONI\n02/PHYS-02 - FISICA TEORICA DELLE INTERAZIONI FONDAMENTALI, MODELLI, METODI MATEMATICI E APPLICAZIONI\n01/MATH-01 - LOGICA MATEMATICA, DIDATTICA E STORIA DELLA MATEMATICA\n01/MATH-06 - RICERCA OPERATIVA",
     "fundingType": "Non specificato",
     "deadline": "2026-11-20",
@@ -81822,7 +81842,7 @@
       "unknown_region",
       "multiple_scientific_sectors"
     ],
-    "updatedAt": "2026-11-13T13:08:25.849Z"
+    "updatedAt": "2026-11-15T12:45:43.389Z"
   },
   {
     "id": "mur-postdoc-assignments-319751",
@@ -83777,7 +83797,7 @@
     "positionType": "Incarico di ricerca",
     "professorRank": "",
     "discipline": "Altro / interdisciplinare",
-    "ssd": "CEAR-01/A - Idraulica\nCEAR-01/B - Costruzioni idrauliche e marittime e idrologia",
+    "ssd": "CEAR-01/B - Costruzioni idrauliche e marittime e idrologia\nCEAR-01/A - Idraulica",
     "gsd": "08/CEAR-01 - IDRAULICA, IDROLOGIA, COSTRUZIONI IDRAULICHE E MARITTIME",
     "fundingType": "Non specificato",
     "deadline": "2026-11-24",
@@ -83798,7 +83818,7 @@
     "reviewReasons": [
       "multiple_scientific_sectors"
     ],
-    "updatedAt": "2026-11-13T13:08:25.849Z"
+    "updatedAt": "2026-11-15T12:45:43.389Z"
   },
   {
     "id": "mur-research-assignments-319713",
@@ -89347,7 +89367,7 @@
     "gsd": "06/MEDS-16 - MALATTIE ODONTOSTOMATOLOGICHE",
     "fundingType": "Non specificato",
     "deadline": "2026-11-29",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-10-28",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/319541",
@@ -89378,7 +89398,7 @@
     "gsd": "06/MEDS-17 - MALATTIE DELL'APPARATO VISIVO",
     "fundingType": "Non specificato",
     "deadline": "2026-11-29",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-10-28",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/319545",
@@ -89409,7 +89429,7 @@
     "gsd": "09/IINF-05 - SISTEMI DI ELABORAZIONE DELLE INFORMAZIONI",
     "fundingType": "Non specificato",
     "deadline": "2026-11-29",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-11-11",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/320017",
@@ -89440,7 +89460,7 @@
     "gsd": "01/INFO-01 - INFORMATICA",
     "fundingType": "Non specificato",
     "deadline": "2026-11-29",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-11-12",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/320107",
@@ -89471,7 +89491,7 @@
     "gsd": "02/PHYS-01 - FISICA SPERIMENTALE DELLE INTERAZIONI FONDAMENTALI E APPLICAZIONI",
     "fundingType": "Non specificato",
     "deadline": "2026-11-29",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-11-09",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/320121",
@@ -89502,7 +89522,7 @@
     "gsd": "09/IINF-01 - ELETTRONICA",
     "fundingType": "Non specificato",
     "deadline": "2026-11-29",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-11-12",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/320220",
@@ -93466,7 +93486,7 @@
     "positionType": "Postdoc",
     "professorRank": "",
     "discipline": "Altro / interdisciplinare",
-    "ssd": "MATH-01/A - Logica matematica\nMATH-01/B - Didattica e storia della matematica",
+    "ssd": "MATH-01/B - Didattica e storia della matematica\nMATH-01/A - Logica matematica",
     "gsd": "01/MATH-01 - LOGICA MATEMATICA, DIDATTICA E STORIA DELLA MATEMATICA",
     "fundingType": "Non specificato",
     "deadline": "2026-12-03",
@@ -93487,7 +93507,7 @@
     "reviewReasons": [
       "multiple_scientific_sectors"
     ],
-    "updatedAt": "2026-11-13T13:08:25.849Z"
+    "updatedAt": "2026-11-15T12:45:43.389Z"
   },
   {
     "id": "mur-postdoc-assignments-319598",
