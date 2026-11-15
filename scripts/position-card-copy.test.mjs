@@ -27,6 +27,23 @@ test("November 12 priority copy matches sources and keeps invalidated reviews di
 
 const positions = JSON.parse(readFileSync(new URL("../lib/generated/mur-positions.json", import.meta.url)));
 
+test("November 15 priority copy matches source and keeps the reserved position explicit", () => {
+  const batch = JSON.parse(readFileSync(new URL("../docs/growth/copy-review-2026-11-15.json", import.meta.url))).cards;
+  const queue = JSON.parse(readFileSync(new URL("../docs/growth/copy-queue-2026-11-15.json", import.meta.url)));
+  assert.equal(batch.length, 3);
+  for (const card of batch) {
+    const source = applyVerifiedPositionEnrichment(positions.find(position => position.id === card.id));
+    assert.ok(source, card.id);
+    assert.equal(source.title, card.original.title);
+    assert.equal(source.summary, card.original.summary);
+    assert.equal(source.sourceUrl, card.sourceUrl);
+    assert.equal(queue.items.find(item => item.id === card.id).fingerprint, card.fingerprint);
+    assert.equal(positionCardPresentation(source).title, card.proposal.title);
+    assert.equal(positionCardPresentation(source).summary, card.proposal.summary);
+  }
+  assert.match(batch[0].proposal.summary, /riservata ai dipendenti/);
+});
+
 test("November 14 priority copy matches sources and preserves multiple-contract scope", () => {
   const batch = JSON.parse(readFileSync(new URL("../docs/growth/copy-review-2026-11-14.json", import.meta.url))).cards;
   assert.equal(batch.length, 10);

@@ -170,3 +170,6 @@ Ipotesi: chi entra nel percorso Posizioni può approfondire guida e insight senz
 ## 4 novembre 2026 — Copertura editoriale verificabile, nessun A/B
 
 Test deterministici: prima osservazione non produce nuovi arrivi fittizi; importazione di vecchia pubblicazione rilevata tramiteID; cambiamento fonte riaccoda; rimozione/reimport preserva firstSeen; stato pubblicata richiede prova. Audit export confronta le etichette revisionate nelle superfici con i registri e controlla i link; fallback a originale quando il fingerprint non corrisponde. Nessun tracking, nuovo layout o modifica dei suggerimenti. I denominatori contano ID unici del campione, non click o popolarità misurata. Perimetro Funding escluso dal lotto Posizioni e invariato.
+## 15 novembre 2026 — Test deterministico, nessun A/B
+
+Tre nuovi testi editoriali guardati dai campi fonte; riserva PhD preservata, troncamenti non completati, H1 ufficiali invariati. Verificare resa in card/anteprima/landing, TypeScript, build statica e audit prima del merge. Nessuna modifica a dati, filtri, ordine, algoritmi, scadenze, layout, badge o tracking; nessun effetto CTR inferito.
