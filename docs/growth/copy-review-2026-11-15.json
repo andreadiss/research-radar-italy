@@ -1,0 +1,71 @@
+{
+  "reviewDate": "2026-11-15",
+  "status": "owner-reviewed-pending-deploy",
+  "sourceSnapshot": {
+    "commit": "6108808",
+    "path": "lib/generated/mur-positions.json",
+    "lastSuccessfulCheckAt": "2026-11-14T12:18:13.205Z",
+    "limitation": "Campi della cache MUR; non conferma individuale aggiornata di apertura o rettifiche del bando."
+  },
+  "selection": "Tre nuovi ID nelle prime otto di Dottorati, Postdoc e Contratti; cinque ulteriori candidati proposti dal copywriter non implementati in questa sessione. Home 6/6 già coperta. Revisione indipendente del responsabile su fonte, limiti e riserva esplicita.",
+  "reviewedCards": 3,
+  "implementedCards": 3,
+  "publishedCards": 0,
+  "deferredCandidateIds": [
+    "mur-postdoc-assignments-320179",
+    "mur-research-assignments-320169",
+    "mur-doctorates-319862",
+    "mur-doctorates-319594",
+    "mur-postdoc-assignments-320268"
+  ],
+  "cards": [
+    {
+      "id": "mur-doctorates-320281",
+      "fingerprint": "8d129cf24661a9a0594a10b8ed25aae4f8ec50055104bda1d8e04be44c1bc19b",
+      "surfaces": ["/posizioni/dottorati"],
+      "sourceUrl": "https://bandi.mur.gov.it/doctorate.php/public/fellowship/id_fellow/320281",
+      "original": {
+        "title": "Bando Dottorati di Ricerca 42° ciclo, III Sessione, a.a. 2026/2027, Università degli Studi di Udine (Decreti Rettorali 287/2026 e 1146/2026)",
+        "summary": "Bando di concorso per l’ammissione al corso di dottorato di ricerca dell’Università degli Studi di Udine a.a. 2026/2027, 42° ciclo: Scienze degli alimenti. La posizione disponibile (III sessione) è riservata a dipendenti Ethiopian Public Health Institute."
+      },
+      "proposal": {
+        "title": "Dottorato in Scienze degli alimenti: posizione riservata",
+        "summary": "XLII ciclo, III sessione, Università di Udine. Posizione riservata ai dipendenti Ethiopian Public Health Institute."
+      },
+      "evidence": "Il riepilogo MUR nomina corso e riserva; nessun finanziamento o requisito ulteriore dedotto.",
+      "outcome": "implemented-pending-deploy"
+    },
+    {
+      "id": "mur-postdoc-assignments-320308",
+      "fingerprint": "927d8e4eb1d738f079d9e127325a055d46f1ca2a30f99f61d4db13b5d31ecd77",
+      "surfaces": ["/posizioni/postdoc"],
+      "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/320308",
+      "original": {
+        "title": "Metodologie computazionali per l’analisi della disinformazione e degli ecosistemi informativi digitali",
+        "summary": "Il progetto analizza l’evoluzione degli ecosistemi dell’informazione digitale, la diffusione della disinformazione e le dinamiche di manipolazione che influenzano il dibattito pubblico e i processi democratici. Integrando metodologie computazionali e ricerca qualitativa, utilizza dati da piattaforme online, fonti aperte e dall’Italian Digital Media Observatory (IDMO). Tecniche di machine learning, NLP, analisi delle..."
+      },
+      "proposal": {
+        "title": "Disinformazione ed ecosistemi informativi digitali",
+        "summary": "Analisi con metodi computazionali e ricerca qualitativa, utilizzando dati da piattaforme online, fonti aperte e IDMO."
+      },
+      "evidence": "Prime due frasi complete; la parte troncata sulle tecniche non è stata completata.",
+      "outcome": "implemented-pending-deploy"
+    },
+    {
+      "id": "mur-research-contracts-320307",
+      "fingerprint": "1d12cef42a8deb78b30196543b3f5456f2cedb40effacfafd1936a1ccafab66e",
+      "surfaces": ["/posizioni/contratti-di-ricerca"],
+      "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/320307",
+      "original": {
+        "title": "Evolutionary Dynamics and Collective Intelligence on Graphs and Hypergraphs",
+        "summary": "Il progetto, sviluppato nell’ambito di CODYBE e principalmente riferito alla Linea FIS 2.3 “Higher-order evolutionary processes”, propone uno studio teorico e computazionale di come le interazioni sociali e la struttura delle reti influenzino l’intelligenza collettiva. Sarà analizzato un modello generale di compiti collettivi, confrontandone le previsioni con esperimenti comportamentali. La ricerca si articola in du..."
+      },
+      "proposal": {
+        "title": "Intelligenza collettiva su grafi e ipergrafi",
+        "summary": "Studio teorico e computazionale di interazioni sociali e reti, con confronto tra un modello di compiti collettivi ed esperimenti comportamentali."
+      },
+      "evidence": "Titolo e prime due frasi complete; non attribuita alla persona la conduzione degli esperimenti né completato il testo troncato.",
+      "outcome": "implemented-pending-deploy"
+    }
+  ]
+}
