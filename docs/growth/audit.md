@@ -309,3 +309,7 @@ Main27360a8 / PR74 verificata: smoke pubblico PASS, cinque delle sei card home r
 ## 15 novembre 2026 — Fonte e copy prioritario
 
 Main 6108808, sola PR #67 aperta e non approvata. Rilascio #83 verificato live: home 6/6 con testi editoriali abbinati. Nuovo snapshot 3.074 ID: 4 aggiunti e 0 fingerprint mutati rispetto al 14 novembre; tre mismatch SSD storici ancora disattivati. Tre nuovi record esposti hanno fonte sufficiente per sintesi circoscritte; il PhD 320281 resta esplicitamente riservato. Nessuna inferenza dalle parti troncate di 320307 e 320308.
+
+## 17 novembre 2026 — Verifica fonte e precedente rilascio
+
+Main 622e70b; rilascio #84 verificato in home e landing core HTTP 200. Cache MUR controllata il 15 novembre 12:51 UTC. Rispetto allo snapshot del 15 novembre: 0 nuovi ID; quattro fingerprint modificati solo dal riordino SSD, tutti non esposti. La home ha una scheda non revisionata (320142) con tema dei singoli corsi non specificato nella fonte.

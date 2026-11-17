@@ -27,6 +27,22 @@ test("November 12 priority copy matches sources and keeps invalidated reviews di
 
 const positions = JSON.parse(readFileSync(new URL("../lib/generated/mur-positions.json", import.meta.url)));
 
+test("November 17 exposed-card batch matches source and states the Genoa limit", () => {
+  const registry = JSON.parse(readFileSync(new URL("../docs/growth/copy-review-2026-11-17.json", import.meta.url)));
+  const queue = JSON.parse(readFileSync(new URL("../docs/growth/copy-queue-2026-11-17.json", import.meta.url)));
+  assert.equal(registry.cards.length, 7);
+  for (const card of registry.cards) {
+    const source = applyVerifiedPositionEnrichment(positions.find(position => position.id === card.id));
+    assert.ok(source, card.id);
+    for (const [key, value] of Object.entries(card.source)) assert.equal(source[key], value, `${card.id}:${key}`);
+    assert.deepEqual(reviewedCardCopy.find(review => review.source.id === card.id), { source: card.source, ...card.proposal });
+    assert.equal(queue.items.find(item => item.id === card.id).fingerprint, card.fingerprint);
+    assert.equal(positionCardPresentation(source).title, card.proposal.title);
+    assert.equal(positionCardPresentation(source).summary, card.proposal.summary);
+  }
+  assert.match(registry.cards[0].proposal.summary, /non specifica i singoli temi/);
+});
+
 test("November 15 priority copy matches source and keeps the reserved position explicit", () => {
   const batch = JSON.parse(readFileSync(new URL("../docs/growth/copy-review-2026-11-15.json", import.meta.url))).cards;
   const queue = JSON.parse(readFileSync(new URL("../docs/growth/copy-queue-2026-11-15.json", import.meta.url)));

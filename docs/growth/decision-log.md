@@ -186,3 +186,7 @@ Bilancio: crescita storica22–28ottobre positiva ma settimana attuale non misur
 ## 15 novembre 2026 — Lotto breve e gate di rilascio
 
 Delega selezione e prima verifica al copywriter; owner QA indipendente su tre proposte e rinvio di cinque candidati al prossimo lotto. Pubblicazione #83 verificata tramite ricevuta nella PR e registrata nel manifesto, senza riapplicare gli stessi ID. Il coordinatore può rilasciare solo dopo tutti i check conclusi positivamente e smoke GitHub Pages; se il budget termina, lasciare PR reviewable. PR #67 guida resta separata e richiede approvazione.
+
+## 17 novembre 2026 — Continuità e responsabilità
+
+La task di crescita risultava disattivata al controllo del 17 novembre; riattivata conservando la cadenza quotidiana delle 09:00 Europe/Rome. Il registro non mostra la causa della disattivazione o del ritardo: non attribuirla a GitHub o al sito. Delega copy e segnali in sola lettura; owner verifica indipendente e gate di rilascio. PR #67 guida resta non approvata.
