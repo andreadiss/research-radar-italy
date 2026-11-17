@@ -215,3 +215,7 @@ Copywriter delegato10ID sulle superfici reali, owner QA10/10,24precedenti intatt
 ## 15 novembre 2026 — Tre nuove schede esposte
 
 Letti main6108808, unica PR aperta67 e sei documenti growth; verificata pubblicazione #83 con home live. Snapshot3.074ID:4nuovi,0changed; campione101ID:31→34con copy abbinato,home6/6,arretrato70→67. Copywriter proposti8, owner revisionate/implementate3 (320281/320308/320307), cinque rinviati; fonte cache14nov12:18UTC, nessuna conferma individuale dell'apertura. Manifesto #83 aggiornato dalla ricevuta. Test, PR e rilascio da chiudere solo se i gate riescono; non dichiarare shipped in anticipo.
+
+## 17 novembre 2026 — Sessione
+
+Letti main622e70b, unica PR aperta #67 e sei documenti growth; #84 verificata live. Task di crescita trovata disattivata e riattivata senza cambiare orario, causa non determinata. Snapshot 3.074 ID: 0 nuovi, 4 fingerprint riordino SSD; campione 33→40/94, home 5→6/6, arretrato 61→54. Copywriter propone7, owner implementa7 con verifica cache fonte 15 novembre 12:51 UTC; nessuna conferma individuale apertura. Test/PR/deploy da attestare solo a esito positivo.

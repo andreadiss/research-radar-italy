@@ -1,0 +1,221 @@
+{
+  "reviewDate": "2026-11-17",
+  "status": "owner-reviewed-pending-deploy",
+  "sourceSnapshot": {
+    "commit": "622e70b",
+    "path": "lib/generated/mur-positions.json",
+    "lastSuccessfulCheckAt": "2026-11-15T12:51:04.867Z",
+    "limitation": "Cache MUR, non conferma individuale di apertura o rettifiche."
+  },
+  "selection": "Home scoperta, quattro proposte prioritarie del 15 novembre ricontrollate e due correlati; nessun nuovo ID rispetto al precedente snapshot.",
+  "reviewedCards": 7,
+  "implementedCards": 7,
+  "publishedCards": 0,
+  "cards": [
+    {
+      "id": "mur-doctorates-320142",
+      "fingerprint": "272def6e81aa3a8c4780d62f27ba7b442a929a23d0d070c014fa6cbaba2cabc8",
+      "surfaces": [
+        "home",
+        "/posizioni/dottorati"
+      ],
+      "sourceUrl": "https://bandi.mur.gov.it/doctorate.php/public/fellowship/id_fellow/320142",
+      "source": {
+        "id": "mur-doctorates-320142",
+        "title": "Bando di concorso per l’ammissione ai corsi di dottorato di ricerca relativi al XLII ciclo (bando Novembre)",
+        "summary": "Consulta l'elenco dei corsi di dottorato attivati alla seguente pagina web https://unige.it/usg/it/dottorati-di-ricerca",
+        "sourceUrl": "https://bandi.mur.gov.it/doctorate.php/public/fellowship/id_fellow/320142",
+        "positionType": "PhD",
+        "institution": "Università degli Studi di Genova",
+        "ssd": "-",
+        "location": "Genova"
+      },
+      "original": {
+        "title": "Bando di concorso per l’ammissione ai corsi di dottorato di ricerca relativi al XLII ciclo (bando Novembre)",
+        "summary": "Consulta l'elenco dei corsi di dottorato attivati alla seguente pagina web https://unige.it/usg/it/dottorati-di-ricerca"
+      },
+      "proposal": {
+        "title": "Dottorati a Genova: XLII ciclo, bando di novembre",
+        "summary": "I corsi attivati sono elencati nella pagina Dottorati di ricerca dell’Università di Genova. Il riepilogo MUR non specifica i singoli temi."
+      },
+      "evidence": "Titolo MUR: ciclo e bando di novembre; riepilogo: rinvio alla pagina dei corsi.",
+      "limits": "Nessun tema, borsa o requisito dedotto dalla pagina non consultata.",
+      "outcome": "implemented-pending-deploy"
+    },
+    {
+      "id": "mur-research-assignments-320169",
+      "fingerprint": "01e24e50116dcbb2aa7a261e8e961a8c9c1060e29cde7b2f3f6e668f0d1861db",
+      "surfaces": [
+        "/posizioni/psicologia"
+      ],
+      "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/320169",
+      "source": {
+        "id": "mur-research-assignments-320169",
+        "title": "Le basi neurocognitive della comunicazione sensorimotoria: il ruolo delle funzioni esecutive e della metacognizione nel ciclo di vita",
+        "summary": "Incarico di ricerca presso Università degli Studi di Milano - Bicocca sul tema “Le basi neurocognitive della comunicazione sensorimotoria: il ruolo delle funzioni esecutive e della metacognizione nel ciclo di vita”. Scadenza per le candidature: 2 dicembre 2026.",
+        "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/320169",
+        "positionType": "Incarico di ricerca",
+        "institution": "Università degli Studi di Milano - Bicocca",
+        "ssd": "-",
+        "location": "Milano"
+      },
+      "original": {
+        "title": "Le basi neurocognitive della comunicazione sensorimotoria: il ruolo delle funzioni esecutive e della metacognizione nel ciclo di vita",
+        "summary": "Incarico di ricerca presso Università degli Studi di Milano - Bicocca sul tema “Le basi neurocognitive della comunicazione sensorimotoria: il ruolo delle funzioni esecutive e della metacognizione nel ciclo di vita”. Scadenza per le candidature: 2 dicembre 2026."
+      },
+      "proposal": {
+        "title": "Basi neurocognitive della comunicazione sensorimotoria",
+        "summary": "Ricerca sul ruolo delle funzioni esecutive e della metacognizione nel ciclo di vita, presso l’Università di Milano-Bicocca."
+      },
+      "evidence": "Tema esplicito nel titolo MUR e ripetuto nel riepilogo.",
+      "limits": "Nessun metodo o campione dedotto.",
+      "outcome": "implemented-pending-deploy"
+    },
+    {
+      "id": "mur-postdoc-assignments-320179",
+      "fingerprint": "d1c5902667c168c9b94cac4f7588cc790448e9278a0dfcf2b4b55164cd6ad593",
+      "surfaces": [
+        "/posizioni/postdoc"
+      ],
+      "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/320179",
+      "source": {
+        "id": "mur-postdoc-assignments-320179",
+        "title": "Analisi non lineare e valutazione della fragilità di strutture soggette a incendi e incendi post-sisma",
+        "summary": "L'oggetto della ricerca riguarda l'analisi del comportamento al fuoco di strutture secondo modelli avanzati di incendio e di analisi non lineari termomeccaniche. In particolare, la ricerca si concentrerà sull'analisi di: - strutture in impianti industriali sottoposte a incendi di interfaccia e boschivi; - strutture da ponte sottoposte a incendi di veicoli; - strutture sottoposte a incendi post-sisma. Sarà anche rich...",
+        "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/320179",
+        "positionType": "Postdoc",
+        "institution": "Università di Trento",
+        "ssd": "-",
+        "location": "Trento"
+      },
+      "original": {
+        "title": "Analisi non lineare e valutazione della fragilità di strutture soggette a incendi e incendi post-sisma",
+        "summary": "L'oggetto della ricerca riguarda l'analisi del comportamento al fuoco di strutture secondo modelli avanzati di incendio e di analisi non lineari termomeccaniche. In particolare, la ricerca si concentrerà sull'analisi di: - strutture in impianti industriali sottoposte a incendi di interfaccia e boschivi; - strutture da ponte sottoposte a incendi di veicoli; - strutture sottoposte a incendi post-sisma. Sarà anche rich..."
+      },
+      "proposal": {
+        "title": "Strutture esposte a incendi e incendi post-sisma",
+        "summary": "Analisi termomeccaniche non lineari su impianti industriali, ponti e strutture sottoposte a incendi dopo un sisma."
+      },
+      "evidence": "Riepilogo MUR: modelli e tre tipi di strutture/incendi prima del taglio.",
+      "limits": "Nessuna garanzia di sicurezza o resistenza dedotta.",
+      "outcome": "implemented-pending-deploy"
+    },
+    {
+      "id": "mur-doctorates-319862",
+      "fingerprint": "b02c705e8dee1f92b78e34b623e0904fb79deb7daafe19eb835a326815608640",
+      "surfaces": [
+        "/posizioni/dottorati"
+      ],
+      "sourceUrl": "https://bandi.mur.gov.it/doctorate.php/public/fellowship/id_fellow/319862",
+      "source": {
+        "id": "mur-doctorates-319862",
+        "title": "Musica contemporanea: Composizione, Analisi, Performance",
+        "summary": "Il progetto di dottorato, realizzato in forma associata tra il Conservatorio di musica “F.A. Bonporti” di Trento e Riva del Garda (capofila) e il Conservatorio di musica “N. Piccinni” di Bari, nasce dalla convinzione che la musica contemporanea costituisca uno dei luoghi più fecondi per interrogare il rapporto tra creazione artistica, riflessione teorica e pratiche performative. Il dottorato si configura come uno sp...",
+        "sourceUrl": "https://bandi.mur.gov.it/doctorate.php/public/fellowship/id_fellow/319862",
+        "positionType": "PhD",
+        "institution": "Conservatorio di musica",
+        "ssd": "- Composizione",
+        "location": "Trento"
+      },
+      "original": {
+        "title": "Musica contemporanea: Composizione, Analisi, Performance",
+        "summary": "Il progetto di dottorato, realizzato in forma associata tra il Conservatorio di musica “F.A. Bonporti” di Trento e Riva del Garda (capofila) e il Conservatorio di musica “N. Piccinni” di Bari, nasce dalla convinzione che la musica contemporanea costituisca uno dei luoghi più fecondi per interrogare il rapporto tra creazione artistica, riflessione teorica e pratiche performative. Il dottorato si configura come uno sp..."
+      },
+      "proposal": {
+        "title": "Dottorato in musica contemporanea: composizione, analisi, performance",
+        "summary": "Percorso associato tra i Conservatori Bonporti di Trento e Riva del Garda e Piccinni di Bari, sul rapporto tra creazione, teoria e performance."
+      },
+      "evidence": "Prima frase completa del riepilogo MUR: enti e rapporto tra creazione, teoria, performance.",
+      "limits": "Nessun tema oltre il testo leggibile.",
+      "outcome": "implemented-pending-deploy"
+    },
+    {
+      "id": "mur-postdoc-assignments-320268",
+      "fingerprint": "d42bb2b403ad88b4c4aa293f22cb21a458f9534e998525642bda2c20b816f984",
+      "surfaces": [
+        "/posizioni/postdoc"
+      ],
+      "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/320268",
+      "source": {
+        "id": "mur-postdoc-assignments-320268",
+        "title": "IpD55/2026: “Studio dell'architettura funzionale dell'antenna maggiore LHCII mediante analisi mutazionale in vivo”",
+        "summary": "I PM sono potenziali bersagli per migliorare le prestazioni delle colture: una dissipazione efficace dell'energia in eccesso può aumentare la tolleranza agli stress abiotici, ma un’attivazione eccessiva penalizza la crescita. Comprendere le basi molecolari dei PM è quindi essenziale per ottimizzare l’uso della luce nelle colture. Affronteremo il problema con un approccio multidisciplinare, integrando genetica, bioch...",
+        "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/320268",
+        "positionType": "Postdoc",
+        "institution": "Università degli Studi di Verona",
+        "ssd": "-",
+        "location": "Verona"
+      },
+      "original": {
+        "title": "IpD55/2026: “Studio dell'architettura funzionale dell'antenna maggiore LHCII mediante analisi mutazionale in vivo”",
+        "summary": "I PM sono potenziali bersagli per migliorare le prestazioni delle colture: una dissipazione efficace dell'energia in eccesso può aumentare la tolleranza agli stress abiotici, ma un’attivazione eccessiva penalizza la crescita. Comprendere le basi molecolari dei PM è quindi essenziale per ottimizzare l’uso della luce nelle colture. Affronteremo il problema con un approccio multidisciplinare, integrando genetica, bioch..."
+      },
+      "proposal": {
+        "title": "Architettura funzionale dell’antenna maggiore LHCII",
+        "summary": "Studio mediante analisi mutazionale in vivo, nell’ambito di un progetto sull’uso della luce nelle colture."
+      },
+      "evidence": "Titolo MUR: LHCII e analisi in vivo; riepilogo: uso della luce nelle colture.",
+      "limits": "Non espanso PM né completati metodi troncati.",
+      "outcome": "implemented-pending-deploy"
+    },
+    {
+      "id": "mur-postdoc-assignments-319754",
+      "fingerprint": "cad671294399f91ea5aebf9b00e5281c837c1a13afcd4f21a01776e1ebe0033f",
+      "surfaces": [
+        "related:mur-postdoc-assignments-320308"
+      ],
+      "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/319754",
+      "source": {
+        "id": "mur-postdoc-assignments-319754",
+        "title": "Validazione epistemica e impatto socioculturale dell’Intelligenza Artificiale: dal caso Giordano Bruno a un framework Human-Centred.",
+        "summary": "Validazione epistemica e impatto socioculturale dell’Intelligenza Artificiale: dal caso Giordano Bruno a un framework Human-Centred. L’attività di ricerca è finalizzata allo sviluppo di un modello di validazione epistemica dei sistemi di Intelligenza Artificiale, assumendo il pensiero e l’opera di Giordano Bruno come caso di studio. La ricerca comprenderà la ricostruzione e formalizzazione di categorie epistemologic...",
+        "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/319754",
+        "positionType": "Postdoc",
+        "institution": "Università degli Studi di Napoli “Federico II",
+        "ssd": "GSPS-06/A - Sociologia dei processi culturali e comunicativi",
+        "location": "Napoli"
+      },
+      "original": {
+        "title": "Validazione epistemica e impatto socioculturale dell’Intelligenza Artificiale: dal caso Giordano Bruno a un framework Human-Centred.",
+        "summary": "Validazione epistemica e impatto socioculturale dell’Intelligenza Artificiale: dal caso Giordano Bruno a un framework Human-Centred. L’attività di ricerca è finalizzata allo sviluppo di un modello di validazione epistemica dei sistemi di Intelligenza Artificiale, assumendo il pensiero e l’opera di Giordano Bruno come caso di studio. La ricerca comprenderà la ricostruzione e formalizzazione di categorie epistemologic..."
+      },
+      "proposal": {
+        "title": "Validazione epistemica dell’IA: il caso Giordano Bruno",
+        "summary": "Sviluppo di un modello di validazione epistemica dei sistemi di intelligenza artificiale, usando il pensiero e l’opera di Giordano Bruno come caso di studio."
+      },
+      "evidence": "Prima frase completa del riepilogo MUR: modello e caso studio.",
+      "limits": "Nessuna validazione già conseguita asserita.",
+      "outcome": "implemented-pending-deploy"
+    },
+    {
+      "id": "mur-postdoc-assignments-319225",
+      "fingerprint": "975e28b81787241985c3720df938df0153489f30c6a3854e40bef09f0e6db2db",
+      "surfaces": [
+        "related:mur-postdoc-assignments-320270",
+        "related:mur-postdoc-assignments-320271"
+      ],
+      "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/319225",
+      "source": {
+        "id": "mur-postdoc-assignments-319225",
+        "title": "Ricerche nell’ambito della sicurezza e affidabilità di sistemi e impianti critici quali quelli del settore nucleare e petrolifero, e delle infrastrutture - 2026_IPD_DENG_8",
+        "summary": "Gli studi e le ricerche riguarderanno metodi e modelli di analisi di rischio, affidabilità e manutenzione, rischio e resilienza di sistemi critici quali quelli nucleari, oil&gas ed energetici in genere, e le infrastrutture critiche. Verranno considerate le possibilità e opportunità di integrazione di tecniche di Intelligenza Artificiale (IA) a supporto della modellazione degli effetti dell’invecchiamento e degrado n...",
+        "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/319225",
+        "positionType": "Postdoc",
+        "institution": "Politecnico di Milano",
+        "ssd": "IIND-07/D - Impianti nucleari",
+        "location": "Milano"
+      },
+      "original": {
+        "title": "Ricerche nell’ambito della sicurezza e affidabilità di sistemi e impianti critici quali quelli del settore nucleare e petrolifero, e delle infrastrutture - 2026_IPD_DENG_8",
+        "summary": "Gli studi e le ricerche riguarderanno metodi e modelli di analisi di rischio, affidabilità e manutenzione, rischio e resilienza di sistemi critici quali quelli nucleari, oil&gas ed energetici in genere, e le infrastrutture critiche. Verranno considerate le possibilità e opportunità di integrazione di tecniche di Intelligenza Artificiale (IA) a supporto della modellazione degli effetti dell’invecchiamento e degrado n..."
+      },
+      "proposal": {
+        "title": "Rischio e affidabilità di sistemi e infrastrutture critiche",
+        "summary": "Metodi e modelli di analisi del rischio, affidabilità, manutenzione e resilienza, con riferimento a sistemi nucleari, oil & gas ed energetici."
+      },
+      "evidence": "Prima frase completa del riepilogo MUR: metodi e sistemi considerati.",
+      "limits": "Non completata la parte troncata sull’IA; nessuna garanzia tecnica.",
+      "outcome": "implemented-pending-deploy"
+    }
+  ]
+}

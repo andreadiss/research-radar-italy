@@ -211,3 +211,7 @@ Output non outcome:10 nuove revisioni,24 precedenti preservate;34totali dopo QA.
 ## 15 novembre 2026 — Copertura editoriale, non traffico
 
 Catalogo 3.074 ID, 4 nuovi ID da snapshot14novembre, 0 fingerprint cambiati; controllo fonte14novembre12:18UTC. Campione prioritario101 ID unici (home6 + prime8 delle cinque landing Posizioni + fino3correlati per seme):31→34 revisioni abbinate, backlog70→67; home6/6. Tre revisioni nuove implementate ma pubblicazione da verificare dopo deploy. Ultimo export GSC utente17ottobre–13novembre:121clic/1.732impression; settimana7–13novembre25clic/543impression vs31ottobre–6novembre30/386. Nessuna causalità né crescita stabile attribuita.
+
+## 17 novembre 2026 — Copertura osservata
+
+Snapshot 3.074 ID: 0 nuovi dal 15 novembre; 4 fingerprint variati per solo riordino SSD, nessuna revisione invalidata di questo lotto. Campione definito home6, prime8 delle cinque landing Posizioni e fino3 correlati per seme: 40/94 con copy abbinato dopo il lotto; home 6/6. Pubblicazione delle 7 revisioni da attestare solo dopo deploy. GSC Wizard non ritentato per payment_required, GA4 escluso; nessun effetto sul traffico dedotto.

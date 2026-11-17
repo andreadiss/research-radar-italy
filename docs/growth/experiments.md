@@ -173,3 +173,7 @@ Test deterministici: prima osservazione non produce nuovi arrivi fittizi; import
 ## 15 novembre 2026 — Test deterministico, nessun A/B
 
 Tre nuovi testi editoriali guardati dai campi fonte; riserva PhD preservata, troncamenti non completati, H1 ufficiali invariati. Verificare resa in card/anteprima/landing, TypeScript, build statica e audit prima del merge. Nessuna modifica a dati, filtri, ordine, algoritmi, scadenze, layout, badge o tracking; nessun effetto CTR inferito.
+
+## 17 novembre 2026 — Gate editoriale
+
+Nessun A/B: sette proposte editoriali fonte-guardate, con limite del bando Genova esplicito e parti troncate non completate. Verificare test editoriali/operativi, TypeScript, build statica, link e superfici prima del merge; dopo deploy smoke pubblico. Dati fonte, H1 ufficiali, ordine, filtri, layout e badge invariati.

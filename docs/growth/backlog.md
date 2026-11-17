@@ -211,3 +211,7 @@ Roadmap: bozza ottobre aggiornata828schede1–31ottobre/check3novembre, ma stori
 ## 15 novembre 2026 — Priorità del lotto
 
 Impact 8, Confidence 9 sulla fedeltà/3 sul traffico, Effort 2, Risk 1: tre nuovi ID nelle prime otto di Dottorati, Postdoc e Contratti. Campione 31/101→34/101, home 6/6, arretrato 70→67 da valutare, non difetti accertati. Altri cinque candidati del copywriter rimandati al prossimo lotto. La guida accademia→azienda PR #67 resta non approvata e in ritardo sulla milestone; proporne revisione editoriale senza merge automatico.
+
+## 17 novembre 2026 — Lotto esposto
+
+Impact 8, Confidence 9 sulla fedeltà e 3 sul traffico, Effort 3, Risk 1: lotto di sette testi sulle superfici esposte, inclusa la home Genova con limite esplicito. Campione 33/94→40/94, home 5/6→6/6, arretrato esposto 61→54 da valutare; non sono 54 difetti accertati. PR #67 resta separata e non approvata.
