@@ -17,6 +17,12 @@ export default function Guide() {
       {[['Incarichi di ricerca',233],['Postdoc',168],['Ricercatori RTT',64],['Contratti di ricerca',64],['Altre tipologie',59]].map(([label,count])=><tr key={label}><th scope="row">{label}</th><td>{count}</td></tr>)}
     </tbody></table>
     <p>Le categorie hanno requisiti e condizioni differenti: vale la pena esplorarle, verificando quali siano compatibili con il proprio profilo.</p>
+    <h2>Confronta le opportunità aperte per tipo</h2>
+    <ul>
+      <li><Link href="/posizioni/postdoc">Incarichi postdoc</Link>: confronta tema, sede e requisiti del progetto.</li>
+      <li><Link href="/posizioni/contratti-di-ricerca">Contratti di ricerca</Link>: verifica attività, durata e condizioni nel bando.</li>
+      <li><Link href="/posizioni/ricercatori-tempo-determinato">Ricercatori RTT</Link>: controlla il settore indicato e i requisiti della procedura.</li>
+    </ul>
     <p>Per orientarti, controlla subito <strong>argomento, settore scientifico, sede e scadenza</strong>. Approfondisci poi attività, requisiti e condizioni nel bando ufficiale.</p>
     <p>Lombardia e Lazio raccolgono il 43,5% delle schede analizzate. Se puoi trasferirti, cercare in più regioni amplia le opportunità da valutare.</p>
     <aside className="editorial-method"><h2>Fonte e metodo</h2><p>Questa analisi descrive il nostro catalogo, non l’intero mercato italiano. I dati MUR/Cineca sono stati controllati il 21 ottobre 2026: nuove pubblicazioni, proroghe e ritiri successivi non sono confermati. Verifica sempre la fonte ufficiale. Una scheda può includere più posti; eventuali duplicazioni tra procedure non sono consolidate.</p>

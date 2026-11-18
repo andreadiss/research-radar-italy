@@ -219,3 +219,7 @@ Letti main6108808, unica PR aperta67 e sei documenti growth; verificata pubblica
 ## 17 novembre 2026 — Sessione
 
 Letti main622e70b, unica PR aperta #67 e sei documenti growth; #84 verificata live. Task di crescita trovata disattivata e riattivata senza cambiare orario, causa non determinata. Snapshot 3.074 ID: 0 nuovi, 4 fingerprint riordino SSD; campione 33→40/94, home 5→6/6, arretrato 61→54. Copywriter propone7, owner implementa7 con verifica cache fonte 15 novembre 12:51 UTC; nessuna conferma individuale apertura. Test/PR/deploy da attestare solo a esito positivo.
+
+## 18 novembre 2026 — Bilancio e percorsi verso i bandi
+
+Bilancio settimanale 18 novembre: #81–85, 37 revisioni pubblicate con ricevute; #85 verificata ancora pubblicamente. Export 7–13 novembre vs 31 ottobre–6 novembre: 25/543 vs 30/386 clic/impression; dato fino al 13, nessun miglioramento stabile dimostrato. Oggi: tre link dalla guida, breadcrumb cliccabile su cinque landing, 8 revisioni fonte-guardate e ricevuta #85 riportata nel manifesto. Nuovi ID 79 (non equivale a bandi usciti oggi), SSD mutato 320059, campione dopo lotto 26/101 e home 6/6 in build. Pubblicazione da attestare dopo i gate.

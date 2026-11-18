@@ -313,3 +313,7 @@ Main 6108808, sola PR #67 aperta e non approvata. Rilascio #83 verificato live: 
 ## 17 novembre 2026 — Verifica fonte e precedente rilascio
 
 Main 622e70b; rilascio #84 verificato in home e landing core HTTP 200. Cache MUR controllata il 15 novembre 12:51 UTC. Rispetto allo snapshot del 15 novembre: 0 nuovi ID; quattro fingerprint modificati solo dal riordino SSD, tutti non esposti. La home ha una scheda non revisionata (320142) con tema dei singoli corsi non specificato nella fonte.
+
+## 18 novembre 2026 — Bilancio e percorsi verso i bandi
+
+Verificati home, Dottorati, Psicologia e collegamento correlato del rilascio #85. Nel percorso esistente la guida spiegava tre famiglie di bandi senza portarvi direttamente; nelle cinque landing Posizioni il livello genitore non era cliccabile. Aggiunti tre link statici nella guida e il ritorno all’indice nel breadcrumb. Nessuna conclusione sull’indicizzazione effettiva senza GSC.

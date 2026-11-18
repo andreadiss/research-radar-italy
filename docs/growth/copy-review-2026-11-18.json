@@ -1,0 +1,198 @@
+{
+  "reviewDate": "2026-11-18",
+  "sourceSnapshot": {
+    "commit": "fb783b1",
+    "lastSuccessfulCheckAt": "2026-11-17T14:32:28.649Z",
+    "limitation": "Cache MUR: non attesta rettifiche o aperture individuali. Non ricostruiti passaggi troncati."
+  },
+  "reviewedCards": 8,
+  "publishedCards": 0,
+  "cards": [
+    {
+      "id": "mur-research-assignments-320416",
+      "source": {
+        "id": "mur-research-assignments-320416",
+        "title": "Studio delle vescicole extracellulari di origine vegetale e del ruolo degli RNA non codificanti nella comunicazione inter-regno",
+        "summary": "La ricerca studierà il ruolo delle EVs vegetali nella comunicazione tra regni, con particolare attenzione agli RNA non codificanti e alla loro capacità di modulare l’espressione proteica nelle cellule umane, in continuità con i precedenti risultati del gruppo di ricerca. Le attività comprenderanno la preparazione e la caratterizzazione delle EVs vegetali, il trattamento di modelli cellulari umani e murini e la valut...",
+        "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/320416",
+        "positionType": "Incarico di ricerca",
+        "institution": "Università degli Studi di Roma Tor Vergata - Dipartimento di Biologia",
+        "ssd": "MEDS-02/A - Patologia generale",
+        "location": "roma"
+      },
+      "fingerprint": "063b0bbd54b29100cc8e9cbb299b02e47cb10a8b286700ed2392ef559ab592a3",
+      "proposal": {
+        "title": "Vescicole vegetali e comunicazione tra regni",
+        "summary": "Ricerca sul ruolo delle vescicole extracellulari vegetali e degli RNA non codificanti nella comunicazione tra piante e cellule umane."
+      },
+      "evidence": "Titolo e prima frase completa del riepilogo.",
+      "outcome": "revisionata-pending-deploy",
+      "surfaces": [
+        "home"
+      ]
+    },
+    {
+      "id": "mur-research-assignments-320418",
+      "source": {
+        "id": "mur-research-assignments-320418",
+        "title": "Sviluppo di modelli comportamentali di scelta discreta per la previsione della domanda di trasporto in aree urbane e metropolitane",
+        "summary": "L'incarico riguarderà lo sviluppo e la calibrazione di modelli di scelta discreta comportamentali per l'analisi delle decisioni di viaggio nel trasporto passeggeri e merci in area urbana e metropolitana. Le attività comprenderanno la progettazione metodologica delle indagini, la definizione dei disegni sperimentali e la predisposizione di questionari di tipo Stated Preference (SP) e Revealed Preference (RP), finaliz...",
+        "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/320418",
+        "positionType": "Incarico di ricerca",
+        "institution": "Università degli Studi di Roma Tor Vergata - Dipartimento di Ingegneria dell'Impresa",
+        "ssd": "CEAR-03/B - Trasporti",
+        "location": "roma"
+      },
+      "fingerprint": "51f9ead0eefae8d54ad68ed4647fd824c15a0bf03883a708a5029f31177bb64c",
+      "proposal": {
+        "title": "Modelli per prevedere la domanda di trasporto urbano",
+        "summary": "Sviluppo e calibrazione di modelli di scelta discreta per analizzare le decisioni di viaggio nel trasporto di persone e merci."
+      },
+      "evidence": "Prima frase completa del riepilogo.",
+      "outcome": "revisionata-pending-deploy",
+      "surfaces": [
+        "home"
+      ]
+    },
+    {
+      "id": "mur-postdoc-assignments-320414",
+      "source": {
+        "id": "mur-postdoc-assignments-320414",
+        "title": "Sviluppo di network a base di DNA per applicazioni sensoristiche e drugdelivery",
+        "summary": "L’attività di ricerca mira allo sviluppo e alla caratterizzazione di networks di DNA basati su meccanismo combinatoriale per applicazioni sensoristiche di biomarcatori di interesse diagnostico e il rilascio di specifiche molecole funzionali. Tali sistemi saranno caratterizzati mediante tecniche spettrofotometriche, fluorimetriche, microscopiche ed elettroforetiche",
+        "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/320414",
+        "positionType": "Postdoc",
+        "institution": "Università degli Studi di Roma Tor Vergata - Dipartimento di Scienze e Tecnologie Chimiche",
+        "ssd": "CHEM-01/A - Chimica analitica",
+        "location": "roma"
+      },
+      "fingerprint": "5098e014d62a95a1f7ebeb01b73b4e083031303555506db7323fb9046e992d0f",
+      "proposal": {
+        "title": "Reti di DNA per sensori e rilascio molecolare",
+        "summary": "Sviluppo e caratterizzazione di materiali per il rilevamento di biomarcatori e il rilascio di molecole."
+      },
+      "evidence": "Titolo e obiettivo dichiarato nel riepilogo.",
+      "outcome": "revisionata-pending-deploy",
+      "surfaces": [
+        "home",
+        "/posizioni/postdoc"
+      ]
+    },
+    {
+      "id": "mur-research-assignments-320417",
+      "source": {
+        "id": "mur-research-assignments-320417",
+        "title": "Stabilità e caos nel problema a N corpi tramite la teoria dei sistemi dinamici e machine learning",
+        "summary": "Si intende studiare con metodi analitici e computazionali la dinamica del problema a N corpi in Meccanica Celeste con particolare riferimento alla dinamica attorno alle risonanze e a problemi di stabilità. A tale scopo, si utilizzeranno metodi della teoria delle perturbazioni, indicatori di caos, tecniche di machine learning, metodologie di calcolo ad alte prestazioni. Le simulazioni numeriche verranno effettuate ut...",
+        "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/320417",
+        "positionType": "Incarico di ricerca",
+        "institution": "Università degli Studi di Roma Tor Vergata - Dipartimento di Matematica",
+        "ssd": "MATH-04/A - Fisica matematica",
+        "location": "roma"
+      },
+      "fingerprint": "e8e274290c118bac2d1c5d4b15dd0152df2b3239f1a5ecead002d59b0c8ae845",
+      "proposal": {
+        "title": "Stabilità e caos nel problema a N corpi",
+        "summary": "Studio analitico e computazionale delle risonanze e della stabilità in meccanica celeste."
+      },
+      "evidence": "Prima frase completa del riepilogo.",
+      "outcome": "revisionata-pending-deploy",
+      "surfaces": [
+        "home"
+      ]
+    },
+    {
+      "id": "mur-research-assignments-320420",
+      "source": {
+        "id": "mur-research-assignments-320420",
+        "title": "Risolvere l a complessità delle interazioni tra nanoparticelle e cellule in tempo reale e su scala nanometrica",
+        "summary": "L’obiettivo di questo progetto di ricercaè comprendere in dettaglio i meccanismi del traffico intracellulare delle nanoparticelle e le loro interazioni e reazioni con i componenti cellulari, al fine di programmare e modulare le risposte cellulari indotte dalle nanoparticelle. Gli obiettivi specifici del progetto comprendono: la progettazione e lo sviluppo di una serie di nanoparticelle biodegradabili a base di fitog...",
+        "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/320420",
+        "positionType": "Incarico di ricerca",
+        "institution": "Università degli Studi di Roma Tor Vergata - Dipartimento di Scienze e Tecnologie Chimiche",
+        "ssd": "CHEM-02/A - Chimica fisica",
+        "location": "roma"
+      },
+      "fingerprint": "085138c244e76aeaf0f9f4e1d7511bc7e023ee6978b6fd26efd963344e7978aa",
+      "proposal": {
+        "title": "Interazioni tra nanoparticelle e cellule",
+        "summary": "Studio del movimento delle nanoparticelle all’interno delle cellule e delle loro interazioni con i componenti cellulari."
+      },
+      "evidence": "Obiettivo nella prima frase del riepilogo.",
+      "outcome": "revisionata-pending-deploy",
+      "surfaces": [
+        "home"
+      ]
+    },
+    {
+      "id": "mur-postdoc-assignments-320415",
+      "source": {
+        "id": "mur-postdoc-assignments-320415",
+        "title": "Network enzimatici di reazione regolati da confinamento microscopico",
+        "summary": "Il progetto si propone di produrre e caratterizzare network di reazione enzimatici in soluzione, che successivamente saranno incapsulati in compartimenti biomimetici liposomiali. Il candidato dovrà focalizzare la sua attività nella produzione di enzimi di fusione (tra cui enzimi CRISPR e altri enzimi DNA repair) con Halo/Snap-Tag e altre proteine funzionali alla bioconiugazione con acidi nucleici. E’ richiesta compr...",
+        "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/320415",
+        "positionType": "Postdoc",
+        "institution": "Università degli Studi di Roma Tor Vergata - Dipartimento di Scienze e Tecnologie Chimiche",
+        "ssd": "BIOS-07/A - Biochimica",
+        "location": "roma"
+      },
+      "fingerprint": "2b34ef6529af64b53ebb5d1e28119cec57c136654ab4361836665b3c107fb71a",
+      "proposal": {
+        "title": "Reti enzimatiche in compartimenti biomimetici",
+        "summary": "Studio di come il confinamento in compartimenti biomimetici influisce sulle reti di reazione enzimatiche."
+      },
+      "evidence": "Titolo MUR e obiettivo generale del progetto.",
+      "outcome": "revisionata-pending-deploy",
+      "surfaces": [
+        "home",
+        "/posizioni/postdoc"
+      ]
+    },
+    {
+      "id": "mur-doctorates-319659",
+      "source": {
+        "id": "mur-doctorates-319659",
+        "title": "Terzo bando di concorso per l'ammissione ai corsi di dottorato di ricerca - XLII Ciclo",
+        "summary": "Terzo bando di concorso per l'ammissione ai corsi di Dottorato di ricerca XLII Ciclo con sede amministrativa presso l’Università degli studi di Bergamo in: Economics Management accounting and finance Manufacturing Ecosystems Enabled by Intelligent Technologies (MEET)",
+        "sourceUrl": "https://bandi.mur.gov.it/doctorate.php/public/fellowship/id_fellow/319659",
+        "positionType": "PhD",
+        "institution": "Università degli studi di Bergamo",
+        "ssd": "-",
+        "location": "Bergamo - Dalmine"
+      },
+      "fingerprint": "4114b62f8437141e3ef178f99605f0d9ed19be662b08a6064e5f6ae2e8dfe907",
+      "proposal": {
+        "title": "Dottorati a Bergamo: economia e tecnologie manifatturiere",
+        "summary": "Terzo bando del XLII ciclo per i corsi di economia, management, contabilità e finanza, e di tecnologie intelligenti per gli ecosistemi manifatturieri."
+      },
+      "evidence": "Due corsi e sede amministrativa nel riepilogo; nessuna sede didattica dedotta.",
+      "outcome": "revisionata-pending-deploy",
+      "surfaces": [
+        "/posizioni/dottorati"
+      ]
+    },
+    {
+      "id": "mur-doctorates-320419",
+      "source": {
+        "id": "mur-doctorates-320419",
+        "title": "DIGITAL HERITAGE SCIENCE DHS XLII Ciclo A.A. 2026/27 (III Ciclo AFAM)",
+        "summary": "La Scuola di Dottorato in Digital Heritage Science (DHS) forma specialisti nelle tecnologie digitali per la conservazione e valorizzazione del patrimonio culturale. Di natura interdisciplinare, integra informatica, architettura, archeologia, storia dell’arte e scienze della conservazione. Il programma sviluppa competenze nell’uso di strumenti avanzati come scanner 3D, fotogrammetria, intelligenza artificiale, realtà...",
+        "sourceUrl": "https://bandi.mur.gov.it/doctorate.php/public/fellowship/id_fellow/320419",
+        "positionType": "PhD",
+        "institution": "Ministero dell'Università e della Ricerca",
+        "ssd": "- Tecnologie per l'informatica",
+        "location": "ROMA"
+      },
+      "fingerprint": "b7b287de3e8018c1b8d670a44694df3ee40e9610166aab2c02af6da694c9a3bb",
+      "proposal": {
+        "title": "Dottorato in Digital Heritage Science",
+        "summary": "Tecnologie digitali per conservare e valorizzare il patrimonio culturale, tra informatica, architettura, archeologia e storia dell’arte."
+      },
+      "evidence": "Prime due frasi complete; nessuna sede didattica dedotta.",
+      "outcome": "revisionata-pending-deploy",
+      "surfaces": [
+        "/posizioni/dottorati"
+      ]
+    }
+  ]
+}

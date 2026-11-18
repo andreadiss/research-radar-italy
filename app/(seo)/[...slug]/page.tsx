@@ -64,7 +64,7 @@ export default function SeoLandingRoute({ params }: PageProps) {
         <nav className="seo-breadcrumbs" aria-label="Percorso">
           <Link href="/">Home</Link>
           <span>/</span>
-          <span>{page.kind === "positions" ? "Posizioni" : "Funding"}</span>
+          {page.kind === "positions" ? <Link href="/posizioni/">Posizioni</Link> : <span>Funding</span>}
           <span>/</span>
           <strong>{page.shortLabel}</strong>
         </nav>

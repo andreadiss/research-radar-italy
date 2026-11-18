@@ -177,3 +177,7 @@ Tre nuovi testi editoriali guardati dai campi fonte; riserva PhD preservata, tro
 ## 17 novembre 2026 — Gate editoriale
 
 Nessun A/B: sette proposte editoriali fonte-guardate, con limite del bando Genova esplicito e parti troncate non completate. Verificare test editoriali/operativi, TypeScript, build statica, link e superfici prima del merge; dopo deploy smoke pubblico. Dati fonte, H1 ufficiali, ordine, filtri, layout e badge invariati.
+
+## 18 novembre 2026 — Bilancio e percorsi verso i bandi
+
+Nessun A/B. Verifica deterministica: tre destinazioni dalla guida, ritorno all’indice nelle cinque landing, corrispondenza copy/fonte e titoli ufficiali preservati. Effetto atteso: meno passaggi per esplorare una categoria; traffico e usabilità reale non misurati.
