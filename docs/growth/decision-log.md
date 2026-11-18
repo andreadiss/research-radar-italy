@@ -190,3 +190,7 @@ Delega selezione e prima verifica al copywriter; owner QA indipendente su tre pr
 ## 17 novembre 2026 — Continuità e responsabilità
 
 La task di crescita risultava disattivata al controllo del 17 novembre; riattivata conservando la cadenza quotidiana delle 09:00 Europe/Rome. Il registro non mostra la causa della disattivazione o del ritardo: non attribuirla a GitHub o al sito. Delega copy e segnali in sola lettura; owner verifica indipendente e gate di rilascio. PR #67 guida resta non approvata.
+
+## 18 novembre 2026 — Bilancio e percorsi verso i bandi
+
+Investire sui percorsi già visibili e sulle nuove card esposte; mantenere i link HTML e i filtri esistenti. Riaccodare 320059 per variazione SSD senza decidere la classificazione dalla sola cache. Nessun retry GSC a pagamento, modifica a pipeline o approvazione implicita di #67.

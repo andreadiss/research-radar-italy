@@ -215,3 +215,7 @@ Impact 8, Confidence 9 sulla fedeltà/3 sul traffico, Effort 2, Risk 1: tre nuov
 ## 17 novembre 2026 — Lotto esposto
 
 Impact 8, Confidence 9 sulla fedeltà e 3 sul traffico, Effort 3, Risk 1: lotto di sette testi sulle superfici esposte, inclusa la home Genova con limite esplicito. Campione 33/94→40/94, home 5/6→6/6, arretrato esposto 61→54 da valutare; non sono 54 difetti accertati. PR #67 resta separata e non approvata.
+
+## 18 novembre 2026 — Bilancio e percorsi verso i bandi
+
+Impact 8, Confidence 9 su percorso/fedeltà e 3 sul traffico, Effort 3, Risk 1. Priorità: orientamento dalla guida e 8 testi esposti. Restano 75 ID esposti da valutare dopo il lotto, non 75 difetti. La guida accademia→azienda #67 resta separata e non approvata; rivalutare la milestone del 9 dicembre dopo l’approvazione e la rimozione dal diff del copy del pilota già pubblicato.
