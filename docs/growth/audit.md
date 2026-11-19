@@ -317,3 +317,7 @@ Main 622e70b; rilascio #84 verificato in home e landing core HTTP 200. Cache MUR
 ## 18 novembre 2026 — Bilancio e percorsi verso i bandi
 
 Verificati home, Dottorati, Psicologia e collegamento correlato del rilascio #85. Nel percorso esistente la guida spiegava tre famiglie di bandi senza portarvi direttamente; nelle cinque landing Posizioni il livello genitore non era cliccabile. Aggiunti tre link statici nella guida e il ritorno all’indice nel breadcrumb. Nessuna conclusione sull’indicizzazione effettiva senza GSC.
+
+## 19 novembre 2026 — Copy esposto e focus visibile
+
+Rilascio #86 verificato: home, indice, guida, cinque landing, otto dettagli e asset HTTP 200; tre link e cinque breadcrumb presenti, H1 ufficiali preservati. Nel dialog di condivisione il campo link aveva outline:none e nessuna regola focus-visible: aggiunto contorno esplicito soltanto al campo.

@@ -2062,6 +2062,11 @@ select {
   width: 100%;
 }
 
+.share-link-box input:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
 .site-footer {
   background: rgba(251, 252, 248, 0.94);
   backdrop-filter: blur(14px);

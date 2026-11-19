@@ -181,3 +181,9 @@ Nessun A/B: sette proposte editoriali fonte-guardate, con limite del bando Genov
 ## 18 novembre 2026 — Bilancio e percorsi verso i bandi
 
 Nessun A/B. Verifica deterministica: tre destinazioni dalla guida, ritorno all’indice nelle cinque landing, corrispondenza copy/fonte e titoli ufficiali preservati. Effetto atteso: meno passaggi per esplorare una categoria; traffico e usabilità reale non misurati.
+
+## 19 novembre 2026 — Copy esposto e focus visibile
+
+Nessun A/B. Test deterministico per nuovi copy, riserva del bando 154111, invalidazione 320180 e ripristino outline del campo link. Verificare export e browser; nessuna modifica al comportamento di condivisione o raccolta dati.
+
+Gate: 245 test, TypeScript, build production e audit statico superati; 52 occorrenze su 50 superfici senza errori. Il controllo Chromium locale non è partito per restrizioni del runtime, quindi il focus reale resta da verificare prima del rilascio.

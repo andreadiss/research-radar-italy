@@ -1,0 +1,198 @@
+{
+  "reviewDate": "2026-11-19",
+  "sourceSnapshot": {
+    "commit": "6577390",
+    "lastSuccessfulCheckAt": "2026-11-18T14:07:42.398Z",
+    "limitation": "Cache MUR, non verifica dell'apertura o delle rettifiche dei singoli bandi; sintesi senza completamenti di parti troncate."
+  },
+  "reviewedCards": 8,
+  "publishedCards": 0,
+  "cards": [
+    {
+      "id": "mur-research-contracts-320491",
+      "source": {
+        "id": "mur-research-contracts-320491",
+        "title": "OpenScience@Cnr: Progettare e sperimentare l'implementazione della Roadmap per la Scienza Aperta 25 Bando CR 011 2026 ISTI PI",
+        "summary": "Sviluppo di un agente conversazionale basato su tecniche di Intelligenza Artificiale e modelli linguistici di grandi dimensioni (LLM), finalizzato all’accesso, all’integrazione e all’analisi di dati spaziali e temporali eterogenei relativi a variabili biotiche, ambientali, climatiche e antropiche, nell’ambito dei Digital Twin degli ecosistemi. L’attività comprenderà lo sviluppo di funzionalità per l’interrogazione i...",
+        "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/320491",
+        "positionType": "Contratto di ricerca",
+        "institution": "CNR ISTI",
+        "ssd": "-",
+        "location": "Pisa"
+      },
+      "fingerprint": "e65cfa390f10a33c04c4448a627370f487d2e853c0ba2edf93cb5eaf06963dc2",
+      "proposal": {
+        "title": "Scienza aperta: IA conversazionale e gemelli digitali degli ecosistemi",
+        "summary": "Sviluppo di un agente conversazionale per accedere, integrare e analizzare dati ambientali, climatici e antropici."
+      },
+      "evidence": "Obiettivo esplicito nella prima frase.",
+      "outcome": "revisionata-pending-deploy",
+      "surfaces": [
+        "home",
+        "/posizioni/contratti-di-ricerca"
+      ]
+    },
+    {
+      "id": "mur-postdoc-assignments-320410",
+      "source": {
+        "id": "mur-postdoc-assignments-320410",
+        "title": "Codice Bando Pica IPD-2026-069 T2L - Parlare per imparare: valorizzare le potenzialità della discussione in classe",
+        "summary": "Il progetto T2L sviluppa e mette alla prova un modello di formazione iniziale e in servizio degli insegnanti all’uso della discussione come strategia didattica, insieme a strumenti per progettare, osservare e analizzare le interazioni in classe. L’incarico prevede la collaborazione alla gestione scientifica e documentale del progetto (WP1), alla revisione degli strumenti di osservazione e progettazione (WP2), alla d...",
+        "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/320410",
+        "positionType": "Postdoc",
+        "institution": "Unimore",
+        "ssd": "PAED-02/A - Didattica e pedagogia speciale",
+        "location": "Reggio Emilia"
+      },
+      "fingerprint": "defa4567c14138bddb03ef655042357678975cead459ac2e227190bc6c16299a",
+      "proposal": {
+        "title": "T2L: imparare attraverso la discussione in classe",
+        "summary": "Formazione degli insegnanti alla discussione come strategia didattica e strumenti per progettare, osservare e analizzare le interazioni in classe."
+      },
+      "evidence": "Prima frase completa del riepilogo.",
+      "outcome": "revisionata-pending-deploy",
+      "surfaces": [
+        "/posizioni/postdoc"
+      ]
+    },
+    {
+      "id": "mur-doctorates-319594",
+      "source": {
+        "id": "mur-doctorates-319594",
+        "title": "“Arte, Tecnologia e Percezione”",
+        "summary": "Programma di studio e ricerca di durata triennale che mira a formare ricercatori con alte competenze nell’ambito delle forme espressive comuni ai linguaggi musicali e artistici attraverso l’analisi e metodologie di indagine scientifica.",
+        "sourceUrl": "https://bandi.mur.gov.it/doctorate.php/public/fellowship/id_fellow/319594",
+        "positionType": "PhD",
+        "institution": "MUR",
+        "ssd": "- Composizione musicale elettroacustica\n- Progettazione multimediale\n- Storia delle arti applicate",
+        "location": "Roma"
+      },
+      "fingerprint": "7a4cec0e0ec77f4b86fbdf8b9c085a924b6e9832781e2fa2847fa95c897e6a2a",
+      "proposal": {
+        "title": "Dottorato in Arte, Tecnologia e Percezione",
+        "summary": "Studio triennale dei linguaggi musicali e artistici attraverso analisi e metodologie di indagine scientifica."
+      },
+      "evidence": "Titolo e riepilogo; nessuna sede didattica dedotta.",
+      "outcome": "revisionata-pending-deploy",
+      "surfaces": [
+        "/posizioni/dottorati"
+      ]
+    },
+    {
+      "id": "mur-fixed-term-researchers-154111",
+      "source": {
+        "id": "mur-fixed-term-researchers-154111",
+        "title": "GSD 10/ARCH-01; SSD ARCH-01/D – Archeologia classica - riservata ex art. 2, c. 2, lett. b) del DM 193/2026",
+        "summary": "Il/La docente dovrà svolgere il suo impegno didattico, come da Regolamento relativo ai compiti didattici e istituzionali di professori e ricercatori dell’Ateneo, nei corsi di laurea triennali e magistrali del Dipartimento e in particolare nei corsi di Lettere, Archeologia e culture dell'antichità, Storia e filosofia. Sono possibili ulteriori lezioni nell’ambito di Dottorati di ricerca, Master, laboratori, scuole di...",
+        "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/154111",
+        "positionType": "RTT",
+        "institution": "Università degli Studi di Trieste",
+        "ssd": "ARCH-01/D - Archeologia classica",
+        "location": "Trieste"
+      },
+      "fingerprint": "6a184daac5af24eb5a02c6dec9fb76573fb9ab09904d6b964a25b58d6585a633",
+      "proposal": {
+        "title": "RTT in Archeologia classica — posto riservato",
+        "summary": "Didattica nei corsi di Lettere, Archeologia e culture dell’antichità, Storia e filosofia. Riserva ai sensi del DM 193/2026, art. 2, c. 2, lett. b)."
+      },
+      "evidence": "Titolo e prima frase; riserva mantenuta senza interpretazioni.",
+      "outcome": "revisionata-pending-deploy",
+      "surfaces": [
+        "/posizioni/ricercatori-tempo-determinato"
+      ]
+    },
+    {
+      "id": "mur-postdoc-assignments-320365",
+      "source": {
+        "id": "mur-postdoc-assignments-320365",
+        "title": "Rischi psicosociali connessi ai cambiamenti del mondo del lavoro: sviluppo di strumenti di valutazione, prevenzione e intervento",
+        "summary": "attività di ricerca nell'ambito della psicologia del lavoro e della psicometria, con particolare riferimento allo studio e/o all’intervento sullo stigma nelle organizzazioni. Costituiranno elementi qualificanti le esperienze di ricerca nell’ambito organizzativo con metodi qualitativi (interviste situazionali, analisi tematica, focus group, software tipo MAXQDA), quantitativi (analisi multivariata con software come J...",
+        "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/320365",
+        "positionType": "Postdoc",
+        "institution": "SAPIENZA UNIVERSITA' DI ROMA",
+        "ssd": "PSIC-01/C - Psicometria",
+        "location": "Roma"
+      },
+      "fingerprint": "d4ed7cee183ddc6f894cbc68c7138e86a7fa5552f34c6da42a0b8cc13b3a9804",
+      "proposal": {
+        "title": "Rischi psicosociali e stigma nelle organizzazioni",
+        "summary": "Ricerca in psicologia del lavoro e psicometria, con strumenti di valutazione, prevenzione e intervento sui rischi legati ai cambiamenti del lavoro."
+      },
+      "evidence": "Titolo e prima frase completa.",
+      "outcome": "revisionata-pending-deploy",
+      "surfaces": [
+        "/posizioni/psicologia",
+        "related:mur-postdoc-assignments-320007"
+      ]
+    },
+    {
+      "id": "mur-fixed-term-researchers-154383",
+      "source": {
+        "id": "mur-fixed-term-researchers-154383",
+        "title": "Procedura selettiva per 1 di ricercatore/rice a tempo determinato in Tenure Track (RTT), ex art. 24, L. 240/2010 modificato dalla L. 79/2022 (2026rtt031)",
+        "summary": "RTT presso Università di Verona nel settore ECON-05/A - Econometria. Scadenza per le candidature: 17 dicembre 2026.",
+        "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/154383",
+        "positionType": "RTT",
+        "institution": "Università di Verona",
+        "ssd": "ECON-05/A - Econometria",
+        "location": "Verona"
+      },
+      "fingerprint": "29df6c5c2807f42f9dc873de79a0dd7e26484d5af98e93396fa2d11e2df41829",
+      "proposal": {
+        "title": "RTT in Econometria",
+        "summary": "Ricercatore in tenure track presso l’Università di Verona (ECON-05/A). Il riepilogo MUR non specifica il tema di ricerca."
+      },
+      "evidence": "SSD e istituzione espliciti, nessun tema dedotto.",
+      "outcome": "revisionata-pending-deploy",
+      "surfaces": [
+        "/posizioni/ricercatori-tempo-determinato"
+      ]
+    },
+    {
+      "id": "mur-research-contracts-320461",
+      "source": {
+        "id": "mur-research-contracts-320461",
+        "title": "Pratiche di economia circolare nelle filiere agroalimentari e sistemi di aiuto alimentare - 2026_CDR_DIG_11",
+        "summary": "Il programma di ricerca intende approfondire pratiche e modelli di economia circolare per la riduzione dello spreco di cibo adottati dalle imprese della filiera agroalimentare. In particolare, la ricerca esamina i benefici prodotti dal sistema collaborativo di aiuto alimentare, fondato sulle donazioni di eccedenze e prodotti alimentari standard, per le aziende di trasformazione e distribuzione che conferiscono beni...",
+        "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/320461",
+        "positionType": "Contratto di ricerca",
+        "institution": "Politecnico di Milano",
+        "ssd": "IEGE-01/A - Ingegneria economico-gestionale",
+        "location": "Milano"
+      },
+      "fingerprint": "4085b5bc84d3d35b20ec99267eb904a4a519b3ccecca14eca2c27f8ceb05cba4",
+      "proposal": {
+        "title": "Economia circolare e riduzione dello spreco alimentare",
+        "summary": "Studio delle pratiche delle imprese agroalimentari e dei benefici dei sistemi collaborativi di aiuto alimentare basati sulle donazioni delle eccedenze."
+      },
+      "evidence": "Obiettivo e sistema di aiuto indicati nel riepilogo.",
+      "outcome": "revisionata-pending-deploy",
+      "surfaces": [
+        "/posizioni/contratti-di-ricerca"
+      ]
+    },
+    {
+      "id": "mur-postdoc-assignments-320448",
+      "source": {
+        "id": "mur-postdoc-assignments-320448",
+        "title": "Codice bando pica IPD-2026-068 “Syntax out of Africa. Deep history through human grammars” (DHisGram)",
+        "summary": "Raccolta e analisi di dati linguistici da una delle aree rilevanti per il progetto DHisGram, per la quale si richiede esperienza di studio comparativo della sintassi di lingue non indoeuropee e sarà necessario utilizzare strumenti aggiornati di analisi sintattica formale; popolamento della PCM-Hub; analisi della struttura filogenetica delle lingue analizzate, per la quale sarà necessario utilizzare strumenti di filo...",
+        "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/320448",
+        "positionType": "Postdoc",
+        "institution": "UNIMORE",
+        "ssd": "GLOT-01/A - Glottologia e linguistica",
+        "location": "Reggio Emilia"
+      },
+      "fingerprint": "dbed56d2a25ef8b4370a48093c64a9a9cde8f12dc2bb659e8de895eb6d9c950e",
+      "proposal": {
+        "title": "DHisGram: storia delle lingue attraverso la sintassi",
+        "summary": "Raccolta e analisi di dati linguistici e studio comparativo della sintassi di lingue non indoeuropee e delle loro relazioni storiche."
+      },
+      "evidence": "Titolo e attività esplicite del riepilogo.",
+      "outcome": "revisionata-pending-deploy",
+      "surfaces": [
+        "/posizioni/postdoc"
+      ]
+    }
+  ]
+}

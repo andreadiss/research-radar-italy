@@ -194,3 +194,7 @@ La task di crescita risultava disattivata al controllo del 17 novembre; riattiva
 ## 18 novembre 2026 — Bilancio e percorsi verso i bandi
 
 Investire sui percorsi già visibili e sulle nuove card esposte; mantenere i link HTML e i filtri esistenti. Riaccodare 320059 per variazione SSD senza decidere la classificazione dalla sola cache. Nessun retry GSC a pagamento, modifica a pipeline o approvazione implicita di #67.
+
+## 19 novembre 2026 — Copy esposto e focus visibile
+
+320180 ha cambiato titolo/SSD e 317477 ha cambiato contesto sullo stesso ID: conservare fonti e copy storici, non sovrascrivere l'import né riattivare copy invalidati. Il test storico deve attestare fallback quando la fonte diverge, non pretendere che la fonte rimanga immutata. Manifesto #86 aggiornato dalla verifica live e dal deploy 44258286729. #67 non approvata. Nessuna chiamata GSC a pagamento.

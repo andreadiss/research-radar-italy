@@ -46,6 +46,8 @@ test('hidden controls are skipped and empty dialogs and detached triggers are sa
 });
 
 test('share dialog wires guarded focus only after mount without changing the copy action', () => {
+  const css = readFileSync(new URL('../app/globals.css', import.meta.url), 'utf8');
+  assert.match(css, /\.share-link-box input:focus-visible\s*\{[^}]*outline:\s*2px solid var\(--accent\)[^}]*outline-offset:\s*3px/s);
   const component = readFileSync(new URL('../app/components/NextBestActions.tsx', import.meta.url), 'utf8');
   assert.match(component, /activateDialogKeyboard\(shareDialogRef.current, shareTriggerRef.current, \(\) => setShareOpen\(false\)\)/);
   assert.match(component, /ref=\{shareTriggerRef\}/);
