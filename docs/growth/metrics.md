@@ -219,3 +219,7 @@ Snapshot 3.074 ID: 0 nuovi dal 15 novembre; 4 fingerprint variati per solo riord
 ## 18 novembre 2026 — Bilancio e percorsi verso i bandi
 
 Bilancio del 18 novembre: export GSC del 15 novembre, ultimo giorno 13 novembre (ritardo 5 giorni). 7–13 novembre: 25 clic / 543 impression / CTR 4,60%; 31 ottobre–6 novembre: 30 / 386 / 7,77%. Più impression ma meno clic: non crescita stabile. 17 ottobre–13 novembre: 121 clic, 111 sulle quattro landing. Nessun nuovo dato indice, non-brand o GA4. Snapshot MUR del 17 novembre 15:32 CET: 3.153 ID, +79 dal registro, 1 fingerprint SSD mutato. Campione home6 + prime8 dei cinque percorsi + fino3 correlati per seme, deduplicato: 18→26/101; home 0→6/6; arretrato 83→75. Il campione è ruotato rispetto al 17, non indica perdita di copy.
+
+## 19 novembre 2026 — Copy esposto e focus visibile
+
+Snapshot 3.209 ID, +56 rispetto al 18 novembre; 2 fingerprint mutati (320180,317477), invalidati storici 4. Campione deduplicato home6, prime8 dei 5 percorsi e fino3 correlati per seme: 20→28/86; home 3→4/6; arretrato 66→58. Perimetro ruotato, non perdita delle revisioni. Cache MUR 18 novembre 14:07 UTC. Nessun nuovo dato GSC/GA4.

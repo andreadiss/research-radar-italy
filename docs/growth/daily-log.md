@@ -223,3 +223,7 @@ Letti main622e70b, unica PR aperta #67 e sei documenti growth; #84 verificata li
 ## 18 novembre 2026 — Bilancio e percorsi verso i bandi
 
 Bilancio settimanale 18 novembre: #81–85, 37 revisioni pubblicate con ricevute; #85 verificata ancora pubblicamente. Export 7–13 novembre vs 31 ottobre–6 novembre: 25/543 vs 30/386 clic/impression; dato fino al 13, nessun miglioramento stabile dimostrato. Oggi: tre link dalla guida, breadcrumb cliccabile su cinque landing, 8 revisioni fonte-guardate e ricevuta #85 riportata nel manifesto. Nuovi ID 79 (non equivale a bandi usciti oggi), SSD mutato 320059, campione dopo lotto 26/101 e home 6/6 in build. Pubblicazione da attestare dopo i gate.
+
+## 19 novembre 2026 — Copy esposto e focus visibile
+
+19 novembre main6577390, sola PR67 aperta. #86 verificata (run 44258286729 e smoke live), manifesto aggiornato. 56 nuovi ID rispetto allo snapshot, 2 mutati; campione 20→28/86, home 3→4/6, arretrato 66→58. Otto revisioni fonte-guardate, due home differite; cache18 novembre14:07 UTC, non conferma di apertura. Focus visibile sul campo link nel dialog condivisione; test storico 320180 adattato al fallback osservato. Test/PR/deploy da attestare solo a esito positivo.
