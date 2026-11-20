@@ -1,0 +1,154 @@
+{
+  "reviewDate": "2026-11-20",
+  "sourceSnapshot": {
+    "commit": "1ad796d",
+    "lastSuccessfulCheckAt": "2026-11-20T14:08:41.538Z",
+    "limitation": "Cache MUR; apertura e rettifiche individuali non confermate; nessuna integrazione di passaggi troncati."
+  },
+  "reviewedCards": 6,
+  "publishedCards": 0,
+  "cards": [
+    {
+      "id": "mur-doctorates-320574",
+      "source": {
+        "id": "mur-doctorates-320574",
+        "title": "Avviso per posizioni con borse di dottorato e con contratto di apprendistato (Avviso C) per l'ammissione ai corsi di dottorato di ricerca a.a. 2026/2027 – 42° Ciclo - Università di Pisa",
+        "summary": "Con DR n. 1945 del 12/11/2026 è stato emanato l’avviso per posizioni con borsa a tematica vincolata e quelle di dottorati in alto apprendistato rimaste disponibili al termine dei concorsi del primo bando (BANDO A) e del secondo bando (BANDO B) I corsi di dottorato iniziano il 1 novembre 2026. Il bando prevede 27 posizioni così ripartite: - 25 posti con borsa. Le borse di dottorato hanno durata triennale - 2 posizion...",
+        "sourceUrl": "https://bandi.mur.gov.it/doctorate.php/public/fellowship/id_fellow/320574",
+        "positionType": "PhD",
+        "institution": "Università di Pisa",
+        "ssd": "-",
+        "location": "Pisa"
+      },
+      "fingerprint": "85c8615b5c112db5119de4df49b19ec8d47183618312fa8513dec5f05a8070ba",
+      "proposal": {
+        "title": "Dottorati a Pisa: borse a tema vincolato e alto apprendistato",
+        "summary": "Avviso C per le posizioni rimaste disponibili dopo i bandi A e B del XLII ciclo: 27 posizioni totali, 25 con borsa triennale."
+      },
+      "evidence": "Quantità esplicite; non completato il riepilogo troncato.",
+      "outcome": "revisionata-pending-deploy",
+      "surfaces": [
+        "/posizioni/dottorati"
+      ]
+    },
+    {
+      "id": "mur-research-contracts-320663",
+      "source": {
+        "id": "mur-research-contracts-320663",
+        "title": "PERCEZIONE DEL DANNO SOCIOECONOMICO E TURISTICO PRODOTTO DA MACROPLASTICHE IN AMBIENTI MONTANI: UN CASO DI STUDIO NEL CONTESTO MOLISANO",
+        "summary": "Il programma di ricerca ha l’obiettivo di analizzare, da un punto di vista qualitativo, la percezione del danno socioeconomico causato da macroplastiche in ambienti montani e i fattori in grado di stimolare comportamenti “virtuosi”. L’attività si propone inoltre di investigare conoscenza dei fenomeni, attitudini e comportamenti di una pluralità di attori pubblici e privati (associazioni, imprese zootecniche e di alt...",
+        "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/320663",
+        "positionType": "Contratto di ricerca",
+        "institution": "MINISTERO DELL’INDUSTRIA E DEL MADE IN ITALY (MIMIT) FONDO PER LA CRESCITA SOSTENIBILE - Programma Nazionale Ricerca, Innovazione e Competitività per la transizione",
+        "ssd": "AGRI-01/A - Economia agraria, alimentare ed estimo rurale",
+        "location": "Roma"
+      },
+      "fingerprint": "ff5208497226c42693e9d83ce679c453645c3fb34804b0b1070c38a024497aeb",
+      "proposal": {
+        "title": "Macroplastiche in montagna: impatti socioeconomici e turistici in Molise",
+        "summary": "Ricerca qualitativa sulla percezione del danno e sui fattori che favoriscono comportamenti responsabili tra gli attori pubblici e privati."
+      },
+      "evidence": "Prima frase e titolo, Molise è contesto di studio.",
+      "outcome": "revisionata-pending-deploy",
+      "surfaces": [
+        "home",
+        "/posizioni/contratti-di-ricerca"
+      ]
+    },
+    {
+      "id": "mur-postdoc-assignments-320658",
+      "source": {
+        "id": "mur-postdoc-assignments-320658",
+        "title": "I sistemi di gestione delle risorse umane nella transizione sostenibile e digitale aziendale",
+        "summary": "Incarico post-doc - Dipartimento di Economia e Management - Durata 12 mesi - Scadenza 5 dicembre 2026 ore 13.00",
+        "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/320658",
+        "positionType": "Postdoc",
+        "institution": "Università di Pisa - Dipartimento di Economia e Management",
+        "ssd": "ECON-08/A - Organizzazione aziendale",
+        "location": "Pisa"
+      },
+      "fingerprint": "c7f8d98670b42e4bf2fdf172b34624fc112350173fb7f17ceefd50e42afe23f3",
+      "proposal": {
+        "title": "Gestione delle risorse umane nella transizione digitale e sostenibile",
+        "summary": "Incarico di 12 mesi presso il Dipartimento di Economia e Management dell’Università di Pisa."
+      },
+      "evidence": "Titolo e riepilogo espliciti.",
+      "outcome": "revisionata-pending-deploy",
+      "surfaces": [
+        "home",
+        "/posizioni/postdoc"
+      ]
+    },
+    {
+      "id": "mur-postdoc-assignments-320496",
+      "source": {
+        "id": "mur-postdoc-assignments-320496",
+        "title": "Incarico Post-Doc - PSIC-03/B - BEST PRACTICE – Benessere E Stress nel Terzo settore: Programma di Ricerca, Analisi, Coinvolgimento Territoriale e Intervento per un Contrasto all’Esaurimento emotivo",
+        "summary": "Il progetto mira a mappare e contrastare i rischi psicosociali, il burnout e il turnover volontario nelle Associazioni di Promozione Sociale (APS) del FVG. Basandosi sul framework del Job Demands-Resources Model, l'indagine adotta un disegno mixed-methods sequenziale composto da tre fasi. La prima fase di tipo qualitativo (studio pilota con focus group e interviste) presso l’APS ospitante identificherà le richieste...",
+        "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/320496",
+        "positionType": "Postdoc",
+        "institution": "Università degli Studi di Trieste",
+        "ssd": "PSIC-03/B - Psicologia del lavoro e delle organizzazioni",
+        "location": "Trieste"
+      },
+      "fingerprint": "dcfe3d8d996739b89a0087409ebcbd84fcade0e1a415590585cd1ffb79057e63",
+      "proposal": {
+        "title": "BEST PRACTICE: benessere e burnout nel Terzo settore",
+        "summary": "Ricerca sui rischi psicosociali, il burnout e il turnover volontario nelle Associazioni di Promozione Sociale del Friuli Venezia Giulia."
+      },
+      "evidence": "Prima frase completa.",
+      "outcome": "revisionata-pending-deploy",
+      "surfaces": [
+        "/posizioni/psicologia",
+        "related:mur-postdoc-assignments-320365"
+      ]
+    },
+    {
+      "id": "mur-doctorates-320522",
+      "source": {
+        "id": "mur-doctorates-320522",
+        "title": "DOTTORATO DI RICERCA AFAM IN “TEORIE PEDAGOGICHE E RICERCA EDUCATIVA PER LO STUDIO DELLA PERFORMANCE E DEI PROCESSI CREATIVI IN AMBITO MUSICALE” (DOT243RAB3) XLII CICLO – A.A. 2026/2027",
+        "summary": "Il dottorato in “Teorie pedagogiche e ricerca educativa per lo studio della performance e dei processi creativi in ambito musicale” intende fornire uno spazio di dialogo scientifico fra le discipline pedagogiche, psicologiche, neuroscientifiche e le pratiche artistiche, in modo che queste traggano motivi di ispirazione per rinnovare la didattica, sottoponendo a verifica prassi costituitesi nel corso del tempo su bas...",
+        "sourceUrl": "https://bandi.mur.gov.it/doctorate.php/public/fellowship/id_fellow/320522",
+        "positionType": "PhD",
+        "institution": "Conservatorio Statale di Musica",
+        "ssd": "- Pedagogia musicale per Didattica della musica",
+        "location": "Taranto"
+      },
+      "fingerprint": "ae2cff5678cc40ea1caa893315c2c614efb72c0e99b81332be678b2cc46bf978",
+      "proposal": {
+        "title": "Dottorato AFAM in pedagogia e ricerca educativa della performance musicale",
+        "summary": "Dialogo tra pedagogia, psicologia e pratiche artistiche per studiare i processi creativi e rinnovare la didattica musicale."
+      },
+      "evidence": "Titolo e riepilogo.",
+      "outcome": "revisionata-pending-deploy",
+      "surfaces": [
+        "/posizioni/dottorati",
+        "related:mur-doctorates-320570"
+      ]
+    },
+    {
+      "id": "mur-doctorates-320521",
+      "source": {
+        "id": "mur-doctorates-320521",
+        "title": "DESIGN E TECNOLOGIE DIGITALI PER IL PATRIMONIO CULTURALE",
+        "summary": "L’ISIA di Pescara indice una selezione pubblica per l’ammissione al Dottorato di ricerca AFAM \"Design and Digital Technologies for Cultural Heritage\" (XLII ciclo nazionale, III ciclo AFAM, a.a. 2026/2027), codice DOT26HKJET. Il percorso triennale, a tempo pieno, promuove la ricerca interdisciplinare sull’applicazione del design e delle tecnologie digitali alla documentazione, conservazione, accessibilità e valorizza...",
+        "sourceUrl": "https://bandi.mur.gov.it/doctorate.php/public/fellowship/id_fellow/320521",
+        "positionType": "PhD",
+        "institution": "ISIA di Pescara",
+        "ssd": "- Design della comunicazione\n- Economia e gestione delle imprese\n- Metodi e strumenti per la rappresentazione\n- Progettazione multimediale\n- Sociologia e antropologia del design\n- Sociologia e antropologia della comunicazione\n- Tecniche e linguaggi della comunicazione\n- Tecnologie della produzione",
+        "location": "Pescara"
+      },
+      "fingerprint": "eb799f3476814889bbe8c6a79009300e2d5688fb36f33bf4fbb32b3afbc1341a",
+      "proposal": {
+        "title": "Dottorato AFAM in Design e tecnologie digitali per il patrimonio culturale",
+        "summary": "Percorso triennale a tempo pieno presso ISIA di Pescara, con ricerca interdisciplinare su design, documentazione, conservazione e accessibilità del patrimonio."
+      },
+      "evidence": "Riepilogo fonte prima del taglio.",
+      "outcome": "revisionata-pending-deploy",
+      "surfaces": [
+        "/posizioni/dottorati"
+      ]
+    }
+  ]
+}
