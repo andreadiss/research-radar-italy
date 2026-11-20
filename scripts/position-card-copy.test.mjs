@@ -27,6 +27,21 @@ test("November 12 priority copy matches sources and keeps invalidated reviews di
 
 const positions = JSON.parse(readFileSync(new URL("../lib/generated/mur-positions.json", import.meta.url)));
 
+test("November 20 copy matches source, fingerprint and exposed surfaces", () => {
+  const review = JSON.parse(readFileSync(new URL("../docs/growth/copy-review-2026-11-20.json", import.meta.url)));
+  const queue = JSON.parse(readFileSync(new URL("../docs/growth/copy-queue-2026-11-20.json", import.meta.url)));
+  assert.equal(review.cards.length, 6);
+  for (const card of review.cards) {
+    const source = applyVerifiedPositionEnrichment(positions.find(position => position.id === card.id));
+    for (const [key, value] of Object.entries(card.source)) assert.equal(source[key], value, card.id);
+    const item = queue.items.find(entry => entry.id === card.id);
+    assert.equal(item.fingerprint, card.fingerprint);
+    assert.deepEqual(item.surfaces, card.surfaces);
+    assert.equal(positionCardPresentation(source).title, card.proposal.title);
+    assert.equal(positionCardPresentation(source).summary, card.proposal.summary);
+  }
+});
+
 test("November 19 copy matches source, fingerprint and exposed surfaces", () => {
   const review = JSON.parse(readFileSync(new URL("../docs/growth/copy-review-2026-11-19.json", import.meta.url)));
   const queue = JSON.parse(readFileSync(new URL("../docs/growth/copy-queue-2026-11-19.json", import.meta.url)));

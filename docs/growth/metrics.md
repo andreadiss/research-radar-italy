@@ -223,3 +223,7 @@ Bilancio del 18 novembre: export GSC del 15 novembre, ultimo giorno 13 novembre 
 ## 19 novembre 2026 — Copy esposto e focus visibile
 
 Snapshot 3.209 ID, +56 rispetto al 18 novembre; 2 fingerprint mutati (320180,317477), invalidati storici 4. Campione deduplicato home6, prime8 dei 5 percorsi e fino3 correlati per seme: 20→28/86; home 3→4/6; arretrato 66→58. Perimetro ruotato, non perdita delle revisioni. Cache MUR 18 novembre 14:07 UTC. Nessun nuovo dato GSC/GA4.
+
+## 20 novembre 2026 — Copy esposto e verifica precedente
+
+20 novembre cache MUR 14:08 UTC; 3.324 ID, +115 dal registro precedente, 0 fingerprint mutati, 4 invalidati. Campione deduplicato home6, prime8 dei cinque percorsi e fino3 correlati per seme: 14→20/94; home 0→2/6; arretrato 80→74. Rotazione del campione, non perdita di revisioni. Nessuna nuova misura GSC o GA4.

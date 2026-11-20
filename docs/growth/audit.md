@@ -321,3 +321,7 @@ Verificati home, Dottorati, Psicologia e collegamento correlato del rilascio #85
 ## 19 novembre 2026 — Copy esposto e focus visibile
 
 Rilascio #86 verificato: home, indice, guida, cinque landing, otto dettagli e asset HTTP 200; tre link e cinque breadcrumb presenti, H1 ufficiali preservati. Nel dialog di condivisione il campo link aveva outline:none e nessuna regola focus-visible: aggiunto contorno esplicito soltanto al campo.
+
+## 20 novembre 2026 — Copy esposto e verifica precedente
+
+PR #87 live: 8 dettagli, home, indice e landing HTTP 200, titoli ufficiali preservati. Test sul browser reale del 20 novembre: apertura dialog, Tab sul campo link, focus-visible con outline solid 2px/offset 3px e Escape riporta il focus al trigger. Nessuna regressione osservata; nessun test mobile dichiarato.

@@ -227,3 +227,7 @@ Bilancio settimanale 18 novembre: #81–85, 37 revisioni pubblicate con ricevute
 ## 19 novembre 2026 — Copy esposto e focus visibile
 
 19 novembre main6577390, sola PR67 aperta. #86 verificata (run 44258286729 e smoke live), manifesto aggiornato. 56 nuovi ID rispetto allo snapshot, 2 mutati; campione 20→28/86, home 3→4/6, arretrato 66→58. Otto revisioni fonte-guardate, due home differite; cache18 novembre14:07 UTC, non conferma di apertura. Focus visibile sul campo link nel dialog condivisione; test storico 320180 adattato al fallback osservato. Test/PR/deploy da attestare solo a esito positivo.
+
+## 20 novembre 2026 — Copy esposto e verifica precedente
+
+20 novembre main1ad796d, sola PR67 aperta; #87 verificata live incluso focus. 115 nuovi ID dal precedente snapshot, 0 fingerprint mutati; 6 proposte fonte-guardate per home e landing, campione 14→20/94, home 0→2/6, arretrato 80→74; cache MUR 20 novembre14:08 UTC, non conferma apertura. Test/deploy da attestare a esito positivo.

@@ -187,3 +187,7 @@ Nessun A/B. Verifica deterministica: tre destinazioni dalla guida, ritorno all�
 Nessun A/B. Test deterministico per nuovi copy, riserva del bando 154111, invalidazione 320180 e ripristino outline del campo link. Verificare export e browser; nessuna modifica al comportamento di condivisione o raccolta dati.
 
 Gate: 245 test, TypeScript, build production e audit statico superati; 52 occorrenze su 50 superfici senza errori. Il controllo Chromium locale non è partito per restrizioni del runtime, quindi il focus reale resta da verificare prima del rilascio.
+
+## 20 novembre 2026 — Copy esposto e verifica precedente
+
+Nessun A/B. Sei sintesi fonte-guardate, riserva e ufficialità preservate; verificare test, produzione e superfici. Focus tastiera #87 verificato live via Tab, CSS calcolato e Escape.

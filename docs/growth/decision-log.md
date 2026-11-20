@@ -198,3 +198,7 @@ Investire sui percorsi già visibili e sulle nuove card esposte; mantenere i lin
 ## 19 novembre 2026 — Copy esposto e focus visibile
 
 320180 ha cambiato titolo/SSD e 317477 ha cambiato contesto sullo stesso ID: conservare fonti e copy storici, non sovrascrivere l'import né riattivare copy invalidati. Il test storico deve attestare fallback quando la fonte diverge, non pretendere che la fonte rimanga immutata. Manifesto #86 aggiornato dalla verifica live e dal deploy 44258286729. #67 non approvata. Nessuna chiamata GSC a pagamento.
+
+## 20 novembre 2026 — Copy esposto e verifica precedente
+
+Manifesto #87 allineato al deploy 44487924465 e verifica HTTP 200 del 19 novembre. Il 20 novembre confermato in browser il focus visibile. Nessuna riattivazione di copy invalidati, GSC a pagamento o modifica della PR #67.

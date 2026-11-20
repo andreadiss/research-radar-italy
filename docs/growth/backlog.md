@@ -223,3 +223,7 @@ Impact 8, Confidence 9 su percorso/fedeltà e 3 sul traffico, Effort 3, Risk 1. 
 ## 19 novembre 2026 — Copy esposto e focus visibile
 
 Impact 7, Confidence 9 per focus/fedeltà e 3 per traffico, Effort 3, Risk 1; otto copy su superfici esposte e un focus visibile. 58/86 esposte ancora da valutare, due home differite. Priorità successiva: guida #67 separata non approvata; per 317477 e 320180 verificare fonte ufficiale e identità prima di nuovi copy, non modificare dati.
+
+## 20 novembre 2026 — Copy esposto e verifica precedente
+
+Impact 7, Confidence 9 fedeltà / 3 traffico, Effort 2, Risk 1. Sei copy esposti selezionati, quattro home differite, 74/94 da valutare; guida #67 separata e non approvata. Non modificare dati o fonti invalidati.
