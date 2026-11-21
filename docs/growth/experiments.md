@@ -191,3 +191,7 @@ Gate: 245 test, TypeScript, build production e audit statico superati; 52 occorr
 ## 20 novembre 2026 — Copy esposto e verifica precedente
 
 Nessun A/B. Sei sintesi fonte-guardate, riserva e ufficialità preservate; verificare test, produzione e superfici. Focus tastiera #87 verificato live via Tab, CSS calcolato e Escape.
+
+## 21 novembre 2026 — Arretrato percorsi prioritari
+
+Nessun A/B. Sei sintesi fonte-guardate; se tema assente dichiararlo, non inferire SSD o dettagli oltre il riepilogo. Gate di test, build e superfici come da PR.

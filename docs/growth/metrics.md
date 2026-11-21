@@ -227,3 +227,7 @@ Snapshot 3.209 ID, +56 rispetto al 18 novembre; 2 fingerprint mutati (320180,317
 ## 20 novembre 2026 — Copy esposto e verifica precedente
 
 20 novembre cache MUR 14:08 UTC; 3.324 ID, +115 dal registro precedente, 0 fingerprint mutati, 4 invalidati. Campione deduplicato home6, prime8 dei cinque percorsi e fino3 correlati per seme: 14→20/94; home 0→2/6; arretrato 80→74. Rotazione del campione, non perdita di revisioni. Nessuna nuova misura GSC o GA4.
+
+## 21 novembre 2026 — Arretrato percorsi prioritari
+
+Catalogo 3.324 ID, +0 dal registro, 0 mutati, 4 invalidati. Campione deduplicato home6, prime8 dei cinque percorsi e fino3 correlati per seme: 20→26/94, home 2/6, arretrato 74→68. Cache MUR 20 novembre 14:08 UTC. Nessun dato GSC/GA4 nuovo.
