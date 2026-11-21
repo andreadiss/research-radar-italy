@@ -202,3 +202,7 @@ Investire sui percorsi già visibili e sulle nuove card esposte; mantenere i lin
 ## 20 novembre 2026 — Copy esposto e verifica precedente
 
 Manifesto #87 allineato al deploy 44487924465 e verifica HTTP 200 del 19 novembre. Il 20 novembre confermato in browser il focus visibile. Nessuna riattivazione di copy invalidati, GSC a pagamento o modifica della PR #67.
+
+## 21 novembre 2026 — Arretrato percorsi prioritari
+
+Manifesto #88 allineato al run 44811245779 e verifica pubblica. Nessun cambio a dati o tassonomia, nessuna chiamata GSC a pagamento e nessuna approvazione della guida #67.

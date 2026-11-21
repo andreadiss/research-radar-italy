@@ -1,0 +1,150 @@
+{
+  "reviewDate": "2026-11-21",
+  "sourceSnapshot": {
+    "commit": "ea6f218",
+    "lastSuccessfulCheckAt": "2026-11-20T14:08:41.538Z",
+    "limitation": "Cache MUR; apertura e rettifiche individuali non confermate. Temi specifici non inferiti dai soli SSD."
+  },
+  "reviewedCards": 6,
+  "publishedCards": 0,
+  "cards": [
+    {
+      "id": "mur-postdoc-assignments-320524",
+      "source": {
+        "id": "mur-postdoc-assignments-320524",
+        "title": "Procedura di valutazione comparativa per n. 1 incarico post-doc - Dipartimento di Ingegneria civile, chimica, ambientale e dei Materiali",
+        "summary": "Titolo del progetto: “Infrastrutture blu-verdi per la gestione sostenibile delle acque meteoriche urbane\". L’attività di ricerca è finalizzata allo sviluppo e alla valutazione di infrastrutture blu-verdi (Blue-Green Infrastructure, BGI) per la gestione sostenibile delle acque meteoriche in ambito urbano. La ricerca riguarderà l’analisi delle prestazioni idrologiche e idrauliche di soluzioni quali aree di bioritenzio...",
+        "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/320524",
+        "positionType": "Postdoc",
+        "institution": "Università di Bologna",
+        "ssd": "CEAR-01/B - Costruzioni idrauliche e marittime e idrologia",
+        "location": "Bologna"
+      },
+      "fingerprint": "c2d4d7a7352a903fc3dff4ceb2c944d6474fb29660821b137a33bd00019b499a",
+      "proposal": {
+        "title": "Infrastrutture blu-verdi per le acque meteoriche urbane",
+        "summary": "Sviluppo e valutazione di infrastrutture per la gestione sostenibile delle acque meteoriche in città, attraverso l’analisi delle prestazioni idrologiche e idrauliche."
+      },
+      "evidence": "Titolo progetto e prime frasi; non completata la parte troncata.",
+      "outcome": "revisionata-pending-deploy",
+      "surfaces": [
+        "/posizioni/postdoc"
+      ]
+    },
+    {
+      "id": "mur-fixed-term-researchers-154203",
+      "source": {
+        "id": "mur-fixed-term-researchers-154203",
+        "title": "GSD 13/ECON-07; SSD ECON-07/A – Economia e gestione delle imprese - Pubblica selezione per il reclutamento di un ricercatore a tempo determinato, ai sensi dell’art. 24 della L. 240/2010 (RTT)",
+        "summary": "Attività didattica, in accordo a quanto stabilito dalla normativa di Ateneo, in insegnamenti delle materie afferenti il gruppo disciplinare di riferimento, anche in lingua inglese, e secondo le esigenze della copertura dell’offerta didattica stabilite dal Consiglio di Dipartimento",
+        "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/154203",
+        "positionType": "RTT",
+        "institution": "Università degli Studi di Trieste",
+        "ssd": "ECON-07/A - Economia e gestione delle imprese",
+        "location": "Trieste"
+      },
+      "fingerprint": "b1e3c462523409701eaa101290f21d33b8a36d8b6a0e052860ea12bf9912c101",
+      "proposal": {
+        "title": "RTT in Economia e gestione delle imprese",
+        "summary": "Attività didattica nel settore ECON-07/A, anche in lingua inglese, secondo le esigenze del Dipartimento. Il riepilogo MUR non specifica il tema di ricerca."
+      },
+      "evidence": "Settore dal titolo/SSD e didattica dal riepilogo.",
+      "outcome": "revisionata-pending-deploy",
+      "surfaces": [
+        "/posizioni/ricercatori-tempo-determinato"
+      ]
+    },
+    {
+      "id": "mur-fixed-term-researchers-154223",
+      "source": {
+        "id": "mur-fixed-term-researchers-154223",
+        "title": "GSD 13/STAT-01; SSD STAT-01/A - Statistica - Pubblica selezione per il reclutamento di un ricercatore a tempo determinato, ai sensi dell’art. 24 della L. 240/2010 (RTT)",
+        "summary": "Attività didattica, in accordo con quanto stabilito dalla normativa di Ateneo, in insegnamenti delle discipline afferenti al settore concorsuale di riferimento, anche in lingua inglese, e secondo le esigenze della copertura dell’offerta didattica stabilite dal Consiglio di Dipartimento",
+        "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/154223",
+        "positionType": "RTT",
+        "institution": "Università degli Studi di Trieste",
+        "ssd": "STAT-01/A - Statistica",
+        "location": "Trieste"
+      },
+      "fingerprint": "b0fe30ee6316436b78b619e2d928250193f4501d4baa57fabb52bfd56ef95172",
+      "proposal": {
+        "title": "RTT in Statistica",
+        "summary": "Attività didattica nel settore STAT-01/A, anche in lingua inglese, secondo le esigenze del Dipartimento. Il riepilogo MUR non specifica il tema di ricerca."
+      },
+      "evidence": "Settore dal titolo/SSD e didattica dal riepilogo.",
+      "outcome": "revisionata-pending-deploy",
+      "surfaces": [
+        "/posizioni/ricercatori-tempo-determinato"
+      ]
+    },
+    {
+      "id": "mur-fixed-term-researchers-154224",
+      "source": {
+        "id": "mur-fixed-term-researchers-154224",
+        "title": "GSD 12/GIUR-01; SSD GIUR-01/A – Diritto privato - Pubblica selezione per il reclutamento di un ricercatore a tempo determinato, ai sensi dell’art. 24 della L. 240/2010 (RTT)",
+        "summary": "Attività didattica definita in base a quanto previsto dalla normativa di Ateneo, in insegnamenti delle discipline afferenti al settore di riferimento (12/GIUR-01 – Diritto privato, GIUR-01/A – Diritto privato) e secondo le esigenze di copertura dell’offerta formativa stabilite dal Consiglio di Dipartimento e/o dall’Ateneo. Il regime d’impegno sarà a tempo pieno",
+        "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/154224",
+        "positionType": "RTT",
+        "institution": "Università degli Studi di Trieste",
+        "ssd": "GIUR-01/A - Diritto privato",
+        "location": "Trieste"
+      },
+      "fingerprint": "d05aa25b88040be6c07f2b6453bd383ef7350c172392b9cbf06e72cc58b2580c",
+      "proposal": {
+        "title": "RTT in Diritto privato",
+        "summary": "Impegno a tempo pieno e attività didattica nelle discipline del settore GIUR-01/A. Il riepilogo MUR non specifica il tema di ricerca."
+      },
+      "evidence": "Impegno e didattica espliciti nel riepilogo.",
+      "outcome": "revisionata-pending-deploy",
+      "surfaces": [
+        "/posizioni/ricercatori-tempo-determinato"
+      ]
+    },
+    {
+      "id": "mur-fixed-term-researchers-154503",
+      "source": {
+        "id": "mur-fixed-term-researchers-154503",
+        "title": "Sintassi figurativa e costruzione del significato nella pittura romana: sistemi iconografici e trasformazioni dei linguaggi",
+        "summary": "Il progetto indaga la pittura romana come sistema complesso e storicamente dinamico di produzione del significato, attraverso l'analisi dei processi formali e iconografici che presiedono alla costruzione delle immagini. La ricerca esaminerà la sintassi figurativa e le variazioni iconografiche come aspetti interdipendenti di un medesimo processo di generazione della forma e di costruzione del senso, con particolare a...",
+        "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/154503",
+        "positionType": "RTT",
+        "institution": "Università degli Studi di Perugia",
+        "ssd": "ARCH-01/D - Archeologia classica",
+        "location": "Perugia"
+      },
+      "fingerprint": "7ca8aa13e81ddb997253221e36b9216cbeb102d80d01687ee1ccddafd5412b6a",
+      "proposal": {
+        "title": "Pittura romana: iconografia e costruzione del significato",
+        "summary": "Ricerca sui processi formali e iconografici delle immagini nella pittura romana, con attenzione alle variazioni dei linguaggi figurativi."
+      },
+      "evidence": "Titolo e prime frasi complete.",
+      "outcome": "revisionata-pending-deploy",
+      "surfaces": [
+        "/posizioni/ricercatori-tempo-determinato"
+      ]
+    },
+    {
+      "id": "mur-research-contracts-320651",
+      "source": {
+        "id": "mur-research-contracts-320651",
+        "title": "Procedura pubblica di selezione per 6 contratti di ricerca",
+        "summary": "Procedura pubblica di selezione ai sensi dell’articolo 22 della legge 240 del 30.12.2010 per il conferimento di n. 6 contratti di ricerca presso vari Dipartimenti dell’Università degli studi di Bergamo – Codice PICA: 26CR008",
+        "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/320651",
+        "positionType": "Contratto di ricerca",
+        "institution": "Università degli studi di Bergamo - Vari Dipartimenti",
+        "ssd": "PEMM-01/B - Cinema, fotografia, radio, televisione e media digitali\nGIUR-06/A - Diritto amministrativo e pubblico\nECON-06/A - Economia aziendale\nECON-07/A - Economia e gestione delle imprese\nIINF-05/A - Sistemi di elaborazione delle informazioni\nGSPS-06/A - Sociologia dei processi culturali e comunicativi",
+        "location": "Bergamo"
+      },
+      "fingerprint": "907403145e48969af66dfeab058bfa0286b8f358d0acd7f0a225997372517927",
+      "proposal": {
+        "title": "Sei contratti di ricerca all’Università di Bergamo",
+        "summary": "Sei contratti nei settori dei media, diritto pubblico, economia aziendale, gestione delle imprese, informatica e sociologia culturale e comunicativa. Temi specifici non indicati nel riepilogo MUR."
+      },
+      "evidence": "Quantità, ateneo e dipartimenti dal riepilogo; aree dai sei SSD.",
+      "outcome": "revisionata-pending-deploy",
+      "surfaces": [
+        "/posizioni/contratti-di-ricerca"
+      ]
+    }
+  ]
+}
