@@ -81004,7 +81004,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-10-02T11:07:08.111Z"
+    "updatedAt": "2026-10-02T11:07:08.111Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-postdoc-assignments-319120",
@@ -81035,7 +81036,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-10-17T09:23:01.993Z"
+    "updatedAt": "2026-10-17T09:23:01.993Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-postdoc-assignments-319121",
@@ -81066,7 +81068,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-10-17T09:23:01.993Z"
+    "updatedAt": "2026-10-17T09:23:01.993Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-postdoc-assignments-319122",
@@ -81099,7 +81102,8 @@
     "reviewReasons": [
       "generic_title"
     ],
-    "updatedAt": "2026-10-17T09:23:01.993Z"
+    "updatedAt": "2026-10-17T09:23:01.993Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-postdoc-assignments-319123",
@@ -81130,7 +81134,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-10-17T09:23:01.993Z"
+    "updatedAt": "2026-10-17T09:23:01.993Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-doctorates-319180",
@@ -81163,7 +81168,8 @@
     "reviewReasons": [
       "multiple_scientific_sectors"
     ],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-research-contracts-319215",
@@ -81196,7 +81202,8 @@
     "reviewReasons": [
       "multiple_scientific_sectors"
     ],
-    "updatedAt": "2026-10-20T10:05:27.618Z"
+    "updatedAt": "2026-10-20T10:05:27.618Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-research-assignments-319221",
@@ -81227,7 +81234,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-10-20T10:05:27.618Z"
+    "updatedAt": "2026-10-20T10:05:27.618Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-research-assignments-319249",
@@ -81258,7 +81266,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-10-21T10:10:30.099Z"
+    "updatedAt": "2026-10-21T10:10:30.099Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-research-assignments-319311",
@@ -81289,7 +81298,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-10-21T10:10:30.099Z"
+    "updatedAt": "2026-10-21T10:10:30.099Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-postdoc-assignments-319243",
@@ -81320,7 +81330,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-10-21T10:10:30.099Z"
+    "updatedAt": "2026-10-21T10:10:30.099Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-postdoc-assignments-319305",
@@ -81351,7 +81362,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-10-21T10:10:30.099Z"
+    "updatedAt": "2026-10-21T10:10:30.099Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-postdoc-assignments-319307",
@@ -81382,7 +81394,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-10-21T10:10:30.099Z"
+    "updatedAt": "2026-10-21T10:10:30.099Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-postdoc-assignments-319304",
@@ -81413,7 +81426,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-10-21T10:10:30.099Z"
+    "updatedAt": "2026-10-21T10:10:30.099Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-research-contracts-319327",
@@ -81444,7 +81458,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-03T12:49:08.378Z"
+    "updatedAt": "2026-11-03T12:49:08.378Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-research-contracts-319328",
@@ -81475,7 +81490,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-03T12:49:08.378Z"
+    "updatedAt": "2026-11-03T12:49:08.378Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-research-contracts-319495",
@@ -81506,7 +81522,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-03T12:49:08.378Z"
+    "updatedAt": "2026-11-03T12:49:08.378Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-research-assignments-319424",
@@ -81537,7 +81554,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-03T12:49:08.378Z"
+    "updatedAt": "2026-11-03T12:49:08.378Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-research-assignments-319314",
@@ -81568,7 +81586,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-03T12:49:08.378Z"
+    "updatedAt": "2026-11-03T12:49:08.378Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-research-assignments-319330",
@@ -81599,7 +81618,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-03T12:49:08.378Z"
+    "updatedAt": "2026-11-03T12:49:08.378Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-research-assignments-319414",
@@ -81630,7 +81650,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-03T12:49:08.378Z"
+    "updatedAt": "2026-11-03T12:49:08.378Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-technologists-153883",
@@ -81663,7 +81684,8 @@
     "reviewReasons": [
       "unknown_discipline"
     ],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-research-contracts-319785",
@@ -81696,7 +81718,8 @@
     "reviewReasons": [
       "multiple_scientific_sectors"
     ],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-research-contracts-319743",
@@ -81729,7 +81752,8 @@
     "reviewReasons": [
       "generic_institution"
     ],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-research-contracts-319745",
@@ -81762,7 +81786,8 @@
     "reviewReasons": [
       "generic_institution"
     ],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-research-assignments-319716",
@@ -81793,7 +81818,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-research-assignments-319744",
@@ -81824,7 +81850,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-research-assignments-319756",
@@ -81855,7 +81882,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-research-assignments-319760",
@@ -81886,7 +81914,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-research-assignments-319793",
@@ -81920,7 +81949,8 @@
       "unknown_region",
       "multiple_scientific_sectors"
     ],
-    "updatedAt": "2026-11-15T12:45:43.389Z"
+    "updatedAt": "2026-11-15T12:45:43.389Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-research-assignments-319641",
@@ -81951,7 +81981,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-research-assignments-319762",
@@ -81982,7 +82013,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-research-assignments-319780",
@@ -82015,7 +82047,8 @@
     "reviewReasons": [
       "generic_institution"
     ],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-research-assignments-319782",
@@ -82048,7 +82081,8 @@
     "reviewReasons": [
       "unknown_region"
     ],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-research-assignments-319792",
@@ -82082,7 +82116,8 @@
       "unknown_region",
       "multiple_scientific_sectors"
     ],
-    "updatedAt": "2026-11-15T12:45:43.389Z"
+    "updatedAt": "2026-11-15T12:45:43.389Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-postdoc-assignments-319751",
@@ -82113,7 +82148,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-postdoc-assignments-319753",
@@ -82146,7 +82182,8 @@
     "reviewReasons": [
       "unknown_region"
     ],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-postdoc-assignments-319761",
@@ -82177,7 +82214,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-postdoc-assignments-319704",
@@ -82208,7 +82246,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-fixed-term-researchers-154083",
@@ -82240,7 +82279,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-12T13:47:33.794Z"
+    "updatedAt": "2026-11-12T13:47:33.794Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-professor-calls-154124",
@@ -82271,7 +82311,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-12T13:47:33.794Z"
+    "updatedAt": "2026-11-12T13:47:33.794Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-research-assignments-320016",
@@ -82302,7 +82343,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-12T13:47:33.794Z"
+    "updatedAt": "2026-11-12T13:47:33.794Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-research-assignments-320019",
@@ -82333,7 +82375,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-12T13:47:33.794Z"
+    "updatedAt": "2026-11-12T13:47:33.794Z",
+    "archivedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-research-assignments-318685",
@@ -91804,6 +91847,40 @@
     "updatedAt": "2026-11-20T14:02:15.539Z"
   },
   {
+    "id": "mur-research-assignments-320680",
+    "title": "IR N.3 IMIOT PZ - “BLUE TECH”, codice identificativo progetto DTA.AD004.830 - CUP: G92I25000040007",
+    "institution": "Consiglio Nazionale delle Ricerche - Istituto di Metodologie Integrate per l'Osservazione della Terra (CNR-IMIOT)",
+    "department": "Da bando ufficiale",
+    "location": "Tito Scalo",
+    "region": "Italia",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Altro / interdisciplinare",
+    "ssd": "ECON-05/A - Econometria\nECON-04/A - Economia applicata\nECON-06/A - Economia aziendale\nECON-09/B - Economia degli intermediari finanziari\nECON-09/A - Finanza aziendale\nECON-07/A - Economia e gestione delle imprese\nECON-01/A - Economia politica\nECON-08/A - Organizzazione aziendale\nECON-02/A - Politica economica\nECON-03/A - Scienza delle finanze\nECON-10/A - Scienze merceologiche\nSTAT-01/A - Statistica\nSTAT-01/B - Statistica per la ricerca sperimentale e tecnologica\nSTAT-02/A - Statistica economica",
+    "gsd": "13/ECON-05 - ECONOMETRIA\n13/ECON-04 - ECONOMIA APPLICATA\n13/ECON-06 - ECONOMIA AZIENDALE\n13/ECON-09 - ECONOMIA DEGLI INTERMEDIARI FINANZIARI E FINANZA AZIENDALE\n13/ECON-07 - ECONOMIA E GESTIONE DELLE IMPRESE\n13/ECON-01 - ECONOMIA POLITICA\n13/ECON-08 - ORGANIZZAZIONE AZIENDALE\n13/ECON-02 - POLITICA ECONOMICA\n13/ECON-03 - SCIENZA DELLE FINANZE\n13/ECON-10 - SCIENZE MERCEOLOGICHE\n13/STAT-01 - STATISTICA\n13/STAT-02 - STATISTICA ECONOMICA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-11-30",
+    "deadlineStatus": "closing_soon",
+    "publishedAt": "2026-11-11",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/320680",
+    "salaryOrAmount": "22.500 Euro",
+    "duration": "annuale",
+    "language": "IT/EN",
+    "summary": "Mappatura, profilazione e analisi degli stakeholder; Analisi dei fabbisogni e delle capacità di innovazione delle PMI; Analisi delle reti e delle dinamiche di collaborazione tra gli attori dell’ecosistema dell’innovazione; Supporto alla progettazione e realizzazione di attività di capacity building, stakeholder engagement e co-design delle azioni pilota",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "ir n 3 imiot pz blue tech codice identificativo progetto dta ad004 830 cup g92i25000040007|consiglio nazionale ricerche istituto metodologie integrate per l osservazione terra cnr imiot|2026-11-30",
+    "reviewStatus": "needs_review",
+    "confidenceScore": 0.71,
+    "reviewReasons": [
+      "unknown_region",
+      "multiple_scientific_sectors"
+    ],
+    "updatedAt": "2026-11-21T13:29:46.609Z"
+  },
+  {
     "id": "mur-research-assignments-319257",
     "title": "Implicazioni morali dei comportamenti collettivi omertosi nei contesti organizzativi",
     "institution": "Sapienza Università di Roma",
@@ -97778,6 +97855,39 @@
     "updatedAt": "2026-11-20T14:02:15.539Z"
   },
   {
+    "id": "mur-research-assignments-320681",
+    "title": "Analisi e utilizzo dei dati idrogeochimici e idrogeologici misurati in continuo e/o in discreto, archiviati nella Piattaforma Idrogeochimica ISPRA-INGV e da altri siti di monitoraggio in Italia Centrale.",
+    "institution": "università",
+    "department": "Da bando ufficiale",
+    "location": "Roma",
+    "region": "Lazio",
+    "positionType": "Incarico di ricerca",
+    "professorRank": "",
+    "discipline": "Ambiente, agraria e veterinaria",
+    "ssd": "GEOS-03/B - Geologia applicata",
+    "gsd": "04/GEOS-03 - GEOGRAFIA FISICA, GEOMORFOLOGIA E GEOLOGIA APPLICATA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-12-04",
+    "deadlineStatus": "closing_soon",
+    "publishedAt": "2026-11-20",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/320681",
+    "salaryOrAmount": "22.500 Euro",
+    "duration": "annuale",
+    "language": "IT/EN",
+    "summary": "Arricchire la Piattaforma Idrogeochimica con l'archiviazione di dati geochimici discreti provenienti da database nazionali, ampliando il portafoglio dei servizi messi a disposizione dal progetto;",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "analisi e utilizzo dei dati idrogeochimici e idrogeologici misurati in continuo e o in discreto archiviati nella piattaforma idrogeochimica ispra ingv e da altri siti monitoraggio in italia centrale|2026-12-04",
+    "reviewStatus": "needs_review",
+    "confidenceScore": 0.83,
+    "reviewReasons": [
+      "generic_institution"
+    ],
+    "updatedAt": "2026-11-21T13:29:46.609Z"
+  },
+  {
     "id": "mur-research-contracts-319791",
     "title": "Gestione integrata delle risorse idriche e delle siccità in un contesto di cambiamento climatico",
     "institution": "Institute of Geosciences",
@@ -97791,7 +97901,7 @@
     "gsd": "04/GEOS-03 - GEOGRAFIA FISICA, GEOMORFOLOGIA E GEOLOGIA APPLICATA\n08/CEAR-01 - IDRAULICA, IDROLOGIA, COSTRUZIONI IDRAULICHE E MARITTIME",
     "fundingType": "Non specificato",
     "deadline": "2026-12-05",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-11-04",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/319791",
@@ -97824,7 +97934,7 @@
     "gsd": "10/GLOT-01 - GLOTTOLOGIA E LINGUISTICA",
     "fundingType": "Non specificato",
     "deadline": "2026-12-05",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-11-04",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/319770",
@@ -97855,7 +97965,7 @@
     "gsd": "05/BIOS-06 - FISIOLOGIA",
     "fundingType": "Non specificato",
     "deadline": "2026-12-05",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-10-26",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/319603",
@@ -97886,7 +97996,7 @@
     "gsd": "05/BIOS-11 - FARMACOLOGIA",
     "fundingType": "Non specificato",
     "deadline": "2026-12-05",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-10-26",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/319590",
@@ -97917,7 +98027,7 @@
     "gsd": "05/BIOS-06 - FISIOLOGIA",
     "fundingType": "Non specificato",
     "deadline": "2026-12-05",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-10-26",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/319592",
@@ -97948,7 +98058,7 @@
     "gsd": "05/BIOS-06 - FISIOLOGIA",
     "fundingType": "Non specificato",
     "deadline": "2026-12-05",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-10-26",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/319597",
@@ -97979,7 +98089,7 @@
     "gsd": "09/ICHI-02 - IMPIANTI E PROCESSI INDUSTRIALI CHIMICI",
     "fundingType": "Non specificato",
     "deadline": "2026-12-05",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-11-05",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/319797",
@@ -98010,7 +98120,7 @@
     "gsd": "05/BIOS-01 - BOTANICA",
     "fundingType": "Non specificato",
     "deadline": "2026-12-05",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-11-17",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/320454",
@@ -98041,7 +98151,7 @@
     "gsd": "05/BIOS-08 - BIOLOGIA MOLECOLARE",
     "fundingType": "Non specificato",
     "deadline": "2026-12-05",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-11-20",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/320649",
@@ -98072,7 +98182,7 @@
     "gsd": "13/ECON-08 - ORGANIZZAZIONE AZIENDALE",
     "fundingType": "Non specificato",
     "deadline": "2026-12-05",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-11-20",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/320658",
@@ -106354,6 +106464,72 @@
     "updatedAt": "2026-11-20T14:02:15.539Z"
   },
   {
+    "id": "mur-fixed-term-researchers-154367",
+    "title": "PROCEDURA COMPARATIVA PUBBLICA PER IL RECLUTAMENTO DI N. 5 RTD B, PRESSO I DIPARTIMENTI DI MEDICINA, CHIRURGIA E FARMACIA E DI SCIENZE UMANISTICHE E SOCIALI.",
+    "institution": "Università degli Studi di Sassari",
+    "department": "Da bando ufficiale",
+    "location": "SASSARI",
+    "region": "Sardegna",
+    "positionType": "RTT",
+    "professorRank": "",
+    "discipline": "Altro / interdisciplinare",
+    "ssd": "-\nMEDS-19/A - Malattie dell'apparato locomotore\nMEDS-12/A - Neurologia\nMEDS-24/B - Igiene generale e applicata",
+    "gsd": "11/GEOG-01 - GEOGRAFIA\n06/MEDS-19 - MALATTIE DELL'APPARATO LOCOMOTORE E MEDICINA FISICA E RIABILITATIVA\n06/MEDS-12 - NEUROLOGIA\n14/GSPS-05 - SOCIOLOGIA GENERALE\n06/MEDS-24 - STATISTICA MEDICA, IGIENE GENERALE E APPLICATA E SCIENZE INFERMIERISTICHE GENERALI, CLINICHE, PEDIATRICHE E OSTETRICO-GINECOLOGICHE E NEONATALI",
+    "fundingType": "Non specificato",
+    "deadline": "2026-12-21",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-11-21",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/154367",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "RTT presso Università degli Studi di Sassari nel settore - MEDS-19/A - Malattie dell'apparato locomotore MEDS-12/A - Neurologia MEDS-24/B - Igiene generale e applicata sul tema “PROCEDURA COMPARATIVA PUBBLICA PER IL RECLUTAMENTO DI N. 5 RTD B, PRESSO I DIPARTIMENTI DI MEDICINA, CHIRURGIA E FARMACIA E DI SCIENZE UMANISTICHE E SOCIALI.”. Scadenza per le candidature: 21 dicembre 2026.",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "procedura comparativa pubblica per il reclutamento n 5 rtd b i dipartimenti medicina chirurgia e farmacia e scienze umanistiche e sociali|studi sassari|2026-12-21",
+    "reviewStatus": "needs_review",
+    "confidenceScore": 0.83,
+    "reviewReasons": [
+      "multiple_scientific_sectors"
+    ],
+    "updatedAt": "2026-11-21T13:29:46.609Z"
+  },
+  {
+    "id": "mur-fixed-term-researchers-154369",
+    "title": "PROCEDURA COMPARATIVA PUBBLICA PER IL RECLUTAMENTO DI N. 7 RICERCATORI A TEMPO DETERMINATO AI SENSI DELL’ART. 24 COMMA 3 DELLA LEGGE 30 DICEMBRE 2010 N. 240, CON REGIME DI IMPEGNO A TEMPO PIENO.",
+    "institution": "Università degli Studi di Sassari",
+    "department": "Da bando ufficiale",
+    "location": "SASSARI",
+    "region": "Sardegna",
+    "positionType": "RTT",
+    "professorRank": "",
+    "discipline": "Altro / interdisciplinare",
+    "ssd": "BIOS-12/A - Anatomia umana\nCHEM-07/A - Chimica farmaceutica\nECON-06/A - Economia aziendale\nECON-01/A - Economia politica\nBIOS-11/A - Farmacologia\nMEDS-07/A - Malattie dell'apparato respiratorio\nSTAT-01/A - Statistica",
+    "gsd": "05/BIOS-12 - ANATOMIA UMANA\n03/CHEM-07 - CHIMICA FARMACEUTICA, TOSSICOLOGICA, NUTRACEUTICO-ALIMENTARE, DELLE FERMENTAZIONI E DEI PRODOTTI PER IL BENESSERE E PER LA SALUTE\n13/ECON-06 - ECONOMIA AZIENDALE\n13/ECON-01 - ECONOMIA POLITICA\n05/BIOS-11 - FARMACOLOGIA\n06/MEDS-07 - MALATTIE DELL'APPARATO CARDIOVASCOLARE E MALATTIE DELL'APPARATO RESPIRATORIO\n13/STAT-01 - STATISTICA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-12-21",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-11-21",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/jobs.php/public/job/id_job/154369",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "RTT presso Università degli Studi di Sassari nel settore BIOS-12/A - Anatomia umana CHEM-07/A - Chimica farmaceutica ECON-06/A - Economia aziendale ECON-01/A - Economia politica BIOS-11/A - Farmacologia MEDS-07/A - Malattie dell'apparato respiratorio STAT-01/A - Statistica sul tema “PROCEDURA COMPARATIVA PUBBLICA PER IL RECLUTAMENTO DI N. 7 RICERCATORI A TEMPO DETERMINATO AI SENSI DELL’ART. 24 COMMA 3 DELLA LEGGE 30 DICEMBRE 2010 N. 240, CON REGIME DI IMPEGNO A TEMPO PIENO.”. Scadenza per le candidature: 21 dicembre 2026.",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "procedura comparativa pubblica per il reclutamento n 7 ricercatori a tempo determinato ai sensi dell art 24 comma 3 legge 30 dicembre 2010 n 240 con regime impegno a tempo pieno|studi sassari|2026-12-21",
+    "reviewStatus": "needs_review",
+    "confidenceScore": 0.83,
+    "reviewReasons": [
+      "multiple_scientific_sectors"
+    ],
+    "updatedAt": "2026-11-21T13:29:46.609Z"
+  },
+  {
     "id": "mur-research-assignments-318906",
     "title": "metodi per il monitoraggio delle emissioni odorigene: focus su emissioni fuggitive - 2026_IDR_DCMC_24",
     "institution": "Politecnico di Milano",
@@ -106609,6 +106785,39 @@
     ],
     "possibleDuplicateOf": "mur-research-assignments-318221",
     "updatedAt": "2026-11-07T09:14:54.805Z"
+  },
+  {
+    "id": "mur-research-contracts-320664",
+    "title": "CONVENZIONE con Ispra e Regione Lazio per la realizzazione della Carta geologica e geotematica ufficiale d’Italia FOGLIO GEOLOGICO N. 333 “Acquapendente”",
+    "institution": "Università degli Studi Roma Tre",
+    "department": "Da bando ufficiale",
+    "location": "Roma",
+    "region": "Lazio",
+    "positionType": "Contratto di ricerca",
+    "professorRank": "",
+    "discipline": "Altro / interdisciplinare",
+    "ssd": "GEOS-01/C - Geochimica e vulcanologia\nGEOS-02/B - Geologia stratigrafica e sedimentologia",
+    "gsd": "04/GEOS-01 - MINERALOGIA, PETROLOGIA, GEOCHIMICA, VULCANOLOGIA, GEORISORSE E APPLICAZIONI\n04/GEOS-02 - PALEONTOLOGIA, GEOLOGIA STRATIGRAFICA E SEDIMENTOLOGIA, GEOLOGIA STRUTTURALE E TETTONICA",
+    "fundingType": "Non specificato",
+    "deadline": "2026-12-31",
+    "deadlineStatus": "open",
+    "publishedAt": "2026-11-13",
+    "sourceName": "MUR/Cineca",
+    "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/320664",
+    "salaryOrAmount": "Da bando ufficiale",
+    "duration": "Da bando ufficiale",
+    "language": "IT/EN",
+    "summary": "Le proposte progettuali dovranno vertere sugli argomenti indicati nel bando.",
+    "requirements": [
+      "Requisiti indicati nel bando ufficiale"
+    ],
+    "dedupeKey": "convenzione con ispra e regione lazio per la realizzazione carta geologica e geotematica ufficiale d italia foglio geologico n 333 acquapendente|studi roma tre|2026-12-31",
+    "reviewStatus": "needs_review",
+    "confidenceScore": 0.83,
+    "reviewReasons": [
+      "multiple_scientific_sectors"
+    ],
+    "updatedAt": "2026-11-21T13:29:46.609Z"
   },
   {
     "id": "mur-research-contracts-319332",
