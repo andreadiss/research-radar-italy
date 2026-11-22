@@ -82407,7 +82407,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-22T13:22:39.963Z"
   },
   {
     "id": "mur-research-assignments-319802",
@@ -82440,7 +82441,8 @@
     "reviewReasons": [
       "multiple_scientific_sectors"
     ],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-22T13:22:39.963Z"
   },
   {
     "id": "mur-research-assignments-319827",
@@ -82474,7 +82476,8 @@
     "possibleDuplicateSourceIds": [
       "mur-research-assignments-319828"
     ],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-22T13:22:39.963Z"
   },
   {
     "id": "mur-research-assignments-319828",
@@ -82508,7 +82511,8 @@
       "possible_duplicate"
     ],
     "possibleDuplicateOf": "mur-research-assignments-319827",
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-22T13:22:39.963Z"
   },
   {
     "id": "mur-research-assignments-319857",
@@ -82539,7 +82543,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-07T09:14:54.805Z"
+    "updatedAt": "2026-11-07T09:14:54.805Z",
+    "archivedAt": "2026-11-22T13:22:39.963Z"
   },
   {
     "id": "mur-research-assignments-320009",
@@ -82570,7 +82575,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-12T13:47:33.794Z"
+    "updatedAt": "2026-11-12T13:47:33.794Z",
+    "archivedAt": "2026-11-22T13:22:39.963Z"
   },
   {
     "id": "mur-research-assignments-320058",
@@ -82601,7 +82607,8 @@
     "reviewStatus": "auto_published",
     "confidenceScore": 0.95,
     "reviewReasons": [],
-    "updatedAt": "2026-11-12T13:47:33.794Z"
+    "updatedAt": "2026-11-12T13:47:33.794Z",
+    "archivedAt": "2026-11-22T13:22:39.963Z"
   },
   {
     "id": "mur-fixed-term-researchers-153623",
@@ -98213,7 +98220,7 @@
     "gsd": "09/ICHI-02 - IMPIANTI E PROCESSI INDUSTRIALI CHIMICI",
     "fundingType": "Non specificato",
     "deadline": "2026-12-06",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-11-06",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/319825",
@@ -98244,7 +98251,7 @@
     "gsd": "01/INFO-01 - INFORMATICA",
     "fundingType": "Non specificato",
     "deadline": "2026-12-06",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-11-06",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/319930",
@@ -98275,7 +98282,7 @@
     "gsd": "03/CHEM-01 - CHIMICA ANALITICA, AMBIENTALE E DEI BENI CULTURALI",
     "fundingType": "Non specificato",
     "deadline": "2026-12-06",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-11-06",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/319922",
@@ -98306,7 +98313,7 @@
     "gsd": "03/CHEM-01 - CHIMICA ANALITICA, AMBIENTALE E DEI BENI CULTURALI",
     "fundingType": "Non specificato",
     "deadline": "2026-12-06",
-    "deadlineStatus": "open",
+    "deadlineStatus": "closing_soon",
     "publishedAt": "2026-11-06",
     "sourceName": "MUR/Cineca",
     "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/319923",
