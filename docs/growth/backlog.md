@@ -227,3 +227,7 @@ Impact 7, Confidence 9 per focus/fedeltà e 3 per traffico, Effort 3, Risk 1; ot
 ## 20 novembre 2026 — Copy esposto e verifica precedente
 
 Impact 7, Confidence 9 fedeltà / 3 traffico, Effort 2, Risk 1. Sei copy esposti selezionati, quattro home differite, 74/94 da valutare; guida #67 separata e non approvata. Non modificare dati o fonti invalidati.
+
+## 21 novembre 2026 — Arretrato percorsi prioritari
+
+Impact 7, Confidence 9 sulla fedeltà/3 sul traffico, Effort 2, Risk 1. Sei copy esposti su RTT, Postdoc e Contratti. Arretrato 68/94 dopo il lotto, home invariata 2/6. Quattro home non revisionate e 4 override storici invalidati rimangono differiti; PR #67 non approvata.

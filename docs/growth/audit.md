@@ -325,3 +325,7 @@ Rilascio #86 verificato: home, indice, guida, cinque landing, otto dettagli e as
 ## 20 novembre 2026 — Copy esposto e verifica precedente
 
 PR #87 live: 8 dettagli, home, indice e landing HTTP 200, titoli ufficiali preservati. Test sul browser reale del 20 novembre: apertura dialog, Tab sul campo link, focus-visible con outline solid 2px/offset 3px e Escape riporta il focus al trigger. Nessuna regressione osservata; nessun test mobile dichiarato.
+
+## 21 novembre 2026 — Arretrato percorsi prioritari
+
+Rilascio #88 verificato live: sei titoli editoriali nelle dieci occorrenze assegnate, sei H1 originali, landing e asset HTTP 200. Nessun nuovo ID o fingerprint dopo la cache MUR del 20 novembre.

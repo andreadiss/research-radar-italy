@@ -231,3 +231,7 @@ Bilancio settimanale 18 novembre: #81–85, 37 revisioni pubblicate con ricevute
 ## 20 novembre 2026 — Copy esposto e verifica precedente
 
 20 novembre main1ad796d, sola PR67 aperta; #87 verificata live incluso focus. 115 nuovi ID dal precedente snapshot, 0 fingerprint mutati; 6 proposte fonte-guardate per home e landing, campione 14→20/94, home 0→2/6, arretrato 80→74; cache MUR 20 novembre14:08 UTC, non conferma apertura. Test/deploy da attestare a esito positivo.
+
+## 21 novembre 2026 — Arretrato percorsi prioritari
+
+21 novembre main ea6f218, sola PR #67 aperta. #88 e sei copy live verificati. 0 nuovi ID, 0 fingerprint mutati; sei proposte su RTT/Postdoc/Contratti, copertura prevista 26/94, home 2/6, arretrato 68. Fonte cache20 novembre14:08 UTC, non conferma apertura. Pubblicazione da attestare dopo i gate.
