@@ -231,3 +231,7 @@ Snapshot 3.209 ID, +56 rispetto al 18 novembre; 2 fingerprint mutati (320180,317
 ## 21 novembre 2026 — Arretrato percorsi prioritari
 
 Catalogo 3.324 ID, +0 dal registro, 0 mutati, 4 invalidati. Campione deduplicato home6, prime8 dei cinque percorsi e fino3 correlati per seme: 20→26/94, home 2/6, arretrato 74→68. Cache MUR 20 novembre 14:08 UTC. Nessun dato GSC/GA4 nuovo.
+
+## 22 novembre 2026 — Chiusura #89 e nuovo lotto prioritario
+
+Catalogo 3.329 ID, +5 dal 21/11, 0 mutati, 4 invalidati. Cache MUR 21/11 13:34 UTC. Campione deduplicato home6, prime8 di 5 landing e fino3 correlate per seme: 27→33/94, home 1→2/6, arretrato 67→61 previsto dopo gate; rotazione del campione. Nessuna misura GSC/GA4 nuova.

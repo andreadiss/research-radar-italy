@@ -195,3 +195,7 @@ Nessun A/B. Sei sintesi fonte-guardate, riserva e ufficialità preservate; verif
 ## 21 novembre 2026 — Arretrato percorsi prioritari
 
 Nessun A/B. Sei sintesi fonte-guardate; se tema assente dichiararlo, non inferire SSD o dettagli oltre il riepilogo. Gate di test, build e superfici come da PR.
+
+## 22 novembre 2026 — Chiusura #89 e nuovo lotto prioritario
+
+Nessun A/B. Sei proposte fonte-guardate; MUR live 200 per Torino, Bergamo e Psicologia Trieste; pagine ateneo Torino 503 e Bergamo 403, nessuna inferenza sul tema. Test deterministico di registri, H1 ufficiale, fallback e superfici statiche prima del rilascio.

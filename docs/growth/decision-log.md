@@ -206,3 +206,7 @@ Manifesto #87 allineato al deploy 44487924465 e verifica HTTP 200 del 19 novembr
 ## 21 novembre 2026 — Arretrato percorsi prioritari
 
 Manifesto #88 allineato al run 44811245779 e verifica pubblica. Nessun cambio a dati o tassonomia, nessuna chiamata GSC a pagamento e nessuna approvazione della guida #67.
+
+## 22 novembre 2026 — Chiusura #89 e nuovo lotto prioritario
+
+Manifesto #89 allineato al run 45001128061 e smoke 22/11. Il delta di 5 ID rispetto a ieri viene accodato con fingerprint. Nessun cambio a dati, scadenze, badge o tassonomia; nessuna chiamata GSC a pagamento. #67 invariata.

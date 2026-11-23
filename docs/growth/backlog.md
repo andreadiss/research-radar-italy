@@ -231,3 +231,7 @@ Impact 7, Confidence 9 fedeltà / 3 traffico, Effort 2, Risk 1. Sei copy esposti
 ## 21 novembre 2026 — Arretrato percorsi prioritari
 
 Impact 7, Confidence 9 sulla fedeltà/3 sul traffico, Effort 2, Risk 1. Sei copy esposti su RTT, Postdoc e Contratti. Arretrato 68/94 dopo il lotto, home invariata 2/6. Quattro home non revisionate e 4 override storici invalidati rimangono differiti; PR #67 non approvata.
+
+## 22 novembre 2026 — Chiusura #89 e nuovo lotto prioritario
+
+Impact 7, Confidence 9 fedeltà/3 traffico, Effort 2, Risk 1. Dopo chiusura #89, sei proposte per home, dottorati, Postdoc, Psicologia e correlate. Quattro nuovi ID non revisionati rimangono in coda; nessuna modifica su invalidazioni. Guida #67 separata non approvata.

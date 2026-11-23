@@ -1,0 +1,150 @@
+{
+  "reviewDate": "2026-11-22",
+  "sourceSnapshot": {
+    "commit": "40f9d7b",
+    "lastSuccessfulCheckAt": "2026-11-21T13:34:28.129Z",
+    "limitation": "Cache MUR e pagine MUR live per 320263, 320656, 154445; UniTO 503 e UniBG 403. Verifica editoriale, non nuova attestazione di apertura."
+  },
+  "reviewedCards": 6,
+  "publishedCards": 0,
+  "cards": [
+    {
+      "id": "mur-postdoc-assignments-319483",
+      "source": {
+        "id": "mur-postdoc-assignments-319483",
+        "title": "ABITARE APERTO. Sistemi aggregabili, processi partecipati e filiere locali per una nuova stagione della residenza pubblica",
+        "summary": "La ricerca è finalizzata a sviluppare strumenti e processi di supporto al progetto e alla realizzazione di prototipi abitativi aperti, aggregabili e a tecnologia leggera, capaci di conciliare: la flessibilità e l’adattabilità degli spazi nel tempo; l’aggregabilità dei moduli in configurazioni differenti; la sostenibilità dei materiali e dei sistemi costruttivi; l’accessibilità degli spazi domestici e collettivi; la...",
+        "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/319483",
+        "positionType": "Postdoc",
+        "institution": "SAPIENZA",
+        "ssd": "CEAR-08/C - Progettazione tecnologica e ambientale dell'architettura",
+        "location": "ROMA"
+      },
+      "fingerprint": "6651855ed5018b8f1f360d5dcfe3033b1599b4564c4d9542881d4bd5901bbb3c",
+      "proposal": {
+        "title": "Abitare Aperto: sistemi per la residenza pubblica",
+        "summary": "Sviluppo di strumenti e processi per prototipi abitativi modulari, flessibili, accessibili e sostenibili, con sistemi a tecnologia leggera."
+      },
+      "evidence": "Titolo e frasi complete della cache MUR; non completata parte troncata.",
+      "outcome": "revisionata-pending-deploy",
+      "surfaces": [
+        "related:mur-postdoc-assignments-320524"
+      ]
+    },
+    {
+      "id": "mur-postdoc-assignments-319786",
+      "source": {
+        "id": "mur-postdoc-assignments-319786",
+        "title": "Procedura di valutazione comparativa per n.1 incarico post-doc - Dipartimento di Architettura",
+        "summary": "Programma di ricerca cui è collegato il contratto: Progetto Driving Urban Transition : PROWD – Proximity without density",
+        "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/319786",
+        "positionType": "Postdoc",
+        "institution": "Università degli Studi Roma Tre",
+        "ssd": "CEAR-12/B - Urbanistica",
+        "location": "Roma"
+      },
+      "fingerprint": "a5adb2aac9668892ba8491744e73756de91c69790126d98b9bee7ce78043005c",
+      "proposal": {
+        "title": "PROWD: prossimità urbana senza densità",
+        "summary": "Incarico di urbanistica nel progetto Driving Urban Transition «Proximity without density», presso Roma Tre. Attività specifiche non descritte nel riepilogo MUR."
+      },
+      "evidence": "SSD, ente e programma espliciti nella cache; attività non inferite.",
+      "outcome": "revisionata-pending-deploy",
+      "surfaces": [
+        "related:mur-postdoc-assignments-320524"
+      ]
+    },
+    {
+      "id": "mur-research-assignments-320681",
+      "source": {
+        "id": "mur-research-assignments-320681",
+        "title": "Analisi e utilizzo dei dati idrogeochimici e idrogeologici misurati in continuo e/o in discreto, archiviati nella Piattaforma Idrogeochimica ISPRA-INGV e da altri siti di monitoraggio in Italia Centrale.",
+        "summary": "Arricchire la Piattaforma Idrogeochimica con l'archiviazione di dati geochimici discreti provenienti da database nazionali, ampliando il portafoglio dei servizi messi a disposizione dal progetto;",
+        "sourceUrl": "https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/320681",
+        "positionType": "Incarico di ricerca",
+        "institution": "università",
+        "ssd": "GEOS-03/B - Geologia applicata",
+        "location": "Roma"
+      },
+      "fingerprint": "28f9f4b62f622a2f35e1f5fb70f00b41506b4967cfc1edafbba466199afd117e",
+      "proposal": {
+        "title": "Geologia applicata: dati idrogeochimici e idrogeologici",
+        "summary": "Analisi dei dati di monitoraggio dell’Italia centrale e integrazione di dati geochimici da archivi nazionali nella piattaforma ISPRA-INGV."
+      },
+      "evidence": "Titolo e riepilogo MUR in cache; ente generico preservato, non attribuito a ISPRA o INGV.",
+      "outcome": "revisionata-pending-deploy",
+      "surfaces": [
+        "home"
+      ]
+    },
+    {
+      "id": "mur-professor-calls-154445",
+      "source": {
+        "id": "mur-professor-calls-154445",
+        "title": "GSD 11/PSIC-03 - SSD PSIC-03/A – Psicologia sociale",
+        "summary": "Tipologia di impegno didattico: L’impegno didattico richiesto su tutti e tre i livelli riguarda l’insegnamento frontale e attività di relatore di tesi sulle tematiche del settore scientifico disciplinare di riferimento, con insegnamento anche in lingua inglese. Il docente dovrà garantire una attività didattica funzionale ai corsi di studio in cui è impegnato il Dipartimento. Il docente dovrà inoltre garantire un app...",
+        "sourceUrl": "https://bandi.mur.gov.it/profcalls.php/public/job/id_job/154445",
+        "positionType": "Professore II fascia",
+        "institution": "Università degli Studi di Trieste",
+        "ssd": "PSIC-03/A - Psicologia sociale",
+        "location": "Trieste"
+      },
+      "fingerprint": "12bccc443288d462bc94b804f3c0a03844f5efd58c47279f010440058af71845",
+      "proposal": {
+        "title": "Professore di II fascia in Psicologia sociale",
+        "summary": "Insegnamento nei tre livelli di formazione, anche in inglese, e supervisione di tesi nel settore. Il riepilogo MUR non specifica un progetto di ricerca."
+      },
+      "evidence": "MUR live 200: seconda fascia, settore e attività didattiche; nessun progetto di ricerca specifico.",
+      "outcome": "revisionata-pending-deploy",
+      "surfaces": [
+        "/posizioni/psicologia"
+      ]
+    },
+    {
+      "id": "mur-doctorates-320263",
+      "source": {
+        "id": "mur-doctorates-320263",
+        "title": "Selezione pubblica per l’ammissione ai corsi di Dottorato del XLII ciclo - A.A. 2026/2027 con assegnazione di borse finanziate dall’Ateneo e altri finanziamenti - Bando secondo XLII",
+        "summary": "Selezione pubblica per l’ammissione ai corsi di Dottorato del XLII ciclo - A.A. 2026/2027 con assegnazione di borse finanziate dall’Ateneo e altri finanziamenti - BANDO SECONDO - Scadenza: 15 dicembre 2026, ore 12:00 (Rome, CEST)",
+        "sourceUrl": "https://bandi.mur.gov.it/doctorate.php/public/fellowship/id_fellow/320263",
+        "positionType": "PhD",
+        "institution": "Universita DI TORINO",
+        "ssd": "-",
+        "location": "TORINO"
+      },
+      "fingerprint": "5418c96fc4197fcc47ed8c9cd2a581f22fa36bf5ef11a2e9b19b98afdb6f5f17",
+      "proposal": {
+        "title": "Dottorati a Torino: secondo bando del XLII ciclo",
+        "summary": "Avviso per l’anno accademico 2026/2027 con borse finanziate dall’Ateneo e da altre fonti. Il riepilogo MUR non dettaglia i singoli progetti."
+      },
+      "evidence": "MUR live 200: ciclo, finanziamenti e più aree; pagina UniTO 503, progetti non confermati.",
+      "outcome": "revisionata-pending-deploy",
+      "surfaces": [
+        "/posizioni/dottorati"
+      ]
+    },
+    {
+      "id": "mur-postdoc-assignments-320656",
+      "source": {
+        "id": "mur-postdoc-assignments-320656",
+        "title": "Procedura pubblica di selezione per 1 incarico post-doc",
+        "summary": "Procedura pubblica di selezione ai sensi dell’articolo 22-bis della legge 240 del 30.12.2010 per il conferimento di n. 1 Incarico post-doc presso il Dipartimento di Lingue, Letterature e Culture Straniere dell’Università degli studi di Bergamo – Codice PICA: 26PD010",
+        "sourceUrl": "https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/320656",
+        "positionType": "Postdoc",
+        "institution": "Università degli studi di Bergamo - LLCS",
+        "ssd": "GEOG-01/A - Geografia",
+        "location": "Bergamo"
+      },
+      "fingerprint": "75e139f5d1eebb5f0f06f09c73c69fa96de034d3ffb5a551cf8157826e4f8f44",
+      "proposal": {
+        "title": "Postdoc in Geografia",
+        "summary": "Incarico presso il Dipartimento di Lingue, Letterature e Culture Straniere dell’Università di Bergamo. Il riepilogo MUR non specifica il tema di ricerca."
+      },
+      "evidence": "MUR live 200: GEOG-01/A, dipartimento e titolo; pagina UniBG 403, nessun tema inferito.",
+      "outcome": "revisionata-pending-deploy",
+      "surfaces": [
+        "/posizioni/postdoc"
+      ]
+    }
+  ]
+}
