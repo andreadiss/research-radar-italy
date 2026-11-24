@@ -210,3 +210,7 @@ Manifesto #88 allineato al run 44811245779 e verifica pubblica. Nessun cambio a 
 ## 22 novembre 2026 — Chiusura #89 e nuovo lotto prioritario
 
 Manifesto #89 allineato al run 45001128061 e smoke 22/11. Il delta di 5 ID rispetto a ieri viene accodato con fingerprint. Nessun cambio a dati, scadenze, badge o tassonomia; nessuna chiamata GSC a pagamento. #67 invariata.
+
+## 24 novembre 2026 — Nuove opportunità e qualità del copy
+
+Manifesto #90 allineato al deploy 45161507965 e smoke del 23/11; nessun cambio a badge, dati, scadenze o classificazione. I tre fingerprint mutati restano accodati. Nessuna chiamata GSC a pagamento; #67 invariata.

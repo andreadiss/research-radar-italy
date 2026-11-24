@@ -235,3 +235,7 @@ Impact 7, Confidence 9 sulla fedeltà/3 sul traffico, Effort 2, Risk 1. Sei copy
 ## 22 novembre 2026 — Chiusura #89 e nuovo lotto prioritario
 
 Impact 7, Confidence 9 fedeltà/3 traffico, Effort 2, Risk 1. Dopo chiusura #89, sei proposte per home, dottorati, Postdoc, Psicologia e correlate. Quattro nuovi ID non revisionati rimangono in coda; nessuna modifica su invalidazioni. Guida #67 separata non approvata.
+
+## 24 novembre 2026 — Nuove opportunità e qualità del copy
+
+Impact 8, Confidence 9 fedeltà/3 traffico, Effort 2, Risk 1. Sei revisioni prioritarie, quattro home e due landing; due home differite per ulteriore verifica tecnica delle fonti. Accodati 31 nuovi ID, 3 fingerprint mutati; guida #67 non approvata, tre contenuti collegati entro 9/12.

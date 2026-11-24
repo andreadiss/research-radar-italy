@@ -235,3 +235,7 @@ Catalogo 3.324 ID, +0 dal registro, 0 mutati, 4 invalidati. Campione deduplicato
 ## 22 novembre 2026 — Chiusura #89 e nuovo lotto prioritario
 
 Catalogo 3.329 ID, +5 dal 21/11, 0 mutati, 4 invalidati. Cache MUR 21/11 13:34 UTC. Campione deduplicato home6, prime8 di 5 landing e fino3 correlate per seme: 27→33/94, home 1→2/6, arretrato 67→61 previsto dopo gate; rotazione del campione. Nessuna misura GSC/GA4 nuova.
+
+## 24 novembre 2026 — Nuove opportunità e qualità del copy
+
+Catalogo 3.360 ID, +31 rispetto allo snapshot 22/11, 3 mutati (319446, 319447, 320664), 4 invalidazioni storiche. Cache MUR 23/11 16:06 UTC. Campione home6 + prime8 delle cinque landing + fino3 correlate per seme deduplicato: 22→28/78, home 0→4/6, arretrato 56→50 previsto; denominatore ruotato, non perdita revisioni. Nessuna nuova misura GSC/GA4.

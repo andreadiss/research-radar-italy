@@ -239,3 +239,7 @@ Bilancio settimanale 18 novembre: #81–85, 37 revisioni pubblicate con ricevute
 ## 22 novembre 2026 — Chiusura #89 e nuovo lotto prioritario
 
 22 novembre main 40f9d7b prima del merge #89 4a92a3f, poi #89 verificata live e manifesto aggiornato. Catalogo +5 ID, 0 mutati, 4 invalidati. Sei nuove proposte (una home, tre landing, due correlate); campione 27→33/94 previsto, home 1→2/6, arretrato 67→61. Cache 21/11 13:34 UTC; MUR live su tre fonti, due pagine ateneo indisponibili. Rilascio lotto nuovo solo dopo gate.
+
+## 24 novembre 2026 — Nuove opportunità e qualità del copy
+
+24 novembre main 6a01551, sola PR #67 aperta. #90 verificata live, ricevuta nel manifesto. +31 ID vs snapshot 22/11, 3 fingerprint mutati, 4 invalidazioni storiche. Sei proposte, quattro home e due landing; 22→28/78, home 0→4/6, arretrato 56→50 previsto dopo gate. Fonte cache 23/11 16:06 UTC, MUR live 154283; nessuna attestazione generale di apertura.
