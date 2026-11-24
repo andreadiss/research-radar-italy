@@ -199,3 +199,7 @@ Nessun A/B. Sei sintesi fonte-guardate; se tema assente dichiararlo, non inferir
 ## 22 novembre 2026 — Chiusura #89 e nuovo lotto prioritario
 
 Nessun A/B. Sei proposte fonte-guardate; MUR live 200 per Torino, Bergamo e Psicologia Trieste; pagine ateneo Torino 503 e Bergamo 403, nessuna inferenza sul tema. Test deterministico di registri, H1 ufficiale, fallback e superfici statiche prima del rilascio.
+
+## 24 novembre 2026 — Nuove opportunità e qualità del copy
+
+Nessun A/B. Sei copy fonte-guardati, incluso bando RTT Padova con riserva confermata dalla pagina MUR live. Due home tecniche differite. Verificare registro, fallback e superfici statiche; nessuna modifica a filtri, dati o tassonomia.

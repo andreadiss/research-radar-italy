@@ -333,3 +333,7 @@ Rilascio #88 verificato live: sei titoli editoriali nelle dieci occorrenze asseg
 ## 22 novembre 2026 — Chiusura #89 e nuovo lotto prioritario
 
 #89: merge 4a92a3f su main 40f9d7b, tree integrato identico al testato abfa4545; deploy 45001128061 success. Sei copy visibili nelle landing Postdoc, RTT, Contratti; sei H1 ufficiali invariati, home/Posizioni/indice/Funding/asset CSS 200. 168 test editoriali + 91 ops, TypeScript, build, audit 3.390 HTML/828 URL e zero errori/link rotti/orfani.
+
+## 24 novembre 2026 — Nuove opportunità e qualità del copy
+
+PR #90 merge 84b8514 e Pages run 45161507965 success il 23/11. Sei copy verificati live sulle superfici assegnate, titoli fonte preservati (320656 con disambiguazione SSD preesistente); oggi home, landing, dettagli e asset HTTP 200, due card ruotate fuori dalle superfici. Nessun degrado osservato.
