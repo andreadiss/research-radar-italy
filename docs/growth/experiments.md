@@ -203,3 +203,11 @@ Nessun A/B. Sei proposte fonte-guardate; MUR live 200 per Torino, Bergamo e Psic
 ## 24 novembre 2026 — Nuove opportunità e qualità del copy
 
 Nessun A/B. Sei copy fonte-guardati, incluso bando RTT Padova con riserva confermata dalla pagina MUR live. Due home tecniche differite. Verificare registro, fallback e superfici statiche; nessuna modifica a filtri, dati o tassonomia.
+
+## 26 novembre 2026 — Bilancio e percorsi prioritari
+
+Nessun A/B. Verificare 7 copy su fonte snapshot, titoli originali e fallback; due temi non specificati esplicitati. Il link dalla guida riusa filtro esistente, già verificato in browser; nessuna route duplicata, nuove metriche o raccolta dati.
+
+## 27 novembre 2026 — Recupero e riconvalida
+
+Nessun A/B. Rieseguire test, build e audit sulle fonti correnti; i testi non più esposti vanno verificati in test di presentazione senza pretendere che la rotazione dei risultati sia immutata.

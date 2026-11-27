@@ -19,6 +19,7 @@ export default function Guide() {
     <p>Le categorie hanno requisiti e condizioni differenti: vale la pena esplorarle, verificando quali siano compatibili con il proprio profilo.</p>
     <h2>Confronta le opportunità aperte per tipo</h2>
     <ul>
+      <li><Link href="/posizioni?type=Incarico+di+ricerca">Incarichi di ricerca</Link>: esplora i progetti e verifica attività, settore e requisiti richiesti.</li>
       <li><Link href="/posizioni/postdoc">Incarichi postdoc</Link>: confronta tema, sede e requisiti del progetto.</li>
       <li><Link href="/posizioni/contratti-di-ricerca">Contratti di ricerca</Link>: verifica attività, durata e condizioni nel bando.</li>
       <li><Link href="/posizioni/ricercatori-tempo-determinato">Ricercatori RTT</Link>: controlla il settore indicato e i requisiti della procedura.</li>

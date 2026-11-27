@@ -239,3 +239,11 @@ Catalogo 3.329 ID, +5 dal 21/11, 0 mutati, 4 invalidati. Cache MUR 21/11 13:34 U
 ## 24 novembre 2026 — Nuove opportunità e qualità del copy
 
 Catalogo 3.360 ID, +31 rispetto allo snapshot 22/11, 3 mutati (319446, 319447, 320664), 4 invalidazioni storiche. Cache MUR 23/11 16:06 UTC. Campione home6 + prime8 delle cinque landing + fino3 correlate per seme deduplicato: 22→28/78, home 0→4/6, arretrato 56→50 previsto; denominatore ruotato, non perdita revisioni. Nessuna nuova misura GSC/GA4.
+
+## 26 novembre 2026 — Bilancio e percorsi prioritari
+
+Bilancio 19–25/11 (recupero 26/11): 32 revisioni pubblicate e verifica focus tastiera (#87–91), non proxy di visite. Ultimo export fino al 13/11, ritardo 13 giorni: 7–13/11 25 clic/543 impression (CTR 4,60%) vs 31/10–6/11 30/386 (7,77%); più visibilità, meno clic. 17/10–13/11: 121 clic totali e 111 nelle quattro landing. Nessun dato consolidato nuovo per settimana 19–25, indice o non-brand; target 22/11 non verificabile alla data. Catalogo 3.482 ID, +122 dal 24/11, 0 mutati, 4 invalidazioni storiche, cache 25/11 15:43 UTC. Campione deduplicato home6 + prime8 delle cinque landing + fino3 correlate per seme: 19→26/102, home 0→1/6, arretrato 83→76 previsto; rotazione non perdita revisioni.
+
+## 27 novembre 2026 — Recupero e riconvalida
+
+Snapshot 27/11: 3.533 ID, +51 rispetto al 26 (totale +173 dal 24), 20 fingerprint mutati; 320922 riconvalidato, 4 invalidazioni storiche restanti. Cache 26/11 15:24 UTC. Campione deduplicato 73 ID, 18→21 revisionati dopo lotto recuperato (tre ancora esposti), home 0/6, arretrato 55→52. Quattro revisioni non più esposte, non perse. Nessuna nuova misura traffico/index.

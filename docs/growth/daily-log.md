@@ -243,3 +243,11 @@ Bilancio settimanale 18 novembre: #81–85, 37 revisioni pubblicate con ricevute
 ## 24 novembre 2026 — Nuove opportunità e qualità del copy
 
 24 novembre main 6a01551, sola PR #67 aperta. #90 verificata live, ricevuta nel manifesto. +31 ID vs snapshot 22/11, 3 fingerprint mutati, 4 invalidazioni storiche. Sei proposte, quattro home e due landing; 22→28/78, home 0→4/6, arretrato 56→50 previsto dopo gate. Fonte cache 23/11 16:06 UTC, MUR live 154283; nessuna attestazione generale di apertura.
+
+## 26 novembre 2026 — Bilancio e percorsi prioritari
+
+26 novembre (bilancio settimanale recuperato): main e657f93, sola PR #67 aperta, #91 verificata; settimana 19–25/11 #87–91 32 revisioni pubblicate, focus tastiera, nessun nuovo export GSC: confronto storico 25/543 vs 30/386, non evidenza outcome corrente. +122 nuovi ID, 0 mutati, 4 invalidati; 7 proposte fonte-guardate, 19→26/102 previsto, home 0→1/6, backlog 83→76. Accesso diretto dalla guida agli incarichi (filtro live 307/857); fonte cache 25/11 15:43 UTC, non nuova attestazione apertura. Guida accademia→azienda #67 ancora non approvata e da separare dal pilota; target 9/12 da rivalutare.
+
+## 27 novembre 2026 — Recupero e riconvalida
+
+27/11 main 7fc5ad1, unica PR #67 aperta. Recuperato commit 26/11 863090e; 7 copy, 6 fonti invarianti e 320922 rimappato a summary/fingerprint aggiornati. +51 ID vs snapshot26, 20 mutati; 4 invalidazioni storiche. Campione 18→21/73, home 0/6, arretrato 52 previsto. Tre del lotto ancora esposti; quattro usciti dalle superfici prioritarie. Recupero collegamento guida→incarichi e bilancio del 26, gate prima del merge.
