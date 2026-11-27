@@ -214,3 +214,11 @@ Manifesto #89 allineato al run 45001128061 e smoke 22/11. Il delta di 5 ID rispe
 ## 24 novembre 2026 — Nuove opportunità e qualità del copy
 
 Manifesto #90 allineato al deploy 45161507965 e smoke del 23/11; nessun cambio a badge, dati, scadenze o classificazione. I tre fingerprint mutati restano accodati. Nessuna chiamata GSC a pagamento; #67 invariata.
+
+## 26 novembre 2026 — Bilancio e percorsi prioritari
+
+Manifesto #91 aggiornato dal deploy 45354486199 e smoke del 24/11. #67 rimane distinta: il registro pilota 10/10 già approvato non va riproposto come requisito di guida. Nessuna chiamata GSC a pagamento, né GA4, né modifica workflow, dati o badge.
+
+## 27 novembre 2026 — Recupero e riconvalida
+
+Recuperato lotto 26, preservati registri e snapshot; nuovo snapshot del 27 registra delta. 320922 re-review esplicita; non sovrascritte altre revisioni. Nessuna modifica dati o workflow; nessuna chiamata GSC a pagamento.

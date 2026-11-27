@@ -239,3 +239,11 @@ Impact 7, Confidence 9 fedeltà/3 traffico, Effort 2, Risk 1. Dopo chiusura #89,
 ## 24 novembre 2026 — Nuove opportunità e qualità del copy
 
 Impact 8, Confidence 9 fedeltà/3 traffico, Effort 2, Risk 1. Sei revisioni prioritarie, quattro home e due landing; due home differite per ulteriore verifica tecnica delle fonti. Accodati 31 nuovi ID, 3 fingerprint mutati; guida #67 non approvata, tre contenuti collegati entro 9/12.
+
+## 26 novembre 2026 — Bilancio e percorsi prioritari
+
+Impact 8, Confidence 9 fedeltà/percorso e 3 traffico, Effort 3, Risk 1: sette copy (una home, sei landing) e accesso prefiltrato dalla guida agli incarichi di ricerca; cinque home tecniche differite. Guida #67 in ritardo (15/11), non approvata: proposta guide-only con storia pilota corretta, attività→competenza→evidenza e collocazione in /guide; verificare fonti e approvazione editoriale, poi URL e tre contenuti collegati entro 9/12, senza merge automatico. Priorità successiva milestone guide e nuovo export GSC.
+
+## 27 novembre 2026 — Recupero e riconvalida
+
+Priorità di oggi: chiudere il lotto del 26 prima di nuove modifiche. Impact 8, Confidence 9 fedeltà/percorso, 3 traffico, Effort 2, Risk 1. Nuovi 51 ID accodati; home ruotata tutta, prossimo lotto. PR #67 resta separata.

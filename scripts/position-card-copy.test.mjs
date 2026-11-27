@@ -299,6 +299,22 @@ test("November 7 copy matches its review registry and uses matching source field
   }
 });
 
+test("November 26 priority copy matches its registry and preserves November 24", () => {
+  const batch = JSON.parse(readFileSync(new URL("../docs/growth/copy-review-2026-11-26.json", import.meta.url))).cards;
+  const prior = JSON.parse(readFileSync(new URL("../docs/growth/copy-review-2026-11-24.json", import.meta.url))).cards;
+  assert.equal(batch.length, 7);
+  for (const card of [...prior, ...batch]) {
+    assert.deepEqual(reviewedCardCopy.find(review => review.source.id === card.id), { source: card.source, ...card.proposal });
+  }
+  for (const card of batch) {
+    const source = applyVerifiedPositionEnrichment(positions.find(position => position.id === card.id));
+    for (const [key, value] of Object.entries(card.source)) assert.equal(source[key], value, card.id + ":" + key);
+    assert.equal(positionCardPresentation(source).title, card.proposal.title);
+    assert.equal(positionCardPresentation(source).summary, card.proposal.summary);
+    assert.ok(card.proposal.summary.length <= 230);
+  }
+});
+
 test("November 24 priority copy matches its registry and preserves November 22", () => {
   const batch = JSON.parse(readFileSync(new URL("../docs/growth/copy-review-2026-11-24.json", import.meta.url))).cards;
   const prior = JSON.parse(readFileSync(new URL("../docs/growth/copy-review-2026-11-22.json", import.meta.url))).cards;

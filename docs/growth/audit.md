@@ -337,3 +337,11 @@ Rilascio #88 verificato live: sei titoli editoriali nelle dieci occorrenze asseg
 ## 24 novembre 2026 — Nuove opportunità e qualità del copy
 
 PR #90 merge 84b8514 e Pages run 45161507965 success il 23/11. Sei copy verificati live sulle superfici assegnate, titoli fonte preservati (320656 con disambiguazione SSD preesistente); oggi home, landing, dettagli e asset HTTP 200, due card ruotate fuori dalle superfici. Nessun degrado osservato.
+
+## 26 novembre 2026 — Bilancio e percorsi prioritari
+
+PR #91 merge 799d752 e Pages run 45354486199 success (24/11); sei copy verificati live il 24, H1 preservati; il 26 smoke home/Posizioni/indice/Funding/dettaglio/grant e asset 200, catalogo ruotato. Guida alla ricerca aveva tre link contestuali per tipo ma mancava l’accesso diretto agli incarichi, pur citandoli come categoria maggiore nello snapshot storico. Browser pubblico 26/11: filtro preimpostato Incarico di ricerca funzionante, 307 su 857 risultati osservati. Aggiunto un solo link nella lista esistente; nessuna nuova route.
+
+## 27 novembre 2026 — Recupero e riconvalida
+
+Recupero del commit locale 863090e su main 7fc5ad1. Sei fonti invarianti; 320922 ha variazione lessicale del riepilogo (attraverso→tramite) e tronco: proposta riconvalidata, guard/fingerprint aggiornati conservando originale. Verifica percorso incarichi dal browser del 26/11, gate sulla build aggiornata.
